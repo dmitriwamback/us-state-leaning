@@ -1,7 +1,7 @@
 # US Election Map Predictor
-<p>Based on data on recent polling, demographics, and previous elections, this 3D-WebGL based app will predict the outcomes of the next election</p>
+<p>Based on data on recent polling, demographics, and previous elections, this 3D-WebGL based app will demonstrate the current leanings of each state.</p>
 
-## Disclaimer: This prediction app may not yield an accurate result. This app is to demonstrate several technologies and how AI can gather information to make a prediction.
+## Disclaimer: This app does not determine which state will vote for which party. This app only demonstrates the current leaning of each state.
 
 ### Technologies:
 
