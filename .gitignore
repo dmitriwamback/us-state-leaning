@@ -26,3 +26,4 @@ cmake-build-debug
 .idea
 api_key.txt
 *.mtl
+*.wasm
