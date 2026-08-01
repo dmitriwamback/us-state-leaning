@@ -25,7 +25,7 @@ from google import genai
 from google.genai import types
  
  
-MODEL = "gemini-2.5-flash"
+MODEL = "antigravity-preview-05-2026"
 RECENCY_DAYS = 45 # sources older than this are treated as 'outdated'
  
  
@@ -127,16 +127,16 @@ def _parse_json_verdict(raw_text: str) -> dict:
 def assess_state(state: str, client: "genai.Client") -> StateVerdict:
     grounding_tool = types.Tool(google_search=types.GoogleSearch())
  
-    response = client.models.generate_content(
-        model=MODEL,
-        contents=build_user_prompt(state),
-        config=types.GenerateContentConfig(
-            system_instruction=SYSTEM_PROMPT,
-            tools=[grounding_tool],
-        ),
+    response = client.interactions.create(
+        model="gemini-3.5-flash",
+        input=f"""
+        {SYSTEM_PROMPT}
+        {build_user_prompt(state)}
+        """,
+        environment="remote",
     )
  
-    raw_text = (response.text or "").strip()
+    raw_text = (response.output_text or "").strip()
     sources = _extract_sources(response)
  
     try:

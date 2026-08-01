@@ -1,0 +1,32 @@
+{
+  "state": "New York",
+  "lean": "D",
+  "confidence": 0.8,
+  "basis": "historical_baseline",
+  "reasoning": "While no specific polling for federal (Senate or Presidential) races in New York was found within the last 45 days, recent state-level election results and expert analysis strongly indicate a Democratic lean. The June 23, 2026, primaries saw significant victories for progressive Democratic candidates in New York City House districts. Furthermore, a special election for State Senate District 47 on April 28, 2026, resulted in an overwhelming Democratic win (91.7% for Erik Bottcher), with the district noted as D+72.3 based on 2024 presidential results. General analysis from June 14, 2026, confirms that 'New York leans Democratic statewide, so the marquee races are rarely close.'",
+  "as_of_date": "2026-08-01T18:13:00",
+  "sources": [
+    {
+      "title": "wikipedia.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKxSj_a1Rtyg9DXxLRhFlaLj-FCdr4YqcigDPEC9m8PoAOpXPS6PQvpjwgEV18YjROIIyl49oCPcnxxlTgukDchzBXtmE_-7Paz5dipNnog-NRoUpps6EH6G36lpKFOkYW9ybSvZqCvHZxeK0uDrm6_Y3EsMzbo1w3p52isvh8epk2wlslyJvFr5QVDrlPsbmXCSq9zQh9IvpM",
+      "domain": "vertexaisearch.cloud.google.com"
+    },
+    {
+      "title": "youtube.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHU2Daz_ZI5w9KTdXCBHx90cfLVqdI1hOXNZIn2yhk9Cd9Oz9cT_I4R0ZShAW654-9Eh5oMkpNQ8qTfk8MIE1M9Bl5370UVQeWju1gdz9Ry6A68wIfz8swWwxBLx7Ygr8Cjq6Kwg6E=",
+      "domain": "vertexaisearch.cloud.google.com"
+    },
+    {
+      "title": "multistate.us",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3aVDTZ6xyS0b-0P6EjgZkQFq2ni8xzS0fb7s3gJM2wn3-6X_JNGsxy8Nzs7PlSsLHSvFzRpiGHdTj4lueOr6kJTua9kbfsVSeg-vArqARG7NbUQC5mlXLxSVcCjdASJ6pWFD8MUdVYSo4bU7wO3BA55GY5GyD_wPtPfIkr9sAEoM=",
+      "domain": "vertexaisearch.cloud.google.com"
+    },
+    {
+      "title": "cityandstateny.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHd8S_5oUwPUPRe0XGiVNHc5nFbg_MjhvLVLxy5wixCLOFeSvLZ6GoNRR3skYWia7IFYCa32qg4Rryc7ELD30hPcK-0ELamAAz5jrT84nJ8twSNadIQY1hjI6kc4vLDBCL3EAiclEyteLkRjWalwudlZbo=",
+      "domain": "vertexaisearch.cloud.google.com"
+    }
+  ],
+  "abbreviation": "NY",
+  "_cached_at": "2026-08-01T18:13:00.246582"
+}

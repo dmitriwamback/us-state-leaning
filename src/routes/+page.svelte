@@ -28,12 +28,12 @@
 
         moduleInstance = await createModule();
         const setState = moduleInstance.cwrap('setState', null, ['string', 'string', 'number']);
-        
+
         setViewportSize = moduleInstance.cwrap('setViewportSize', null, ['number', 'number']);
         setViewportSize(canvas.width, canvas.height);
 
 
-        const state = 'NC'
+        const state = 'MI'
         
         try {
             const res = await fetch('http://localhost:8080/api/state/'+state);
@@ -41,7 +41,18 @@
 
             setState(state, data.lean, data.confidence);
         } catch (err) {
-            alert('Failed to fetch state predictions:' + err);
+            console.log('Failed to fetch state predictions:' + err);
+        }
+
+        try {
+            const res = await fetch('http://localhost:8080/api/cached');
+            const data = await res.json();
+
+            for (const [abbr, verdict] of Object.entries(data)) {
+                setState(abbr, verdict.lean, verdict.confidence);
+            }
+        } catch (err) {
+            alert('Failed to fetch cached predictions: ' + err);
         }
     });
 </script>

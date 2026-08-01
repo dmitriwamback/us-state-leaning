@@ -99,8 +99,19 @@ def _assess_and_cache(abbr: str) -> dict:
  
     _write_cache(abbr, result)
     return result
- 
- 
+
+@app.route("/api/cached")
+def get_cached_states():
+
+    results = {}
+    for abbr in ABBREVIATION_TO_STATE_NAME:
+        cached = _read_cache(abbr)
+        if cached:
+            results[abbr] = cached
+
+    return jsonify(results)
+
+
 @app.route("/api/state/<abbr>")
 def get_state(abbr):
     cached = _read_cache(abbr)

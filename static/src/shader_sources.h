@@ -62,7 +62,7 @@ void main() {
     } 
     else {
         float remapped = 0.5 + 0.5 * confidence;
-        float t = remapped * remapped;
+        float t = remapped;
         color = mix(grayColor, baseColor, t);
     }
 

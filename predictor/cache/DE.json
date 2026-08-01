@@ -1,0 +1,11 @@
+{
+  "state": "Delaware",
+  "lean": "D",
+  "confidence": 0.5,
+  "basis": "historical_baseline",
+  "reasoning": "No public polling or major federal election news has been published for Delaware within the last 45 days. The assessment falls back on historical baseline data from the 2024 presidential and senatorial elections, where Democratic candidates consistently won by double-digit margins.",
+  "as_of_date": "2026-08-01T18:41:41",
+  "sources": [],
+  "abbreviation": "DE",
+  "_cached_at": "2026-08-01T18:41:41.343315"
+}

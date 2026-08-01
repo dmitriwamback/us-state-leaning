@@ -1,0 +1,11 @@
+{
+  "state": "Kansas",
+  "lean": "R",
+  "confidence": 0.3,
+  "basis": "historical_baseline",
+  "reasoning": "No recent polling or news from the last 45 days could be found for Kansas's 2026 federal races. Falling back to historical baseline, the state has a strong Republican lean, with Donald Trump winning the state by 14.6 percentage points in 2020 and Republican Senator Jerry Moran winning re-election by nearly 20 points in 2022.",
+  "as_of_date": "2026-08-01T18:36:08",
+  "sources": [],
+  "abbreviation": "KS",
+  "_cached_at": "2026-08-01T18:36:08.644180"
+}

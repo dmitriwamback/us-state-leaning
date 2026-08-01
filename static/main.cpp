@@ -133,7 +133,7 @@ int main() {
         stateGeometry[key] = StateModel();
         stateGeometry[key].load(std::string("state-models/") + value + ".obj");
         stateGeometry[key].setLean("Toss-up", 0.5);
-        stateGeometry[key].setHeightScale((float)electoralVotes[key]/50.0f);
+        stateGeometry[key].setHeightScale(sqrt((float)electoralVotes[key]) / 5.0f);
     }
 
     emscripten_request_animation_frame_loop(render_frame, NULL);

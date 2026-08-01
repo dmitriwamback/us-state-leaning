@@ -1,0 +1,11 @@
+{
+  "state": "Missouri",
+  "lean": "R",
+  "confidence": 0.8,
+  "basis": "historical_baseline",
+  "reasoning": "Since Missouri has no Senate or Presidential elections on the ballot in 2026, there is a lack of recent (last 45 days) statewide federal polling. However, historical data from the 2024 presidential election, where Donald Trump won the state by over 18 percentage points, and the 2022 Senate election, where Eric Schmitt won by over 13 points, establishes a highly reliable Republican baseline.",
+  "as_of_date": "2026-08-01T18:49:59",
+  "sources": [],
+  "abbreviation": "MO",
+  "_cached_at": "2026-08-01T18:49:59.205360"
+}

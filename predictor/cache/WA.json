@@ -1,0 +1,11 @@
+{
+  "state": "Washington",
+  "lean": "D",
+  "confidence": 0.3,
+  "basis": "historical_baseline",
+  "reasoning": "No recent polling or federal campaign data from the last 45 days (June 17, 2026, to August 1, 2026) could be retrieved. Falling back to the 2024 historical baseline where the Democratic presidential ticket won Washington by approximately 18 percentage points, and Democratic Senator Maria Cantwell secured re-election with nearly 60% of the vote.",
+  "as_of_date": "2026-08-01T18:41:12",
+  "sources": [],
+  "abbreviation": "WA",
+  "_cached_at": "2026-08-01T18:41:12.729129"
+}

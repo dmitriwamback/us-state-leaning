@@ -1,0 +1,11 @@
+{
+  "state": "Nebraska",
+  "lean": "R",
+  "confidence": 0.3,
+  "basis": "historical_baseline",
+  "reasoning": "No recent polling or news from the last 45 days could be found for Nebraska's federal races, necessitating a fallback to the historical baseline. Historically, Nebraska is a strongly Republican state, as demonstrated in the 2024 Senate election where Republican incumbent Deb Fischer won with roughly 53% of the vote against a well-funded independent challenger.",
+  "as_of_date": "2026-08-01T18:37:35",
+  "sources": [],
+  "abbreviation": "NE",
+  "_cached_at": "2026-08-01T18:37:35.949855"
+}

@@ -1,0 +1,11 @@
+{
+  "state": "Virginia",
+  "lean": "D",
+  "confidence": 0.3,
+  "basis": "historical_baseline",
+  "reasoning": "No current polling or federal race data from the last 45 days (since June 17, 2026) could be retrieved, requiring a fallback to historical baselines. In the most recent major federal cycle (2024), Virginia maintained its Democratic lean, with the Democratic presidential ticket winning the state by approximately 5.8% and incumbent Senator Tim Kaine winning re-election by about 8.4%.",
+  "as_of_date": "2026-08-01T18:41:23",
+  "sources": [],
+  "abbreviation": "VA",
+  "_cached_at": "2026-08-01T18:41:23.007423"
+}

@@ -1,0 +1,11 @@
+{
+  "state": "Maryland",
+  "lean": "D",
+  "confidence": 0.85,
+  "basis": "historical_baseline",
+  "reasoning": "No public polling has been released for the 2026 Maryland Senate race or federal elections within the last 45 days. The state maintains a strong Democratic lean based on recent federal elections, including the 2024 Senate race where Democrat Angela Alsobrooks won by approximately 15 percentage points and the 2024 presidential election where the Democratic nominee won by over 22 points.",
+  "as_of_date": "2026-08-01T18:41:33",
+  "sources": [],
+  "abbreviation": "MD",
+  "_cached_at": "2026-08-01T18:41:33.464645"
+}

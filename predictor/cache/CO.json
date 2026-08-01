@@ -1,0 +1,11 @@
+{
+  "state": "Colorado",
+  "lean": "D",
+  "confidence": 0.3,
+  "basis": "historical_baseline",
+  "reasoning": "No active polling or federal election news from the last 45 days (leading up to August 1, 2026) was found, requiring a fallback to the state's historical baseline. Historically, Colorado has shown a strong Democratic trajectory, with the Democratic presidential nominee winning the state by about 11.5 percentage points in 2024 and Senator Michael Bennet winning reelection by 14.6 points in 2022. Because this assessment relies on past cycles rather than current 2026 data, the confidence rating is low.",
+  "as_of_date": "2026-08-01T18:38:38",
+  "sources": [],
+  "abbreviation": "CO",
+  "_cached_at": "2026-08-01T18:38:38.961992"
+}
