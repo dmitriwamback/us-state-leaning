@@ -24,3 +24,5 @@ vite.config.ts.timestamp-*
 
 cmake-build-debug
 .idea
+api_key.txt
+*.mtl
