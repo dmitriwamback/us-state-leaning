@@ -58,7 +58,8 @@ std::map<std::string, int> electoralVotes = {
 };
 std::map<std::string, StateModel> stateGeometry;
 
-
+int canvasWidth = 1920;
+int canvasHeight = 974;
 
 extern "C" {
 
@@ -75,19 +76,33 @@ void setState(const char* abbreviation, const char* lean, float confidence) {
     it->second.setLean(lean, confidence);
 }
 
+EMSCRIPTEN_KEEPALIVE
+void setViewportSize(int width, int height) {
+    canvasWidth = width;
+    canvasHeight = height;
+    glViewport(0, 0, width, height);
 }
 
+}
+
+float dist = 20.0f;
+float t = 0.0f;
 
 EM_BOOL render_frame(double time, void *userData) {
     glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
-    Mat4 view = Mat4::lookAt(Vec3{20, 0, 0}, Vec3{0, 0, 0}, Vec3{0, 1, 0});
-    Mat4 projection = Mat4::perspective(1.0472f, 1920.0f/974.0f, 0.1f, 100.0f);
+    Mat4 view = Mat4::lookAt(Vec3{dist, 0, 0}, Vec3{0, 0, 0}, Vec3{0, 1, 0});
+
+    float aspect = (float)canvasWidth / (float)canvasHeight;
+
+    Mat4 projection = Mat4::perspective(1.0472f, aspect, 0.1f, 100.0f);
 
     for (auto& [key, value] : stateGeometry) {
         value.render(view, projection);
     }
+
+    t += 0.005f;
 
     return EM_TRUE;
 }

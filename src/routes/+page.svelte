@@ -2,6 +2,8 @@
     import { onMount } from 'svelte';
     let moduleInstance;
 
+    let setViewportSize
+
     onMount(async () => {
         const canvas = document.getElementById("webgl");
 
@@ -13,6 +15,9 @@
 
             console.log(window.innerWidth);
             console.log(window.innerHeight);
+            if (setViewportSize) {
+                setViewportSize(canvas.width, canvas.height);
+            }
         };
 
         resize();
@@ -23,8 +28,12 @@
 
         moduleInstance = await createModule();
         const setState = moduleInstance.cwrap('setState', null, ['string', 'string', 'number']);
+        
+        setViewportSize = moduleInstance.cwrap('setViewportSize', null, ['number', 'number']);
+        setViewportSize(canvas.width, canvas.height);
 
-        const state = 'WI'
+
+        const state = 'NC'
         
         try {
             const res = await fetch('http://localhost:8080/api/state/'+state);

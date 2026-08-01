@@ -1,0 +1,27 @@
+{
+  "state": "Idaho",
+  "lean": "R",
+  "confidence": 0.9,
+  "basis": "current_polling",
+  "reasoning": "Recent reporting and forecasts for the 2026 U.S. Senate election in Idaho show a strong Republican lean. Incumbent Republican Senator Jim Risch is heavily favored, with Pollsmax projecting a 'Solid R' outcome and forecast odds of 99.7% R. The Democratic nominee, David Roth, withdrew from the race in late July 2026, further solidifying the Republican advantage.",
+  "as_of_date": "2026-08-01T16:42:39",
+  "sources": [
+    {
+      "title": "pollsmax.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEq0eXymKgs5k6cFehKIFWlgZQbaDWF_N6PE44XaAP38eB4sfmZ8U_oIVjFVx4BbP04srUuv0Qco3CSB1LLQ5sjmqYr4HZLkX5xtmP7YgioxFLlXyeTDLKn4nsriXvTK_Urvf0jAutd5G7",
+      "domain": "vertexaisearch.cloud.google.com"
+    },
+    {
+      "title": "wikipedia.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF6K7I-495TnpoXPjqhfY8VWF1sg-If3ER4z8ioEaH5BfEmXNFkbkqUkxgIVgN26Y5jJGRQSW5FTuIX6IlazLYU0QZAx41i_qJrWtdl1dSXsdRKiMPcN7J302p-ITJcLeHIaW4dJpoAWWGRLleXqhnlY7NwKHtiVgJiedb5GTyLa7depus=",
+      "domain": "vertexaisearch.cloud.google.com"
+    },
+    {
+      "title": "idahoednews.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-uofdFMA0bz12CBIAWfd9PW5OHTgeyd7vZ-U8Q14I5YY9t1EfzTMpCG9gs2tlywLsCGs7KSAXm6W3wg2BE4rucfPGgSzyfffNzzKItx3unKLJQv9SwikN3OXT8_p4ENpZW9TuahqsEFXsX1enjFCzYIA_zes8L0d2hYUeji7O8CTQ08-w4SVFHaPnNKNgYohX3QkpgXgZEIss1-3kip-VlokO8Vc=",
+      "domain": "vertexaisearch.cloud.google.com"
+    }
+  ],
+  "abbreviation": "ID",
+  "_cached_at": "2026-08-01T16:42:39.751997"
+}

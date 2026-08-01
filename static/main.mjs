@@ -91,7 +91,7 @@ if (ENVIRONMENT_IS_NODE) {
 
 // --pre-jses are emitted after the Module integration code, so that they can
 // refer to Module (if they choose; they can also define Module)
-// include: /var/folders/rw/2s4mw7x558n64mzbmd71hlnr0000gn/T/tmppf61xjvs.js
+// include: /var/folders/rw/2s4mw7x558n64mzbmd71hlnr0000gn/T/tmp8u1p1fsr.js
 
   if (!Module['expectedDataFileDownloads']) Module['expectedDataFileDownloads'] = 0;
   Module['expectedDataFileDownloads']++;
@@ -219,21 +219,21 @@ Module['FS_createPath']("/", "state-models", true, true);
 
   })();
 
-// end include: /var/folders/rw/2s4mw7x558n64mzbmd71hlnr0000gn/T/tmppf61xjvs.js
-// include: /var/folders/rw/2s4mw7x558n64mzbmd71hlnr0000gn/T/tmpch7r9qx2.js
+// end include: /var/folders/rw/2s4mw7x558n64mzbmd71hlnr0000gn/T/tmp8u1p1fsr.js
+// include: /var/folders/rw/2s4mw7x558n64mzbmd71hlnr0000gn/T/tmp5bhkwb02.js
 
     // All the pre-js content up to here must remain later on, we need to run
     // it.
     if ((typeof ENVIRONMENT_IS_WASM_WORKER != 'undefined' && ENVIRONMENT_IS_WASM_WORKER) || (typeof ENVIRONMENT_IS_PTHREAD != 'undefined' && ENVIRONMENT_IS_PTHREAD) || (typeof ENVIRONMENT_IS_AUDIO_WORKLET != 'undefined' && ENVIRONMENT_IS_AUDIO_WORKLET)) Module['preRun'] = [];
     var necessaryPreJSTasks = Module['preRun'].slice();
-  // end include: /var/folders/rw/2s4mw7x558n64mzbmd71hlnr0000gn/T/tmpch7r9qx2.js
-// include: /var/folders/rw/2s4mw7x558n64mzbmd71hlnr0000gn/T/tmpg4s0vy97.js
+  // end include: /var/folders/rw/2s4mw7x558n64mzbmd71hlnr0000gn/T/tmp5bhkwb02.js
+// include: /var/folders/rw/2s4mw7x558n64mzbmd71hlnr0000gn/T/tmp4c3dktcw.js
 
     if (!Module['preRun']) throw 'Module.preRun should exist because file support used it; did a pre-js delete it?';
     necessaryPreJSTasks.forEach((task) => {
       if (Module['preRun'].indexOf(task) < 0) throw 'All preRun tasks that exist before user pre-js code should remain after; did you replace Module or modify Module.preRun?';
     });
-  // end include: /var/folders/rw/2s4mw7x558n64mzbmd71hlnr0000gn/T/tmpg4s0vy97.js
+  // end include: /var/folders/rw/2s4mw7x558n64mzbmd71hlnr0000gn/T/tmp4c3dktcw.js
 
 
 var programArgs = [];
@@ -5258,6 +5258,9 @@ var UTF8Decoder = globalThis.TextDecoder && new TextDecoder();
     };
   var _glVertexAttribPointer = _emscripten_glVertexAttribPointer;
 
+  var _emscripten_glViewport = (x0, x1, x2, x3) => GLctx.viewport(x0, x1, x2, x3);
+  var _glViewport = _emscripten_glViewport;
+
   
   var runtimeKeepaliveCounter = 0;
   var keepRuntimeAlive = () => noExitRuntime || runtimeKeepaliveCounter > 0;
@@ -5907,6 +5910,7 @@ function checkIncomingModuleAPI() {
 
 // Imports from the Wasm binary.
 var _setState = Module['_setState'] = makeInvalidEarlyAccess('_setState');
+var _setViewportSize = Module['_setViewportSize'] = makeInvalidEarlyAccess('_setViewportSize');
 var _main = Module['_main'] = makeInvalidEarlyAccess('_main');
 var _fflush = makeInvalidEarlyAccess('_fflush');
 var _emscripten_stack_get_end = makeInvalidEarlyAccess('_emscripten_stack_get_end');
@@ -5925,6 +5929,7 @@ var wasmTable = makeInvalidEarlyAccess('wasmTable');
 
 function assignWasmExports(wasmExports) {
   assert(typeof wasmExports['setState'] != 'undefined', 'missing Wasm export: setState');
+  assert(typeof wasmExports['setViewportSize'] != 'undefined', 'missing Wasm export: setViewportSize');
   assert(typeof wasmExports['main'] != 'undefined', 'missing Wasm export: main');
   assert(typeof wasmExports['fflush'] != 'undefined', 'missing Wasm export: fflush');
   assert(typeof wasmExports['emscripten_stack_get_end'] != 'undefined', 'missing Wasm export: emscripten_stack_get_end');
@@ -5939,6 +5944,7 @@ function assignWasmExports(wasmExports) {
   assert(typeof wasmExports['memory'] != 'undefined', 'missing Wasm export: memory');
   assert(typeof wasmExports['__indirect_function_table'] != 'undefined', 'missing Wasm export: __indirect_function_table');
   _setState = Module['_setState'] = createExportWrapper('setState', wasmExports['setState'], 3);
+  _setViewportSize = Module['_setViewportSize'] = createExportWrapper('setViewportSize', wasmExports['setViewportSize'], 2);
   _main = Module['_main'] = createExportWrapper('main', wasmExports['main'], 2);
   _fflush = createExportWrapper('fflush', wasmExports['fflush'], 1);
   _emscripten_stack_get_end = wasmExports['emscripten_stack_get_end'];
@@ -6044,7 +6050,9 @@ var wasmImports = {
   /** @export */
   glUseProgram: _glUseProgram,
   /** @export */
-  glVertexAttribPointer: _glVertexAttribPointer
+  glVertexAttribPointer: _glVertexAttribPointer,
+  /** @export */
+  glViewport: _glViewport
 };
 
 

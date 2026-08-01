@@ -1,0 +1,22 @@
+{
+  "state": "Arizona",
+  "lean": "Toss-up",
+  "confidence": 0.6,
+  "basis": "current_polling",
+  "reasoning": "Recent primary election results and analysis from July 2026 indicate a highly competitive federal election environment in Arizona. Major non-partisan election handicappers, including Cook Political Report, Inside Elections, and Larry J. Sabato's Crystal Ball, rate two key U.S. House districts (CD1 and CD6) as 'Toss-up' races for the upcoming general election. CD1, in particular, has demonstrated swing voter behavior, voting for Joe Biden in 2020 and Donald Trump in 2024. While there are no recent statewide federal polls (Senate/Presidential) available, the expert analysis of these competitive House races suggests a balanced partisan lean statewide.",
+  "as_of_date": "2026-08-01T16:41:28",
+  "sources": [
+    {
+      "title": "ballotpedia.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHr22Mdpq08tr7O1WM74pnf3dKsmr5tsyZGL4IcjA2MNXgDaJFsYCVVMzoNbTGmJ4oCvMoho3wAu3Yky1VPRWxAWFpfbDT5AqG1QxnBAdh9aceTSFKXHH95bR2NgmOcaat0b95sC3iyzjGSHmxcfN8iWow=",
+      "domain": "vertexaisearch.cloud.google.com"
+    },
+    {
+      "title": "rutgers.edu",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdXLHUL3vqgaGcmgmx7MwWLKdll2z9pvvnlwM3oBs6R8_fgBB4EsnvCFCURmUqn_NmEZbBSPCGMo1zVk5_Zp8wqcWl65SX1kvb6ylz0FPkReEJsZ9FuxrSsOupk145LA8E2Oa4WEjEKcP5LSYVVfm1Eppio9Iv-wZMtw==",
+      "domain": "vertexaisearch.cloud.google.com"
+    }
+  ],
+  "abbreviation": "AZ",
+  "_cached_at": "2026-08-01T16:41:28.571153"
+}

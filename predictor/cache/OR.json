@@ -1,0 +1,27 @@
+{
+  "state": "Oregon",
+  "lean": "D",
+  "confidence": 0.9,
+  "basis": "current_polling",
+  "reasoning": "Recent polling from July 23, 2026, for the U.S. Senate race in Oregon shows the Democratic incumbent leading by 20.6 points. Additionally, in the 2024 Presidential election, Kamala Harris (D) won Oregon with 55.3% of the vote against Donald Trump's (R) 41.0%, a 14.3% Democratic margin.",
+  "as_of_date": "2026-08-01T16:42:21",
+  "sources": [
+    {
+      "title": "pollsmax.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvHsj1EVtc8l6oKI4Wg_fXOedpPeR2inag6pEXhiCcv1TJNnxeo-38wsgfH9hOSgjfV3HlQQE_x9IxjjyRhb6lnV1EsVnHgT7gyaDeA0Z7g7dZ-U1SF1h9NkhisMzkb6rmJ7qFY-qWjCp-SA==",
+      "domain": "vertexaisearch.cloud.google.com"
+    },
+    {
+      "title": "ballotpedia.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtZTpCbYe1DJs7Sifq5oHwT9z7HB8HvUpd4oNlmHzKyNoWxNREL-LxtSKgRuCXqPpH0xh8j9JYr5-zr2ZrsshQF5_S-5ZGBfk4pxJtwidbbIO6GRKvmLMonEKhjgeQMOuc3B-L-gwd5CTWA__SEXmb",
+      "domain": "vertexaisearch.cloud.google.com"
+    },
+    {
+      "title": "ballotwire.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF2dR7zCm9VcHpC0qUKk9Js-1PY3fotazLWzsDsLg8E8GM4zswkKthTEWgTV-LxUA5_QF86jv3QUuensVW-IvgXwbOlSo5Kw2qUMEYMLLv9NaOzF_U3K-k81Q9484chFkW-__gebVA7dSInC73-9oAe9BiYeUaISkYC8YU=",
+      "domain": "vertexaisearch.cloud.google.com"
+    }
+  ],
+  "abbreviation": "OR",
+  "_cached_at": "2026-08-01T16:42:21.943253"
+}
