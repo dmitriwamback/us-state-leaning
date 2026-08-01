@@ -3,9 +3,22 @@
     let result = "Loading...";
 
     onMount(async () => {
+        const canvas = document.getElementById("webgl");
+
+        const resize = () => {
+            const dpr = window.devicePixelRatio || 1;
+
+            canvas.width = window.innerWidth * dpr;
+            canvas.height = window.innerHeight * dpr;
+        };
+
+        resize();
+        window.addEventListener("resize", resize);
+
         const url = '/main.mjs';
-		const createModule = (await import(/* @vite-ignore */ url)).default;
-		await createModule();
+        const createModule = (await import(/* @vite-ignore */ url)).default;
+
+        await createModule();
     });
 </script>
 
