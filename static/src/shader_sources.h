@@ -17,3 +17,52 @@ void main() {
     fragc = vec4(0.85, 0.15, 0.15, 1.0);
 }
 )";
+
+
+ 
+static const char* stateModelVertexShaderSource = R"(#version 300 es
+layout(location = 0) in vec3 position;
+layout(location = 1) in vec3 normal;
+ 
+uniform mat4 model;
+uniform mat4 view;
+uniform mat4 projection;
+uniform float heightScale;
+ 
+out vec3 outNormal;
+ 
+void main() {
+    gl_Position = projection * view * model * vec4(position, 1.0);
+
+    outNormal = normalize(normal);
+}
+)";
+ 
+static const char* stateModelFragmentShaderSource = R"(#version 300 es
+precision mediump float;
+ 
+in vec3 outNormal;
+out vec4 fragc;
+ 
+uniform vec3 baseColor;
+uniform vec3 grayColor;
+uniform float confidence;
+uniform bool isTossUp;
+ 
+void main() {
+    vec3 color;
+ 
+    if (isTossUp) {
+        color = grayColor;
+    } 
+        else {
+        float remapped = 0.5 + 0.5 * confidence;
+        float t = remapped * remapped;
+        color = mix(grayColor, baseColor, t);
+    }
+ 
+    float diffuse = max(dot(normalize(outNormal), normalize(vec3(0.6, 0.8, 0.5))), 0.5);
+    
+    fragc = vec4(color * diffuse, 1.0);
+}
+)";

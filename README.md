@@ -6,7 +6,7 @@
 ### Technologies:
 
 <ul>
-    <li>C++, Emscripten and Assimp for WebGL (To visualize a 3D United States map, with thickness of states representing the electoral votes).</li>
+    <li>C++ and Emscripten for WebGL (To visualize a 3D United States map, with thickness of states representing the electoral votes).</li>
     <li>Python Flask server for prediction (takes all demographic, polling, and news data to make an assumption of how states will vote).</li>
     <li>Svelte and JavaScript for the front end.</li>
 </ul>

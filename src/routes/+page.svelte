@@ -10,6 +10,9 @@
 
             canvas.width = window.innerWidth * dpr;
             canvas.height = window.innerHeight * dpr;
+
+            console.log(window.innerWidth);
+            console.log(window.innerHeight);
         };
 
         resize();
