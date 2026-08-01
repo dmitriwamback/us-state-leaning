@@ -91,7 +91,7 @@ if (ENVIRONMENT_IS_NODE) {
 
 // --pre-jses are emitted after the Module integration code, so that they can
 // refer to Module (if they choose; they can also define Module)
-// include: /var/folders/rw/2s4mw7x558n64mzbmd71hlnr0000gn/T/tmp_n1vcnxm.js
+// include: /var/folders/rw/2s4mw7x558n64mzbmd71hlnr0000gn/T/tmpy1nqpej6.js
 
   if (!Module['expectedDataFileDownloads']) Module['expectedDataFileDownloads'] = 0;
   Module['expectedDataFileDownloads']++;
@@ -219,21 +219,21 @@ Module['FS_createPath']("/", "state-models", true, true);
 
   })();
 
-// end include: /var/folders/rw/2s4mw7x558n64mzbmd71hlnr0000gn/T/tmp_n1vcnxm.js
-// include: /var/folders/rw/2s4mw7x558n64mzbmd71hlnr0000gn/T/tmpwy3sd4ex.js
+// end include: /var/folders/rw/2s4mw7x558n64mzbmd71hlnr0000gn/T/tmpy1nqpej6.js
+// include: /var/folders/rw/2s4mw7x558n64mzbmd71hlnr0000gn/T/tmpep7yki39.js
 
     // All the pre-js content up to here must remain later on, we need to run
     // it.
     if ((typeof ENVIRONMENT_IS_WASM_WORKER != 'undefined' && ENVIRONMENT_IS_WASM_WORKER) || (typeof ENVIRONMENT_IS_PTHREAD != 'undefined' && ENVIRONMENT_IS_PTHREAD) || (typeof ENVIRONMENT_IS_AUDIO_WORKLET != 'undefined' && ENVIRONMENT_IS_AUDIO_WORKLET)) Module['preRun'] = [];
     var necessaryPreJSTasks = Module['preRun'].slice();
-  // end include: /var/folders/rw/2s4mw7x558n64mzbmd71hlnr0000gn/T/tmpwy3sd4ex.js
-// include: /var/folders/rw/2s4mw7x558n64mzbmd71hlnr0000gn/T/tmp_dfov_x0.js
+  // end include: /var/folders/rw/2s4mw7x558n64mzbmd71hlnr0000gn/T/tmpep7yki39.js
+// include: /var/folders/rw/2s4mw7x558n64mzbmd71hlnr0000gn/T/tmplog16q6f.js
 
     if (!Module['preRun']) throw 'Module.preRun should exist because file support used it; did a pre-js delete it?';
     necessaryPreJSTasks.forEach((task) => {
       if (Module['preRun'].indexOf(task) < 0) throw 'All preRun tasks that exist before user pre-js code should remain after; did you replace Module or modify Module.preRun?';
     });
-  // end include: /var/folders/rw/2s4mw7x558n64mzbmd71hlnr0000gn/T/tmp_dfov_x0.js
+  // end include: /var/folders/rw/2s4mw7x558n64mzbmd71hlnr0000gn/T/tmplog16q6f.js
 
 
 var programArgs = [];
@@ -4074,6 +4074,8 @@ var UTF8Decoder = globalThis.TextDecoder && new TextDecoder();
       }
     };
 
+  var _emscripten_date_now = () => Date.now();
+
   var wasmTableMirror = [];
   
   
@@ -5871,6 +5873,8 @@ var wasmImports = {
   _abort_js: __abort_js,
   /** @export */
   _tzset_js: __tzset_js,
+  /** @export */
+  emscripten_date_now: _emscripten_date_now,
   /** @export */
   emscripten_request_animation_frame_loop: _emscripten_request_animation_frame_loop,
   /** @export */

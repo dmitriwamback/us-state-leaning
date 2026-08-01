@@ -83,7 +83,7 @@ void StateModel::setHeightScale(float scale) {
 void StateModel::render(const Mat4& view, const Mat4& projection) {
     if (vertexArrayObject == 0) return;
  
-    Mat4 model = Mat4::scale({1.0f, 1.0f, heightScale});
+    Mat4 model = Mat4::scale({heightScale, 1.0f, 1.0f});
  
     shader.use();
     shader.setMat4("model", model);

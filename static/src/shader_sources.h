@@ -32,8 +32,7 @@ uniform float heightScale;
 out vec3 outNormal;
  
 void main() {
-    gl_Position = projection * view * model * vec4(position, 1.0);
-
+    gl_Position = projection * view * model * vec4(position - vec3(heightScale * 1.5, 0, 0), 1.0);
     outNormal = normalize(normal);
 }
 )";
