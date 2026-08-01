@@ -1,0 +1,22 @@
+{
+  "state": "Alaska",
+  "lean": "R",
+  "confidence": 0.6,
+  "basis": "current_polling",
+  "reasoning": "A New York Times/Siena Poll from July 1, 2026, shows Republican incumbent Dan Sullivan narrowly leading Democrat Mary Peltola 47% to 45% in the U.S. Senate race, a margin within the poll's error. Further indicating a lean towards Republicans, Elon Musk's America PAC is reportedly allocating $100-120 million for Republican voter-turnout operations in battleground states, including Alaska, for the upcoming midterm elections.",
+  "as_of_date": "2026-08-01T15:54:34",
+  "sources": [
+    {
+      "title": "siena.edu",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlvLzNoIEG2jXyusLACcCNdC2VMlrOF23T8QcEv4GB_8azyM8aV-Stm0Pkh8a-L3WS6KUU_qqxTg4t5vkIcmh-q9E4pKMVbAtYjWOMJG8UHBjvoXcJKcG6BJ4GLLbv7uD3jreB3kDrkRXeK7k03Yee4fEMD9nOjUconoI6ozilBExFelUbtC_4PrsFLyLhl5ItoJ5M2RXtMDO-ihCfug==",
+      "domain": "vertexaisearch.cloud.google.com"
+    },
+    {
+      "title": "thealaskastory.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJjCpoKA9TSdTWS0jhMxvdj2lpajCV7oXXpAxMZG3KZI17KqhkhHxqNGElzw27f-WvxAOMdx-jzdDflZFD3GZhkNZTykIRQPR2bgAvWmIXt76JniDZJeIOIgqPmJzty40da-jh6Wm66E4obWSgEbVCnrTQ4PlX5-UmR0N965gtw-AOMQXnWbuMFQnr0XRfvT4cpCzYYCpcRQQ=",
+      "domain": "vertexaisearch.cloud.google.com"
+    }
+  ],
+  "abbreviation": "AK",
+  "_cached_at": "2026-08-01T15:54:34.950538"
+}

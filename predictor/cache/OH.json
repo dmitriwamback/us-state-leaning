@@ -1,0 +1,32 @@
+{
+  "state": "Ohio",
+  "lean": "Toss-up",
+  "confidence": 0.7,
+  "basis": "current_polling",
+  "reasoning": "Recent polls for the 2026 Special Senate election, including an AARP poll from June 2026 and aggregated data through July 2026, show Democratic candidate Sherrod Brown holding a narrow lead over Republican incumbent Jon Husted (e.g., Brown 48% to Husted 45%, or Brown 47.9% to Husted 45.1% in polling averages). While Ohio has trended Republican in recent presidential elections (Trump won by R+11.2 in 2024), the current federal Senate race indicates a highly competitive environment.",
+  "as_of_date": "2026-08-01T16:06:22",
+  "sources": [
+    {
+      "title": "aarp.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3FGETrX0ysRT3NqHzLsbaCXysSe5u0L0CKJp026jTkmRNrdxkwYJtRIEigSne5ZlthmtLVfnBlvL0eeFaEXHQNcfwbkszYtXVlG5jhwfQ6UnNFWLtqY-M62aFaEYH2InOxe_OueDXRWNdwEZbimZHGg8Taq0tvZGuT4fgelhq62EiAlskIeJSkKSgEKh-lyeI7UmKdV_W3I2MfoTNPKE-OA==",
+      "domain": "vertexaisearch.cloud.google.com"
+    },
+    {
+      "title": "newsweek.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWRpNXF3fxig90CRpvZouu2tDyc4tfMsdvWz_JA-GygMHE1APayKX9sZ4luDFv7UUde404cbD3XHBdx8mOHRRPG_uSLfCGstXyl51fgu_73vweUsxdGweLrRkcZJDe8iqEaHZtTVmBzlbTeP40FkQpJNv9FVnCGnXMzc8tDJiTlTM8oGEbTE31vLg=",
+      "domain": "vertexaisearch.cloud.google.com"
+    },
+    {
+      "title": "pollsmax.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3pnLPnWyvoGyfNqB-Aji4RH3RAB6yXS3yy8VCQZB4KBM4XQahks8M3WNDhVwrqUdjx9_KDfF1qbUKmhhV1tgrWWZAn54iwhFXLP9gW4x1iXn-NNqSWeacWX1TbZ1PlQ==",
+      "domain": "vertexaisearch.cloud.google.com"
+    },
+    {
+      "title": "pollsmax.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1YM9Udc666fbR5l9akZm16UR-FFblb0NcwR2584TmHMJqQvuquJJhhI0Uk9nNB5xOqpz4SLwzITNi0Q56278hEH8ynMD3wDzvP-Aplu5YfUb-JD1OgfVGs7cM4GY1WIdonRpsDn-03Q==",
+      "domain": "vertexaisearch.cloud.google.com"
+    }
+  ],
+  "abbreviation": "OH",
+  "_cached_at": "2026-08-01T16:06:22.317758"
+}

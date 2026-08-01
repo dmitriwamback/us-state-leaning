@@ -1,0 +1,22 @@
+{
+  "state": "California",
+  "lean": "D",
+  "confidence": 0.9,
+  "basis": "current_polling",
+  "reasoning": "Recent polling from July 2026 shows a solid Democratic lead for federal elections in California. A PPIC Statewide Survey (June 29\u2013July 6, 2026) indicates that 63% of likely voters would support the Democratic candidate for the House of Representatives, compared to 35% for the Republican candidate. This 28-point advantage, alongside consistent Democratic leads in the gubernatorial race, demonstrates a strong Democratic lean for federal elections in the state.",
+  "as_of_date": "2026-08-01T15:54:47",
+  "sources": [
+    {
+      "title": "ppic.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGcuw-dvh_8AgwKf7zpdfTAOSYMqlrbh0zjHl5ysnkvNOUrCbk7Om7OC90pMKedsxqK37VOtHgu8NKvwXccQcSBLcvTHcBxt-PPyDHxPv-TWzBDq7Arxvw0hgoiPbIhf71I8_ky92T81qNTb292zxY2om4FOjGw8Cx9MPxffslJPsNBSfiR0PK_1ofZVumJMGjJaX2fdK8XmzKsQuI=",
+      "domain": "vertexaisearch.cloud.google.com"
+    },
+    {
+      "title": "youtube.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-r28aax-C2DbKKp4lSKfoNIEy7-s1YyDyJpcKzpCT3snefoqik9J76riymxZIK5B7mFjMS7x6CHy7GcAbK2MyWB2uuVWPZSLHVGTNRhdVp5gG7zR93iWVmTVv2hDIi42-XdHzZA==",
+      "domain": "vertexaisearch.cloud.google.com"
+    }
+  ],
+  "abbreviation": "CA",
+  "_cached_at": "2026-08-01T15:54:47.942856"
+}

@@ -30,10 +30,12 @@ uniform mat4 projection;
 uniform float heightScale;
  
 out vec3 outNormal;
+out vec3 fragp;
  
 void main() {
-    gl_Position = projection * view * model * vec4(position - vec3(heightScale * 1.5, 0, 0), 1.0);
+    gl_Position = projection * view * model * vec4(position, 1.0);
     outNormal = normalize(normal);
+    fragp = vec3(model * vec4(position, 1.0));
 }
 )";
  
@@ -41,12 +43,16 @@ static const char* stateModelFragmentShaderSource = R"(#version 300 es
 precision mediump float;
  
 in vec3 outNormal;
+in vec3 fragp;
+
 out vec4 fragc;
  
 uniform vec3 baseColor;
 uniform vec3 grayColor;
 uniform float confidence;
 uniform bool isTossUp;
+
+vec3 lightPosition = vec3(50.0, 0.0, 0.0);
  
 void main() {
     vec3 color;
@@ -54,13 +60,15 @@ void main() {
     if (isTossUp) {
         color = grayColor;
     } 
-        else {
+    else {
         float remapped = 0.5 + 0.5 * confidence;
         float t = remapped * remapped;
         color = mix(grayColor, baseColor, t);
     }
+
+    vec3 lightDir = normalize(lightPosition - fragp);
  
-    float diffuse = max(dot(normalize(outNormal), normalize(vec3(0.6, 0.8, 0.5))), 0.5);
+    float diffuse = max(dot(normalize(outNormal), lightDir), 0.5);
     
     fragc = vec4(color * diffuse, 1.0);
 }

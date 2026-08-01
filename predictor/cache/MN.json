@@ -1,0 +1,27 @@
+{
+  "state": "Minnesota",
+  "lean": "D",
+  "confidence": 0.9,
+  "basis": "current_polling",
+  "reasoning": "Minnesota consistently voted Democratic in recent federal elections, with Kamala Harris winning by 4.2% in the 2024 presidential election and Amy Klobuchar winning her Senate race by 15.7% in 2024. As of late July 2026, major election forecasters universally rate the upcoming open 2026 U.S. Senate race as 'Likely Democratic', indicating a strong partisan advantage for Democrats.",
+  "as_of_date": "2026-08-01T16:12:16",
+  "sources": [
+    {
+      "title": "ballotpedia.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHyH6SSfCtc3lGTQMA2M5xT32zQuKt0VF0EokF-q7jTMJYRoo8PWgXIkDzezDPeWUiXuYsKRDkkpGbs35w6Bz3KRwJPurJkxP-C4htkD4BCPZra_RAIJbO_rG6jg_tsNDp5nqBWtruqYK2WqO5kpdAn7-_RRklcqQc21EiYD9-fA-cI4p490idOXZ-4RqKs0JqtzUprl6sEs-evV6GPqHs2bA==",
+      "domain": "vertexaisearch.cloud.google.com"
+    },
+    {
+      "title": "ballotpedia.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTu2rufnNx8PmhmD7FI22ZtIZiJ_Y7Ic9ioxiL_IR62bYayu2B8p2J0fSLeejPsb1X02uRqVqqCsFCvMomXkXyttP1zrPj-uhv7t0QmhPQ4qTdzQOmEuuUt2GfSouSZPnZMugAK3reTzvcAQbP8X5yH9ab4OIM1rhOy7T5rHA2AnS-",
+      "domain": "vertexaisearch.cloud.google.com"
+    },
+    {
+      "title": "pollsmax.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGVED9bt933lHmy_fVw3uGSWPPYsQSf_2XskSDULT3kAQ3J_4cIuA7QKycc7uiesW_IMDV9a7DHjT-rtGOBONuIE7J5S6eodm7eniIJTXj72fe-pZTBLUFpDDQxhZ4CiyulCSWLO2ut3GopIanP",
+      "domain": "vertexaisearch.cloud.google.com"
+    }
+  ],
+  "abbreviation": "MN",
+  "_cached_at": "2026-08-01T16:12:16.637159"
+}

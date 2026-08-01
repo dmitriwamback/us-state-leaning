@@ -1,0 +1,37 @@
+{
+  "state": "Nevada",
+  "lean": "Toss-up",
+  "confidence": 0.4,
+  "basis": "current_polling",
+  "reasoning": "Recent polling for the Nevada Governor's race (July 2026) shows a split: one poll indicates a tie (44%-44%), while another suggests a 3-point Republican lead (50%-47%). A specific federal House district poll (NV-02) from July 2026 shows a slight Democratic lead of 2 points (48%-46%). While Democratic candidates in some federal House races show strong fundraising, the overall polling signals for statewide federal elections are too mixed and close to indicate a clear partisan lean.",
+  "as_of_date": "2026-08-01T16:07:46",
+  "sources": [
+    {
+      "title": "pollsmax.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF_Hwr0K3HFDbVpcoPzereRNsfjnyK_thgLGS9kFrV6QoqoVBzx9otinVxjAay6Ygkg4_cH5IrgMGtfFD0WiiUB2ZT4j1N-0VW3YCXCS1edP8cO62hKXAxzY8JUGoByh4EBmuhdXwQ9HYaMM7qW",
+      "domain": "vertexaisearch.cloud.google.com"
+    },
+    {
+      "title": "thenevadaindependent.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBurScAFcIgM5dXe1t-U-gs82eWfRWPzbCtHl_NyqZxZHKzvuvufV4FVkl9kgmd3R69eJat_lpjc4kba8pAMAxcJ97pZWmUCYAoCTcLUm27z2oqU5a6mr8v_08ySAVBiB2yZfTUAsthENonxbziFQ4VCmEJP-AmqqIWFUjs1ekPSK1f9ZIIOA0rAwkFzux9JDFipvhMtQm7v9xVbWWjw==",
+      "domain": "vertexaisearch.cloud.google.com"
+    },
+    {
+      "title": "fiftyplusone.news",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFG2uintvVk_YpR4GBVpaVn-8T37CHhJfmaCdO9q9c8ZJB_knmYoOIM1sbP1UPQ6ZuEgW9BZAmONQcm33oNjZjpeZ63kpqv3YVXMWLivzBfb6YiCqK-M37iZilP0GseO_oP76hQG9vq8_ZfSjNdH-hLzuo=",
+      "domain": "vertexaisearch.cloud.google.com"
+    },
+    {
+      "title": "wikipedia.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJbdUMuH3Uc6h73B78yvZ_pv0fCc8uJoUz30LKeVAZ8271Cjvi9NDsstaMFXST05H4k13xnuNIiy2xTj3vhapf_NS65LVB9OxsgWsTScu4kt5uA1drEkEc3vGel6R15S9wR8s8erzYwNiKhzByHmyT-sLscfi2fAfM9y21lkKyUbI2TFXEIPBHGTNr4I4JlgfBtCDtbngGEw==",
+      "domain": "vertexaisearch.cloud.google.com"
+    },
+    {
+      "title": "thenevadaindependent.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEcqp8dMZrXnFtGaPUDexfA9If98lTEPDKHnyb0KtXNbQ1w9fv4pTIV3JAjU4tXEXJWcgYjmh1Fj8yt7NEeKaMuaxUeh8Ob4xNY8ioM63Qe9_Xixe_V3PpAF6hMt_jz5XB9fQNPt9A4oE26gBe3BEMdtjiroYTOouhXTx5Lb5Ikxw574Kf6Iw9RcNiopKioD98WkdAuQoBA2KBjl6XuikXX",
+      "domain": "vertexaisearch.cloud.google.com"
+    }
+  ],
+  "abbreviation": "NV",
+  "_cached_at": "2026-08-01T16:07:46.506369"
+}

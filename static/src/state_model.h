@@ -23,6 +23,7 @@ private:
     float confidence = 0.0f;
     bool isTossUp = true;
     float heightScale = 1.0f;
+    float heightAxisBase = 0.0f;
 };
  
 bool StateModel::load(const std::string& objPath) {
@@ -32,6 +33,11 @@ bool StateModel::load(const std::string& objPath) {
     if (!loadObj(objPath, vertices, indices)) {
         printf("StateModel: failed to load %s\n", objPath.c_str());
         return false;
+    }
+
+    heightAxisBase = vertices[0].position.x;
+    for (const auto& v : vertices) {
+        if (v.position.x < heightAxisBase) heightAxisBase = v.position.x;
     }
  
     shader.load(stateModelVertexShaderSource, stateModelFragmentShaderSource);
@@ -66,10 +72,10 @@ void StateModel::setLean(const std::string& lean, float confidenceIn) {
     isTossUp = (lean == "Toss-up");
  
     if (lean == "D") {
-        baseColor = Vec3{0.15f, 0.35f, 0.85f};
+        baseColor = Vec3{44.0f / 255.0f, 72.0f / 255.0f, 147.0f / 255.0f};
     } 
     else if (lean == "R") {
-        baseColor = Vec3{0.85f, 0.15f, 0.15f};
+        baseColor = Vec3{193.0f / 255.0f, 55.0f / 255.0f, 57.0f / 255.0f};
     } 
     else {
         baseColor = grayColor;
@@ -83,7 +89,7 @@ void StateModel::setHeightScale(float scale) {
 void StateModel::render(const Mat4& view, const Mat4& projection) {
     if (vertexArrayObject == 0) return;
  
-    Mat4 model = Mat4::scale({heightScale, 1.0f, 1.0f});
+    Mat4 model = Mat4::translate({heightAxisBase, 0, 0}) * Mat4::scale({heightScale, 1.0f, 1.0f}) * Mat4::translate({-heightAxisBase, 0, 0});
  
     shader.use();
     shader.setMat4("model", model);

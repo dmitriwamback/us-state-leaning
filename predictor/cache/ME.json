@@ -1,0 +1,32 @@
+{
+  "state": "Maine",
+  "lean": "Toss-up",
+  "confidence": 0.6,
+  "basis": "current_polling",
+  "reasoning": "Recent polling for the 2026 U.S. Senate election in Maine, the most current federal race, indicates a highly competitive contest between Republican incumbent Susan Collins and Democratic challenger Troy Jackson. While some late July 2026 polls show Jackson with a narrow lead (e.g., 47.8% to 46% per one source), a July 31, 2026 polling average suggests Collins holds a slight lead of 3 points (48.4% R / 45.5% D). Major election handicappers also currently rate the race as a 'Toss-up' or 'Tilt Republican'.",
+  "as_of_date": "2026-08-01T15:55:18",
+  "sources": [
+    {
+      "title": "youtube.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwJ1rnMqwQcOG53SzBlzio3zRhcO4xgcHpUv_6VBwiHhRF4j9PND99hA-OL1p35K2qBy7tgDhoGokdYV48gxlvLDs-bgY6dj5d-s5MScwW92WJI1RITQ7uQsHAqocd_e94PQLaWA==",
+      "domain": "vertexaisearch.cloud.google.com"
+    },
+    {
+      "title": "pollsmax.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH012B4G8n0uq5lOCNP67j245bIvewiFyY96rLCsSJzxP6J64bQtrEq8PMtlf05CNxNOzWii76hV2LXmmv5Dv_1DHBHIKpmvqHHq4oLAZ5fivRyF5I4iDSeUFVMCkAxs-ullpTuyufiAdU=",
+      "domain": "vertexaisearch.cloud.google.com"
+    },
+    {
+      "title": "pollsmax.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHHp21DeXc08EC8rBSxZWrksayaYphN0G7IyS9mbXjyBuCb6_W1FrfFqQ0itkZI4jNyPZ6NDHTgRzjCphFGV00EHoAYfw-43Ij6wKEbyS9PodwdtgTtG3aDSz7OmavBHuI=",
+      "domain": "vertexaisearch.cloud.google.com"
+    },
+    {
+      "title": "ballotpedia.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQExH2qxUqjvHnwStBhv_LpgreOSSLJ-scXbVgCvuE2dWuseFUkAL4tbTvE9dt-nxmablCajN11E6nxMgJS-hDs_AY6bIC878FjsraU2mZF2VIQE0Li41FFHs9yyGVsSyAdpn3PZwqhPncBEV5aFVakaR4TKwO1TpuT6TJE_97Q=",
+      "domain": "vertexaisearch.cloud.google.com"
+    }
+  ],
+  "abbreviation": "ME",
+  "_cached_at": "2026-08-01T15:55:18.974872"
+}

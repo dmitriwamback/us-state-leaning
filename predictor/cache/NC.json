@@ -1,0 +1,37 @@
+{
+  "state": "North Carolina",
+  "lean": "D",
+  "confidence": 0.7,
+  "basis": "current_polling",
+  "reasoning": "Recent polls from July 2026 consistently show Democratic candidate Roy Cooper leading Republican Michael Whatley in the U.S. Senate race, with leads ranging from 4 to 9 percentage points. Polling averages also indicate a Democratic lead of around 6.7 points. Additionally, Cooper has a substantial fundraising advantage over Whatley.",
+  "as_of_date": "2026-08-01T15:46:39",
+  "sources": [
+    {
+      "title": "wfae.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE9zoIaMXfRnoCY-SgEG6UAn2uv45c7TIA4_wNPgGzHMqlPc1x6NoZ8bSYmGFORRVU1FyFRhB1RfuT1bUCxsXZMnWdxj6f7ngaYSaVaJPYDs-kpsAJ1dhrCd2iRzk6KEYi2_Zg9XUhDmx3_6WYFV-CmcPs0uskxgGPjKt2QCNF7OKxsKQuek_DldD8oFnB_K0mlcGQm",
+      "domain": "vertexaisearch.cloud.google.com"
+    },
+    {
+      "title": "newsweek.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHy5jWvUQRT4kScxx_W2Zsz1QcJUoRPQOS_Fj5Uf1xisUf4FYbCJP_2Tl0IWLorx3a5fkyEtdMccebnvP7IAQ2JuGEbJaD63YhjH-ECmQG3su7PNGtuV5x2ppXXAQEHJd5PW2ljZAd7AiDWPHiWRiLQ0Wj7-q3Ypr69mo3rygR7cjmpe_LqF35OUwmcpulbc79j5Po5RWYaBQT_stqf9OF7xA==",
+      "domain": "vertexaisearch.cloud.google.com"
+    },
+    {
+      "title": "publicpolicypolling.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH0VG3sM54Z9214m4UswC80t0QJmCtMZEzc_1DArb7qqUEiEYyDToZt05bhhZlgznq6e5joIO8RyL3u4nCrPKbgsDoMjPEqrW5aTV_7N5tBKZYU2ufVy3-t5Rw478-9NtVjnO89Yzb1m5TbrPcktrOla-zCC8pzxdJtPVahDZeSM7wHCCxE9icVsA==",
+      "domain": "vertexaisearch.cloud.google.com"
+    },
+    {
+      "title": "pollsmax.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdZ-X0IAr5erhAF9RcmoLFiKIKVFBez6Cb75jsCgJQeLwImwox49etWWaHg27ikyoM20B24gkLwIg0ffxTw6ywRPKX0GwvEHNGuxhnB6obR68lijeFNLq-FTpkoZoIa4xIOCucyi6P22me",
+      "domain": "vertexaisearch.cloud.google.com"
+    },
+    {
+      "title": "newsfromthestates.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQExPN9AtD9XLHmAtx81GLUTcztt8GlLejEF3HcU6AQog4gfIwBzmLWuDR9Ktsm_yaPgLTDpMMO5zsXTKHlhJCLMG8lzZ9cc9-RnPk7j2DfPLuLckXH9vJ41KLQoZ7L6D1d8X2koqpctdesOEDkxF6IXkOOj0Bg2QoYRIt42omDSZFlZOtEi0s1ET0DmPH6hrZSmSfUxCYjsZq0166pvjlnbnj774a9L8_pj0ynRMRA4RlM=",
+      "domain": "vertexaisearch.cloud.google.com"
+    }
+  ],
+  "abbreviation": "NC",
+  "_cached_at": "2026-08-01T15:46:39.153305"
+}

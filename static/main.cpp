@@ -58,11 +58,31 @@ std::map<std::string, int> electoralVotes = {
 };
 std::map<std::string, StateModel> stateGeometry;
 
+
+
+extern "C" {
+
+EMSCRIPTEN_KEEPALIVE
+void setState(const char* abbreviation, const char* lean, float confidence) {
+    std::string abbr(abbreviation);
+
+    auto it = stateGeometry.find(abbr);
+    if (it == stateGeometry.end()) {
+        printf("setState: unknown state abbreviation '%s'\n", abbr.c_str());
+        return;
+    }
+
+    it->second.setLean(lean, confidence);
+}
+
+}
+
+
 EM_BOOL render_frame(double time, void *userData) {
     glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
-    Mat4 view = Mat4::lookAt(Vec3{25, 0, 0}, Vec3{0, 0, 0}, Vec3{0, 1, 0});
+    Mat4 view = Mat4::lookAt(Vec3{20, 0, 0}, Vec3{0, 0, 0}, Vec3{0, 1, 0});
     Mat4 projection = Mat4::perspective(1.0472f, 1920.0f/974.0f, 0.1f, 100.0f);
 
     for (auto& [key, value] : stateGeometry) {
@@ -95,16 +115,9 @@ int main() {
 
     for (const auto& [key, value] : abbreviationsToStateName) {
 
-        float r = (float)rand() / RAND_MAX;
-        std::string party = "";
-
-        float t = (float)rand() / RAND_MAX;
-        if (t > 0.5f) party = "D";
-        else party = "R";
-
         stateGeometry[key] = StateModel();
         stateGeometry[key].load(std::string("state-models/") + value + ".obj");
-        stateGeometry[key].setLean(party, r);
+        stateGeometry[key].setLean("Toss-up", 0.5);
         stateGeometry[key].setHeightScale((float)electoralVotes[key]/50.0f);
     }
 

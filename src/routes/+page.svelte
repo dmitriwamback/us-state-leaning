@@ -1,6 +1,6 @@
 <script>
     import { onMount } from 'svelte';
-    let result = "Loading...";
+    let moduleInstance;
 
     onMount(async () => {
         const canvas = document.getElementById("webgl");
@@ -21,7 +21,19 @@
         const url = '/main.mjs';
         const createModule = (await import(/* @vite-ignore */ url)).default;
 
-        await createModule();
+        moduleInstance = await createModule();
+        const setState = moduleInstance.cwrap('setState', null, ['string', 'string', 'number']);
+
+        const state = 'WI'
+        
+        try {
+            const res = await fetch('http://localhost:8080/api/state/'+state);
+            const data = await res.json();
+
+            setState(state, data.lean, data.confidence);
+        } catch (err) {
+            alert('Failed to fetch state predictions:' + err);
+        }
     });
 </script>
 

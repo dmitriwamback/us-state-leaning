@@ -1,0 +1,42 @@
+{
+  "state": "Texas",
+  "lean": "Toss-up",
+  "confidence": 0.6,
+  "basis": "current_polling",
+  "reasoning": "Recent polling for the U.S. Senate race in Texas shows a highly competitive contest. A Texas Public Opinion Research (TPOR) poll from July 15-17, 2026, placed Democrat James Talarico ahead of Republican Ken Paxton by 5 points (45% to 40%). A FOX News poll conducted July 23-27, 2026, also showed Talarico with a 3-point lead. However, earlier polls in June from the University of Texas/Texas Politics Project and the New York Times/Siena found the race to be neck-and-neck or tied. Election forecasters are split, with Decision Desk HQ rating the race a 'Toss-up,' while The Cook Political Report and Sabato's Crystal Ball rate it 'Lean Republican,' indicating a genuinely mixed outlook.",
+  "as_of_date": "2026-08-01T15:51:16",
+  "sources": [
+    {
+      "title": "texastribune.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFDKWDzcqGzsMIiQvsTbSbEZX8xp0MH93O1l-lNThNW2tw5OkZKeAnM2WB4BPt-9QQmB3YYM_8P0DtuzTamsrgW_czHCwJVLt40V0I9gTWCDXE9Q8SoiaE7qPbbTD_Er4xUtM5QqRaOUeUWLvQEdbsTtUxKKGuUr_Oo7RYzgjtF5dFjJYsPMGRsrDoE3s5-qlC5PwulMU3Tmy8=",
+      "domain": "vertexaisearch.cloud.google.com"
+    },
+    {
+      "title": "substack.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFCK9TL6XMpikDkUhfaa75aq-HF0Y0dYf_Wf-LUEajFgF4O3QN7n8WG-j7OE3jnXMeWdPxrJ25Ttr2Frz3-qe84gxAP6sD78OMm8rCslhj3hbbiPrbbd1TonmYupqBVvkxGtJwVu3jE1W7lZLOQniwlBcXBQQI4l5OnBlFah7gKW0lvJaZXv5iU1qGxKkz60Q==",
+      "domain": "vertexaisearch.cloud.google.com"
+    },
+    {
+      "title": "keranews.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSp4d3gG06zYLkaAcAyDyvIo4r7rzif1ktVkLiyrRFWPqAtGoR-rVA1TIa422qo2xizNSAf7kS7z609qJj5O4OVze_5iqnlpF2QaC1DhH46EUzWb0BambQTCL2_s52c1d0SRyBlCJc2P1pXrdFKU9hcRMSoRIpHW46poYsBwiZNf70SLW_a6qX5BU9CODjSChjqCnUdhCF2x4P9zh9dCRtWC1rNVJdCmBOHNCwZL62jFAdOds=",
+      "domain": "vertexaisearch.cloud.google.com"
+    },
+    {
+      "title": "youtube.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOZ6jGPvDARSauX2UfCmA6wDeplo5W-sUgohPNZw-YJBbziCrVFM1CQzvoi82Y0K1GKyPmw1jbrCTuNwYU7d7f_OohdfM7okpIfbQ3opZCM4iSPSngeAJhisJlkBAzDKNAvvEJZu0=",
+      "domain": "vertexaisearch.cloud.google.com"
+    },
+    {
+      "title": "utexas.edu",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFqh7CxJgDzB-5Tjno6R3VujX_BAW0f9O9D2ayDoEMwiG0D_OU69yVauQ5vNStS7AQSlY6d4u56xOl7zGCW4hd5g-y7DECQ4mV9se0qBFlq0kiv1Nr3eXjNLiYwDLuImMK9hmGH-0boC9BCWW9rHKCO7lHSfmB-qdc7lqY-a2OgWfdxcIYtffOdDlKbQdJcTIiriYOrijYlBR1zkIlXaW0EQSOmUFcHmaKY1VGmT5DDKNm-OuIHbrv-Bd54nxC3RVtwI7guFIfEHFGh_2hCSUY=",
+      "domain": "vertexaisearch.cloud.google.com"
+    },
+    {
+      "title": "ballotpedia.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpm2rtZxPnQT-W2qJJhDWYPwoPM3fD5m9t7c9vrYah3Q2hUPhgbRbTYGEr67r7nk7IC3MvBJZvVdx9P_u8B6LfNmhtESQ3le3Y65WMPhxSN-gEKP5QzRuk50diXr5f5w9PbRHaP0P5ZzIA5rNxg3ouvkQ4xTVFFZeXDZbfBcvg",
+      "domain": "vertexaisearch.cloud.google.com"
+    }
+  ],
+  "abbreviation": "TX",
+  "_cached_at": "2026-08-01T15:51:16.317134"
+}

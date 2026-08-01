@@ -1,0 +1,22 @@
+{
+  "state": "Illinois",
+  "lean": "D",
+  "confidence": 0.9,
+  "basis": "current_polling",
+  "reasoning": "The 2026 Illinois Senate race, featuring Democratic nominee Juliana Stratton and Republican nominee Don Tracy, is currently forecast as 'Solid D' with a projected vote of 60.0% for the Democrat and 40.0% for the Republican. This indicates a strong Democratic advantage for the upcoming federal election, building on Illinois' consistent Democratic lean in federal races, as Republicans have not won a Senate election in the state since 2010.",
+  "as_of_date": "2026-08-01T16:06:54",
+  "sources": [
+    {
+      "title": "pollsmax.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-eg4TSG0UsC3Rcn9tWpr0qNKTv7hGt6v92C1UIcNgfz4BbQNYBnyQ_9S1vGgfqTQ4hddFGRnp-XSgYWq-4V0C2BGNyfAJl1aMd-BTUG5RWxF7wzKCH-528pSASdL4LO6cPIvNUUsTZNdSwSE=",
+      "domain": "vertexaisearch.cloud.google.com"
+    },
+    {
+      "title": "wikipedia.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG1uakllRf4yT8qrArHVdq9Gb-8QXtkABpeY6UHZsI8v66JhToVEiB8cJ4tbsWDFu_lx0Hu7niVzk5g-GsLHfQXU1vPlM-ce6W0ZbMZl3M_YO9GtPYJ8dyEy1LUrGGvmjz1WHbAt1D4VTyWcs6zEWJH4rYjhDN3ZM9Ynj1TL7VfCArS91TYYQ==",
+      "domain": "vertexaisearch.cloud.google.com"
+    }
+  ],
+  "abbreviation": "IL",
+  "_cached_at": "2026-08-01T16:06:54.810743"
+}

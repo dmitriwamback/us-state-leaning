@@ -1,0 +1,32 @@
+{
+  "state": "Florida",
+  "lean": "R",
+  "confidence": 0.9,
+  "basis": "current_polling",
+  "reasoning": "Recent polling from July 2026 for the open U.S. Senate special election shows Republican Ashley Moody leading Democratic challengers by 9-10 points (e.g., 50% to 40% against Alex Vindman by UNF, and an RCP average of 48% to 39%). This is consistent with Florida's strong shift to the right, evidenced by Donald Trump's 13.1-point victory in the 2024 presidential election.",
+  "as_of_date": "2026-08-01T16:06:09",
+  "sources": [
+    {
+      "title": "pollsmax.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGAmbpceXFeerxNl1XNyRM_hAPKVC5fUx3NXBgvVw_RZkGZWpKbzNEkTnXgIY1EAoum3G8Gv0lZnS7Nw1ous3P-Wbxiaae8e3cyBPA7WecwQLDLwS-9NrYDeDGSPv37Ybv06sU=",
+      "domain": "vertexaisearch.cloud.google.com"
+    },
+    {
+      "title": "wlrn.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHaxsOPGHpb2vEGR39isiZEuyxHu3IVPlKz3gBjBdwKBUTNzRWy7jKpn9zSJIT0rypOCMoqewPNqi9sFfU9lEJSZN7pdJbAurzQvPuVLymBP_ZzorNbMF6Y4gaR12M-8PGJwZrMWAX5YB1vgAtju6Mbh9yCnOJkQ8-sGBjIbSrnESo_tZTxpRhySmXZ7PEXkHNTgrpnUBEVLK4Q4EE_iGkWQ5sm9QjOTE5nSHnuJKxUu2Hm5BKTzUBUdG2BC0C7",
+      "domain": "vertexaisearch.cloud.google.com"
+    },
+    {
+      "title": "realclearpolling.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3Go2O6IDArnDQwnhtlGUUx-pgPR-dQ_tXNHBu0XQRnWJ6Ll3_MQS3TMlRFqm0JmPPwa_tgJNp1zjXUtg6Yv2BmZDfj8R3CxWagFboPTz93epHSVgMBrjntrMAk-dwYT18d-3ztBbX-YTAHgNKbwqNrEkL6q0PPOlyy_sMiMCkRbYPkevL1J9IJHHPZPsQ",
+      "domain": "vertexaisearch.cloud.google.com"
+    },
+    {
+      "title": "wikipedia.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPjX_9O40AoOLhzAKyNdR4MLrfbMh_fbk-rDCSRcVevUmpfPPlb_ZEnlZC_XjchTLgU7vNv3LW4tJxHB--0ADJOab-ZuFdgb6OAg4IZ57KAb_KAMzmGl-oHhBHWaZYQj_RajaOU41cZpl_q3SpYB1UYoNB7_fck9FeBaUXvzjHLxDFb7WQ1TEbW7KG-w==",
+      "domain": "vertexaisearch.cloud.google.com"
+    }
+  ],
+  "abbreviation": "FL",
+  "_cached_at": "2026-08-01T16:06:09.931534"
+}

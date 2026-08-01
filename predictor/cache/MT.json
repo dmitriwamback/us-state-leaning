@@ -1,0 +1,17 @@
+{
+  "state": "Montana",
+  "lean": "R",
+  "confidence": 0.9,
+  "basis": "current_polling",
+  "reasoning": "Recent polling for the 2026 U.S. Senate race in Montana consistently shows Republican Kurt Alme leading significantly. A Pollsmax average from July 31, 2026, places Alme (R) at 44.1% against independent Seth Bodnar (25.1%) and Democrat Alani Bankhead, with a margin of R +19.0. This aligns with the state's strong Republican lean, as evidenced by Donald Trump winning Montana by 19.9% in 2024.",
+  "as_of_date": "2026-08-01T16:08:07",
+  "sources": [
+    {
+      "title": "pollsmax.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkLIl_UYUzakJ8mwHksegPLwuLv9N83FPJBW0hLTOPuRC7ETKqMWZNMnZfiKYKhCRDnnPlGI01W2jrFFHFFeukcXGr5syGngxUte26kpr503031oNWd0PMotFxjCfEH2iZL9Q=",
+      "domain": "vertexaisearch.cloud.google.com"
+    }
+  ],
+  "abbreviation": "MT",
+  "_cached_at": "2026-08-01T16:08:07.073966"
+}
