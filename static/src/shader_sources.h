@@ -49,8 +49,10 @@ out vec4 fragc;
  
 uniform vec3 baseColor;
 uniform vec3 grayColor;
+uniform vec3 noDataColor;
 uniform float confidence;
 uniform bool isTossUp;
+uniform bool dataLoaded;
 
 vec3 lightPosition = vec3(50.0, 0.0, 0.0);
  
@@ -62,8 +64,12 @@ void main() {
     } 
     else {
         float remapped = 0.5 + 0.5 * confidence;
-        float t = remapped;
+        float t = remapped * remapped;
         color = mix(grayColor, baseColor, t);
+    }
+
+    if (!dataLoaded) {
+        color = noDataColor;
     }
 
     vec3 lightDir = normalize(lightPosition - fragp);

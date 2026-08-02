@@ -89,10 +89,10 @@ float dist = 20.0f;
 float t = 0.0f;
 
 EM_BOOL render_frame(double time, void *userData) {
-    glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
+    glClearColor(16.0f/255.0f, 24.0f/255.0f, 29.0f/255.0f, 1.0f);
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
-    Mat4 view = Mat4::lookAt(Vec3{dist, 0, 0}, Vec3{0, 0, 0}, Vec3{0, 1, 0});
+    Mat4 view = Mat4::lookAt(Vec3{dist * cos(-t), 0, dist * sin(-t)}, Vec3{0, 0, 0}, Vec3{0, 1, 0});
 
     float aspect = (float)canvasWidth / (float)canvasHeight;
 
@@ -102,7 +102,7 @@ EM_BOOL render_frame(double time, void *userData) {
         value.render(view, projection);
     }
 
-    t += 0.005f;
+    //t += 0.005f;
 
     return EM_TRUE;
 }
@@ -132,7 +132,7 @@ int main() {
 
         stateGeometry[key] = StateModel();
         stateGeometry[key].load(std::string("state-models/") + value + ".obj");
-        stateGeometry[key].setLean("Toss-up", 0.5);
+        stateGeometry[key].setLean("N/A", 0.5);
         stateGeometry[key].setHeightScale(sqrt((float)electoralVotes[key]) / 5.0f);
     }
 

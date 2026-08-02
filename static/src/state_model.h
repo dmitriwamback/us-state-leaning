@@ -20,8 +20,10 @@ private:
  
     Vec3 baseColor{0.65f, 0.65f, 0.65f};
     Vec3 grayColor{0.65f, 0.65f, 0.65f};
+    Vec3 noDataColor{74.0f * 0.85f/255.0f, 74.0f * 0.85f/255.0f, 85.0f * 0.85f/255.0f};
     float confidence = 0.0f;
     bool isTossUp = true;
+    bool dataLoaded = false;
     float heightScale = 1.0f;
     float heightAxisBase = 0.0f;
 };
@@ -68,8 +70,11 @@ bool StateModel::load(const std::string& objPath) {
 }
  
 void StateModel::setLean(const std::string& lean, float confidenceIn) {
+
     confidence = confidenceIn < 0.0f ? 0.0f : (confidenceIn > 1.0f ? 1.0f : confidenceIn);
+
     isTossUp = (lean == "Toss-up");
+    dataLoaded = (lean != "N/A");
  
     if (lean == "D") {
         baseColor = Vec3{44.0f / 255.0f, 72.0f / 255.0f, 147.0f / 255.0f};
@@ -98,8 +103,10 @@ void StateModel::render(const Mat4& view, const Mat4& projection) {
     shader.setFloat("heightScale", heightScale);
     shader.setVec3("baseColor", baseColor.x, baseColor.y, baseColor.z);
     shader.setVec3("grayColor", grayColor.x, grayColor.y, grayColor.z);
+    shader.setVec3("noDataColor", noDataColor.x, noDataColor.y, noDataColor.z);
     shader.setFloat("confidence", confidence);
     shader.setBool("isTossUp", isTossUp);
+    shader.setBool("dataLoaded", dataLoaded);
  
     glBindVertexArray(vertexArrayObject);
     glDrawElements(GL_TRIANGLES, (GLsizei)indexCount, GL_UNSIGNED_INT, 0);

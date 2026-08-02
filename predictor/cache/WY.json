@@ -1,11 +1,11 @@
 {
   "state": "Wyoming",
   "lean": "R",
-  "confidence": 0.3,
+  "confidence": 0.9,
   "basis": "historical_baseline",
-  "reasoning": "No polling or federal campaign news was found for Wyoming within the designated 45-day window leading up to August 1, 2026. Falling back to historical baseline results, where in 2024 Republican Senator John Barrasso won re-election with approximately 71% of the vote and Donald Trump won the state with 71.6% of the presidential vote.",
-  "as_of_date": "2026-08-01T18:42:24",
+  "reasoning": "Due to a lack of recent 2026 polling, Wyoming's partisan lean is evaluated using its historical baseline as the most lopsided Republican state in the nation. In recent federal elections, including the 2020 and 2024 cycles, Republican candidates consistently won by landslide margins exceeding 40 percentage points, securing over 70% of the statewide vote.",
+  "as_of_date": "2026-08-01T20:16:55",
   "sources": [],
   "abbreviation": "WY",
-  "_cached_at": "2026-08-01T18:42:24.962304"
+  "_cached_at": "2026-08-01T20:16:55.207413"
 }
