@@ -1,27 +1,11 @@
 {
   "state": "Vermont",
   "lean": "D",
-  "confidence": 0.3,
-  "basis": "historical_baseline",
-  "reasoning": "No recent federal election polling or special election results were found within the last 45 days for Vermont. The most recent federal election data, the 2024 Presidential election, shows Vermont voted overwhelmingly Democratic, with Kamala Harris winning by nearly 32 points (63.8% to 32.3%).",
-  "as_of_date": "2026-08-01T16:17:11",
-  "sources": [
-    {
-      "title": "apnews.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFtjyggRIQYNCjXlM4GbKeKwIb_P0MLROI5MlfyDj-P_W3RdBuzNHs0ugm0blWcBwtuGNeL4qLVT3dx64A7bYoc61y21T8XIj9_tWgXHXkT3X6IkV7SaSpp8rBGXPVc0Bq1FJyFieTxlC-EQzFZgg7tz9kGTS8=",
-      "domain": "vertexaisearch.cloud.google.com"
-    },
-    {
-      "title": "wikipedia.org",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWz7nB2k9nQ-idhPpj69gPGbJRtwumYX6NUmzr0s8eo2m1zyusKqcB_5xAgqL3PLGaodQqiOKtQovswXy8EN9kVv0iRRpww6rZSXBXufgSvYKQZ6aXd_ggGN5nvbyJ9TtBFi6balwWdCPUZDClseavY23NshP95NhLsePzAiFg4uG2l1N1t4ETxbTpMA==",
-      "domain": "vertexaisearch.cloud.google.com"
-    },
-    {
-      "title": "vtdigger.org",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3zOw1ABVgCDFWr-VabxW0P8oa8pGhYfHfaWLoX4Ry8qP62MLsHklsC1MxRdunFCsdo1FlAj8lgKLI0HJ3d3eTHX_2p8EndhWSaRQsOTvkGYDW6jUO3OaU4-MJL3HNrewiFJcHwtaOcxkLImPGCvScuqfAYCEdpg3rQ5bXDj0A0VH6W4LHgg1AGvSGbsqYzn1PvixCiWnWlviIT67c583EvpM1yp8S",
-      "domain": "vertexaisearch.cloud.google.com"
-    }
-  ],
+  "confidence": 0.9,
+  "basis": "current_polling",
+  "reasoning": "Although there are no U.S. Senate or Presidential races on Vermont's 2026 ballot, a July 2026 University of New Hampshire poll for the state's federal U.S. House seat shows incumbent Democrat Becca Balint leading Republican Gerald Malloy by 32 percentage points (57% to 25%). This lopsided margin closely mirrors the 2024 presidential election baseline, where Democrat Kamala Harris won the state by 31.5 percentage points (63.8% to 32.3%).",
+  "as_of_date": "2026-08-02T17:27:02",
+  "sources": [],
   "abbreviation": "VT",
-  "_cached_at": "2026-08-01T16:17:11.005152"
+  "_cached_at": "2026-08-02T17:27:02.631116"
 }

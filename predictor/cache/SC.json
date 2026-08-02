@@ -1,0 +1,11 @@
+{
+  "state": "South Carolina",
+  "lean": "R",
+  "confidence": 0.85,
+  "basis": "historical_baseline",
+  "reasoning": "While the upcoming special U.S. Senate primary is currently unsettled following the sudden death of Senator Lindsey Graham on July 11, 2026, major political forecasters continue to rate the general election contests as Solid Republican. Since there is no recent head-to-head general election polling, South Carolina's lean is assessed using the state's lopsided historical baseline, including Donald Trump's 17.9-point victory in the 2024 presidential election (58.2% to 40.4%) and Senator Tim Scott's 25.9-point win in 2022.",
+  "as_of_date": "2026-08-02T17:11:11",
+  "sources": [],
+  "abbreviation": "SC",
+  "_cached_at": "2026-08-02T17:11:11.190328"
+}

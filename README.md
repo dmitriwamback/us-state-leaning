@@ -10,3 +10,6 @@
     <li>Python Flask server for prediction (takes all demographic, polling, and news data to make an assumption of how states will vote).</li>
     <li>Svelte and JavaScript for the front end.</li>
 </ul>
+
+### Data compiled from Gemini 3.5 Flash
+<img width="2230" height="1148" alt="Image" src="https://github.com/user-attachments/assets/8f2bd563-6da4-4bf3-9ce3-c9a6124578ee" />

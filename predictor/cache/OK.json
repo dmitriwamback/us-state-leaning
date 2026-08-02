@@ -1,0 +1,11 @@
+{
+  "state": "Oklahoma",
+  "lean": "R",
+  "confidence": 0.9,
+  "basis": "historical_baseline",
+  "reasoning": "With no general election polling yet available for the 2026 Senate matchup between Republican Kevin Hern and the winner of the August 25 Democratic runoff (Jasmine Thomas or Jim Priest), Oklahoma's lean is assessed using historical baselines. The state remains heavily conservative, with Donald Trump winning it by 34.3 points in 2024 and former Senator Markwayne Mullin securing his 2022 Senate seat with 61.8% of the vote. Furthermore, Hern's June primary vote total alone exceeded the combined turnout of all Democratic primary candidates, reinforcing a solid Republican advantage.",
+  "as_of_date": "2026-08-02T17:08:02",
+  "sources": [],
+  "abbreviation": "OK",
+  "_cached_at": "2026-08-02T17:08:02.935733"
+}

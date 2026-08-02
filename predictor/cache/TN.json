@@ -1,0 +1,11 @@
+{
+  "state": "Tennessee",
+  "lean": "R",
+  "confidence": 0.9,
+  "basis": "historical_baseline",
+  "reasoning": "While incumbent Senator Bill Hagerty (R) and challenger Marquita Bradshaw (D) are on the ballot for the 2026 Senate race, no head-to-head general election polling has been published in the last 45 days. We rely on Tennessee's overwhelming historical baseline, including Hagerty's 27-point victory over Bradshaw in 2020 (62.2% to 35.2%) and Donald Trump's consistent 23-to-26 point victories in recent presidential cycles. With zero competitive news signaling a shift and major rating agencies classifying the seat as Safe/Solid Republican, the partisan lean remains heavily lopsided.",
+  "as_of_date": "2026-08-02T17:31:27",
+  "sources": [],
+  "abbreviation": "TN",
+  "_cached_at": "2026-08-02T17:31:27.498040"
+}

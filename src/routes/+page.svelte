@@ -76,18 +76,19 @@
         setViewportSize = moduleInstance.cwrap('setViewportSize', null, ['number', 'number']);
         setViewportSize(canvas.width, canvas.height);
 
-
-        const state = 'TX'
+        /*
+        const state = 'DC'
         
         try {
-            //const res = await fetch('http://localhost:8080/api/state/'+state);
-            //const data = await res.json();
+            const res = await fetch('http://localhost:8080/api/state/'+state);
+            const data = await res.json();
 
-            //setState(state, data.lean, data.confidence);
+            setState(state, data.lean, data.confidence);
         } 
         catch (err) {
             console.log('Failed to fetch state predictions:' + err);
         }
+        */
 
         try {
             const res = await fetch('http://localhost:8080/api/cached');

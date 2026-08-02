@@ -112,7 +112,7 @@ def _domain_from_url(url: str) -> str:
  
  
 def _extract_sources(response) -> list[Source]:
-    """Pull the real grounding sources Gemini's search tool actually used."""
+
     sources: list[Source] = []
     seen_urls = set()
  

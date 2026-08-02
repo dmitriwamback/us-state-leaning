@@ -15,7 +15,7 @@ app = Flask(__name__)
 CORS(app)
  
 CACHE_DIR = Path("cache")
-CACHE_MAX_AGE_HOURS = 24
+CACHE_MAX_AGE_HOURS = 24 * 7
 API_KEY_FILE = Path("api_key.txt")
  
 ABBREVIATION_TO_STATE_NAME = {
@@ -56,20 +56,17 @@ def _cache_path(abbr: str) -> Path:
  
 def _read_cache(abbr: str) -> dict | None:
     path = _cache_path(abbr)
-    print(f"DEBUG: checking path {path.resolve()}, exists={path.exists()}")
     if not path.exists():
         return None
 
     try:
         data = json.loads(path.read_text())
     except (json.JSONDecodeError, OSError) as e:
-        print(f"DEBUG: JSON parse failed: {e}")
         return None
 
     try:
         cached_at = datetime.fromisoformat(data.get("_cached_at", ""))
     except ValueError as e:
-        print(f"DEBUG: _cached_at parse failed: {e}, raw value was {data.get('_cached_at')!r}")
         return None
 
     age = datetime.now() - cached_at

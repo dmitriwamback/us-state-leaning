@@ -1,22 +1,11 @@
 {
   "state": "New Hampshire",
   "lean": "D",
-  "confidence": 0.7,
+  "confidence": 0.65,
   "basis": "current_polling",
-  "reasoning": "Recent polling for the 2026 U.S. Senate election in New Hampshire, conducted in June 2026, shows Democratic candidate Chris Pappas leading Republican John Sununu by 3 to 6 percentage points. Additionally, major election forecasters as of late July 2026 rate the open Senate seat as 'Lean Democratic' or 'Tilt Democratic'. This aligns with Kamala Harris's 3-point victory in the 2024 presidential election in the state.",
-  "as_of_date": "2026-08-01T16:01:26",
-  "sources": [
-    {
-      "title": "realclearpolling.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhy8AWPBabdPmykrbCl-M7zYhEEgDgEpsX4OrjZKrhb4IpqUnSbFD2AsE6jTjnFFZ56ssfbK5CZUpJcYSQBWJj3xBa1wJVMt6xd9wyU3x3nsfQFWpwWQB8oxtXb1tE8VztiW9KR8JEeu2nCfPBtTp1PT8wm5U-qKhwphQKXXM=",
-      "domain": "vertexaisearch.cloud.google.com"
-    },
-    {
-      "title": "ballotpedia.org",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHd1Mur-xEOxm3ei_xZq12vxqDANikGJeB9u0k4Fg8xrngmaEFLIxMgPf-XF2JkBIzXS2TfoNg19cmD5UXXfZEiZ2Ki5yT1BNhjmtWV82KwV01C8aQ2vpM74MRqE5FfVfOF1u50aBZntr15x-QxChOmgJwoDD40dH4M9ky24BjEOAoVJBvk2Q==",
-      "domain": "vertexaisearch.cloud.google.com"
-    }
-  ],
+  "reasoning": "Recent polling for the open 2026 U.S. Senate race shows Democrat Chris Pappas consistently leading Republican John E. Sununu by narrow margins, including 47% to 44% in a June UNH poll and 47% to 41% in a June Saint Anselm poll. While Republican Governor Kelly Ayotte leads her state-level gubernatorial race by single digits, federal elections favor Democrats, who have held both Senate seats since 2017 and won the state by roughly 3 points in the 2024 presidential election.",
+  "as_of_date": "2026-08-02T17:27:22",
+  "sources": [],
   "abbreviation": "NH",
-  "_cached_at": "2026-08-01T16:01:26.910885"
+  "_cached_at": "2026-08-02T17:27:22.956783"
 }

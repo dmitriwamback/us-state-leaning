@@ -1,11 +1,11 @@
 {
   "state": "Virginia",
   "lean": "D",
-  "confidence": 0.3,
-  "basis": "historical_baseline",
-  "reasoning": "No current polling or federal race data from the last 45 days (since June 17, 2026) could be retrieved, requiring a fallback to historical baselines. In the most recent major federal cycle (2024), Virginia maintained its Democratic lean, with the Democratic presidential ticket winning the state by approximately 5.8% and incumbent Senator Tim Kaine winning re-election by about 8.4%.",
-  "as_of_date": "2026-08-01T18:41:23",
+  "confidence": 0.95,
+  "basis": "current_polling",
+  "reasoning": "Incumbent Senator Mark Warner (D) holds a massive advantage in current polling averages, leading Republican frontrunner Bert Mizusawa 51.6% to 31.7% (+19.9 points) as of August 1, 2026. Major political forecasters rate the race as Solid Democratic, while prediction markets show a 96% probability of a Democratic victory in November. The Republican primary on August 4, 2026, features three low-profile candidates (Mizusawa, Kim Farington, and David Williams) who severely lag behind the incumbent in both fundraising and statewide name recognition.",
+  "as_of_date": "2026-08-02T17:10:43",
   "sources": [],
   "abbreviation": "VA",
-  "_cached_at": "2026-08-01T18:41:23.007423"
+  "_cached_at": "2026-08-02T17:10:43.462445"
 }
