@@ -14,3 +14,10 @@
 
 ### Data compiled from Gemini 3.5 Flash (as of August 2nd 2026)
 <img width="2230" height="1148" alt="Image" src="https://github.com/user-attachments/assets/8f2bd563-6da4-4bf3-9ce3-c9a6124578ee" />
+
+## How to run
+
+<ul>
+    <li>1. <code>python app.py</code> in the predictor directory.</li>
+    <li>2. <code>npm run dev</code> in the repo directory.</li>
+</ul>
