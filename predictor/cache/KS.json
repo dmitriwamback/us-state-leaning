@@ -3,9 +3,9 @@
   "lean": "R",
   "confidence": 0.85,
   "basis": "current_polling",
-  "reasoning": "Incumbent Republican Senator Roger Marshall holds a steady lead in the general election matchups, with polling averages as of August 1, 2026, placing him ahead of his leading Democratic challenger, pastor Adam Hamilton, by 54% to 46% (R+8). Major forecasters like Sabato's Crystal Ball rate the race as Safe Republican, and Pollsmax models project a final margin of R+11.3. Although Hamilton has run a strong primary campaign and raised $3.6 million in the second quarter, the overall polling and modeling strongly favor the Republican incumbent.",
-  "as_of_date": "2026-08-02T17:07:22",
+  "reasoning": "Recent polling from Pollsmax as of August 1, 2026, shows Republican incumbent Roger Marshall leading Democratic frontrunner Adam Hamilton by an average of 8 percentage points (54.0% to 46.0%). Despite a strong fundraising push from Hamilton, major political forecasters like Sabato's Crystal Ball and Cook Political Report continue to rate the race as Safe or Solid Republican.",
+  "as_of_date": "2026-08-02T18:46:43",
   "sources": [],
   "abbreviation": "KS",
-  "_cached_at": "2026-08-02T17:07:22.765653"
+  "_cached_at": "2026-08-02T18:46:43.180714"
 }

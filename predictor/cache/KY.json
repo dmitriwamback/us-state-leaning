@@ -3,30 +3,9 @@
   "lean": "R",
   "confidence": 0.9,
   "basis": "historical_baseline",
-  "reasoning": "With no head-to-head general election polling released in the last 45 days for the Senate race between Republican nominee Andy Barr and Democrat Charles Booker, the state's partisan lean relies on historical baselines. In Kentucky's last U.S. Senate race in 2022, Booker lost to Republican incumbent Rand Paul by a landslide 23.6 percentage points (61.8% to 38.2%). Nonpartisan election forecasters unanimously rate this open seat to replace retiring Senator Mitch McConnell as Solid/Safe Republican, while prediction markets show Barr with a 94% chance of winning.",
-  "as_of_date": "2026-08-02T17:31:02",
-  "sources": [
-    {
-      "title": "pollsmax.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH7fat_RNrIx5D5UkXN1k8KIpHD7WXFyTqwcVtjod4emKz3uhWRXdBo39MQ8exBWKXHsqLa3VjFuZqA9gwpVmNSP5osUwzKKHBIh9FGuUh9w6ZZh-XafmgoD-SGY9CMbA==",
-      "domain": "vertexaisearch.cloud.google.com"
-    },
-    {
-      "title": "wikipedia.org",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzOVmj7hmDGjzjXBWeHLwhmWV7DtgJwOOZMQPrviesJ9Jujtc6CndkOqA4JZVawssTPZhOgDCnXp-WgcXql5fd4dfIDKlAoExSr79-ygySg9XxuF8ctmFkb6Oz03OQGJ9aDFWEhQmypU-LGrvaRHbKGsGdsa_KdfIBbDRedjMbDr-7",
-      "domain": "vertexaisearch.cloud.google.com"
-    },
-    {
-      "title": "wikipedia.org",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHRD1BgqKjshlsMPr-jLdnSz269YcLs_IXe9BhwHHJLqDGOcB1R2yzI5K-aiDCj10Yr0dtFBe-G3E579QSFG6NdcvTgAyLOFhccpqTP6dmXO7UKhwWQ2lVXmOe8iYFfNNRgpEZUQ5oM-jdZK3_6cv2cRuTvV8apfOg=",
-      "domain": "vertexaisearch.cloud.google.com"
-    },
-    {
-      "title": "predictionedge.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQELmAMAj0kFhuqOvRa2Y9HWRe3mWImY6BYiXp8AheuonL1H94jwkOB0DvZxgT7QHgJXKM79e2dmVeijcWdLcXaCTNPLD5u6qYHU1ujFBYE3z-2LACnYOu0LFlG0_lOnBcAElmE9W1lv8ivPVqgLpCXcTJUzPRdl8qw8_8ICiZ5Z7amaaf3BPEo=",
-      "domain": "vertexaisearch.cloud.google.com"
-    }
-  ],
+  "reasoning": "With no recent polling in the last 45 days for the 2026 Senate race between Republican Andy Barr and Democrat Charles Booker, the state's baseline is heavily lopsided. In the 2024 presidential election, Donald Trump won Kentucky by 30.53 percentage points (64.47% to 33.94%), while in the 2022 Senate race, Booker lost by 23.6 points to Rand Paul. Nonpartisan rating agencies classify this open seat to replace retiring Mitch McConnell as Solid/Safe Republican, indicating a very strong GOP lean.",
+  "as_of_date": "2026-08-02T18:47:10",
+  "sources": [],
   "abbreviation": "KY",
-  "_cached_at": "2026-08-02T17:31:02.139040"
+  "_cached_at": "2026-08-02T18:47:10.221886"
 }

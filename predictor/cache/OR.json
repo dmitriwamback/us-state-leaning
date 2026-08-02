@@ -3,9 +3,9 @@
   "lean": "D",
   "confidence": 0.85,
   "basis": "historical_baseline",
-  "reasoning": "In federal races, Oregon maintains a strong Democratic lean; the 2026 U.S. Senate race between incumbent Democrat Jeff Merkley and Republican David Brock Smith is rated Solid/Safe Democratic by all major nonpartisan forecasters with no named-candidate polling indicating a competitive race. While state-level races are tight\u2014with a June 2026 gubernatorial poll showing Republican Christine Drazan leading Democratic Governor Tina Kotek 48% to 44%\u2014federal elections remain insulated, consistent with Oregon's historical margins of D+14.1 in the 2024 presidential race and Merkley's 18-point victory in 2020.",
-  "as_of_date": "2026-08-02T17:25:41",
+  "reasoning": "With no general election polling published in the last 45 days for the 2026 matchup between Democratic incumbent Jeff Merkley and Republican David Brock Smith, Oregon remains a strong Democratic state. Kamala Harris won the state by 14.3 percentage points in 2024, and Merkley won his last Senate race in 2020 by 17.6 points. Major nonpartisan forecasters continue to rate the 2026 Senate race as Solid or Safe Democratic due to this consistent double-digit baseline.",
+  "as_of_date": "2026-08-02T18:55:35",
   "sources": [],
   "abbreviation": "OR",
-  "_cached_at": "2026-08-02T17:25:41.609378"
+  "_cached_at": "2026-08-02T18:55:35.839217"
 }

@@ -3,9 +3,30 @@
   "lean": "R",
   "confidence": 0.95,
   "basis": "current_polling",
-  "reasoning": "Recent reports from June 2026 highlight that Republican incumbent Tom Cotton holds a commanding 22-point lead (58% to 36%) over Democrat Hallie Shoffner in the U.S. Senate race. Cotton also holds an overwhelming financial advantage, possessing over $9.7 million in cash compared to Shoffner's $578,000. Meanwhile, prediction markets favor incumbent Governor Sarah Huckabee Sanders with a 94% chance of winning reelection in this deeply red state.",
-  "as_of_date": "2026-08-02T17:31:56",
-  "sources": [],
+  "reasoning": "Polling averages updated in August 2026 and news reports from late June 2026 show incumbent Republican Senator Tom Cotton holding a commanding 18 to 22-point lead (58% to 36%) over Democratic challenger Hallie Shoffner. Cotton also maintains a massive fundraising advantage with over $9.7 million in cash on hand compared to Shoffner's $578,000. Similarly, the gubernatorial race heavily favors incumbent Republican Sarah Huckabee Sanders over Democrat Fredrick Love in this safely red state.",
+  "as_of_date": "2026-08-02T18:40:01",
+  "sources": [
+    {
+      "title": "pollsmax.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGpl90mgmN_0ywMss8a-mSadxK92CI4Z5NF1Qm4fKbiT7IE3LjUmUXdcNl6Y5yVM63cDnxtk3ZRmdNKGoBMa1cLQIOVGTwqFXCgd4BOKYN4N8kausE3sCA1oD0pEXKaA==",
+      "domain": "vertexaisearch.cloud.google.com"
+    },
+    {
+      "title": "predictionhunt.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEex6yeSeyvoMCJDnMJLz414qo6ZQ2ihGtjcPowbg6leD3HeOFHAizxHtTZ4qp-REwBfOh5BQ2Dp6_iSLx2BcnLnKpL8x38O3X_XOQqP3_Dhte-RVz9N6NxcEVFjiy0gVIzdKLefpDTwVpPsJesi8egI0nWFKnK0xKUk8Njztm0B9vuMya5woE4eLmyNX96nlsyS8hMrg==",
+      "domain": "vertexaisearch.cloud.google.com"
+    },
+    {
+      "title": "multistate.us",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwgxrEh1V22inqVgDa5n_xF1wl6Sq3RA5WYvKNYJiTSbtQzN6Ia4_0RaU4ucdZbePnOKNeMyv4ejLq1hE8apvTOpllRxWz2PNaf-hPFgoOuDMgOch1QbX1zVmkRqrgxRcd16oadB0rQQ==",
+      "domain": "vertexaisearch.cloud.google.com"
+    },
+    {
+      "title": "newsfromthestates.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-hVNcwAOoiVAt2SfQ3h03CSROhIUw9aJPejJpdEd_mGIWAL0BxJCF1sSQlblFeIVPyp8z9ORi_CswZlHj46U7elqPesilEjWw1mpvV7kbJKXxqbWFUQG4HgfhmvVScf5e41x4cBogo64yBkzJ7R1KPWX4p-NO0yItEPFqAzvEYokCRBDb_-JR_AJEv7Si0_-O",
+      "domain": "vertexaisearch.cloud.google.com"
+    }
+  ],
   "abbreviation": "AR",
-  "_cached_at": "2026-08-02T17:31:56.221520"
+  "_cached_at": "2026-08-02T18:40:01.948894"
 }

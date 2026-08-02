@@ -1,11 +1,11 @@
 {
   "state": "New Hampshire",
   "lean": "D",
-  "confidence": 0.65,
+  "confidence": 0.75,
   "basis": "current_polling",
-  "reasoning": "Recent polling for the open 2026 U.S. Senate race shows Democrat Chris Pappas consistently leading Republican John E. Sununu by narrow margins, including 47% to 44% in a June UNH poll and 47% to 41% in a June Saint Anselm poll. While Republican Governor Kelly Ayotte leads her state-level gubernatorial race by single digits, federal elections favor Democrats, who have held both Senate seats since 2017 and won the state by roughly 3 points in the 2024 presidential election.",
-  "as_of_date": "2026-08-02T17:27:22",
+  "reasoning": "In polling from late June 2026, Democrat Chris Pappas consistently leads potential Republican nominees for the open U.S. Senate seat, holding a 3 to 6 point lead over John E. Sununu (47% to 41% in a Saint Anselm poll, 47% to 44% in a UNH poll) and a double-digit lead over Scott Brown. Reflecting this consistent edge, major forecasters like the Cook Political Report and Sabato's Crystal Ball rate the race as Lean Democratic.",
+  "as_of_date": "2026-08-02T18:52:15",
   "sources": [],
   "abbreviation": "NH",
-  "_cached_at": "2026-08-02T17:27:22.956783"
+  "_cached_at": "2026-08-02T18:52:15.107911"
 }

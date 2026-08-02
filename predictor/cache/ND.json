@@ -3,9 +3,9 @@
   "lean": "R",
   "confidence": 0.9,
   "basis": "historical_baseline",
-  "reasoning": "With no Senate or gubernatorial elections in North Dakota in 2026, and zero recent polling available for the At-Large U.S. House race between Julie Fedorchak (R) and Trygve Hammer (D), the state's partisan lean relies on recent historical margins. In the 2024 elections, Donald Trump won the state by 36.45 percentage points, and Fedorchak secured her House seat by a 38.88-point margin. This massive, uncontested baseline establishes a highly confident Republican lean with absolutely no indicators of competitive change.",
-  "as_of_date": "2026-08-02T17:08:33",
+  "reasoning": "With no Senate or gubernatorial races in North Dakota in 2026, the statewide federal landscape is defined by the U.S. House At-Large rematch between Republican incumbent Julie Fedorchak and Democrat Trygve Hammer. The historical baseline from 2024 shows a landslide 38.8-point victory for Fedorchak (69.2% to 30.4%). Campaign finance reports from July 2026 confirm a massive fundraising advantage for Fedorchak ($1.73 million vs. $190,000) and no active polling, indicating a heavily lopsided Republican lean.",
+  "as_of_date": "2026-08-02T18:51:25",
   "sources": [],
   "abbreviation": "ND",
-  "_cached_at": "2026-08-02T17:08:33.648809"
+  "_cached_at": "2026-08-02T18:51:25.453858"
 }

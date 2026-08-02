@@ -1,11 +1,11 @@
 {
   "state": "Maine",
   "lean": "Toss-up",
-  "confidence": 0.6,
+  "confidence": 0.8,
   "basis": "current_polling",
-  "reasoning": "The U.S. Senate race between Republican incumbent Susan Collins and recently nominated Democrat Troy Jackson is currently a statistical tie. A University of New Hampshire poll from July 15-20, 2026, shows Jackson holding a narrow 49% to 46% lead, falling within the poll's 2.8% margin of error and leaving major analysts rating the race as a toss-up.",
-  "as_of_date": "2026-08-02T17:28:23",
+  "reasoning": "A July 2026 UNH Survey Center poll shows Democratic nominee Troy Jackson with a narrow 49% to 46% lead over Republican incumbent Susan Collins, which is within the survey's 2.8% margin of error. Nonpartisan forecasters like Cook Political Report and Sabato's Crystal Ball currently rate this highly competitive Senate race as a Toss-up.",
+  "as_of_date": "2026-08-02T18:48:34",
   "sources": [],
   "abbreviation": "ME",
-  "_cached_at": "2026-08-02T17:28:23.768328"
+  "_cached_at": "2026-08-02T18:48:34.433749"
 }

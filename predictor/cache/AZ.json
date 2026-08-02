@@ -1,22 +1,27 @@
 {
   "state": "Arizona",
-  "lean": "Toss-up",
+  "lean": "D",
   "confidence": 0.6,
   "basis": "current_polling",
-  "reasoning": "Recent primary election results and analysis from July 2026 indicate a highly competitive federal election environment in Arizona. Major non-partisan election handicappers, including Cook Political Report, Inside Elections, and Larry J. Sabato's Crystal Ball, rate two key U.S. House districts (CD1 and CD6) as 'Toss-up' races for the upcoming general election. CD1, in particular, has demonstrated swing voter behavior, voting for Joe Biden in 2020 and Donald Trump in 2024. While there are no recent statewide federal polls (Senate/Presidential) available, the expert analysis of these competitive House races suggests a balanced partisan lean statewide.",
-  "as_of_date": "2026-08-01T16:41:28",
+  "reasoning": "Incumbent Governor Katie Hobbs (D) maintains a consistent lead over Republican nominee Andy Biggs (R) following the July 2026 primaries. According to late July 2026 averages, Hobbs leads Biggs by 5 percentage points (44.3% to 39.3%) in RealClearPolling, and holds a 4-point lead (41% to 37%) in the Noble Predictive Insights poll. However, the race is expected to remain highly competitive, as Donald Trump previously carried the state by 5.5 points in 2024.",
+  "as_of_date": "2026-08-02T18:40:26",
   "sources": [
     {
-      "title": "ballotpedia.org",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHr22Mdpq08tr7O1WM74pnf3dKsmr5tsyZGL4IcjA2MNXgDaJFsYCVVMzoNbTGmJ4oCvMoho3wAu3Yky1VPRWxAWFpfbDT5AqG1QxnBAdh9aceTSFKXHH95bR2NgmOcaat0b95sC3iyzjGSHmxcfN8iWow=",
+      "title": "multistate.us",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGVlG6KZ0fvgDAlK2peu57CqrMR-RlJO6RSB-h-PGvhMyNQ5EJuSzRWhZUtTa6-KWmRTKKcRjUoTOI3lplzkIX7gVJtpU4FvRm6Jx_qR07qDFLTJ-94hiL4QaNKCdc-F1ombg==",
       "domain": "vertexaisearch.cloud.google.com"
     },
     {
-      "title": "rutgers.edu",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdXLHUL3vqgaGcmgmx7MwWLKdll2z9pvvnlwM3oBs6R8_fgBB4EsnvCFCURmUqn_NmEZbBSPCGMo1zVk5_Zp8wqcWl65SX1kvb6ylz0FPkReEJsZ9FuxrSsOupk145LA8E2Oa4WEjEKcP5LSYVVfm1Eppio9Iv-wZMtw==",
+      "title": "theguardian.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMNAu6UDPo4JtwOYkaxPYMTMWfHF_iAeyILiXSBojaihT-THZTYLcFVMLXtJxIHZMW1ttD9YdDhhDpQLdheZfCPqqivDFNEgiRW1tKC9YuuaCdSItUriKIl50oIRkQ__6s0pFRxxsU3knuuGMDiYOhc6YwNp8qSNZXgOoJP4T1L2fa__uj_my6C8HmNsd_y0_pt52pHqg=",
+      "domain": "vertexaisearch.cloud.google.com"
+    },
+    {
+      "title": "newsweek.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEzkcmMWr9jsnqEgPRxN1XQCUwTwL8LoDYHRTs_BRItpYFW__kW1xwVhqAFcaojRMWrRcejrEId-GvwD7pjCC6VEUJWlh5Z77jQwkdzlpz3eE8_GZpV9FiBlgnEPN4GPp1iTR5k57Xx8ywpTFPi6QxiAlNEivntr6EkAHw3thedtid4xUy0RgXquVQCREDqitKfVgxH6_BrMwqOiVz-DfIa",
       "domain": "vertexaisearch.cloud.google.com"
     }
   ],
   "abbreviation": "AZ",
-  "_cached_at": "2026-08-01T16:41:28.571153"
+  "_cached_at": "2026-08-02T18:40:26.201705"
 }

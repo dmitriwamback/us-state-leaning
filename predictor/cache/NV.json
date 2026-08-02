@@ -1,11 +1,11 @@
 {
   "state": "Nevada",
   "lean": "Toss-up",
-  "confidence": 0.4,
+  "confidence": 0.5,
   "basis": "current_polling",
-  "reasoning": "Recent July 2026 polling for Nevada's highly competitive gubernatorial race shows incumbent Republican Joe Lombardo and Democratic challenger Aaron Ford locked in a dead heat, with a PPP poll showing a 44% to 44% tie and a Wedgewood poll placing Lombardo up by a narrow 50% to 47% margin. This neck-and-neck dynamic is mirrored by state voter registration data as of July 1, 2026, which shows Democrats holding a razor-thin lead of fewer than 15,000 registered voters out of over 1.3 million. Combined with Donald Trump's narrow 3.1-point victory in the state in 2024, the current data highlights Nevada's status as a premier toss-up battleground.",
-  "as_of_date": "2026-08-02T17:09:30",
+  "reasoning": "Recent July 2026 polling for the Nevada gubernatorial race shows a neck-and-neck contest, with a Public Policy Polling survey finding incumbent Republican Joe Lombardo and Democratic challenger Aaron Ford tied at 44%, and a Wedgewood poll showing Lombardo with a narrow 3-point lead (50% to 47%). These extremely tight margins across recent surveys indicate that the state's partisan lean is currently a toss-up.",
+  "as_of_date": "2026-08-02T18:53:55",
   "sources": [],
   "abbreviation": "NV",
-  "_cached_at": "2026-08-02T17:09:30.884797"
+  "_cached_at": "2026-08-02T18:53:55.521430"
 }

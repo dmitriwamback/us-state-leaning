@@ -1,22 +1,62 @@
 {
   "state": "Illinois",
   "lean": "D",
-  "confidence": 0.9,
-  "basis": "current_polling",
-  "reasoning": "The 2026 Illinois Senate race, featuring Democratic nominee Juliana Stratton and Republican nominee Don Tracy, is currently forecast as 'Solid D' with a projected vote of 60.0% for the Democrat and 40.0% for the Republican. This indicates a strong Democratic advantage for the upcoming federal election, building on Illinois' consistent Democratic lean in federal races, as Republicans have not won a Senate election in the state since 2010.",
-  "as_of_date": "2026-08-01T16:06:54",
+  "confidence": 0.85,
+  "basis": "historical_baseline",
+  "reasoning": "With no general election public polling published in the last 45 days, the state's lean is evaluated on its lopsided historical baseline, including a 10.9-point Democratic margin in the 2024 presidential race and a 12.5-point margin in the 2022 gubernatorial election. Nonpartisan handicappers like the Cook Political Report and Sabato's Crystal Ball continue to rate both the open Senate race between Juliana Stratton and Don Tracy and the governor's race between JB Pritzker and Darren Bailey as Solid/Safe Democratic. The total absence of competitive news or close polling indicates a highly stable and secure Democratic advantage.",
+  "as_of_date": "2026-08-02T18:45:54",
   "sources": [
     {
+      "title": "wikipedia.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5hw82quLPPjhIih8cA8UaECrlvfMuYJzcVShAxe31TdRgn6nRh4J_8K3RiF20HkqVX0rbwxUrvyRYFdax37_Ykt2STuF9CpgWuTwN8m9IXZVJNVpBEMm2yendjOHfDMEHxi5KoyFitizlxVEMWGrKDoyHoHC2AiI=",
+      "domain": "vertexaisearch.cloud.google.com"
+    },
+    {
       "title": "pollsmax.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-eg4TSG0UsC3Rcn9tWpr0qNKTv7hGt6v92C1UIcNgfz4BbQNYBnyQ_9S1vGgfqTQ4hddFGRnp-XSgYWq-4V0C2BGNyfAJl1aMd-BTUG5RWxF7wzKCH-528pSASdL4LO6cPIvNUUsTZNdSwSE=",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4WIdRXvDyMt2vEw_Ecn2DZm0PkrbiufIV0mCtFQo9wLRQEP-VIhmcOzOgqFmrYUOOZW3CEWQHiJ8-iDWFMu4wDHgorRuNq46b_7Ftv1jrFb2LWulSINpZHJkzf-g6Ciohbdf_QPNWWqOy",
+      "domain": "vertexaisearch.cloud.google.com"
+    },
+    {
+      "title": "multistate.us",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfLb4VHRMI-8kC7XY0RGWsQQ5j58Xn1dm3e_qzK-5r5kD_bA8EcTbQpuhEpfsLj59P9Zacx1QTfGgnX6PRiLwRnZkdp2YhYGW10bnASqSCB1_NGXiY_cUqJpdWoBjRPV1-N-eaJTZf_w==",
+      "domain": "vertexaisearch.cloud.google.com"
+    },
+    {
+      "title": "theillinoize.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFsKw_qdkrYXhNs739B8pEcSrjK8xeXH1GvYb0c3yKtpOzGJyRI8tyv6CaVoCadnx4Kfp5KICr_1aDG-V5DrQoik64pJNmy1YIL50HrUxLT2YGKp5uaTUyLrLLkfYM9QtFR3KJKFjaajytfXFzBpN3tC-7IcZFYi0ig6iuzX9PGRGu1",
       "domain": "vertexaisearch.cloud.google.com"
     },
     {
       "title": "wikipedia.org",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG1uakllRf4yT8qrArHVdq9Gb-8QXtkABpeY6UHZsI8v66JhToVEiB8cJ4tbsWDFu_lx0Hu7niVzk5g-GsLHfQXU1vPlM-ce6W0ZbMZl3M_YO9GtPYJ8dyEy1LUrGGvmjz1WHbAt1D4VTyWcs6zEWJH4rYjhDN3ZM9Ynj1TL7VfCArS91TYYQ==",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEi0uLlWdtpGiGrnnIVYTw63bSOurvTn-mSTxOTbGP7aHTD8AKifEn3FY07-SW5re_XDQDxEho665pyVPywD98Au43GN7jVwvU5Qo6IPCExkX1EOEQ6Lj9jK3IvRg_EWJ205O4dlp7TQAdRBgsiwVNlsSovSgSHZ4aW5Ll_nKjryGw3",
+      "domain": "vertexaisearch.cloud.google.com"
+    },
+    {
+      "title": "ballotpedia.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGlOrXNvWzmceknhPknwsr-02KcHy2CeYa3Xu5gmOXOio8gbLH12FxaFxVUL6pg8e2v_Y_SycN-qVU29rA9Nrgc4-m0y0DtBG8a7iQX-hzp6O6zq2smCkzhRE3t1OPawTVnxoiLPorHkCnJWYiyCkT3fZhgQg9Q7vOnhoiFTg==",
+      "domain": "vertexaisearch.cloud.google.com"
+    },
+    {
+      "title": "ballotpedia.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEC_ieJrFrdMdfPJPnRMOHY1w2PaAPiqxfbEL36d7V9za5-Hy1vl013SqugRFFyPNZPiRCMay3_1cBLeEKbtjUp5tB1CD7Q_lNuREPJGmZvJ98C7tvDxvtX2gF8fEg51e-JuEWdxM44vN5YIeGGXFUqFgzGgZF5_UAP7S3QQg==",
+      "domain": "vertexaisearch.cloud.google.com"
+    },
+    {
+      "title": "multistate.us",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVXrHqN3T9cIWULpUbXx5ovXYQtAceVDXT79beCcntkGV4ho10D5NUU02qDr4nOxG8bZpseSVBJ1vp48cfg4SCXvhPFfiDjiIl3wyFJMQLqWD6G_rckEpz7fM5xQgh127SPmQ=",
+      "domain": "vertexaisearch.cloud.google.com"
+    },
+    {
+      "title": "reddit.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHEqQrdLZi1HwQOU4LmU3s1Qhk_1oINqgNVtx3-rYXrgvSGsCtucgN3S5xrKL-t3R66b_t6C17SEUSM3FNv0c_O1NbEHReeHNtXV9uX9vddSzJ6nIRmDNRgVB7TrXHlTNs0pvA=",
+      "domain": "vertexaisearch.cloud.google.com"
+    },
+    {
+      "title": "wmbdradio.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbMGjFWXd99PYvsYRGcx7nYdteP4MaE3V3_cBroRaqTt4WHUHu0fhEZhoq8ZU9SqPNyXtUL4crqJQwL-49YNC9wuXBEukJXb0Qj7Sp9aqrQpSoPB2cFblhNbAwEiB0189f7MR9RM859xL9TlOmiCQJSlYb71YPxCiPY7LaNCJhJxzTTxCd9C9klILzZpT99TBFPUhfbi8gdQM7EUzqBwID4YCuYlRbRCeQAu4OXji2fgGgl440pKPmTP565bJWRDTo5w==",
       "domain": "vertexaisearch.cloud.google.com"
     }
   ],
   "abbreviation": "IL",
-  "_cached_at": "2026-08-01T16:06:54.810743"
+  "_cached_at": "2026-08-02T18:45:54.212927"
 }

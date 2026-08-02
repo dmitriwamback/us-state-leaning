@@ -1,11 +1,11 @@
 {
   "state": "Delaware",
   "lean": "D",
-  "confidence": 0.5,
+  "confidence": 0.9,
   "basis": "historical_baseline",
-  "reasoning": "No public polling or major federal election news has been published for Delaware within the last 45 days. The assessment falls back on historical baseline data from the 2024 presidential and senatorial elections, where Democratic candidates consistently won by double-digit margins.",
-  "as_of_date": "2026-08-01T18:41:41",
+  "reasoning": "While no direct head-to-head polling has been released in the last 45 days for the 2026 Senate race between Democratic incumbent Chris Coons and Republican challengers like Michael Katz, the state's historical baseline is heavily lopsided. Coons won his 2020 race by 21.5 percentage points, and the 2024 presidential margin was D+14.7%. Additionally, major forecasters like the Cook Political Report and Sabato's Crystal Ball continue to rate the seat as Solid/Safe Democratic as of late July 2026.",
+  "as_of_date": "2026-08-02T18:42:36",
   "sources": [],
   "abbreviation": "DE",
-  "_cached_at": "2026-08-01T18:41:41.343315"
+  "_cached_at": "2026-08-02T18:42:36.804081"
 }

@@ -3,9 +3,9 @@
   "lean": "D",
   "confidence": 0.9,
   "basis": "current_polling",
-  "reasoning": "A University of New Hampshire poll conducted June 18-23, 2026, shows Democratic incumbent Jack Reed leading likely Republican challenger Raymond McKay by 17 percentage points (52% to 35%). This stable margin, which closely mirrors an 18-point lead in April polling, indicates a highly lopsided race in favor of the Democratic candidate.",
-  "as_of_date": "2026-08-02T17:28:01",
+  "reasoning": "A June 2026 UNH Survey Center poll shows Democratic incumbent Senator Jack Reed holding a commanding 17-point lead (52% to 35%) over Republican challenger Raymond McKay. This strong federal polling is reinforced by the state's gubernatorial race, where Democratic frontrunner Helena Foulkes leads potential general election opponents by double digits. Additionally, these numbers align with Rhode Island's 2024 presidential baseline, which Democrats won by 13.7 points.",
+  "as_of_date": "2026-08-02T18:56:27",
   "sources": [],
   "abbreviation": "RI",
-  "_cached_at": "2026-08-02T17:28:01.476082"
+  "_cached_at": "2026-08-02T18:56:27.411966"
 }

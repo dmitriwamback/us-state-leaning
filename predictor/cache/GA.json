@@ -3,30 +3,9 @@
   "lean": "D",
   "confidence": 0.8,
   "basis": "current_polling",
-  "reasoning": "Recent polling for the 2026 Senate election in Georgia indicates a clear Democratic lead. An AARP poll from July 23, 2026, shows incumbent Democrat Jon Ossoff leading Republican Mike Collins 52% to 43% among likely voters. The polling average as of August 1, 2026, also shows a Democratic lead of 6.7 points (49.5% D / 42.8% R). Democratic Senator Ossoff also demonstrates a significant fundraising advantage over his Republican challenger.",
-  "as_of_date": "2026-08-01T16:16:42",
-  "sources": [
-    {
-      "title": "aarp.org",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGsfiw6o5fnE8tEhMLhKQgVPl1ev7hpM-PbKv3Taa12ioJzmNjevm4PwzLBypU7tMd9if6JzAS02fsnV4S1r-Blpi36WJsBwEoM9uwOh1ndWsT6kwi_3ZpMle5BIxK_BjFAWf-vp7d57pKbs_ezOxdAcBDu6WXp6Q==",
-      "domain": "vertexaisearch.cloud.google.com"
-    },
-    {
-      "title": "pollsmax.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFG-M4EZikU-eqauUrBr80VNdvG5hy8iakQa2aSvFBMijvq9bDDkx-JupLofAAjuOmM3049o_7VQk7CKi8_Nx4UtMeo1XTbHdSJSu2qqMyO9F3Y4RHl16ir8WlPLYTJjixBDkE=",
-      "domain": "vertexaisearch.cloud.google.com"
-    },
-    {
-      "title": "legis1.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEP3k94LSeB6WvQhRgZZXeQtCFRY-yI6Dq79I_7vxBAB_oOkGmVvXN5Qnatan15DjfnpzrspjI-oh79w_RIH3Y3iHksJIgRWX8kkcUDOFj_zWt_kl32Isa_LUlYuBIjuPg_MaT464lKR2NcNzyBk4Ib4V-66k-YytjG3aJa",
-      "domain": "vertexaisearch.cloud.google.com"
-    },
-    {
-      "title": "centerforpolitics.org",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYe5fq738-H_03fGhu3iPpfH-yK89wlEFoTq7O5ZP16C3vR0jtNhSN2LOwsp8WgceEizDKsVvLsyrwZlo4_-AU-VBX1zhe6vqRdZNxuFt6IpSKdkYuYoD7J7mmgtjb0qlnsw7Vl31T3OM9QogtVYpHxSNQ8dd8ZPySVh3IfzZHTDmElc50YG-13Qbfnc4d4XlPoWaDqr_q-vE=",
-      "domain": "vertexaisearch.cloud.google.com"
-    }
-  ],
+  "reasoning": "Incumbent Democratic Senator Jon Ossoff holds a consistent lead over Republican challenger Mike Collins, averaging 50.8% to 43.2% (+7.6%) in recent polls, including a 9-point lead (52% to 43%) in a mid-July AARP survey. Ossoff's strong polling and massive fundraising advantage\u2014raising over $20 million in Q2 2026 compared to Collins' $2 million\u2014led major forecasters to shift the race's rating to Likely Democratic.",
+  "as_of_date": "2026-08-02T18:43:49",
+  "sources": [],
   "abbreviation": "GA",
-  "_cached_at": "2026-08-01T16:16:42.440371"
+  "_cached_at": "2026-08-02T18:43:49.884364"
 }

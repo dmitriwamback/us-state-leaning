@@ -1,32 +1,11 @@
 {
   "state": "Pennsylvania",
   "lean": "D",
-  "confidence": 0.7,
+  "confidence": 0.85,
   "basis": "current_polling",
-  "reasoning": "Recent polling (June-July 2026) indicates a Democratic lean for federal elections in Pennsylvania, with Democrats holding a 6 to 12 point advantage over Republicans on the generic congressional ballot. President Trump's job approval rating in the state is also significantly underwater, with approvals ranging from 29-39% and disapprovals from 57-71%.",
-  "as_of_date": "2026-08-01T16:07:20",
-  "sources": [
-    {
-      "title": "fandmpoll.org",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVa6r7cMW6lZmLeSw-_43ViueCX30h87Z_Uztg9fXI1rmlVA7PJUyxjWEvZxyWSjnQr0XEgPi56YxG5hK0h4kwC13aQKgRKYel0vNABH3x6E_lp8kd1U2EzGL-Tsns9WikAXiqg_fRw3Sn0LuQfu6M5ETRbRF8S39-Q9mxtDQrwox-XIUc",
-      "domain": "vertexaisearch.cloud.google.com"
-    },
-    {
-      "title": "qu.edu",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDeBtHAPDhwpThpKx4UDaylk6Di1tvfxGErmefrqMWsKSKwrYKiA1Zh73r-g14DPs-IK_NElgzpTCXsKJXil0hxPbQ9VIJdWuv-IENzpSYriSj8hYgx9npeVOkbpHkOdryMb1-G9AkJGI=",
-      "domain": "vertexaisearch.cloud.google.com"
-    },
-    {
-      "title": "emersoncollegepolling.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFONBmAlYi_6_ttwlO2_DBdfaiF1UDbZMVz0FYS7gVVfbCK-U59-e3_X7jWkev6SRzXlhvgcN18Mf01TzX9qu0ybWPXs19yj6d9wbLAwCzK6EdtDyjIkZpXsCB5BK9n0BiDJAZM65nz0sLrizfkfBziyex--YA76W5OmgWswTRzauRXiYEelYYRThZQCRrUD1iNsMsGMc5G-aXxz-CbmfUgQHjrskU=",
-      "domain": "vertexaisearch.cloud.google.com"
-    },
-    {
-      "title": "youtube.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7WP53bq1zRCkJ1DPGLoxLZiaIdXX_W2pi2nh7tPPX3JZf7DKUpWUBcZr5EB0UFC0SSBgBc2A2Cm39udoeChLvE17iMyt_xQGwp4WveZe90nyYE_LNZWdWdgxciWgNDEmYZlpJEw==",
-      "domain": "vertexaisearch.cloud.google.com"
-    }
-  ],
+  "reasoning": "In the state's marquee 2026 race, incumbent Democratic Governor Josh Shapiro holds a commanding double-digit lead over Republican challenger Stacy Garrity. Recent July 2026 polls show Shapiro leading Garrity 53% to 28% in a PennLive survey and 53% to 40% in a Quinnipiac poll, indicating a clear and consistent Democratic advantage.",
+  "as_of_date": "2026-08-02T18:56:05",
+  "sources": [],
   "abbreviation": "PA",
-  "_cached_at": "2026-08-01T16:07:20.283263"
+  "_cached_at": "2026-08-02T18:56:05.935790"
 }

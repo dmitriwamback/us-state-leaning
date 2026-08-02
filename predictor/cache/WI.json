@@ -1,32 +1,32 @@
 {
   "state": "Wisconsin",
-  "lean": "D",
-  "confidence": 0.6,
+  "lean": "Toss-up",
+  "confidence": 0.5,
   "basis": "current_polling",
-  "reasoning": "Recent polling for the 2026 federal Senate race shows the Democratic incumbent leading by 0.9% (RealClearPolling, July 28, 2026). The gubernatorial race polling average is a virtual tie, D +0.2% (Pollsmax, August 1, 2026). A significant indicator of the current political environment is the April 2026 Wisconsin Supreme Court election, where a liberal candidate won by a substantial 20-point margin, demonstrating strong Democratic performance in a statewide contest.",
-  "as_of_date": "2026-08-01T16:16:08",
+  "reasoning": "Recent polling from late July 2026 shows an extremely tight race to succeed outgoing Gov. Tony Evers, with Republican Tom Tiffany leading Democratic frontrunner Francesca Hong by a narrow 43% to 40% in a Marquette Law School poll. Other general election polling averages and prediction markets show a virtual 50/50 tie, continuing the state's highly competitive trend after Donald Trump won it by only 0.9 points in 2024.",
+  "as_of_date": "2026-08-02T19:01:07",
   "sources": [
     {
-      "title": "centerforpolitics.org",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGntjXvNenc4xLGTIC2rvYrwLpWFBDhOFjLADRZBawx9oCbBbG4VcvFnvU9Y452HiBCW0feiVgNqp8Xx2pP3hF0bzw-mlbxJzaM07Z7gP7q1duLYHt-mu8jMborZ1jLkPvWti0v6PM_IhdIfoykI8oPxH7SKbzmGZWo9qrVofd-vl4OnH3agJqGNuBzyn0Udmk0Y77wn8bajXH-tEebaTUa96_UKIsueOgj4X0k",
-      "domain": "vertexaisearch.cloud.google.com"
-    },
-    {
-      "title": "wikipedia.org",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFCSyRcDCxZAPxZuP1KS7-NL_UqPIhreH7aSylAFyB3WsjhVQ5Wa09cmUyvEyPtSn4rwcQPavaGOGyCD0qbnt66aL4lGHWQkbTIiuzEh-cFGncTIPRpB0d3Rl00zMeWRTJaAL4OTkPH6XZgR_RWAfTC50xR2wF0CwkxnYHL6R8=",
+      "title": "marquette.edu",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHP3KKNd4tNzjYJGgsSUfglBk8rH2L5YA7fe3aj2I51NQY_F5ZUHAOat36SsJfh9STVDtL8DY8T4M1xMERn-sdHDsTiyWSCuXXCpngaxmvCi24FnsEN9OSNKwd25Uw4qNAG3yUfMR882Mo7lP2azau3YTSOd1uBqr-sIavbb2W8zkBNUbAEGrlwsCOA5UJohOg47xjC5rbJNb9Ptu_KlyfFN_UVaoXKlZR20bIVND9JDHnkaBRqNAazjeZlJqA1qRAFWgq_PYlKBcN4oYlRorUUg6DqI-_5pLIqwIHcAcvusPM4UqKpAWnHeV5EcqA=",
       "domain": "vertexaisearch.cloud.google.com"
     },
     {
       "title": "pollsmax.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHRXag_ttnvDVAVu9KhnjevLbjMFUac2beGaTkJdglwDTTQWBKIoh4x3LXgDYs2Qa-GyFiUSCKNpKI5KewdVgVsLSLM966bRuTfzMZHQnEFE1sWkcjv7cMio6gd7JiVeQqUcBXzXNJT",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFCgd_XI8Mn-HJZfUxwSgmVQAfJImTo27MgN8tMxEtt_U-OxjbPmiFbr_CsTLkH6GX-MzsGA4uo4aOmNfhYSeUe2JHqxvhPC1dm28W1AeBUPY4UjYXBcZgQfR98Ma4cJwH3Yg==",
       "domain": "vertexaisearch.cloud.google.com"
     },
     {
-      "title": "realclearpolling.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFohc2w2L2Gza5xu_AoMsJj7LHH-MrQUCeQNTY_gXvnoEwRd_F_MczYDbZ7QMXK7UEzu1i_nmlIFDX7QDnpmA5OMzrmRreRdtHhZ0N19T91ADcl2rS0DGK8ON2hrgGYBsXfhQkPqaHAqNsH6Syr",
+      "title": "kalshi.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGf5wSiH6BgJssYFxBo89ABf7kfWyO0j2OaFJsOOvzVFCEVn2exFbdtU9579g1kwQJ4yVTD-LSU7Y-PxXd9u3QWae5LPt8dAhP6GW-rxYiNqIPSWrMw3MABJ_SfPqx0BD3zLfhjC4YI40c_O653jv2KoCcoA7piY08P3_Qn",
+      "domain": "vertexaisearch.cloud.google.com"
+    },
+    {
+      "title": "wikipedia.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFCVqFVqC0i_kwDb-bnngH9HUZanBoJrz2ac1Pox9BHTEXmqC5kV6wGzz1ttC9BScE78j6NUSnVbGuhi3wc0g1ort98lFdr5SpLq43TQjLN1b_H9KgnYFCzB-MRxjdmB7WVC0fxdvAslA9gTEnAsRkpQM97sfeqoK-q",
       "domain": "vertexaisearch.cloud.google.com"
     }
   ],
   "abbreviation": "WI",
-  "_cached_at": "2026-08-01T16:16:08.543704"
+  "_cached_at": "2026-08-02T19:01:07.910587"
 }

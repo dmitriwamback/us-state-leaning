@@ -1,62 +1,37 @@
 {
   "state": "West Virginia",
   "lean": "R",
-  "confidence": 1.0,
+  "confidence": 0.9,
   "basis": "historical_baseline",
-  "reasoning": "While there are no recent (last 45 days) general election polls for federal races, the 2024 federal election results show an overwhelming Republican lean. Donald Trump won the 2024 presidential election in West Virginia by a 41.9% margin (70.0% to 28.1%), and Republican Jim Justice won the 2024 US Senate race by a 41.0% margin (68.8% to 27.8%). The May 2026 primaries for the upcoming Senate election also saw Republican incumbent Shelley Moore Capito win her primary decisively, further indicating the strong Republican advantage in the state.",
-  "as_of_date": "2026-08-01T16:05:18",
+  "reasoning": "With no current polling available for the 2026 Senate race between incumbent Republican Shelley Moore Capito and Democrat Rachel Fetty Anderson, the state's lean relies on historical baselines. In 2024, Donald Trump carried West Virginia by 41.9 percentage points (70.0% to 28.1%), while Capito won her 2020 reelection by 43.3 points (70.3% to 27.0%). Major rating agencies universally class the 2026 Senate matchup as Solid or Safe Republican.",
+  "as_of_date": "2026-08-02T19:01:30",
   "sources": [
     {
-      "title": "npr.org",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHiFMbONO6ShHq2aPVkqFKEH_hKO7A99SerpDPp-6-XvFC1hBYg6j4JoaE3afj8XgkpEHoi5EfF6iZl2EF0PyQYBxMxn6UV1HwTSZCu7GGWR8engzc-L2Hl64F_WWtoS7_E12kI8xpfwZTzjGzqRELoPl0KIaaV4g==",
+      "title": "wikipedia.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEyuIptxOFD2extqML7uRoCCGkBsLRCWd9blrRZ3tvvJ1gjRfA9EanBvuzJWEQhh2T7AVd6YJy0YkmRr0a_MY7MVgiiFOggjBMPmLPm177flDqxBNMsE1sHVjqwDlnuYuRvRBdONwwXvSdMP4C9_Nlvf2xIh8iow5b8WtR_KFLLekkG9dLNQGk=",
       "domain": "vertexaisearch.cloud.google.com"
     },
     {
-      "title": "apnews.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFDnf1N_1w68dp06pfp3pDOVwhD7QrPgglmeIqsfTh0z3Kf9NHeawX080ts3itGT_v67HZiOvXgFr1Q2b3veojj3c76RCfNNAc5ib0QGU9TXmrml1kUUyFuh-nx8SD7M4hifqvXOqHyNsK9Bgl0B2wNqNrN5b3Kb6vUAA==",
+      "title": "americanelectionhq.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOe5JvOK_PejFZ_x7lQcuUpRdy7YLhzTbpwS7curHW28O5qCZ-TT9rpsEushNXODm9CcxEHhT5ql26kHPGZXgt5z1yvFMqQfJ0_jdvHE-NPgdEzbFmJoJKx56I2Afo8YxwmaRLwqJOWSDlLOsTTO8A8k2EEXfVTPWFN9H9CJ7msQlAf74=",
+      "domain": "vertexaisearch.cloud.google.com"
+    },
+    {
+      "title": "grokipedia.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbs6cyibn78IXiEhogOZnaW-0RRewFjFGLwIJbnwZakFmCU-Xoy4fboDxO2rbjxAsP5_q-TMuwtCYaTHFelPgzCR3998MLwiJv_QmJaOVjVF-oVIcnMEl9OfiW40E94faSuB-FJp3J_LxkpnkCu1WvEtjfs7JawoiRiRIzQwA0PxmDxYjqLRNKBEA8",
       "domain": "vertexaisearch.cloud.google.com"
     },
     {
       "title": "wikipedia.org",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFr2uEcPmfCFEaV4LQya6tWGLKddxLdcOA0HvLwsZaP9fdV2AA8lez2LgFwRJnFfhxaowxRPK7lvM8-ud-Vusj_cSBcNex6bHaAOB1tCM0lvelBVZrMfsXHyxfUGs1pGvIDP4Ie6B-Oca7gwY5Jn7Snx7RHpisTpRKGsvAzTG6F3Vh6OzoM8f0V_P8yQ644GJVF",
-      "domain": "vertexaisearch.cloud.google.com"
-    },
-    {
-      "title": "wikipedia.org",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQ1vXwi7of8I2ikUcS1DwKpq92hsOE2jbiKYeJ4kQGrSV8GZpXEyUloNn5TvR4-33YTs8BRdlGt8iOmEttUbv_D7cgiNN_zLFVcsTM2VgVzIy7rWksvwWfe2h-IHYETNkkb0aNPBwY8bV_DDrom4GNLy_bXCNNIQoWQkxBu84UP9wCZP7F5WGM8x-W",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKzZAPmJiIvIDv65Gz-cZcUNgc3OLcaSwmdmv8McQJ4GCUSRt5yr63Ita9BmfUgWxqDDkzZvbe6TYurxRLYv8pXUVMf0D1X624mKRBb3MAshvNXZ9qfpQ7LcLnbdnCL2BQ7_yIPMhW83IXnP8YPqMk5RHpELMmIdSL4n2w_rYHOu9sEGKNss8=",
       "domain": "vertexaisearch.cloud.google.com"
     },
     {
       "title": "ballotpedia.org",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOnb6eAfAlvGkZKHKSHkY5uuw24nRR2TjOPQjogfpS__Jm-w1U1rDIHsA1E2_7mJa8NEr6xUUxplY1uZQmZ9AUbuCuNki8W14iiGYglbopnJs3kxpNPx1GCxCvE4tXWNDwgFvXSDMHBbEXHc2e11KErHQMZX_8NkCL27HTzA==",
-      "domain": "vertexaisearch.cloud.google.com"
-    },
-    {
-      "title": "ballotpedia.org",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOtY7JZOSFU4eQlFmQeGXRVsYkJUowNi03pMotyDxefr5fuB7g9a96b51QbK3lL1Cg66C0E9X9_Vb7sceYSE6BLCrZOx8tQKIMao-gxVxzVw2yIhD2X9llTT-cPLNzLwHUN6hvg0MQt0cxiVWXG1EL2EVDQNoTW6miPeZXaBo=",
-      "domain": "vertexaisearch.cloud.google.com"
-    },
-    {
-      "title": "ballotpedia.org",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsQazSGfKPvo8xTM56nlHG1Mpa10UyGygM7X0Rj5dVNgDeCCKW2HYlT2tP7F2dLcbO7_4_AFPgCVe5VQxs6D3Bam6zD6884VgACE-LnXMHSx8Xgt9mAOTaRCBLbcNhsL7Gu5XbGDcVKOp1QbspAXHZwflnisJoqfLaEpws5MJslHjbGX7V0w==",
-      "domain": "vertexaisearch.cloud.google.com"
-    },
-    {
-      "title": "mountainstatespotlight.org",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElnv-cdqxgREGd8VnsNf14mxrtK3vUdKeVNSeqd0qpc1UubI0iKaATrhMnZRbFGvQwERNJejPqQFtMmXJANJT7Sl-lSGfQk2P3umpX1Dy-5asD6E3ErvXhMhCUoW7V3Xwe3Q_YYi1pR1I_4v8ujfZ072FNPcjPVLfCb_5csZVt5pOU3x1NKQ==",
-      "domain": "vertexaisearch.cloud.google.com"
-    },
-    {
-      "title": "wikipedia.org",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFClWg-Q8fmAZ-okh_mFS7YvNvLAbg2XnRUMmIS8XEyXmUwfp9mEA826pbEU9Quy3jlw5TiyCUUNMGsRpNHHHvmJechQ453YnyKilP0lu9pONx-yX0QKHS_jJY8ZUuhfvWSP2wovZrqNuym8NHuTcHXu690hd7-yF0MIXNQyNp31YO_GBn2ExUo6AtN",
-      "domain": "vertexaisearch.cloud.google.com"
-    },
-    {
-      "title": "wvpublic.org",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2ljIhLhKuIX6GUkNFrmXF39pOjFFg1TyfGrxP30JFOkfC_V8p1VquylnnZwORlAQNqixerQxhXByneqDlGCW9owjI_PNoz9uWl3FEpchGg-klaOfq3OpmZd8JhsQ-cKWewhk4iFql32WJEvWKq_R2rcJc6iD1EQ9Gk61SKiHuKi8onwXFzZfcbOo4ugjDSCwk",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEybMj9-DBhKBTTNxmM79wjm03UrCSdynFJiEI5MxaK5grTnuP1j4Wv504n7iWm26ilMrCbp0W19nTPfTGzbb_Butc4HEl-XD_Y5NczLs1AQ67HG08zvZ4mKqv4MDnHrGuIZxSVolvO5oVddBaXNJFs-Bgd_ZYVIRMYzOyf8g1lrgZj5Qcm_wb5az1bs0B5dmmDMYTvgegWvxK9VmPsog==",
       "domain": "vertexaisearch.cloud.google.com"
     }
   ],
   "abbreviation": "WV",
-  "_cached_at": "2026-08-01T16:05:18.870180"
+  "_cached_at": "2026-08-02T19:01:30.194681"
 }

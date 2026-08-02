@@ -3,25 +3,9 @@
   "lean": "R",
   "confidence": 0.9,
   "basis": "historical_baseline",
-  "reasoning": "Indiana has no federal U.S. Senate or gubernatorial elections on the ballot in 2026, resulting in a lack of active named-candidate polling. Falling back to the 2024 historical baseline shows a lopsided Republican lean, where Donald Trump won the state by 18.96% (58.58% to 39.62%) and Republican Jim Banks won the Senate seat by 19.8% (58.6% to 38.8%).",
-  "as_of_date": "2026-08-02T17:29:43",
-  "sources": [
-    {
-      "title": "ballotpedia.org",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUPOzU6j0t3JbMQjMrzHBd50vaEJxoQq2Nd9NktXnd5Kfn1PjGRURgqv5I2VhK6TDkZau70cIZu6t7HpSeIEaTihLXA28MydP-jjVw1j4zy_NyIRRD3-uj4reXWbYiUOG8pak4Sg==",
-      "domain": "vertexaisearch.cloud.google.com"
-    },
-    {
-      "title": "ucsb.edu",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpYyeHyAl8QECsALdsbTP2tPWFDWsq_VPFE4Qsqdimnf75P5jNZXcaysR05ou1Ms6IkntMgbORvH--EMkUeguT7YHEqy7x8HPt_z8qIEVszboK-zu8PHdeqSLJHkpvoqL1Wa2DIooRbILu88Up-w==",
-      "domain": "vertexaisearch.cloud.google.com"
-    },
-    {
-      "title": "ballotpedia.org",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8SjuwiQ8bTM7N6aFomOHcrrE7pWk7EbSHCxGdnjvQtjaEQ6bB1dDgmw2eLgJsDTUkGLW6Gn2CoZ8aYg45wv8e8GRDPE31108kXMWI3RdHeD37tuS7IF7Zz1a3",
-      "domain": "vertexaisearch.cloud.google.com"
-    }
-  ],
+  "reasoning": "Since Indiana does not have a U.S. Senate or gubernatorial race on the ballot in 2026, the state's federal lean is evaluated using the most recent prior election results. In 2024, Donald Trump won Indiana by an 18.96% margin, and Republican Jim Banks captured the open Senate seat by a lopsided 19.87% margin. These landslide margins of nearly 20 points, combined with a lack of competitive news, indicate that Indiana remains a reliably Republican state.",
+  "as_of_date": "2026-08-02T18:46:20",
+  "sources": [],
   "abbreviation": "IN",
-  "_cached_at": "2026-08-02T17:29:43.305641"
+  "_cached_at": "2026-08-02T18:46:20.159476"
 }

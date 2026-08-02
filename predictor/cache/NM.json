@@ -1,42 +1,11 @@
 {
   "state": "New Mexico",
   "lean": "D",
-  "confidence": 0.9,
+  "confidence": 0.75,
   "basis": "current_polling",
-  "reasoning": "Recent race ratings from June 2026 and July 2026 consistently rate the 2026 US Senate election in New Mexico as 'Solid Democratic' or 'Safe Democratic'. Additionally, New Mexico voted for Kamala Harris by 6 percentage points in the 2024 presidential election, and Democrats hold all statewide executive offices and federal congressional seats.",
-  "as_of_date": "2026-08-01T16:05:53",
-  "sources": [
-    {
-      "title": "ballotpedia.org",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETaWynyB3SmUIpRxAR4NgB918LvqhVM_Q9IZ0Z43EZ57MOkfLjD3ZSxzRRkxJzsYTMXEq1fgZO-7x2T7xShK3crJg_c_VFUk-o49kq8FuaAOGy_x70y_mYFWu6d0qbUPIRIq8Rfk3TE4EA1E9vHkyM-mVF5d9_jm16ig0LmZE7t7WM--k=",
-      "domain": "vertexaisearch.cloud.google.com"
-    },
-    {
-      "title": "geoodds.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF_DLMGR0xIUyuId2R2KCgU_VZ5o-mdtuxnlND0wctrGkYvsapGzUI0wAeparFzDrStlOphySnpONz2UvJZxLIu3tkAqLt4i7W7uKJBUuilNxv9qmBm5tTBIKBXEtwCAWBfR8UX7wn_kajySOWBCg==",
-      "domain": "vertexaisearch.cloud.google.com"
-    },
-    {
-      "title": "wikipedia.org",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE9lSwZ2gJab2YjIWBlUpske0D-xxDkE1caWdGu2wvbLNVnwRgpeADNJ3gpPrR8v8VHrGPNGuI2ctfv76ed1QvuBXn241OE7Z11AqoG6R-NmVubHnwMUyDl01KPfiyMQc_HM3K6lX4YlZwVTBuLsgztcaTJKFfKEzibhlR6lDgiDB2D8aVqa6llVA==",
-      "domain": "vertexaisearch.cloud.google.com"
-    },
-    {
-      "title": "electionpredictionofficial.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEzIHTM6PrT1R7nCMBs2HZisEPHLQbNeWU3OPZmA4FwGmDqEUrvvmC2BkWisHgxfoDvNpFyOMLes-4ISezsu8_gpPwus5XtO_dLcwjJbSdmMWeTU6RTzkME01SabHHZuY2v8GRHwlyizt8woE-0IwFKe9Cc5aTl2-I8z70tNIrleTqn",
-      "domain": "vertexaisearch.cloud.google.com"
-    },
-    {
-      "title": "wikipedia.org",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFa_JmpztTOferftVRQsnRsExcWojL8e92VgyUc0hYSx8blUtxwNXM-QMJalKqlJHc-fceSLbP-tFOVuVp8RfGuiCoCAj64H55WY3c9T-PZOuJjXr9tuYy99uTIfoptcirfcvPPHn--SzADmZTr0hlg8eg=",
-      "domain": "vertexaisearch.cloud.google.com"
-    },
-    {
-      "title": "pollsmax.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNvWxAQm9BvufFLQ_aDbGzAkrDWFkSXEqzdhmixJqJXhLP16yFfJYxqSYg9wkYV1oHPScN7DRtJ3VBKTK40ZaCh14BrF1CBN5npSiyeM5FVT6bykHpr9ZToUoi6kttKXJdpPa4luZ1RZ9grSlRNFc51g==",
-      "domain": "vertexaisearch.cloud.google.com"
-    }
-  ],
+  "reasoning": "A July 13-15 gubernatorial poll shows a tight race with Democrat Deb Haaland leading Republican Gregg Hull 46% to 45%, though Haaland holds a massive fundraising advantage. In the federal Senate race, no recent polls exist, but incumbent Democrat Ben Ray Luj\u00e1n is a heavy favorite against underfunded write-in Republican Larry Marker. Consequently, major ratings agencies like Sabato's Crystal Ball continue to rate the state's federal and state-level contests as Safe Democratic.",
+  "as_of_date": "2026-08-02T18:53:31",
+  "sources": [],
   "abbreviation": "NM",
-  "_cached_at": "2026-08-01T16:05:53.453702"
+  "_cached_at": "2026-08-02T18:53:31.711316"
 }

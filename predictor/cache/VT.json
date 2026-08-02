@@ -1,11 +1,11 @@
 {
   "state": "Vermont",
   "lean": "D",
-  "confidence": 0.9,
+  "confidence": 0.95,
   "basis": "current_polling",
-  "reasoning": "Although there are no U.S. Senate or Presidential races on Vermont's 2026 ballot, a July 2026 University of New Hampshire poll for the state's federal U.S. House seat shows incumbent Democrat Becca Balint leading Republican Gerald Malloy by 32 percentage points (57% to 25%). This lopsided margin closely mirrors the 2024 presidential election baseline, where Democrat Kamala Harris won the state by 31.5 percentage points (63.8% to 32.3%).",
-  "as_of_date": "2026-08-02T17:27:02",
+  "reasoning": "A University of New Hampshire poll conducted July 15\u201320, 2026, shows incumbent Democratic Representative Becca Balint holding a lopsided 58% to 6% lead over Republican challenger Mark Coester for the state's federal House seat. Although popular Republican Governor Phil Scott leads his concurrent state-level matchup by 8 to 11 points in the same survey, Vermont remains overwhelmingly Democratic for federal elections, in line with its 31.2-point Democratic presidential margin in 2024.",
+  "as_of_date": "2026-08-02T19:00:13",
   "sources": [],
   "abbreviation": "VT",
-  "_cached_at": "2026-08-02T17:27:02.631116"
+  "_cached_at": "2026-08-02T19:00:13.760436"
 }

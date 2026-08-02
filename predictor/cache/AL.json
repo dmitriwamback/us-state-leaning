@@ -1,17 +1,11 @@
 {
   "state": "Alabama",
   "lean": "R",
-  "confidence": 1.0,
-  "basis": "current_polling",
-  "reasoning": "Alabama is strongly Republican for federal elections. The 2026 Senate race, featuring Republican Barry Moore and Democrat Everett Wess, is currently forecasted as 'Solid R' with a projected vote of 60.7% for the Republican candidate and 39.4% for the Democratic candidate. This aligns with the state's recent presidential election history, where Donald Trump won Alabama by a margin of +30.5% in 2024.",
-  "as_of_date": "2026-08-01T16:18:11",
-  "sources": [
-    {
-      "title": "pollsmax.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8K4GnDNmc9xMlh-NISv0Brd44OT8OO5GraqJjgiZebG_t9knTL1yFfMQ3goERpNRTTMe5TWtkjz6vPMcTys7n6KlUhu-N-BGDvih6EcVBKrC8_nnnYM5iREg-Fg14416VopV160stSj6T9Ew=",
-      "domain": "vertexaisearch.cloud.google.com"
-    }
-  ],
+  "confidence": 0.9,
+  "basis": "historical_baseline",
+  "reasoning": "Republican Barry Moore and Democrat Everett Wess are the nominees for the open 2026 U.S. Senate seat, but no head-to-head matchup polling has been published. Under the historical baseline, Alabama is a safe Republican state, evidenced by Donald Trump winning it by 30.6 percentage points in 2024 and Tommy Tuberville taking the 2020 Senate race by 20.4 points.",
+  "as_of_date": "2026-08-02T18:39:00",
+  "sources": [],
   "abbreviation": "AL",
-  "_cached_at": "2026-08-01T16:18:11.627747"
+  "_cached_at": "2026-08-02T18:39:00.438003"
 }

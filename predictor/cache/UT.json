@@ -3,9 +3,9 @@
   "lean": "R",
   "confidence": 0.9,
   "basis": "historical_baseline",
-  "reasoning": "With no Senate or Presidential elections on the ballot in Utah for the 2026 cycle, no recent federal polling has been conducted. The state maintains a highly lopsided Republican baseline, demonstrated by the 2024 results where Donald Trump won the state by over 20 percentage points and Republican John Curtis won his Senate race by over 28 points.",
-  "as_of_date": "2026-08-01T20:31:45",
+  "reasoning": "With no U.S. Senate or gubernatorial contests scheduled in Utah for the 2026 cycle, its partisan lean is assessed via the 2024 historical baseline. In the 2024 presidential election, Republican Donald Trump carried the state by a landslide margin of 21.6 percentage points (59.4% to 37.8%). This dominant performance is mirrored in the 2024 U.S. Senate election, where Republican John Curtis won by a lopsided 32.7 percentage points (62.0% to 29.3%).",
+  "as_of_date": "2026-08-02T18:58:51",
   "sources": [],
   "abbreviation": "UT",
-  "_cached_at": "2026-08-01T20:31:45.895219"
+  "_cached_at": "2026-08-02T18:58:51.286762"
 }

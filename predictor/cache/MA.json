@@ -1,42 +1,11 @@
 {
   "state": "Massachusetts",
   "lean": "D",
-  "confidence": 0.9,
+  "confidence": 0.95,
   "basis": "current_polling",
-  "reasoning": "Massachusetts demonstrated a strong Democratic lean in the 2024 federal elections, with Kamala Harris winning the presidential vote by 25 points and Senator Elizabeth Warren winning re-election with nearly 60% of the vote. For the upcoming 2026 Senate election, recent forecasts from July 29, 2026, indicate a 'Solid D' rating, projecting incumbent Democrat Ed Markey to win with 66.6% of the vote.",
-  "as_of_date": "2026-08-01T18:13:14",
-  "sources": [
-    {
-      "title": "apnews.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVefH75BB2rmE4NJEf7q9wsfbFYDWwIGLVEul8Y5DvGzZG4a4TGZ4dAC3DY51ZK91SRVSaFqR1cyxuX41ppJsFv6eZGqh-st62eMnZY0js3QeTub4epf7STA1AVo_btT8KOstpq91RA38DlieOFBYKLJXjYgalOH0ASW0=",
-      "domain": "vertexaisearch.cloud.google.com"
-    },
-    {
-      "title": "ballotpedia.org",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEwYsheGohr-IsR0F6dt_OVd-szAgM8XEKXsUmcPCQFRlvfeC8dTZWYWXyha_OqRFH9H4lDAEjTIAOn3G11brzAEgPSRZGeS_3iS1GFYFYIjGVHSlpqh7hcuWcwGSWTy-Cgza0-Ug919MAX72qGozodK_OrLeiwNtMwGOPzJldo",
-      "domain": "vertexaisearch.cloud.google.com"
-    },
-    {
-      "title": "wikipedia.org",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHjFUU95zNrVQSKHj-KR5jdtfDLObGPNUIGGI07LyOTaDTgE25gbMN2eyVYHyUO3dFrnkOgdBMzotSCPQfoRC8lHHGuEntNovcjqMHhvD505-ZXnxLUemQlnnud62W40mrNoDfQjssSw2XjQb2PlysIV_TC1nA_R54WPZJ4hOhtUbkh3RgVss2DYRpCwg==",
-      "domain": "vertexaisearch.cloud.google.com"
-    },
-    {
-      "title": "washingtonpost.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHjxJQKaeQg68X2dr1-v1ORvzZ4M536NE1sTI5SS_j-ZcIcn_3ek8WNiXe2J-s5wPjAuIoIITw4wUSLxbF4auymgg6NjWU5U2qEv9vo6vHfVKUvOZxAUuMR3X3t08qexkY03CbEHQ3CVv3EXf0GoR_0EuVRv0DMplN8v-jP3GK8jNRzNmdId08Kk_1nrA==",
-      "domain": "vertexaisearch.cloud.google.com"
-    },
-    {
-      "title": "wikipedia.org",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtCbgQSML-1wBt2JxdI1fv8AzltwSf74TfWjZkeWabaDfh-fpjLTImMq6T0rmVLOucNDXCUYH7DQuJingi2_4_LQfIz0Ha-K-xMnfdJE9unaVywxgecu0AoWm_JYhToO-2WpY1cU7b7THCbAPfrdIMggjhO-Nhnr3eNWe9kC9mPjNK7ShP0sDmGPE54tr8ayemzw==",
-      "domain": "vertexaisearch.cloud.google.com"
-    },
-    {
-      "title": "pollsmax.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElmdtp_tlShsn1Q3ecu5GKMzi5ocm9EWJrqouo_hgJ3_tcINKp3z0G7-a1Alfd1nTzwyqfArttHIlHCyw_OyQGx6lO3G9RoUHrS9C6-kEy-_oOm8SC4KmM8hu4mDPOIIy1endGA1gRqma4FJcJ8VETf_E=",
-      "domain": "vertexaisearch.cloud.google.com"
-    }
-  ],
+  "reasoning": "Recent polling from the UNH Survey Center in late June 2026 shows Democratic candidates with commanding double-digit leads in both federal and state-wide matchups. In the U.S. Senate race, incumbent Democrat Ed Markey leads Republican John Deaton by 16 points (50% to 34%), and primary challenger Seth Moulton leads Deaton by 20 points (50% to 30%). In the gubernatorial race, incumbent Democrat Maura Healey also comfortably leads Republican Michael Minogue by 18 points (50% to 32%).",
+  "as_of_date": "2026-08-02T19:02:34",
+  "sources": [],
   "abbreviation": "MA",
-  "_cached_at": "2026-08-01T18:13:14.307649"
+  "_cached_at": "2026-08-02T19:02:34.748028"
 }

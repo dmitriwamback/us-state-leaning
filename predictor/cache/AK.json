@@ -1,11 +1,11 @@
 {
   "state": "Alaska",
   "lean": "Toss-up",
-  "confidence": 0.5,
+  "confidence": 0.6,
   "basis": "current_polling",
-  "reasoning": "The 2026 Alaska Senate race is an extremely tight toss-up. A New York Times/Siena College poll from late June shows incumbent Republican Dan Sullivan leading Democrat Mary Peltola by just 2 points (47% to 45%), while a June Alaska Survey Research poll had Peltola leading by 5 points (49% to 44%). With a narrow Republican lead of only 0.9% in the overall polling average, neither candidate has established a clear advantage.",
-  "as_of_date": "2026-08-02T17:30:02",
+  "reasoning": "Recent polling from the New York Times and Siena College released July 1, 2026, shows incumbent Republican Dan Sullivan leading Democrat Mary Peltola by a narrow 47% to 45% among likely voters. The Pollsmax polling average as of August 1, 2026, reflects a similarly tight race with Sullivan at 46.7% and Peltola at 45.8%. Given these slim margins and Peltola consistently outraising the incumbent, the federal election lean is currently a toss-up.",
+  "as_of_date": "2026-08-02T18:39:34",
   "sources": [],
   "abbreviation": "AK",
-  "_cached_at": "2026-08-02T17:30:02.366098"
+  "_cached_at": "2026-08-02T18:39:34.414145"
 }

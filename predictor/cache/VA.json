@@ -1,11 +1,11 @@
 {
   "state": "Virginia",
   "lean": "D",
-  "confidence": 0.95,
+  "confidence": 0.9,
   "basis": "current_polling",
-  "reasoning": "Incumbent Senator Mark Warner (D) holds a massive advantage in current polling averages, leading Republican frontrunner Bert Mizusawa 51.6% to 31.7% (+19.9 points) as of August 1, 2026. Major political forecasters rate the race as Solid Democratic, while prediction markets show a 96% probability of a Democratic victory in November. The Republican primary on August 4, 2026, features three low-profile candidates (Mizusawa, Kim Farington, and David Williams) who severely lag behind the incumbent in both fundraising and statewide name recognition.",
-  "as_of_date": "2026-08-02T17:10:43",
+  "reasoning": "Incumbent Democratic Senator Mark Warner holds a dominant lead in 2026 election tracking, leading potential Republican challenger Bert Mizusawa by an average of 19.9 points (51.6% to 31.7%) as of August 2026. A Public Sentiment Institute poll from June showed Warner with a 50% to 33% lead over Mizusawa ahead of the August 4 Republican primary. Furthermore, major nonpartisan outlets such as Sabato's Crystal Ball and the Cook Political Report rate the Senate race as Solid/Safe Democratic.",
+  "as_of_date": "2026-08-02T18:59:33",
   "sources": [],
   "abbreviation": "VA",
-  "_cached_at": "2026-08-02T17:10:43.462445"
+  "_cached_at": "2026-08-02T18:59:33.490309"
 }

@@ -1,11 +1,11 @@
 {
   "state": "New Jersey",
   "lean": "D",
-  "confidence": 0.85,
+  "confidence": 0.6,
   "basis": "historical_baseline",
-  "reasoning": "No head-to-head polling has been released in the last 45 days between incumbent Democrat Cory Booker and Republican challenger Justin Murphy. However, Booker won his 2020 election by a landslide 16.3 percentage points (57.2% to 40.9%), and July 2026 prediction markets give him a 94% chance of retaining the seat. Major political raters continue to classify the race as Solid or Safe Democratic, reflecting a highly lopsided structural advantage for the incumbent.",
-  "as_of_date": "2026-08-02T17:28:50",
+  "reasoning": "With no head-to-head polling available between Democratic incumbent Cory Booker and Republican Justin Murphy, the assessment falls back on recent election results. In the 2024 federal elections, Democrats won New Jersey by single-digit margins, with Kamala Harris carrying the state by 5.91% and Andy Kim winning his Senate race by 9.62%. While Democrats have won every New Jersey Senate race since 1972, these relatively close recent margins justify a moderate confidence level in the fallback baseline.",
+  "as_of_date": "2026-08-02T18:52:53",
   "sources": [],
   "abbreviation": "NJ",
-  "_cached_at": "2026-08-02T17:28:50.288852"
+  "_cached_at": "2026-08-02T18:52:53.089639"
 }

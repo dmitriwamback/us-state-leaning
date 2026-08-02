@@ -1,11 +1,11 @@
 {
   "state": "North Carolina",
   "lean": "D",
-  "confidence": 0.75,
+  "confidence": 0.8,
   "basis": "current_polling",
-  "reasoning": "Recent July 2026 polling consistently shows Democrat Roy Cooper leading Republican Michael Whatley in the open Senate race, with a Fox News poll putting Cooper ahead 53% to 44% and a Public Policy Polling survey showing a 48% to 44% lead. In addition, major forecasters like the Cook Political Report and DDHQ have recently rated the race as Lean Democratic. Cooper's strong name recognition and significant fundraising advantage have allowed him to maintain a steady, multi-point edge over Whatley.",
-  "as_of_date": "2026-08-02T17:10:12",
+  "reasoning": "In the open 2026 U.S. Senate race, Democratic nominee Roy Cooper has held a consistent lead in all recent polling against Republican Michael Whatley. A Fox News poll conducted July 23\u201327 shows Cooper leading 53% to 44%, while a Public Policy Polling survey from July 10\u201311 has him ahead 48% to 44%. This gives Cooper an average advantage of 7.6 percentage points heading into August.",
+  "as_of_date": "2026-08-02T18:50:57",
   "sources": [],
   "abbreviation": "NC",
-  "_cached_at": "2026-08-02T17:10:12.142665"
+  "_cached_at": "2026-08-02T18:50:57.046847"
 }

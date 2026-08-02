@@ -1,32 +1,11 @@
 {
   "state": "Louisiana",
   "lean": "R",
-  "confidence": 0.8,
-  "basis": "historical_baseline",
-  "reasoning": "Despite a lack of recent (last 45 days) general election polling for the 2026 Senate race, Louisiana consistently leans Republican in federal elections. Donald Trump won the 2024 presidential election in Louisiana by a margin of 22% over Kamala Harris, and the state has voted Republican in all presidential elections since 2000. The most recent Senate election in 2022 also saw Republican incumbent John Kennedy re-elected with over 61% of the vote.",
-  "as_of_date": "2026-08-01T16:17:00",
-  "sources": [
-    {
-      "title": "wikipedia.org",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxz9C3bytqJEnFxiQMmbO8AYfBx14kivgztx9EV5N9gYQhqqSTdqQ5kyympsoVtRqbtm7z-FGkxe5_4V_lBb_6G-qbVBHODWhWxZvxbNKbS1mo-WyBFNbmGqUSN8Pweih5PdI-zCSeDUbac-m1t4xNDPK7nq-yF53rAIXKMFK9RhqZISxp76JB9r2BmP_9",
-      "domain": "vertexaisearch.cloud.google.com"
-    },
-    {
-      "title": "ballotpedia.org",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFq98mjgauZ1LvBxTQluB3aT_N7Hu8Yxf1QLwqSAXzYv5-J_8z3SNm7G8p4TWDes_byBw49qGuv60_xG2Lz3N-bfrMqc-FTK3A-7EP99LidSBzMhT9GfDx1-WHKge-F22--ghAOdn5KrePgYTMEx4ngAuSykDHOQ9bfhA==",
-      "domain": "vertexaisearch.cloud.google.com"
-    },
-    {
-      "title": "ballotwire.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHDJsap_dxSUyI4YmRMjvXbChoX3YOHwKj5OIpchfiPpZKT2BwBZUizWHj2hYYLr7dNxfKTk2eP0onBjNWUsWgAoikaWHR8qSUIzjQnafa16EwM91mDtLLf8o_rmXZSSn5-jtY3s0tpq9ivuu3jEPCR9A==",
-      "domain": "vertexaisearch.cloud.google.com"
-    },
-    {
-      "title": "ballotpedia.org",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF6OaAG9pq6bESNJ-yE-DWz-oiorF7PVRJSwSr7HU6201RhRFoOjkmkTtgerL_szAg4duJSDIvMXumBc2Fv8OWlhuiud_mOdG-M9tpV87cXSKhiC1mXTyd_ygRYi978qV0LUsjnvi_sQ7CB-OA1QtB1pk-3",
-      "domain": "vertexaisearch.cloud.google.com"
-    }
-  ],
+  "confidence": 0.95,
+  "basis": "current_polling",
+  "reasoning": "Republican Representative Julia Letlow and Democratic nominee Jamie Davis won their respective primary runoffs on June 27, 2026, to face off in the November general election. General election tracking from Electoral-vote.com shows Letlow leading Davis by 38 percentage points (59% to 21%). This massive advantage is also supported by Polymarket prediction odds, which give Republicans a 93% chance of winning the seat.",
+  "as_of_date": "2026-08-02T18:47:28",
+  "sources": [],
   "abbreviation": "LA",
-  "_cached_at": "2026-08-01T16:17:00.054281"
+  "_cached_at": "2026-08-02T18:47:28.366470"
 }

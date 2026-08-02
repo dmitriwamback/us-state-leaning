@@ -3,9 +3,9 @@
   "lean": "D",
   "confidence": 0.9,
   "basis": "historical_baseline",
-  "reasoning": "Because Hawaii has no U.S. Senate or presidential races on the ballot in 2026, its federal partisan lean is assessed using the lopsided 2024 election results as a baseline. In 2024, Democrat Kamala Harris won the state's presidential vote by 23.1 points (60.6% to 37.5%), and Democratic incumbent Senator Mazie Hirono secured reelection by a 41.9-point margin (70.9% to 29.0%). There are no recent polls or news indicating any competitive shift in the state's deeply entrenched Democratic lean.",
-  "as_of_date": "2026-08-02T17:30:25",
+  "reasoning": "In the most recent 2024 federal elections, Hawaii demonstrated a highly lopsided Democratic lean, with Kamala Harris winning the presidential vote by over 23 points (60.6% to 37.5%) and Senator Mazie Hirono winning re-election by nearly 42 points (70.9% to 29.0%). With no Senate or Presidential races on the ballot in 2026, there is no active federal polling, but current 2026 gubernatorial forecasts for incumbent Josh Green (D) continue to show Democrats in a safe, dominant position.",
+  "as_of_date": "2026-08-02T18:44:18",
   "sources": [],
   "abbreviation": "HI",
-  "_cached_at": "2026-08-02T17:30:25.570485"
+  "_cached_at": "2026-08-02T18:44:18.792135"
 }

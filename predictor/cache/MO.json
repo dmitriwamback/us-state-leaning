@@ -1,11 +1,11 @@
 {
   "state": "Missouri",
   "lean": "R",
-  "confidence": 0.8,
+  "confidence": 0.85,
   "basis": "historical_baseline",
-  "reasoning": "Since Missouri has no Senate or Presidential elections on the ballot in 2026, there is a lack of recent (last 45 days) statewide federal polling. However, historical data from the 2024 presidential election, where Donald Trump won the state by over 18 percentage points, and the 2022 Senate election, where Eric Schmitt won by over 13 points, establishes a highly reliable Republican baseline.",
-  "as_of_date": "2026-08-01T18:49:59",
+  "reasoning": "Missouri has no U.S. Senate or gubernatorial elections on the ballot in 2026, necessitating a reliance on recent historical results. In the 2024 presidential election, Republican Donald Trump won the state by an 18.41 percentage point landslide (58.49% to 40.08%), and Republican Senator Josh Hawley secured his seat by 13.8 percentage points. Polling from early 2026 continues to categorize Missouri as a solidly red state, with no signal of a partisan shift.",
+  "as_of_date": "2026-08-02T18:49:45",
   "sources": [],
   "abbreviation": "MO",
-  "_cached_at": "2026-08-01T18:49:59.205360"
+  "_cached_at": "2026-08-02T18:49:45.513520"
 }
