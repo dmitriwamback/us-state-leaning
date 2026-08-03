@@ -1,11 +1,11 @@
 {
   "state": "Texas",
   "lean": "Toss-up",
-  "confidence": 0.65,
+  "confidence": 0.5,
   "basis": "current_polling",
-  "reasoning": "Recent July 2026 polling indicates a highly competitive statewide environment in Texas. In the U.S. Senate race, a Fox News poll shows Democrat James Talarico leading Republican Ken Paxton by 51% to 48%, while a Texas Public Opinion Research poll has Talarico up 45% to 40%. Meanwhile, the gubernatorial race is essentially tied, with incumbent Republican Greg Abbott leading Democrat Gina Hinojosa by just 1 to 3 points across both surveys.",
-  "as_of_date": "2026-08-02T18:58:23",
+  "reasoning": "Recent polling shows a highly competitive U.S. Senate race between Democrat James Talarico and Republican Ken Paxton. A late-July Fox News poll shows Talarico leading Paxton 51% to 48%, while a mid-July Texas Public Opinion Research poll has Talarico ahead 45% to 40%. This follows a June University of Texas poll that showed a statistical tie with Paxton leading 43% to 42%.",
+  "as_of_date": "2026-08-03T11:27:20",
   "sources": [],
   "abbreviation": "TX",
-  "_cached_at": "2026-08-02T18:58:23.842129"
+  "_cached_at": "2026-08-03T11:27:20.032176"
 }

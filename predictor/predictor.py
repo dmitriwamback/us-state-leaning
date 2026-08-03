@@ -1,52 +1,15 @@
-"""
-predictor.py
-
-Agentic per-state political lean assessment using Gemini + Google Search grounding.
-
-Given a US state, uses Gemini with the Google Search grounding tool to find
-current polling, recent statewide election results, demographic trends, and
-fundraising signals, then produces a structured "current lean" verdict with
-real sources (extracted from the actual grounding metadata Gemini used, not
-self-reported by the model).
-
-Usage:
-    export GEMINI_API_KEY=...
-    python predictor.py "Texas"
-"""
-
-import sys
+import os
 import json
 import re
-from datetime import date, datetime
+from datetime import datetime
 from dataclasses import dataclass, field, asdict
 from typing import Optional
- 
-from google import genai
-from google.genai import types
- 
- 
-MODEL = "gemini-3.5-flash"
-RECENCY_DAYS = 45 # sources older than this are treated as 'outdated'
- 
- 
-@dataclass
-class Source:
-    title: str
-    url: str
-    domain: Optional[str] = None
- 
- 
-@dataclass
-class StateVerdict:
-    state: str
-    lean: str               # "D", "R", or "Toss-up"
-    confidence: float       # 0.0 - 1.0, distance from 50/50
-    basis: str              # "current_polling" | "midterm_swing" | "historical_baseline"
-    reasoning: str
-    as_of_date: str
-    sources: list = field(default_factory=list)
- 
- 
+from datetime import date
+
+from perplexity import Perplexity  # SDK name may vary
+
+MODEL = "sonar-pro"
+RECENCY_DAYS = 45
 
 SYSTEM_PROMPT = """You are a political data analyst. You will be asked to assess \
 the CURRENT partisan lean of a US state for federal elections (Senate/Presidential), \
@@ -104,67 +67,105 @@ def build_user_prompt(state: str) -> str:
         f"wrong information. Search first, then assess the current federal-election "
         f"partisan lean for {state}, following the rules in your system instructions."
     )
- 
- 
+
+@dataclass
+class Source:
+    title: str
+    url: str
+    domain: Optional[str] = None
+
+@dataclass
+class StateVerdict:
+    state: str
+    lean: str
+    confidence: float
+    basis: str
+    reasoning: str
+    as_of_date: str
+    sources: list = field(default_factory=list)
+
 def _domain_from_url(url: str) -> str:
     m = re.match(r"https?://(?:www\.)?([^/]+)", url)
     return m.group(1) if m else url
- 
- 
+
 def _extract_sources(response) -> list[Source]:
 
-    sources: list[Source] = []
-    seen_urls = set()
- 
-    steps = getattr(response, "steps", None) or []
-    for step in steps:
-        if getattr(step, "type", None) != "model_output":
-            continue
- 
-        content_blocks = getattr(step, "content", None) or []
-        for block in content_blocks:
-            if getattr(block, "type", None) != "text":
-                continue
- 
-            annotations = getattr(block, "annotations", None) or []
-            for ann in annotations:
-                if getattr(ann, "type", None) != "url_citation":
-                    continue
- 
-                url = getattr(ann, "url", None)
-                title = getattr(ann, "title", "") or ""
-                if not url or url in seen_urls:
-                    continue
-                seen_urls.add(url)
-                sources.append(Source(title=title, url=url, domain=_domain_from_url(url)))
- 
+    sources = []
+
+    for url in getattr(response, "citations", []):
+        sources.append(
+            Source(
+                title=url,
+                url=url,
+                domain=_domain_from_url(url)
+            )
+        )
+
     return sources
- 
- 
+
 def _parse_json_verdict(raw_text: str) -> dict:
+
+    print(raw_text)
+
     cleaned = re.sub(r"^```(?:json)?|```$", "", raw_text.strip(), flags=re.MULTILINE).strip()
     return json.loads(cleaned)
- 
- 
-def assess_state(state: str, client: "genai.Client") -> StateVerdict:
-    response = client.interactions.create(
-        model=MODEL,
-        input=f"{SYSTEM_PROMPT}\n\n{build_user_prompt(state)}",
-        tools=[{"type": "google_search"}],
+
+def assess_state(state: str, client: Perplexity) -> StateVerdict:
+
+    response = client.chat.completions.create(
+        model="sonar-pro",
+        messages=[
+            {
+                "role": "system",
+                "content": SYSTEM_PROMPT
+            },
+            {
+                "role": "user",
+                "content": build_user_prompt(state)
+            }
+        ],
+        response_format={
+            "type": "json_schema",
+            "json_schema": {
+                "name": "state_verdict",
+                "schema": {
+                    "type": "object",
+                    "properties": {
+                        "state": {"type": "string"},
+                        "lean": {
+                            "type": "string",
+                            "enum": ["D", "R", "Toss-up"]
+                        },
+                        "confidence": {"type": "number"},
+                        "basis": {
+                            "type": "string",
+                            "enum": [
+                                "current_polling",
+                                "midterm_swing",
+                                "historical_baseline"
+                            ]
+                        },
+                        "reasoning": {"type": "string"}
+                    },
+                    "required": [
+                        "state",
+                        "lean",
+                        "confidence",
+                        "basis",
+                        "reasoning"
+                    ]
+                }
+            }
+        },
+        search_recency_filter="month"
     )
- 
-    raw_text = (response.output_text or "").strip()
+
+    raw_text = response.choices[0]["message"]["content"].strip()
+
+    parsed = _parse_json_verdict(raw_text)
     sources = _extract_sources(response)
- 
-    try:
-        parsed = _parse_json_verdict(raw_text)
-    except (json.JSONDecodeError, AttributeError) as e:
-        raise ValueError(
-            f"Could not parse model output as JSON for state={state!r}.\n"
-            f"Raw output was:\n{raw_text}\n\nError: {e}"
-        )
- 
-    verdict = StateVerdict(
+
+    return StateVerdict(
         state=parsed.get("state", state),
         lean=parsed.get("lean", "Toss-up"),
         confidence=float(parsed.get("confidence", 0.0)),
@@ -173,25 +174,3 @@ def assess_state(state: str, client: "genai.Client") -> StateVerdict:
         as_of_date=datetime.now().isoformat(timespec="seconds"),
         sources=[asdict(s) for s in sources],
     )
-    return verdict
- 
- 
-def main():
-    if len(sys.argv) < 2:
-        print("Usage: python predictor.py \"<State Name>\"")
-        sys.exit(1)
- 
-    state = " ".join(sys.argv[1:])
-    with open('api_key.txt', 'r+') as file:
-        api_key = file.read()
- 
-    client = genai.Client(api_key=api_key)
- 
-    print(f"Assessing current lean for: {state} ...")
-    verdict = assess_state(state, client)
- 
-    print(json.dumps(asdict(verdict), indent=2))
- 
- 
-if __name__ == "__main__":
-    main()

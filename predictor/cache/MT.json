@@ -1,11 +1,11 @@
 {
   "state": "Montana",
   "lean": "R",
-  "confidence": 0.8,
+  "confidence": 0.85,
   "basis": "current_polling",
-  "reasoning": "In the active three-way Senate race, Republican Kurt Alme consistently leads in late July 2026 polling, securing 36% to 45% of the vote across multiple surveys. The non-Republican vote remains heavily split between Democrat Alani Bankhead (22% to 30%) and Independent Seth Bodnar (15% to 24%), maintaining a clear Republican advantage unless Bankhead decides to withdraw before the August 10 deadline.",
-  "as_of_date": "2026-08-02T18:50:39",
+  "reasoning": "Recent July 2026 polling for the open Senate seat shows Republican nominee Kurt Alme leading the field by double-digit margins. In a late July GQR poll of the multi-way race, Alme leads with 41% of the vote, while a Public Opinion Strategies survey shows him with a 19-point lead (44% to Democrat Alani Bankhead's 25% and independent Seth Bodnar's 20%) due to a split in the non-Republican vote.",
+  "as_of_date": "2026-08-03T11:32:32",
   "sources": [],
   "abbreviation": "MT",
-  "_cached_at": "2026-08-02T18:50:39.876645"
+  "_cached_at": "2026-08-03T11:32:32.368354"
 }

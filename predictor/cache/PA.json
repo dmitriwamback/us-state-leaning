@@ -1,11 +1,112 @@
 {
   "state": "Pennsylvania",
-  "lean": "D",
-  "confidence": 0.85,
+  "lean": "Toss-up",
+  "confidence": 0.65,
   "basis": "current_polling",
-  "reasoning": "In the state's marquee 2026 race, incumbent Democratic Governor Josh Shapiro holds a commanding double-digit lead over Republican challenger Stacy Garrity. Recent July 2026 polls show Shapiro leading Garrity 53% to 28% in a PennLive survey and 53% to 40% in a Quinnipiac poll, indicating a clear and consistent Democratic advantage.",
-  "as_of_date": "2026-08-02T18:56:05",
-  "sources": [],
+  "reasoning": "For 2026, the key statewide federal figure is Democratic Sen. John Fetterman; recent Quinnipiac polling cited by Newsweek shows his approval slipping among Democrats, and describes Pennsylvania as \"about evenly divided\" between the parties, with no clear, durable advantage for either side.[13] At the same time, Democrats hold a modest structural edge: they have grown their statewide voter-registration advantage to about 200,000 voters as of July 2026, and current party registration is roughly 42.9% Democratic to 41.3% Republican.[3][4] Given these mixed signals\u2014Democratic registration gains but weakening incumbent numbers and multiple competitive House districts\u2014the best reading is that Pennsylvania is genuinely balanced and should be treated as a Toss-up for current federal elections.[8][14]",
+  "as_of_date": "2026-08-03T13:27:11",
+  "sources": [
+    {
+      "title": "https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index",
+      "url": "https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index",
+      "domain": "en.wikipedia.org"
+    },
+    {
+      "title": "https://worldpopulationreview.com/state-rankings/blue-states",
+      "url": "https://worldpopulationreview.com/state-rankings/blue-states",
+      "domain": "worldpopulationreview.com"
+    },
+    {
+      "title": "https://worldpopulationreview.com/state-rankings/political-parties-by-state",
+      "url": "https://worldpopulationreview.com/state-rankings/political-parties-by-state",
+      "domain": "worldpopulationreview.com"
+    },
+    {
+      "title": "https://www.padems.org/icymi-pennsylvania-democrats-continue-building-voter-registration-advantage-as-momentum-grows-ahead-of-crucial-midterm-elections/",
+      "url": "https://www.padems.org/icymi-pennsylvania-democrats-continue-building-voter-registration-advantage-as-momentum-grows-ahead-of-crucial-midterm-elections/",
+      "domain": "padems.org"
+    },
+    {
+      "title": "https://www.cookpolitical.com/pvi-map-and-district-list",
+      "url": "https://www.cookpolitical.com/pvi-map-and-district-list",
+      "domain": "cookpolitical.com"
+    },
+    {
+      "title": "https://www.pewresearch.org/politics/fact-sheet/party-affiliation-fact-sheet-npors/",
+      "url": "https://www.pewresearch.org/politics/fact-sheet/party-affiliation-fact-sheet-npors/",
+      "domain": "pewresearch.org"
+    },
+    {
+      "title": "https://www.youtube.com/watch?v=KyV6ZFoDLbg",
+      "url": "https://www.youtube.com/watch?v=KyV6ZFoDLbg",
+      "domain": "youtube.com"
+    },
+    {
+      "title": "https://www.soulsandliberty.com/close-race-watch-pa/",
+      "url": "https://www.soulsandliberty.com/close-race-watch-pa/",
+      "domain": "soulsandliberty.com"
+    },
+    {
+      "title": "https://www.facebook.com/JoshShapiroPA/posts/pennsylvania-this-november-we-have-the-power-to-decide-it-allby-electing-bob-har/1584280089721180/",
+      "url": "https://www.facebook.com/JoshShapiroPA/posts/pennsylvania-this-november-we-have-the-power-to-decide-it-allby-electing-bob-har/1584280089721180/",
+      "domain": "facebook.com"
+    },
+    {
+      "title": "https://worldpopulationreview.com/state-rankings/most-republican-states",
+      "url": "https://worldpopulationreview.com/state-rankings/most-republican-states",
+      "domain": "worldpopulationreview.com"
+    },
+    {
+      "title": "https://dho.stanford.edu/wp-content/uploads/JReg_Reporting.pdf",
+      "url": "https://dho.stanford.edu/wp-content/uploads/JReg_Reporting.pdf",
+      "domain": "dho.stanford.edu"
+    },
+    {
+      "title": "https://www.dailykos.com/stories/2026/7/30/800076142/community/pennsylvania/",
+      "url": "https://www.dailykos.com/stories/2026/7/30/800076142/community/pennsylvania/",
+      "domain": "dailykos.com"
+    },
+    {
+      "title": "https://www.newsweek.com/new-poll-gives-worrying-signs-for-shapiro-and-fetterman-in-pennsylvania-12201518",
+      "url": "https://www.newsweek.com/new-poll-gives-worrying-signs-for-shapiro-and-fetterman-in-pennsylvania-12201518",
+      "domain": "newsweek.com"
+    },
+    {
+      "title": "https://www.lockhaven.com/news/local-news/2026/01/pennsylvania-expected-to-be-a-key-battleground-for-congress-in-2026/",
+      "url": "https://www.lockhaven.com/news/local-news/2026/01/pennsylvania-expected-to-be-a-key-battleground-for-congress-in-2026/",
+      "domain": "lockhaven.com"
+    },
+    {
+      "title": "https://www.dailykos.com/stories/2026/7/23/800058903/community/the-keystone-state-of-play-key-pennsylvania-races/",
+      "url": "https://www.dailykos.com/stories/2026/7/23/800058903/community/the-keystone-state-of-play-key-pennsylvania-races/",
+      "domain": "dailykos.com"
+    },
+    {
+      "title": "https://whyy.org/articles/pennsylvania-election-2026-primary-voter-guide-deadlines/",
+      "url": "https://whyy.org/articles/pennsylvania-election-2026-primary-voter-guide-deadlines/",
+      "domain": "whyy.org"
+    },
+    {
+      "title": "https://www.instagram.com/reel/DbYOlJYA97v/",
+      "url": "https://www.instagram.com/reel/DbYOlJYA97v/",
+      "domain": "instagram.com"
+    },
+    {
+      "title": "https://ballotpedia.org/Redistricting_ahead_of_the_2026_elections",
+      "url": "https://ballotpedia.org/Redistricting_ahead_of_the_2026_elections",
+      "domain": "ballotpedia.org"
+    },
+    {
+      "title": "https://www.spotlightpa.org/pennsylvania-voter-registration/",
+      "url": "https://www.spotlightpa.org/pennsylvania-voter-registration/",
+      "domain": "spotlightpa.org"
+    },
+    {
+      "title": "https://electionlawblog.org/?cat=1",
+      "url": "https://electionlawblog.org/?cat=1",
+      "domain": "electionlawblog.org"
+    }
+  ],
   "abbreviation": "PA",
-  "_cached_at": "2026-08-02T18:56:05.935790"
+  "_cached_at": "2026-08-03T13:27:11.398639"
 }

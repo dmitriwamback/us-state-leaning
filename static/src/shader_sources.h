@@ -58,13 +58,16 @@ vec3 lightPosition = vec3(50.0, 0.0, 0.0);
  
 void main() {
     vec3 color;
+
+    float minValue = 0.25;
+    float delta = 1.0 - minValue;
  
     if (isTossUp) {
         color = grayColor;
     } 
     else {
-        float remapped = 0.5 + 0.5 * confidence;
-        float t = remapped * remapped;
+        float remapped = delta * confidence + minValue;
+        float t = remapped * remapped * sqrt(remapped);
         color = mix(grayColor, baseColor, t);
     }
 

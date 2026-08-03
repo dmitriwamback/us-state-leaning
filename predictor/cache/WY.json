@@ -1,32 +1,11 @@
 {
   "state": "Wyoming",
   "lean": "R",
-  "confidence": 0.9,
+  "confidence": 0.95,
   "basis": "historical_baseline",
-  "reasoning": "Wyoming remains an overwhelmingly Republican state, with past presidential and gubernatorial elections decided by landslide margins of over 40 points. For the 2026 races, major rating organizations like the Cook Political Report rate the open gubernatorial contest as 'Solid Republican' as of late July 2026. Furthermore, prediction markets and forecasts project Republican candidates like Harriet Hageman to win the Senate seat with over 66% of the vote.",
-  "as_of_date": "2026-08-02T19:01:56",
-  "sources": [
-    {
-      "title": "kalshi.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTkzG6c_jsfcff9dmO7Z2Hj7oeC5U6BKWLklgjXo2K5-rGdyTiBwp-QVNPFe7skD3SYWBUC4ZP_teGiBrRzdEnQ7HR_isLBfoJPvtSebN-W1dD-iOHVEBc-72pbuOwuif8MwzaCQ==",
-      "domain": "vertexaisearch.cloud.google.com"
-    },
-    {
-      "title": "multistate.us",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5OeZvpN6-gAidCuqO3qk36WMAHh89Fn3qBh_Q6Km6Hf3SDO6OVSrHFEUeR94wmW0I5GInjeQliL_XwrQchnKRKRo35Bz-8BxT_MN5KU05mIUbjKQlUVK3Un92oPLtQkexLqWfVQzhBQ==",
-      "domain": "vertexaisearch.cloud.google.com"
-    },
-    {
-      "title": "ballotpedia.org",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpRwQowbUCtkxUm_cerG-yFAH0LVsE2HcloWxlRjOdGuHxoutf1zsffBEByTA8bpi1SvXLAO510lUblVMST3O2bM1IDfbAJe4L33aLH6866iGFz_SjwWdNg6EXJSFzOeDB7tnvcbTxvAw4Q9QIQWk5mxc=",
-      "domain": "vertexaisearch.cloud.google.com"
-    },
-    {
-      "title": "pollsmax.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGw2YouZPpCdK4sjKdaZFCT-IqpK43mYMmyG2XwKMb8SGdqJS4w-3cJUWk5CsEz_carCM-eE_2lpPs6WxGCXXcriSmKkIKJGVOMYX37cPWZHnV_TDiy_6o_cchhrzs_tg39AvaYP2Zw",
-      "domain": "vertexaisearch.cloud.google.com"
-    }
-  ],
+  "reasoning": "While there is no recent head-to-head polling for the 2026 Senate race between Republican Harriet Hageman and Democrat James Byrd, Wyoming remains a safe Republican stronghold. In the 2024 presidential election, the state voted Republican by a lopsided 45.8-point margin, and Hageman won her 2024 House race with 70.6% of the vote. Prediction markets and forecasters heavily favor the Republican nominee to succeed retiring Senator Cynthia Lummis, pricing a GOP victory at over 97%.",
+  "as_of_date": "2026-08-03T11:31:07",
+  "sources": [],
   "abbreviation": "WY",
-  "_cached_at": "2026-08-02T19:01:56.743007"
+  "_cached_at": "2026-08-03T11:31:07.587665"
 }
