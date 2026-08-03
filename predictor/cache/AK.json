@@ -1,11 +1,120 @@
 {
   "state": "Alaska",
-  "lean": "Toss-up",
-  "confidence": 0.6,
+  "lean": "R",
+  "confidence": 0.72,
   "basis": "current_polling",
-  "reasoning": "Recent polling from the New York Times and Siena College released July 1, 2026, shows incumbent Republican Dan Sullivan leading Democrat Mary Peltola by a narrow 47% to 45% among likely voters. The Pollsmax polling average as of August 1, 2026, reflects a similarly tight race with Sullivan at 46.7% and Peltola at 45.8%. Given these slim margins and Peltola consistently outraising the incumbent, the federal election lean is currently a toss-up.",
-  "as_of_date": "2026-08-02T18:39:34",
-  "sources": [],
+  "reasoning": "Cook\u2019s statewide Partisan Voting Index rates **Alaska at R+6**, indicating a structurally Republican state.[1][18] For 2026, major forecasters and modeling sites now treat the U.S. Senate race between Republican incumbent **Dan Sullivan** and Democrat **Mary Peltola** as highly competitive but still slightly favor Republicans: PollsMax\u2019s July 20 forecast gives Sullivan an 83.3% chance of victory with a **projected margin of 5.8 points**, and describes the seat as effectively Lean/Likely Republican.[15] At the same time, Cook Political Report recently shifted the Senate contest from *Leans Republican* to **Toss-up**, and Sabato\u2019s Crystal Ball now rates it **Leans Democratic**, reflecting that several polls show Peltola either narrowly ahead or within the margin of error, which lowers overall confidence even though the best quantified projection still has Republicans up by mid-single digits.[4][6][12]",
+  "as_of_date": "2026-08-03T16:19:07",
+  "sources": [
+    {
+      "title": "https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index",
+      "url": "https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index",
+      "domain": "en.wikipedia.org"
+    },
+    {
+      "title": "https://ballotpedia.org/United_States_Senate_elections,_2026",
+      "url": "https://ballotpedia.org/United_States_Senate_elections,_2026",
+      "domain": "ballotpedia.org"
+    },
+    {
+      "title": "https://www.predictionedge.com/elections/ak/?office=us-senate,us-house,governor",
+      "url": "https://www.predictionedge.com/elections/ak/?office=us-senate,us-house,governor",
+      "domain": "predictionedge.com"
+    },
+    {
+      "title": "https://www.newsweek.com/democrats-may-flip-governor-senate-seats-in-state-trump-won-three-times-12177920",
+      "url": "https://www.newsweek.com/democrats-may-flip-governor-senate-seats-in-state-trump-won-three-times-12177920",
+      "domain": "newsweek.com"
+    },
+    {
+      "title": "https://ivoterguide.com/race/27433/election/1416",
+      "url": "https://ivoterguide.com/race/27433/election/1416",
+      "domain": "ivoterguide.com"
+    },
+    {
+      "title": "https://centerforpolitics.org/crystalball/decade-plus-winning-streaks-could-be-at-risk-in-the-2026-midterms/",
+      "url": "https://centerforpolitics.org/crystalball/decade-plus-winning-streaks-could-be-at-risk-in-the-2026-midterms/",
+      "domain": "centerforpolitics.org"
+    },
+    {
+      "title": "https://worldpopulationreview.com/state-rankings/political-parties-by-state",
+      "url": "https://worldpopulationreview.com/state-rankings/political-parties-by-state",
+      "domain": "worldpopulationreview.com"
+    },
+    {
+      "title": "https://www.nytimes.com/interactive/polls/alaska-us-house-at-large-polls-2026.html",
+      "url": "https://www.nytimes.com/interactive/polls/alaska-us-house-at-large-polls-2026.html",
+      "domain": "nytimes.com"
+    },
+    {
+      "title": "https://www.multistate.us/elections/governors",
+      "url": "https://www.multistate.us/elections/governors",
+      "domain": "multistate.us"
+    },
+    {
+      "title": "https://ivoterguide.com/candidate/94001/race/27432/election/1416",
+      "url": "https://ivoterguide.com/candidate/94001/race/27432/election/1416",
+      "domain": "ivoterguide.com"
+    },
+    {
+      "title": "https://almanacofamericanpolitics.substack.com/p/handicapping-the-gubernatorial-races-e49",
+      "url": "https://almanacofamericanpolitics.substack.com/p/handicapping-the-gubernatorial-races-e49",
+      "domain": "almanacofamericanpolitics.substack.com"
+    },
+    {
+      "title": "https://www.alaskasnewssource.com/2026/07/10/election-2026-peltola-announces-7-million-second-quarter-earnings/",
+      "url": "https://www.alaskasnewssource.com/2026/07/10/election-2026-peltola-announces-7-million-second-quarter-earnings/",
+      "domain": "alaskasnewssource.com"
+    },
+    {
+      "title": "https://www.predictionedge.com/elections/ak/",
+      "url": "https://www.predictionedge.com/elections/ak/",
+      "domain": "predictionedge.com"
+    },
+    {
+      "title": "https://almanacofamericanpolitics.substack.com/p/the-senate-state-of-play-an-updated-fb2",
+      "url": "https://almanacofamericanpolitics.substack.com/p/the-senate-state-of-play-an-updated-fb2",
+      "domain": "almanacofamericanpolitics.substack.com"
+    },
+    {
+      "title": "https://thealaskastory.com/forecast-sweep-sen-dan-sullivan-nick-begich-and-bernadette-wilson-all-predicted-to-win-alaskas-three-major-races/",
+      "url": "https://thealaskastory.com/forecast-sweep-sen-dan-sullivan-nick-begich-and-bernadette-wilson-all-predicted-to-win-alaskas-three-major-races/",
+      "domain": "thealaskastory.com"
+    },
+    {
+      "title": "https://www.npr.org/2026/07/27/nx-s1-5907379/2026-midterm-election-senate-races",
+      "url": "https://www.npr.org/2026/07/27/nx-s1-5907379/2026-midterm-election-senate-races",
+      "domain": "npr.org"
+    },
+    {
+      "title": "https://www.270towin.com/2026-governor-election/",
+      "url": "https://www.270towin.com/2026-governor-election/",
+      "domain": "270towin.com"
+    },
+    {
+      "title": "https://www.cookpolitical.com/pvi-map-and-district-list",
+      "url": "https://www.cookpolitical.com/pvi-map-and-district-list",
+      "domain": "cookpolitical.com"
+    },
+    {
+      "title": "https://edworkingpapers.com/sites/default/files/ai26-1538.pdf",
+      "url": "https://edworkingpapers.com/sites/default/files/ai26-1538.pdf",
+      "domain": "edworkingpapers.com"
+    },
+    {
+      "title": "https://www.bentoncountywa.gov/Documents/Government/Elected%20Officials/Auditor/Elections/Current%20Election/Primary%202026.pdf?t=202607151442300",
+      "url": "https://www.bentoncountywa.gov/Documents/Government/Elected%20Officials/Auditor/Elections/Current%20Election/Primary%202026.pdf?t=202607151442300",
+      "domain": "bentoncountywa.gov"
+    }
+  ],
+  "current_margin": {
+    "party": "R",
+    "percentage_points": 5.8
+  },
+  "cook_pvi": {
+    "party": "R",
+    "percentage_points": 6.0
+  },
   "abbreviation": "AK",
-  "_cached_at": "2026-08-02T18:39:34.414145"
+  "_cached_at": "2026-08-03T16:19:07.854447"
 }

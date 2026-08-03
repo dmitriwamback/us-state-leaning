@@ -1,11 +1,120 @@
 {
   "state": "Colorado",
   "lean": "D",
-  "confidence": 0.85,
-  "basis": "historical_baseline",
-  "reasoning": "With no general election polling released in the last 45 days, Colorado's lean is assessed via its historical baseline, which saw Democrats win by 11.0 points in the 2024 presidential race and by up to 19.4 points in 2022. Nonpartisan analysts rate both the 2026 Senate race (featuring incumbent Democrat John Hickenlooper against Republican Mark Baisley) and the gubernatorial race (Democrat Phil Weiser vs. Republican Victor Marx) as 'Solid Democratic'.",
-  "as_of_date": "2026-08-02T18:41:14",
-  "sources": [],
+  "confidence": 0.78,
+  "basis": "midterm_swing",
+  "reasoning": "Cook\u2019s statewide PVI for Colorado is D+6, indicating a solid but not overwhelming Democratic structural edge.[1] Recent 2026 cycle information shows Colorado Democrats entering the midterms with an election edge and a July 2026 poll in the state showing Democrats ahead by 11 points (53% to 42%), which supports a current Democratic lean rather than a toss-up.[10][13]",
+  "as_of_date": "2026-08-03T16:19:27",
+  "sources": [
+    {
+      "title": "https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index",
+      "url": "https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index",
+      "domain": "en.wikipedia.org"
+    },
+    {
+      "title": "https://worldpopulationreview.com/state-rankings/political-parties-by-state",
+      "url": "https://worldpopulationreview.com/state-rankings/political-parties-by-state",
+      "domain": "worldpopulationreview.com"
+    },
+    {
+      "title": "https://www.kunc.org/news/2026-07-21/democratic-nominees-for-congress-in-colorado-outraise-republican-rivals",
+      "url": "https://www.kunc.org/news/2026-07-21/democratic-nominees-for-congress-in-colorado-outraise-republican-rivals",
+      "domain": "kunc.org"
+    },
+    {
+      "title": "https://worldpopulationreview.com/state-rankings/blue-states",
+      "url": "https://worldpopulationreview.com/state-rankings/blue-states",
+      "domain": "worldpopulationreview.com"
+    },
+    {
+      "title": "https://votetosurvive.org/states/colorado/",
+      "url": "https://votetosurvive.org/states/colorado/",
+      "domain": "votetosurvive.org"
+    },
+    {
+      "title": "https://www.tellercounty.gov/Elections",
+      "url": "https://www.tellercounty.gov/Elections",
+      "domain": "tellercounty.gov"
+    },
+    {
+      "title": "https://www.coloradopolitics.com/",
+      "url": "https://www.coloradopolitics.com/",
+      "domain": "coloradopolitics.com"
+    },
+    {
+      "title": "https://www.cookpolitical.com/pvi-map-and-district-list",
+      "url": "https://www.cookpolitical.com/pvi-map-and-district-list",
+      "domain": "cookpolitical.com"
+    },
+    {
+      "title": "https://worldpopulationreview.com/state-rankings/registered-voters-by-party",
+      "url": "https://worldpopulationreview.com/state-rankings/registered-voters-by-party",
+      "domain": "worldpopulationreview.com"
+    },
+    {
+      "title": "https://www.coloradopolitics.com/2026/07/31/at-conservative-summit-colorado-republican-leaders-concede-democrats-election-edge/",
+      "url": "https://www.coloradopolitics.com/2026/07/31/at-conservative-summit-colorado-republican-leaders-concede-democrats-election-edge/",
+      "domain": "coloradopolitics.com"
+    },
+    {
+      "title": "https://www.coloradopolitics.com/2026/07/09/victor-marx-defeats-barb-kirkmeyer-as-colorados-republican-gubernatorial-primary-crosses-finish-line/",
+      "url": "https://www.coloradopolitics.com/2026/07/09/victor-marx-defeats-barb-kirkmeyer-as-colorados-republican-gubernatorial-primary-crosses-finish-line/",
+      "domain": "coloradopolitics.com"
+    },
+    {
+      "title": "https://vop.org/battlegrounds-colorado/",
+      "url": "https://vop.org/battlegrounds-colorado/",
+      "domain": "vop.org"
+    },
+    {
+      "title": "https://www.kunc.org/politics/2026-07-21/new-poll-finds-bipartisan-agreement-on-colorado-values-but-sharp-divide-over-trust-in-election-officials",
+      "url": "https://www.kunc.org/politics/2026-07-21/new-poll-finds-bipartisan-agreement-on-colorado-values-but-sharp-divide-over-trust-in-election-officials",
+      "domain": "kunc.org"
+    },
+    {
+      "title": "https://apps.npr.org/primary-election-results-2026/states/CO.html",
+      "url": "https://apps.npr.org/primary-election-results-2026/states/CO.html",
+      "domain": "apps.npr.org"
+    },
+    {
+      "title": "https://worldpopulationreview.com/state-rankings/most-republican-states",
+      "url": "https://worldpopulationreview.com/state-rankings/most-republican-states",
+      "domain": "worldpopulationreview.com"
+    },
+    {
+      "title": "https://www.pewresearch.org/politics/fact-sheet/party-affiliation-fact-sheet-npors/",
+      "url": "https://www.pewresearch.org/politics/fact-sheet/party-affiliation-fact-sheet-npors/",
+      "domain": "pewresearch.org"
+    },
+    {
+      "title": "https://www.denvergazette.com/2026/07/20/new-survey-finds-colorado-voters-in-the-8th-congressional-district-back-more-federal-ai-regulations/",
+      "url": "https://www.denvergazette.com/2026/07/20/new-survey-finds-colorado-voters-in-the-8th-congressional-district-back-more-federal-ai-regulations/",
+      "domain": "denvergazette.com"
+    },
+    {
+      "title": "https://www.coloradopolitics.com/2026/08/03/courageous-colorado-bucks-trumps-federal-stupidity-miller-hudson/",
+      "url": "https://www.coloradopolitics.com/2026/08/03/courageous-colorado-bucks-trumps-federal-stupidity-miller-hudson/",
+      "domain": "coloradopolitics.com"
+    },
+    {
+      "title": "https://www.eac.gov/voters/national-mail-voter-registration-form",
+      "url": "https://www.eac.gov/voters/national-mail-voter-registration-form",
+      "domain": "eac.gov"
+    },
+    {
+      "title": "https://www.pbs.org/newshour/show/trump-fires-election-commission-members-in-latest-attempt-to-control-voting-process",
+      "url": "https://www.pbs.org/newshour/show/trump-fires-election-commission-members-in-latest-attempt-to-control-voting-process",
+      "domain": "pbs.org"
+    }
+  ],
+  "current_margin": {
+    "party": "D",
+    "percentage_points": 11.0
+  },
+  "cook_pvi": {
+    "party": "D",
+    "percentage_points": 6.0
+  },
   "abbreviation": "CO",
-  "_cached_at": "2026-08-02T18:41:14.749000"
+  "_cached_at": "2026-08-03T16:19:27.924472"
 }

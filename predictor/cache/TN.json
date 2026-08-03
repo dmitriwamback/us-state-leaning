@@ -1,11 +1,120 @@
 {
   "state": "Tennessee",
   "lean": "R",
-  "confidence": 0.95,
-  "basis": "current_polling",
-  "reasoning": "Incumbent U.S. Senator Bill Hagerty is heavily favored in his 2026 re-election campaign, with an August 2026 Pollsmax projection showing him leading Democrat Marquita Bradshaw by nearly 30 percentage points (64.9% to 35.2%). Similarly, in the 2026 gubernatorial race, general election polling shows Republican candidates holding massive double-digit advantages over Democrats, such as Marsha Blackburn leading Jerri Green by 24 points in a Beacon Center matchup. Major nonpartisan rating organizations uniformly categorize the state's upcoming federal and statewide contests as solid or safe Republican.",
-  "as_of_date": "2026-08-02T18:57:58",
-  "sources": [],
+  "confidence": 0.86,
+  "basis": "midterm_swing",
+  "reasoning": "For 2026, Tennessee has a U.S. Senate race and a governor\u2019s race on the ballot, with Republican Sen. Marsha Blackburn leading the GOP Senate primary field by about 50 points over Rep. John Rose and state Rep. Monty Fritts, indicating she is overwhelmingly likely to be the nominee and heavily favored in November.[14][16] A 2026 Tennessee elections tracker lists the state\u2019s overall partisan lean as \u201cStrong Republican\u201d and shows a Senate polling average of Blackburn 58.2%, with a 47.6-point advantage over her nearest opponent, underscoring the lack of competitiveness at the federal level.[6] Structurally, Tennessee\u2019s statewide Cook Partisan Voting Index is R+14, and recent coverage of the redrawn congressional map describes all nine U.S. House seats as favoring Republicans, reinforcing that the current-cycle dynamics align with the state\u2019s strong Republican baseline.[1][11]",
+  "as_of_date": "2026-08-03T16:22:07",
+  "sources": [
+    {
+      "title": "https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index",
+      "url": "https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index",
+      "domain": "en.wikipedia.org"
+    },
+    {
+      "title": "https://www.multistate.us/elections/governors",
+      "url": "https://www.multistate.us/elections/governors",
+      "domain": "multistate.us"
+    },
+    {
+      "title": "https://abcnews.com/Politics/wireStory/federal-judges-new-tennessee-congressional-map-splits-majority-135038518",
+      "url": "https://abcnews.com/Politics/wireStory/federal-judges-new-tennessee-congressional-map-splits-majority-135038518",
+      "domain": "abcnews.com"
+    },
+    {
+      "title": "https://www.newspulsetime.com/article/tn-early-voting-turnout-2026-democrats-republicans",
+      "url": "https://www.newspulsetime.com/article/tn-early-voting-turnout-2026-democrats-republicans",
+      "domain": "newspulsetime.com"
+    },
+    {
+      "title": "https://worldpopulationreview.com/state-rankings/political-parties-by-state",
+      "url": "https://worldpopulationreview.com/state-rankings/political-parties-by-state",
+      "domain": "worldpopulationreview.com"
+    },
+    {
+      "title": "https://www.predictionedge.com/elections/tn/",
+      "url": "https://www.predictionedge.com/elections/tn/",
+      "domain": "predictionedge.com"
+    },
+    {
+      "title": "https://www.tennessean.com/story/news/politics/elections/2026/07/16/state-lawmakers-congress-9th-district-election-guide-primary/90920727007/",
+      "url": "https://www.tennessean.com/story/news/politics/elections/2026/07/16/state-lawmakers-congress-9th-district-election-guide-primary/90920727007/",
+      "domain": "tennessean.com"
+    },
+    {
+      "title": "https://www.cookpolitical.com/pvi-map-and-district-list",
+      "url": "https://www.cookpolitical.com/pvi-map-and-district-list",
+      "domain": "cookpolitical.com"
+    },
+    {
+      "title": "https://almanacofamericanpolitics.substack.com/p/previewing-the-tennessee-primary",
+      "url": "https://almanacofamericanpolitics.substack.com/p/previewing-the-tennessee-primary",
+      "domain": "almanacofamericanpolitics.substack.com"
+    },
+    {
+      "title": "https://wpln.org/post/tennessee-redrew-its-congressional-map-heres-whos-on-your-primary-ballot/",
+      "url": "https://wpln.org/post/tennessee-redrew-its-congressional-map-heres-whos-on-your-primary-ballot/",
+      "domain": "wpln.org"
+    },
+    {
+      "title": "https://www.nashvillescene.com/news/citylimits/tennessee-congressional-primaries-2026-election/article_0bd7a8fa-0821-4d99-afc9-5cd46b4021cd.html",
+      "url": "https://www.nashvillescene.com/news/citylimits/tennessee-congressional-primaries-2026-election/article_0bd7a8fa-0821-4d99-afc9-5cd46b4021cd.html",
+      "domain": "nashvillescene.com"
+    },
+    {
+      "title": "https://conservativemove.com/conservative-states/",
+      "url": "https://conservativemove.com/conservative-states/",
+      "domain": "conservativemove.com"
+    },
+    {
+      "title": "https://tnfirefly.com/tennessee-governor-race",
+      "url": "https://tnfirefly.com/tennessee-governor-race",
+      "domain": "tnfirefly.com"
+    },
+    {
+      "title": "https://tennesseelookout.com/voter-guides/2026-primary-election/",
+      "url": "https://tennesseelookout.com/voter-guides/2026-primary-election/",
+      "domain": "tennesseelookout.com"
+    },
+    {
+      "title": "https://ig.ft.com/us-elections/2024/results/state/tennessee/",
+      "url": "https://ig.ft.com/us-elections/2024/results/state/tennessee/",
+      "domain": "ig.ft.com"
+    },
+    {
+      "title": "https://fox17.com/news/local/everything-you-need-to-know-ahead-of-the-tennessee-primaries",
+      "url": "https://fox17.com/news/local/everything-you-need-to-know-ahead-of-the-tennessee-primaries",
+      "domain": "fox17.com"
+    },
+    {
+      "title": "https://www.tennessean.com/story/news/politics/elections/2026/07/24/tn-governor-election-primary-early-voting-turnout/90997619007/",
+      "url": "https://www.tennessean.com/story/news/politics/elections/2026/07/24/tn-governor-election-primary-early-voting-turnout/90997619007/",
+      "domain": "tennessean.com"
+    },
+    {
+      "title": "https://ballotpedia.org/Redistricting_ahead_of_the_2026_elections",
+      "url": "https://ballotpedia.org/Redistricting_ahead_of_the_2026_elections",
+      "domain": "ballotpedia.org"
+    },
+    {
+      "title": "https://www.pewresearch.org/short-reads/2026/07/30/favorable-views-of-supreme-court-remain-near-historic-low/",
+      "url": "https://www.pewresearch.org/short-reads/2026/07/30/favorable-views-of-supreme-court-remain-near-historic-low/",
+      "domain": "pewresearch.org"
+    },
+    {
+      "title": "https://electionlawblog.org/?cat=1",
+      "url": "https://electionlawblog.org/?cat=1",
+      "domain": "electionlawblog.org"
+    }
+  ],
+  "current_margin": {
+    "party": "R",
+    "percentage_points": 47.6
+  },
+  "cook_pvi": {
+    "party": "R",
+    "percentage_points": 14.0
+  },
   "abbreviation": "TN",
-  "_cached_at": "2026-08-02T18:57:58.733558"
+  "_cached_at": "2026-08-03T16:22:07.039167"
 }

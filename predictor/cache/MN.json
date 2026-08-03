@@ -1,11 +1,120 @@
 {
   "state": "Minnesota",
   "lean": "D",
-  "confidence": 0.8,
-  "basis": "current_polling",
-  "reasoning": "Recent polling for the open 2026 gubernatorial and Senate races shows Democrats holding solid leads. DFL candidate Amy Klobuchar leads prospective Republican gubernatorial candidates Lisa Demuth by 8 points (48% to 40%) and Mike Lindell by 17 points (53% to 36%) in Mason-Dixon polling. For the open Senate seat, prospective DFL nominees Peggy Flanagan and Angie Craig both consistently lead Republican Michele Tafoya by 6 to 7 points in head-to-head matchups.",
-  "as_of_date": "2026-08-02T18:49:22",
-  "sources": [],
+  "confidence": 0.68,
+  "basis": "midterm_swing",
+  "reasoning": "Cook\u2019s statewide Partisan Voting Index rates Minnesota at D+3, indicating a structural lean toward Democrats in federal races.[1][13] Recent KSTP/SurveyUSA polling of a key statewide race (AG Ellison vs. Schutz) shows the Democrat ahead 42%\u201338%, a 4\u2011point margin that has narrowed but still favors the DFL, consistent with a lean\u2011Democratic but competitive environment.[8] With no general\u2011election head\u2011to\u2011head Senate polling yet and current-cycle coverage framing Minnesota as a lean Democratic battleground, the best evidence is that federal elections presently tilt Democratic but remain within reach for Republicans.[10][17]",
+  "as_of_date": "2026-08-03T16:20:43",
+  "sources": [
+    {
+      "title": "https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index",
+      "url": "https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index",
+      "domain": "en.wikipedia.org"
+    },
+    {
+      "title": "https://www.cookpolitical.com/ratings/house-race-ratings",
+      "url": "https://www.cookpolitical.com/ratings/house-race-ratings",
+      "domain": "cookpolitical.com"
+    },
+    {
+      "title": "https://worldpopulationreview.com/state-rankings/political-parties-by-state",
+      "url": "https://worldpopulationreview.com/state-rankings/political-parties-by-state",
+      "domain": "worldpopulationreview.com"
+    },
+    {
+      "title": "https://worldpopulationreview.com/state-rankings/blue-states",
+      "url": "https://worldpopulationreview.com/state-rankings/blue-states",
+      "domain": "worldpopulationreview.com"
+    },
+    {
+      "title": "https://www.multistate.us/elections/governors",
+      "url": "https://www.multistate.us/elections/governors",
+      "domain": "multistate.us"
+    },
+    {
+      "title": "https://www.ellisinsight.com/2026/07/",
+      "url": "https://www.ellisinsight.com/2026/07/",
+      "domain": "ellisinsight.com"
+    },
+    {
+      "title": "https://www.yahoo.com/news/politics/articles/poll-shows-peggy-flanagan-expanding-040200398.html",
+      "url": "https://www.yahoo.com/news/politics/articles/poll-shows-peggy-flanagan-expanding-040200398.html",
+      "domain": "yahoo.com"
+    },
+    {
+      "title": "https://kstp.com/kstp-news/top-news/kstp-surveyusa-poll-lindell-tafoya-increase-their-election-leads-craig-ellison-margins-shrink/",
+      "url": "https://kstp.com/kstp-news/top-news/kstp-surveyusa-poll-lindell-tafoya-increase-their-election-leads-craig-ellison-margins-shrink/",
+      "domain": "kstp.com"
+    },
+    {
+      "title": "https://www.pewresearch.org/politics/fact-sheet/party-affiliation-fact-sheet-npors/",
+      "url": "https://www.pewresearch.org/politics/fact-sheet/party-affiliation-fact-sheet-npors/",
+      "domain": "pewresearch.org"
+    },
+    {
+      "title": "https://www.ap.org/news-highlights/elections/2026/the-next-big-races-between-moderates-and-progressives-are-in-pivotal-midwestern-states/",
+      "url": "https://www.ap.org/news-highlights/elections/2026/the-next-big-races-between-moderates-and-progressives-are-in-pivotal-midwestern-states/",
+      "domain": "ap.org"
+    },
+    {
+      "title": "https://copublicstrategies.com/cozen-currents-trump-v-the-worlds-most-deliberative-body/",
+      "url": "https://copublicstrategies.com/cozen-currents-trump-v-the-worlds-most-deliberative-body/",
+      "domain": "copublicstrategies.com"
+    },
+    {
+      "title": "https://www.cbsnews.com/minnesota/news/trump-influence-minnesota-gop-primary-2026/",
+      "url": "https://www.cbsnews.com/minnesota/news/trump-influence-minnesota-gop-primary-2026/",
+      "domain": "cbsnews.com"
+    },
+    {
+      "title": "https://www.cookpolitical.com/pvi-map-and-district-list",
+      "url": "https://www.cookpolitical.com/pvi-map-and-district-list",
+      "domain": "cookpolitical.com"
+    },
+    {
+      "title": "https://thehill.com/homenews/campaign/5984540-lindell-tafoya-gains-gop-lead/",
+      "url": "https://thehill.com/homenews/campaign/5984540-lindell-tafoya-gains-gop-lead/",
+      "domain": "thehill.com"
+    },
+    {
+      "title": "https://ig.ft.com/us-elections/2024/results/state/minnesota/",
+      "url": "https://ig.ft.com/us-elections/2024/results/state/minnesota/",
+      "domain": "ig.ft.com"
+    },
+    {
+      "title": "https://www.opensecrets.org/elections-overview/most-partisan-industries",
+      "url": "https://www.opensecrets.org/elections-overview/most-partisan-industries",
+      "domain": "opensecrets.org"
+    },
+    {
+      "title": "https://www.predictionedge.com/elections/mn/",
+      "url": "https://www.predictionedge.com/elections/mn/",
+      "domain": "predictionedge.com"
+    },
+    {
+      "title": "https://ballotpedia.org/Redistricting_ahead_of_the_2026_elections",
+      "url": "https://ballotpedia.org/Redistricting_ahead_of_the_2026_elections",
+      "domain": "ballotpedia.org"
+    },
+    {
+      "title": "https://conservativemove.com/conservative-states/",
+      "url": "https://conservativemove.com/conservative-states/",
+      "domain": "conservativemove.com"
+    },
+    {
+      "title": "https://www.columbiamissourian.com/news/elections/missouri-congressional/republican-challengers-line-up-in-red-leaning-5th-district/article_c9f25e8d-618c-46fc-ada3-52e33978ee5d.html",
+      "url": "https://www.columbiamissourian.com/news/elections/missouri-congressional/republican-challengers-line-up-in-red-leaning-5th-district/article_c9f25e8d-618c-46fc-ada3-52e33978ee5d.html",
+      "domain": "columbiamissourian.com"
+    }
+  ],
+  "current_margin": {
+    "party": "D",
+    "percentage_points": 4.0
+  },
+  "cook_pvi": {
+    "party": "D",
+    "percentage_points": 3.0
+  },
   "abbreviation": "MN",
-  "_cached_at": "2026-08-02T18:49:22.572723"
+  "_cached_at": "2026-08-03T16:20:43.903759"
 }

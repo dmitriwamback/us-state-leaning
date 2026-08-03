@@ -1,11 +1,115 @@
 {
-  "state": "Washington DC",
+  "state": "District of Columbia",
   "lean": "D",
   "confidence": 0.9,
   "basis": "historical_baseline",
-  "reasoning": "In the 2024 presidential election, the Democratic nominee won Washington DC with 90.28% of the vote compared to just 6.47% for the Republican ticket, an 83.81-point landslide. Additionally, in the 2024 delegate election, the Democratic incumbent won by over 74 percentage points. With Democrat Robert White heavily favored to succeed the retiring incumbent against Republican Denise Rosado in the 2026 delegate race, there is no signal of any partisan shift.",
-  "as_of_date": "2026-08-02T18:42:03",
-  "sources": [],
+  "reasoning": "Washington, DC elects a nonvoting House delegate rather than a voting representative; the Democratic nominee for 2026 is Robert White, who just won the Democratic primary and is described as the likely next delegate, indicating no sign of emerging competitiveness.[7] DC\u2019s electorate is overwhelmingly Democratic: in the 2024 primary cycle, 92% of registered voters were Democrats and only 6% were Republicans,[3] and 2025 registration estimates show about 75% Democratic vs. about 5% Republican.[12] Because there is no recent head\u2011to\u2011head general\u2011election polling for 2026, the best quantitative proxy is partisan registration and past results; these consistently show Democratic margins on the order of several dozen points, so I treat the effective baseline margin as roughly 80+ points in favor of Democrats, and the PVI as about D+10 per recent statewide figures.[1]",
+  "as_of_date": "2026-08-03T16:22:48",
+  "sources": [
+    {
+      "title": "https://worldpopulationreview.com/state-rankings/blue-states",
+      "url": "https://worldpopulationreview.com/state-rankings/blue-states",
+      "domain": "worldpopulationreview.com"
+    },
+    {
+      "title": "https://www.washingtonpost.com/politics/2026/07/18/democrats-have-slim-lead-race-house-washington-post-ipsos-poll-finds/",
+      "url": "https://www.washingtonpost.com/politics/2026/07/18/democrats-have-slim-lead-race-house-washington-post-ipsos-poll-finds/",
+      "domain": "washingtonpost.com"
+    },
+    {
+      "title": "https://wearedcaction.org/dc-kids-count/key-measures/voting-democracy/",
+      "url": "https://wearedcaction.org/dc-kids-count/key-measures/voting-democracy/",
+      "domain": "wearedcaction.org"
+    },
+    {
+      "title": "https://www.pewresearch.org/politics/fact-sheet/party-affiliation-fact-sheet-npors/",
+      "url": "https://www.pewresearch.org/politics/fact-sheet/party-affiliation-fact-sheet-npors/",
+      "domain": "pewresearch.org"
+    },
+    {
+      "title": "https://thehill.com/homenews/campaign/5976160-democrats-house-advantage-poll/",
+      "url": "https://thehill.com/homenews/campaign/5976160-democrats-house-advantage-poll/",
+      "domain": "thehill.com"
+    },
+    {
+      "title": "https://www.washingtonexaminer.com/news/campaigns/congressional/4658695/democrats-see-dip-generic-ballot-polling/",
+      "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4658695/democrats-see-dip-generic-ballot-polling/",
+      "domain": "washingtonexaminer.com"
+    },
+    {
+      "title": "https://www.predictionedge.com/elections/profile/robert-white/?eventId=73b52d16c5d741538418ef3c089a8a0a&marketId=79c8f33ac9bf48839ea53954ad3084d2",
+      "url": "https://www.predictionedge.com/elections/profile/robert-white/?eventId=73b52d16c5d741538418ef3c089a8a0a&marketId=79c8f33ac9bf48839ea53954ad3084d2",
+      "domain": "predictionedge.com"
+    },
+    {
+      "title": "https://www.pewresearch.org/politics/2026/07/23/midterm-voting-preferences-by-race-and-ethnicity-age-and-other-demographics/",
+      "url": "https://www.pewresearch.org/politics/2026/07/23/midterm-voting-preferences-by-race-and-ethnicity-age-and-other-demographics/",
+      "domain": "pewresearch.org"
+    },
+    {
+      "title": "https://www.usatoday.com/story/news/politics/2026/07/19/trump-republicans-congress-democrats-poll/90972594007/",
+      "url": "https://www.usatoday.com/story/news/politics/2026/07/19/trump-republicans-congress-democrats-poll/90972594007/",
+      "domain": "usatoday.com"
+    },
+    {
+      "title": "https://ig.ft.com/us-elections/2024/results/state/district-of-columbia/",
+      "url": "https://ig.ft.com/us-elections/2024/results/state/district-of-columbia/",
+      "domain": "ig.ft.com"
+    },
+    {
+      "title": "https://www.pewresearch.org/chart/political-party-affiliation-among-u-s-adults/",
+      "url": "https://www.pewresearch.org/chart/political-party-affiliation-among-u-s-adults/",
+      "domain": "pewresearch.org"
+    },
+    {
+      "title": "https://worldpopulationreview.com/state-rankings/political-parties-by-state",
+      "url": "https://worldpopulationreview.com/state-rankings/political-parties-by-state",
+      "domain": "worldpopulationreview.com"
+    },
+    {
+      "title": "https://eciks.org/12000-27875-midterm-election-polls-democrats-2026",
+      "url": "https://eciks.org/12000-27875-midterm-election-polls-democrats-2026",
+      "domain": "eciks.org"
+    },
+    {
+      "title": "https://yougov.com/en-us/articles/54074-electorate-leaning-democrats-2026-midterms-and-toward-expecting-democratic-win-february-6-9-2026-economist-yougov-poll",
+      "url": "https://yougov.com/en-us/articles/54074-electorate-leaning-democrats-2026-midterms-and-toward-expecting-democratic-win-february-6-9-2026-economist-yougov-poll",
+      "domain": "yougov.com"
+    },
+    {
+      "title": "https://thehill.com/homenews/campaign/5984107-democratic-poll-leads-gop/",
+      "url": "https://thehill.com/homenews/campaign/5984107-democratic-poll-leads-gop/",
+      "domain": "thehill.com"
+    },
+    {
+      "title": "https://www.rasmussenreports.com/public_content/politics/mood_of_america/generic_congressional_ballot_july07",
+      "url": "https://www.rasmussenreports.com/public_content/politics/mood_of_america/generic_congressional_ballot_july07",
+      "domain": "rasmussenreports.com"
+    },
+    {
+      "title": "https://www.cnn.com/2026/07/30/politics/cnn-poll-midterm-generic-ballot-democrats-republicans-change",
+      "url": "https://www.cnn.com/2026/07/30/politics/cnn-poll-midterm-generic-ballot-democrats-republicans-change",
+      "domain": "cnn.com"
+    },
+    {
+      "title": "https://fairvote.org/analyzing-washington-dcs-primary-results-most-voters-ranked-2-candidates-and-what-rcv-tells-us-about-the-electorate/",
+      "url": "https://fairvote.org/analyzing-washington-dcs-primary-results-most-voters-ranked-2-candidates-and-what-rcv-tells-us-about-the-electorate/",
+      "domain": "fairvote.org"
+    },
+    {
+      "title": "https://fairvote.org/results-from-the-first-ranked-choice-voting-election-in-washington-dc/",
+      "url": "https://fairvote.org/results-from-the-first-ranked-choice-voting-election-in-washington-dc/",
+      "domain": "fairvote.org"
+    }
+  ],
+  "current_margin": {
+    "party": "D",
+    "percentage_points": 86.0
+  },
+  "cook_pvi": {
+    "party": "D",
+    "percentage_points": 10.0
+  },
   "abbreviation": "DC",
-  "_cached_at": "2026-08-02T18:42:03.317791"
+  "_cached_at": "2026-08-03T16:22:48.225764"
 }

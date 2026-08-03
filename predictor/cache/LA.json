@@ -1,11 +1,120 @@
 {
   "state": "Louisiana",
   "lean": "R",
-  "confidence": 0.95,
-  "basis": "current_polling",
-  "reasoning": "Republican Representative Julia Letlow and Democratic nominee Jamie Davis won their respective primary runoffs on June 27, 2026, to face off in the November general election. General election tracking from Electoral-vote.com shows Letlow leading Davis by 38 percentage points (59% to 21%). This massive advantage is also supported by Polymarket prediction odds, which give Republicans a 93% chance of winning the seat.",
-  "as_of_date": "2026-08-02T18:47:28",
-  "sources": [],
+  "confidence": 0.8,
+  "basis": "historical_baseline",
+  "reasoning": "Statewide, Louisiana has a Cook Partisan Voting Index of R+11, indicating the state votes about 11 points more Republican than the national average in presidential races.[1][14] In the most recent federal statewide contest, the 2024 U.S. Senate race, Republican incumbent Bill Cassidy defeated Democrat Dustin Granger by 18.6 percentage points (58.8% to 40.2%), providing a recent benchmark for federal partisan performance.[12] With no 2026 federal statewide head\u2011to\u2011head polling yet located and new congressional maps mainly affecting House districts rather than statewide races, the best current assessment is that Louisiana leans Republican for federal elections, grounded in its R+11 PVI and an R+18.6 recent statewide margin rather than up\u2011to\u2011date race-specific polling.[1][12][16]",
+  "as_of_date": "2026-08-03T16:20:17",
+  "sources": [
+    {
+      "title": "https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index",
+      "url": "https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index",
+      "domain": "en.wikipedia.org"
+    },
+    {
+      "title": "https://worldpopulationreview.com/state-rankings/political-parties-by-state",
+      "url": "https://worldpopulationreview.com/state-rankings/political-parties-by-state",
+      "domain": "worldpopulationreview.com"
+    },
+    {
+      "title": "https://worldpopulationreview.com/state-rankings/registered-voters-by-party",
+      "url": "https://worldpopulationreview.com/state-rankings/registered-voters-by-party",
+      "domain": "worldpopulationreview.com"
+    },
+    {
+      "title": "https://www.cookpolitical.com/pvi-map-and-district-list",
+      "url": "https://www.cookpolitical.com/pvi-map-and-district-list",
+      "domain": "cookpolitical.com"
+    },
+    {
+      "title": "https://www.theorypedia.com/news/louisiana-approves-new-congressional-map-that-could-allow-republicans-to-pick-up-fbh699",
+      "url": "https://www.theorypedia.com/news/louisiana-approves-new-congressional-map-that-could-allow-republicans-to-pick-up-fbh699",
+      "domain": "theorypedia.com"
+    },
+    {
+      "title": "https://bizmagsb.com/republicans-take-lead-in-louisiana-registered-voters-democrats-claim-purge/",
+      "url": "https://bizmagsb.com/republicans-take-lead-in-louisiana-registered-voters-democrats-claim-purge/",
+      "domain": "bizmagsb.com"
+    },
+    {
+      "title": "https://worldpopulationreview.com/state-rankings/most-republican-states",
+      "url": "https://worldpopulationreview.com/state-rankings/most-republican-states",
+      "domain": "worldpopulationreview.com"
+    },
+    {
+      "title": "https://www.sos.la.gov/elections-voting/election-results-statistics",
+      "url": "https://www.sos.la.gov/elections-voting/election-results-statistics",
+      "domain": "sos.la.gov"
+    },
+    {
+      "title": "https://wgno.com/news/louisiana/republicans-outpace-registered-democrats-in-louisiana-for-first-time-in-history/",
+      "url": "https://wgno.com/news/louisiana/republicans-outpace-registered-democrats-in-louisiana-for-first-time-in-history/",
+      "domain": "wgno.com"
+    },
+    {
+      "title": "https://www.wbrz.com/news/louisiana-s-number-of-registered-republicans-surpasses-number-of-registered-democrats",
+      "url": "https://www.wbrz.com/news/louisiana-s-number-of-registered-republicans-surpasses-number-of-registered-democrats",
+      "domain": "wbrz.com"
+    },
+    {
+      "title": "https://conservativemove.com/conservative-states/",
+      "url": "https://conservativemove.com/conservative-states/",
+      "domain": "conservativemove.com"
+    },
+    {
+      "title": "https://ig.ft.com/us-elections/2024/results/state/louisiana/",
+      "url": "https://ig.ft.com/us-elections/2024/results/state/louisiana/",
+      "domain": "ig.ft.com"
+    },
+    {
+      "title": "https://worldpopulationreview.com/state-rankings/blue-states",
+      "url": "https://worldpopulationreview.com/state-rankings/blue-states",
+      "domain": "worldpopulationreview.com"
+    },
+    {
+      "title": "https://worldpopulationreview.com/state-rankings/red-states",
+      "url": "https://worldpopulationreview.com/state-rankings/red-states",
+      "domain": "worldpopulationreview.com"
+    },
+    {
+      "title": "https://www.pewresearch.org/politics/fact-sheet/party-affiliation-fact-sheet-npors/",
+      "url": "https://www.pewresearch.org/politics/fact-sheet/party-affiliation-fact-sheet-npors/",
+      "domain": "pewresearch.org"
+    },
+    {
+      "title": "https://news.ballotpedia.org/2026/07/14/louisiana-enacts-20-election-bills-during-2026-session-including-new-congressional-maps-and-voter-id-changes/",
+      "url": "https://news.ballotpedia.org/2026/07/14/louisiana-enacts-20-election-bills-during-2026-session-including-new-congressional-maps-and-voter-id-changes/",
+      "domain": "news.ballotpedia.org"
+    },
+    {
+      "title": "https://www.opensecrets.org/elections-overview/most-partisan-industries",
+      "url": "https://www.opensecrets.org/elections-overview/most-partisan-industries",
+      "domain": "opensecrets.org"
+    },
+    {
+      "title": "https://ballotpedia.org/Redistricting_ahead_of_the_2026_elections",
+      "url": "https://ballotpedia.org/Redistricting_ahead_of_the_2026_elections",
+      "domain": "ballotpedia.org"
+    },
+    {
+      "title": "https://electionlawblog.org/?cat=1",
+      "url": "https://electionlawblog.org/?cat=1",
+      "domain": "electionlawblog.org"
+    },
+    {
+      "title": "https://www.politico.com/live-updates/2026/07/21/congress/rep-cleo-fields-heads-out-01006782",
+      "url": "https://www.politico.com/live-updates/2026/07/21/congress/rep-cleo-fields-heads-out-01006782",
+      "domain": "politico.com"
+    }
+  ],
+  "current_margin": {
+    "party": "R",
+    "percentage_points": 18.6
+  },
+  "cook_pvi": {
+    "party": "R",
+    "percentage_points": 11.0
+  },
   "abbreviation": "LA",
-  "_cached_at": "2026-08-02T18:47:28.366470"
+  "_cached_at": "2026-08-03T16:20:17.442798"
 }

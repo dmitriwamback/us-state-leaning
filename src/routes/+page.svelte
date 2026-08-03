@@ -1,6 +1,17 @@
 <script>
     import { onMount } from 'svelte';
     let moduleInstance;
+ 
+    let demVotes = $state(0);
+    let repVotes = $state(0);
+    let tossUpVotes = $state(0);
+    let noDataVotes = $state(0);
+    let loading = $state(true);
+    let error = $state(null);
+    let demStates = $state([]);
+    let repStates = $state([]);
+    let tossUpStates = $state([]);
+    let noDataStates = $state([]);
 
     const ELECTORAL_VOTES = {
         AL: 9,  AK: 3,  AZ: 11, AR: 6,
@@ -34,18 +45,6 @@
         WI: "Wisconsin",        WY: "Wyoming",      DC: "Washington DC",
     };
 
- 
-    let demVotes = $state(0);
-    let repVotes = $state(0);
-    let tossUpVotes = $state(0);
-    let noDataVotes = $state(0);
-    let loading = $state(true);
-    let error = $state(null);
-    let demStates = $state([]);
-    let repStates = $state([]);
-    let tossUpStates = $state([]);
-    let noDataStates = $state([]);
-
     let setViewportSize
 
     onMount(async () => {
@@ -76,10 +75,10 @@
         setViewportSize = moduleInstance.cwrap('setViewportSize', null, ['number', 'number']);
         setViewportSize(canvas.width, canvas.height);
 
-        const state = 'PA'
+        const state = ''
         
         try {
-            const res = await fetch('http://localhost:8080/api/state/'+state);
+            const res = await fetch('http://localhost:8080/api/states');
             const data = await res.json();
 
             setState(state, data.lean, data.confidence);
@@ -93,6 +92,7 @@
             const data = await res.json();
 
             for (const [abbr, verdict] of Object.entries(data)) {
+                console.log(abbr + ' ' + verdict.lean)
                 setState(abbr, verdict.lean, verdict.confidence);
             }
 

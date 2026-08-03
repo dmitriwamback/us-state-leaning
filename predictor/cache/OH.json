@@ -1,11 +1,120 @@
 {
   "state": "Ohio",
   "lean": "Toss-up",
-  "confidence": 0.5,
+  "confidence": 0.86,
   "basis": "current_polling",
-  "reasoning": "Recent polls for the 2026 general elections show statistical dead heats in both the Senate and Gubernatorial races. For Governor, a late June 2026 NYT/Siena poll has Democrat Amy Acton and Republican Vivek Ramaswamy tied at 47%, leading Cook Political Report to rate the race a Toss Up. In the Senate special election, polls show former Democratic Senator Sherrod Brown and appointed Republican incumbent Jon Husted trading narrow leads within the margin of error.",
-  "as_of_date": "2026-08-02T18:54:44",
-  "sources": [],
+  "reasoning": "Ohio\u2019s current statewide Cook PVI is R+5, indicating a modest Republican structural edge.[1] Recent Ohio polling found the governor\u2019s race tied between Vivek Ramaswamy and Amy Acton, while the Senate race had Jon Husted only narrowly ahead of Sherrod Brown by 3 points; Cook also reportedly moved Ohio\u2019s governor race to a toss-up and Sabato\u2019s Crystal Ball still leaned Republican, so the current picture is competitive rather than safely red.[6][8][13]",
+  "as_of_date": "2026-08-03T16:21:38",
+  "sources": [
+    {
+      "title": "https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index",
+      "url": "https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index",
+      "domain": "en.wikipedia.org"
+    },
+    {
+      "title": "https://worldpopulationreview.com/state-rankings/political-parties-by-state",
+      "url": "https://worldpopulationreview.com/state-rankings/political-parties-by-state",
+      "domain": "worldpopulationreview.com"
+    },
+    {
+      "title": "https://www.cookpolitical.com/pvi-map-and-district-list",
+      "url": "https://www.cookpolitical.com/pvi-map-and-district-list",
+      "domain": "cookpolitical.com"
+    },
+    {
+      "title": "https://worldpopulationreview.com/state-rankings/most-democratic-states",
+      "url": "https://worldpopulationreview.com/state-rankings/most-democratic-states",
+      "domain": "worldpopulationreview.com"
+    },
+    {
+      "title": "https://almanacofamericanpolitics.substack.com/p/the-senate-state-of-play-an-updated-fb2",
+      "url": "https://almanacofamericanpolitics.substack.com/p/the-senate-state-of-play-an-updated-fb2",
+      "domain": "almanacofamericanpolitics.substack.com"
+    },
+    {
+      "title": "https://www.dispatch.com/story/news/politics/elections/2026/07/08/poll-ohio-voters-senate-governor-races-sherrod-brown-jon-husted-vivek-ramaswamy-amy-acton-election/90824767007/",
+      "url": "https://www.dispatch.com/story/news/politics/elections/2026/07/08/poll-ohio-voters-senate-governor-races-sherrod-brown-jon-husted-vivek-ramaswamy-amy-acton-election/90824767007/",
+      "domain": "dispatch.com"
+    },
+    {
+      "title": "https://www.pbs.org/newshour/politics/democrats-see-a-chance-to-flip-a-seat-as-focus-on-abuse-claims-mounts-against-ohio-rep-max-miller",
+      "url": "https://www.pbs.org/newshour/politics/democrats-see-a-chance-to-flip-a-seat-as-focus-on-abuse-claims-mounts-against-ohio-rep-max-miller",
+      "domain": "pbs.org"
+    },
+    {
+      "title": "https://www.dispatch.com/story/news/politics/elections/2026/07/10/ohio-governor-race-toss-up-vivek-ramaswamy-amy-acton/90876975007/",
+      "url": "https://www.dispatch.com/story/news/politics/elections/2026/07/10/ohio-governor-race-toss-up-vivek-ramaswamy-amy-acton/90876975007/",
+      "domain": "dispatch.com"
+    },
+    {
+      "title": "https://www.natesilver.net/p/generic-ballot-average-2026-nate-silver-bulletin-congress-polls",
+      "url": "https://www.natesilver.net/p/generic-ballot-average-2026-nate-silver-bulletin-congress-polls",
+      "domain": "natesilver.net"
+    },
+    {
+      "title": "https://almanacofamericanpolitics.substack.com/p/handicapping-the-gubernatorial-races-e49",
+      "url": "https://almanacofamericanpolitics.substack.com/p/handicapping-the-gubernatorial-races-e49",
+      "domain": "almanacofamericanpolitics.substack.com"
+    },
+    {
+      "title": "https://ground.news/article/f6c038f7-8efb-4088-bfd4-5621172cee13",
+      "url": "https://ground.news/article/f6c038f7-8efb-4088-bfd4-5621172cee13",
+      "domain": "ground.news"
+    },
+    {
+      "title": "https://worldpopulationreview.com/state-rankings/blue-states",
+      "url": "https://worldpopulationreview.com/state-rankings/blue-states",
+      "domain": "worldpopulationreview.com"
+    },
+    {
+      "title": "https://www.wlwt.com/article/new-poll-shows-ohio-races-for-governor-us-senate-to-be-deadlocked/71823450",
+      "url": "https://www.wlwt.com/article/new-poll-shows-ohio-races-for-governor-us-senate-to-be-deadlocked/71823450",
+      "domain": "wlwt.com"
+    },
+    {
+      "title": "https://www.dailykos.com/stories/2026/7/13/800057791/community/the-buckeye-state-of-play-important-ohio-races-2/",
+      "url": "https://www.dailykos.com/stories/2026/7/13/800057791/community/the-buckeye-state-of-play-important-ohio-races-2/",
+      "domain": "dailykos.com"
+    },
+    {
+      "title": "https://ohiocapitaljournal.com/2026/07/24/dems-need-to-flip-6-seats-to-break-the-republican-statehouse-supermajority-and-northeast-ohio-is-pivotal/",
+      "url": "https://ohiocapitaljournal.com/2026/07/24/dems-need-to-flip-6-seats-to-break-the-republican-statehouse-supermajority-and-northeast-ohio-is-pivotal/",
+      "domain": "ohiocapitaljournal.com"
+    },
+    {
+      "title": "https://www.pewresearch.org/politics/fact-sheet/party-affiliation-fact-sheet-npors/",
+      "url": "https://www.pewresearch.org/politics/fact-sheet/party-affiliation-fact-sheet-npors/",
+      "domain": "pewresearch.org"
+    },
+    {
+      "title": "https://worldpopulationreview.com/state-rankings/red-states",
+      "url": "https://worldpopulationreview.com/state-rankings/red-states",
+      "domain": "worldpopulationreview.com"
+    },
+    {
+      "title": "https://ballotpedia.org/Redistricting_ahead_of_the_2026_elections",
+      "url": "https://ballotpedia.org/Redistricting_ahead_of_the_2026_elections",
+      "domain": "ballotpedia.org"
+    },
+    {
+      "title": "https://blog.fiftyplusone.news/p/election-forecast-democrats-strongly-favored-house-tilt-senate",
+      "url": "https://blog.fiftyplusone.news/p/election-forecast-democrats-strongly-favored-house-tilt-senate",
+      "domain": "blog.fiftyplusone.news"
+    },
+    {
+      "title": "https://electionlawblog.org/?cat=1",
+      "url": "https://electionlawblog.org/?cat=1",
+      "domain": "electionlawblog.org"
+    }
+  ],
+  "current_margin": {
+    "party": "EVEN",
+    "percentage_points": 0.0
+  },
+  "cook_pvi": {
+    "party": "R",
+    "percentage_points": 5.0
+  },
   "abbreviation": "OH",
-  "_cached_at": "2026-08-02T18:54:44.366141"
+  "_cached_at": "2026-08-03T16:21:38.080230"
 }

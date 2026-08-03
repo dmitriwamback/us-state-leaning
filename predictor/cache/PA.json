@@ -1,10 +1,10 @@
 {
   "state": "Pennsylvania",
-  "lean": "Toss-up",
-  "confidence": 0.65,
+  "lean": "D",
+  "confidence": 0.83,
   "basis": "current_polling",
-  "reasoning": "For 2026, the key statewide federal figure is Democratic Sen. John Fetterman; recent Quinnipiac polling cited by Newsweek shows his approval slipping among Democrats, and describes Pennsylvania as \"about evenly divided\" between the parties, with no clear, durable advantage for either side.[13] At the same time, Democrats hold a modest structural edge: they have grown their statewide voter-registration advantage to about 200,000 voters as of July 2026, and current party registration is roughly 42.9% Democratic to 41.3% Republican.[3][4] Given these mixed signals\u2014Democratic registration gains but weakening incumbent numbers and multiple competitive House districts\u2014the best reading is that Pennsylvania is genuinely balanced and should be treated as a Toss-up for current federal elections.[8][14]",
-  "as_of_date": "2026-08-03T13:27:11",
+  "reasoning": "Pennsylvania\u2019s current named-candidate polling shows Josh Shapiro leading Stacy Garrity 53% to 40%, a 13-point Democratic margin. A second recent report says the lead narrowed from 18 points to 13, while Cook\u2019s statewide PVI is R+1, indicating a structurally slight Republican tilt but not enough to outweigh the current race evidence.",
+  "as_of_date": "2026-08-03T16:21:49",
   "sources": [
     {
       "title": "https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index",
@@ -17,6 +17,11 @@
       "domain": "worldpopulationreview.com"
     },
     {
+      "title": "https://www.cookpolitical.com/pvi-map-and-district-list",
+      "url": "https://www.cookpolitical.com/pvi-map-and-district-list",
+      "domain": "cookpolitical.com"
+    },
+    {
       "title": "https://worldpopulationreview.com/state-rankings/political-parties-by-state",
       "url": "https://worldpopulationreview.com/state-rankings/political-parties-by-state",
       "domain": "worldpopulationreview.com"
@@ -27,19 +32,9 @@
       "domain": "padems.org"
     },
     {
-      "title": "https://www.cookpolitical.com/pvi-map-and-district-list",
-      "url": "https://www.cookpolitical.com/pvi-map-and-district-list",
-      "domain": "cookpolitical.com"
-    },
-    {
       "title": "https://www.pewresearch.org/politics/fact-sheet/party-affiliation-fact-sheet-npors/",
       "url": "https://www.pewresearch.org/politics/fact-sheet/party-affiliation-fact-sheet-npors/",
       "domain": "pewresearch.org"
-    },
-    {
-      "title": "https://www.youtube.com/watch?v=KyV6ZFoDLbg",
-      "url": "https://www.youtube.com/watch?v=KyV6ZFoDLbg",
-      "domain": "youtube.com"
     },
     {
       "title": "https://www.soulsandliberty.com/close-race-watch-pa/",
@@ -47,9 +42,9 @@
       "domain": "soulsandliberty.com"
     },
     {
-      "title": "https://www.facebook.com/JoshShapiroPA/posts/pennsylvania-this-november-we-have-the-power-to-decide-it-allby-electing-bob-har/1584280089721180/",
-      "url": "https://www.facebook.com/JoshShapiroPA/posts/pennsylvania-this-november-we-have-the-power-to-decide-it-allby-electing-bob-har/1584280089721180/",
-      "domain": "facebook.com"
+      "title": "https://www.pa.gov/agencies/dos/programs/voting-and-elections/running-for-office",
+      "url": "https://www.pa.gov/agencies/dos/programs/voting-and-elections/running-for-office",
+      "domain": "pa.gov"
     },
     {
       "title": "https://worldpopulationreview.com/state-rankings/most-republican-states",
@@ -57,9 +52,9 @@
       "domain": "worldpopulationreview.com"
     },
     {
-      "title": "https://dho.stanford.edu/wp-content/uploads/JReg_Reporting.pdf",
-      "url": "https://dho.stanford.edu/wp-content/uploads/JReg_Reporting.pdf",
-      "domain": "dho.stanford.edu"
+      "title": "https://www.palegis.us/house",
+      "url": "https://www.palegis.us/house",
+      "domain": "palegis.us"
     },
     {
       "title": "https://www.dailykos.com/stories/2026/7/30/800076142/community/pennsylvania/",
@@ -77,6 +72,11 @@
       "domain": "lockhaven.com"
     },
     {
+      "title": "https://ballotpedia.org/Redistricting_ahead_of_the_2026_elections",
+      "url": "https://ballotpedia.org/Redistricting_ahead_of_the_2026_elections",
+      "domain": "ballotpedia.org"
+    },
+    {
       "title": "https://www.dailykos.com/stories/2026/7/23/800058903/community/the-keystone-state-of-play-key-pennsylvania-races/",
       "url": "https://www.dailykos.com/stories/2026/7/23/800058903/community/the-keystone-state-of-play-key-pennsylvania-races/",
       "domain": "dailykos.com"
@@ -87,14 +87,9 @@
       "domain": "whyy.org"
     },
     {
-      "title": "https://www.instagram.com/reel/DbYOlJYA97v/",
-      "url": "https://www.instagram.com/reel/DbYOlJYA97v/",
-      "domain": "instagram.com"
-    },
-    {
-      "title": "https://ballotpedia.org/Redistricting_ahead_of_the_2026_elections",
-      "url": "https://ballotpedia.org/Redistricting_ahead_of_the_2026_elections",
-      "domain": "ballotpedia.org"
+      "title": "https://www.govtrack.us/congress/members/PA",
+      "url": "https://www.govtrack.us/congress/members/PA",
+      "domain": "govtrack.us"
     },
     {
       "title": "https://www.spotlightpa.org/pennsylvania-voter-registration/",
@@ -102,11 +97,24 @@
       "domain": "spotlightpa.org"
     },
     {
-      "title": "https://electionlawblog.org/?cat=1",
-      "url": "https://electionlawblog.org/?cat=1",
-      "domain": "electionlawblog.org"
+      "title": "https://fitzpatrick.house.gov/2026/7/house-unanimously-passes-fitzpatrick-golden-bipartisan-bill-to-ban-foreign-money-in-american-elections",
+      "url": "https://fitzpatrick.house.gov/2026/7/house-unanimously-passes-fitzpatrick-golden-bipartisan-bill-to-ban-foreign-money-in-american-elections",
+      "domain": "fitzpatrick.house.gov"
+    },
+    {
+      "title": "https://libguides.princeton.edu/elections",
+      "url": "https://libguides.princeton.edu/elections",
+      "domain": "libguides.princeton.edu"
     }
   ],
+  "current_margin": {
+    "party": "D",
+    "percentage_points": 13.0
+  },
+  "cook_pvi": {
+    "party": "R",
+    "percentage_points": 1.0
+  },
   "abbreviation": "PA",
-  "_cached_at": "2026-08-03T13:27:11.398639"
+  "_cached_at": "2026-08-03T16:21:49.016267"
 }

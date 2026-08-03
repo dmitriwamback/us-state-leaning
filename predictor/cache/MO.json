@@ -1,11 +1,120 @@
 {
   "state": "Missouri",
   "lean": "R",
-  "confidence": 0.85,
+  "confidence": 0.8,
   "basis": "historical_baseline",
-  "reasoning": "Missouri has no U.S. Senate or gubernatorial elections on the ballot in 2026, necessitating a reliance on recent historical results. In the 2024 presidential election, Republican Donald Trump won the state by an 18.41 percentage point landslide (58.49% to 40.08%), and Republican Senator Josh Hawley secured his seat by 13.8 percentage points. Polling from early 2026 continues to categorize Missouri as a solidly red state, with no signal of a partisan shift.",
-  "as_of_date": "2026-08-02T18:49:45",
-  "sources": [],
+  "reasoning": "Cook Political Report\u2019s statewide Partisan Voting Index lists Missouri at R+9, indicating the state votes about 9 points more Republican than the national average in recent presidential elections[1][8]. There is no U.S. Senate race in Missouri this cycle and recent coverage describes the state\u2019s congressional landscape as generally red-leaning, with Republicans holding both Senate seats and 6 of 8 U.S. House seats[2][5]. In the absence of current-cycle federal head-to-head polling or rating changes within the last 45 days, Missouri\u2019s recent federal results and solid Republican control point to a roughly mid-teens GOP advantage at the federal level, so the state currently leans Republican by an estimated ~15 points rather than being competitive.",
+  "as_of_date": "2026-08-03T16:20:53",
+  "sources": [
+    {
+      "title": "https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index",
+      "url": "https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index",
+      "domain": "en.wikipedia.org"
+    },
+    {
+      "title": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Missouri,_2026",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Missouri,_2026",
+      "domain": "ballotpedia.org"
+    },
+    {
+      "title": "https://www.multistate.us/elections/governors",
+      "url": "https://www.multistate.us/elections/governors",
+      "domain": "multistate.us"
+    },
+    {
+      "title": "https://www.predictionedge.com/elections/mo/",
+      "url": "https://www.predictionedge.com/elections/mo/",
+      "domain": "predictionedge.com"
+    },
+    {
+      "title": "https://www.aa.com.tr/en/world/explainer-us-voters-prepare-for-critical-midterm-primaries-across-5-states/4017061",
+      "url": "https://www.aa.com.tr/en/world/explainer-us-voters-prepare-for-critical-midterm-primaries-across-5-states/4017061",
+      "domain": "aa.com.tr"
+    },
+    {
+      "title": "https://www.cookpolitical.com/pvi-map-and-district-list",
+      "url": "https://www.cookpolitical.com/pvi-map-and-district-list",
+      "domain": "cookpolitical.com"
+    },
+    {
+      "title": "https://www.columbiamissourian.com/news/elections/missouri-congressional/republican-challengers-line-up-in-red-leaning-5th-district/article_c9f25e8d-618c-46fc-ada3-52e33978ee5d.html",
+      "url": "https://www.columbiamissourian.com/news/elections/missouri-congressional/republican-challengers-line-up-in-red-leaning-5th-district/article_c9f25e8d-618c-46fc-ada3-52e33978ee5d.html",
+      "domain": "columbiamissourian.com"
+    },
+    {
+      "title": "https://worldpopulationreview.com/state-rankings/red-states",
+      "url": "https://worldpopulationreview.com/state-rankings/red-states",
+      "domain": "worldpopulationreview.com"
+    },
+    {
+      "title": "https://www.komu.com/news/elections/august-2026-election-boone-county-voters-guide/article_39e319f3-453b-4819-a3d7-f9c8dece0504.html",
+      "url": "https://www.komu.com/news/elections/august-2026-election-boone-county-voters-guide/article_39e319f3-453b-4819-a3d7-f9c8dece0504.html",
+      "domain": "komu.com"
+    },
+    {
+      "title": "https://worldpopulationreview.com/state-rankings/most-democratic-states",
+      "url": "https://worldpopulationreview.com/state-rankings/most-democratic-states",
+      "domain": "worldpopulationreview.com"
+    },
+    {
+      "title": "https://en.namu.wiki/w/%EB%AF%B8%EC%A3%BC%EB%A6%AC%20%EC%A0%9C1%EA%B5%AC",
+      "url": "https://en.namu.wiki/w/%EB%AF%B8%EC%A3%BC%EB%A6%AC%20%EC%A0%9C1%EA%B5%AC",
+      "domain": "en.namu.wiki"
+    },
+    {
+      "title": "https://worldpopulationreview.com/state-rankings/political-parties-by-state",
+      "url": "https://worldpopulationreview.com/state-rankings/political-parties-by-state",
+      "domain": "worldpopulationreview.com"
+    },
+    {
+      "title": "https://www.myleaderpaper.com/news/elections/district-8-has-contested-congressional-races-in-both-parties/article_847cf3de-703b-453b-b4b2-651ea8ac83cf.html",
+      "url": "https://www.myleaderpaper.com/news/elections/district-8-has-contested-congressional-races-in-both-parties/article_847cf3de-703b-453b-b4b2-651ea8ac83cf.html",
+      "domain": "myleaderpaper.com"
+    },
+    {
+      "title": "https://fox2now.com/news/missouri/voters-guide-what-to-know-for-missouris-august-4-2026-primary-election/",
+      "url": "https://fox2now.com/news/missouri/voters-guide-what-to-know-for-missouris-august-4-2026-primary-election/",
+      "domain": "fox2now.com"
+    },
+    {
+      "title": "https://www.kansascity.com/news/politics-government/article316433398.html",
+      "url": "https://www.kansascity.com/news/politics-government/article316433398.html",
+      "domain": "kansascity.com"
+    },
+    {
+      "title": "https://www.opensecrets.org/elections-overview/most-partisan-industries",
+      "url": "https://www.opensecrets.org/elections-overview/most-partisan-industries",
+      "domain": "opensecrets.org"
+    },
+    {
+      "title": "https://www.pewresearch.org/politics/fact-sheet/party-affiliation-fact-sheet-npors/",
+      "url": "https://www.pewresearch.org/politics/fact-sheet/party-affiliation-fact-sheet-npors/",
+      "domain": "pewresearch.org"
+    },
+    {
+      "title": "https://ballotpedia.org/Redistricting_ahead_of_the_2026_elections",
+      "url": "https://ballotpedia.org/Redistricting_ahead_of_the_2026_elections",
+      "domain": "ballotpedia.org"
+    },
+    {
+      "title": "https://spectrumlocalnews.com/mo/st-louis/news/2026/08/03/missouri-turnout-could-hit-1-4-million-as-ballot-measures-drive-primary-interest",
+      "url": "https://spectrumlocalnews.com/mo/st-louis/news/2026/08/03/missouri-turnout-could-hit-1-4-million-as-ballot-measures-drive-primary-interest",
+      "domain": "spectrumlocalnews.com"
+    },
+    {
+      "title": "https://worldpopulationreview.com/state-rankings/blue-states",
+      "url": "https://worldpopulationreview.com/state-rankings/blue-states",
+      "domain": "worldpopulationreview.com"
+    }
+  ],
+  "current_margin": {
+    "party": "R",
+    "percentage_points": 15.0
+  },
+  "cook_pvi": {
+    "party": "R",
+    "percentage_points": 9.0
+  },
   "abbreviation": "MO",
-  "_cached_at": "2026-08-02T18:49:45.513520"
+  "_cached_at": "2026-08-03T16:20:53.528755"
 }

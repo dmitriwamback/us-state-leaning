@@ -1,11 +1,100 @@
 {
   "state": "Hawaii",
   "lean": "D",
-  "confidence": 0.9,
-  "basis": "historical_baseline",
-  "reasoning": "In the most recent 2024 federal elections, Hawaii demonstrated a highly lopsided Democratic lean, with Kamala Harris winning the presidential vote by over 23 points (60.6% to 37.5%) and Senator Mazie Hirono winning re-election by nearly 42 points (70.9% to 29.0%). With no Senate or Presidential races on the ballot in 2026, there is no active federal polling, but current 2026 gubernatorial forecasts for incumbent Josh Green (D) continue to show Democrats in a safe, dominant position.",
-  "as_of_date": "2026-08-02T18:44:18",
-  "sources": [],
+  "confidence": 0.89,
+  "basis": "midterm_swing",
+  "reasoning": "Hawaii\u2019s current federal-election picture remains strongly Democratic: the 2026 Hawaii governor forecast projects a D+30.1 margin, and current-cycle reporting shows Democrats dominate the ballot fields while both U.S. House incumbents are in contested Democratic primaries. For the structural baseline, a statewide Cook PVI of D+13 is cited for Hawaii, and the most recent statewide presidential result in the search data was 60.6% Democratic vs. 37.5% Republican in 2024, consistent with a deep-blue state.",
+  "as_of_date": "2026-08-03T16:19:45",
+  "sources": [
+    {
+      "title": "https://worldpopulationreview.com/state-rankings/blue-states",
+      "url": "https://worldpopulationreview.com/state-rankings/blue-states",
+      "domain": "worldpopulationreview.com"
+    },
+    {
+      "title": "https://worldpopulationreview.com/state-rankings/political-parties-by-state",
+      "url": "https://worldpopulationreview.com/state-rankings/political-parties-by-state",
+      "domain": "worldpopulationreview.com"
+    },
+    {
+      "title": "https://ig.ft.com/us-elections/2024/results/state/hawaii/",
+      "url": "https://ig.ft.com/us-elections/2024/results/state/hawaii/",
+      "domain": "ig.ft.com"
+    },
+    {
+      "title": "https://www.hawaiinewsnow.com/2026/07/22/keohokalole-case-spar-over-voting-security-partisanship/",
+      "url": "https://www.hawaiinewsnow.com/2026/07/22/keohokalole-case-spar-over-voting-security-partisanship/",
+      "domain": "hawaiinewsnow.com"
+    },
+    {
+      "title": "https://www.staradvertiser.com/2026/07/19/hawaii-news/congressional-races-among-hawaiis-most-contested/",
+      "url": "https://www.staradvertiser.com/2026/07/19/hawaii-news/congressional-races-among-hawaiis-most-contested/",
+      "domain": "staradvertiser.com"
+    },
+    {
+      "title": "https://www.civilbeat.org/2026/07/neal-milner-moderates-make-little-difference-in-solid-blue-hawai%CA%BBi/",
+      "url": "https://www.civilbeat.org/2026/07/neal-milner-moderates-make-little-difference-in-solid-blue-hawai%CA%BBi/",
+      "domain": "civilbeat.org"
+    },
+    {
+      "title": "https://www.khon2.com/hawaii-elections-2026/hawaii-primary-election/",
+      "url": "https://www.khon2.com/hawaii-elections-2026/hawaii-primary-election/",
+      "domain": "khon2.com"
+    },
+    {
+      "title": "https://www.civilbeat.org/2026/07/case-and-keohokalole-ramp-up-their-spending-in-advance-of-august-primary/",
+      "url": "https://www.civilbeat.org/2026/07/case-and-keohokalole-ramp-up-their-spending-in-advance-of-august-primary/",
+      "domain": "civilbeat.org"
+    },
+    {
+      "title": "https://www.pewresearch.org/politics/fact-sheet/party-affiliation-fact-sheet-npors/",
+      "url": "https://www.pewresearch.org/politics/fact-sheet/party-affiliation-fact-sheet-npors/",
+      "domain": "pewresearch.org"
+    },
+    {
+      "title": "https://worldpopulationreview.com/state-rankings/most-democratic-states",
+      "url": "https://worldpopulationreview.com/state-rankings/most-democratic-states",
+      "domain": "worldpopulationreview.com"
+    },
+    {
+      "title": "https://www.civilbeat.org/elections-2026/primary/",
+      "url": "https://www.civilbeat.org/elections-2026/primary/",
+      "domain": "civilbeat.org"
+    },
+    {
+      "title": "https://news.ballotpedia.org/2026/07/07/for-the-first-time-since-2014-both-of-hawaiis-u-s-house-incumbents-are-running-in-contested-primaries/",
+      "url": "https://news.ballotpedia.org/2026/07/07/for-the-first-time-since-2014-both-of-hawaiis-u-s-house-incumbents-are-running-in-contested-primaries/",
+      "domain": "news.ballotpedia.org"
+    },
+    {
+      "title": "https://apps.npr.org/primary-election-results-2026/states/HI.html",
+      "url": "https://apps.npr.org/primary-election-results-2026/states/HI.html",
+      "domain": "apps.npr.org"
+    },
+    {
+      "title": "https://www.pollsmax.com/governor/hawaii/forecast/",
+      "url": "https://www.pollsmax.com/governor/hawaii/forecast/",
+      "domain": "pollsmax.com"
+    },
+    {
+      "title": "https://www.pewresearch.org/politics/2026/07/23/midterm-voting-preferences-by-race-and-ethnicity-age-and-other-demographics/",
+      "url": "https://www.pewresearch.org/politics/2026/07/23/midterm-voting-preferences-by-race-and-ethnicity-age-and-other-demographics/",
+      "domain": "pewresearch.org"
+    },
+    {
+      "title": "https://presencenews.org/hawaii-election-history/",
+      "url": "https://presencenews.org/hawaii-election-history/",
+      "domain": "presencenews.org"
+    }
+  ],
+  "current_margin": {
+    "party": "D",
+    "percentage_points": 30.1
+  },
+  "cook_pvi": {
+    "party": "D",
+    "percentage_points": 13.0
+  },
   "abbreviation": "HI",
-  "_cached_at": "2026-08-02T18:44:18.792135"
+  "_cached_at": "2026-08-03T16:19:45.906902"
 }

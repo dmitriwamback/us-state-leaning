@@ -1,62 +1,120 @@
 {
   "state": "Illinois",
   "lean": "D",
-  "confidence": 0.85,
-  "basis": "historical_baseline",
-  "reasoning": "With no general election public polling published in the last 45 days, the state's lean is evaluated on its lopsided historical baseline, including a 10.9-point Democratic margin in the 2024 presidential race and a 12.5-point margin in the 2022 gubernatorial election. Nonpartisan handicappers like the Cook Political Report and Sabato's Crystal Ball continue to rate both the open Senate race between Juliana Stratton and Don Tracy and the governor's race between JB Pritzker and Darren Bailey as Solid/Safe Democratic. The total absence of competitive news or close polling indicates a highly stable and secure Democratic advantage.",
-  "as_of_date": "2026-08-02T18:45:54",
+  "confidence": 0.8,
+  "basis": "midterm_swing",
+  "reasoning": "Cook Political Report\u2019s statewide PVI, as summarized for 2024 and 2026 rankings, lists Illinois at roughly D+6, indicating a structurally Democratic state in federal elections.[1][3][16] Recent cycle forecasters and trackers rate Illinois as Safe Democratic for upcoming presidential contests, and generic national and midterm ballots show Democrats leading Republicans by about 4\u20136 points among voters, which in a D+6 state implies an even larger effective advantage locally.[4][8][13][14] With no credible evidence of competitive, named-candidate federal races in Illinois this cycle and forecasters consistently calling it safe for Democrats, the current effective margin is best characterized as a solid Democratic edge of roughly 8 points, consistent with its D+6 PVI plus a modest national Democratic advantage.[3][4][14]",
+  "as_of_date": "2026-08-03T16:19:53",
   "sources": [
     {
-      "title": "wikipedia.org",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5hw82quLPPjhIih8cA8UaECrlvfMuYJzcVShAxe31TdRgn6nRh4J_8K3RiF20HkqVX0rbwxUrvyRYFdax37_Ykt2STuF9CpgWuTwN8m9IXZVJNVpBEMm2yendjOHfDMEHxi5KoyFitizlxVEMWGrKDoyHoHC2AiI=",
-      "domain": "vertexaisearch.cloud.google.com"
+      "title": "https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index",
+      "url": "https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index",
+      "domain": "en.wikipedia.org"
     },
     {
-      "title": "pollsmax.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4WIdRXvDyMt2vEw_Ecn2DZm0PkrbiufIV0mCtFQo9wLRQEP-VIhmcOzOgqFmrYUOOZW3CEWQHiJ8-iDWFMu4wDHgorRuNq46b_7Ftv1jrFb2LWulSINpZHJkzf-g6Ciohbdf_QPNWWqOy",
-      "domain": "vertexaisearch.cloud.google.com"
+      "title": "https://www.nytimes.com/interactive/polls/illinois-us-house-7-polls-2026.html",
+      "url": "https://www.nytimes.com/interactive/polls/illinois-us-house-7-polls-2026.html",
+      "domain": "nytimes.com"
     },
     {
-      "title": "multistate.us",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfLb4VHRMI-8kC7XY0RGWsQQ5j58Xn1dm3e_qzK-5r5kD_bA8EcTbQpuhEpfsLj59P9Zacx1QTfGgnX6PRiLwRnZkdp2YhYGW10bnASqSCB1_NGXiY_cUqJpdWoBjRPV1-N-eaJTZf_w==",
-      "domain": "vertexaisearch.cloud.google.com"
+      "title": "https://worldpopulationreview.com/state-rankings/blue-states",
+      "url": "https://worldpopulationreview.com/state-rankings/blue-states",
+      "domain": "worldpopulationreview.com"
     },
     {
-      "title": "theillinoize.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFsKw_qdkrYXhNs739B8pEcSrjK8xeXH1GvYb0c3yKtpOzGJyRI8tyv6CaVoCadnx4Kfp5KICr_1aDG-V5DrQoik64pJNmy1YIL50HrUxLT2YGKp5uaTUyLrLLkfYM9QtFR3KJKFjaajytfXFzBpN3tC-7IcZFYi0ig6iuzX9PGRGu1",
-      "domain": "vertexaisearch.cloud.google.com"
+      "title": "https://2028tracker.com/states/illinois",
+      "url": "https://2028tracker.com/states/illinois",
+      "domain": "2028tracker.com"
     },
     {
-      "title": "wikipedia.org",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEi0uLlWdtpGiGrnnIVYTw63bSOurvTn-mSTxOTbGP7aHTD8AKifEn3FY07-SW5re_XDQDxEho665pyVPywD98Au43GN7jVwvU5Qo6IPCExkX1EOEQ6Lj9jK3IvRg_EWJ205O4dlp7TQAdRBgsiwVNlsSovSgSHZ4aW5Ll_nKjryGw3",
-      "domain": "vertexaisearch.cloud.google.com"
+      "title": "https://worldpopulationreview.com/state-rankings/political-parties-by-state",
+      "url": "https://worldpopulationreview.com/state-rankings/political-parties-by-state",
+      "domain": "worldpopulationreview.com"
     },
     {
-      "title": "ballotpedia.org",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGlOrXNvWzmceknhPknwsr-02KcHy2CeYa3Xu5gmOXOio8gbLH12FxaFxVUL6pg8e2v_Y_SycN-qVU29rA9Nrgc4-m0y0DtBG8a7iQX-hzp6O6zq2smCkzhRE3t1OPawTVnxoiLPorHkCnJWYiyCkT3fZhgQg9Q7vOnhoiFTg==",
-      "domain": "vertexaisearch.cloud.google.com"
+      "title": "https://www.cookpolitical.com/pvi-map-and-district-list",
+      "url": "https://www.cookpolitical.com/pvi-map-and-district-list",
+      "domain": "cookpolitical.com"
     },
     {
-      "title": "ballotpedia.org",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEC_ieJrFrdMdfPJPnRMOHY1w2PaAPiqxfbEL36d7V9za5-Hy1vl013SqugRFFyPNZPiRCMay3_1cBLeEKbtjUp5tB1CD7Q_lNuREPJGmZvJ98C7tvDxvtX2gF8fEg51e-JuEWdxM44vN5YIeGGXFUqFgzGgZF5_UAP7S3QQg==",
-      "domain": "vertexaisearch.cloud.google.com"
+      "title": "https://www.pollsmax.com/senate/illinois/forecast/",
+      "url": "https://www.pollsmax.com/senate/illinois/forecast/",
+      "domain": "pollsmax.com"
     },
     {
-      "title": "multistate.us",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVXrHqN3T9cIWULpUbXx5ovXYQtAceVDXT79beCcntkGV4ho10D5NUU02qDr4nOxG8bZpseSVBJ1vp48cfg4SCXvhPFfiDjiIl3wyFJMQLqWD6G_rckEpz7fM5xQgh127SPmQ=",
-      "domain": "vertexaisearch.cloud.google.com"
+      "title": "https://www.pollsmax.com/approval/generic-ballot/",
+      "url": "https://www.pollsmax.com/approval/generic-ballot/",
+      "domain": "pollsmax.com"
     },
     {
-      "title": "reddit.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHEqQrdLZi1HwQOU4LmU3s1Qhk_1oINqgNVtx3-rYXrgvSGsCtucgN3S5xrKL-t3R66b_t6C17SEUSM3FNv0c_O1NbEHReeHNtXV9uX9vddSzJ6nIRmDNRgVB7TrXHlTNs0pvA=",
-      "domain": "vertexaisearch.cloud.google.com"
+      "title": "https://2028tracker.com/states",
+      "url": "https://2028tracker.com/states",
+      "domain": "2028tracker.com"
     },
     {
-      "title": "wmbdradio.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbMGjFWXd99PYvsYRGcx7nYdteP4MaE3V3_cBroRaqTt4WHUHu0fhEZhoq8ZU9SqPNyXtUL4crqJQwL-49YNC9wuXBEukJXb0Qj7Sp9aqrQpSoPB2cFblhNbAwEiB0189f7MR9RM859xL9TlOmiCQJSlYb71YPxCiPY7LaNCJhJxzTTxCd9C9klILzZpT99TBFPUhfbi8gdQM7EUzqBwID4YCuYlRbRCeQAu4OXji2fgGgl440pKPmTP565bJWRDTo5w==",
-      "domain": "vertexaisearch.cloud.google.com"
+      "title": "https://www.pewresearch.org/chart/political-party-affiliation-among-u-s-adults/",
+      "url": "https://www.pewresearch.org/chart/political-party-affiliation-among-u-s-adults/",
+      "domain": "pewresearch.org"
+    },
+    {
+      "title": "https://copublicstrategies.com/cozen-currents-trump-v-the-worlds-most-deliberative-body/",
+      "url": "https://copublicstrategies.com/cozen-currents-trump-v-the-worlds-most-deliberative-body/",
+      "domain": "copublicstrategies.com"
+    },
+    {
+      "title": "https://www.pewresearch.org/politics/fact-sheet/party-affiliation-fact-sheet-npors/",
+      "url": "https://www.pewresearch.org/politics/fact-sheet/party-affiliation-fact-sheet-npors/",
+      "domain": "pewresearch.org"
+    },
+    {
+      "title": "https://www.rasmussenreports.com/public_content/politics/mood_of_america/generic_congressional_ballot_july07",
+      "url": "https://www.rasmussenreports.com/public_content/politics/mood_of_america/generic_congressional_ballot_july07",
+      "domain": "rasmussenreports.com"
+    },
+    {
+      "title": "https://www.pewresearch.org/politics/2026/07/23/midterm-voting-preferences-by-race-and-ethnicity-age-and-other-demographics/",
+      "url": "https://www.pewresearch.org/politics/2026/07/23/midterm-voting-preferences-by-race-and-ethnicity-age-and-other-demographics/",
+      "domain": "pewresearch.org"
+    },
+    {
+      "title": "https://www.pewresearch.org/topic/politics-policy/us-elections-voters/voters-voting/voter-demographics/",
+      "url": "https://www.pewresearch.org/topic/politics-policy/us-elections-voters/voters-voting/voter-demographics/",
+      "domain": "pewresearch.org"
+    },
+    {
+      "title": "https://worldpopulationreview.com/state-rankings/most-liberal-states",
+      "url": "https://worldpopulationreview.com/state-rankings/most-liberal-states",
+      "domain": "worldpopulationreview.com"
+    },
+    {
+      "title": "https://worldpopulationreview.com/state-rankings/most-republican-states",
+      "url": "https://worldpopulationreview.com/state-rankings/most-republican-states",
+      "domain": "worldpopulationreview.com"
+    },
+    {
+      "title": "https://worldpopulationreview.com/state-rankings/registered-voters-by-party",
+      "url": "https://worldpopulationreview.com/state-rankings/registered-voters-by-party",
+      "domain": "worldpopulationreview.com"
+    },
+    {
+      "title": "https://www.columbiamissourian.com/news/elections/missouri-congressional/republican-challengers-line-up-in-red-leaning-5th-district/article_c9f25e8d-618c-46fc-ada3-52e33978ee5d.html",
+      "url": "https://www.columbiamissourian.com/news/elections/missouri-congressional/republican-challengers-line-up-in-red-leaning-5th-district/article_c9f25e8d-618c-46fc-ada3-52e33978ee5d.html",
+      "domain": "columbiamissourian.com"
+    },
+    {
+      "title": "https://www.britannica.com/topic/gerrymandering",
+      "url": "https://www.britannica.com/topic/gerrymandering",
+      "domain": "britannica.com"
     }
   ],
+  "current_margin": {
+    "party": "D",
+    "percentage_points": 8.0
+  },
+  "cook_pvi": {
+    "party": "D",
+    "percentage_points": 6.0
+  },
   "abbreviation": "IL",
-  "_cached_at": "2026-08-02T18:45:54.212927"
+  "_cached_at": "2026-08-03T16:19:53.521569"
 }

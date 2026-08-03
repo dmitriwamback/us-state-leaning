@@ -1,11 +1,120 @@
 {
   "state": "Iowa",
   "lean": "Toss-up",
-  "confidence": 0.5,
-  "basis": "current_polling",
-  "reasoning": "Recent polling for Iowa's open Senate seat shows a dead heat between Democrat Josh Turek and Republican Ashley Hinson, with the RealClearPolling average tied at 46.7%. Individual surveys from late June 2026 are split, with a Fox News poll showing Turek up 50% to 46%, while a New York Times/Siena poll has Hinson leading 48% to 46%. This highly competitive, mixed polling makes the race a genuine toss-up.",
-  "as_of_date": "2026-08-02T18:44:53",
-  "sources": [],
+  "confidence": 0.7,
+  "basis": "midterm_swing",
+  "reasoning": "Cook\u2019s statewide Partisan Voting Index rates Iowa at R+6, indicating a structural Republican edge in federal races.[1][4] However, recent cycle data show multiple signs of competitiveness: Cook shifted the 2026 U.S. Senate race rating from \u201clikely Republican\u201d to \u201cleans Republican,\u201d and analysts describe Iowa races as \u201csurprisingly competitive\u201d for Democrats, suggesting a more balanced environment than the underlying PVI.[3][12] In the key IA-1 House race, July 2026 polling from The Bullfinch Group shows Democrat Christina Bohannan leading Republican Mariannette Miller-Meeks by 5 points (40% to 35%), providing a current-cycle Democratic edge in at least one major federal contest despite the state\u2019s GOP registration advantage of roughly 10 percentage points.[2][6][8]",
+  "as_of_date": "2026-08-03T16:20:04",
+  "sources": [
+    {
+      "title": "https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index",
+      "url": "https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index",
+      "domain": "en.wikipedia.org"
+    },
+    {
+      "title": "https://www.nytimes.com/interactive/polls/iowa-us-house-1-polls-2026.html",
+      "url": "https://www.nytimes.com/interactive/polls/iowa-us-house-1-polls-2026.html",
+      "domain": "nytimes.com"
+    },
+    {
+      "title": "https://www.yahoo.com/news/politics/articles/iowa-acting-different-political-expert-192336065.html",
+      "url": "https://www.yahoo.com/news/politics/articles/iowa-acting-different-political-expert-192336065.html",
+      "domain": "yahoo.com"
+    },
+    {
+      "title": "https://www.cookpolitical.com/pvi-map-and-district-list",
+      "url": "https://www.cookpolitical.com/pvi-map-and-district-list",
+      "domain": "cookpolitical.com"
+    },
+    {
+      "title": "https://www.nytimes.com/2026/07/14/us/politics/republican-supermajority-iowa-ohio.html",
+      "url": "https://www.nytimes.com/2026/07/14/us/politics/republican-supermajority-iowa-ohio.html",
+      "domain": "nytimes.com"
+    },
+    {
+      "title": "https://www.desmoinesregister.com/story/news/politics/2026/07/15/iowa-registered-voters-democrats-republicans-2026-data/90879651007/",
+      "url": "https://www.desmoinesregister.com/story/news/politics/2026/07/15/iowa-registered-voters-democrats-republicans-2026-data/90879651007/",
+      "domain": "desmoinesregister.com"
+    },
+    {
+      "title": "https://news.ballotpedia.org/2026/07/23/nunn-trone-garriott-and-battaglia-are-running-in-iowas-3rd-district-decided-by-fewer-than-four-points-in-each-of-the-last-two-elections/",
+      "url": "https://news.ballotpedia.org/2026/07/23/nunn-trone-garriott-and-battaglia-are-running-in-iowas-3rd-district-decided-by-fewer-than-four-points-in-each-of-the-last-two-elections/",
+      "domain": "news.ballotpedia.org"
+    },
+    {
+      "title": "https://www.iowapublicradio.org/political-news/2026-07-07/registered-voters-iowa-democrats-republicans-independent-party",
+      "url": "https://www.iowapublicradio.org/political-news/2026-07-07/registered-voters-iowa-democrats-republicans-independent-party",
+      "domain": "iowapublicradio.org"
+    },
+    {
+      "title": "https://stateline.org/2026/07/16/democrats-have-a-shot-at-flipping-state-legislatures-across-the-country/",
+      "url": "https://stateline.org/2026/07/16/democrats-have-a-shot-at-flipping-state-legislatures-across-the-country/",
+      "domain": "stateline.org"
+    },
+    {
+      "title": "https://www.newsweek.com/house-seats-democrats-flip-2026-midterms-polls-12235697",
+      "url": "https://www.newsweek.com/house-seats-democrats-flip-2026-midterms-polls-12235697",
+      "domain": "newsweek.com"
+    },
+    {
+      "title": "https://blog.fiftyplusone.news/p/election-forecast-democrats-strongly-favored-house-tilt-senate",
+      "url": "https://blog.fiftyplusone.news/p/election-forecast-democrats-strongly-favored-house-tilt-senate",
+      "domain": "blog.fiftyplusone.news"
+    },
+    {
+      "title": "https://www.alternet.org/iowa-2026-election/",
+      "url": "https://www.alternet.org/iowa-2026-election/",
+      "domain": "alternet.org"
+    },
+    {
+      "title": "https://worldpopulationreview.com/state-rankings/most-republican-states",
+      "url": "https://worldpopulationreview.com/state-rankings/most-republican-states",
+      "domain": "worldpopulationreview.com"
+    },
+    {
+      "title": "https://www.pewresearch.org/politics/fact-sheet/party-affiliation-fact-sheet-npors/",
+      "url": "https://www.pewresearch.org/politics/fact-sheet/party-affiliation-fact-sheet-npors/",
+      "domain": "pewresearch.org"
+    },
+    {
+      "title": "https://worldpopulationreview.com/state-rankings/political-parties-by-state",
+      "url": "https://worldpopulationreview.com/state-rankings/political-parties-by-state",
+      "domain": "worldpopulationreview.com"
+    },
+    {
+      "title": "https://ig.ft.com/us-elections/2024/results/state/iowa/",
+      "url": "https://ig.ft.com/us-elections/2024/results/state/iowa/",
+      "domain": "ig.ft.com"
+    },
+    {
+      "title": "https://ballotpedia.org/Redistricting_ahead_of_the_2026_elections",
+      "url": "https://ballotpedia.org/Redistricting_ahead_of_the_2026_elections",
+      "domain": "ballotpedia.org"
+    },
+    {
+      "title": "https://conservativemove.com/conservative-states/",
+      "url": "https://conservativemove.com/conservative-states/",
+      "domain": "conservativemove.com"
+    },
+    {
+      "title": "https://www.nbcnews.com/politics/2026-primary-elections/iowa-us-house-district-2-results",
+      "url": "https://www.nbcnews.com/politics/2026-primary-elections/iowa-us-house-district-2-results",
+      "domain": "nbcnews.com"
+    },
+    {
+      "title": "https://www.columbiamissourian.com/news/elections/missouri-congressional/republican-challengers-line-up-in-red-leaning-5th-district/article_c9f25e8d-618c-46fc-ada3-52e33978ee5d.html",
+      "url": "https://www.columbiamissourian.com/news/elections/missouri-congressional/republican-challengers-line-up-in-red-leaning-5th-district/article_c9f25e8d-618c-46fc-ada3-52e33978ee5d.html",
+      "domain": "columbiamissourian.com"
+    }
+  ],
+  "current_margin": {
+    "party": "D",
+    "percentage_points": 5.0
+  },
+  "cook_pvi": {
+    "party": "R",
+    "percentage_points": 6.0
+  },
   "abbreviation": "IA",
-  "_cached_at": "2026-08-02T18:44:53.914213"
+  "_cached_at": "2026-08-03T16:20:04.889367"
 }

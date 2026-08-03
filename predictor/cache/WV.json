@@ -1,37 +1,120 @@
 {
   "state": "West Virginia",
   "lean": "R",
-  "confidence": 0.9,
+  "confidence": 0.8,
   "basis": "historical_baseline",
-  "reasoning": "With no current polling available for the 2026 Senate race between incumbent Republican Shelley Moore Capito and Democrat Rachel Fetty Anderson, the state's lean relies on historical baselines. In 2024, Donald Trump carried West Virginia by 41.9 percentage points (70.0% to 28.1%), while Capito won her 2020 reelection by 43.3 points (70.3% to 27.0%). Major rating agencies universally class the 2026 Senate matchup as Solid or Safe Republican.",
-  "as_of_date": "2026-08-02T19:01:30",
+  "reasoning": "Recent searches did not return any usable 2026-cycle head\u2011to\u2011head polling or forecaster ratings for specific West Virginia federal races, so the best available evidence is the state\u2019s recent presidential results and structural partisan index.[1][11][15] In 2020, Donald Trump carried West Virginia by roughly 68.6% to 26.5%, a margin of about 42.1 points, and the statewide Cook Partisan Voting Index is around R+21, marking it as one of the most Republican states in the country.[1][11][15] Given this very large and persistent Republican advantage and the absence of any recent evidence of competitive federal races, West Virginia currently leans strongly Republican for federal elections.",
+  "as_of_date": "2026-08-03T16:22:33",
   "sources": [
     {
-      "title": "wikipedia.org",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEyuIptxOFD2extqML7uRoCCGkBsLRCWd9blrRZ3tvvJ1gjRfA9EanBvuzJWEQhh2T7AVd6YJy0YkmRr0a_MY7MVgiiFOggjBMPmLPm177flDqxBNMsE1sHVjqwDlnuYuRvRBdONwwXvSdMP4C9_Nlvf2xIh8iow5b8WtR_KFLLekkG9dLNQGk=",
-      "domain": "vertexaisearch.cloud.google.com"
+      "title": "https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index",
+      "url": "https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index",
+      "domain": "en.wikipedia.org"
     },
     {
-      "title": "americanelectionhq.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOe5JvOK_PejFZ_x7lQcuUpRdy7YLhzTbpwS7curHW28O5qCZ-TT9rpsEushNXODm9CcxEHhT5ql26kHPGZXgt5z1yvFMqQfJ0_jdvHE-NPgdEzbFmJoJKx56I2Afo8YxwmaRLwqJOWSDlLOsTTO8A8k2EEXfVTPWFN9H9CJ7msQlAf74=",
-      "domain": "vertexaisearch.cloud.google.com"
+      "title": "https://www.predictionedge.com/elections/?state=WV&office=us-house",
+      "url": "https://www.predictionedge.com/elections/?state=WV&office=us-house",
+      "domain": "predictionedge.com"
     },
     {
-      "title": "grokipedia.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbs6cyibn78IXiEhogOZnaW-0RRewFjFGLwIJbnwZakFmCU-Xoy4fboDxO2rbjxAsP5_q-TMuwtCYaTHFelPgzCR3998MLwiJv_QmJaOVjVF-oVIcnMEl9OfiW40E94faSuB-FJp3J_LxkpnkCu1WvEtjfs7JawoiRiRIzQwA0PxmDxYjqLRNKBEA8",
-      "domain": "vertexaisearch.cloud.google.com"
+      "title": "https://worldpopulationreview.com/state-rankings/political-parties-by-state",
+      "url": "https://worldpopulationreview.com/state-rankings/political-parties-by-state",
+      "domain": "worldpopulationreview.com"
     },
     {
-      "title": "wikipedia.org",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKzZAPmJiIvIDv65Gz-cZcUNgc3OLcaSwmdmv8McQJ4GCUSRt5yr63Ita9BmfUgWxqDDkzZvbe6TYurxRLYv8pXUVMf0D1X624mKRBb3MAshvNXZ9qfpQ7LcLnbdnCL2BQ7_yIPMhW83IXnP8YPqMk5RHpELMmIdSL4n2w_rYHOu9sEGKNss8=",
-      "domain": "vertexaisearch.cloud.google.com"
+      "title": "https://apps.sos.wv.gov/elections/results/results.aspx?eid=22&county=Statewide",
+      "url": "https://apps.sos.wv.gov/elections/results/results.aspx?eid=22&county=Statewide",
+      "domain": "apps.sos.wv.gov"
     },
     {
-      "title": "ballotpedia.org",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEybMj9-DBhKBTTNxmM79wjm03UrCSdynFJiEI5MxaK5grTnuP1j4Wv504n7iWm26ilMrCbp0W19nTPfTGzbb_Butc4HEl-XD_Y5NczLs1AQ67HG08zvZ4mKqv4MDnHrGuIZxSVolvO5oVddBaXNJFs-Bgd_ZYVIRMYzOyf8g1lrgZj5Qcm_wb5az1bs0B5dmmDMYTvgegWvxK9VmPsog==",
-      "domain": "vertexaisearch.cloud.google.com"
+      "title": "https://apps.sos.wv.gov/elections/pac-search/default.aspx",
+      "url": "https://apps.sos.wv.gov/elections/pac-search/default.aspx",
+      "domain": "apps.sos.wv.gov"
+    },
+    {
+      "title": "https://www.multistate.us/elections/governors",
+      "url": "https://www.multistate.us/elections/governors",
+      "domain": "multistate.us"
+    },
+    {
+      "title": "https://apps.sos.wv.gov/elections/pac-search/pac.aspx?id=76",
+      "url": "https://apps.sos.wv.gov/elections/pac-search/pac.aspx?id=76",
+      "domain": "apps.sos.wv.gov"
+    },
+    {
+      "title": "https://www.cookpolitical.com/pvi-map-and-district-list",
+      "url": "https://www.cookpolitical.com/pvi-map-and-district-list",
+      "domain": "cookpolitical.com"
+    },
+    {
+      "title": "https://apps.sos.wv.gov/elections/pac-search/",
+      "url": "https://apps.sos.wv.gov/elections/pac-search/",
+      "domain": "apps.sos.wv.gov"
+    },
+    {
+      "title": "https://worldpopulationreview.com/state-rankings/blue-states",
+      "url": "https://worldpopulationreview.com/state-rankings/blue-states",
+      "domain": "worldpopulationreview.com"
+    },
+    {
+      "title": "https://worldpopulationreview.com/state-rankings/red-states",
+      "url": "https://worldpopulationreview.com/state-rankings/red-states",
+      "domain": "worldpopulationreview.com"
+    },
+    {
+      "title": "https://conservativemove.com/conservative-states/",
+      "url": "https://conservativemove.com/conservative-states/",
+      "domain": "conservativemove.com"
+    },
+    {
+      "title": "https://ig.ft.com/us-elections/2024/results/state/west-virginia/",
+      "url": "https://ig.ft.com/us-elections/2024/results/state/west-virginia/",
+      "domain": "ig.ft.com"
+    },
+    {
+      "title": "https://apps.npr.org/primary-election-results-2026/states/WV.html",
+      "url": "https://apps.npr.org/primary-election-results-2026/states/WV.html",
+      "domain": "apps.npr.org"
+    },
+    {
+      "title": "https://worldpopulationreview.com/state-rankings/most-republican-states",
+      "url": "https://worldpopulationreview.com/state-rankings/most-republican-states",
+      "domain": "worldpopulationreview.com"
+    },
+    {
+      "title": "https://ballotpedia.org/Redistricting_ahead_of_the_2026_elections",
+      "url": "https://ballotpedia.org/Redistricting_ahead_of_the_2026_elections",
+      "domain": "ballotpedia.org"
+    },
+    {
+      "title": "https://www.aa.com.tr/en/world/explainer-us-voters-prepare-for-critical-midterm-primaries-across-5-states/4017061",
+      "url": "https://www.aa.com.tr/en/world/explainer-us-voters-prepare-for-critical-midterm-primaries-across-5-states/4017061",
+      "domain": "aa.com.tr"
+    },
+    {
+      "title": "https://www.ellisinsight.com/2026/07/",
+      "url": "https://www.ellisinsight.com/2026/07/",
+      "domain": "ellisinsight.com"
+    },
+    {
+      "title": "https://www.britannica.com/topic/gerrymandering",
+      "url": "https://www.britannica.com/topic/gerrymandering",
+      "domain": "britannica.com"
+    },
+    {
+      "title": "https://prospect.org/2026/07/22/proportional-representation-gets-a-new-look-election-reform-voting-rights-act-gerrymandering-redistricting/",
+      "url": "https://prospect.org/2026/07/22/proportional-representation-gets-a-new-look-election-reform-voting-rights-act-gerrymandering-redistricting/",
+      "domain": "prospect.org"
     }
   ],
+  "current_margin": {
+    "party": "R",
+    "percentage_points": 42.1
+  },
+  "cook_pvi": {
+    "party": "R",
+    "percentage_points": 21.0
+  },
   "abbreviation": "WV",
-  "_cached_at": "2026-08-02T19:01:30.194681"
+  "_cached_at": "2026-08-03T16:22:33.575336"
 }

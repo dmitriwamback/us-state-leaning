@@ -1,11 +1,120 @@
 {
   "state": "North Carolina",
-  "lean": "D",
-  "confidence": 0.75,
+  "lean": "Toss-up",
+  "confidence": 0.72,
   "basis": "current_polling",
-  "reasoning": "Recent polls in July 2026 show Democrat Roy Cooper consistently leading Republican Michael Whatley in the U.S. Senate race, with a Fox News poll placing Cooper ahead 53% to 44% and a Public Policy Polling survey showing him up 48% to 44%. This consistent lead gives Cooper a 7.6-point average advantage in late July 2026 polling, leading major forecasters like Cook Political Report to rate the race as Lean Democratic.",
-  "as_of_date": "2026-08-03T11:39:05",
-  "sources": [],
+  "reasoning": "For 2026, the key federal race in North Carolina is the U.S. Senate contest between Democrat Roy Cooper and Republican Michael Whatley, which forecasters like 270toWin rate as a toss-up.[6] Recent high-quality polls show Cooper slightly ahead: a July Public Policy Polling survey found him leading 48% to 44%, a 4-point margin,[11] and an early July NYT/Siena poll had Cooper up 50% to 43%, a 7-point margin,[11] while a late-July Fox News poll showed Cooper ahead 53% to 44%, a 9-point margin.[15] Taken together, these polls indicate a modest but consistent Democratic edge in the current Senate race (we report a conservative 4-point Democratic margin from PPP as the present spread), but both 270toWin and Cook Political Report still characterize the contest as highly competitive rather than clearly favoring one party, which justifies classifying the state\u2019s current federal-election lean as a Toss-up.[6][11][15] Structurally, North Carolina\u2019s statewide Cook Partisan Voting Index is reported as about R+3, reflecting a slight long-term Republican advantage even though the 2024 presidential result was close (Trump +3.2), so we list the PVI as R+3.[1][13][4]",
+  "as_of_date": "2026-08-03T16:21:29",
+  "sources": [
+    {
+      "title": "https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index",
+      "url": "https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index",
+      "domain": "en.wikipedia.org"
+    },
+    {
+      "title": "https://www.pewresearch.org/politics/fact-sheet/party-affiliation-fact-sheet-npors/",
+      "url": "https://www.pewresearch.org/politics/fact-sheet/party-affiliation-fact-sheet-npors/",
+      "domain": "pewresearch.org"
+    },
+    {
+      "title": "https://www.arcamax.com/politics/politicalnews/s-4265045",
+      "url": "https://www.arcamax.com/politics/politicalnews/s-4265045",
+      "domain": "arcamax.com"
+    },
+    {
+      "title": "https://2028tracker.com/states",
+      "url": "https://2028tracker.com/states",
+      "domain": "2028tracker.com"
+    },
+    {
+      "title": "https://www.carolinajournal.com/analysis-gop-voter-enthusiasm-slips-in-nc-as-democrats-hold-steady/",
+      "url": "https://www.carolinajournal.com/analysis-gop-voter-enthusiasm-slips-in-nc-as-democrats-hold-steady/",
+      "domain": "carolinajournal.com"
+    },
+    {
+      "title": "https://960thepatriot.com/news/national/9c49e2cb-15ae-4cf4-8bcb-6c1657f964c5",
+      "url": "https://960thepatriot.com/news/national/9c49e2cb-15ae-4cf4-8bcb-6c1657f964c5",
+      "domain": "960thepatriot.com"
+    },
+    {
+      "title": "https://worldpopulationreview.com/state-rankings/most-democratic-states",
+      "url": "https://worldpopulationreview.com/state-rankings/most-democratic-states",
+      "domain": "worldpopulationreview.com"
+    },
+    {
+      "title": "https://copublicstrategies.com/cozen-currents-trump-v-the-worlds-most-deliberative-body/",
+      "url": "https://copublicstrategies.com/cozen-currents-trump-v-the-worlds-most-deliberative-body/",
+      "domain": "copublicstrategies.com"
+    },
+    {
+      "title": "https://slate.com/news-and-politics/2026/07/north-carolina-republicans-scary-plan-disenfranchise-voters.html",
+      "url": "https://slate.com/news-and-politics/2026/07/north-carolina-republicans-scary-plan-disenfranchise-voters.html",
+      "domain": "slate.com"
+    },
+    {
+      "title": "https://www.cookpolitical.com/pvi-map-and-district-list",
+      "url": "https://www.cookpolitical.com/pvi-map-and-district-list",
+      "domain": "cookpolitical.com"
+    },
+    {
+      "title": "https://ncnewsline.com/briefs/new-poll-shows-whatley-within-striking-distance-of-cooper-as-gop-support-coalesces/",
+      "url": "https://ncnewsline.com/briefs/new-poll-shows-whatley-within-striking-distance-of-cooper-as-gop-support-coalesces/",
+      "domain": "ncnewsline.com"
+    },
+    {
+      "title": "https://apps.npr.org/primary-election-results-2026/states/NC.html",
+      "url": "https://apps.npr.org/primary-election-results-2026/states/NC.html",
+      "domain": "apps.npr.org"
+    },
+    {
+      "title": "https://worldpopulationreview.com/state-rankings/red-states",
+      "url": "https://worldpopulationreview.com/state-rankings/red-states",
+      "domain": "worldpopulationreview.com"
+    },
+    {
+      "title": "https://www.wral.com/news/nccapitol/dallas-woodhouse-subpoena-investigate-boliek-election-board-early-voting-campus-july-2026/",
+      "url": "https://www.wral.com/news/nccapitol/dallas-woodhouse-subpoena-investigate-boliek-election-board-early-voting-campus-july-2026/",
+      "domain": "wral.com"
+    },
+    {
+      "title": "https://www.foxnews.com/politics/fox-news-poll-democratic-enthusiasm-shapes-north-carolina-senate-race",
+      "url": "https://www.foxnews.com/politics/fox-news-poll-democratic-enthusiasm-shapes-north-carolina-senate-race",
+      "domain": "foxnews.com"
+    },
+    {
+      "title": "https://www.carolinajournal.com/independents-weekly-registrations-top-major-6-month-gain/",
+      "url": "https://www.carolinajournal.com/independents-weekly-registrations-top-major-6-month-gain/",
+      "domain": "carolinajournal.com"
+    },
+    {
+      "title": "https://worldpopulationreview.com/state-rankings/political-parties-by-state",
+      "url": "https://worldpopulationreview.com/state-rankings/political-parties-by-state",
+      "domain": "worldpopulationreview.com"
+    },
+    {
+      "title": "https://www.dailykos.com/stories/2026/7/20/800058284/community/the-tar-heel-state-of-play/",
+      "url": "https://www.dailykos.com/stories/2026/7/20/800058284/community/the-tar-heel-state-of-play/",
+      "domain": "dailykos.com"
+    },
+    {
+      "title": "https://conservativemove.com/conservative-states/",
+      "url": "https://conservativemove.com/conservative-states/",
+      "domain": "conservativemove.com"
+    },
+    {
+      "title": "https://electionlawblog.org/?cat=1",
+      "url": "https://electionlawblog.org/?cat=1",
+      "domain": "electionlawblog.org"
+    }
+  ],
+  "current_margin": {
+    "party": "D",
+    "percentage_points": 4.0
+  },
+  "cook_pvi": {
+    "party": "R",
+    "percentage_points": 3.0
+  },
   "abbreviation": "NC",
-  "_cached_at": "2026-08-03T11:39:05.996254"
+  "_cached_at": "2026-08-03T16:21:29.679789"
 }

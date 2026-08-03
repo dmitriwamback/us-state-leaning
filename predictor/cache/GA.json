@@ -1,10 +1,10 @@
 {
   "state": "Georgia",
   "lean": "D",
-  "confidence": 0.78,
+  "confidence": 0.86,
   "basis": "current_polling",
-  "reasoning": "For the 2026 U.S. Senate race, multiple recent polls show Democratic incumbent Jon Ossoff consistently ahead of Republican Mike Collins by mid- to high-single-digit margins: an AARP poll has Ossoff 52%-43%, Emerson 48%-43%, and other coverage cites leads ranging from 4 to 13 points, with Cook Political Report and Sabato rating the race Lean Democratic.[6][13][14][18] In the 2026 gubernatorial race, Democrat Keisha Lance Bottoms holds a small but persistent lead over Republican Rick Jackson in several recent polls: State Navigate finds 51%-44% with leaners, Fox News/FOX 5 reports 52%-47%, and AARP shows 48%-42%, while Cook rates the race a toss-up despite Bottoms\u2019 edge.[5][7][12][14][18] Taken together, these polls indicate Georgia is currently leaning Democratic in high-profile statewide federal contests, though margins are modest and the environment remains competitive, warranting less than maximal confidence.",
-  "as_of_date": "2026-08-03T13:25:59",
+  "reasoning": "Recent Georgia polling shows Democrats ahead: the AARP poll has Jon Ossoff at 52% and Mike Collins at 43% in the Senate race, a 9-point Democratic margin, and the AJC poll has Keisha Lance Bottoms leading Rick Jackson 51% to 44% in the governor\u2019s race, also a 7-point Democratic edge. Cook\u2019s statewide PVI for Georgia is R+1, so the state is only slightly Republican-leaning structurally, while the current named-candidate polling points to a clear Democratic advantage right now.",
+  "as_of_date": "2026-08-03T16:19:42",
   "sources": [
     {
       "title": "https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index",
@@ -37,19 +37,14 @@
       "domain": "newsweek.com"
     },
     {
-      "title": "https://www.ajc.com/politics/2026/07/new-poll-shows-promise-and-peril-for-democrats-in-key-georgia-races/",
-      "url": "https://www.ajc.com/politics/2026/07/new-poll-shows-promise-and-peril-for-democrats-in-key-georgia-races/",
-      "domain": "ajc.com"
-    },
-    {
-      "title": "https://www.aol.com/articles/larry-sabato-shifts-14-races-034332000.html",
-      "url": "https://www.aol.com/articles/larry-sabato-shifts-14-races-034332000.html",
-      "domain": "aol.com"
-    },
-    {
       "title": "https://www.cookpolitical.com/pvi-map-and-district-list",
       "url": "https://www.cookpolitical.com/pvi-map-and-district-list",
       "domain": "cookpolitical.com"
+    },
+    {
+      "title": "https://www.ajc.com/politics/2026/07/new-poll-shows-promise-and-peril-for-democrats-in-key-georgia-races/",
+      "url": "https://www.ajc.com/politics/2026/07/new-poll-shows-promise-and-peril-for-democrats-in-key-georgia-races/",
+      "domain": "ajc.com"
     },
     {
       "title": "https://politpro.eu/en/georgia",
@@ -62,14 +57,14 @@
       "domain": "ajc.com"
     },
     {
-      "title": "https://www.fox5atlanta.com/news/poll-shows-georgia-democrats-ahead-senate-gubernatorial-races",
-      "url": "https://www.fox5atlanta.com/news/poll-shows-georgia-democrats-ahead-senate-gubernatorial-races",
-      "domain": "fox5atlanta.com"
-    },
-    {
       "title": "https://rollcall.com/2026/07/23/at-the-races-seeing-blue-in-georgia/",
       "url": "https://rollcall.com/2026/07/23/at-the-races-seeing-blue-in-georgia/",
       "domain": "rollcall.com"
+    },
+    {
+      "title": "https://www.fox5atlanta.com/news/poll-shows-georgia-democrats-ahead-senate-gubernatorial-races",
+      "url": "https://www.fox5atlanta.com/news/poll-shows-georgia-democrats-ahead-senate-gubernatorial-races",
+      "domain": "fox5atlanta.com"
     },
     {
       "title": "https://www.aarp.org/government-elections/georgia-poll-2026/",
@@ -77,24 +72,24 @@
       "domain": "aarp.org"
     },
     {
-      "title": "https://www.facebook.com/keisha.bottoms/posts/if-we-win-this-race-i-will-become-the-first-democratic-governor-of-georgia-this-/1561601335332857/",
-      "url": "https://www.facebook.com/keisha.bottoms/posts/if-we-win-this-race-i-will-become-the-first-democratic-governor-of-georgia-this-/1561601335332857/",
-      "domain": "facebook.com"
-    },
-    {
       "title": "https://www.pewresearch.org/politics/fact-sheet/party-affiliation-fact-sheet-npors/",
       "url": "https://www.pewresearch.org/politics/fact-sheet/party-affiliation-fact-sheet-npors/",
       "domain": "pewresearch.org"
     },
     {
-      "title": "https://www.pewresearch.org/chart/political-party-affiliation-among-u-s-adults/",
-      "url": "https://www.pewresearch.org/chart/political-party-affiliation-among-u-s-adults/",
-      "domain": "pewresearch.org"
+      "title": "https://worldpopulationreview.com/state-rankings/red-states",
+      "url": "https://worldpopulationreview.com/state-rankings/red-states",
+      "domain": "worldpopulationreview.com"
     },
     {
-      "title": "https://www.usatoday.com/story/news/state/georgia/2026/07/13/ossoff-leads-in-senate-race-georgia-governor-race-is-split-polls/90902034007/",
-      "url": "https://www.usatoday.com/story/news/state/georgia/2026/07/13/ossoff-leads-in-senate-race-georgia-governor-race-is-split-polls/90902034007/",
-      "domain": "usatoday.com"
+      "title": "https://conservativemove.com/conservative-states/",
+      "url": "https://conservativemove.com/conservative-states/",
+      "domain": "conservativemove.com"
+    },
+    {
+      "title": "https://ballotpedia.org/Redistricting_ahead_of_the_2026_elections",
+      "url": "https://ballotpedia.org/Redistricting_ahead_of_the_2026_elections",
+      "domain": "ballotpedia.org"
     },
     {
       "title": "https://worldpopulationreview.com/state-rankings/most-republican-states",
@@ -102,11 +97,24 @@
       "domain": "worldpopulationreview.com"
     },
     {
+      "title": "https://www.ajc.com/politics/2026/08/georgia-state-election-board-tests-limits-ahead-of-midterms/",
+      "url": "https://www.ajc.com/politics/2026/08/georgia-state-election-board-tests-limits-ahead-of-midterms/",
+      "domain": "ajc.com"
+    },
+    {
       "title": "https://electionlawblog.org/?cat=1",
       "url": "https://electionlawblog.org/?cat=1",
       "domain": "electionlawblog.org"
     }
   ],
+  "current_margin": {
+    "party": "D",
+    "percentage_points": 9.0
+  },
+  "cook_pvi": {
+    "party": "R",
+    "percentage_points": 1.0
+  },
   "abbreviation": "GA",
-  "_cached_at": "2026-08-03T13:25:59.812174"
+  "_cached_at": "2026-08-03T16:19:42.448760"
 }

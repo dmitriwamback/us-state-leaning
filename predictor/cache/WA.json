@@ -3,9 +3,118 @@
   "lean": "D",
   "confidence": 0.85,
   "basis": "historical_baseline",
-  "reasoning": "Since there are no U.S. Senate or gubernatorial races on the ballot in Washington for the 2026 cycle, the state's federal lean is evaluated using its recent historical baseline. In 2024, Democratic presidential nominee Kamala Harris won the state by 18.2 percentage points (57.2% to 39.0%), and Democratic incumbent Senator Maria Cantwell secured re-election by an 18-point margin.",
-  "as_of_date": "2026-08-02T19:00:37",
-  "sources": [],
+  "reasoning": "Cook Political Report\u2019s statewide Partisan Voting Index rates Washington at D+10, indicating Democrats perform about 10 points better there than nationally in recent presidential elections and reflecting a structurally blue state.[1][2] I was unable to find within the last 45 days any credible, named-candidate federal head-to-head polling or ratings specific to a 2026 U.S. Senate or presidential race in Washington, so I rely on this structural baseline plus the recent pattern of Democrats consistently winning statewide federal races. Given this D+10 baseline, I treat that 10-point advantage as the best available margin proxy, which supports a Democratic lean with relatively high confidence in the absence of contrary current-cycle data.",
+  "as_of_date": "2026-08-03T16:22:28",
+  "sources": [
+    {
+      "title": "https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index",
+      "url": "https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index",
+      "domain": "en.wikipedia.org"
+    },
+    {
+      "title": "https://worldpopulationreview.com/state-rankings/blue-states",
+      "url": "https://worldpopulationreview.com/state-rankings/blue-states",
+      "domain": "worldpopulationreview.com"
+    },
+    {
+      "title": "https://worldpopulationreview.com/state-rankings/most-democratic-states",
+      "url": "https://worldpopulationreview.com/state-rankings/most-democratic-states",
+      "domain": "worldpopulationreview.com"
+    },
+    {
+      "title": "https://www.cookpolitical.com/pvi-map-and-district-list",
+      "url": "https://www.cookpolitical.com/pvi-map-and-district-list",
+      "domain": "cookpolitical.com"
+    },
+    {
+      "title": "https://ballotpedia.org/Washington's_6th_Congressional_District_election,_2026",
+      "url": "https://ballotpedia.org/Washington's_6th_Congressional_District_election,_2026",
+      "domain": "ballotpedia.org"
+    },
+    {
+      "title": "https://www.kuow.org/elections/2026-07-21/washingtons-3rd-district-could-be-among-the-most-competitive-house-races-this-fall",
+      "url": "https://www.kuow.org/elections/2026-07-21/washingtons-3rd-district-could-be-among-the-most-competitive-house-races-this-fall",
+      "domain": "kuow.org"
+    },
+    {
+      "title": "https://www.pewresearch.org/politics/fact-sheet/party-affiliation-fact-sheet-npors/",
+      "url": "https://www.pewresearch.org/politics/fact-sheet/party-affiliation-fact-sheet-npors/",
+      "domain": "pewresearch.org"
+    },
+    {
+      "title": "https://www.predictionedge.com/elections/wa/",
+      "url": "https://www.predictionedge.com/elections/wa/",
+      "domain": "predictionedge.com"
+    },
+    {
+      "title": "https://www.opb.org/article/2026/07/21/washington-3rd-district-marie-gluesenkamp-perez-john-braun/",
+      "url": "https://www.opb.org/article/2026/07/21/washington-3rd-district-marie-gluesenkamp-perez-john-braun/",
+      "domain": "opb.org"
+    },
+    {
+      "title": "https://www.seattletimes.com/seattle-news/politics/seattle-times-voter-guide-2026-whats-at-stake-in-wa-primary-election/",
+      "url": "https://www.seattletimes.com/seattle-news/politics/seattle-times-voter-guide-2026-whats-at-stake-in-wa-primary-election/",
+      "domain": "seattletimes.com"
+    },
+    {
+      "title": "https://www.opensecrets.org/elections-overview/most-partisan-industries",
+      "url": "https://www.opensecrets.org/elections-overview/most-partisan-industries",
+      "domain": "opensecrets.org"
+    },
+    {
+      "title": "https://www.brookings.edu/articles/vital-statistics-on-congress/",
+      "url": "https://www.brookings.edu/articles/vital-statistics-on-congress/",
+      "domain": "brookings.edu"
+    },
+    {
+      "title": "https://oregoncapitalchronicle.com/2026/07/30/an-independent-choice-in-washingtons-5th-congressional-district/",
+      "url": "https://oregoncapitalchronicle.com/2026/07/30/an-independent-choice-in-washingtons-5th-congressional-district/",
+      "domain": "oregoncapitalchronicle.com"
+    },
+    {
+      "title": "https://worldpopulationreview.com/state-rankings/political-parties-by-state",
+      "url": "https://worldpopulationreview.com/state-rankings/political-parties-by-state",
+      "domain": "worldpopulationreview.com"
+    },
+    {
+      "title": "https://www.aol.com/articles/ap-decision-notes-expect-washington-115540000.html",
+      "url": "https://www.aol.com/articles/ap-decision-notes-expect-washington-115540000.html",
+      "domain": "aol.com"
+    },
+    {
+      "title": "https://www.kitsapsun.com/story/news/politics/elections/2026/07/22/2026-washington-primary-election-voter-guide/90907932007/",
+      "url": "https://www.kitsapsun.com/story/news/politics/elections/2026/07/22/2026-washington-primary-election-voter-guide/90907932007/",
+      "domain": "kitsapsun.com"
+    },
+    {
+      "title": "https://www.courts.wa.gov/content/publicupload/eclips/2026%2007%2013%20Candidates%20tout%20their%20experience%20in%20highly%20watched%20race%20for%20State%20Supreme%20Court.pdf",
+      "url": "https://www.courts.wa.gov/content/publicupload/eclips/2026%2007%2013%20Candidates%20tout%20their%20experience%20in%20highly%20watched%20race%20for%20State%20Supreme%20Court.pdf",
+      "domain": "courts.wa.gov"
+    },
+    {
+      "title": "https://progressivevotersguide.com/washington/",
+      "url": "https://progressivevotersguide.com/washington/",
+      "domain": "progressivevotersguide.com"
+    },
+    {
+      "title": "https://www.bentoncountywa.gov/Documents/Government/Elected%20Officials/Auditor/Elections/Current%20Election/Primary%202026.pdf?t=202607151442300",
+      "url": "https://www.bentoncountywa.gov/Documents/Government/Elected%20Officials/Auditor/Elections/Current%20Election/Primary%202026.pdf?t=202607151442300",
+      "domain": "bentoncountywa.gov"
+    },
+    {
+      "title": "https://electionlawblog.org/?cat=1",
+      "url": "https://electionlawblog.org/?cat=1",
+      "domain": "electionlawblog.org"
+    }
+  ],
+  "current_margin": {
+    "party": "D",
+    "percentage_points": 10.0
+  },
+  "cook_pvi": {
+    "party": "D",
+    "percentage_points": 10.0
+  },
   "abbreviation": "WA",
-  "_cached_at": "2026-08-02T19:00:37.784925"
+  "_cached_at": "2026-08-03T16:22:28.903430"
 }

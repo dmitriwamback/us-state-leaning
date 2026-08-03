@@ -1,11 +1,120 @@
 {
   "state": "Michigan",
-  "lean": "Toss-up",
-  "confidence": 0.8,
-  "basis": "current_polling",
-  "reasoning": "Recent July 2026 general election polls show a highly competitive matchup for the open Senate seat, with Republican Mike Rogers leading likely Democratic nominee Abdul El-Sayed by 10 points in a Glengariff Group poll, but trailing him by 1 point in a Data for Progress survey. Against moderate Democrat Haley Stevens, Rogers is virtually tied, ranging from a 1-point lead to a 2-point deficit across different surveys. This highly mixed and close polling confirms Michigan is currently a toss-up.",
-  "as_of_date": "2026-08-02T18:48:58",
-  "sources": [],
+  "lean": "D",
+  "confidence": 0.7,
+  "basis": "midterm_swing",
+  "reasoning": "Cook\u2019s statewide Partisan Voting Index rates Michigan as EV+0, indicating a structurally even state at the presidential level.[1] Recent cycle handicapping from the Almanac of American Politics and Sabato-style analysis has shifted the 2026 Michigan governor\u2019s race from Toss-up to **Lean Democratic**, with Jocelyn Benson described as the favorite to succeed Gretchen Whitmer, signaling a modest Democratic edge in statewide contests this cycle.[6][14] In the concurrent 2026 Senate race, available primary polling shows fluctuating leads between Abdul El-Sayed and Haley Stevens, but no consistent general-election head-to-head numbers versus a named Republican within the last 45 days; combined with forecasters labeling Michigan a \"core swing state\" yet competitive, this supports a slight Democratic lean but not a safe advantage.[12][3][10][13] With no fresh general-election polling, the best proxy margin is the small Democratic edge implied by recent ratings changes (Toss-up to Lean D) and descriptions of Benson as a slight favorite, which I represent as roughly a 2-point Democratic advantage in the current environment, while emphasizing that this is based on forecaster ratings and not direct head-to-head polls.[6][14]",
+  "as_of_date": "2026-08-03T16:20:39",
+  "sources": [
+    {
+      "title": "https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index",
+      "url": "https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index",
+      "domain": "en.wikipedia.org"
+    },
+    {
+      "title": "https://www.cookpolitical.com/ratings/house-race-ratings",
+      "url": "https://www.cookpolitical.com/ratings/house-race-ratings",
+      "domain": "cookpolitical.com"
+    },
+    {
+      "title": "https://emersoncollegepolling.com/michigan-2026-poll-abdul-el-sayed-leads-haley-stevens-for-democratic-us-senate-nomination/",
+      "url": "https://emersoncollegepolling.com/michigan-2026-poll-abdul-el-sayed-leads-haley-stevens-for-democratic-us-senate-nomination/",
+      "domain": "emersoncollegepolling.com"
+    },
+    {
+      "title": "https://www.washingtonpost.com/politics/2026/07/09/democratic-party-fissures-are-shaping-michigans-crucial-senate-primary/",
+      "url": "https://www.washingtonpost.com/politics/2026/07/09/democratic-party-fissures-are-shaping-michigans-crucial-senate-primary/",
+      "domain": "washingtonpost.com"
+    },
+    {
+      "title": "https://www.politico.com/newsletters/playbook/2026/07/30/a-left-turn-in-michigan-01016801",
+      "url": "https://www.politico.com/newsletters/playbook/2026/07/30/a-left-turn-in-michigan-01016801",
+      "domain": "politico.com"
+    },
+    {
+      "title": "https://almanacofamericanpolitics.substack.com/p/handicapping-the-gubernatorial-races-1f2",
+      "url": "https://almanacofamericanpolitics.substack.com/p/handicapping-the-gubernatorial-races-1f2",
+      "domain": "almanacofamericanpolitics.substack.com"
+    },
+    {
+      "title": "https://www.detroitnews.com/story/news/politics/2026/07/15/michigan-democratic-voter-poll/90907774007/",
+      "url": "https://www.detroitnews.com/story/news/politics/2026/07/15/michigan-democratic-voter-poll/90907774007/",
+      "domain": "detroitnews.com"
+    },
+    {
+      "title": "https://prri.org/election-update/in-michigan-gary-peters-backs-moderate-haley-stevens-in-senate-democratic-primary/",
+      "url": "https://prri.org/election-update/in-michigan-gary-peters-backs-moderate-haley-stevens-in-senate-democratic-primary/",
+      "domain": "prri.org"
+    },
+    {
+      "title": "https://www.multistate.us/elections/governors",
+      "url": "https://www.multistate.us/elections/governors",
+      "domain": "multistate.us"
+    },
+    {
+      "title": "https://thehill.com/homenews/campaign/5971801-stevens-el-sayed-michigan-poll/",
+      "url": "https://thehill.com/homenews/campaign/5971801-stevens-el-sayed-michigan-poll/",
+      "domain": "thehill.com"
+    },
+    {
+      "title": "https://www.pewresearch.org/politics/fact-sheet/party-affiliation-fact-sheet-npors/",
+      "url": "https://www.pewresearch.org/politics/fact-sheet/party-affiliation-fact-sheet-npors/",
+      "domain": "pewresearch.org"
+    },
+    {
+      "title": "https://www.predictionedge.com/elections/mi/",
+      "url": "https://www.predictionedge.com/elections/mi/",
+      "domain": "predictionedge.com"
+    },
+    {
+      "title": "https://www.theguardian.com/us-news/2026/jul/08/michigan-senate-race-democrats",
+      "url": "https://www.theguardian.com/us-news/2026/jul/08/michigan-senate-race-democrats",
+      "domain": "theguardian.com"
+    },
+    {
+      "title": "https://www.rasmussenreports.com/public_content/political_commentary/commentary_by_j_miles_coleman/three_gubernatorial_rating_changes_michigan_to_leans_democratic_new_mexico_to_safe_democratic_florida_to_likely_republican",
+      "url": "https://www.rasmussenreports.com/public_content/political_commentary/commentary_by_j_miles_coleman/three_gubernatorial_rating_changes_michigan_to_leans_democratic_new_mexico_to_safe_democratic_florida_to_likely_republican",
+      "domain": "rasmussenreports.com"
+    },
+    {
+      "title": "https://www.aa.com.tr/en/world/explainer-us-voters-prepare-for-critical-midterm-primaries-across-5-states/4017061",
+      "url": "https://www.aa.com.tr/en/world/explainer-us-voters-prepare-for-critical-midterm-primaries-across-5-states/4017061",
+      "domain": "aa.com.tr"
+    },
+    {
+      "title": "https://www.clickondetroit.com/news/local/2026/07/14/poll-where-michigan-democratic-voters-stand-with-us-senate-candidates-stevens-el-sayed/",
+      "url": "https://www.clickondetroit.com/news/local/2026/07/14/poll-where-michigan-democratic-voters-stand-with-us-senate-candidates-stevens-el-sayed/",
+      "domain": "clickondetroit.com"
+    },
+    {
+      "title": "https://www.ms.now/news/news-analysis/michigan-trump-democrats-primary-senate",
+      "url": "https://www.ms.now/news/news-analysis/michigan-trump-democrats-primary-senate",
+      "domain": "ms.now"
+    },
+    {
+      "title": "https://msutoday.msu.edu/news/2026/07/midterm-elections",
+      "url": "https://msutoday.msu.edu/news/2026/07/midterm-elections",
+      "domain": "msutoday.msu.edu"
+    },
+    {
+      "title": "https://law.marquette.edu/poll/",
+      "url": "https://law.marquette.edu/poll/",
+      "domain": "law.marquette.edu"
+    },
+    {
+      "title": "https://katv.com/news/nation-world/michigan-senate-primary-becomes-test-of-democratic-partys-future-strategist-says-cory-j-ruth-democrat-socialist-haley-stevens-elissa-slotkin-congress-midterm-elections-abdul-el-sayed-arab-black-voters-republicans-federal-government",
+      "url": "https://katv.com/news/nation-world/michigan-senate-primary-becomes-test-of-democratic-partys-future-strategist-says-cory-j-ruth-democrat-socialist-haley-stevens-elissa-slotkin-congress-midterm-elections-abdul-el-sayed-arab-black-voters-republicans-federal-government",
+      "domain": "katv.com"
+    }
+  ],
+  "current_margin": {
+    "party": "D",
+    "percentage_points": 2.0
+  },
+  "cook_pvi": {
+    "party": "EVEN",
+    "percentage_points": 0.0
+  },
   "abbreviation": "MI",
-  "_cached_at": "2026-08-02T18:48:58.058447"
+  "_cached_at": "2026-08-03T16:20:39.785134"
 }

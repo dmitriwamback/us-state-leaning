@@ -1,11 +1,120 @@
 {
   "state": "Nevada",
   "lean": "Toss-up",
-  "confidence": 0.5,
-  "basis": "current_polling",
-  "reasoning": "Recent July 2026 polling for the Nevada gubernatorial race shows a neck-and-neck contest, with a Public Policy Polling survey finding incumbent Republican Joe Lombardo and Democratic challenger Aaron Ford tied at 44%, and a Wedgewood poll showing Lombardo with a narrow 3-point lead (50% to 47%). These extremely tight margins across recent surveys indicate that the state's partisan lean is currently a toss-up.",
-  "as_of_date": "2026-08-02T18:53:55",
-  "sources": [],
+  "confidence": 0.66,
+  "basis": "midterm_swing",
+  "reasoning": "Cook\u2019s statewide PVI for Nevada is R+1, which is only a slight Republican structural edge.[1] Recent Nevada-cycle reporting shows a dead heat in the governor\u2019s race, with Joe Lombardo (R) and Aaron Ford (D) both at 44% in a recent poll, and registration data showing Democrats and Republicans essentially tied at 581,920 to 581,418 active voters.[4][11]",
+  "as_of_date": "2026-08-03T16:21:04",
+  "sources": [
+    {
+      "title": "https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index",
+      "url": "https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index",
+      "domain": "en.wikipedia.org"
+    },
+    {
+      "title": "https://worldpopulationreview.com/state-rankings/political-parties-by-state",
+      "url": "https://worldpopulationreview.com/state-rankings/political-parties-by-state",
+      "domain": "worldpopulationreview.com"
+    },
+    {
+      "title": "https://www.nytimes.com/interactive/polls/nevada-us-house-2-polls-2026.html",
+      "url": "https://www.nytimes.com/interactive/polls/nevada-us-house-2-polls-2026.html",
+      "domain": "nytimes.com"
+    },
+    {
+      "title": "https://thenevadaindependent.com/article/lombardo-ford-tied-in-nevada-governors-race-dem-poll-shows",
+      "url": "https://thenevadaindependent.com/article/lombardo-ford-tied-in-nevada-governors-race-dem-poll-shows",
+      "domain": "thenevadaindependent.com"
+    },
+    {
+      "title": "https://worldpopulationreview.com/state-rankings/blue-states",
+      "url": "https://worldpopulationreview.com/state-rankings/blue-states",
+      "domain": "worldpopulationreview.com"
+    },
+    {
+      "title": "https://www.ellisinsight.com/2026/07/16/",
+      "url": "https://www.ellisinsight.com/2026/07/16/",
+      "domain": "ellisinsight.com"
+    },
+    {
+      "title": "https://www.cookpolitical.com/pvi-map-and-district-list",
+      "url": "https://www.cookpolitical.com/pvi-map-and-district-list",
+      "domain": "cookpolitical.com"
+    },
+    {
+      "title": "https://www.kolotv.com/2026/07/08/voter-roll-report-shows-shift-nevada-parties/",
+      "url": "https://www.kolotv.com/2026/07/08/voter-roll-report-shows-shift-nevada-parties/",
+      "domain": "kolotv.com"
+    },
+    {
+      "title": "https://www.nevadapoliticaljournal.com/",
+      "url": "https://www.nevadapoliticaljournal.com/",
+      "domain": "nevadapoliticaljournal.com"
+    },
+    {
+      "title": "https://worldpopulationreview.com/state-rankings/most-republican-states",
+      "url": "https://worldpopulationreview.com/state-rankings/most-republican-states",
+      "domain": "worldpopulationreview.com"
+    },
+    {
+      "title": "https://pvtimes.com/news/nevada-active-registered-voters-increased-in-june-187739/",
+      "url": "https://pvtimes.com/news/nevada-active-registered-voters-increased-in-june-187739/",
+      "domain": "pvtimes.com"
+    },
+    {
+      "title": "https://apps.npr.org/primary-election-results-2026/states/NV.html",
+      "url": "https://apps.npr.org/primary-election-results-2026/states/NV.html",
+      "domain": "apps.npr.org"
+    },
+    {
+      "title": "https://www.2news.com/news/local/nevada-sees-increase-in-active-registered-voters-in-june-2026/article_90e59154-8449-4884-bf7b-8510039af844.html",
+      "url": "https://www.2news.com/news/local/nevada-sees-increase-in-active-registered-voters-in-june-2026/article_90e59154-8449-4884-bf7b-8510039af844.html",
+      "domain": "2news.com"
+    },
+    {
+      "title": "https://conservativemove.com/conservative-states/",
+      "url": "https://conservativemove.com/conservative-states/",
+      "domain": "conservativemove.com"
+    },
+    {
+      "title": "https://www.altoonamirror.com/uncategorized/2026/04/is-nevada-the-next-red-state/",
+      "url": "https://www.altoonamirror.com/uncategorized/2026/04/is-nevada-the-next-red-state/",
+      "domain": "altoonamirror.com"
+    },
+    {
+      "title": "https://ig.ft.com/us-elections/2024/results/state/nevada/",
+      "url": "https://ig.ft.com/us-elections/2024/results/state/nevada/",
+      "domain": "ig.ft.com"
+    },
+    {
+      "title": "https://www.pewresearch.org/politics/fact-sheet/party-affiliation-fact-sheet-npors/",
+      "url": "https://www.pewresearch.org/politics/fact-sheet/party-affiliation-fact-sheet-npors/",
+      "domain": "pewresearch.org"
+    },
+    {
+      "title": "https://thenevadaindependent.com/article/these-nevada-legislative-races-will-help-determine-which-party-controls-carson-city-in-2027",
+      "url": "https://thenevadaindependent.com/article/these-nevada-legislative-races-will-help-determine-which-party-controls-carson-city-in-2027",
+      "domain": "thenevadaindependent.com"
+    },
+    {
+      "title": "https://electionlawblog.org/?cat=1",
+      "url": "https://electionlawblog.org/?cat=1",
+      "domain": "electionlawblog.org"
+    },
+    {
+      "title": "https://www.britannica.com/procon/election-day-debate",
+      "url": "https://www.britannica.com/procon/election-day-debate",
+      "domain": "britannica.com"
+    }
+  ],
+  "current_margin": {
+    "party": "EVEN",
+    "percentage_points": 0.0
+  },
+  "cook_pvi": {
+    "party": "R",
+    "percentage_points": 1.0
+  },
   "abbreviation": "NV",
-  "_cached_at": "2026-08-02T18:53:55.521430"
+  "_cached_at": "2026-08-03T16:21:04.283312"
 }

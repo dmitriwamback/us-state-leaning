@@ -1,11 +1,120 @@
 {
   "state": "California",
   "lean": "D",
-  "confidence": 0.95,
+  "confidence": 0.9,
   "basis": "current_polling",
-  "reasoning": "In the 2026 California gubernatorial race, Democrat Xavier Becerra holds a commanding lead over Republican Steve Hilton. A Public Policy Institute of California (PPIC) poll published in mid-July shows Becerra leading Hilton by 25 percentage points, 61% to 36%, consistent with other recent summer polling showing a 21-to-25-point Democratic advantage.",
-  "as_of_date": "2026-08-02T18:40:53",
-  "sources": [],
+  "reasoning": "For 2026 statewide context, the latest Public Policy Institute of California poll reported Democrat Xavier Becerra leading Republican Steve Hilton in the California governor\u2019s race 61% to 36%, a 25\u2011point margin, consistent with a strongly Democratic electorate.[6] Presidential and recent statewide results also show Democrats winning California by about 20 points in 2024, and current congressional analyses note Republicans are projected to hold only about 3\u20134 of 52 U.S. House seats under the new map, reinforcing a deep blue structural environment.[13][19][18] The statewide Cook PVI is reported as approximately D+12, indicating California votes about 12 points more Democratic than the national average in presidential races, so combining that structural PVI with the current 25\u2011point gubernatorial polling lead supports a strong Democratic lean for federal elections.[3][6]",
+  "as_of_date": "2026-08-03T16:19:24",
+  "sources": [
+    {
+      "title": "https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index",
+      "url": "https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index",
+      "domain": "en.wikipedia.org"
+    },
+    {
+      "title": "https://www.cookpolitical.com/ratings/house-race-ratings",
+      "url": "https://www.cookpolitical.com/ratings/house-race-ratings",
+      "domain": "cookpolitical.com"
+    },
+    {
+      "title": "https://worldpopulationreview.com/state-rankings/blue-states",
+      "url": "https://worldpopulationreview.com/state-rankings/blue-states",
+      "domain": "worldpopulationreview.com"
+    },
+    {
+      "title": "https://www.nytimes.com/interactive/polls/california-us-house-1-polls-2026.html",
+      "url": "https://www.nytimes.com/interactive/polls/california-us-house-1-polls-2026.html",
+      "domain": "nytimes.com"
+    },
+    {
+      "title": "https://ballotpedia.org/Redistricting_ahead_of_the_2026_elections",
+      "url": "https://ballotpedia.org/Redistricting_ahead_of_the_2026_elections",
+      "domain": "ballotpedia.org"
+    },
+    {
+      "title": "https://nypost.com/2026/07/16/us-news/xavier-becerra-leading-steve-hilton-in-california-governors-race-poll/",
+      "url": "https://nypost.com/2026/07/16/us-news/xavier-becerra-leading-steve-hilton-in-california-governors-race-poll/",
+      "domain": "nypost.com"
+    },
+    {
+      "title": "http://pressgallery.house.gov/member-data/party-breakdown",
+      "url": "http://pressgallery.house.gov/member-data/party-breakdown",
+      "domain": "pressgallery.house.gov"
+    },
+    {
+      "title": "https://socialsci.libretexts.org/Courses/Chabot_College/Introduction_to_California_Government_and_Politics_(saved_June_2026_version)_by_Steven_Reti/04:_Public_Opinion_in_California/4.04:_Characterizing_Contemporary_Public_Opinion_in_California",
+      "url": "https://socialsci.libretexts.org/Courses/Chabot_College/Introduction_to_California_Government_and_Politics_(saved_June_2026_version)_by_Steven_Reti/04:_Public_Opinion_in_California/4.04:_Characterizing_Contemporary_Public_Opinion_in_California",
+      "domain": "socialsci.libretexts.org"
+    },
+    {
+      "title": "https://independentvoterproject.org/voter-stats/ca",
+      "url": "https://independentvoterproject.org/voter-stats/ca",
+      "domain": "independentvoterproject.org"
+    },
+    {
+      "title": "https://www.ellisinsight.com/2026/07/06/",
+      "url": "https://www.ellisinsight.com/2026/07/06/",
+      "domain": "ellisinsight.com"
+    },
+    {
+      "title": "https://calmatters.org/politics/2026/07/california-congressional-races-republican-fundraising/",
+      "url": "https://calmatters.org/politics/2026/07/california-congressional-races-republican-fundraising/",
+      "domain": "calmatters.org"
+    },
+    {
+      "title": "https://www.pewresearch.org/politics/fact-sheet/party-affiliation-fact-sheet-npors/",
+      "url": "https://www.pewresearch.org/politics/fact-sheet/party-affiliation-fact-sheet-npors/",
+      "domain": "pewresearch.org"
+    },
+    {
+      "title": "https://votetosurvive.org/states/california/",
+      "url": "https://votetosurvive.org/states/california/",
+      "domain": "votetosurvive.org"
+    },
+    {
+      "title": "https://news.ballotpedia.org/2026/07/18/election-forecasters-rate-ca-22-toss-up-or-tilt-republican-as-valadao-r-and-villegas-d-run-under-new-district-lines/",
+      "url": "https://news.ballotpedia.org/2026/07/18/election-forecasters-rate-ca-22-toss-up-or-tilt-republican-as-valadao-r-and-villegas-d-run-under-new-district-lines/",
+      "domain": "news.ballotpedia.org"
+    },
+    {
+      "title": "https://www.ellisinsight.com/category/redistricting/",
+      "url": "https://www.ellisinsight.com/category/redistricting/",
+      "domain": "ellisinsight.com"
+    },
+    {
+      "title": "https://www.pewresearch.org/chart/political-party-affiliation-among-u-s-adults/",
+      "url": "https://www.pewresearch.org/chart/political-party-affiliation-among-u-s-adults/",
+      "domain": "pewresearch.org"
+    },
+    {
+      "title": "https://www.latimes.com/politics/newsletter/2026-07-16/congress-midterm-gerrymandered-elections-redistricting-reform",
+      "url": "https://www.latimes.com/politics/newsletter/2026-07-16/congress-midterm-gerrymandered-elections-redistricting-reform",
+      "domain": "latimes.com"
+    },
+    {
+      "title": "https://www.latimes.com/politics/story/2026-08-01/though-california-could-be-key-to-house-control-it-now-has-few-battlegrounds",
+      "url": "https://www.latimes.com/politics/story/2026-08-01/though-california-could-be-key-to-house-control-it-now-has-few-battlegrounds",
+      "domain": "latimes.com"
+    },
+    {
+      "title": "https://www.legalnewsline.com/northern-california-record/ca-prop-50-map-fight-to-continue-shaped-by-scotus-voting-rights-ruling/article_a25a2248-75e1-4b5f-ba02-38f6f4ad5131.html",
+      "url": "https://www.legalnewsline.com/northern-california-record/ca-prop-50-map-fight-to-continue-shaped-by-scotus-voting-rights-ruling/article_a25a2248-75e1-4b5f-ba02-38f6f4ad5131.html",
+      "domain": "legalnewsline.com"
+    },
+    {
+      "title": "https://worldpopulationreview.com/state-rankings/political-parties-by-state",
+      "url": "https://worldpopulationreview.com/state-rankings/political-parties-by-state",
+      "domain": "worldpopulationreview.com"
+    }
+  ],
+  "current_margin": {
+    "party": "D",
+    "percentage_points": 25.0
+  },
+  "cook_pvi": {
+    "party": "D",
+    "percentage_points": 12.0
+  },
   "abbreviation": "CA",
-  "_cached_at": "2026-08-02T18:40:53.268435"
+  "_cached_at": "2026-08-03T16:19:24.233028"
 }

@@ -1,11 +1,120 @@
 {
   "state": "Florida",
   "lean": "R",
-  "confidence": 0.8,
+  "confidence": 0.7,
   "basis": "current_polling",
-  "reasoning": "Recent polling from the University of North Florida in July 2026 shows Republican candidates maintaining consistent leads in major statewide races. In the special U.S. Senate election, Republican incumbent Ashley Moody leads Democratic challenger Alex Vindman by 10 points (50% to 40%). Meanwhile, in the gubernatorial race, Republican Byron Donalds leads Democrat David Jolly by 5 points (46% to 41%).",
-  "as_of_date": "2026-08-02T18:42:57",
-  "sources": [],
+  "reasoning": "The key 2026 statewide federal benchmark is the U.S. Senate race, where recent Florida polling shows Republican incumbent Ashley Moody narrowly ahead of leading Democratic challenger Angie Nixon by 8 points and ahead of Alex Vindman by 10 points in head\u2011to\u2011head matchups, confirming a Republican advantage at the federal level even as some earlier polling briefly showed a Democrat edging her.[4][13] For statewide context, a July 2026 University of North Florida poll of likely midterm voters in the governor\u2019s race found Republican Byron Donalds leading Democrat David Jolly 46% to 41%, a 5\u2011point GOP margin, while voter registration data from the Florida Division of Elections shows about 5.54 million Republicans vs. 4.03 million Democrats, a record GOP registration edge of roughly 1.5 million voters.[4][8][9][18] Structurally, Florida\u2019s statewide Cook Partisan Voting Index is around R+5, and national and Florida\u2011specific analyses now consistently describe the state as clearly leaning Republican in federal contests rather than a true battleground, so combining the current 5\u20118 point Republican polling leads with the R+5 PVI and large GOP registration edge supports a \"Lean R\" verdict with moderate\u2011high confidence.[1][4][8][9][14][18]",
+  "as_of_date": "2026-08-03T16:19:39",
+  "sources": [
+    {
+      "title": "https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index",
+      "url": "https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index",
+      "domain": "en.wikipedia.org"
+    },
+    {
+      "title": "https://www.ellisinsight.com/2026/07/16/",
+      "url": "https://www.ellisinsight.com/2026/07/16/",
+      "domain": "ellisinsight.com"
+    },
+    {
+      "title": "https://www.aol.com/articles/index-florida-competitive-us-house-183104000.html",
+      "url": "https://www.aol.com/articles/index-florida-competitive-us-house-183104000.html",
+      "domain": "aol.com"
+    },
+    {
+      "title": "https://www.tallahassee.com/story/news/politics/2026/07/20/new-florida-poll-finds-notably-closer-statewide-contests/90973014007/",
+      "url": "https://www.tallahassee.com/story/news/politics/2026/07/20/new-florida-poll-finds-notably-closer-statewide-contests/90973014007/",
+      "domain": "tallahassee.com"
+    },
+    {
+      "title": "https://www.cookpolitical.com/pvi-map-and-district-list",
+      "url": "https://www.cookpolitical.com/pvi-map-and-district-list",
+      "domain": "cookpolitical.com"
+    },
+    {
+      "title": "https://worldpopulationreview.com/state-rankings/political-parties-by-state",
+      "url": "https://worldpopulationreview.com/state-rankings/political-parties-by-state",
+      "domain": "worldpopulationreview.com"
+    },
+    {
+      "title": "https://www.nytimes.com/interactive/polls/florida-us-house-24-polls-2026.html",
+      "url": "https://www.nytimes.com/interactive/polls/florida-us-house-24-polls-2026.html",
+      "domain": "nytimes.com"
+    },
+    {
+      "title": "https://dos.fl.gov/elections/data-statistics/voter-registration-statistics/voter-registration-reports/voter-registration-by-party-affiliation/",
+      "url": "https://dos.fl.gov/elections/data-statistics/voter-registration-statistics/voter-registration-reports/voter-registration-by-party-affiliation/",
+      "domain": "dos.fl.gov"
+    },
+    {
+      "title": "https://wjno.iheart.com/content/2026-07-21-floridas-voter-registration-by-party-july-21st-2026/",
+      "url": "https://wjno.iheart.com/content/2026-07-21-floridas-voter-registration-by-party-july-21st-2026/",
+      "domain": "wjno.iheart.com"
+    },
+    {
+      "title": "https://www.govtrack.us/congress/members/FL/21",
+      "url": "https://www.govtrack.us/congress/members/FL/21",
+      "domain": "govtrack.us"
+    },
+    {
+      "title": "https://www.pewresearch.org/politics/fact-sheet/party-affiliation-fact-sheet-npors/",
+      "url": "https://www.pewresearch.org/politics/fact-sheet/party-affiliation-fact-sheet-npors/",
+      "domain": "pewresearch.org"
+    },
+    {
+      "title": "https://baynews9.com/fl/tampa/political-connections/2026/07/13/florida-dems-on-2026--voter-registration-breakdown",
+      "url": "https://baynews9.com/fl/tampa/political-connections/2026/07/13/florida-dems-on-2026--voter-registration-breakdown",
+      "domain": "baynews9.com"
+    },
+    {
+      "title": "https://floridaphoenix.com/2026/07/20/moody-leads-nixon-by-8-points-vindman-by-10-in-new-poll-of-florida-senate-race-embargoed/",
+      "url": "https://floridaphoenix.com/2026/07/20/moody-leads-nixon-by-8-points-vindman-by-10-in-new-poll-of-florida-senate-race-embargoed/",
+      "domain": "floridaphoenix.com"
+    },
+    {
+      "title": "https://worldpopulationreview.com/state-rankings/red-states",
+      "url": "https://worldpopulationreview.com/state-rankings/red-states",
+      "domain": "worldpopulationreview.com"
+    },
+    {
+      "title": "https://floridapolitics.com/archives/808105-building-and-construction-trades-council-backs-michael-kirwan-in-cd-4/",
+      "url": "https://floridapolitics.com/archives/808105-building-and-construction-trades-council-backs-michael-kirwan-in-cd-4/",
+      "domain": "floridapolitics.com"
+    },
+    {
+      "title": "https://ballotpedia.org/Redistricting_ahead_of_the_2026_elections",
+      "url": "https://ballotpedia.org/Redistricting_ahead_of_the_2026_elections",
+      "domain": "ballotpedia.org"
+    },
+    {
+      "title": "https://worldpopulationreview.com/state-rankings/most-republican-states",
+      "url": "https://worldpopulationreview.com/state-rankings/most-republican-states",
+      "domain": "worldpopulationreview.com"
+    },
+    {
+      "title": "https://www.politico.com/newsletters/florida-playbook/2026/07/20/tightening-at-the-top-01004670",
+      "url": "https://www.politico.com/newsletters/florida-playbook/2026/07/20/tightening-at-the-top-01004670",
+      "domain": "politico.com"
+    },
+    {
+      "title": "https://conservativemove.com/conservative-states/",
+      "url": "https://conservativemove.com/conservative-states/",
+      "domain": "conservativemove.com"
+    },
+    {
+      "title": "https://electionlawblog.org/?cat=1",
+      "url": "https://electionlawblog.org/?cat=1",
+      "domain": "electionlawblog.org"
+    }
+  ],
+  "current_margin": {
+    "party": "R",
+    "percentage_points": 5.0
+  },
+  "cook_pvi": {
+    "party": "R",
+    "percentage_points": 5.0
+  },
   "abbreviation": "FL",
-  "_cached_at": "2026-08-02T18:42:57.354208"
+  "_cached_at": "2026-08-03T16:19:39.371548"
 }

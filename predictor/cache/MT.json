@@ -1,11 +1,120 @@
 {
   "state": "Montana",
   "lean": "R",
-  "confidence": 0.85,
+  "confidence": 0.8,
   "basis": "current_polling",
-  "reasoning": "Recent July 2026 polling for the open Senate seat shows Republican nominee Kurt Alme leading the field by double-digit margins. In a late July GQR poll of the multi-way race, Alme leads with 41% of the vote, while a Public Opinion Strategies survey shows him with a 19-point lead (44% to Democrat Alani Bankhead's 25% and independent Seth Bodnar's 20%) due to a split in the non-Republican vote.",
-  "as_of_date": "2026-08-03T11:32:32",
-  "sources": [],
+  "reasoning": "Montana\u2019s statewide Cook PVI is R+10, indicating a solid Republican baseline[1]. In the current U.S. Senate race, recent polling/news shows Republican Kurt Alme leading: one July 2026 survey had him ahead in the four-way field with 41%, and another named-candidate poll had Alme at 44% to Democrat Alani Bankhead\u2019s 40% in a head-to-head matchup[8][12].",
+  "as_of_date": "2026-08-03T16:20:56",
+  "sources": [
+    {
+      "title": "https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index",
+      "url": "https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index",
+      "domain": "en.wikipedia.org"
+    },
+    {
+      "title": "https://independentcentervoice.com/insights/july-2026-statewide-survey-montana-s-u-s-senate-race",
+      "url": "https://independentcentervoice.com/insights/july-2026-statewide-survey-montana-s-u-s-senate-race",
+      "domain": "independentcentervoice.com"
+    },
+    {
+      "title": "https://www.nytimes.com/interactive/polls/montana-us-house-1-polls-2026.html",
+      "url": "https://www.nytimes.com/interactive/polls/montana-us-house-1-polls-2026.html",
+      "domain": "nytimes.com"
+    },
+    {
+      "title": "https://worldpopulationreview.com/state-rankings/political-parties-by-state",
+      "url": "https://worldpopulationreview.com/state-rankings/political-parties-by-state",
+      "domain": "worldpopulationreview.com"
+    },
+    {
+      "title": "https://www.ellisinsight.com/2026/07/",
+      "url": "https://www.ellisinsight.com/2026/07/",
+      "domain": "ellisinsight.com"
+    },
+    {
+      "title": "https://dailymontanan.com/2026/07/24/independent-earns-progressive-endorsements-in-montana-senate-race/",
+      "url": "https://dailymontanan.com/2026/07/24/independent-earns-progressive-endorsements-in-montana-senate-race/",
+      "domain": "dailymontanan.com"
+    },
+    {
+      "title": "https://worldpopulationreview.com/state-rankings/blue-states",
+      "url": "https://worldpopulationreview.com/state-rankings/blue-states",
+      "domain": "worldpopulationreview.com"
+    },
+    {
+      "title": "https://www.gelliottmorris.com/p/2026-07-28-exclusive-independent-leads-democrat-against-republican-montana",
+      "url": "https://www.gelliottmorris.com/p/2026-07-28-exclusive-independent-leads-democrat-against-republican-montana",
+      "domain": "gelliottmorris.com"
+    },
+    {
+      "title": "https://dailymontanan.com/2026/07/09/democratic-legislators-want-a-consolidated-u-s-senate-race-in-montana/",
+      "url": "https://dailymontanan.com/2026/07/09/democratic-legislators-want-a-consolidated-u-s-senate-race-in-montana/",
+      "domain": "dailymontanan.com"
+    },
+    {
+      "title": "https://montanafreepress.org/2026/07/16/campaign-finance-filings-show-democrats-except-sam-forstag-far-behind/",
+      "url": "https://montanafreepress.org/2026/07/16/campaign-finance-filings-show-democrats-except-sam-forstag-far-behind/",
+      "domain": "montanafreepress.org"
+    },
+    {
+      "title": "https://projects.montanafreepress.org/election-guide-2026/",
+      "url": "https://projects.montanafreepress.org/election-guide-2026/",
+      "domain": "projects.montanafreepress.org"
+    },
+    {
+      "title": "https://newrepublic.com/article/213698/democrats-win-montana-red-state-independents",
+      "url": "https://newrepublic.com/article/213698/democrats-win-montana-red-state-independents",
+      "domain": "newrepublic.com"
+    },
+    {
+      "title": "https://www.cookpolitical.com/ratings/house-race-ratings",
+      "url": "https://www.cookpolitical.com/ratings/house-race-ratings",
+      "domain": "cookpolitical.com"
+    },
+    {
+      "title": "https://www.pewresearch.org/politics/fact-sheet/party-affiliation-fact-sheet-npors/",
+      "url": "https://www.pewresearch.org/politics/fact-sheet/party-affiliation-fact-sheet-npors/",
+      "domain": "pewresearch.org"
+    },
+    {
+      "title": "https://blog.fiftyplusone.news/p/election-forecast-democrats-strongly-favored-house-tilt-senate",
+      "url": "https://blog.fiftyplusone.news/p/election-forecast-democrats-strongly-favored-house-tilt-senate",
+      "domain": "blog.fiftyplusone.news"
+    },
+    {
+      "title": "https://worldpopulationreview.com/state-rankings/red-states",
+      "url": "https://worldpopulationreview.com/state-rankings/red-states",
+      "domain": "worldpopulationreview.com"
+    },
+    {
+      "title": "https://apps.npr.org/primary-election-results-2026/states/MT.html",
+      "url": "https://apps.npr.org/primary-election-results-2026/states/MT.html",
+      "domain": "apps.npr.org"
+    },
+    {
+      "title": "https://ballotpedia.org/Redistricting_ahead_of_the_2026_elections",
+      "url": "https://ballotpedia.org/Redistricting_ahead_of_the_2026_elections",
+      "domain": "ballotpedia.org"
+    },
+    {
+      "title": "https://conservativemove.com/conservative-states/",
+      "url": "https://conservativemove.com/conservative-states/",
+      "domain": "conservativemove.com"
+    },
+    {
+      "title": "https://www.nbcnews.com/politics/2026-primary-elections/montana-us-house-district-1-results",
+      "url": "https://www.nbcnews.com/politics/2026-primary-elections/montana-us-house-district-1-results",
+      "domain": "nbcnews.com"
+    }
+  ],
+  "current_margin": {
+    "party": "R",
+    "percentage_points": 2.0
+  },
+  "cook_pvi": {
+    "party": "R",
+    "percentage_points": 10.0
+  },
   "abbreviation": "MT",
-  "_cached_at": "2026-08-03T11:32:32.368354"
+  "_cached_at": "2026-08-03T16:20:56.398381"
 }

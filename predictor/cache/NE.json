@@ -1,32 +1,120 @@
 {
   "state": "Nebraska",
   "lean": "R",
-  "confidence": 0.75,
+  "confidence": 0.78,
   "basis": "current_polling",
-  "reasoning": "Following the withdrawal of Democratic nominee Cindy Burbank in July 2026 to prevent vote-splitting, the Senate race is a head-to-head matchup between Republican incumbent Pete Ricketts and Independent Dan Osborn. While some individual pollsters have shown Osborn competitive, the Pollsmax aggregate average as of August 2026 shows Ricketts leading 48.4% to 43.7%. Leading nonpartisan analysts like Cook Political Report and Larry Sabato's Crystal Ball also rate the race as 'Likely Republican' as of late July 2026.",
-  "as_of_date": "2026-08-02T18:51:47",
+  "reasoning": "For the 2026 U.S. Senate race in Nebraska, Republican incumbent Pete Ricketts is facing independent Dan Osborn; recent polling through July 6, 2026 shows a weighted average of 48.4% for Ricketts to 43.7% for Osborn, a Republican lead of 4.7 points across five polls.[12] Major forecasters (Cook, Sabato, Inside Elections) are described as rating the race \"Likely Republican,\" and a synthesized forecast notes a polling average of Ricketts +4.7, a prior 2024 contest where the same challenger lost by 6.7 points, and substantial cash and structural advantages in this historically red state.[4][10] Nebraska\u2019s statewide Cook Partisan Voting Index is R+10, indicating a strong underlying Republican lean in federal elections that aligns with both recent presidential results and the current Senate polling.[1]",
+  "as_of_date": "2026-08-03T16:21:01",
   "sources": [
     {
-      "title": "ivn.us",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLUYd4b9gdyOFZVJQ2YfWdY_HP8pllQsTQ_yA34rRp5SbYxw2P6Y2cIQDDtpWl2kDHONM-XOHWFfFSEpxFlfQEh8iOlUMkUPbAAa4VXLEzpDGTBTSnzrfIwfosayuAMW6Be4Skr-ZCqdpD3h2l52iE7cyaq-D4I4YYd-NnteHfADESzxHaQPqtM3lfGJpSnsjbFyuYI7Ap",
-      "domain": "vertexaisearch.cloud.google.com"
+      "title": "https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index",
+      "url": "https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index",
+      "domain": "en.wikipedia.org"
     },
     {
-      "title": "washingtonpost.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKFzsmigMg2WwtIJM1etUvZLpgLj7P8r58YSasn-JWlexNqN3AehRwtONqFlRI7JrilnaZoRyOqzZ9v6M_YGG9IDSs4drtddunphNr1oWtOgW1b8rppofvJdkCTUylNdifrTEdoBX_A0HOAQ8qdn9oWKvQTUFlbSZzTh8wKmqqikbTGCy4mslPAHRhi-sp8qCcWd6MPHm4ZPIiJsmhZtUCq8s=",
-      "domain": "vertexaisearch.cloud.google.com"
+      "title": "https://www.bbc.com/news/election/2024/us/states/ne",
+      "url": "https://www.bbc.com/news/election/2024/us/states/ne",
+      "domain": "bbc.com"
     },
     {
-      "title": "pollsmax.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVjR7ByxhjWwxp3rp9OF6g94Jokg8hsqZ2YMqWAV3eKyMabQ0E6DRh9b3hR9tmKx-RsL7dWTzUhJsijuJ4ql-LTRR3IUBZSz66wMb5_ThODvejTgFQ3LAYPeHP-j00tw==",
-      "domain": "vertexaisearch.cloud.google.com"
+      "title": "https://www.nytimes.com/interactive/polls/nebraska-us-house-2-polls-2026.html",
+      "url": "https://www.nytimes.com/interactive/polls/nebraska-us-house-2-polls-2026.html",
+      "domain": "nytimes.com"
     },
     {
-      "title": "ballotpedia.org",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFU0gwYKzaMGCCor-bi8CoiSSKDlzjOaP5P1w4AlkCmCJbfrKro_wbC-iiJ59beKi4lZ7JSJMQPes-aqI1G7u9QRd3dRBu7k5SL1uj1ceTtNT46QDQBRnX_C_kJDIAWSXdFnd1WrXTSGpADVI6X7Qy0NbOVBoNahFcXSmiQZQ==",
-      "domain": "vertexaisearch.cloud.google.com"
+      "title": "https://hugo0.com/oracle/pythia-20260722-will-the-republicans-win-the-nebraska-senate-race-in-2026",
+      "url": "https://hugo0.com/oracle/pythia-20260722-will-the-republicans-win-the-nebraska-senate-race-in-2026",
+      "domain": "hugo0.com"
+    },
+    {
+      "title": "https://www.multistate.us/elections/governors",
+      "url": "https://www.multistate.us/elections/governors",
+      "domain": "multistate.us"
+    },
+    {
+      "title": "https://worldpopulationreview.com/state-rankings/political-parties-by-state",
+      "url": "https://worldpopulationreview.com/state-rankings/political-parties-by-state",
+      "domain": "worldpopulationreview.com"
+    },
+    {
+      "title": "https://www.cookpolitical.com/pvi-map-and-district-list",
+      "url": "https://www.cookpolitical.com/pvi-map-and-district-list",
+      "domain": "cookpolitical.com"
+    },
+    {
+      "title": "https://nebraskapublicmedia.org/en/news/news-articles/nonpartisan-cohen-submits-signatures-seeking-to-appear-on-ballot-for-nebraskas-3rd-congressional-district/",
+      "url": "https://nebraskapublicmedia.org/en/news/news-articles/nonpartisan-cohen-submits-signatures-seeking-to-appear-on-ballot-for-nebraskas-3rd-congressional-district/",
+      "domain": "nebraskapublicmedia.org"
+    },
+    {
+      "title": "https://www.dailykos.com/stories/2026/7/16/800058060/community/the-cornhusker-state-of-play-important-nebraska-races/",
+      "url": "https://www.dailykos.com/stories/2026/7/16/800058060/community/the-cornhusker-state-of-play-important-nebraska-races/",
+      "domain": "dailykos.com"
+    },
+    {
+      "title": "https://blog.fiftyplusone.news/p/election-forecast-democrats-strongly-favored-house-tilt-senate",
+      "url": "https://blog.fiftyplusone.news/p/election-forecast-democrats-strongly-favored-house-tilt-senate",
+      "domain": "blog.fiftyplusone.news"
+    },
+    {
+      "title": "https://worldpopulationreview.com/state-rankings/most-republican-states",
+      "url": "https://worldpopulationreview.com/state-rankings/most-republican-states",
+      "domain": "worldpopulationreview.com"
+    },
+    {
+      "title": "https://www.pollsmax.com/senate/nebraska/",
+      "url": "https://www.pollsmax.com/senate/nebraska/",
+      "domain": "pollsmax.com"
+    },
+    {
+      "title": "https://www.kwit.org/podcast/spm-news/2026-07-08/more-political-parties-seeking-official-status-in-nebraska",
+      "url": "https://www.kwit.org/podcast/spm-news/2026-07-08/more-political-parties-seeking-official-status-in-nebraska",
+      "domain": "kwit.org"
+    },
+    {
+      "title": "https://holanebraska.org/2026/07/18/nebraska-democrats-more-republicans/",
+      "url": "https://holanebraska.org/2026/07/18/nebraska-democrats-more-republicans/",
+      "domain": "holanebraska.org"
+    },
+    {
+      "title": "https://apnews.com/projects/elections-2026/nebraska-primary-results-governor/",
+      "url": "https://apnews.com/projects/elections-2026/nebraska-primary-results-governor/",
+      "domain": "apnews.com"
+    },
+    {
+      "title": "https://www.pewresearch.org/politics/fact-sheet/party-affiliation-fact-sheet-npors/",
+      "url": "https://www.pewresearch.org/politics/fact-sheet/party-affiliation-fact-sheet-npors/",
+      "domain": "pewresearch.org"
+    },
+    {
+      "title": "https://copublicstrategies.com/cozen-currents-trump-v-the-worlds-most-deliberative-body/",
+      "url": "https://copublicstrategies.com/cozen-currents-trump-v-the-worlds-most-deliberative-body/",
+      "domain": "copublicstrategies.com"
+    },
+    {
+      "title": "https://conservativemove.com/conservative-states/",
+      "url": "https://conservativemove.com/conservative-states/",
+      "domain": "conservativemove.com"
+    },
+    {
+      "title": "https://ballotpedia.org/Redistricting_ahead_of_the_2026_elections",
+      "url": "https://ballotpedia.org/Redistricting_ahead_of_the_2026_elections",
+      "domain": "ballotpedia.org"
+    },
+    {
+      "title": "https://www.columbiamissourian.com/news/elections/missouri-congressional/republican-challengers-line-up-in-red-leaning-5th-district/article_c9f25e8d-618c-46fc-ada3-52e33978ee5d.html",
+      "url": "https://www.columbiamissourian.com/news/elections/missouri-congressional/republican-challengers-line-up-in-red-leaning-5th-district/article_c9f25e8d-618c-46fc-ada3-52e33978ee5d.html",
+      "domain": "columbiamissourian.com"
     }
   ],
+  "current_margin": {
+    "party": "R",
+    "percentage_points": 4.7
+  },
+  "cook_pvi": {
+    "party": "R",
+    "percentage_points": 10.0
+  },
   "abbreviation": "NE",
-  "_cached_at": "2026-08-02T18:51:47.845565"
+  "_cached_at": "2026-08-03T16:21:01.317948"
 }

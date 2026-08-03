@@ -1,11 +1,105 @@
 {
   "state": "Virginia",
   "lean": "D",
-  "confidence": 0.9,
-  "basis": "current_polling",
-  "reasoning": "Incumbent Democratic Senator Mark Warner holds a dominant lead in 2026 election tracking, leading potential Republican challenger Bert Mizusawa by an average of 19.9 points (51.6% to 31.7%) as of August 2026. A Public Sentiment Institute poll from June showed Warner with a 50% to 33% lead over Mizusawa ahead of the August 4 Republican primary. Furthermore, major nonpartisan outlets such as Sabato's Crystal Ball and the Cook Political Report rate the Senate race as Solid/Safe Democratic.",
-  "as_of_date": "2026-08-02T18:59:33",
-  "sources": [],
+  "confidence": 0.71,
+  "basis": "midterm_swing",
+  "reasoning": "Virginia\u2019s statewide Cook PVI is D+3, and the most recent statewide election result in 2025 was a Democratic win by 57.6% to 42.2%, a 15.4-point margin. I did not find valid, named-candidate head-to-head polling within the last 45 days in the provided results, so the current-cycle evidence is limited to primary/candidate context rather than a direct general-election poll; that still points to a Democratic lean, but with only moderate confidence.",
+  "as_of_date": "2026-08-03T16:22:24",
+  "sources": [
+    {
+      "title": "https://worldpopulationreview.com/state-rankings/political-parties-by-state",
+      "url": "https://worldpopulationreview.com/state-rankings/political-parties-by-state",
+      "domain": "worldpopulationreview.com"
+    },
+    {
+      "title": "https://worldpopulationreview.com/state-rankings/blue-states",
+      "url": "https://worldpopulationreview.com/state-rankings/blue-states",
+      "domain": "worldpopulationreview.com"
+    },
+    {
+      "title": "https://vademocrats.org/",
+      "url": "https://vademocrats.org/",
+      "domain": "vademocrats.org"
+    },
+    {
+      "title": "https://www.predictionedge.com/elections/va/",
+      "url": "https://www.predictionedge.com/elections/va/",
+      "domain": "predictionedge.com"
+    },
+    {
+      "title": "https://ballot-access.org/2026/07/24/july-2026-ballot-access-news-print-edition/",
+      "url": "https://ballot-access.org/2026/07/24/july-2026-ballot-access-news-print-edition/",
+      "domain": "ballot-access.org"
+    },
+    {
+      "title": "https://www.nbcnews.com/politics/2026-election/democrats-big-virginia-plans-foiled-s-still-center-battle-house-rcna589758",
+      "url": "https://www.nbcnews.com/politics/2026-election/democrats-big-virginia-plans-foiled-s-still-center-battle-house-rcna589758",
+      "domain": "nbcnews.com"
+    },
+    {
+      "title": "https://www.washingtonexaminer.com/news/campaigns/congressional/4668736/races-to-watch-virginia-first-election-since-redistricting-battle/",
+      "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4668736/races-to-watch-virginia-first-election-since-redistricting-battle/",
+      "domain": "washingtonexaminer.com"
+    },
+    {
+      "title": "https://www.pewresearch.org/politics/fact-sheet/party-affiliation-fact-sheet-npors/",
+      "url": "https://www.pewresearch.org/politics/fact-sheet/party-affiliation-fact-sheet-npors/",
+      "domain": "pewresearch.org"
+    },
+    {
+      "title": "https://www.arlnow.com/2026/07/22/democrats-outnumber-republicans-15-to-1-in-early-falls-church-ballots-so-far/",
+      "url": "https://www.arlnow.com/2026/07/22/democrats-outnumber-republicans-15-to-1-in-early-falls-church-ballots-so-far/",
+      "domain": "arlnow.com"
+    },
+    {
+      "title": "https://www.pewresearch.org/chart/political-party-affiliation-among-u-s-adults/",
+      "url": "https://www.pewresearch.org/chart/political-party-affiliation-among-u-s-adults/",
+      "domain": "pewresearch.org"
+    },
+    {
+      "title": "https://apps.npr.org/primary-election-results-2026/states/VA.html",
+      "url": "https://apps.npr.org/primary-election-results-2026/states/VA.html",
+      "domain": "apps.npr.org"
+    },
+    {
+      "title": "https://www.nytimes.com/interactive/polls/virginia-us-house-2-polls-2026.html",
+      "url": "https://www.nytimes.com/interactive/polls/virginia-us-house-2-polls-2026.html",
+      "domain": "nytimes.com"
+    },
+    {
+      "title": "https://cardinalnews.org/2026/07/31/5th-district-is-only-congressional-district-with-both-a-democratic-and-republican-primary-here-are-the-candidates/",
+      "url": "https://cardinalnews.org/2026/07/31/5th-district-is-only-congressional-district-with-both-a-democratic-and-republican-primary-here-are-the-candidates/",
+      "domain": "cardinalnews.org"
+    },
+    {
+      "title": "https://www.fox5dc.com/election/virginias-2026-primary-election-voter-guide-races-candidates-dates",
+      "url": "https://www.fox5dc.com/election/virginias-2026-primary-election-voter-guide-races-candidates-dates",
+      "domain": "fox5dc.com"
+    },
+    {
+      "title": "https://worldpopulationreview.com/state-rankings/most-republican-states",
+      "url": "https://worldpopulationreview.com/state-rankings/most-republican-states",
+      "domain": "worldpopulationreview.com"
+    },
+    {
+      "title": "https://unmasked.goodfriends.workers.dev/megan-https-en.wikipedia.org/wiki/Elections_in_Virginia",
+      "url": "https://unmasked.goodfriends.workers.dev/megan-https-en.wikipedia.org/wiki/Elections_in_Virginia",
+      "domain": "unmasked.goodfriends.workers.dev"
+    },
+    {
+      "title": "https://worldpopulationreview.com/state-rankings/registered-voters-by-party",
+      "url": "https://worldpopulationreview.com/state-rankings/registered-voters-by-party",
+      "domain": "worldpopulationreview.com"
+    }
+  ],
+  "current_margin": {
+    "party": "D",
+    "percentage_points": 3.0
+  },
+  "cook_pvi": {
+    "party": "D",
+    "percentage_points": 3.0
+  },
   "abbreviation": "VA",
-  "_cached_at": "2026-08-02T18:59:33.490309"
+  "_cached_at": "2026-08-03T16:22:24.160468"
 }

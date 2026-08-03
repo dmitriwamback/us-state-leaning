@@ -15,6 +15,9 @@
 ### Data compiled from Gemini 3.5 Flash (as of August 2nd 2026)
 <img width="2230" height="1148" alt="Image" src="https://github.com/user-attachments/assets/8f2bd563-6da4-4bf3-9ce3-c9a6124578ee" />
 
+### Data compiled from Sonar Pro (as of August 3rd 2026)
+<img width="2240" height="1152" alt="Image" src="https://github.com/user-attachments/assets/043eaaeb-eead-4dce-b3f6-6429cad666db" />
+
 ## How to run
 
 <ul>

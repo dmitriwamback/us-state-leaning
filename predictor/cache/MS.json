@@ -1,11 +1,120 @@
 {
   "state": "Mississippi",
   "lean": "R",
-  "confidence": 0.8,
-  "basis": "current_polling",
-  "reasoning": "Incumbent Republican Senator Cindy Hyde-Smith leads Democratic challenger Scott Colom by an average of 8.7 percentage points (49.6% to 40.9%) according to a Pollsmax aggregate updated on August 1, 2026. While Colom outraised Hyde-Smith in Q2 2026 by bringing in over $945,000, major election handicappers continue to rate this Senate race as Solid or Safe Republican.",
-  "as_of_date": "2026-08-02T18:50:17",
-  "sources": [],
+  "confidence": 0.78,
+  "basis": "midterm_swing",
+  "reasoning": "For 2026, Mississippi\u2019s key federal race is the U.S. Senate contest between Republican incumbent Cindy Hyde-Smith and Democrat Scott Colom, with all four House incumbents also on the ballot.[10][12][15] Recent coverage and fundraising reports describe Hyde-Smith as a clear favorite in a state that has not elected a Democrat to the Senate since 1982, despite Colom\u2019s unusually strong fundraising and increased national attention to the race.[8][10][15] Mississippi\u2019s statewide Cook PVI is around R+11, and current expert and media characterizations frame the Senate race as still leaning Republican by mid-single digits rather than a true toss-up, so I estimate a roughly 6-point Republican edge at this stage.[1][9][10]",
+  "as_of_date": "2026-08-03T16:20:49",
+  "sources": [
+    {
+      "title": "https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index",
+      "url": "https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index",
+      "domain": "en.wikipedia.org"
+    },
+    {
+      "title": "https://www.multistate.us/elections/governors",
+      "url": "https://www.multistate.us/elections/governors",
+      "domain": "multistate.us"
+    },
+    {
+      "title": "https://www.ms.now/on-the-line/watch/poll-dems-favored-over-gop-in-midterms-48-to-45-2507070531939",
+      "url": "https://www.ms.now/on-the-line/watch/poll-dems-favored-over-gop-in-midterms-48-to-45-2507070531939",
+      "domain": "ms.now"
+    },
+    {
+      "title": "https://worldpopulationreview.com/state-rankings/blue-states",
+      "url": "https://worldpopulationreview.com/state-rankings/blue-states",
+      "domain": "worldpopulationreview.com"
+    },
+    {
+      "title": "https://www.cookpolitical.com/ratings/house-race-ratings",
+      "url": "https://www.cookpolitical.com/ratings/house-race-ratings",
+      "domain": "cookpolitical.com"
+    },
+    {
+      "title": "https://worldpopulationreview.com/state-rankings/political-parties-by-state",
+      "url": "https://worldpopulationreview.com/state-rankings/political-parties-by-state",
+      "domain": "worldpopulationreview.com"
+    },
+    {
+      "title": "https://eastpointga.com/the-senate-race-you-dont-hear-about-may-be-closer-than-many-think-how-mississippi-democrats-are-gradually-shifting-the-state-to-blue/",
+      "url": "https://eastpointga.com/the-senate-race-you-dont-hear-about-may-be-closer-than-many-think-how-mississippi-democrats-are-gradually-shifting-the-state-to-blue/",
+      "domain": "eastpointga.com"
+    },
+    {
+      "title": "https://www.cnn.com/2026/07/29/politics/video/inside-politics-mississippi-senate-steve-colom",
+      "url": "https://www.cnn.com/2026/07/29/politics/video/inside-politics-mississippi-senate-steve-colom",
+      "domain": "cnn.com"
+    },
+    {
+      "title": "https://worldpopulationreview.com/state-rankings/red-states",
+      "url": "https://worldpopulationreview.com/state-rankings/red-states",
+      "domain": "worldpopulationreview.com"
+    },
+    {
+      "title": "https://msindy.org/p/democrats-colom-johnson-fundraising",
+      "url": "https://msindy.org/p/democrats-colom-johnson-fundraising",
+      "domain": "msindy.org"
+    },
+    {
+      "title": "https://ballotpedia.org/Redistricting_ahead_of_the_2026_elections",
+      "url": "https://ballotpedia.org/Redistricting_ahead_of_the_2026_elections",
+      "domain": "ballotpedia.org"
+    },
+    {
+      "title": "https://www.clarionledger.com/story/news/politics/2026/07/28/legislators-redrawing-ms-voting-district-maps/91077595007/",
+      "url": "https://www.clarionledger.com/story/news/politics/2026/07/28/legislators-redrawing-ms-voting-district-maps/91077595007/",
+      "domain": "clarionledger.com"
+    },
+    {
+      "title": "https://www.pewresearch.org/politics/fact-sheet/party-affiliation-fact-sheet-npors/",
+      "url": "https://www.pewresearch.org/politics/fact-sheet/party-affiliation-fact-sheet-npors/",
+      "domain": "pewresearch.org"
+    },
+    {
+      "title": "https://www.clarionledger.com/story/news/politics/2026/07/26/redistricting-impact-ms-elections-competition/90556168007/",
+      "url": "https://www.clarionledger.com/story/news/politics/2026/07/26/redistricting-impact-ms-elections-competition/90556168007/",
+      "domain": "clarionledger.com"
+    },
+    {
+      "title": "https://magnoliatribune.com/2026/07/17/mississippi-hasnt-elected-a-democrat-to-the-u-s-senate-since-1982-scott-colom-believes-he-will-change-that-in-november/",
+      "url": "https://magnoliatribune.com/2026/07/17/mississippi-hasnt-elected-a-democrat-to-the-u-s-senate-since-1982-scott-colom-believes-he-will-change-that-in-november/",
+      "domain": "magnoliatribune.com"
+    },
+    {
+      "title": "https://www.pewresearch.org/politics/2026/07/23/midterm-voting-preferences-by-race-and-ethnicity-age-and-other-demographics/",
+      "url": "https://www.pewresearch.org/politics/2026/07/23/midterm-voting-preferences-by-race-and-ethnicity-age-and-other-demographics/",
+      "domain": "pewresearch.org"
+    },
+    {
+      "title": "https://worldpopulationreview.com/state-rankings/most-republican-states",
+      "url": "https://worldpopulationreview.com/state-rankings/most-republican-states",
+      "domain": "worldpopulationreview.com"
+    },
+    {
+      "title": "https://electionlawblog.org/?cat=1",
+      "url": "https://electionlawblog.org/?cat=1",
+      "domain": "electionlawblog.org"
+    },
+    {
+      "title": "https://www.britannica.com/procon/election-day-debate",
+      "url": "https://www.britannica.com/procon/election-day-debate",
+      "domain": "britannica.com"
+    },
+    {
+      "title": "https://edworkingpapers.com/sites/default/files/ai26-1538.pdf",
+      "url": "https://edworkingpapers.com/sites/default/files/ai26-1538.pdf",
+      "domain": "edworkingpapers.com"
+    }
+  ],
+  "current_margin": {
+    "party": "R",
+    "percentage_points": 6.0
+  },
+  "cook_pvi": {
+    "party": "R",
+    "percentage_points": 11.0
+  },
   "abbreviation": "MS",
-  "_cached_at": "2026-08-02T18:50:17.154177"
+  "_cached_at": "2026-08-03T16:20:49.126705"
 }

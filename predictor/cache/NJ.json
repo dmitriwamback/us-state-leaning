@@ -1,11 +1,120 @@
 {
   "state": "New Jersey",
   "lean": "D",
-  "confidence": 0.6,
+  "confidence": 0.8,
   "basis": "historical_baseline",
-  "reasoning": "With no head-to-head polling available between Democratic incumbent Cory Booker and Republican Justin Murphy, the assessment falls back on recent election results. In the 2024 federal elections, Democrats won New Jersey by single-digit margins, with Kamala Harris carrying the state by 5.91% and Andy Kim winning his Senate race by 9.62%. While Democrats have won every New Jersey Senate race since 1972, these relatively close recent margins justify a moderate confidence level in the fallback baseline.",
-  "as_of_date": "2026-08-02T18:52:53",
-  "sources": [],
+  "reasoning": "Statewide, New Jersey\u2019s Cook Partisan Voting Index is D+4, indicating the state has voted about 4 points more Democratic than the nation in recent presidential elections.[1][5] The most recent federal baseline is the 2024 presidential race, where Kamala Harris carried New Jersey by roughly 11 points statewide, with Essex County alone providing a margin of more than 140,000 votes that accounted for 55% of her statewide victory margin.[9][17] There is no evidence in the last 45 days of competitive statewide federal races or contrary polling; current-cycle coverage instead focuses on a single toss-up House district (NJ\u201107) against a backdrop of multiple strongly Democratic districts and entrenched Republican pockets, which supports viewing the overall federal lean of the state as Democratic.[3][7][8][10][13]",
+  "as_of_date": "2026-08-03T16:21:15",
+  "sources": [
+    {
+      "title": "https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index",
+      "url": "https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index",
+      "domain": "en.wikipedia.org"
+    },
+    {
+      "title": "https://www.nytimes.com/interactive/polls/new-jersey-us-house-12-polls-2026.html",
+      "url": "https://www.nytimes.com/interactive/polls/new-jersey-us-house-12-polls-2026.html",
+      "domain": "nytimes.com"
+    },
+    {
+      "title": "https://www.cookpolitical.com/ratings/house-race-ratings",
+      "url": "https://www.cookpolitical.com/ratings/house-race-ratings",
+      "domain": "cookpolitical.com"
+    },
+    {
+      "title": "https://worldpopulationreview.com/state-rankings/political-parties-by-state",
+      "url": "https://worldpopulationreview.com/state-rankings/political-parties-by-state",
+      "domain": "worldpopulationreview.com"
+    },
+    {
+      "title": "https://worldpopulationreview.com/state-rankings/blue-states",
+      "url": "https://worldpopulationreview.com/state-rankings/blue-states",
+      "domain": "worldpopulationreview.com"
+    },
+    {
+      "title": "https://www.cookpolitical.com/pvi-map-and-district-list",
+      "url": "https://www.cookpolitical.com/pvi-map-and-district-list",
+      "domain": "cookpolitical.com"
+    },
+    {
+      "title": "https://volunteerblue.org/take-action-new-jersey/",
+      "url": "https://volunteerblue.org/take-action-new-jersey/",
+      "domain": "volunteerblue.org"
+    },
+    {
+      "title": "https://newjerseyglobe.com/local/a-look-at-federal-county-and-municipal-races-in-warren-county-in-2026/",
+      "url": "https://newjerseyglobe.com/local/a-look-at-federal-county-and-municipal-races-in-warren-county-in-2026/",
+      "domain": "newjerseyglobe.com"
+    },
+    {
+      "title": "https://newjerseyglobe.com/local/a-look-at-federal-county-and-municipal-races-in-essex-county-in-2026/",
+      "url": "https://newjerseyglobe.com/local/a-look-at-federal-county-and-municipal-races-in-essex-county-in-2026/",
+      "domain": "newjerseyglobe.com"
+    },
+    {
+      "title": "https://newjerseyglobe.com/local/a-look-at-federal-county-and-municipal-races-in-hudson-county-in-2026/",
+      "url": "https://newjerseyglobe.com/local/a-look-at-federal-county-and-municipal-races-in-hudson-county-in-2026/",
+      "domain": "newjerseyglobe.com"
+    },
+    {
+      "title": "https://www.njspotlightnews.org/2026/07/new-jersey-voter-glitch-delivers-republicans-a-gift-in-elections-fight/",
+      "url": "https://www.njspotlightnews.org/2026/07/new-jersey-voter-glitch-delivers-republicans-a-gift-in-elections-fight/",
+      "domain": "njspotlightnews.org"
+    },
+    {
+      "title": "https://newjerseyglobe.com/local/a-look-at-federal-county-and-municipal-races-in-passaic-county-in-2026/",
+      "url": "https://newjerseyglobe.com/local/a-look-at-federal-county-and-municipal-races-in-passaic-county-in-2026/",
+      "domain": "newjerseyglobe.com"
+    },
+    {
+      "title": "https://newjerseyglobe.com/local/a-look-at-federal-county-and-municipal-races-in-middlesex-county-in-2026/",
+      "url": "https://newjerseyglobe.com/local/a-look-at-federal-county-and-municipal-races-in-middlesex-county-in-2026/",
+      "domain": "newjerseyglobe.com"
+    },
+    {
+      "title": "https://www.pewresearch.org/politics/fact-sheet/party-affiliation-fact-sheet-npors/",
+      "url": "https://www.pewresearch.org/politics/fact-sheet/party-affiliation-fact-sheet-npors/",
+      "domain": "pewresearch.org"
+    },
+    {
+      "title": "https://conservativemove.com/conservative-states/",
+      "url": "https://conservativemove.com/conservative-states/",
+      "domain": "conservativemove.com"
+    },
+    {
+      "title": "https://ballotpedia.org/Redistricting_ahead_of_the_2026_elections",
+      "url": "https://ballotpedia.org/Redistricting_ahead_of_the_2026_elections",
+      "domain": "ballotpedia.org"
+    },
+    {
+      "title": "https://ig.ft.com/us-elections/2024/results/state/new-jersey/",
+      "url": "https://ig.ft.com/us-elections/2024/results/state/new-jersey/",
+      "domain": "ig.ft.com"
+    },
+    {
+      "title": "https://newjerseyglobe.com/local/a-look-at-federal-county-and-municipal-races-in-somerset-county-in-2026/",
+      "url": "https://newjerseyglobe.com/local/a-look-at-federal-county-and-municipal-races-in-somerset-county-in-2026/",
+      "domain": "newjerseyglobe.com"
+    },
+    {
+      "title": "https://www.nbcnews.com/politics/2026-primary-elections/new-jersey-us-house-district-7-results",
+      "url": "https://www.nbcnews.com/politics/2026-primary-elections/new-jersey-us-house-district-7-results",
+      "domain": "nbcnews.com"
+    },
+    {
+      "title": "https://electionlawblog.org/?cat=1",
+      "url": "https://electionlawblog.org/?cat=1",
+      "domain": "electionlawblog.org"
+    }
+  ],
+  "current_margin": {
+    "party": "D",
+    "percentage_points": 11.0
+  },
+  "cook_pvi": {
+    "party": "D",
+    "percentage_points": 4.0
+  },
   "abbreviation": "NJ",
-  "_cached_at": "2026-08-02T18:52:53.089639"
+  "_cached_at": "2026-08-03T16:21:15.036903"
 }

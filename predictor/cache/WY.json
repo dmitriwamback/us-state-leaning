@@ -2,10 +2,119 @@
   "state": "Wyoming",
   "lean": "R",
   "confidence": 0.95,
-  "basis": "historical_baseline",
-  "reasoning": "While there is no recent head-to-head polling for the 2026 Senate race between Republican Harriet Hageman and Democrat James Byrd, Wyoming remains a safe Republican stronghold. In the 2024 presidential election, the state voted Republican by a lopsided 45.8-point margin, and Hageman won her 2024 House race with 70.6% of the vote. Prediction markets and forecasters heavily favor the Republican nominee to succeed retiring Senator Cynthia Lummis, pricing a GOP victory at over 97%.",
-  "as_of_date": "2026-08-03T11:31:07",
-  "sources": [],
+  "basis": "current_polling",
+  "reasoning": "Wyoming\u2019s statewide Cook PVI is R+23, and Cook\u2019s current 2026 House ratings also place WY-00 in the 'Solid Republican' category with Harriet Hageman listed at R+23, indicating an extremely strong Republican baseline.[1][2] For current-cycle evidence, the available 2026 Wyoming governor polling shows Eric Barlow leading by 23 points (42% to 19%), but that is a Republican-on-Republican primary snapshot rather than a federal general-election head-to-head, so the best current federal-election lean remains overwhelmingly Republican.[10]",
+  "as_of_date": "2026-08-03T16:22:42",
+  "sources": [
+    {
+      "title": "https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index",
+      "url": "https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index",
+      "domain": "en.wikipedia.org"
+    },
+    {
+      "title": "https://www.cookpolitical.com/ratings/house-race-ratings",
+      "url": "https://www.cookpolitical.com/ratings/house-race-ratings",
+      "domain": "cookpolitical.com"
+    },
+    {
+      "title": "https://www.multistate.us/elections/governors",
+      "url": "https://www.multistate.us/elections/governors",
+      "domain": "multistate.us"
+    },
+    {
+      "title": "https://worldpopulationreview.com/state-rankings/most-republican-states",
+      "url": "https://worldpopulationreview.com/state-rankings/most-republican-states",
+      "domain": "worldpopulationreview.com"
+    },
+    {
+      "title": "https://conservativemove.com/conservative-states/",
+      "url": "https://conservativemove.com/conservative-states/",
+      "domain": "conservativemove.com"
+    },
+    {
+      "title": "https://dho.stanford.edu/wp-content/uploads/JReg_Reporting.pdf",
+      "url": "https://dho.stanford.edu/wp-content/uploads/JReg_Reporting.pdf",
+      "domain": "dho.stanford.edu"
+    },
+    {
+      "title": "https://cowboystatedaily.com/2026/07/20/wyoming-gop-endorses-brent-bien-chuck-gray-and-harriet-hageman/",
+      "url": "https://cowboystatedaily.com/2026/07/20/wyoming-gop-endorses-brent-bien-chuck-gray-and-harriet-hageman/",
+      "domain": "cowboystatedaily.com"
+    },
+    {
+      "title": "https://cowboystatedaily.com/2026/07/19/gail-symons-are-the-ruling-democrats-in-the-room-with-you-now/",
+      "url": "https://cowboystatedaily.com/2026/07/19/gail-symons-are-the-ruling-democrats-in-the-room-with-you-now/",
+      "domain": "cowboystatedaily.com"
+    },
+    {
+      "title": "https://www.predictionedge.com/elections/wy/?office=us-senate,us-house,governor",
+      "url": "https://www.predictionedge.com/elections/wy/?office=us-senate,us-house,governor",
+      "domain": "predictionedge.com"
+    },
+    {
+      "title": "https://www.nytimes.com/interactive/polls/wyoming-governor-election-polls-2026.html",
+      "url": "https://www.nytimes.com/interactive/polls/wyoming-governor-election-polls-2026.html",
+      "domain": "nytimes.com"
+    },
+    {
+      "title": "https://worldpopulationreview.com/state-rankings/political-parties-by-state",
+      "url": "https://worldpopulationreview.com/state-rankings/political-parties-by-state",
+      "domain": "worldpopulationreview.com"
+    },
+    {
+      "title": "https://www.wyomingpublicmedia.org/politics-government/2026-07-13/cheyenne-roundup-decision-2026-legislative-balance-of-power",
+      "url": "https://www.wyomingpublicmedia.org/politics-government/2026-07-13/cheyenne-roundup-decision-2026-legislative-balance-of-power",
+      "domain": "wyomingpublicmedia.org"
+    },
+    {
+      "title": "https://oilcity.news/community/elections/2026/07/08/rational-republicans-rally-in-casper-to-challenge-wyoming-freedom-caucus/",
+      "url": "https://oilcity.news/community/elections/2026/07/08/rational-republicans-rally-in-casper-to-challenge-wyoming-freedom-caucus/",
+      "domain": "oilcity.news"
+    },
+    {
+      "title": "https://projects.wyofile.com/election-guide-2026/",
+      "url": "https://projects.wyofile.com/election-guide-2026/",
+      "domain": "projects.wyofile.com"
+    },
+    {
+      "title": "https://wyofile.com/will-voters-split-wyomings-republican-race-for-governor/",
+      "url": "https://wyofile.com/will-voters-split-wyomings-republican-race-for-governor/",
+      "domain": "wyofile.com"
+    },
+    {
+      "title": "https://ballotpedia.org/Redistricting_ahead_of_the_2026_elections",
+      "url": "https://ballotpedia.org/Redistricting_ahead_of_the_2026_elections",
+      "domain": "ballotpedia.org"
+    },
+    {
+      "title": "https://azcapitoltimes.com/news/2026/07/24/the-most-competitive-governors-races-of-2026/",
+      "url": "https://azcapitoltimes.com/news/2026/07/24/the-most-competitive-governors-races-of-2026/",
+      "domain": "azcapitoltimes.com"
+    },
+    {
+      "title": "https://edworkingpapers.com/sites/default/files/ai26-1538.pdf",
+      "url": "https://edworkingpapers.com/sites/default/files/ai26-1538.pdf",
+      "domain": "edworkingpapers.com"
+    },
+    {
+      "title": "https://www.governing.com/politics/city-government-is-the-latest-proving-ground-for-socialist-politics",
+      "url": "https://www.governing.com/politics/city-government-is-the-latest-proving-ground-for-socialist-politics",
+      "domain": "governing.com"
+    },
+    {
+      "title": "https://www.britannica.com/procon/election-day-debate",
+      "url": "https://www.britannica.com/procon/election-day-debate",
+      "domain": "britannica.com"
+    }
+  ],
+  "current_margin": {
+    "party": "R",
+    "percentage_points": 23.0
+  },
+  "cook_pvi": {
+    "party": "R",
+    "percentage_points": 23.0
+  },
   "abbreviation": "WY",
-  "_cached_at": "2026-08-03T11:31:07.587665"
+  "_cached_at": "2026-08-03T16:22:42.188152"
 }

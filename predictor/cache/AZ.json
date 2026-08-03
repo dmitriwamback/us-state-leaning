@@ -1,27 +1,120 @@
 {
   "state": "Arizona",
-  "lean": "D",
-  "confidence": 0.6,
-  "basis": "current_polling",
-  "reasoning": "Incumbent Governor Katie Hobbs (D) maintains a consistent lead over Republican nominee Andy Biggs (R) following the July 2026 primaries. According to late July 2026 averages, Hobbs leads Biggs by 5 percentage points (44.3% to 39.3%) in RealClearPolling, and holds a 4-point lead (41% to 37%) in the Noble Predictive Insights poll. However, the race is expected to remain highly competitive, as Donald Trump previously carried the state by 5.5 points in 2024.",
-  "as_of_date": "2026-08-02T18:40:26",
+  "lean": "Toss-up",
+  "confidence": 0.65,
+  "basis": "midterm_swing",
+  "reasoning": "Arizona\u2019s statewide Cook Partisan Voting Index is R+2, meaning it has voted about 2 points more Republican than the national average in recent presidential elections, despite currently having a Democratic governor and two Democratic U.S. senators[1][9]. In 2024, Donald Trump carried Arizona for president by 52.2% to 46.7% (a 5.5\u2011point Republican margin), while Democrat Ruben Gallego won the U.S. Senate race 50.1% to 47.7% (a 2.4\u2011point Democratic margin)[9]. Recent 2026 coverage describes Arizona as a swing/battleground state with Republicans holding a modest registration edge but competitive statewide races and no clear consensus among major forecasters on a decisive advantage for either party[5][6][11][16], so with current-cycle signals but no fresh head\u2011to\u2011head polling, the state is best characterized as a genuine toss\u2011up leaning neither clearly D nor R in federal contests.",
+  "as_of_date": "2026-08-03T16:19:12",
   "sources": [
     {
-      "title": "multistate.us",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGVlG6KZ0fvgDAlK2peu57CqrMR-RlJO6RSB-h-PGvhMyNQ5EJuSzRWhZUtTa6-KWmRTKKcRjUoTOI3lplzkIX7gVJtpU4FvRm6Jx_qR07qDFLTJ-94hiL4QaNKCdc-F1ombg==",
-      "domain": "vertexaisearch.cloud.google.com"
+      "title": "https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index",
+      "url": "https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index",
+      "domain": "en.wikipedia.org"
     },
     {
-      "title": "theguardian.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMNAu6UDPo4JtwOYkaxPYMTMWfHF_iAeyILiXSBojaihT-THZTYLcFVMLXtJxIHZMW1ttD9YdDhhDpQLdheZfCPqqivDFNEgiRW1tKC9YuuaCdSItUriKIl50oIRkQ__6s0pFRxxsU3knuuGMDiYOhc6YwNp8qSNZXgOoJP4T1L2fa__uj_my6C8HmNsd_y0_pt52pHqg=",
-      "domain": "vertexaisearch.cloud.google.com"
+      "title": "https://www.ellisinsight.com/house/arizona-primary-preview/",
+      "url": "https://www.ellisinsight.com/house/arizona-primary-preview/",
+      "domain": "ellisinsight.com"
     },
     {
-      "title": "newsweek.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEzkcmMWr9jsnqEgPRxN1XQCUwTwL8LoDYHRTs_BRItpYFW__kW1xwVhqAFcaojRMWrRcejrEId-GvwD7pjCC6VEUJWlh5Z77jQwkdzlpz3eE8_GZpV9FiBlgnEPN4GPp1iTR5k57Xx8ywpTFPi6QxiAlNEivntr6EkAHw3thedtid4xUy0RgXquVQCREDqitKfVgxH6_BrMwqOiVz-DfIa",
-      "domain": "vertexaisearch.cloud.google.com"
+      "title": "https://www.cookpolitical.com/ratings/house-race-ratings",
+      "url": "https://www.cookpolitical.com/ratings/house-race-ratings",
+      "domain": "cookpolitical.com"
+    },
+    {
+      "title": "https://www.nytimes.com/interactive/polls/arizona-us-house-1-polls-2026.html",
+      "url": "https://www.nytimes.com/interactive/polls/arizona-us-house-1-polls-2026.html",
+      "domain": "nytimes.com"
+    },
+    {
+      "title": "https://www.demlist.com/demdaily-arizona-election-results-trump-on-the-ticket/",
+      "url": "https://www.demlist.com/demdaily-arizona-election-results-trump-on-the-ticket/",
+      "domain": "demlist.com"
+    },
+    {
+      "title": "https://www.npr.org/2026/07/21/nx-s1-5901065/midterms-primaries-arizona-elections",
+      "url": "https://www.npr.org/2026/07/21/nx-s1-5901065/midterms-primaries-arizona-elections",
+      "domain": "npr.org"
+    },
+    {
+      "title": "https://vop.org/battlegrounds-arizona/",
+      "url": "https://vop.org/battlegrounds-arizona/",
+      "domain": "vop.org"
+    },
+    {
+      "title": "https://worldpopulationreview.com/state-rankings/political-parties-by-state",
+      "url": "https://worldpopulationreview.com/state-rankings/political-parties-by-state",
+      "domain": "worldpopulationreview.com"
+    },
+    {
+      "title": "https://ig.ft.com/us-elections/2024/results/state/arizona/",
+      "url": "https://ig.ft.com/us-elections/2024/results/state/arizona/",
+      "domain": "ig.ft.com"
+    },
+    {
+      "title": "https://www.usatoday.com/story/news/politics/elections/2026/07/22/arizona-primary-election-results/90943218007/",
+      "url": "https://www.usatoday.com/story/news/politics/elections/2026/07/22/arizona-primary-election-results/90943218007/",
+      "domain": "usatoday.com"
+    },
+    {
+      "title": "https://www.aljazeera.com/news/2026/7/21/arizonas-primary-elections-which-us-races-to-watch-and-why-they-matter",
+      "url": "https://www.aljazeera.com/news/2026/7/21/arizonas-primary-elections-which-us-races-to-watch-and-why-they-matter",
+      "domain": "aljazeera.com"
+    },
+    {
+      "title": "https://www.nytimes.com/2026/07/21/us/elections/arizona-primary-election-what-we-know.html",
+      "url": "https://www.nytimes.com/2026/07/21/us/elections/arizona-primary-election-what-we-know.html",
+      "domain": "nytimes.com"
+    },
+    {
+      "title": "https://azmirror.com/2026/07/24/election-deniers-and-conspiracy-theorists-top-arizonas-republican-nominees-this-year/",
+      "url": "https://azmirror.com/2026/07/24/election-deniers-and-conspiracy-theorists-top-arizonas-republican-nominees-this-year/",
+      "domain": "azmirror.com"
+    },
+    {
+      "title": "https://news.arizona.edu/news/arizonas-growing-political-influence-explained-u-political-scientist",
+      "url": "https://news.arizona.edu/news/arizonas-growing-political-influence-explained-u-political-scientist",
+      "domain": "news.arizona.edu"
+    },
+    {
+      "title": "https://ballotpedia.org/Arizona's_6th_Congressional_District",
+      "url": "https://ballotpedia.org/Arizona's_6th_Congressional_District",
+      "domain": "ballotpedia.org"
+    },
+    {
+      "title": "https://www.foxnews.com/politics/trumps-gop-clout-faces-arizona-test-house-majority-governors-race-stake",
+      "url": "https://www.foxnews.com/politics/trumps-gop-clout-faces-arizona-test-house-majority-governors-race-stake",
+      "domain": "foxnews.com"
+    },
+    {
+      "title": "https://www.kjzz.org/the-show/2026-07-07/the-race-for-arizonas-cd5-has-taken-a-sharp-turn-with-allegations-against-mark-lamb",
+      "url": "https://www.kjzz.org/the-show/2026-07-07/the-race-for-arizonas-cd5-has-taken-a-sharp-turn-with-allegations-against-mark-lamb",
+      "domain": "kjzz.org"
+    },
+    {
+      "title": "https://azcapitoltimes.com/news/2026/07/22/arizona-governors-race-kicks-off-with-battle-over-affordability-bipartisanship/",
+      "url": "https://azcapitoltimes.com/news/2026/07/22/arizona-governors-race-kicks-off-with-battle-over-affordability-bipartisanship/",
+      "domain": "azcapitoltimes.com"
+    },
+    {
+      "title": "https://www.azcleanelections.gov/july-21-2026/maricopa",
+      "url": "https://www.azcleanelections.gov/july-21-2026/maricopa",
+      "domain": "azcleanelections.gov"
+    },
+    {
+      "title": "https://azluminaria.org/2026/07/22/arizona-primary-results-live-updates-on-statewide-local-races/",
+      "url": "https://azluminaria.org/2026/07/22/arizona-primary-results-live-updates-on-statewide-local-races/",
+      "domain": "azluminaria.org"
     }
   ],
+  "current_margin": {
+    "party": "R",
+    "percentage_points": 5.5
+  },
+  "cook_pvi": {
+    "party": "R",
+    "percentage_points": 2.0
+  },
   "abbreviation": "AZ",
-  "_cached_at": "2026-08-02T18:40:26.201705"
+  "_cached_at": "2026-08-03T16:19:12.904927"
 }

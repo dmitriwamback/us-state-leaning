@@ -1,11 +1,120 @@
 {
   "state": "Alabama",
   "lean": "R",
-  "confidence": 0.9,
+  "confidence": 0.8,
   "basis": "historical_baseline",
-  "reasoning": "Republican Barry Moore and Democrat Everett Wess are the nominees for the open 2026 U.S. Senate seat, but no head-to-head matchup polling has been published. Under the historical baseline, Alabama is a safe Republican state, evidenced by Donald Trump winning it by 30.6 percentage points in 2024 and Tommy Tuberville taking the 2020 Senate race by 20.4 points.",
-  "as_of_date": "2026-08-02T18:39:00",
-  "sources": [],
+  "reasoning": "Cook Political Report\u2019s statewide Partisan Voting Index rates Alabama at R+15, indicating the state has voted about 15 points more Republican than the national average in recent presidential elections[1][8][9]. With no recent, head\u2011to\u2011head federal polling or updated Senate/GOP primary results available within the last 45 days for the 2026 federal races[10][13][18], the best quantitative baseline is the 2020 presidential result, where the Republican candidate carried Alabama by roughly 62.0% to 41.8%, a margin of about 20.2 points[9]. Given that lopsided recent history, unified Republican control of statewide offices, and the absence of credible evidence of a major realignment, Alabama currently leans strongly Republican for federal elections, though individual races (such as the more competitive AL\u20112 House district[5]) can be less lopsided than the statewide baseline.",
+  "as_of_date": "2026-08-03T16:19:01",
+  "sources": [
+    {
+      "title": "https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index",
+      "url": "https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index",
+      "domain": "en.wikipedia.org"
+    },
+    {
+      "title": "https://www.nytimes.com/interactive/polls/alabama-us-house-2-polls-2026.html",
+      "url": "https://www.nytimes.com/interactive/polls/alabama-us-house-2-polls-2026.html",
+      "domain": "nytimes.com"
+    },
+    {
+      "title": "https://worldpopulationreview.com/state-rankings/political-parties-by-state",
+      "url": "https://worldpopulationreview.com/state-rankings/political-parties-by-state",
+      "domain": "worldpopulationreview.com"
+    },
+    {
+      "title": "https://worldpopulationreview.com/state-rankings/most-democratic-states",
+      "url": "https://worldpopulationreview.com/state-rankings/most-democratic-states",
+      "domain": "worldpopulationreview.com"
+    },
+    {
+      "title": "https://www.alreporter.com/2026/07/15/can-shomari-figures-win-reelection-after-redistricting/",
+      "url": "https://www.alreporter.com/2026/07/15/can-shomari-figures-win-reelection-after-redistricting/",
+      "domain": "alreporter.com"
+    },
+    {
+      "title": "https://www.cookpolitical.com/pvi-map-and-district-list",
+      "url": "https://www.cookpolitical.com/pvi-map-and-district-list",
+      "domain": "cookpolitical.com"
+    },
+    {
+      "title": "https://algop.org/",
+      "url": "https://algop.org/",
+      "domain": "algop.org"
+    },
+    {
+      "title": "https://worldpopulationreview.com/state-rankings/red-states",
+      "url": "https://worldpopulationreview.com/state-rankings/red-states",
+      "domain": "worldpopulationreview.com"
+    },
+    {
+      "title": "https://conservativemove.com/conservative-states/",
+      "url": "https://conservativemove.com/conservative-states/",
+      "domain": "conservativemove.com"
+    },
+    {
+      "title": "https://almanacofamericanpolitics.substack.com/p/the-senate-state-of-play-an-updated-fb2",
+      "url": "https://almanacofamericanpolitics.substack.com/p/the-senate-state-of-play-an-updated-fb2",
+      "domain": "almanacofamericanpolitics.substack.com"
+    },
+    {
+      "title": "https://alison.legislature.state.al.us/senate-leaders-members?tab=1",
+      "url": "https://alison.legislature.state.al.us/senate-leaders-members?tab=1",
+      "domain": "alison.legislature.state.al.us"
+    },
+    {
+      "title": "https://www.al.com/news/2026/07/alabama-republicans-compete-in-bid-to-flip-democratic-congressional-seat.html",
+      "url": "https://www.al.com/news/2026/07/alabama-republicans-compete-in-bid-to-flip-democratic-congressional-seat.html",
+      "domain": "al.com"
+    },
+    {
+      "title": "https://apps.npr.org/primary-election-results-2026/states/AL.html",
+      "url": "https://apps.npr.org/primary-election-results-2026/states/AL.html",
+      "domain": "apps.npr.org"
+    },
+    {
+      "title": "https://www.pewresearch.org/chart/political-party-affiliation-among-u-s-adults/",
+      "url": "https://www.pewresearch.org/chart/political-party-affiliation-among-u-s-adults/",
+      "domain": "pewresearch.org"
+    },
+    {
+      "title": "https://www.pewresearch.org/politics/fact-sheet/party-affiliation-fact-sheet-npors/",
+      "url": "https://www.pewresearch.org/politics/fact-sheet/party-affiliation-fact-sheet-npors/",
+      "domain": "pewresearch.org"
+    },
+    {
+      "title": "https://www.pewresearch.org/politics/2026/07/23/midterm-voting-preferences-by-race-and-ethnicity-age-and-other-demographics/",
+      "url": "https://www.pewresearch.org/politics/2026/07/23/midterm-voting-preferences-by-race-and-ethnicity-age-and-other-demographics/",
+      "domain": "pewresearch.org"
+    },
+    {
+      "title": "https://alabamareflector.com/2026/07/27/alabama-republicans-seem-to-be-making-unforced-errors/",
+      "url": "https://alabamareflector.com/2026/07/27/alabama-republicans-seem-to-be-making-unforced-errors/",
+      "domain": "alabamareflector.com"
+    },
+    {
+      "title": "https://alabamareflector.com/2026/07/06/spending-in-alabama-primary-elections-exceeds-40-million/",
+      "url": "https://alabamareflector.com/2026/07/06/spending-in-alabama-primary-elections-exceeds-40-million/",
+      "domain": "alabamareflector.com"
+    },
+    {
+      "title": "https://redistrictingdatahub.org/state/alabama/",
+      "url": "https://redistrictingdatahub.org/state/alabama/",
+      "domain": "redistrictingdatahub.org"
+    },
+    {
+      "title": "https://electionlawblog.org/?cat=1",
+      "url": "https://electionlawblog.org/?cat=1",
+      "domain": "electionlawblog.org"
+    }
+  ],
+  "current_margin": {
+    "party": "R",
+    "percentage_points": 20.2
+  },
+  "cook_pvi": {
+    "party": "R",
+    "percentage_points": 15.0
+  },
   "abbreviation": "AL",
-  "_cached_at": "2026-08-02T18:39:00.438003"
+  "_cached_at": "2026-08-03T16:19:01.674303"
 }
