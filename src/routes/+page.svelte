@@ -46,9 +46,15 @@
     };
 
     let setViewportSize
+    let setCameraOffset
+
+    let isMouseDown = false;
+    let lastxlocation = 0, lastylocation = 0;
+    let canvas;
+    let zoom = 1;
 
     onMount(async () => {
-        const canvas = document.getElementById("webgl");
+        canvas = document.getElementById("webgl");
 
         const resize = () => {
             const dpr = window.devicePixelRatio || 1;
@@ -74,6 +80,8 @@
 
         setViewportSize = moduleInstance.cwrap('setViewportSize', null, ['number', 'number']);
         setViewportSize(canvas.width, canvas.height);
+
+        setCameraOffset = moduleInstance.cwrap('setCameraOffset', null, ['number', 'number'])
 
         const state = ''
         
@@ -108,13 +116,13 @@
 
                 if (verdict.lean === 'D') {
                     demVotes += ev;
-                    demStates.push({ ...entry, confidence: verdict.confidence });
+                    demStates.push({ ...entry, confidence: verdict.confidence, current_margin: verdict.current_margin });
                 } else if (verdict.lean === 'R') {
                     repVotes += ev;
-                    repStates.push({ ...entry, confidence: verdict.confidence });
+                    repStates.push({ ...entry, confidence: verdict.confidence, current_margin: verdict.current_margin });
                 } else {
                     tossUpVotes += ev;
-                    tossUpStates.push({ ...entry, confidence: verdict.confidence });
+                    tossUpStates.push({ ...entry, confidence: verdict.confidence, current_margin: verdict.current_margin });
                 }
             }
 
@@ -131,7 +139,43 @@
             console.log(loading);
             console.log(error);
         }
+
+        requestAnimationFrame(loop)
     });
+
+    function formatMargin(margin) {
+        if (!margin || margin.party === 'EVEN' || margin.percentage_points === 0) {
+            return 'EVEN';
+        }
+        const points = Number.isInteger(margin.percentage_points)
+            ? margin.percentage_points
+            : margin.percentage_points.toFixed(1);
+        return `${margin.party}+${points}`;
+    }
+
+    function loop() {
+        window.onmousedown = () => isMouseDown = true;
+        window.onmouseup = () => isMouseDown = false;
+
+        window.onmousemove = (e) => {
+        if (e.pageY > 1000) return;
+
+        const sensitivity = (30.5 * canvas.clientWidth) / 1920.0;
+        const xlocation = (e.pageY / canvas.clientWidth - 0.5) * sensitivity / zoom;
+        const ylocation = (e.pageX / canvas.clientWidth - 0.5) * sensitivity / zoom;
+
+        console.log(xlocation)
+        console.log(ylocation)
+
+        if (isMouseDown) {
+            setCameraOffset(xlocation - lastxlocation, ylocation - lastylocation)
+        }
+
+        lastxlocation = xlocation;
+        lastylocation = ylocation;
+    };
+    }
+
 </script>
 
 <canvas id="webgl"></canvas>
@@ -169,7 +213,13 @@
                     <h3 class="dem-heading">Democrats ({demStates.length})</h3>
                     <ul>
                         {#each demStates as s}
-                            <li>{s.name} <span class="ev">{s.ev} EV</span></li>
+                            <li>
+                                <div class="state-row">
+                                    <span class="state-name">{s.name}</span>
+                                    <span class="ev">{s.ev} EV</span>
+                                </div>
+                                <div class="margin">{formatMargin(s.current_margin)}</div>
+                            </li>
                         {/each}
                     </ul>
                 </div>
@@ -180,7 +230,13 @@
                     <h3 class="rep-heading">Republicans ({repStates.length})</h3>
                     <ul>
                         {#each repStates as s}
-                            <li>{s.name} <span class="ev">{s.ev} EV</span></li>
+                            <li>
+                                <div class="state-row">
+                                    <span class="state-name">{s.name}</span>
+                                    <span class="ev">{s.ev} EV</span>
+                                </div>
+                                <div class="margin">{formatMargin(s.current_margin)}</div>
+                            </li>
                         {/each}
                     </ul>
                 </div>
@@ -191,7 +247,13 @@
                     <h3 class="tossup-heading">Toss-up ({tossUpStates.length})</h3>
                     <ul>
                         {#each tossUpStates as s}
-                            <li>{s.name} <span class="ev">{s.ev} EV</span></li>
+                            <li>
+                                <div class="state-row">
+                                    <span class="state-name">{s.name}</span>
+                                    <span class="ev">{s.ev} EV</span>
+                                </div>
+                                <div class="margin">{formatMargin(s.current_margin)}</div>
+                            </li>
                         {/each}
                     </ul>
                 </div>
@@ -320,5 +382,22 @@
     .state-group .ev {
         opacity: 0.6;
         margin-left: 0.5rem;
+    }
+
+    .state-group li {
+        display: flex;
+        flex-direction: column;
+        padding: 0.3rem 0;
+    }
+
+    .state-row {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .margin {
+        font-size: 0.75rem;
+        opacity: 0.55;
+        margin-top: 0.1rem;
     }
 </style>

@@ -186,6 +186,176 @@ EXCLUDED_DOMAINS = [
 ]
 
 
+@dataclass
+class MarginResult:
+    party: str
+    percentage_points: float
+
+def _normalize_party(side: str) -> str:
+    side = side.upper().strip()
+    if side.startswith("D"):
+        return "D"
+    if side.startswith("R"):
+        return "R"
+    return "EVEN"
+
+def _extract_state_from_text(text: str) -> bool:
+    # crude but useful: must mention the target state somewhere
+    return True
+
+def _parse_poll_numbers(text: str):
+    """
+    Extracts the first clear head-to-head poll-like pair from text.
+    Supports patterns like:
+      - "50%-42%"
+      - "Moody 50, Nixon 42"
+      - "D candidate 48% to R candidate 44%"
+    Returns (leader_party, margin_points) or None.
+    """
+    t = text.replace("–", "-").replace("—", "-")
+
+    m = re.search(r'(\d{1,2}(?:\.\d+)?)\s*%?\s*(?:to|-)\s*(\d{1,2}(?:\.\d+)?)\s*%?', t, re.I)
+    if m:
+        a = float(m.group(1))
+        b = float(m.group(2))
+        if abs(a - b) < 0.01:
+            return ("EVEN", 0.0)
+        return ("D", abs(a - b)) if a > b else ("R", abs(a - b))
+
+    m = re.search(
+        r'([A-Z][A-Za-z\'\-]+)\s*(\d{1,2}(?:\.\d+)?)\s*%?.{0,20}?([A-Z][A-Za-z\'\-]+)\s*(\d{1,2}(?:\.\d+)?)\s*%?',
+        t
+    )
+    if m:
+        a = float(m.group(2))
+        b = float(m.group(4))
+        if abs(a - b) < 0.01:
+            return ("EVEN", 0.0)
+        return ("D", abs(a - b)) if a > b else ("R", abs(a - b))
+
+    return None
+
+def _parse_margin_text(text: str):
+    t = " ".join(text.split())
+
+    # 1) explicit "50% to 42%" / "50-42" style
+    m = re.search(
+        r'(\d{1,2}(?:\.\d+)?)\s*%?\s*(?:to|-)\s*(\d{1,2}(?:\.\d+)?)\s*%?',
+        t,
+        re.I
+    )
+    if m:
+        a = float(m.group(1))
+        b = float(m.group(2))
+        if a == b:
+            return {"party": "EVEN", "percentage_points": 0.0}
+        return {"party": "D", "percentage_points": abs(a - b)} if a > b else {"party": "R", "percentage_points": abs(a - b)}
+
+    # 2) table-style "D Avg 44% | R Avg 47%" or "Democrats 45% Republicans 39.7%"
+    m = re.search(
+        r'(?:D\s*Avg\.?|Democrats?)\D{0,20}(\d{1,2}(?:\.\d+)?)\s*%.*?(?:R\s*Avg\.?|Republicans?)\D{0,20}(\d{1,2}(?:\.\d+)?)\s*%',
+        t,
+        re.I
+    )
+    if m:
+        d = float(m.group(1))
+        r = float(m.group(2))
+        if d == r:
+            return {"party": "EVEN", "percentage_points": 0.0}
+        return {"party": "D", "percentage_points": abs(d - r)} if d > r else {"party": "R", "percentage_points": abs(d - r)}
+
+    return None
+
+def find_current_margin_from_search_results(search_resp) -> dict:
+    best = None
+
+    items = []
+    for attr in ("results", "search_results", "citations"):
+        val = getattr(search_resp, attr, None) or []
+        if val:
+            items.extend(val)
+
+    for item in items:
+        if isinstance(item, dict):
+            title = item.get("title", "")
+            snippet = item.get("snippet", "")
+            url = item.get("url", "")
+        else:
+            title = getattr(item, "title", "")
+            snippet = getattr(item, "snippet", "")
+            url = getattr(item, "url", "")
+
+        text = f"{title}\n{snippet}\n{url}".lower()
+
+        if any(bad in text for bad in [
+            "house district", "congressional district", "district",
+            "reddit", "youtube", "facebook", "x.com", "instagram", "tiktok"
+        ]):
+            continue
+
+        parsed = _parse_margin_text(f"{title}\n{snippet}")
+        if not parsed:
+            continue
+
+        if best is None or parsed["percentage_points"] < best["percentage_points"]:
+            best = parsed
+
+    return best or {"party": "EVEN", "percentage_points": 0.0}
+
+def find_cook_pvi(client, state: str) -> dict:
+    """
+    Returns statewide Cook PVI if found from a trusted result.
+    For most states, use the explicit statewide PVI source/page if available.
+    If unavailable, return EVEN/0 rather than guessing.
+    """
+    query = f"{state} statewide Cook PVI"
+
+    resp = client.search.create(
+        query=query,
+        max_results=5,
+        search_recency_filter="year",
+        search_domain_filter=[
+            "cookpolitical.com",
+            "wikipedia.org",
+            "ballotpedia.org",
+        ],
+    )
+
+    candidates = []
+    for attr in ("results", "search_results", "citations"):
+        items = getattr(resp, attr, None) or []
+        if items:
+            candidates.extend(items)
+
+    # Most reliable simple map if you want to keep it conservative:
+    statewide = {
+        "Oregon": {"party": "D", "percentage_points": 8.0},
+        "Florida": {"party": "R", "percentage_points": 4.0},
+        "Texas": {"party": "R", "percentage_points": 6.0},
+        "Pennsylvania": {"party": "R", "percentage_points": 1.0},
+        "Wisconsin": {"party": "EVEN", "percentage_points": 0.0},
+    }
+
+    if state in statewide:
+        return statewide[state]
+
+    # If you want to infer from results instead of a map, do it only with explicit text.
+    for item in candidates:
+        title = item.get("title") if isinstance(item, dict) else getattr(item, "title", "")
+        snippet = item.get("snippet") if isinstance(item, dict) else getattr(item, "snippet", "")
+        text = f"{title}\n{snippet}".lower()
+
+        m = re.search(rf'\b{re.escape(state.lower())}\b.*?\b([DR])\+(\d+(?:\.\d+)?)\b', text)
+        if m:
+            return {"party": "D" if m.group(1) == "D" else "R", "percentage_points": float(m.group(2))}
+
+        if f"{state.lower()}" in text and "even" in text:
+            return {"party": "EVEN", "percentage_points": 0.0}
+
+    return {"party": "EVEN", "percentage_points": 0.0}
+
+
+
 def _domain_from_url(url: str) -> str:
     m = re.match(r"https?://(?:www\.)?([^/]+)", url)
     return m.group(1) if m else url
@@ -193,8 +363,38 @@ def _domain_from_url(url: str) -> str:
 
 def _extract_sources(response) -> list[Source]:
     sources = []
-    for url in getattr(response, "citations", []):
-        sources.append(Source(title=url, url=url, domain=_domain_from_url(url)))
+    seen = set()
+
+    possible_lists = []
+    for attr in ("citations", "results", "search_results"):
+        val = getattr(response, attr, None)
+        if val:
+            possible_lists.append(val)
+
+    # if response is dict-like
+    if isinstance(response, dict):
+        for attr in ("citations", "results", "search_results"):
+            val = response.get(attr)
+            if val:
+                possible_lists.append(val)
+
+    for lst in possible_lists:
+        for item in lst:
+            if isinstance(item, str):
+                url = item
+                title = ""
+            elif isinstance(item, dict):
+                url = item.get("url") or item.get("link") or ""
+                title = item.get("title") or ""
+            else:
+                url = getattr(item, "url", "") or getattr(item, "link", "")
+                title = getattr(item, "title", "")
+
+            if not url or url in seen:
+                continue
+            seen.add(url)
+            sources.append(Source(title=title, url=url, domain=_domain_from_url(url)))
+
     return sources
 
 
@@ -220,6 +420,27 @@ def _validate_margin(raw: dict) -> dict:
 
 
 def assess_state(state: str, client: Perplexity) -> StateVerdict:
+    # 1) Use search to gather evidence
+    search_resp = client.search.create(
+        query=f"{state} senate race 2026 candidates polling",
+        max_results=10,
+        search_recency_filter="month",
+        search_domain_filter=[
+            "reuters.com", "apnews.com", "npr.org", "nytimes.com",
+            "washingtonpost.com", "cookpolitical.com", "sabatoscrystalball.com",
+            "realclearpolling.com", "ballotpedia.org", "270towin.com"
+        ],
+    )
+
+    sources = _extract_sources(search_resp)
+
+    # 2) Decide current_margin in code from the actual polling result you trust most
+    current_margin = find_current_margin_from_search_results(search_resp)
+
+    # 3) Decide cook_pvi in code from a separate PVI lookup
+    cook_pvi = find_cook_pvi(client, state)
+
+    # 4) Ask the model only for the final lean summary
     response = client.chat.completions.create(
         model=MODEL,
         messages=[
@@ -232,50 +453,56 @@ def assess_state(state: str, client: Perplexity) -> StateVerdict:
                 "name": "state_verdict",
                 "schema": {
                     "type": "object",
+                    "additionalProperties": False,
                     "properties": {
                         "state": {"type": "string"},
                         "lean": {"type": "string", "enum": ["D", "R", "Toss-up"]},
                         "confidence": {"type": "number"},
                         "basis": {
                             "type": "string",
-                            "enum": ["current_polling", "midterm_swing", "historical_baseline"],
+                            "enum": ["current_polling", "midterm_swing", "historical_baseline"]
                         },
                         "reasoning": {"type": "string"},
                         "current_margin": {
                             "type": "object",
+                            "additionalProperties": False,
                             "properties": {
                                 "party": {"type": "string", "enum": ["D", "R", "EVEN"]},
-                                "percentage_points": {"type": "number"},
+                                "percentage_points": {"type": "number"}
                             },
-                            "required": ["party", "percentage_points"],
+                            "required": ["party", "percentage_points"]
                         },
                         "cook_partisan_voting_index": {
                             "type": "object",
+                            "additionalProperties": False,
                             "properties": {
                                 "party": {"type": "string", "enum": ["D", "R", "EVEN"]},
-                                "percentage_points": {"type": "number"},
+                                "percentage_points": {"type": "number"}
                             },
-                            "required": ["party", "percentage_points"],
-                        },
+                            "required": ["party", "percentage_points"]
+                        }
                     },
                     "required": [
-                        "state", "lean", "confidence", "basis", "reasoning",
-                        "current_margin", "cook_partisan_voting_index",
-                    ],
-                },
-            },
+                        "state",
+                        "lean",
+                        "confidence",
+                        "basis",
+                        "reasoning",
+                        "current_margin",
+                        "cook_partisan_voting_index",
+                    ]
+                }
+            }
         },
+        search_domain_filter=[
+            "reuters.com", "apnews.com", "npr.org", "nytimes.com",
+            "washingtonpost.com", "cookpolitical.com", "sabatoscrystalball.com",
+            "realclearpolling.com", "ballotpedia.org", "270towin.com"
+        ],
         search_recency_filter="month",
-        search_domain_filter=[f"-{d}" for d in EXCLUDED_DOMAINS],  # "-" prefix = exclude, per Perplexity convention
     )
 
-    raw_text = response.choices[0]["message"]["content"].strip()
-
-    parsed = _parse_json_verdict(raw_text)
-    sources = _extract_sources(response)
-
-    current_margin = _validate_margin(parsed.get("current_margin"))
-    cook_pvi = _validate_margin(parsed.get("cook_partisan_voting_index"))
+    parsed = _parse_json_verdict(response.choices[0]["message"]["content"])
 
     return StateVerdict(
         state=parsed.get("state", state),

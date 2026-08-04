@@ -61,6 +61,8 @@ std::map<std::string, StateModel> stateGeometry;
 int canvasWidth = 1920;
 int canvasHeight = 974;
 
+float cameraOffsetY, cameraOffsetZ;
+
 extern "C" {
 
 EMSCRIPTEN_KEEPALIVE
@@ -83,16 +85,22 @@ void setViewportSize(int width, int height) {
     glViewport(0, 0, width, height);
 }
 
+EMSCRIPTEN_KEEPALIVE
+void setCameraOffset(float y, float z) {
+    cameraOffsetY += y;
+    cameraOffsetZ += z;
 }
 
-float dist = 20.0f;
+}
+
+float dist = 15.0f;
 float t = 0.0f;
 
 EM_BOOL render_frame(double time, void *userData) {
     glClearColor(16.0f/255.0f, 24.0f/255.0f, 29.0f/255.0f, 1.0f);
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
-    Mat4 view = Mat4::lookAt(Vec3{dist * cos(-t), 0, dist * sin(-t)}, Vec3{0, 0, 0}, Vec3{0, 1, 0});
+    Mat4 view = Mat4::lookAt(Vec3{dist * cos(-t), cameraOffsetY, dist * sin(-t) + cameraOffsetZ}, Vec3{0, cameraOffsetY, cameraOffsetZ}, Vec3{0, 1, 0});
 
     float aspect = (float)canvasWidth / (float)canvasHeight;
 
