@@ -1,0 +1,106 @@
+{
+  "state": "Maine",
+  "mode": "senate_presidential_polling",
+  "lean": "D",
+  "confidence": 0.956,
+  "strength_label": "Tilt",
+  "net_margin": 9.9,
+  "reasoning": "Recent high\u2011quality public polling and aggregation show a very tight Maine Senate race with a small but consistent Democratic edge, though still within typical margins of error and with structural fundamentals that favor Republicans down\u2011ballot less than at the federal level overall. The latest individual polls (UNH and Hart Research) have Troy Jackson up between 3 and 4 points over Susan Collins, while a broader polling average and forecast still show Collins narrowly ahead, so the most reasonable current characterization is a race hovering around EVEN to D+2.\n\nCook Political Report\u2019s statewide Partisan Voting Index rates Maine as D+2, indicating a slight Democratic lean relative to the nation in recent presidential voting, but not a strongly partisan state structurally. Combining this structural backdrop with recent polling, the race environment currently appears slightly more favorable to Democrats than the topline forecast suggests, yet remains highly competitive and subject to change as the campaign progresses.",
+  "as_of_date": "2026-08-06T09:23:14",
+  "cook_pvi": {
+    "party": "D",
+    "percentage_points": 2.0
+  },
+  "sources": [
+    {
+      "name": "PollsMax",
+      "link": "https://www.pollsmax.com/senate/maine/",
+      "race_type": "senate",
+      "party": "R",
+      "margin": 0.5,
+      "details": "PollsMax\u2019s 2026 Maine Senate polling average for Graham Platner (D) vs. Susan Collins (R) shows Collins leading 47.3% to 46.8%, a Republican advantage of 0.5 percentage points, based on 25 polls.",
+      "date_range": "Through July 6, 2026 (polls up to late June/early July)",
+      "domain": "pollsmax.com",
+      "verified": true
+    },
+    {
+      "name": "Portland Press Herald (reporting UNH Survey Center poll)",
+      "link": "https://www.pressherald.com/2026/07/21/troy-jackson-has-slight-edge-over-susan-collins-new-poll-finds/",
+      "race_type": "senate",
+      "party": "D",
+      "margin": 3.0,
+      "details": "A University of New Hampshire Pine Tree State Poll of 1,236 respondents finds Troy Jackson (D) leading Susan Collins (R) 49% to 46% among likely voters, a Democratic edge of 3 points, described as a statistical tie given a \u00b12.8% margin of error.",
+      "date_range": "July 15-20, 2026",
+      "domain": "pressherald.com",
+      "verified": true
+    },
+    {
+      "name": "Bangor Daily News (reporting UNH Survey Center poll)",
+      "link": "https://www.bangordailynews.com/2026/07/21/politics/elections/poll-troy-jackson-vis-susan-collins/",
+      "race_type": "senate",
+      "party": "D",
+      "margin": 3.0,
+      "details": "Bangor Daily News coverage of the same UNH Survey Center poll reports Jackson at 49% and Collins at 46%, with 2% for another candidate and 3% undecided, a Democratic lead of 3 points in a hypothetical November matchup.",
+      "date_range": "July 15-20, 2026",
+      "domain": "bangordailynews.com",
+      "verified": true
+    },
+    {
+      "name": "University of New Hampshire Survey Center",
+      "link": "https://scholars.unh.edu/survey_center_polls/981/",
+      "race_type": "senate",
+      "party": "D",
+      "margin": 3.0,
+      "details": "UNH Survey Center\u2019s own release characterizes the Jackson\u2013Collins matchup as statistically tied in November, consistent with a narrow Jackson lead within the margin of error.",
+      "date_range": "July 15-20, 2026",
+      "domain": "scholars.unh.edu",
+      "verified": true
+    },
+    {
+      "name": "The Hill (reporting statewide NOTUS/Hart-style survey)",
+      "link": "https://www.thehill.com/homenews/campaign/5961588-potential-platner-replacements-neck-in-neck-with-susan-collins-in-new-maine-senate-poll/",
+      "race_type": "senate",
+      "party": "EVEN",
+      "margin": 1.0,
+      "details": "A statewide poll reported by The Hill, first covered by NOTUS, tests several potential Democratic replacements for Platner; Troy Jackson is described as the top contender and in various matchups either leads Collins narrowly, ties her, or trails by 1 point, with all results within the margin of error and overall showing a neck\u2011and\u2011neck race.",
+      "date_range": "Late July 2026 (exact field dates not fully specified, margin of error \u00b13.1%)",
+      "domain": "thehill.com",
+      "verified": false
+    },
+    {
+      "name": "Bangor Daily News (reporting Hart Research poll)",
+      "link": "https://www.bangordailynews.com/2026/08/06/politics/elections/new-poll-tougher-environment-for-susan-collins/",
+      "race_type": "senate",
+      "party": "D",
+      "margin": 4.0,
+      "details": "A Hart Research poll reported by Bangor Daily News shows Troy Jackson leading Susan Collins 49% to 45%, a Democratic advantage of 4 points, described as a tight race but in a tougher environment for Collins than previous cycles.",
+      "date_range": "Late July 2026 (post\u2011UNH poll, precise dates not listed, MoE \u00b13.5%)",
+      "domain": "bangordailynews.com",
+      "verified": true
+    },
+    {
+      "name": "YouTube election forecast channel (using aggregated polls)",
+      "link": "https://www.youtube.com/watch?v=do5b5lQgaQ0",
+      "race_type": "senate",
+      "party": "R",
+      "margin": 2.6,
+      "details": "A recent video forecast summarizing Maine Senate polls and modeling projects Susan Collins at 51.3% and Troy Jackson at 48.7%, a Republican lead of 2.6 points, with a separate polling average showing Collins ahead 48.4% to 45.5%, suggesting a modest but non\u2011insurmountable Republican advantage.",
+      "date_range": "Updated through late July 2026 (based on latest public and private polling)",
+      "domain": "youtube.com",
+      "verified": true
+    },
+    {
+      "name": "Cook Political Report \u2013 Partisan Voting Index",
+      "link": "https://www.cookpolitical.com/pvi",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 0.0,
+      "details": "Cook Political Report\u2019s Partisan Voting Index rates Maine as D+2 statewide, indicating that in recent presidential elections Maine has voted about two percentage points more Democratic than the national average.",
+      "date_range": "2024 cycle baseline (structural index, not a current poll)",
+      "domain": "cookpolitical.com",
+      "verified": false
+    }
+  ],
+  "abbreviation": "ME",
+  "_cached_at": "2026-08-06T09:23:14.909823"
+}

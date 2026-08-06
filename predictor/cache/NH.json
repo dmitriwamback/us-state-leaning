@@ -1,0 +1,95 @@
+{
+  "state": "New Hampshire",
+  "mode": "senate_presidential_polling",
+  "lean": "D",
+  "confidence": 1.0,
+  "strength_label": "Strong",
+  "net_margin": 20.4,
+  "reasoning": "Recent, reputable polling and forecast data for New Hampshire\u2019s 2026 Senate race consistently show Democrat Chris Pappas holding a mid\u2011single\u2011digit lead over Republican John Sununu, with multiple polls in June and July indicating a margin in the D+3 to D+7 range and an aggregated polling average around D+5\u20136.[1][2][3][9][11][12] There is no new general\u2011election presidential polling for New Hampshire in the last 45 days from major outlets, so the best current quantified margin applies to the Senate race, which can reasonably be characterized as approximately **D+5** at the moment.[1][2][3][9][11][12] New Hampshire\u2019s statewide Cook Partisan Voting Index is **D+1**, indicating only a slight structural Democratic lean.[1]",
+  "as_of_date": "2026-08-06T09:25:16",
+  "cook_pvi": {
+    "party": "D",
+    "percentage_points": 1.0
+  },
+  "sources": [
+    {
+      "name": "UNH Survey Center via Eciks.org summary",
+      "link": "https://eciks.org/12913-74170-new-hampshire-senate-pappas-sununu-polling",
+      "race_type": "senate",
+      "party": "D",
+      "margin": 3.0,
+      "details": "University of New Hampshire Survey Center poll found Chris Pappas leading John Sununu 47% to 44% in the New Hampshire Senate race, a D+3 margin in a statistical tie.",
+      "date_range": "June 18-23, 2026",
+      "domain": "eciks.org",
+      "verified": true
+    },
+    {
+      "name": "Peak Insights poll via NRSC release",
+      "link": "https://www.nrsc.org/press-releases/john-sununu-tied-with-chris-pappas-in-new-nrsc-poll-2026-07-10/",
+      "race_type": "senate",
+      "party": "D",
+      "margin": 1.0,
+      "details": "NRSC\u2011released Peak Insights poll showed Pappas at 43% and Sununu at 42%, a D+1 margin within the margin of error, indicating a nearly tied Senate race.",
+      "date_range": "June 24-27, 2026",
+      "domain": "nrsc.org",
+      "verified": true
+    },
+    {
+      "name": "PollsMax New Hampshire 2026 Senate Forecast",
+      "link": "https://www.pollsmax.com/senate/new-hampshire/forecast/",
+      "race_type": "senate",
+      "party": "D",
+      "margin": 5.4,
+      "details": "State-specific polling aggregation for the New Hampshire Senate race reports a polling average of 47.3% for the Democrat and 41.9% for the Republican, a D+5.4 margin.",
+      "date_range": "Polls through late June 2026 (latest UNH April 21, but average maintained through June 30, 2026)",
+      "domain": "pollsmax.com",
+      "verified": true
+    },
+    {
+      "name": "Akashic New Hampshire U.S. Senate 2026 forecast",
+      "link": "https://akashic.app/forecast/senate/NH/",
+      "race_type": "senate",
+      "party": "D",
+      "margin": 2.5,
+      "details": "Forecast model using recent public polls (Saint Anselm D+3, Emerson D+2) gives Democrats an 83% chance to win the New Hampshire Senate race, implying a modest but consistent Democratic edge.",
+      "date_range": "March 16-18 and March 21-23, 2026 (public polling basis for current forecast, last updated June 30, 2026)",
+      "domain": "akashic.app",
+      "verified": true
+    },
+    {
+      "name": "NH Political Report polling average (compiling UNH, Emerson, Saint Anselm)",
+      "link": "https://nh-political-report.beehiiv.com/p/nh-political-report-8e70",
+      "race_type": "senate",
+      "party": "D",
+      "margin": 5.5,
+      "details": "State political newsletter\u2019s polling average for the Pappas\u2013Sununu Senate general election shows Pappas at 47.2% and Sununu at 41.7%, a D+5.5 margin.",
+      "date_range": "Through late June 2026 (citing UNH, Emerson, Saint Anselm polls)",
+      "domain": "nh-political-report.beehiiv.com",
+      "verified": true
+    },
+    {
+      "name": "Granite Post News summary of UNH June election poll",
+      "link": "https://granitepostnews.com/news/politics/trump-ayotte-sununu-unh-poll/",
+      "race_type": "senate",
+      "party": "D",
+      "margin": 3.0,
+      "details": "UNH election polling reported Chris Pappas leading Sununu by 3 points in the open U.S. Senate race, reinforcing a small but persistent Democratic advantage.",
+      "date_range": "June 2026 (UNH election polling)",
+      "domain": "granitepostnews.com",
+      "verified": true
+    },
+    {
+      "name": "Cook Political Report (via Eciks.org summary)",
+      "link": "https://eciks.org/12913-74170-new-hampshire-senate-pappas-sununu-polling",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 0.0,
+      "details": "Cook Political Report rates the 2026 New Hampshire Senate contest as \"Lean D,\" indicating a slight Democratic advantage in the state\u2019s Senate environment.",
+      "date_range": "Structural rating as of mid-2026 cycle",
+      "domain": "eciks.org",
+      "verified": true
+    }
+  ],
+  "abbreviation": "NH",
+  "_cached_at": "2026-08-06T09:25:16.457203"
+}

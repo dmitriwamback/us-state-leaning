@@ -1,0 +1,29 @@
+{
+  "state": "New York",
+  "mode": "senate_presidential_polling",
+  "lean": "D",
+  "confidence": 1.0,
+  "strength_label": "Strong",
+  "net_margin": 25.0,
+  "reasoning": "New York\u2019s statewide PVI is strongly Democratic, and the recent search results did not surface any high-quality Senate or presidential general-election polling for New York in the last 45 days. The available results were either about other states, non-general-election contexts, or unrelated races, so there is no reliable current NY Senate or presidential margin to report from the permitted sources.",
+  "as_of_date": "2026-08-06T09:25:30",
+  "cook_pvi": {
+    "party": "D",
+    "percentage_points": 25.0
+  },
+  "sources": [
+    {
+      "name": "Cook Partisan Voting Index",
+      "link": "https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 25.0,
+      "details": "New York is rated as a strongly Democratic state on the Cook-style partisan baseline, which is reflected here as a D+25 structural index estimate.",
+      "date_range": "Structural/statewide metric (current Cook rating context)",
+      "domain": "en.wikipedia.org",
+      "verified": false
+    }
+  ],
+  "abbreviation": "NY",
+  "_cached_at": "2026-08-06T09:25:30.793296"
+}

@@ -1,0 +1,62 @@
+{
+  "state": "Hawaii",
+  "mode": "senate_presidential_polling",
+  "lean": "D",
+  "confidence": 1.0,
+  "strength_label": "Lean",
+  "net_margin": 14.0,
+  "reasoning": "There are no reputable public polls or forecast updates specific to a 2026 Hawaii Senate or presidential race within the last 45 days; recent coverage focuses on House primaries and legislative races rather than statewide federal contests.[5][8][12] Given Hawaii\u2019s strong Democratic lean (D+14 PVI) and the absence of credible evidence of competitive statewide federal races, the structural margin for both Senate and presidential contests in Hawaii should be understood as solidly Democratic, with no current polling indicating a close race.[5]",
+  "as_of_date": "2026-08-06T09:21:14",
+  "cook_pvi": {
+    "party": "D",
+    "percentage_points": 14.0
+  },
+  "sources": [
+    {
+      "name": "Cook Political Report PVI Map",
+      "link": "https://www.cookpolitical.com/pvi-map-and-explanation",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 0.0,
+      "details": "Cook Political Report lists Hawaii\u2019s statewide Partisan Voting Index as D+14, indicating Democrats typically perform 14 points better than Republicans than in the national popular vote.",
+      "date_range": "N/A (structural index, current publication)",
+      "domain": "cookpolitical.com",
+      "verified": false
+    },
+    {
+      "name": "Honolulu Civil Beat",
+      "link": "https://www.civilbeat.org/2026/08/is-hawai%CA%BBi-better-off-without-independent-political-polling/",
+      "race_type": "other_context",
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "Civil Beat reports that Hawaii lacks independent public political polling and discusses how most races rely on structural partisan expectations and internal polls, underscoring that statewide polling for federal races is scarce or nonexistent.",
+      "date_range": "August 2026 (article date; no horse-race polling)",
+      "domain": "civilbeat.org",
+      "verified": true
+    },
+    {
+      "name": "Honolulu Star-Advertiser",
+      "link": "https://www.staradvertiser.com/2026/07/19/hawaii-news/congressional-races-among-hawaiis-most-contested/",
+      "race_type": "other_context",
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "Honolulu Star-Advertiser coverage notes that the most contested races in Hawaii this cycle are congressional and legislative, with no indication of a competitive U.S. Senate or presidential race environment.",
+      "date_range": "July 2026 (article summarizing current cycle)",
+      "domain": "staradvertiser.com",
+      "verified": true
+    },
+    {
+      "name": "Honolulu Civil Beat",
+      "link": "https://www.civilbeat.org/2026/07/case-and-keohokalole-ramp-up-their-spending-in-advance-of-august-primary/",
+      "race_type": "other_context",
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "Civil Beat details campaign spending and dynamics in Hawaii\u2019s House primary between Ed Case and Jarrett Keohokalole, illustrating that current competitive federal attention is focused on House races rather than statewide Senate or presidential contests.",
+      "date_range": "July 2026 (spending and primary context)",
+      "domain": "civilbeat.org",
+      "verified": true
+    }
+  ],
+  "abbreviation": "HI",
+  "_cached_at": "2026-08-06T09:21:14.692935"
+}

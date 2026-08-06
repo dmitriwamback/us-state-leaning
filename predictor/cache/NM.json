@@ -1,0 +1,51 @@
+{
+  "state": "New Mexico",
+  "mode": "senate_presidential_polling",
+  "lean": "D",
+  "confidence": 0.5,
+  "strength_label": "Tilt",
+  "net_margin": 0.0,
+  "reasoning": "New Mexico\u2019s statewide structural baseline is strongly Democratic (Cook PVI about D+6). In the last 45 days, the available current-race evidence is limited: reporting on the U.S. Senate race emphasizes Ben Ray Luj\u00e1n\u2019s substantial fundraising and clear institutional advantage rather than a competitive polling margin, while the only explicit recent numeric polling in the results is for a gubernatorial contest, not the Senate or presidential race. That means there is no reliable current Senate or presidential polling margin to report from the provided sources, so the state\u2019s current race lean is best characterized as Democratic, but without a fresh Senate or presidential horse-race number from these results.",
+  "as_of_date": "2026-08-06T09:25:27",
+  "cook_pvi": {
+    "party": "D",
+    "percentage_points": 6.0
+  },
+  "sources": [
+    {
+      "name": "Santa Fe New Mexican",
+      "link": "https://www.santafenewmexican.com/news/elections/n-m-dems-keep-fundraising-lead-for-congress-border-district-drawing-big-donors/article_f7cb5a2f-0a47-4da8-9c03-c185d7bc75d2.html",
+      "race_type": "senate",
+      "party": "D",
+      "margin": 0.0,
+      "details": "Ben Ray Luj\u00e1n reported a large cash-on-hand advantage and a major fundraising lead over Republican challenger Larry Marker, indicating a strong Democratic position in the Senate race.",
+      "date_range": "May 14-Jun 30, 2026",
+      "domain": "santafenewmexican.com",
+      "verified": true
+    },
+    {
+      "name": "Sabato's Crystal Ball",
+      "link": "https://centerforpolitics.org/crystalball/three-gubernatorial-rating-changes-michigan-to-leans-democratic-new-mexico-to-safe-democratic-florida-to-likely-republican/",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 0.0,
+      "details": "The Cook Political Report\u2019s rating change moved New Mexico to Safe Democratic in gubernatorial context, reinforcing the state\u2019s Democratic lean as a structural indicator rather than a race margin.",
+      "date_range": "2026 cycle (forecaster update)",
+      "domain": "centerforpolitics.org",
+      "verified": true
+    },
+    {
+      "name": "Cook Partisan Voting Index",
+      "link": "https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 6.0,
+      "details": "New Mexico\u2019s statewide Cook Partisan Voting Index is approximately D+6, making it a reliably Democratic-leaning state.",
+      "date_range": "Statewide structural baseline",
+      "domain": "en.wikipedia.org",
+      "verified": false
+    }
+  ],
+  "abbreviation": "NM",
+  "_cached_at": "2026-08-06T09:25:27.107770"
+}

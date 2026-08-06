@@ -1,0 +1,117 @@
+{
+  "state": "Kansas",
+  "mode": "senate_presidential_polling",
+  "lean": "R",
+  "confidence": 1.0,
+  "strength_label": "Strong",
+  "net_margin": -41.0,
+  "reasoning": "Recent public polling and aggregators show Republican Sen. Roger Marshall holding a mid\u2011single to high\u2011single\u2011digit lead over Democrat Adam Hamilton, consistent with Kansas\u2019 strong Republican lean.\nThe clearest quantified general\u2011election margin is R+8 from the Tavern Research poll (54\u201346) and its aggregation in PollsMax, while MacroVoter\u2019s odds and ratings also indicate a Solid/Likely Republican advantage rather than a toss\u2011up.\nGiven the state\u2019s R+12 Cook PVI and the available data, the current Senate race environment is best characterized as roughly R+8, with no credible evidence of a Democratic lead in the last 45 days.",
+  "as_of_date": "2026-08-06T09:22:34",
+  "cook_pvi": {
+    "party": "R",
+    "percentage_points": 12.0
+  },
+  "sources": [
+    {
+      "name": "PollsMax \u2013 2026 Kansas Senate Polls",
+      "link": "https://www.pollsmax.com/senate/kansas/",
+      "race_type": "senate",
+      "party": "R",
+      "margin": 8.0,
+      "details": "Polling average for the Kansas Senate race between Adam Hamilton (D) and Roger Marshall (R) shows Marshall leading 54.0% to 46.0%, an R+8.0 margin, based on aggregated polls including a Tavern Research survey.",
+      "date_range": "January 28, 2026",
+      "domain": "pollsmax.com",
+      "verified": true
+    },
+    {
+      "name": "MSN reprint of reporting on Kansas 2026 races",
+      "link": "https://www.msn.com/en-us/news/other/gop-s-chances-of-losing-major-races-in-kansas-as-hamilton-holscher-win/ar-AA29pUc3",
+      "race_type": "senate",
+      "party": "R",
+      "margin": 8.0,
+      "details": "Article notes a Tavern Research poll finding Marshall leading Hamilton 54% to 46% (R+8) and describes forecasting models and polling aggregators as continuing to rate the Kansas Senate race as leaning Republican.",
+      "date_range": "July 2026 (referencing Jan. 28, 2026 poll)",
+      "domain": "msn.com",
+      "verified": true
+    },
+    {
+      "name": "MacroVoter \u2013 2026 Kansas Senate Election Odds & Polls",
+      "link": "https://macrovoter.com/senate/kansas",
+      "race_type": "senate",
+      "party": "R",
+      "margin": 5.0,
+      "details": "Forecaster lists the 2026 Kansas Senate seat as Republican\u2011held with odds of Republicans 83% vs Democrats 17% and characterizes the contest as Solid R, citing a recent polling margin of approximately R+5 in one matchup.",
+      "date_range": "Accessed August 2026 (no specific field dates given)",
+      "domain": "macrovoter.com",
+      "verified": true
+    },
+    {
+      "name": "ABC News \u2013 Kansas live primary results: Rev. Adam Hamilton vs. Roger Marshall",
+      "link": "https://abcnews.com/amp/Politics/kansas-2026-live-primary-election-results/story?id=134596534",
+      "race_type": "senate",
+      "party": "R",
+      "margin": 0.0,
+      "details": "Reporting on the Kansas Democratic Senate primary indicates Adam Hamilton won the nomination to face incumbent Sen. Roger Marshall, and notes that analysts still view the general election as favoring Republicans given Kansas\u2019 partisan tilt.",
+      "date_range": "August 4, 2026",
+      "domain": "abcnews.com",
+      "verified": true
+    },
+    {
+      "name": "The Hill reporting on Sabato\u2019s Crystal Ball rating change for Kansas Senate",
+      "link": "https://www.thehill.com/homenews/campaign/6011422-kansas-senate-race-sabato-adam-hamilton-roger-marshall/",
+      "race_type": "senate",
+      "party": "R",
+      "margin": 0.0,
+      "details": "Sabato\u2019s Crystal Ball moved the Kansas Senate race rating from Safe Republican to Likely Republican after Hamilton\u2019s primary win and fundraising strength, while emphasizing that a Democratic pickup remains a longshot in this strongly Republican state.",
+      "date_range": "August 5, 2026 (rating change based on recent fundraising and primary results)",
+      "domain": "thehill.com",
+      "verified": false
+    },
+    {
+      "name": "Sunflower State Journal \u2013 GBAO internal poll on Kansas Democratic Senate primary",
+      "link": "https://sunflowerstatejournal.com/hamilton-leading-democratic-u-s-senate-field-new-internal-poll-shows/",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 17.0,
+      "details": "Internal GBAO poll of 600 likely Democratic primary voters shows Adam Hamilton leading the Democratic U.S. Senate primary field by 17 points, with 30% support versus 13% for Christy Davis; it does not measure the general\u2011election matchup vs. Marshall.",
+      "date_range": "July 13-16, 2026",
+      "domain": "sunflowerstatejournal.com",
+      "verified": true
+    },
+    {
+      "name": "New York Times \u2013 Kansas U.S. Senate Primary 2026 results and analysis",
+      "link": "https://www.nytimes.com/interactive/2026/08/04/us/elections/results-kansas-us-senate-primary.html",
+      "race_type": "senate",
+      "party": "R",
+      "margin": 0.0,
+      "details": "Live coverage of the Kansas Senate primary explains that multiple Democrats competed for the chance to challenge Sen. Roger Marshall and notes that, despite Hamilton\u2019s profile, the general election is expected to favor the Republican incumbent.",
+      "date_range": "August 4, 2026",
+      "domain": "nytimes.com",
+      "verified": true
+    },
+    {
+      "name": "270toWin \u2013 Latest 2026 Senate Election Polls (Kansas entry)",
+      "link": "https://www.270towin.com/polls/latest-2026-senate-election-polls/",
+      "race_type": "senate",
+      "party": "R",
+      "margin": 0.0,
+      "details": "National polling aggregation page includes Kansas among 2026 Senate races and shows the state categorized as a Republican\u2011favored contest with no public polls indicating a Democratic lead.",
+      "date_range": "Most recent Senate polling list updated through mid\u20112026",
+      "domain": "270towin.com",
+      "verified": true
+    },
+    {
+      "name": "Cook Political Report \u2013 Partisan Voting Index (Kansas)",
+      "link": "https://www.cookpolitical.com/pvi",
+      "race_type": "other_context",
+      "party": "R",
+      "margin": 12.0,
+      "details": "Cook Political Report\u2019s Partisan Voting Index rates Kansas as R+12 at the statewide level, reflecting that in recent presidential elections Kansas has voted about 12 points more Republican than the national average.",
+      "date_range": "Cook PVI last published cycle (pre\u20112026, but current structural index)",
+      "domain": "cookpolitical.com",
+      "verified": false
+    }
+  ],
+  "abbreviation": "KS",
+  "_cached_at": "2026-08-06T09:22:34.365298"
+}

@@ -1,0 +1,73 @@
+{
+  "state": "Michigan",
+  "mode": "senate_presidential_polling",
+  "lean": "Toss-up",
+  "confidence": 0.51,
+  "strength_label": "Toss-up",
+  "net_margin": -2.6,
+  "reasoning": "Recent general-election polling in Michigan\u2019s 2026 Senate race shows a very tight contest between Democrat Abdul El-Sayed and Republican Mike Rogers, with most high-quality polls and aggregates indicating roughly a 1\u20133 point Republican edge, while one independent aggregate based only on El-Sayed\u2013Rogers matchups shows the race as essentially a tie or microscopic Democratic advantage.[1][10][12] Given these mixed but narrow results, the current effective margin in Michigan\u2019s 2026 Senate race is best characterized as approximately R+1 to R+2, consistent with major forecasters still rating the race as a toss-up but with a slight Republican polling edge.[2][10][12]\n\nMichigan\u2019s Cook Partisan Voting Index statewide is D+1, meaning in recent presidential elections the state has voted about one point more Democratic than the national average.[12]",
+  "as_of_date": "2026-08-06T09:23:49",
+  "cook_pvi": {
+    "party": "D",
+    "percentage_points": 1.0
+  },
+  "sources": [
+    {
+      "name": "PollsMax",
+      "link": "https://www.pollsmax.com/senate/michigan/",
+      "race_type": "senate",
+      "party": "D",
+      "margin": 0.4,
+      "details": "PollsMax\u2019s 2026 Michigan Senate polling average for Abdul El-Sayed vs. Mike Rogers shows 44.3% for El-Sayed and 43.9% for Rogers, an average margin of D+0.4 in a very close race based on 13 polls, last updated July 6, 2026.",
+      "date_range": "through July 6, 2026 (aggregate of polls, latest poll June 30, 2026)",
+      "domain": "pollsmax.com",
+      "verified": true
+    },
+    {
+      "name": "EPIC-MRA (reported by The New York Times)",
+      "link": "https://www.nytimes.com/live/2026/08/04/us/midterms-elections-michigan-virginia/92c5aa0b-f8eb-560a-98b9-1038879ee5a1",
+      "race_type": "senate",
+      "party": "R",
+      "margin": 3.0,
+      "details": "An EPIC-MRA poll sponsored by MIRS, reported by The New York Times, finds Mike Rogers leading Abdul El-Sayed 46% to 43% in the Michigan Senate general-election matchup, a margin of R+3.",
+      "date_range": "July 24-31, 2026",
+      "domain": "nytimes.com",
+      "verified": true
+    },
+    {
+      "name": "EPIC-MRA (reported by The New York Times)",
+      "link": "https://www.nytimes.com/live/2026/08/04/us/midterms-elections-michigan-virginia/92c5aa0b-f8eb-560a-98b9-1038879ee5a1",
+      "race_type": "senate",
+      "party": "D",
+      "margin": 2.0,
+      "details": "The same EPIC-MRA/MIRS polling series also tested Haley Stevens vs. Mike Rogers and found Stevens leading Rogers 44% to 42%, a margin of D+2, illustrating that Rogers runs slightly stronger against El-Sayed than against Stevens.",
+      "date_range": "July 24-31, 2026",
+      "domain": "nytimes.com",
+      "verified": true
+    },
+    {
+      "name": "Sabato\u2019s Crystal Ball (University of Virginia Center for Politics)",
+      "link": "https://centerforpolitics.org/crystalball/key-michigan-races-stay-as-toss-ups-following-dramatic-primary-ks-sen-to-likely-republican-other-primary-observations/",
+      "race_type": "senate",
+      "party": "R",
+      "margin": 2.0,
+      "details": "Sabato\u2019s Crystal Ball notes that in RacetotheWH polling averages before the Democratic primary, Haley Stevens led Mike Rogers about 44.5% to 43.5% (D+1), while Abdul El-Sayed trailed Rogers 45% to 43% (R+2), reinforcing a slight GOP edge against El-Sayed and a near-toss-up overall.",
+      "date_range": "late July 2026 (RacetotheWH averages referenced)",
+      "domain": "centerforpolitics.org",
+      "verified": true
+    },
+    {
+      "name": "Cook Political Report (via The Hill)",
+      "link": "https://thehill.com/homenews/campaign/5994700-rogers-el-sayed-stevens-michigan-senate-poll/",
+      "race_type": "other_context",
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "The Hill reports that the Cook Political Report rates the open Michigan Senate race as a 'toss up,' indicating no clear structural advantage for either party despite Republicans targeting the seat for a flip.",
+      "date_range": "rating as of July 2026",
+      "domain": "thehill.com",
+      "verified": true
+    }
+  ],
+  "abbreviation": "MI",
+  "_cached_at": "2026-08-06T09:23:49.315242"
+}

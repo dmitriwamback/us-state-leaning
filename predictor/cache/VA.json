@@ -1,0 +1,62 @@
+{
+  "state": "Virginia",
+  "mode": "senate_presidential_polling",
+  "lean": "D",
+  "confidence": 1.0,
+  "strength_label": "Lean",
+  "net_margin": 19.9,
+  "reasoning": "Recent public polling of the 2026 Virginia U.S. Senate race shows incumbent Democrat Mark Warner leading Republican nominee Bert Mizusawa by roughly 20 points, indicating a strong Democratic advantage in the current Senate contest.[1] Prediction markets and odds trackers similarly price Democrats as overwhelming favorites to hold the seat, reinforcing the picture of a double\u2011digit Democratic edge rather than a competitive race.[6] Structurally, Virginia\u2019s Cook Partisan Voting Index is D+2 statewide, so the current polling margin reflects both Warner\u2019s personal strength and a Democratic tilt that is somewhat larger than the underlying partisan baseline.[6]",
+  "as_of_date": "2026-08-06T09:27:57",
+  "cook_pvi": {
+    "party": "D",
+    "percentage_points": 2.0
+  },
+  "sources": [
+    {
+      "name": "PollsMax",
+      "link": "https://www.pollsmax.com/senate/virginia/",
+      "race_type": "senate",
+      "party": "D",
+      "margin": 19.9,
+      "details": "PollsMax\u2019s aggregate of all 2026 Virginia Senate general election polls shows Mark Warner at 51.6% and Bert Mizusawa at 31.7%, a D+19.9 polling average margin, based on two polls with the latest from Public Sentiment Institute in mid\u2011June.",
+      "date_range": "Through July 8, 2026 (polls conducted up to June 16, 2026)",
+      "domain": "pollsmax.com",
+      "verified": true
+    },
+    {
+      "name": "PredictionEdge",
+      "link": "https://www.predictionedge.com/elections/va/",
+      "race_type": "senate",
+      "party": "D",
+      "margin": 0.0,
+      "details": "PredictionEdge\u2019s Virginia Senate page reports Democrats with a 96% chance to win the 2026 Virginia Senate race and lists statewide polling showing Warner leading Mizusawa by a large margin, consistent with a strong D+ double\u2011digit advantage.",
+      "date_range": "Updated August 5, 2026 (markets reflect polling and recent information; underlying general-election poll series through June 12\u201316, 2026)",
+      "domain": "predictionedge.com",
+      "verified": true
+    },
+    {
+      "name": "NBC News",
+      "link": "https://www.nbcnews.com/politics/2026-primary-elections/virginia-senate-results",
+      "race_type": "other_context",
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "NBC News reports the 2026 Virginia Senate primary results, confirming Mark Warner as the uncontested Democratic nominee and Bert Mizusawa winning the Republican Senate primary, setting up the general-election matchup reflected in current polling.",
+      "date_range": "Primary held August 4, 2026",
+      "domain": "nbcnews.com",
+      "verified": true
+    },
+    {
+      "name": "The Washington Post",
+      "link": "https://www.washingtonpost.com/elections/results/2026/08/04/virginia-us-senate-primary-election-live-results-2026/",
+      "race_type": "other_context",
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "The Washington Post\u2019s live 2026 Virginia U.S. Senate primary results show Mark Warner running unopposed in the Democratic primary and list the Republican primary contenders, corroborating the candidate field used in current general-election polling averages.",
+      "date_range": "Primary held August 4, 2026",
+      "domain": "washingtonpost.com",
+      "verified": true
+    }
+  ],
+  "abbreviation": "VA",
+  "_cached_at": "2026-08-06T09:27:57.763006"
+}

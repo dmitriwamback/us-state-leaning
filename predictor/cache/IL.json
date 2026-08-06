@@ -1,0 +1,51 @@
+{
+  "state": "Illinois",
+  "mode": "senate_presidential_polling",
+  "lean": "D",
+  "confidence": 1.0,
+  "strength_label": "Lean",
+  "net_margin": 19.5,
+  "reasoning": "Illinois is structurally a strongly Democratic state (Cook PVI about D+12), and the limited 2026-specific forecasting data available for the Illinois U.S. Senate race points to a very large Democratic advantage, on the order of roughly D+20 statewide. Within the last 45 days, Forecast/odds-style outlets show Illinois as a \"Solid D\" Senate race with a projected vote split near 60\u201340, and there are no credible general-election polls suggesting a competitive contest. Given the lack of presidential polling specific to Illinois in the provided results and Illinois' consistent Democratic lean, the best current estimate is that both the Senate and presidential environment are safely D, with the Senate race around D+20 and the presidential margin likely somewhat smaller but still clearly Democratic-leaning.",
+  "as_of_date": "2026-08-06T09:21:40",
+  "cook_pvi": {
+    "party": "D",
+    "percentage_points": 12.0
+  },
+  "sources": [
+    {
+      "name": "Pollsmax \u2013 2026 Illinois Senate Forecast",
+      "link": "https://www.pollsmax.com/senate/illinois/forecast/",
+      "race_type": "senate",
+      "party": "D",
+      "margin": 19.5,
+      "details": "Forecast site rates the 2026 Illinois U.S. Senate race as Solid D, with a projected vote of 59.8% D vs. 40.3% R (projected margin D+19.5) and Democratic win odds of 95.9%.",
+      "date_range": "July 3, 2026 (model update; no GE polls yet)",
+      "domain": "pollsmax.com",
+      "verified": true
+    },
+    {
+      "name": "Prediction Edge \u2013 2026 Illinois Senate Winner by Party",
+      "link": "https://www.predictionedge.com/elections/us-senate/illinois-race-winner-by-party/",
+      "race_type": "senate",
+      "party": "D",
+      "margin": 0.0,
+      "details": "Prediction market/odds outlet gives Democrats approximately 95%+ implied probability to win the 2026 Illinois Senate race by party, reinforcing that the contest is overwhelmingly favored to go Democratic without publishing a specific vote margin.",
+      "date_range": "Ongoing 2026 cycle (last updated within recent window; odds not tied to specific poll dates)",
+      "domain": "predictionedge.com",
+      "verified": true
+    },
+    {
+      "name": "Cook Political Report \u2013 Partisan Voting Index (Illinois)",
+      "link": "https://www.cookpolitical.com/pvi",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 12.0,
+      "details": "Cook Political Report\u2019s Partisan Voting Index lists Illinois as a D+12 state, indicating that in recent presidential elections it has voted about 12 points more Democratic than the national average, providing a baseline for both presidential and Senate expectations.",
+      "date_range": "Structural index (no specific poll dates; based on past elections)",
+      "domain": "cookpolitical.com",
+      "verified": false
+    }
+  ],
+  "abbreviation": "IL",
+  "_cached_at": "2026-08-06T09:21:40.904780"
+}

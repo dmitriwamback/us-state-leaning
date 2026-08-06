@@ -1,0 +1,62 @@
+{
+  "state": "Missouri",
+  "mode": "senate_presidential_polling",
+  "lean": "R",
+  "confidence": 0.8,
+  "strength_label": "Tilt",
+  "net_margin": -3.0,
+  "reasoning": "Missouri does not have a U.S. Senate or presidential race on the ballot in 2026; its next Senate and presidential contests are in 2028, so there are no current statewide federal polling margins to report for this cycle.[10][13] The only available recent data within the last 45 days concerns primaries and down\u2011ballot races, which do not provide a usable D+ or R+ statewide margin for a general\u2011election Senate or presidential race.[1][10] Structurally, Missouri remains a Republican\u2011leaning state, with a Cook Partisan Voting Index of R+3 at the statewide level, but that is not a current-race polling margin.[10]",
+  "as_of_date": "2026-08-06T09:24:26",
+  "cook_pvi": {
+    "party": "R",
+    "percentage_points": 3.0
+  },
+  "sources": [
+    {
+      "name": "Ballotpedia",
+      "link": "https://ballotpedia.org/Missouri_elections,_2026",
+      "race_type": "other_context",
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "Overview of Missouri\u2019s 2026 election calendar shows that there is no U.S. Senate or presidential race in 2026; those offices next appear in 2028, meaning no current statewide federal general-election polling margin is available.",
+      "date_range": "July 2026 (coverage current as of posting)",
+      "domain": "ballotpedia.org",
+      "verified": true
+    },
+    {
+      "name": "PredictionEdge",
+      "link": "https://www.predictionedge.com/elections/mo/",
+      "race_type": "other_context",
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "Provides odds and polling for Missouri\u2019s 2026 elections, noting explicitly that there is no governor or U.S. Senate race on the ballot until 2028, confirming the lack of a current statewide federal Senate or presidential contest to measure.",
+      "date_range": "February 19-23, 2026 (poll) / current site averages as of mid-2026",
+      "domain": "predictionedge.com",
+      "verified": true
+    },
+    {
+      "name": "The New York Times",
+      "link": "https://www.nytimes.com/interactive/2026/08/04/us/elections/results-missouri-us-house-5-primary.html",
+      "race_type": "other_context",
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "Covers Missouri\u2019s 2026 primary results and U.S. House primaries, indicating active contests in congressional districts but not a statewide Senate or presidential race, underscoring that recent data pertains only to sub\u2011state races.",
+      "date_range": "August 4, 2026 (live results)",
+      "domain": "nytimes.com",
+      "verified": false
+    },
+    {
+      "name": "Yahoo News",
+      "link": "https://www.yahoo.com/news/politics/articles/missouri-2026-august-election-results-025534796.html",
+      "race_type": "other_context",
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "Reports Missouri\u2019s 2026 August election results, focused on primary outcomes rather than any statewide Senate or presidential general election, further confirming that recent coverage is limited to non\u2011Senate/non\u2011presidential contests.",
+      "date_range": "August 2026 (results updated through election night)",
+      "domain": "yahoo.com",
+      "verified": true
+    }
+  ],
+  "abbreviation": "MO",
+  "_cached_at": "2026-08-06T09:24:26.385397"
+}

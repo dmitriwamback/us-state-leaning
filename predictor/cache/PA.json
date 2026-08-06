@@ -1,0 +1,62 @@
+{
+  "state": "Pennsylvania",
+  "mode": "senate_presidential_polling",
+  "lean": "Toss-up",
+  "confidence": 0.0,
+  "strength_label": "Toss-up",
+  "net_margin": 0.0,
+  "reasoning": "Within the last 45 days, there are no reputable, head\u2011to\u2011head public polls or forecasting ratings specifically on a Pennsylvania U.S. Senate or presidential race; most relevant data are issue/approval polling and generic congressional or national control metrics.[1][3][6][8][14] Structural data (Cook PVI) rates Pennsylvania as EVEN, and the available polling and coverage suggest a slight Democratic tilt in statewide preferences but not a quantified Senate or presidential margin in PA itself.[6][8][14] Given the absence of race\u2011specific numbers, the best current assessment is that Pennsylvania remains structurally EVEN with no reliable, numerically defined D+ or R+ margin for its Senate or presidential contests in the last 45 days.",
+  "as_of_date": "2026-08-06T09:26:39",
+  "cook_pvi": {
+    "party": "EVEN",
+    "percentage_points": 0.0
+  },
+  "sources": [
+    {
+      "name": "Quinnipiac University Poll",
+      "link": "https://poll.qu.edu/poll-release?releaseid=3962",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 13.0,
+      "details": "Quinnipiac University poll of 895 Pennsylvania registered voters found 53% support for Democratic Gov. Josh Shapiro vs. 40% for Republican Stacy Garrity in the 2026 governor race (Shapiro +13).",
+      "date_range": "July 9-13, 2026",
+      "domain": "poll.qu.edu",
+      "verified": true
+    },
+    {
+      "name": "Times Observer (reporting Quinnipiac poll)",
+      "link": "https://www.timesobserver.com/news/local-news/2026/07/shapiro-leads-garrity-by-13-points-in-latest-poll/",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 13.0,
+      "details": "Coverage of the same Quinnipiac poll notes Shapiro leading Garrity 53%-40% and both U.S. Senators having net positive approval ratings, indicating a generally favorable statewide environment for Democrats but not providing Senate or presidential head-to-head margins.",
+      "date_range": "July 9-13, 2026",
+      "domain": "timesobserver.com",
+      "verified": true
+    },
+    {
+      "name": "Knewz (reporting Quinnipiac poll)",
+      "link": "https://knewz.com/pennsylvania-democratic-leaders-josh-shapiro-john-fetterman-get-bad-news-from-new-polls/",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 13.0,
+      "details": "Article summarizing the Quinnipiac findings reports Shapiro\u2019s 13\u2011point lead and notes mixed but concerning trends for top Pennsylvania Democrats, suggesting a still Democratic\u2011leaning but somewhat tightening statewide landscape.",
+      "date_range": "July 9-13, 2026",
+      "domain": "knewz.com",
+      "verified": true
+    },
+    {
+      "name": "Delaware Online (citing RealClearPolitics)",
+      "link": "https://www.delawareonline.com/story/news/2026/07/17/who-is-winning-the-midterms-right-now-latest-polls-who-will-control-congress-2026-midterm-elections/90954843007/",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 4.8,
+      "details": "National generic congressional ballot cited by RealClearPolitics shows Democrats at 48.6% vs. Republicans at 43.8% (D+4.8) and notes Republicans currently control both chambers, providing broader context but no PA\u2011specific Senate or presidential margin.",
+      "date_range": "July 17, 2026 (national data)",
+      "domain": "delawareonline.com",
+      "verified": true
+    }
+  ],
+  "abbreviation": "PA",
+  "_cached_at": "2026-08-06T09:26:39.369779"
+}

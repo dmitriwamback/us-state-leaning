@@ -1,0 +1,128 @@
+{
+  "state": "Georgia",
+  "mode": "senate_presidential_polling",
+  "lean": "D",
+  "confidence": 1.0,
+  "strength_label": "Strong",
+  "net_margin": 66.7,
+  "reasoning": "Recent high-quality polling in the last 45 days consistently shows Democratic Sen. Jon Ossoff with a mid-single to high-single\u2013digit lead over Republican Mike Collins, with individual polls ranging from roughly D+4 to D+13 and a polling average around D+6 statewide.[1][3][4][5][7][12][13] Georgia\u2019s Cook Partisan Voting Index remains slightly Republican-leaning at R+3 statewide, but current polling indicates the Senate race margin is best described as roughly **D+6\u20137** at this point in the cycle, with no fresh presidential general-election polling in this window to define a clear presidential margin.[1][3][4][5][7][12][13]",
+  "as_of_date": "2026-08-06T09:21:05",
+  "cook_pvi": {
+    "party": "R",
+    "percentage_points": 3.0
+  },
+  "sources": [
+    {
+      "name": "AARP (reported by AARP, The Hill, Newsweek)",
+      "link": "https://www.aarp.org/government-elections/georgia-poll-2026/",
+      "race_type": "senate",
+      "party": "D",
+      "margin": 9.0,
+      "details": "AARP/Fabrizio Ward & Impact Research poll of 1,060 likely voters finds Ossoff 52% vs. Collins 43%, a D+9 margin in the Georgia Senate race.",
+      "date_range": "July 13-16, 2026",
+      "domain": "aarp.org",
+      "verified": true
+    },
+    {
+      "name": "Wick Research (reported by Daily Signal, Newsweek, AJC)",
+      "link": "https://www.dailysignal.com/2026/07/08/georgia-poll-statistics/",
+      "race_type": "senate",
+      "party": "D",
+      "margin": 3.8,
+      "details": "Wick Research poll of 1,175 likely voters shows Ossoff 46.7% vs. Collins 42.9%, a D+3.8 margin in the Georgia Senate race.",
+      "date_range": "June 27-30, 2026",
+      "domain": "dailysignal.com",
+      "verified": true
+    },
+    {
+      "name": "Fox News (reported by USA Today, AJC, Newsweek)",
+      "link": "https://www.usatoday.com/story/news/state/georgia/2026/07/09/who-is-leading-in-governor-senate-races-in-georgia-polls-split/90859496007/",
+      "race_type": "senate",
+      "party": "D",
+      "margin": 13.0,
+      "details": "Fox News poll of Georgia registered voters finds Ossoff 56% vs. Collins 43%, a D+13 margin in the Senate race.",
+      "date_range": "Late June 2026 (published July 1, 2026)",
+      "domain": "usatoday.com",
+      "verified": true
+    },
+    {
+      "name": "PollsMax",
+      "link": "https://www.pollsmax.com/senate/georgia/",
+      "race_type": "senate",
+      "party": "D",
+      "margin": 6.1,
+      "details": "PollsMax aggregation of seven Georgia Senate polls reports a statewide polling average of 48.5% D vs. 42.4% R, giving Ossoff a D+6.1 lead over Collins.",
+      "date_range": "Through July 6, 2026 (polls mostly late June)",
+      "domain": "pollsmax.com",
+      "verified": true
+    },
+    {
+      "name": "The Hill",
+      "link": "https://thehill.com/homenews/campaign/5986198-ossoff-leads-collins-ga-poll/",
+      "race_type": "senate",
+      "party": "D",
+      "margin": 9.0,
+      "details": "The Hill write-up of the AARP Fabrizio Ward/Impact Research survey highlights Ossoff leading Collins 52%-43%, a D+9 margin, with the lead outside the \u00b13% margin of error.",
+      "date_range": "July 13-16, 2026",
+      "domain": "thehill.com",
+      "verified": true
+    },
+    {
+      "name": "Newsweek (AARP poll analysis)",
+      "link": "https://www.newsweek.com/jon-ossoff-has-a-problem-with-georgias-most-motivated-voters-12240445",
+      "race_type": "senate",
+      "party": "D",
+      "margin": 9.0,
+      "details": "Newsweek\u2019s coverage of the AARP poll notes Ossoff ahead 52%-43% (D+9) and discusses demographic patterns and enthusiasm gaps in the Georgia Senate race.",
+      "date_range": "July 13-16, 2026",
+      "domain": "newsweek.com",
+      "verified": true
+    },
+    {
+      "name": "Newsweek (Wick and Fox coverage)",
+      "link": "https://www.newsweek.com/jon-ossoffs-chances-of-defeating-mike-collins-in-georgia-senate-race-poll-12179218",
+      "race_type": "senate",
+      "party": "D",
+      "margin": 3.8,
+      "details": "Newsweek article on Georgia\u2019s Senate race cites the Wick poll showing Ossoff at 46.7% vs. Collins at 42.9%, a D+3.8 margin, and references a Fox poll with a D+13 lead.",
+      "date_range": "June 27-30, 2026",
+      "domain": "newsweek.com",
+      "verified": true
+    },
+    {
+      "name": "Atlanta Journal-Constitution",
+      "link": "https://www.ajc.com/politics/2026/07/polls-suggest-different-trajectories-for-georgias-top-races/",
+      "race_type": "senate",
+      "party": "D",
+      "margin": 4.0,
+      "details": "Atlanta Journal-Constitution report on Georgia\u2019s top races notes a Wick poll showing Ossoff leading Collins 47%-43%, approximately D+4, with around 10% undecided.",
+      "date_range": "June 27-30, 2026",
+      "domain": "ajc.com",
+      "verified": true
+    },
+    {
+      "name": "Roll Call",
+      "link": "https://rollcall.com/2026/07/23/at-the-races-seeing-blue-in-georgia/",
+      "race_type": "senate",
+      "party": "D",
+      "margin": 9.0,
+      "details": "Roll Call\u2019s \u2018At the Races\u2019 column highlights the AARP Fabrizio Ward/Impact Research survey finding Ossoff with a 9-point lead over Collins in the Georgia Senate contest.",
+      "date_range": "July 13-16, 2026",
+      "domain": "rollcall.com",
+      "verified": true
+    },
+    {
+      "name": "Cook Political Report PVI (via Crystal Ball reference)",
+      "link": "https://centerforpolitics.org/crystalball/key-michigan-races-stay-as-toss-ups-following-dramatic-primary-ks-sen-to-likely-republican-other-primary-observations/",
+      "race_type": "other_context",
+      "party": "R",
+      "margin": 0.0,
+      "details": "Cook Political Report\u2019s Partisan Voting Index lists Georgia as R+3 statewide, indicating the state votes about 3 points more Republican than the national average in recent presidential elections.",
+      "date_range": "As of mid-2020s (structural index, not a poll)",
+      "domain": "centerforpolitics.org",
+      "verified": true
+    }
+  ],
+  "abbreviation": "GA",
+  "_cached_at": "2026-08-06T09:21:05.682017"
+}

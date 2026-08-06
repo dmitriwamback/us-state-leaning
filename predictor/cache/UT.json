@@ -1,0 +1,62 @@
+{
+  "state": "Utah",
+  "mode": "senate_presidential_polling",
+  "lean": "R",
+  "confidence": 0.5,
+  "strength_label": "Tilt",
+  "net_margin": 0.0,
+  "reasoning": "Within the last 45 days there are no credible public polls or mainstream forecaster ratings specifically quantifying a numeric D/R margin for either a Utah U.S. Senate race or the presidential race; recent Utah political coverage focuses on primaries, House races, and general midterm dynamics without publishing head\u2011to\u2011head statewide numbers.[7][12] Structurally, Utah remains a strongly Republican state (around R+20 in Cook PVI), so in the absence of fresh Utah\u2011specific polling, the best current analytical baseline is that both Senate and presidential contests are effectively R+20 or stronger, but that figure is inferred from long\u2011term voting patterns rather than new data in the last 45 days.",
+  "as_of_date": "2026-08-06T09:27:40",
+  "cook_pvi": {
+    "party": "R",
+    "percentage_points": 20.0
+  },
+  "sources": [
+    {
+      "name": "Cook Political Report \u2013 Cook Partisan Voting Index (Utah entry as summarized in Wikipedia)",
+      "link": "https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index",
+      "race_type": "other_context",
+      "party": "R",
+      "margin": 20.0,
+      "details": "Cook Partisan Voting Index lists Utah as approximately R+20 statewide, reflecting that in recent presidential elections the Republican vote share in Utah has been about 20 percentage points more Republican than the national average.",
+      "date_range": "June 2024-November 2024 (underlying elections used for index)",
+      "domain": "en.wikipedia.org",
+      "verified": false
+    },
+    {
+      "name": "Deseret News \u2013 Utah Politics section",
+      "link": "https://www.deseret.com/politics/",
+      "race_type": "other_context",
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "Utah politics coverage during this period discusses state legislative contests, congressional primaries, and general midterm dynamics, but does not report any new public statewide polling for a Utah U.S. Senate or presidential race, implying an absence of fresh quantified margins.",
+      "date_range": "June 20, 2026-July 30, 2026",
+      "domain": "deseret.com",
+      "verified": true
+    },
+    {
+      "name": "Utah Public Radio \u2013 Midterms overview",
+      "link": "https://www.upr.org/2026-07-27/with-less-than-100-days-left-until-election-day-how-the-midterms-are-shaping-up",
+      "race_type": "other_context",
+      "party": "R",
+      "margin": 0.0,
+      "details": "Midterms overview notes national Senate battlegrounds and forecasting markets but does not identify Utah as a competitive state or provide Utah\u2011specific polling, consistent with Utah being safely Republican and largely absent from competitive race discussions.",
+      "date_range": "July 27, 2026",
+      "domain": "upr.org",
+      "verified": true
+    },
+    {
+      "name": "Newsweek \u2013 National Senate competitiveness analysis",
+      "link": "https://www.newsweek.com/can-democrats-flip-senate-chances-100-days-midterms-12245883",
+      "race_type": "senate",
+      "party": "R",
+      "margin": 0.0,
+      "details": "Article summarizing Kalshi and Polymarket Senate odds describes Democratic opportunities in Alaska, Maine, North Carolina, and Ohio, with no mention of Utah as competitive, reinforcing that Utah\u2019s Senate race is viewed as safely Republican with no close polling margin reported.",
+      "date_range": "July 2026",
+      "domain": "newsweek.com",
+      "verified": true
+    }
+  ],
+  "abbreviation": "UT",
+  "_cached_at": "2026-08-06T09:27:40.199087"
+}

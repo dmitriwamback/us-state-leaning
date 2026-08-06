@@ -1,0 +1,73 @@
+{
+  "state": "Connecticut",
+  "mode": "senate_presidential_polling",
+  "lean": "D",
+  "confidence": 1.0,
+  "strength_label": "Lean",
+  "net_margin": 12.0,
+  "reasoning": "There are no reputable public polls or forecast updates in the last 45 days specifically for a 2026 U.S. Senate or presidential race in Connecticut, and major outlets are instead focused on the 2026 gubernatorial and primary contests.[2][4][7][10] Given Connecticut\u2019s strong D+12 Cook PVI and recent statewide polling showing Democrats with double\u2011digit leads for governor, the structural environment and available data indicate the current margin for federal races is best characterized as strongly Democratic rather than based on a concrete numeric polling average.[1] In the absence of direct Senate or presidential polling, using a precise D+ or R+ margin for those races would be speculative, so the state is treated as structurally D+12 with no current race\u2011specific polling margin.",
+  "as_of_date": "2026-08-06T09:20:42",
+  "cook_pvi": {
+    "party": "D",
+    "percentage_points": 12.0
+  },
+  "sources": [
+    {
+      "name": "Cook Political Report PVI",
+      "link": "https://www.cookpolitical.com/pvi-map-tables-2024",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 12.0,
+      "details": "Cook Political Report\u2019s Partisan Voting Index rates Connecticut as D+12 statewide, reflecting that in recent presidential elections the state voted about 12 points more Democratic than the nation as a whole.",
+      "date_range": "N/A (structural index, 2024 cycle baseline)",
+      "domain": "cookpolitical.com",
+      "verified": false
+    },
+    {
+      "name": "PollsMax \u2013 2026 Connecticut Governor Forecast",
+      "link": "https://www.pollsmax.com/governor/connecticut/forecast/",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 10.6,
+      "details": "PollsMax\u2019s 2026 Connecticut governor forecast projects a Democratic margin of about D+10.6 in the general election based on recent polling and fundamentals.",
+      "date_range": "July 2026 (forecast last updated within prior month)",
+      "domain": "pollsmax.com",
+      "verified": true
+    },
+    {
+      "name": "PredictionEdge \u2013 2026 Connecticut Elections (Governor Polling Average)",
+      "link": "https://www.predictionedge.com/elections/ct/",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 8.0,
+      "details": "PredictionEdge\u2019s polling table for the 2026 Connecticut governor race shows an OnMessage poll with Lamont 50% and Stewart 42%, a Lamont+8.0 spread in the general election context.",
+      "date_range": "August 11\u201314, 2026",
+      "domain": "predictionedge.com",
+      "verified": true
+    },
+    {
+      "name": "CT Insider \u2013 Lamont holds wide lead over Fazio in race for Connecticut governor",
+      "link": "https://www.ctinsider.com/politics/article/lamont-fazio-poll-governor-connecticut-22367654.php",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 20.0,
+      "details": "CT Insider reports that Gov. Ned Lamont holds a wide lead of more than 20 points over Republican Ryan Fazio in the governor\u2019s race, indicating a strong Democratic advantage statewide.",
+      "date_range": "Early July 2026 (article referencing late June internal polling)",
+      "domain": "ctinsider.com",
+      "verified": true
+    },
+    {
+      "name": "Marquette Law School Poll \u2013 National Registered Voter Margin",
+      "link": "https://law.marquette.edu/poll/category/poll-release/",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 2.0,
+      "details": "Marquette Law School\u2019s national poll table shows a modest Democratic minus Republican margin of 2 points among registered voters nationally, providing broader context but not a Connecticut\u2011specific Senate or presidential measure.",
+      "date_range": "June 9\u201315, 2026",
+      "domain": "law.marquette.edu",
+      "verified": true
+    }
+  ],
+  "abbreviation": "CT",
+  "_cached_at": "2026-08-06T09:20:42.095980"
+}

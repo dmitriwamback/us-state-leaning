@@ -1,0 +1,62 @@
+{
+  "state": "Tennessee",
+  "mode": "senate_presidential_polling",
+  "lean": "R",
+  "confidence": 1.0,
+  "strength_label": "Strong",
+  "net_margin": -30.0,
+  "reasoning": "Available reputable forecaster data for Tennessee\u2019s 2026 Senate race in the last 45 days show it as a structurally and electorally very strong Republican hold, with no general-election polling yet but modeled results around an R+30 margin.[1] Given Tennessee\u2019s underlying partisan lean (Cook PVI about R+15 statewide) and the absence of any contrary recent polling or news indicating Democratic competitiveness, the best current estimate is that the upcoming Senate general election stands at roughly **R+30**. There is no credible, recent general-election presidential polling in the last 45 days specific to Tennessee, but the state\u2019s structural alignment and the Senate modeling both point to a very substantial Republican advantage there as well.",
+  "as_of_date": "2026-08-06T09:27:22",
+  "cook_pvi": {
+    "party": "R",
+    "percentage_points": 15.0
+  },
+  "sources": [
+    {
+      "name": "Pollsmax \u2013 2026 Tennessee Senate Forecast",
+      "link": "https://www.pollsmax.com/senate/tennessee/forecast/",
+      "race_type": "senate",
+      "party": "R",
+      "margin": 30.0,
+      "details": "Pollsmax Tennessee Senate forecast rates the race Solid R and projects the general election at 65.0% R to 35.0% D, a modeled margin of R+30.0, with Democrats given only 0.7% odds of winning.",
+      "date_range": "Forecast as of July 8, 2026 (no GE polling yet)",
+      "domain": "pollsmax.com",
+      "verified": true
+    },
+    {
+      "name": "PredictionEdge \u2013 Quantus Insights GOP Senate primary poll",
+      "link": "https://www.predictionedge.com/elections/tn/",
+      "race_type": "other_context",
+      "party": "R",
+      "margin": 42.0,
+      "details": "Quantus Insights GOP primary poll for the Tennessee Senate race shows Marsha Blackburn at 51.5% and John Rose at 9.5%, Blackburn +42 among Republican primary voters, underscoring her dominant position within the GOP; this is not a general-election poll but reinforces a strong Republican landscape.",
+      "date_range": "Aug 5-7, 2026 (Republican primary polling, not GE)",
+      "domain": "predictionedge.com",
+      "verified": true
+    },
+    {
+      "name": "PredictionEdge \u2013 Targoz Market Research GOP Senate primary poll",
+      "link": "https://www.predictionedge.com/elections/tn/",
+      "race_type": "other_context",
+      "party": "R",
+      "margin": 52.0,
+      "details": "Targoz Market Research GOP primary survey reported Blackburn at 66% and Rose at 14% (Blackburn +52), again illustrating a lopsided Republican primary rather than a competitive general-election environment.",
+      "date_range": "Jul 27-Aug 1, 2026 (Republican primary polling, not GE)",
+      "domain": "predictionedge.com",
+      "verified": true
+    },
+    {
+      "name": "Pollsmax \u2013 2026 Tennessee Governor Polling Average",
+      "link": "https://www.pollsmax.com/governor/tennessee/",
+      "race_type": "other_context",
+      "party": "R",
+      "margin": 22.0,
+      "details": "Pollsmax Tennessee Governor forecast shows a statewide Republican polling-average margin of R+22.0, reflecting the broader Republican strength in Tennessee\u2019s statewide contests and supporting the expectation of a large GOP edge in federal races as well.",
+      "date_range": "Structural rating as of 2026 cycle",
+      "domain": "pollsmax.com",
+      "verified": true
+    }
+  ],
+  "abbreviation": "TN",
+  "_cached_at": "2026-08-06T09:27:22.071654"
+}

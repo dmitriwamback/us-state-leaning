@@ -1,0 +1,73 @@
+{
+  "state": "Oregon",
+  "mode": "senate_presidential_polling",
+  "lean": "D",
+  "confidence": 0.5,
+  "strength_label": "Tilt",
+  "net_margin": 0.0,
+  "reasoning": "There are no recent public opinion polls specifically on the 2026 Oregon U.S. Senate race in the last 45 days, but major forecasters and market-based indicators agree that Democrats are clearly favored, consistent with Oregon\u2019s strong Democratic lean.[2][9] For the presidential race, there is no new 2026-specific polling in the last 45 days; using statewide structure (Cook PVI) and Oregon\u2019s recent voting history, the state currently sits around D+10\u201315, so I treat it as approximately D+12 in partisan margin. Overall, structural fundamentals and available forecasting suggest the Senate and presidential environments in Oregon are strongly Democratic-leaning at this point, even though the competitive spotlight is more on the governor\u2019s race than on federal contests.[9]",
+  "as_of_date": "2026-08-06T09:26:29",
+  "cook_pvi": {
+    "party": "D",
+    "percentage_points": 13.0
+  },
+  "sources": [
+    {
+      "name": "PredictionEdge",
+      "link": "https://www.predictionedge.com/elections/us-senate/oregon-race-winner-by-party/",
+      "race_type": "senate",
+      "party": "D",
+      "margin": 0.0,
+      "details": "PredictionEdge\u2019s Oregon U.S. Senate page shows Democrats with roughly 96% implied odds to win the 2026 Senate race versus about 2% for Republicans, indicating a very strong Democratic advantage even though this is not a traditional poll margin.",
+      "date_range": "ongoing market, accessed July 2026",
+      "domain": "predictionedge.com",
+      "verified": true
+    },
+    {
+      "name": "Cook Political Report (via Central Oregon Daily News coverage)",
+      "link": "https://www.centraloregondaily.com/news/elections/oregon-governor-5th-district-cook-political-ratings-changes/article_597013e1-e272-4655-885c-9388a4068960.html",
+      "race_type": "senate",
+      "party": "D",
+      "margin": 0.0,
+      "details": "Cook Political Report rates the 2026 Oregon U.S. Senate race as Solid Democrat, with incumbent Sen. Jeff Merkley facing Republican David Brock Smith, signaling no meaningful chance of a Republican pickup under current conditions.",
+      "date_range": "rating as of July 10, 2026 (article published then)",
+      "domain": "centraloregondaily.com",
+      "verified": true
+    },
+    {
+      "name": "Public Opinion Strategies (reported by KTVZ/KTZV Decision 2026)",
+      "link": "https://ktvz.com/news/2026/07/11/decision-2026-survey-gives-drazan-a-slight-lead-over-kotek-in-oregon-governors-race/",
+      "race_type": "other_context",
+      "party": "R",
+      "margin": 4.0,
+      "details": "A Public Opinion Strategies poll of the 2026 Oregon governor\u2019s race found Republican Christine Drazan leading Democratic Gov. Tina Kotek 48%\u201344%, a 4-point GOP edge, illustrating how a strong Republican can make a statewide race competitive even in a Democratic-leaning state.",
+      "date_range": "June 22-24, 2026",
+      "domain": "ktvz.com",
+      "verified": true
+    },
+    {
+      "name": "PollsMax (governor race aggregation)",
+      "link": "https://www.pollsmax.com/governor/oregon/",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 0.8,
+      "details": "PollsMax\u2019s aggregation of 2026 Oregon governor polls shows a statewide average of 45.8% for the Democrat vs. 44.9% for the Republican, an overall margin of D+0.8, underscoring a very close but slightly Democratic-favored statewide environment.",
+      "date_range": "through June 24, 2026 (latest poll)",
+      "domain": "pollsmax.com",
+      "verified": true
+    },
+    {
+      "name": "Cook Political Report (via Central Oregon Daily News coverage)",
+      "link": "https://www.centraloregondaily.com/news/elections/oregon-governor-5th-district-cook-political-ratings-changes/article_597013e1-e272-4655-885c-9388a4068960.html",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 0.0,
+      "details": "Cook Political Report shifted the 2026 Oregon governor\u2019s race rating from Solid Democrat to Likely Democrat after new polling showed Christine Drazan ahead, indicating that while Oregon remains structurally Democratic, some statewide contests can be competitive.",
+      "date_range": "rating change on July 10, 2026",
+      "domain": "centraloregondaily.com",
+      "verified": true
+    }
+  ],
+  "abbreviation": "OR",
+  "_cached_at": "2026-08-06T09:26:29.117480"
+}

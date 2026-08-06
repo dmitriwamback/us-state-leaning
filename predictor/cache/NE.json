@@ -1,0 +1,84 @@
+{
+  "state": "Nebraska",
+  "mode": "senate_presidential_polling",
+  "lean": "R",
+  "confidence": 1.0,
+  "strength_label": "Strong",
+  "net_margin": -29.7,
+  "reasoning": "The only quantified recent data for Nebraska is the 2026 Senate polling average, which shows Pete Ricketts leading Dan Osborn by about 4\u20135 points, consistent with ratings that classify the race as Likely Republican.[1][4][11] There is no new polling for the presidential race in Nebraska in the last 45 days, and given Nebraska\u2019s R+21 Cook PVI and 2024 results, the structural environment is strongly Republican, so the current measurable margin is best described as roughly R+5 in the Senate race and structurally R+20+ for the presidential context.[1][4][6][14]",
+  "as_of_date": "2026-08-06T09:24:54",
+  "cook_pvi": {
+    "party": "R",
+    "percentage_points": 21.0
+  },
+  "sources": [
+    {
+      "name": "Newsweek (reporting Tavern Research)",
+      "link": "https://www.newsweek.com/map-shows-democrats-chances-in-key-senate-races-with-98-days-to-midterms-12249548",
+      "race_type": "senate",
+      "party": "D",
+      "margin": 5.0,
+      "details": "Tavern Research poll of likely voters found Osborn 47% and Ricketts 42% in a two-way Senate race, an Osborn +5 result in an R-leaning state.",
+      "date_range": "May 8-11, 2026",
+      "domain": "newsweek.com",
+      "verified": true
+    },
+    {
+      "name": "PollsMax",
+      "link": "https://www.pollsmax.com/senate/nebraska/",
+      "race_type": "senate",
+      "party": "R",
+      "margin": 4.7,
+      "details": "PollingMax aggregate of five 2026 Nebraska Senate polls shows Ricketts 48.4% and Osborn 43.7%, a Ricketts +4.7 average margin.",
+      "date_range": "Polls through July 6, 2026",
+      "domain": "pollsmax.com",
+      "verified": true
+    },
+    {
+      "name": "Ballotpedia summarizing Cook, Inside Elections, Sabato",
+      "link": "https://news.ballotpedia.org/2026/07/14/four-candidates-are-running-in-the-general-election-for-the-u-s-senate-in-nebraska-including-two-who-previously-ran-in-2024/",
+      "race_type": "senate",
+      "party": "R",
+      "margin": 0.0,
+      "details": "Cook Political Report, Inside Elections, and Sabato\u2019s Crystal Ball all rate the 2026 Nebraska Senate race as Likely Republican, indicating a modest but clear GOP advantage rather than a toss-up.",
+      "date_range": "As of July 7, 2026",
+      "domain": "news.ballotpedia.org",
+      "verified": true
+    },
+    {
+      "name": "BBC News",
+      "link": "https://www.bbc.com/news/election/2024/us/states/ne",
+      "race_type": "presidential",
+      "party": "R",
+      "margin": 20.0,
+      "details": "In the 2024 presidential election, Trump carried Nebraska by roughly 20 points, confirming the state\u2019s strong Republican lean at the presidential level.",
+      "date_range": "2024 general election",
+      "domain": "bbc.com",
+      "verified": true
+    },
+    {
+      "name": "Daily Kos (reporting 2024 results)",
+      "link": "https://www.dailykos.com/stories/2026/7/16/800058060/community/the-cornhusker-state-of-play-important-nebraska-races",
+      "race_type": "other_context",
+      "party": "R",
+      "margin": 6.7,
+      "details": "In the 2024 Nebraska Senate race, Republican Deb Fischer defeated independent Dan Osborn by about 6.7 points (53.2% to 46.5%), illustrating Osborn\u2019s prior performance in the state.",
+      "date_range": "2024 general election",
+      "domain": "dailykos.com",
+      "verified": false
+    },
+    {
+      "name": "Cook Political Report (via Ballotpedia)",
+      "link": "https://news.ballotpedia.org/2026/07/14/four-candidates-are-running-in-the-general-election-for-the-u-s-senate-in-nebraska-including-two-who-previously-ran-in-2024/",
+      "race_type": "other_context",
+      "party": "R",
+      "margin": 21.0,
+      "details": "Cook Partisan Voting Index lists Nebraska as R+21 statewide, reflecting a deep Republican structural advantage in federal races.",
+      "date_range": "State PVI published for this cycle",
+      "domain": "news.ballotpedia.org",
+      "verified": true
+    }
+  ],
+  "abbreviation": "NE",
+  "_cached_at": "2026-08-06T09:24:54.237791"
+}

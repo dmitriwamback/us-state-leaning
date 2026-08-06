@@ -100,12 +100,13 @@
             const data = await res.json();
 
             for (const [abbr, verdict] of Object.entries(data)) {
-                console.log(abbr + ' ' + verdict.lean)
-                setState(abbr, verdict.lean, verdict.confidence);
+                const lean = verdict.lean == 'Toss-up' ? verdict.cook_pvi.party : verdict.lean;
+                setState(abbr, lean, Math.min(verdict.cook_pvi.percentage_points/10.0, 1));
             }
 
             for (const [abbr, ev] of Object.entries(ELECTORAL_VOTES)) {
                 const verdict = data[abbr];
+                const lean = verdict.lean == 'Toss-up' ? verdict.cook_pvi.party : verdict.lean;
                 const entry = { abbr, name: STATE_NAMES[abbr], ev };
 
                 if (!verdict) {
@@ -114,13 +115,15 @@
                     continue;
                 }
 
-                if (verdict.lean === 'D') {
+                if (lean === 'D') {
                     demVotes += ev;
                     demStates.push({ ...entry, confidence: verdict.confidence, current_margin: verdict.current_margin });
-                } else if (verdict.lean === 'R') {
+                } 
+                else if (lean === 'R') {
                     repVotes += ev;
                     repStates.push({ ...entry, confidence: verdict.confidence, current_margin: verdict.current_margin });
-                } else {
+                } 
+                else {
                     tossUpVotes += ev;
                     tossUpStates.push({ ...entry, confidence: verdict.confidence, current_margin: verdict.current_margin });
                 }

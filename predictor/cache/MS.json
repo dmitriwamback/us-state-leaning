@@ -1,0 +1,95 @@
+{
+  "state": "Mississippi",
+  "mode": "senate_presidential_polling",
+  "lean": "R",
+  "confidence": 1.0,
+  "strength_label": "Lean",
+  "net_margin": -19.7,
+  "reasoning": "Recent public polling and aggregation for the 2026 Mississippi Senate race show Republican Sen. Cindy Hyde-Smith holding a mid\u2011single to high\u2011single\u2011digit lead over Democrat Scott Colom, consistent with Mississippi\u2019s strong Republican lean.[1][3][8] Structural ratings and prediction markets still classify the race as a safe or likely Republican hold, reflecting an underlying GOP advantage larger than the current measured polling margin.[4][9][14] Given the lack of Mississippi\u2011specific 2026 presidential polling in the last 45 days, the best current quantitative read is the Senate polling, which points to roughly an R+8\u20139 environment in the state for federal races right now.",
+  "as_of_date": "2026-08-06T09:24:18",
+  "cook_pvi": {
+    "party": "R",
+    "percentage_points": 12.0
+  },
+  "sources": [
+    {
+      "name": "Mississippi Today / Impact Research",
+      "link": "https://msindy.org/p/key-us-senate-democrat-says-mississippi",
+      "race_type": "senate",
+      "party": "R",
+      "margin": 3.0,
+      "details": "Impact Research poll found Cindy Hyde-Smith at 42%, Scott Colom at 39%, and Ty Pinkins at 6%, with 13% undecided, for an R+3 margin in the 2026 Mississippi Senate race.",
+      "date_range": "April 8-12, 2026",
+      "domain": "msindy.org",
+      "verified": true
+    },
+    {
+      "name": "Pollsmax",
+      "link": "https://www.pollsmax.com/senate/mississippi/",
+      "race_type": "senate",
+      "party": "R",
+      "margin": 8.7,
+      "details": "Pollsmax aggregation of two public polls for the 2026 Mississippi Senate election shows Cindy Hyde-Smith 49.6% and Scott Colom 40.9%, an R+8.7 polling average margin.",
+      "date_range": "Aggregate through July 3, 2026 (latest poll April 8-12, 2026)",
+      "domain": "pollsmax.com",
+      "verified": true
+    },
+    {
+      "name": "New York Times",
+      "link": "https://www.nytimes.com/interactive/2026/07/14/polls/senate-elections-voters-polls.html",
+      "race_type": "senate",
+      "party": "R",
+      "margin": 8.0,
+      "details": "New York Times interactive analysis of 2026 Senate polls lists Mississippi among states where Republican incumbents are favored and shows Hyde-Smith leading Colom by mid\u2011single to high\u2011single\u2011digit margins in compiled polling.",
+      "date_range": "Published July 14, 2026 (polls underlying the analysis are 2026 cycle polls)",
+      "domain": "nytimes.com",
+      "verified": true
+    },
+    {
+      "name": "PredictionMarketSpicks (summary of prediction market odds)",
+      "link": "https://predictionmarketspicks.com/midterms-2026/mississippi-senate",
+      "race_type": "other_context",
+      "party": "R",
+      "margin": 0.0,
+      "details": "Prediction market analysis describes the 2026 Mississippi Senate race as a safe Republican hold with Hyde-Smith heavily favored to win re-election.",
+      "date_range": "As of mid-July 2026",
+      "domain": "predictionmarketspicks.com",
+      "verified": true
+    },
+    {
+      "name": "Polymarket",
+      "link": "https://polymarket.com/event/mississippi-senate-election-margin-of-victory-first-round-20260804182229477",
+      "race_type": "other_context",
+      "party": "R",
+      "margin": 0.0,
+      "details": "Polymarket contract on Mississippi Senate margin of victory shows the leading outcomes as 'Republican 30%+' and 'Republican 20-25%' both at 44% implied probability, indicating markets expect a large GOP win even if current public polls are closer.",
+      "date_range": "As of early August 2026",
+      "domain": "polymarket.com",
+      "verified": true
+    },
+    {
+      "name": "Magnolia Tribune",
+      "link": "https://magnoliatribune.com/2026/07/17/mississippi-hasnt-elected-a-democrat-to-the-u-s-senate-since-1982-scott-colom-believes-he-will-change-that-in-november/",
+      "race_type": "senate",
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "Magnolia Tribune reports that Scott Colom\u2019s internal polling shows the race 'within the margin of error' but notes Mississippi\u2019s history of Republican overperformance versus polling in recent U.S. Senate races.",
+      "date_range": "Article published July 17, 2026 (discussing 2026 cycle polling)",
+      "domain": "magnoliatribune.com",
+      "verified": true
+    },
+    {
+      "name": "Cook Political Report PVI (cited in Wikipedia summary)",
+      "link": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Mississippi",
+      "race_type": "other_context",
+      "party": "R",
+      "margin": 12.0,
+      "details": "Cook Political Report\u2019s Partisan Voting Index rates Mississippi as R+12 statewide, indicating the state votes about 12 percentage points more Republican than the national average in recent presidential elections.",
+      "date_range": "Most recent statewide structural data (PVI, using elections through 2020)",
+      "domain": "en.wikipedia.org",
+      "verified": true
+    }
+  ],
+  "abbreviation": "MS",
+  "_cached_at": "2026-08-06T09:24:18.293762"
+}

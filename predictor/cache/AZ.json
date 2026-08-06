@@ -1,0 +1,29 @@
+{
+  "state": "Arizona",
+  "mode": "senate_presidential_polling",
+  "lean": "R",
+  "confidence": 0.8,
+  "strength_label": "Tilt",
+  "net_margin": -3.0,
+  "reasoning": "Arizona has no U.S. Senate race in 2026, so there is no current Senate margin to assess; the only relevant federal contest this cycle is the House and state-level races, not a Senate or presidential race.[15] Since the user specifically asked for Senate and/or presidential margins and there is neither a Senate nor presidential contest on the ballot in Arizona this year, there are no contemporaneous head\u2011to\u2011head polling margins (D+ or R+) to report for those offices in the last 45 days.[15] Structurally, Arizona\u2019s statewide Cook Partisan Voting Index is R+3, indicating a slight Republican lean relative to the nation in recent presidential voting, but that is not a current 2026 race margin.[15]",
+  "as_of_date": "2026-08-06T09:20:01",
+  "cook_pvi": {
+    "party": "R",
+    "percentage_points": 3.0
+  },
+  "sources": [
+    {
+      "name": "Yahoo News",
+      "link": "https://www.yahoo.com/news/politics/articles/arizona-primary-election-2026-polls-120101078.html",
+      "race_type": "other_context",
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "Article on the 2026 Arizona primary elections notes explicitly that there is no U.S. Senate race in Arizona this year, indicating that federal statewide attention is on other offices instead.",
+      "date_range": "N/A (cycle context, article published 2026-07-21)",
+      "domain": "yahoo.com",
+      "verified": true
+    }
+  ],
+  "abbreviation": "AZ",
+  "_cached_at": "2026-08-06T09:20:01.070417"
+}

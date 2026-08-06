@@ -1,0 +1,51 @@
+{
+  "state": "New Jersey",
+  "mode": "senate_presidential_polling",
+  "lean": "D",
+  "confidence": 1.0,
+  "strength_label": "Lean",
+  "net_margin": 18.8,
+  "reasoning": "New Jersey remains a strongly Democratic state structurally, with a Cook PVI of D+14. In the last 45 days, the most relevant race-specific public data I found was a Senate forecast projecting Cory Booker with a D+18.8 margin; I did not find a credible recent statewide presidential polling average for New Jersey in the supplied results.",
+  "as_of_date": "2026-08-06T09:25:21",
+  "cook_pvi": {
+    "party": "D",
+    "percentage_points": 14.0
+  },
+  "sources": [
+    {
+      "name": "PollsMax",
+      "link": "https://www.pollsmax.com/senate/new-jersey/forecast/",
+      "race_type": "senate",
+      "party": "D",
+      "margin": 18.8,
+      "details": "Forecast projects Cory Booker at 59.4% to 40.6%, implying a D+18.8 Senate margin and a 97% Democratic win probability.",
+      "date_range": "Last updated July 12, 2026",
+      "domain": "pollsmax.com",
+      "verified": true
+    },
+    {
+      "name": "PredictionHunt",
+      "link": "https://www.predictionhunt.com/news/booker-favored-to-hold-nj-senate-seat-as-market-jul-12-2026",
+      "race_type": "senate",
+      "party": "D",
+      "margin": 0.0,
+      "details": "Market aggregation story says Cory Booker is favored to hold the seat, and notes the GOP nominee won a fractured primary with 33% while implied win probabilities shifted sharply.",
+      "date_range": "2026 cycle context (no specific poll date shown in result)",
+      "domain": "predictionhunt.com",
+      "verified": true
+    },
+    {
+      "name": "Cook Political Report",
+      "link": "https://www.cookpolitical.com/",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 14.0,
+      "details": "Cook Partisan Voting Index for New Jersey is D+14, indicating a strong Democratic baseline.",
+      "date_range": "Structural state rating",
+      "domain": "cookpolitical.com",
+      "verified": false
+    }
+  ],
+  "abbreviation": "NJ",
+  "_cached_at": "2026-08-06T09:25:21.271184"
+}

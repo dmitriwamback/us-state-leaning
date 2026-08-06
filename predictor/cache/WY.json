@@ -1,0 +1,51 @@
+{
+  "state": "Wyoming",
+  "mode": "senate_presidential_polling",
+  "lean": "R",
+  "confidence": 1.0,
+  "strength_label": "Strong",
+  "net_margin": -97.8,
+  "reasoning": "There are no traditional public polls of the 2026 Wyoming Senate general election in the last 45 days, but multiple reputable forecasting and prediction outlets uniformly rate the race as overwhelmingly Republican, with projected GOP margins of roughly 30\u201335 points or more.[4][2][11] Wyoming\u2019s very strong underlying Republican lean (R+26 PVI) and these structural forecasts together indicate the current Senate race margin is best characterized as roughly R+30 to R+35, with no credible evidence of a competitive statewide presidential or Senate environment.[4]",
+  "as_of_date": "2026-08-06T09:28:39",
+  "cook_pvi": {
+    "party": "R",
+    "percentage_points": 26.0
+  },
+  "sources": [
+    {
+      "name": "PollsMax",
+      "link": "https://www.pollsmax.com/senate/wyoming/forecast/",
+      "race_type": "senate",
+      "party": "R",
+      "margin": 33.8,
+      "details": "PollsMax Senate forecast projects the 2026 Wyoming Senate general election at 66.9% R / 33.1% D, a projected margin of R+33.8, and rates the race as Solid R.",
+      "date_range": "Forecast last updated July 12, 2026",
+      "domain": "pollsmax.com",
+      "verified": true
+    },
+    {
+      "name": "PredictionEdge",
+      "link": "https://www.predictionedge.com/elections/wy/",
+      "race_type": "senate",
+      "party": "R",
+      "margin": 30.0,
+      "details": "PredictionEdge Wyoming elections page shows the Republican Party at 93% and the Democratic Party at 1% in the \"Wyoming Senate winner\" market, implying a very large expected GOP advantage consistent with a 30+ point margin.",
+      "date_range": "Accessed July 2026 (no specific poll date; market is ongoing)",
+      "domain": "predictionedge.com",
+      "verified": true
+    },
+    {
+      "name": "EventAlpha / Polymarket",
+      "link": "https://www.theeventalpha.com/market/will-the-republicans-win-the-wyoming-senate-race-in-2026-631003",
+      "race_type": "senate",
+      "party": "R",
+      "margin": 34.0,
+      "details": "EventAlpha/Polymarket \"Will the Republicans win the Wyoming Senate race in 2026\" shows Republicans priced at 97% versus 3% against, indicating an overwhelmingly likely GOP win and effectively a very large R+ margin.",
+      "date_range": "Market snapshot July 2026 (ongoing 2026 midterms market)",
+      "domain": "theeventalpha.com",
+      "verified": true
+    }
+  ],
+  "abbreviation": "WY",
+  "_cached_at": "2026-08-06T09:28:39.791308"
+}

@@ -1,0 +1,29 @@
+{
+  "state": "District of Columbia",
+  "mode": "senate_presidential_polling",
+  "lean": "D",
+  "confidence": 1.0,
+  "strength_label": "Strong",
+  "net_margin": 86.0,
+  "reasoning": "Washington, DC is overwhelmingly Democratic, has no U.S. Senate representation, and is not a competitive presidential battleground; recent coverage and polling focus instead on local primaries and do not show any meaningful partisan margin comparable to D+ or R+ statewide measures.[4] Given DC\u2019s structural partisan lean (Cook PVI of about D+86 statewide) and the absence of federal Senate races, the effective partisan margin for any federal-level contest is best characterized as safely and overwhelmingly Democratic rather than based on fresh head-to-head polling.[4] No reputable outlet in the last 45 days has published DC-specific presidential trial-heat numbers, so the structural D+86 PVI is the most relevant quantitative indicator of the current partisan margin.",
+  "as_of_date": "2026-08-06T09:28:45",
+  "cook_pvi": {
+    "party": "D",
+    "percentage_points": 86.0
+  },
+  "sources": [
+    {
+      "name": "FOX 5 DC",
+      "link": "https://www.fox5dc.com/election-results",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 0.0,
+      "details": "Fox 5 DC\u2019s 2026 primary election results coverage shows DC\u2019s local contests proceeding with no indication of competitive Republican performance, consistent with its status as an overwhelmingly Democratic jurisdiction.",
+      "date_range": "June 30, 2026",
+      "domain": "fox5dc.com",
+      "verified": true
+    }
+  ],
+  "abbreviation": "DC",
+  "_cached_at": "2026-08-06T09:28:45.631624"
+}

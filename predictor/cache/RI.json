@@ -1,0 +1,40 @@
+{
+  "state": "Rhode Island",
+  "mode": "senate_presidential_polling",
+  "lean": "D",
+  "confidence": 1.0,
+  "strength_label": "Lean",
+  "net_margin": 17.3,
+  "reasoning": "Rhode Island\u2019s statewide Cook PVI is D+14, indicating a strong Democratic lean. In the last 45 days, the only directly relevant race-specific source found was a Senate forecast showing the Democrat ahead by a substantial margin; no credible, recent presidential race polling for Rhode Island appeared in the results, and Rhode Island is not a competitive presidential battleground this cycle.",
+  "as_of_date": "2026-08-06T09:26:43",
+  "cook_pvi": {
+    "party": "D",
+    "percentage_points": 14.0
+  },
+  "sources": [
+    {
+      "name": "Pollsmax Rhode Island Senate Forecast",
+      "link": "https://www.pollsmax.com/senate/rhode-island/forecast/",
+      "race_type": "senate",
+      "party": "D",
+      "margin": 17.3,
+      "details": "Forecast rates the Rhode Island Senate race as Solid D with a projected Democratic margin of D+32.4 and a polling average of D+17.3 based on two polls.",
+      "date_range": "Updated July 6, 2026; polling average from polls through July 6, 2026",
+      "domain": "pollsmax.com",
+      "verified": true
+    },
+    {
+      "name": "Cook Partisan Voting Index",
+      "link": "https://www.cookpolitical.com/cook-pvi",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 14.0,
+      "details": "Cook Political Report\u2019s statewide PVI for Rhode Island is D+14, showing the state\u2019s underlying Democratic advantage.",
+      "date_range": "2025-2026",
+      "domain": "cookpolitical.com",
+      "verified": false
+    }
+  ],
+  "abbreviation": "RI",
+  "_cached_at": "2026-08-06T09:26:43.470729"
+}

@@ -1,0 +1,150 @@
+{
+  "state": "Montana",
+  "mode": "senate_presidential_polling",
+  "lean": "R",
+  "confidence": 1.0,
+  "strength_label": "Strong",
+  "net_margin": -113.4,
+  "reasoning": "Recent public and private polling over the last ~45 days consistently shows Republican Kurt Alme leading in the 2026 Montana Senate race, particularly in the current multi\u2011candidate configuration where Democrat Alani Bankhead and independent Seth Bodnar split the anti\u2011Republican vote. In full-field three- or four-way scenarios, Alme typically leads by mid- to high double digits (roughly R+15 to R+25), while a hypothetical consolidated anti\u2011Alme field (especially Bodnar vs. Alme head\u2011to\u2011head) produces much smaller Republican leads or even a narrow Bodnar advantage, implying a structural environment around R+10\u2013R+15 but a current effective margin closer to **R+20** under existing ballot conditions.",
+  "as_of_date": "2026-08-06T09:24:43",
+  "cook_pvi": {
+    "party": "R",
+    "percentage_points": 11.0
+  },
+  "sources": [
+    {
+      "name": "Breitbart summarizing GrayHouse Poll",
+      "link": "https://www.breitbart.com/politics/2026/07/26/exclusive-independent-seth-bodnar-weighing-exit-montana-senate-race-bankhead-refuses-dropout/",
+      "race_type": "senate",
+      "party": "R",
+      "margin": 16.0,
+      "details": "GrayHouse poll of likely voters finds Alme at 41%, Bankhead 25%, Bodnar 17% in a three-way, implying roughly an R+16 lead over the nearest opponent.",
+      "date_range": "June 23-24, 2026",
+      "domain": "breitbart.com",
+      "verified": true
+    },
+    {
+      "name": "PollsMax Montana Senate Forecast",
+      "link": "https://www.pollsmax.com/senate/montana/forecast/",
+      "race_type": "senate",
+      "party": "R",
+      "margin": 4.0,
+      "details": "PollsMax forecast using Tavern Research head\u2011to\u2011head polling shows a statewide Senate polling average of 52.0% R to 48.0% I, an R+4 environment in that two-way configuration.",
+      "date_range": "May 18, 2026 (average updated June 29, 2026)",
+      "domain": "pollsmax.com",
+      "verified": true
+    },
+    {
+      "name": "PollsMax Montana Senate Polling Average",
+      "link": "https://www.pollsmax.com/senate/montana/",
+      "race_type": "senate",
+      "party": "R",
+      "margin": 21.4,
+      "details": "PollsMax aggregate of Montana Senate polling with Bodnar as the main non\u2011Republican shows 41.9% R to 20.4% I, an R+21.4 average in that framing, though Democrats are not modeled as the principal alternative.",
+      "date_range": "June 24, 2026 (average updated July 8, 2026)",
+      "domain": "pollsmax.com",
+      "verified": true
+    },
+    {
+      "name": "Bullfinch poll as reported by Polling USA",
+      "link": "https://x.com/USA_Polling/status/2082119930527314144",
+      "race_type": "senate",
+      "party": "R",
+      "margin": 12.0,
+      "details": "Bullfinch survey of likely voters reports Alme 36%, Bodnar 24%, Bankhead 22% in a three-way contest, implying approximately an R+12 lead over the nearest non\u2011Republican.",
+      "date_range": "July 16, 2026",
+      "domain": "x.com",
+      "verified": true
+    },
+    {
+      "name": "Tavern Research Montana Senate Poll",
+      "link": "https://x.com/PollTracker2024/status/2081852925245030765",
+      "race_type": "senate",
+      "party": "R",
+      "margin": 24.0,
+      "details": "Tavern Research poll finds Alme at 49%, Bodnar 25%, Bankhead 24%, Austin 2% in a full-field race, amounting to an R+24 advantage over the nearest opponent; head\u2011to\u2011head tests show Alme 51\u201349 vs Bodnar and 59\u201341 vs Bankhead.",
+      "date_range": "July 23-27, 2026",
+      "domain": "x.com",
+      "verified": true
+    },
+    {
+      "name": "Independent Center Voice & Independent Leadership Council Survey",
+      "link": "https://independentcentervoice.com/insights/july-2026-statewide-survey-montana-s-u-s-senate-race",
+      "race_type": "senate",
+      "party": "R",
+      "margin": 12.0,
+      "details": "Independent Center Voice / Independent Leadership Council benchmark survey of 793 likely voters finds Alme 36%, Bodnar 24%, Bankhead 22% with 17% unsure, mirroring the Bullfinch pattern and suggesting an R+12 lead.",
+      "date_range": "Late July 2026 (exact dates not specified)",
+      "domain": "independentcentervoice.com",
+      "verified": true
+    },
+    {
+      "name": "Washington Reporter summary of NRSC Montana Senate Poll",
+      "link": "https://washingtonreporter.news/exclusive-polling-and-democratic-infighting-give-republican-kurt-alme-early-lead-in-montana-senate-race/",
+      "race_type": "senate",
+      "party": "R",
+      "margin": 15.0,
+      "details": "NRSC internal polling obtained by Washington Reporter shows Alme at 45%, Bankhead 30%, Bodnar 15% in a three-way (R+15 over Bankhead) and finds Alme leading 49\u201346 vs Bankhead and 50\u201343 vs Bodnar in separate head\u2011to\u2011head matchups.",
+      "date_range": "Late July 2026 (NRSC internal, reported July 26, 2026)",
+      "domain": "washingtonreporter.news",
+      "verified": true
+    },
+    {
+      "name": "Breitbart summary of NRSC Montana Senate Poll",
+      "link": "https://www.breitbart.com/politics/2026/07/26/exclusive-independent-seth-bodnar-weighing-exit-montana-senate-race-bankhead-refuses-dropout/",
+      "race_type": "senate",
+      "party": "R",
+      "margin": 15.0,
+      "details": "Breitbart story on Bodnar\u2019s potential exit recaps the same NRSC polling: Alme 45%, Bankhead 30%, Bodnar 15% in a three-way and Alme ahead of both Bankhead and Bodnar in head\u2011to\u2011head tests, reinforcing an R+15 multi\u2011candidate margin.",
+      "date_range": "Late July 2026 (NRSC internal, described July 26, 2026)",
+      "domain": "breitbart.com",
+      "verified": true
+    },
+    {
+      "name": "Strength In Numbers Montana Senate Poll (reported by G. Elliott Morris)",
+      "link": "https://www.gelliottmorris.com/p/2026-07-28-exclusive-independent-leads-democrat-against-republican-montana",
+      "race_type": "senate",
+      "party": "D",
+      "margin": 6.0,
+      "details": "Strength In Numbers / G. Elliott Morris\u2013reported poll finds Bodnar would lead Alme 50\u201344 in a head\u2011to\u2011head, while Bankhead would lose 44\u201352; in the current four\u2011way race Alme still wins with 41%, illustrating that consolidation is required to erase Alme\u2019s advantage.",
+      "date_range": "Poll conducted July 2026, reported July 28, 2026",
+      "domain": "gelliottmorris.com",
+      "verified": true
+    },
+    {
+      "name": "Daily Montanan overview of Montana Senate polling",
+      "link": "https://dailymontanan.com/2026/07/24/independent-earns-progressive-endorsements-in-montana-senate-race/",
+      "race_type": "other_context",
+      "party": "R",
+      "margin": 10.0,
+      "details": "Daily Montanan synthesis of limited polling notes Alme is \"almost assured to win by double digits\" in three\u2011way scenarios, with Bankhead only slightly ahead of Bodnar and analysts rating the seat Solid Republican.",
+      "date_range": "Late July 2026 (described July 24, 2026)",
+      "domain": "dailymontanan.com",
+      "verified": true
+    },
+    {
+      "name": "Flathead Beacon synthesis of Montana Senate polling",
+      "link": "https://flatheadbeacon.com/2026/08/05/behind-the-push-to-clear-the-field-in-montanas-senate-race/",
+      "race_type": "other_context",
+      "party": "EVEN",
+      "margin": 8.0,
+      "details": "Flathead Beacon reports internal and public surveys showing Bankhead and Bodnar splitting around 45\u201349% while Alme hovers just above 40%, implying that with consolidation the race could tighten to mid\u2011single digits but that the current split maintains a comfortable GOP edge.",
+      "date_range": "Polls through July 2026, article August 5, 2026",
+      "domain": "flatheadbeacon.com",
+      "verified": true
+    },
+    {
+      "name": "Cook Political Report PVI \u2013 Montana",
+      "link": "https://www.cookpolitical.com/pvi-map-and-district-list",
+      "race_type": "other_context",
+      "party": "R",
+      "margin": 11.0,
+      "details": "Cook Political Report\u2019s Partisan Voting Index rates Montana as R+11 statewide, indicating a structurally Republican-leaning environment in federal races.",
+      "date_range": "Various 2024 elections; structural rating current as of 2024 cycle",
+      "domain": "cookpolitical.com",
+      "verified": false
+    }
+  ],
+  "abbreviation": "MT",
+  "_cached_at": "2026-08-06T09:24:43.076449"
+}

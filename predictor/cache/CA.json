@@ -1,0 +1,29 @@
+{
+  "state": "California",
+  "mode": "senate_presidential_polling",
+  "lean": "D",
+  "confidence": 1.0,
+  "strength_label": "Strong",
+  "net_margin": 23.0,
+  "reasoning": "California\u2019s statewide Cook Partisan Voting Index is D+23. I did not find a qualifying Senate or presidential poll/news item for California in the last 45 days among the provided results, so there is no current race margin I can responsibly report from the allowed source set.",
+  "as_of_date": "2026-08-06T09:20:22",
+  "cook_pvi": {
+    "party": "D",
+    "percentage_points": 23.0
+  },
+  "sources": [
+    {
+      "name": "Cook Political Report",
+      "link": "https://www.cookpolitical.com/cook-partisan-voting-index",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 23.0,
+      "details": "Cook Partisan Voting Index for California is listed as D+23, indicating a strong Democratic lean relative to the nation.",
+      "date_range": "Structural index (current statewide rating)",
+      "domain": "cookpolitical.com",
+      "verified": false
+    }
+  ],
+  "abbreviation": "CA",
+  "_cached_at": "2026-08-06T09:20:22.879647"
+}

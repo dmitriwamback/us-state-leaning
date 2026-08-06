@@ -1,0 +1,73 @@
+{
+  "state": "Louisiana",
+  "mode": "senate_presidential_polling",
+  "lean": "R",
+  "confidence": 1.0,
+  "strength_label": "Strong",
+  "net_margin": -58.0,
+  "reasoning": "Within the last 45 days, there are no public head-to-head general-election polls for the Louisiana Senate or presidential race; instead, we have structural and market-based indicators that consistently show Republicans heavily favored statewide. Prediction markets and synthesized odds place the chance of a Republican Senate win in the mid\u201190% range, and market pricing for the eventual margin suggests a likely GOP victory well into double digits, so the best current estimate is that the statewide Senate environment is roughly R+15\u201320, consistent with Louisiana\u2019s R+12 PVI and the lack of competitive polling for Democrats.[3][9][12][16]",
+  "as_of_date": "2026-08-06T09:22:58",
+  "cook_pvi": {
+    "party": "R",
+    "percentage_points": 12.0
+  },
+  "sources": [
+    {
+      "name": "MasterPredictionMarkets (summarizing Polymarket)",
+      "link": "https://masterpredictionmarkets.com/odds/will-the-democrats-win-the-louisiana-senate-race-in-2026/",
+      "race_type": "senate",
+      "party": "R",
+      "margin": 20.0,
+      "details": "MasterPredictionMarkets summarizes Polymarket pricing, reporting that as of July 17, 2026, the market gives Democrats a 7.5% chance and Republicans a 92.5% chance to win the Louisiana Senate race, implying a strongly Republican-leaning contest.",
+      "date_range": "July 15-17, 2026",
+      "domain": "masterpredictionmarkets.com",
+      "verified": true
+    },
+    {
+      "name": "WorldEventTrading (summarizing Polymarket)",
+      "link": "https://www.worldeventtrading.com/predictions/louisiana-senate-election-winner-odds-2026-11-03",
+      "race_type": "senate",
+      "party": "R",
+      "margin": 18.0,
+      "details": "WorldEventTrading reports that as of July 15, 2026, Polymarket implies a 94% chance that the Republican wins the Louisiana Senate race, reinforcing that the race is structurally very favorable to the GOP.",
+      "date_range": "July 15, 2026",
+      "domain": "worldeventtrading.com",
+      "verified": true
+    },
+    {
+      "name": "Polymarket (via WorldEventTrading/market page)",
+      "link": "https://polymarket.com/event/louisiana-senate-margin-of-victory-2026",
+      "race_type": "senate",
+      "party": "R",
+      "margin": 20.0,
+      "details": "Polymarket\u2019s specific \"Louisiana Senate Election Margin of Victory\" market shows the leading outcomes as Republican winning by 35%+ and by 30\u201335%, each priced around 43%, indicating expectations of a very large GOP margin rather than a close race.",
+      "date_range": "July 2026 (ongoing market)",
+      "domain": "polymarket.com",
+      "verified": true
+    },
+    {
+      "name": "WBRZ",
+      "link": "https://www.wbrz.com/news/u-s-senate-candidates-open-13-week-sprint-to-show-off-credentials-to-louisiana-voters/",
+      "race_type": "senate",
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "WBRZ coverage of the Senate runoff notes recent mixed polling between Republican candidates Letlow and Fleming and describes the ensuing general-election campaign, but does not present any public general-election head\u2011to\u2011head polling against the Democratic nominee.",
+      "date_range": "June 2026 (context, not head-to-head)",
+      "domain": "wbrz.com",
+      "verified": true
+    },
+    {
+      "name": "Cook Political Report PVI",
+      "link": "https://www.cookpolitical.com/pvi-map-and-list",
+      "race_type": "other_context",
+      "party": "R",
+      "margin": 0.0,
+      "details": "Cook Political Report\u2019s Partisan Voting Index lists Louisiana as R+12 statewide, indicating the state votes about 12 percentage points more Republican than the national average in recent presidential elections, which shapes expectations for both Senate and presidential margins.",
+      "date_range": "Cook PVI as of 2024 cycle (structural index)",
+      "domain": "cookpolitical.com",
+      "verified": false
+    }
+  ],
+  "abbreviation": "LA",
+  "_cached_at": "2026-08-06T09:22:58.740438"
+}

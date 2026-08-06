@@ -1,0 +1,29 @@
+{
+  "state": "Delaware",
+  "mode": "senate_presidential_polling",
+  "lean": "D",
+  "confidence": 1.0,
+  "strength_label": "Strong",
+  "net_margin": 26.0,
+  "reasoning": "Delaware is a strongly Democratic state, with a statewide Cook Partisan Voting Index of D+26. In the last 45 days, the search results did not surface any credible Delaware general-election Senate or presidential polls from approved pollsters or forecasters; the available Delaware items were about the Republican Senate primary or unrelated national context, so there is no defensible current general-election margin to report from the requested source set.",
+  "as_of_date": "2026-08-06T09:20:45",
+  "cook_pvi": {
+    "party": "D",
+    "percentage_points": 26.0
+  },
+  "sources": [
+    {
+      "name": "Cook Political Report",
+      "link": "https://www.cookpolitical.com/2024-national-pvi-map",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 26.0,
+      "details": "Statewide Cook Partisan Voting Index for Delaware is D+26.",
+      "date_range": "Current structural rating",
+      "domain": "cookpolitical.com",
+      "verified": false
+    }
+  ],
+  "abbreviation": "DE",
+  "_cached_at": "2026-08-06T09:20:45.813720"
+}

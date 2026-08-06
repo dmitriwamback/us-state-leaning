@@ -1,0 +1,40 @@
+{
+  "state": "North Dakota",
+  "mode": "senate_presidential_polling",
+  "lean": "R",
+  "confidence": 1.0,
+  "strength_label": "Strong",
+  "net_margin": -30.0,
+  "reasoning": "There are no credible polls or forecaster updates specific to North Dakota\u2019s 2026 Senate or presidential races within the last 45 days from the required outlet types, and no major outlet is currently treating North Dakota as competitive in either race. Given that North Dakota is structurally very Republican (R+20 PVI) and lacks any recent polling showing a contest, the effective current margin is best characterized as strongly Republican (roughly R+20 or greater), driven by baseline partisanship rather than fresh polling. The sources below provide contextual national and structural information but do not alter the expectation that North Dakota is safely Republican at this stage.",
+  "as_of_date": "2026-08-06T09:25:48",
+  "cook_pvi": {
+    "party": "R",
+    "percentage_points": 20.0
+  },
+  "sources": [
+    {
+      "name": "BBC News \u2013 US Election 2024: North Dakota",
+      "link": "https://www.bbc.com/news/election/2024/us/states/nd",
+      "race_type": "presidential",
+      "party": "R",
+      "margin": 30.0,
+      "details": "BBC\u2019s 2024 U.S. election state page shows North Dakota voting decisively for Donald Trump over Kamala Harris, reinforcing its strong Republican alignment in recent presidential voting.",
+      "date_range": "2024 cycle, statewide result",
+      "domain": "bbc.com",
+      "verified": true
+    },
+    {
+      "name": "Cook Political Report \u2013 Partisan Voting Index (North Dakota)",
+      "link": "https://www.cookpolitical.com/pvi-map-and-district-list",
+      "race_type": "other_context",
+      "party": "R",
+      "margin": 0.0,
+      "details": "Cook Political Report\u2019s Partisan Voting Index lists North Dakota\u2019s statewide PVI as R+20, indicating the state historically votes about 20 points more Republican than the national average in presidential races.",
+      "date_range": "Most recent Cook PVI publication covering 2024 cycle",
+      "domain": "cookpolitical.com",
+      "verified": false
+    }
+  ],
+  "abbreviation": "ND",
+  "_cached_at": "2026-08-06T09:25:48.167376"
+}
