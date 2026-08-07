@@ -8,7 +8,7 @@
 <ul>
     <li>C++ and Emscripten for WebGL (To visualize a 3D United States map, with thickness of states representing the electoral votes).</li>
     <li>Python Flask server for prediction (takes all demographic, polling, and news data to make an assumption of how states will vote).</li>
-    <li>Google Perplexity Sonar Pro Model to scrape the web for relevant data.</li>
+    <li>Perplexity Sonar Pro Model to scrape the web for relevant data.</li>
     <li>Svelte and JavaScript for the front end.</li>
 </ul>
 
@@ -24,3 +24,5 @@
     <li>1. <code>python app.py</code> in the predictor directory.</li>
     <li>2. <code>npm run dev</code> in the repo directory.</li>
 </ul>
+
+### Additional disclaimer: This app does not account for Maine's and Nebraska's individual electoral districts.
