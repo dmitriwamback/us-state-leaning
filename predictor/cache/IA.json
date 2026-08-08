@@ -2,62 +2,62 @@
   "state": "Iowa",
   "mode": "senate_presidential_polling",
   "lean": "Toss-up",
-  "confidence": 0.275,
+  "confidence": 0.017,
   "strength_label": "Toss-up",
-  "net_margin": -2.75,
+  "net_margin": -0.17,
   "based_on": "sources",
-  "reasoning": "Recent Iowa Senate polling from the last 45 days shows a very close race, with Emerson College/Nexstar giving Ashley Hinson a small lead and aggregate trackers still placing the contest in the low single digits. I could not find any current-cycle Iowa presidential poll from the last 45 days that specifically measures Iowa\u2019s electorate for the 2026 general election, so the answer is based on Senate polling plus Iowa\u2019s structural lean.",
-  "as_of_date": "2026-08-08T11:44:18",
+  "reasoning": "Recent state-specific polling in Iowa\u2019s 2026 U.S. Senate race shows a very close contest, with the latest Emerson College poll giving Republican Ashley Hinson a 2.5-point lead over Democrat Josh Turek and the NYT/Siena poll giving Hinson a 2-point lead; an earlier Fox News/Beacon poll had Turek ahead by 4 points, so the race is best described as currently R+ about 2 to 3 points. Iowa\u2019s statewide Cook PVI is R+6, which provides the structural Republican lean behind that polling picture.",
+  "as_of_date": "2026-08-08T18:37:45",
   "cook_pvi": {
     "party": "R",
-    "percentage_points": 4.0
+    "percentage_points": 6.0
   },
   "sources": [
     {
-      "name": "Emerson College / Nexstar Media poll (reported by CBS2 Iowa)",
-      "link": "https://cbs2iowa.com/news/local/both-us-senate-campaigns-turn-up-the-heat-after-poll-shows-tight-race",
+      "name": "Emerson College Polling/Nexstar via CBS2 Iowa",
+      "link": "https://cbs2iowa.com/news/local/both-us-senate-campaigns-turn-up-the-heat-after-poll-shows-tight-race?teaserSource=trending",
       "race_type": "senate",
       "party": "R",
       "margin": 2.5,
-      "details": "Emerson College/Nexstar found Ashley Hinson at 47.5% and Josh Turek at 45.0% among 712 likely voters, with 6.1% undecided and 1.4% for someone else.",
-      "date_range": "August 2-4, 2026",
+      "details": "Emerson College Polling/Nexstar survey of 712 likely Iowa voters found Ashley Hinson at 47.5% and Josh Turek at 45.0%, a Hinson lead within the margin of error.",
+      "date_range": "Aug. 2-4, 2026",
       "domain": "cbs2iowa.com",
       "verified": true
     },
     {
-      "name": "The Hill report on Emerson College / Nexstar poll",
+      "name": "New York Times / Siena College via The Hill",
       "link": "https://thehill.com/homenews/campaign/6012287-sand-hinson-lead-iowa-races/",
       "race_type": "senate",
       "party": "R",
-      "margin": 3.0,
-      "details": "The Hill reported the same Emerson College/Nexstar survey showing Hinson ahead of Turek 48% to 45% in the Iowa Senate race.",
-      "date_range": "August 2-4, 2026",
+      "margin": 2.0,
+      "details": "The New York Times/Siena College poll of 600 likely Iowa voters found Ashley Hinson ahead of Josh Turek 48% to 46%.",
+      "date_range": "June 15-27, 2026",
       "domain": "thehill.com",
       "verified": true
     },
     {
-      "name": "PollsMax Iowa Senate polling average",
-      "link": "https://www.pollsmax.com/senate/iowa/",
-      "race_type": "other_context",
-      "party": "R",
-      "margin": 2.9,
-      "details": "PollsMax\u2019s Iowa Senate average shows 45.1% for the Democrat and 48.0% for the Republican, for an aggregate Republican lead of 2.9 points.",
-      "date_range": "August 3, 2026 (updated)",
-      "domain": "pollsmax.com",
+      "name": "Fox News / Beacon Research via The Hill",
+      "link": "https://thehill.com/homenews/campaign/6012287-sand-hinson-lead-iowa-races/",
+      "race_type": "senate",
+      "party": "D",
+      "margin": 4.0,
+      "details": "Fox News/Beacon Research poll of 1,003 registered voters found Josh Turek ahead of Ashley Hinson 50% to 46%.",
+      "date_range": "June 23-27, 2026",
+      "domain": "thehill.com",
       "verified": true
     },
     {
-      "name": "PollsMax Iowa Senate forecast",
+      "name": "Pollsmax Iowa Senate Forecast",
       "link": "https://www.pollsmax.com/senate/iowa/forecast/",
       "race_type": "other_context",
       "party": "R",
       "margin": 3.6,
-      "details": "PollsMax forecast page shows a slightly larger Republican polling average lead of 3.6 points, using nine polls in the average.",
-      "date_range": "August 8, 2026 (updated)",
+      "details": "Polling average across recent Iowa Senate polls shows Ashley Hinson ahead by 3.6 points.",
+      "date_range": "Updated Aug. 8, 2026",
       "domain": "pollsmax.com",
       "verified": true
     }
   ],
   "abbreviation": "IA",
-  "_cached_at": "2026-08-08T11:44:18.055373"
+  "_cached_at": "2026-08-08T18:37:45.650604"
 }

@@ -91,7 +91,7 @@ if (ENVIRONMENT_IS_NODE) {
 
 // --pre-jses are emitted after the Module integration code, so that they can
 // refer to Module (if they choose; they can also define Module)
-// include: /var/folders/rw/2s4mw7x558n64mzbmd71hlnr0000gn/T/tmpx631fz1v.js
+// include: /var/folders/rw/2s4mw7x558n64mzbmd71hlnr0000gn/T/tmpthtsksu8.js
 
   if (!Module['expectedDataFileDownloads']) Module['expectedDataFileDownloads'] = 0;
   Module['expectedDataFileDownloads']++;
@@ -219,21 +219,21 @@ Module['FS_createPath']("/", "state-models", true, true);
 
   })();
 
-// end include: /var/folders/rw/2s4mw7x558n64mzbmd71hlnr0000gn/T/tmpx631fz1v.js
-// include: /var/folders/rw/2s4mw7x558n64mzbmd71hlnr0000gn/T/tmp_0rwocjs.js
+// end include: /var/folders/rw/2s4mw7x558n64mzbmd71hlnr0000gn/T/tmpthtsksu8.js
+// include: /var/folders/rw/2s4mw7x558n64mzbmd71hlnr0000gn/T/tmp31kpouhd.js
 
     // All the pre-js content up to here must remain later on, we need to run
     // it.
     if ((typeof ENVIRONMENT_IS_WASM_WORKER != 'undefined' && ENVIRONMENT_IS_WASM_WORKER) || (typeof ENVIRONMENT_IS_PTHREAD != 'undefined' && ENVIRONMENT_IS_PTHREAD) || (typeof ENVIRONMENT_IS_AUDIO_WORKLET != 'undefined' && ENVIRONMENT_IS_AUDIO_WORKLET)) Module['preRun'] = [];
     var necessaryPreJSTasks = Module['preRun'].slice();
-  // end include: /var/folders/rw/2s4mw7x558n64mzbmd71hlnr0000gn/T/tmp_0rwocjs.js
-// include: /var/folders/rw/2s4mw7x558n64mzbmd71hlnr0000gn/T/tmpq16mha7k.js
+  // end include: /var/folders/rw/2s4mw7x558n64mzbmd71hlnr0000gn/T/tmp31kpouhd.js
+// include: /var/folders/rw/2s4mw7x558n64mzbmd71hlnr0000gn/T/tmpvn5ph6le.js
 
     if (!Module['preRun']) throw 'Module.preRun should exist because file support used it; did a pre-js delete it?';
     necessaryPreJSTasks.forEach((task) => {
       if (Module['preRun'].indexOf(task) < 0) throw 'All preRun tasks that exist before user pre-js code should remain after; did you replace Module or modify Module.preRun?';
     });
-  // end include: /var/folders/rw/2s4mw7x558n64mzbmd71hlnr0000gn/T/tmpq16mha7k.js
+  // end include: /var/folders/rw/2s4mw7x558n64mzbmd71hlnr0000gn/T/tmpvn5ph6le.js
 
 
 var programArgs = [];
@@ -1359,7 +1359,7 @@ var UTF8Decoder = globalThis.TextDecoder && new TextDecoder();
             } catch (e) {
               throw new FS.ErrnoError(29);
             }
-            if (result === undefined && bytesRead === 0) {
+            if (result === undefined && !bytesRead) {
               throw new FS.ErrnoError(6);
             }
             if (result === null || result === undefined) break;
@@ -1673,10 +1673,10 @@ var UTF8Decoder = globalThis.TextDecoder && new TextDecoder();
           node.mtime = node.ctime = Date.now();
   
           if (canOwn) {
-            assert(position === 0, 'canOwn must imply no weird position inside the file');
+            assert(!position, 'canOwn must imply no weird position inside the file');
             node.contents = buffer.subarray(offset, offset + length);
             node.usedBytes = length;
-          } else if (node.usedBytes === 0 && position === 0) { // If this is a simple first write to an empty file, do a fast set since we don't need to care about old data.
+          } else if (!node.usedBytes && !position) { // If this is a simple first write to an empty file, do a fast set since we don't need to care about old data.
             node.contents = buffer.slice(offset, offset + length);
             node.usedBytes = length;
           } else {
@@ -1985,7 +1985,7 @@ var UTF8Decoder = globalThis.TextDecoder && new TextDecoder();
       assert(id, 'addRunDependency requires an ID')
       assert(!runDependencyTracking[id]);
       runDependencyTracking[id] = 1;
-      if (runDependencyWatcher === null && globalThis.setInterval) {
+      if (!runDependencyWatcher && globalThis.setInterval) {
         // Check for missing dependencies every few seconds
         runDependencyWatcher = setInterval(() => {
           if (ABORT) {
@@ -3240,8 +3240,8 @@ var UTF8Decoder = globalThis.TextDecoder && new TextDecoder();
         // to write to file opened in read-only mode with MAP_PRIVATE flag,
         // as all modifications will be visible only in the memory of
         // the current process.
-        if ((prot & 2) !== 0
-            && (flags & 2) === 0
+        if ((prot & 2)
+            && !(flags & 2)
             && (stream.flags & 2097155) !== 2) {
           throw new FS.ErrnoError(2);
         }
@@ -3334,7 +3334,7 @@ var UTF8Decoder = globalThis.TextDecoder && new TextDecoder();
         // use a buffer to avoid overhead of individual crypto calls per byte
         var randomBuffer = new Uint8Array(1024), randomLeft = 0;
         var randomByte = () => {
-          if (randomLeft === 0) {
+          if (!randomLeft) {
             randomFill(randomBuffer);
             randomLeft = randomBuffer.byteLength;
           }
@@ -3550,7 +3550,7 @@ var UTF8Decoder = globalThis.TextDecoder && new TextDecoder();
               } catch (e) {
                 throw new FS.ErrnoError(29);
               }
-              if (result === undefined && bytesRead === 0) {
+              if (result === undefined && !bytesRead) {
                 throw new FS.ErrnoError(6);
               }
               if (result === null || result === undefined) break;
@@ -4246,7 +4246,7 @@ var UTF8Decoder = globalThis.TextDecoder && new TextDecoder();
       },
   MAX_TEMP_BUFFER_SIZE:2097152,
   numTempVertexBuffersPerSize:64,
-  log2ceilLookup:(i) => 32 - Math.clz32(i === 0 ? 0 : i - 1),
+  log2ceilLookup:(i) => 32 - Math.clz32(i ? i - 1 : 0),
   generateTempBuffers:(quads, context) => {
         var largestIndex = GL.log2ceilLookup(GL.MAX_TEMP_BUFFER_SIZE);
         context.tempVertexBufferCounters1 = [];
@@ -4730,7 +4730,7 @@ var UTF8Decoder = globalThis.TextDecoder && new TextDecoder();
       var stream = SYSCALLS.getStreamFromFD(fd);
       FS.llseek(stream, offset, whence);
       HEAP64[((newOffset)>>3)] = BigInt(stream.position);
-      if (stream.getdents && offset === 0 && whence === 0) stream.getdents = null; // reset readdir state
+      if (stream.getdents && !offset && whence === 0) stream.getdents = null; // reset readdir state
       return 0;
     } catch (e) {
     if (typeof FS == 'undefined' || !(e.name === 'ErrnoError')) throw e;
@@ -5372,7 +5372,7 @@ var UTF8Decoder = globalThis.TextDecoder && new TextDecoder();
         for (var i = 0; i < args.length; i++) {
           var converter = toC[argTypes[i]];
           if (converter) {
-            if (stack === 0) stack = stackSave();
+            if (!stack) stack = stackSave();
             cArgs[i] = converter(args[i]);
           } else {
             cArgs[i] = args[i];
@@ -5381,7 +5381,7 @@ var UTF8Decoder = globalThis.TextDecoder && new TextDecoder();
       }
       var ret = func(...cArgs);
       function onDone(ret) {
-        if (stack !== 0) stackRestore(stack);
+        if (stack) stackRestore(stack);
         return convertReturnValue(ret);
       }
   

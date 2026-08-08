@@ -2,15 +2,15 @@
   "state": "Florida",
   "mode": "senate_presidential_polling",
   "lean": "R",
-  "confidence": 0.548,
+  "confidence": 0.561,
   "strength_label": "Tilt",
-  "net_margin": -6.92,
+  "net_margin": -7.43,
   "based_on": "sources",
-  "reasoning": "Florida\u2019s current Senate polling average in the last 45 days shows Republicans ahead by about 7 points, with the most recent state-specific poll giving Ashley Moody a 10-point lead over Alexander Vindman. Because the search results did not include a current Florida presidential general-election poll, the Senate race is the relevant current margin indicator here.",
-  "as_of_date": "2026-08-08T11:43:46",
+  "reasoning": "Recent Florida Senate polling from the last 45 days shows Republican Ashley Moody ahead by roughly 7 to 10 points, with the best current average at R+7.0 and the latest state-specific poll at R+10.0. I did not find a Florida presidential general-election poll from the last 45 days in the provided results, so the current race read is based on the Senate contest; Florida's statewide Cook PVI is R+3.",
+  "as_of_date": "2026-08-08T18:37:14",
   "cook_pvi": {
     "party": "R",
-    "percentage_points": 6.0
+    "percentage_points": 3.0
   },
   "sources": [
     {
@@ -19,20 +19,31 @@
       "race_type": "senate",
       "party": "R",
       "margin": 7.0,
-      "details": "Polling average for the Florida Senate race shows 40.6% Democrat vs 47.6% Republican, a Republican lead of R+7.0.",
-      "date_range": "August 7, 2026 update; polls through July 17, 2026",
+      "details": "Polling average for the 2026 Florida Senate race shows Ashley Moody at 47.6% and the Democrat at 40.6%, for an R+7.0 margin.",
+      "date_range": "Last updated August 7, 2026; polling average built from 12 polls",
       "domain": "pollsmax.com",
       "verified": true
     },
     {
-      "name": "University of North Florida / Florida Phoenix coverage",
-      "link": "https://floridaphoenix.com/2026/07/20/moody-leads-nixon-by-8-points-vindman-by-10-in-new-poll-of-florida-senate-race-embargoed/",
+      "name": "University of North Florida / Pollsmax listing",
+      "link": "https://www.pollsmax.com/senate/florida/",
       "race_type": "senate",
       "party": "R",
       "margin": 10.0,
-      "details": "University of North Florida polling of 848 likely voters found Ashley Moody leading Alexander Vindman 50% to 40%.",
+      "details": "University of North Florida poll in the Florida Senate race found Ashley Moody leading Alex Vindman 50% to 40%, a 10-point Republican margin.",
       "date_range": "July 17, 2026",
-      "domain": "floridaphoenix.com",
+      "domain": "pollsmax.com",
+      "verified": true
+    },
+    {
+      "name": "Patch",
+      "link": "https://patch.com/florida/across-fl/moody-leads-nixon-8-points-vindman-10-new-poll-florida-senate-race",
+      "race_type": "senate",
+      "party": "R",
+      "margin": 10.0,
+      "details": "Coverage of the Florida Senate poll reported Moody ahead of Vindman 50%-40% and Moody ahead of Nixon 50%-42%.",
+      "date_range": "July 17, 2026",
+      "domain": "patch.com",
       "verified": true
     },
     {
@@ -41,34 +52,34 @@
       "race_type": "senate",
       "party": "R",
       "margin": 10.0,
-      "details": "Coverage of the same UNF poll reported Moody with a 10-point edge over Vindman, describing the race as closer than recent years but still Republican-leaning.",
+      "details": "Political newsletter coverage said Moody had a 10-point edge over Vindman in the Florida Senate race, within the poll's margin of error.",
       "date_range": "July 17, 2026",
       "domain": "politico.com",
       "verified": true
     },
     {
-      "name": "Global Strategy Group / Vindman Senate Poll Copy",
-      "link": "https://www.scribd.com/document/1044020983/5-27-Vindman-Senate-Poll-Copy",
-      "race_type": "senate",
-      "party": "R",
-      "margin": 3.0,
-      "details": "Global Strategy Group polling of 1,000 likely voters showed Ashley Moody leading Alexander Vindman 46% to 43%.",
-      "date_range": "May 18-21, 2026",
-      "domain": "scribd.com",
-      "verified": true
-    },
-    {
-      "name": "Decision Desk HQ Florida Senate General Ballot Test",
+      "name": "Decision Desk HQ",
       "link": "https://staging-polls.decisiondeskhq.com/averages/general-ballot-test/2026-fl-us-senate/florida/lv-rv-adults",
       "race_type": "senate",
       "party": "R",
       "margin": 4.6,
-      "details": "DDHQ\u2019s Florida Senate general ballot test average shows Ashley Moody ahead 46.4% to 41.8%, with recent polls mostly placing her lead in the mid-single to high-single digits.",
-      "date_range": "July 9-11, 2026 and earlier polls in the last 45 days",
+      "details": "Decision Desk HQ's Florida Senate general ballot test average showed Moody at 46.4% and Vindman at 41.8%, consistent with a Republican lead.",
+      "date_range": "July 9-11, 2026 and earlier polls through July 2026",
       "domain": "staging-polls.decisiondeskhq.com",
+      "verified": true
+    },
+    {
+      "name": "Global Strategy Group",
+      "link": "https://www.scribd.com/document/1044020983/5-27-Vindman-Senate-Poll-Copy",
+      "race_type": "senate",
+      "party": "R",
+      "margin": 3.0,
+      "details": "Global Strategy Group found Ashley Moody leading Alex Vindman 46%-43% in a Florida Senate matchup, a 3-point Republican margin.",
+      "date_range": "May 18-21, 2026",
+      "domain": "scribd.com",
       "verified": true
     }
   ],
   "abbreviation": "FL",
-  "_cached_at": "2026-08-08T11:43:46.830006"
+  "_cached_at": "2026-08-08T18:37:14.694967"
 }

@@ -6,33 +6,44 @@
   "strength_label": "Strong",
   "net_margin": 25.0,
   "based_on": "cook_pvi_fallback",
-  "reasoning": "New York\u2019s statewide Cook PVI is D+25, indicating a very strong Democratic baseline. In the last 45 days, the search results did not surface any credible New York 2026 general-election Senate or presidential head-to-head poll that measured this state's current race; the visible items were either unrelated to New York\u2019s 2026 general election, not state-specific, or structural/context pieces rather than a valid race poll.",
-  "as_of_date": "2026-08-08T11:45:37",
+  "reasoning": "I could not verify a New York Senate or presidential general-election poll from the last 45 days in the provided search results, so I cannot state a current race margin from polling with confidence. New York\u2019s statewide structural baseline remains strongly Democratic, with a Cook PVI of D+25; the only clearly relevant current-race item in the results was a generic City & State page for Claudia Tenney that did not provide a usable statewide Senate or presidential margin.",
+  "as_of_date": "2026-08-08T18:38:59",
   "cook_pvi": {
     "party": "D",
     "percentage_points": 25.0
   },
   "sources": [
     {
-      "name": "Cook Partisan Voting Index",
-      "link": "https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index",
-      "race_type": "other_context",
-      "party": "D",
-      "margin": 25.0,
-      "details": "Cook PVI lists New York as D+25 statewide, reflecting the state's long-run partisan lean.",
-      "date_range": "2026",
-      "domain": "en.wikipedia.org",
-      "verified": false
-    },
-    {
       "name": "The New York Times",
       "link": "https://www.nytimes.com/interactive/2026/07/14/polls/senate-elections-voters-polls.html",
       "race_type": "other_context",
       "party": "EVEN",
       "margin": 0.0,
-      "details": "Interactive article examining drivers of Senate candidate support, but it does not provide a New York 2026 statewide general-election margin.",
-      "date_range": "July 14, 2026",
+      "details": "An interactive piece discussing factors driving Senate candidate support, but the result shown does not provide a New York statewide Senate margin and is not clearly a New York general-election poll in the search snippet.",
+      "date_range": "2026-07-14",
       "domain": "nytimes.com",
+      "verified": true
+    },
+    {
+      "name": "New York Post",
+      "link": "https://nypost.com/2026/08/01/us-news/aocs-favorables-dive-even-as-new-hampshire-tempts-her/",
+      "race_type": "other_context",
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "A New York Post article about AOC's national profile and New Hampshire speculation; it is not a New York Senate or presidential poll and does not measure this state's current race.",
+      "date_range": "2026-08-01",
+      "domain": "nypost.com",
+      "verified": true
+    },
+    {
+      "name": "New York Post",
+      "link": "https://nypost.com/2026/07/28/us-news/ny-gop-governor-candidate-bruce-blakeman-trails-hochul-by-just-4-points-in-shocking-new-poll/",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 4.0,
+      "details": "A New York gubernatorial poll showing Hochul ahead of Bruce Blakeman by 4 points; this is a different race and therefore only contextual, not a Senate or presidential margin.",
+      "date_range": "2026-07-28",
+      "domain": "nypost.com",
       "verified": true
     },
     {
@@ -41,23 +52,12 @@
       "race_type": "other_context",
       "party": "EVEN",
       "margin": 0.0,
-      "details": "Prediction-market style page for Claudia Tenney that is not a statewide New York general-election Senate or presidential poll.",
+      "details": "A candidate page for Claudia Tenney that appears to be a prediction/odds page, but the snippet does not supply a verifiable statewide New York Senate margin and is not a clearly citable general-election poll result.",
       "date_range": "2026",
       "domain": "cityandstateny.com",
-      "verified": true
-    },
-    {
-      "name": "POLITICO",
-      "link": "https://www.politico.com/newsletters/new-york-playbook/2026/08/03/key-personnel-move-for-ny-senate-dems-01022004",
-      "race_type": "other_context",
-      "party": "EVEN",
-      "margin": 0.0,
-      "details": "News article about New York Senate Democrats' personnel moves, which is political context but not a current statewide poll or margin.",
-      "date_range": "August 3, 2026",
-      "domain": "politico.com",
       "verified": true
     }
   ],
   "abbreviation": "NY",
-  "_cached_at": "2026-08-08T11:45:37.108648"
+  "_cached_at": "2026-08-08T18:38:59.494566"
 }

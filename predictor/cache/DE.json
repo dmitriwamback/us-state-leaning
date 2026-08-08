@@ -2,25 +2,25 @@
   "state": "Delaware",
   "mode": "senate_presidential_polling",
   "lean": "D",
-  "confidence": 0.95,
+  "confidence": 1.0,
   "strength_label": "Strong",
-  "net_margin": 23.0,
+  "net_margin": 25.0,
   "based_on": "cook_pvi_fallback",
-  "reasoning": "Delaware\u2019s statewide structural baseline is strongly Democratic, at about D+23 by Cook PVI. In the last 45 days of the provided results, I found no credible Delaware-specific general-election poll for the 2026 Senate or presidential race; the only Delaware-specific election items were primary or non-margin market pages, so there is no reliable current race margin to report from the allowed source set.",
-  "as_of_date": "2026-08-08T11:43:42",
+  "reasoning": "Delaware\u2019s statewide PVI is strongly Democratic, at about D+25. In the last 45 days, I did not find a real Delaware general-election Senate or presidential poll from an official pollster or major forecaster; the only Delaware-specific current-race signal available in the search results is a betting-market estimate that overwhelmingly favors a Democratic Senate win, but it is not a poll and does not provide a clean D/R margin from survey data. Therefore, the current race margin cannot be stated precisely from qualifying polling/news, only that Democrats are favored in Delaware.",
+  "as_of_date": "2026-08-08T18:37:08",
   "cook_pvi": {
     "party": "D",
-    "percentage_points": 23.0
+    "percentage_points": 25.0
   },
   "sources": [
     {
-      "name": "PredictionEdge",
+      "name": "Prediction Edge",
       "link": "https://www.predictionedge.com/elections/de/",
       "race_type": "other_context",
       "party": "D",
       "margin": 0.0,
-      "details": "Election market page showing Delaware Senate winner odds, not a Delaware general-election poll or margin estimate for the current race.",
-      "date_range": "2026 cycle (page accessed in current period)",
+      "details": "Prediction market pricing on the Delaware Senate winner heavily favors Democrats, implying a Democratic advantage, but it is not a poll and does not provide a survey margin.",
+      "date_range": "Current",
       "domain": "predictionedge.com",
       "verified": true
     },
@@ -30,34 +30,23 @@
       "race_type": "other_context",
       "party": "D",
       "margin": 0.0,
-      "details": "Market page for Delaware Senate margin of victory with implied probabilities by outcome bands, not an actual poll and not a direct state-election margin from surveyed voters.",
-      "date_range": "2026 cycle (page accessed in current period)",
+      "details": "Polymarket's Delaware Senate margin-of-victory market most often prices a Democratic win in the 40-45% margin band, with Democratic win scenarios dominating the board.",
+      "date_range": "Current",
       "domain": "polymarket.com",
       "verified": true
     },
     {
-      "name": "PredictionEdge",
-      "link": "https://www.predictionedge.com/elections/us-senate/28aa539ba3864a57ac9165bb14ab183d/",
-      "race_type": "other_context",
-      "party": "R",
-      "margin": 0.0,
-      "details": "Primary-only nominee market for Delaware Republicans; this is not a general-election Senate or presidential margin.",
-      "date_range": "2026 cycle (page accessed in current period)",
-      "domain": "predictionedge.com",
-      "verified": true
-    },
-    {
       "name": "Delaware Online",
-      "link": "https://www.delawareonline.com/story/news/2026/07/17/who-is-winning-the-midterms-right-now-latest-polls-who-will-control-congress-2026-midterm-elections/90954843007/",
+      "link": "https://www.delawareonline.com/story/news/2026/07/22/2026-midterms-polls-congress-house-senate-control/91007193007/",
       "race_type": "other_context",
       "party": "D",
-      "margin": 4.8,
-      "details": "Article summarizing generic congressional polling with Democrats ahead nationally; not Delaware-specific and not a Delaware Senate or presidential head-to-head poll.",
-      "date_range": "2026-07-17",
+      "margin": 4.7,
+      "details": "A national article citing RealClearPolling reports Democrats ahead in the generic congressional ballot, but this is national context, not Delaware-specific Senate or presidential polling.",
+      "date_range": "July 2026",
       "domain": "delawareonline.com",
       "verified": true
     }
   ],
   "abbreviation": "DE",
-  "_cached_at": "2026-08-08T11:43:42.533853"
+  "_cached_at": "2026-08-08T18:37:08.648910"
 }

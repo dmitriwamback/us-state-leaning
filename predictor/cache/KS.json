@@ -1,85 +1,52 @@
 {
   "state": "Kansas",
   "mode": "senate_presidential_polling",
-  "lean": "R",
-  "confidence": 0.537,
-  "strength_label": "Tilt",
-  "net_margin": -6.5,
+  "lean": "Toss-up",
+  "confidence": 0.2,
+  "strength_label": "Toss-up",
+  "net_margin": -2.0,
   "based_on": "sources",
-  "reasoning": "Kansas\u2019s statewide Cook PVI is R+20. The only current-race material in the last 45 days is post-primary reporting and handicap changes; I found no qualifying state-specific general-election Senate or presidential poll from that window, so there is no reliable current polling margin to report for the 2026 general election beyond the race being rated solid/likely Republican by forecasters and aggregate sites.[9][10][2]",
-  "as_of_date": "2026-08-08T11:44:23",
+  "reasoning": "Kansas is structurally very Republican, with a statewide Cook PVI of R+19. The only current-race polling material in the last 45 days in the provided results is for the Democratic primary, not the 2026 general-election Senate or presidential race, so there is no valid recent state-specific general-election margin to report from polling/news; the most relevant public handicapper source still rates the Senate race as solid/likely Republican, which implies a GOP advantage rather than a quantified poll margin.",
+  "as_of_date": "2026-08-08T18:37:49",
   "cook_pvi": {
     "party": "R",
-    "percentage_points": 20.0
+    "percentage_points": 19.0
   },
   "sources": [
     {
-      "name": "PollsMax",
-      "link": "https://www.pollsmax.com/senate/kansas/",
-      "race_type": "senate",
-      "party": "R",
-      "margin": 8.0,
-      "details": "Polling average for the Kansas Senate race shows 46.0% Democrat vs 54.0% Republican, an R+8.0 average margin.",
-      "date_range": "2026 (current aggregate last updated July 2, 2026)",
-      "domain": "pollsmax.com",
-      "verified": true
-    },
-    {
-      "name": "MacroVoter",
-      "link": "https://macrovoter.com/senate/kansas",
-      "race_type": "senate",
-      "party": "R",
-      "margin": 5.0,
-      "details": "Lists Kansas Senate as Republican-held and shows R+5 in latest polls, but does not provide a state-specific general-election poll in the requested window.",
-      "date_range": "2026 (current odds/polls page)",
-      "domain": "macrovoter.com",
-      "verified": true
-    },
-    {
-      "name": "Washington Post",
-      "link": "https://www.washingtonpost.com/elections/results/2026/08/04/kansas-senate-primary-election-results-2026-live-updates/",
+      "name": "Sunflower State Journal",
+      "link": "https://sunflowerstatejournal.com/hamilton-leading-democratic-u-s-senate-field-new-internal-poll-shows/",
       "race_type": "other_context",
       "party": "D",
       "margin": 17.0,
-      "details": "Internal Democratic primary polling for Adam Hamilton showed him leading the Democratic field; this is primary-only and not a general-election Senate margin.",
+      "details": "Internal Democratic primary ballot test found Adam Hamilton leading the Kansas Democratic Senate field with 30% support, ahead of Christy Davis at 13%.",
       "date_range": "July 13-16, 2026",
-      "domain": "washingtonpost.com",
+      "domain": "sunflowerstatejournal.com",
       "verified": true
     },
     {
-      "name": "Decision Desk HQ",
-      "link": "https://x.com/DDHQdata/status/2079740492896497967",
-      "race_type": "other_context",
-      "party": "D",
-      "margin": 30.0,
-      "details": "Decision Desk HQ shared GBAO internal polling for the Democratic Senate primary, showing Hamilton at 30%; this is primary-only and not a general-election Senate margin.",
-      "date_range": "July 13-16, 2026",
-      "domain": "x.com",
+      "name": "Cook Political Report",
+      "link": "https://www.cookpolitical.com/ratings/senate-race-ratings",
+      "race_type": "senate",
+      "party": "R",
+      "margin": 0.0,
+      "details": "Cook Political Report moved the Kansas Senate race from safe Republican to likely Republican after the Democratic nominee was set.",
+      "date_range": "August 2026",
+      "domain": "cookpolitical.com",
       "verified": true
     },
     {
       "name": "The Hill / Sabato's Crystal Ball",
       "link": "https://thehill.com/homenews/campaign/6011422-kansas-senate-race-sabato-adam-hamilton-roger-marshall/",
-      "race_type": "other_context",
-      "party": "EVEN",
+      "race_type": "senate",
+      "party": "R",
       "margin": 0.0,
-      "details": "Reported that Sabato\u2019s Crystal Ball shifted Kansas from safe Republican to likely Republican after Hamilton\u2019s primary win; this is a forecast/handicap, not a poll margin.",
-      "date_range": "August 4, 2026",
+      "details": "Sabato's Crystal Ball shifted the Kansas Senate race from safe Republican to likely Republican after the Democratic primary concluded.",
+      "date_range": "August 2026",
       "domain": "thehill.com",
       "verified": true
-    },
-    {
-      "name": "KCUR",
-      "link": "https://kcur.org/politics-elections-and-government/2026-08-04/kansas-election-results-amendments-primary-august-2026",
-      "race_type": "other_context",
-      "party": "EVEN",
-      "margin": 0.0,
-      "details": "Confirmed the Democratic nominee and Republican primary winner for Kansas Senate; this is election-result context, not a general-election margin.",
-      "date_range": "August 4, 2026",
-      "domain": "kcur.org",
-      "verified": false
     }
   ],
   "abbreviation": "KS",
-  "_cached_at": "2026-08-08T11:44:23.892364"
+  "_cached_at": "2026-08-08T18:37:49.304720"
 }

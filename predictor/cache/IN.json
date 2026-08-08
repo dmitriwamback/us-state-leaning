@@ -2,15 +2,15 @@
   "state": "Indiana",
   "mode": "senate_presidential_polling",
   "lean": "R",
-  "confidence": 0.825,
+  "confidence": 0.775,
   "strength_label": "Lean",
-  "net_margin": -18.0,
+  "net_margin": -16.0,
   "based_on": "cook_pvi_fallback",
-  "reasoning": "I could not verify any Indiana-specific general-election Senate or presidential polling from the last 45 days in the provided results, so there is no defensible current race margin to report from those sources. The only clearly relevant Indiana item is a news article about candidate filing breadth, which is context rather than a measured margin; Indiana\u2019s statewide Cook PVI is R+18, indicating a strong Republican structural baseline.",
-  "as_of_date": "2026-08-08T11:44:13",
+  "reasoning": "Indiana\u2019s statewide Cook PVI is R+16, reflecting a strong Republican lean. In the provided last-45-days results, I found no credible Indiana-specific 2026 general-election Senate or presidential polling; the available items were either state legislative results, process stories, or non-state-specific market/news context, so there is no defensible current race margin to report from the allowed source set.",
+  "as_of_date": "2026-08-08T18:37:40",
   "cook_pvi": {
     "party": "R",
-    "percentage_points": 18.0
+    "percentage_points": 16.0
   },
   "sources": [
     {
@@ -19,12 +19,34 @@
       "race_type": "other_context",
       "party": "EVEN",
       "margin": 0.0,
-      "details": "Notes that Hoosier Democrats filed candidates in all 25 Indiana Senate races and nearly all House races, describing the scope of the 2026 ticket rather than measuring any Senate or presidential margin.",
-      "date_range": "2026 cycle context (published Aug. 2026)",
+      "details": "A news analysis about an anti-incumbency wave in Indiana state legislative politics; it does not measure Indiana\u2019s 2026 Senate or presidential general-election margin.",
+      "date_range": "2026-07-25 to 2026-08-08",
       "domain": "wthr.com",
+      "verified": true
+    },
+    {
+      "name": "City of Indianapolis Election Results",
+      "link": "https://www.indy.gov/workflow/election-results",
+      "race_type": "other_context",
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "Election-results page showing local Indiana legislative race results, not a statewide 2026 Senate or presidential margin.",
+      "date_range": "2026-08-01 to 2026-08-08",
+      "domain": "indy.gov",
+      "verified": true
+    },
+    {
+      "name": "Polymarket",
+      "link": "https://polymarket.com/event/balance-of-power-2026-midterms",
+      "race_type": "other_context",
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "Markets page for 2026 midterms showing national balance-of-power odds, not an Indiana-specific Senate or presidential race poll.",
+      "date_range": "2026-07-01 to 2026-08-08",
+      "domain": "polymarket.com",
       "verified": true
     }
   ],
   "abbreviation": "IN",
-  "_cached_at": "2026-08-08T11:44:13.552767"
+  "_cached_at": "2026-08-08T18:37:40.338199"
 }

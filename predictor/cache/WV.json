@@ -4,38 +4,38 @@
   "lean": "R",
   "confidence": 1.0,
   "strength_label": "Strong",
-  "net_margin": -43.0,
+  "net_margin": -39.0,
   "based_on": "cook_pvi_fallback",
-  "reasoning": "West Virginia has no recent state-specific general-election polling for the 2026 Senate or presidential race in the provided results. The only relevant current-race signal in the last 45 days is a prediction-market listing that treats the West Virginia Senate contest as a safe Republican hold, but it is not a poll and does not provide a point margin; therefore the race is best characterized structurally as strongly Republican rather than having a measurable polling margin. West Virginia\u2019s statewide Cook PVI is R+43.",
-  "as_of_date": "2026-08-08T11:46:44",
+  "reasoning": "West Virginia\u2019s statewide Cook PVI is strongly Republican, and the latest relevant sources available in the provided results do not include a state-specific 2026 general-election poll for the West Virginia Senate or presidential race. The only race-specific 2026 source here is a primary-results report, while the prediction-market source is not polling/news and is best treated as other context; taken together, the evidence supports West Virginia remaining a safe Republican state, but not a current measurable Senate or presidential polling margin from the last 45 days.",
+  "as_of_date": "2026-08-08T18:40:08",
   "cook_pvi": {
     "party": "R",
-    "percentage_points": 43.0
+    "percentage_points": 39.0
   },
   "sources": [
     {
-      "name": "Prediction Markets Picks",
+      "name": "The Intelligencer",
+      "link": "https://www.theintelligencer.net/news/top-headlines/2026/05/capito-wins-overwhelmingly-in-gop-senate-primary-anderson-to-provide-democratic-challenge/",
+      "race_type": "other_context",
+      "party": "R",
+      "margin": 78.7,
+      "details": "Official West Virginia Secretary of State results show Shelley Moore Capito won the GOP Senate primary overwhelmingly, which establishes the Senate nominee but does not provide a general-election margin.",
+      "date_range": "May 13, 2026",
+      "domain": "theintelligencer.net",
+      "verified": true
+    },
+    {
+      "name": "Prediction Market Picks",
       "link": "https://predictionmarketspicks.com/midterms-2026/west-virginia-senate",
       "race_type": "other_context",
       "party": "R",
       "margin": 0.0,
-      "details": "Prediction market labels the West Virginia Senate race a safe Republican hold, with the market favoring large GOP victory-margin outcomes.",
-      "date_range": "Updated hourly as of 2026-08-08",
+      "details": "Prediction-market listing characterizes the West Virginia Senate race as a 'Safe R' hold, but this is not polling and therefore is only structural context rather than a race margin source.",
+      "date_range": "2026 cycle (updated hourly, viewed Aug. 2026)",
       "domain": "predictionmarketspicks.com",
       "verified": true
-    },
-    {
-      "name": "Cook Political Report",
-      "link": "https://www.cookpolitical.com/cook-pvi",
-      "race_type": "other_context",
-      "party": "R",
-      "margin": 43.0,
-      "details": "Statewide Cook PVI for West Virginia is R+43.",
-      "date_range": "2026 general structural context",
-      "domain": "cookpolitical.com",
-      "verified": false
     }
   ],
   "abbreviation": "WV",
-  "_cached_at": "2026-08-08T11:46:44.795825"
+  "_cached_at": "2026-08-08T18:40:08.527686"
 }

@@ -6,58 +6,58 @@
   "strength_label": "Tilt",
   "net_margin": 8.6,
   "based_on": "sources",
-  "reasoning": "Recent Georgia polling in the last 45 days shows Democratic Sen. Jon Ossoff leading Republican Mike Collins by margins ranging from 4 to 9 points, so the current Senate margin is best summarized as D+4 to D+9, with a rough midpoint around D+6. The sources provided do not include a current 2026 Georgia presidential poll, so the answer is based on the Senate race only; Georgia\u2019s statewide Cook PVI is R+5.",
-  "as_of_date": "2026-08-08T11:43:54",
+  "reasoning": "Recent Georgia Senate polling in the last 45 days shows Democrat Jon Ossoff leading Republican Mike Collins by between about 4 and 13 points, with the most recent major poll showing a 9-point Ossoff advantage. Georgia\u2019s statewide Cook PVI is R+6, indicating the state leans Republican even though the current Senate polling favors the Democrat.",
+  "as_of_date": "2026-08-08T18:37:19",
   "cook_pvi": {
     "party": "R",
-    "percentage_points": 5.0
+    "percentage_points": 6.0
   },
   "sources": [
     {
-      "name": "The Hill / AARP poll",
-      "link": "https://thehill.com/homenews/campaign/5986198-ossoff-leads-collins-ga-poll/",
+      "name": "AARP",
+      "link": "https://www.aarp.org/government-elections/georgia-poll-2026/",
       "race_type": "senate",
       "party": "D",
       "margin": 9.0,
-      "details": "AARP poll of 1,060 likely Georgia voters found Ossoff at 52% and Collins at 43%, a 9-point lead for Ossoff.",
+      "details": "AARP poll of 1,060 likely Georgia voters found Ossoff leading Collins 52% to 43%, a 9-point Democratic margin.",
       "date_range": "July 13-16, 2026",
-      "domain": "thehill.com",
+      "domain": "aarp.org",
       "verified": true
     },
     {
-      "name": "Newsweek / Wick poll",
+      "name": "Wick",
       "link": "https://www.newsweek.com/jon-ossoffs-chances-of-defeating-mike-collins-in-georgia-senate-race-poll-12179218",
       "race_type": "senate",
       "party": "D",
       "margin": 3.8,
-      "details": "Wick poll of 1,175 likely voters found Ossoff at 46.7% and Collins at 42.9%, a 3.8-point lead for Ossoff.",
+      "details": "Wick survey of 1,175 likely voters found Ossoff ahead 46.7% to 42.9%, a 3.8-point Democratic margin.",
       "date_range": "June 27-30, 2026",
       "domain": "newsweek.com",
       "verified": true
     },
     {
-      "name": "USA Today reporting Fox News / Beacon Research poll",
-      "link": "https://www.usatoday.com/story/news/state/georgia/2026/07/09/who-is-leading-in-governor-senate-races-in-georgia-polls-split/90859496007/",
+      "name": "Fox News / Beacon Research",
+      "link": "https://www.usatoday.com/story/news/state/georgia/2026/07/13/ossoff-leads-in-senate-race-georgia-governor-race-is-split-polls/90902034007/",
       "race_type": "senate",
       "party": "D",
       "margin": 13.0,
-      "details": "Fox News / Beacon Research poll found Ossoff at 56% and Collins at 43%, a 13-point lead for Ossoff.",
+      "details": "Fox News / Beacon Research poll reported by USA Today found Ossoff leading Collins 56% to 43%, a 13-point Democratic margin.",
       "date_range": "June 23-27, 2026",
       "domain": "usatoday.com",
       "verified": true
     },
     {
-      "name": "PollsMax polling average",
+      "name": "Pollsmax polling average",
       "link": "https://www.pollsmax.com/senate/georgia/",
       "race_type": "other_context",
       "party": "D",
       "margin": 6.1,
-      "details": "Polling average page for Georgia\u2019s 2026 Senate race showed Ossoff at 48.5% and Collins at 42.4%, a D+6.1 average margin.",
-      "date_range": "July 2026",
+      "details": "Polling average aggregator reported Georgia Senate polling average at 48.5% D to 42.4% R, a 6.1-point Democratic margin, based on seven polls.",
+      "date_range": "July 6, 2026",
       "domain": "pollsmax.com",
       "verified": true
     }
   ],
   "abbreviation": "GA",
-  "_cached_at": "2026-08-08T11:43:54.918850"
+  "_cached_at": "2026-08-08T18:37:19.198787"
 }

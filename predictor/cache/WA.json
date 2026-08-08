@@ -2,51 +2,51 @@
   "state": "Washington",
   "mode": "senate_presidential_polling",
   "lean": "D",
-  "confidence": 0.775,
-  "strength_label": "Lean",
-  "net_margin": 16.0,
+  "confidence": 0.55,
+  "strength_label": "Tilt",
+  "net_margin": 7.0,
   "based_on": "cook_pvi_fallback",
-  "reasoning": "Washington\u2019s statewide structural baseline is strongly Democratic, with a Cook PVI of D+16. In the last 45 days, the available results in the provided search set are not a Washington statewide general-election Senate or presidential poll; they are either primary-election result coverage or national context, so there is no qualifying current-race margin to report for Washington from those sources.",
-  "as_of_date": "2026-08-08T11:46:41",
+  "reasoning": "Washington\u2019s statewide Cook Partisan Voting Index is D+7. I did not find any valid Washington-specific 2026 general-election Senate or presidential polling in the last 45 days; the available results were either statewide primary coverage or unrelated races, so there is no current target-race margin to report from qualified sources.",
+  "as_of_date": "2026-08-08T18:40:04",
   "cook_pvi": {
     "party": "D",
-    "percentage_points": 16.0
+    "percentage_points": 7.0
   },
   "sources": [
     {
       "name": "Cook Political Report",
       "link": "https://www.cookpolitical.com/ratings/senate-race-ratings",
       "race_type": "other_context",
-      "party": "D",
-      "margin": 16.0,
-      "details": "Cook\u2019s statewide PVI rating for Washington is D+16, indicating the state leans Democratic by 16 points relative to the nation.",
-      "date_range": "2026",
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "Cook Political Report Senate ratings page lists the Washington U.S. Senate race as a current-cycle rating reference, but the search snippet did not provide a state-specific head-to-head margin.",
+      "date_range": "2026 cycle (current ratings page; no poll window provided)",
       "domain": "cookpolitical.com",
       "verified": true
     },
     {
-      "name": "KOMO News",
-      "link": "https://komonews.com/news/local/washington-primary-election-early-results-are-in-for-key-congressional-legislative-races-2026-november-3-general-election-ballots-king-county-proposition-1-voting",
+      "name": "USA Today / Washington Post-Ipsos",
+      "link": "https://www.usatoday.com/story/news/politics/2026/07/19/trump-republicans-congress-democrats-poll/90972594007/",
       "race_type": "other_context",
-      "party": "EVEN",
-      "margin": 0.0,
-      "details": "Washington primary results coverage shows only primary vote shares and not a statewide general-election Senate or presidential margin.",
-      "date_range": "Aug. 4-5, 2026",
-      "domain": "komonews.com",
+      "party": "D",
+      "margin": 3.0,
+      "details": "A Washington Post-Ipsos poll of congressional preference found Democrats leading Republicans 48% to 45% nationally, but this is not Washington-state-specific and does not measure the state's Senate or presidential race.",
+      "date_range": "July 8-13, 2026",
+      "domain": "usatoday.com",
       "verified": true
     },
     {
-      "name": "The New York Times",
-      "link": "https://www.nytimes.com/interactive/2026/08/04/us/elections/results-washington-primary.html",
+      "name": "Chronline / Emerson College Polling",
+      "link": "http://www.chronline.com/stories/new-poll-shows-why-third-congressional-distric-race-is-drawing-national-attention,405451",
       "race_type": "other_context",
       "party": "EVEN",
-      "margin": 0.0,
-      "details": "Washington primary results coverage lists primary vote totals and does not provide a statewide general-election Senate or presidential polling margin.",
-      "date_range": "Aug. 4, 2026",
-      "domain": "nytimes.com",
-      "verified": true
+      "margin": 1.0,
+      "details": "Emerson College polling on Washington\u2019s 3rd Congressional District found Marie Gluesenkamp Perez and John Braun essentially tied, but this is a House race, not the statewide Senate or presidential race.",
+      "date_range": "July 8-10, 2026",
+      "domain": "chronline.com",
+      "verified": false
     }
   ],
   "abbreviation": "WA",
-  "_cached_at": "2026-08-08T11:46:41.416913"
+  "_cached_at": "2026-08-08T18:40:04.581381"
 }

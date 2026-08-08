@@ -120,24 +120,27 @@
                 let points = Math.round(10 * verdict.net_margin) / 10
                 let lean = points > 0 ? 'D' : 'R'
 
-                if (lean == verdict.cook_pvi.party) {
+                let confidence = verdict.confidence
+
+                if (lean == verdict.cook_pvi.party && Math.abs(points) < verdict.cook_pvi.percentage_points) {
                     points = verdict.cook_pvi.percentage_points
                     if (lean == 'R') points *= -1
+                    confidence = 0.9
                 }
 
                 if (Math.abs(points) <= 2) lean = 'Toss-up'
 
                 if (lean === 'D') {
                     demVotes += ev;
-                    demStates.push({ ...entry, lean: 'D', confidence: verdict.confidence, current_margin: points });
+                    demStates.push({ ...entry, lean: 'D', confidence: confidence, current_margin: points });
                 }
                 else if (lean === 'R') {
                     repVotes += ev;
-                    repStates.push({ ...entry, lean: 'R', confidence: verdict.confidence, current_margin: points });
+                    repStates.push({ ...entry, lean: 'R', confidence: confidence, current_margin: points });
                 }
                 else {
                     tossUpVotes += ev;
-                    tossUpStates.push({ ...entry, confidence: verdict.confidence, current_margin: points });
+                    tossUpStates.push({ ...entry, confidence: confidence, current_margin: points });
                 }
                 setState(abbr, lean, Math.min(Math.abs(points)/10, 1));
             }

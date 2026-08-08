@@ -2,51 +2,62 @@
   "state": "Arkansas",
   "mode": "senate_presidential_polling",
   "lean": "R",
-  "confidence": 0.63,
-  "strength_label": "Lean",
-  "net_margin": -10.2,
+  "confidence": 0.983,
+  "strength_label": "Strong",
+  "net_margin": -24.33,
   "based_on": "sources",
-  "reasoning": "Arkansas is a strongly Republican state, and the most recent state-specific Senate polling in the last 45 days shows Republican Tom Cotton ahead by double digits. The newest forecast/average I found puts the race at roughly R+10 to R+33 depending on whether you use the polling average or projected margin, with the latest polling average on August 7 showing R+10.2.[2]",
-  "as_of_date": "2026-08-08T11:43:24",
+  "reasoning": "Arkansas is strongly Republican structurally, with a statewide Cook PVI of R+27. For the current 2026 federal race, the only Arkansas-specific Senate polling/news in the last 45 days in the provided results shows Tom Cotton leading by about 22 points, with a broader aggregation/forecast putting him ahead by roughly 10 to 33 points depending on methodology; no state-specific presidential poll was provided.",
+  "as_of_date": "2026-08-08T18:36:50",
   "cook_pvi": {
     "party": "R",
     "percentage_points": 27.0
   },
   "sources": [
     {
-      "name": "PollsMax Arkansas Senate Forecast",
+      "name": "Pollsmax Arkansas Senate Polling Average",
+      "link": "https://www.pollsmax.com/senate/arkansas/",
+      "race_type": "senate",
+      "party": "R",
+      "margin": 18.0,
+      "details": "Aggregate of available Arkansas Senate polls showed Tom Cotton ahead of Hallie Shoffner 56% to 38%, a polling average margin of R +18.",
+      "date_range": "June 30, 2026",
+      "domain": "pollsmax.com",
+      "verified": true
+    },
+    {
+      "name": "Pollsmax Arkansas Senate Forecast",
       "link": "https://www.pollsmax.com/senate/arkansas/forecast/",
       "race_type": "senate",
       "party": "R",
-      "margin": 10.2,
-      "details": "Forecast page for the 2026 Arkansas Senate race projects a Republican win, with a polling average of R +10.2 and a projected margin of R +33.0.",
-      "date_range": "July 25, 2026-August 7, 2026",
+      "margin": 33.0,
+      "details": "Forecast page for the Arkansas Senate race projected Cotton at 66.5% to Shoffner's 33.5%, with a projected margin of R +33.0; its polling average on the same page showed R +10.2.",
+      "date_range": "August 7, 2026",
       "domain": "pollsmax.com",
       "verified": true
     },
     {
-      "name": "PollsMax Arkansas Senate Forecast",
-      "link": "https://www.pollsmax.com/senate/arkansas/forecast/",
-      "race_type": "other_context",
-      "party": "R",
-      "margin": 22.0,
-      "details": "The page lists the latest poll in its aggregation as 2040 Strategy Group, showing Republican Tom Cotton ahead in the Arkansas Senate race.",
-      "date_range": "July 25, 2026",
-      "domain": "pollsmax.com",
-      "verified": true
-    },
-    {
-      "name": "Prediction Edge Arkansas Senate polling page",
+      "name": "Prediction Edge Arkansas Senate winner page",
       "link": "https://www.predictionedge.com/elections/profile/hallie-shoffner/?eventId=6af9b925636f424ba6e12a09017b4ba9&marketId=2c785f0cd8b74a94840fb3df0c2c5657",
-      "race_type": "other_context",
+      "race_type": "senate",
       "party": "R",
       "margin": 22.0,
-      "details": "A poll aggregation page for Hallie Shoffner shows Tom Cotton leading Hallie Shoffner 58% to 36%, a Republican margin of 22 points.",
+      "details": "Prediction Edge's Arkansas Senate winner page, using a Grayhouse poll aggregation, showed Cotton leading Shoffner 58% to 36%, for a margin of R +22.0.",
       "date_range": "February 7-9, 2026",
       "domain": "predictionedge.com",
       "verified": true
+    },
+    {
+      "name": "Cook Partisan Voting Index",
+      "link": "https://www.cookpolitical.com/cook-pvi",
+      "race_type": "other_context",
+      "party": "R",
+      "margin": 27.0,
+      "details": "Arkansas is a very Republican state on the statewide Cook Partisan Voting Index, rated R +27.",
+      "date_range": "Current structural rating",
+      "domain": "cookpolitical.com",
+      "verified": false
     }
   ],
   "abbreviation": "AR",
-  "_cached_at": "2026-08-08T11:43:24.170035"
+  "_cached_at": "2026-08-08T18:36:50.733658"
 }

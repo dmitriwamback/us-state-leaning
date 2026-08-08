@@ -2,48 +2,37 @@
   "state": "New Jersey",
   "mode": "senate_presidential_polling",
   "lean": "D",
-  "confidence": 0.7,
+  "confidence": 0.845,
   "strength_label": "Lean",
-  "net_margin": 13.0,
-  "based_on": "cook_pvi_fallback",
-  "reasoning": "New Jersey is a strongly Democratic state by Cook PVI, at D+13 statewide. In the last 45 days, I found no reputable state-specific general-election Senate or presidential poll for New Jersey; the available items are mostly the primary results and one forecast/market-type source, so the current race margin cannot be measured from fresh polling and only non-polling context points to a clear Democratic lean.",
-  "as_of_date": "2026-08-08T11:45:28",
+  "net_margin": 18.8,
+  "based_on": "sources",
+  "reasoning": "Recent polling/forecasting in the last 45 days suggests New Jersey\u2019s Senate race is still clearly Democratic-leaning, with market/forecast sources showing Democrats favored by a wide margin and no qualifying state-specific general-election poll in the supplied results. Because the available evidence is mostly forecast/market data rather than direct polling, the best current read is roughly D+19 on a structural/forecast basis, while the state's underlying partisan baseline is about D+6 PVI.",
+  "as_of_date": "2026-08-08T18:38:50",
   "cook_pvi": {
     "party": "D",
-    "percentage_points": 13.0
+    "percentage_points": 6.0
   },
   "sources": [
     {
-      "name": "PollsMax 2026 New Jersey Senate Forecast",
+      "name": "PollsMax New Jersey Senate Forecast",
       "link": "https://www.pollsmax.com/senate/new-jersey/forecast/",
-      "race_type": "other_context",
+      "race_type": "senate",
       "party": "D",
       "margin": 18.8,
-      "details": "Forecast model projects a Democratic win by 18.8 points in the 2026 New Jersey Senate race, with a 59.4% to 40.6% projected vote split.",
+      "details": "Forecast rating says Solid D with projected vote 59.4% D / 40.6% R, implying a D+18.8 margin in the New Jersey Senate race.",
       "date_range": "July 12, 2026",
       "domain": "pollsmax.com",
       "verified": true
     },
     {
-      "name": "Polymarket New Jersey Senate Margin of Victory 2026",
-      "link": "https://polymarket.com/es/event/new-jersey-senate-margin-of-victory-2026",
+      "name": "Polymarket New Jersey Senate Election Margin of Victory",
+      "link": "https://polymarket.com/event/new-jersey-senate-margin-of-victory-2026",
       "race_type": "other_context",
       "party": "D",
       "margin": 0.0,
-      "details": "Prediction market snapshot shows Democrats favored in the New Jersey Senate margin-of-victory market, with outcomes concentrated around a Democratic win.",
+      "details": "Market page for New Jersey Senate Election Margin of Victory shows Democrat 0-3% and Democrat 18-21% as the leading outcomes, indicating Democrats are favored to win the seat.",
       "date_range": "July 12, 2026",
       "domain": "polymarket.com",
-      "verified": true
-    },
-    {
-      "name": "NBC News New Jersey Senate Primary Results",
-      "link": "https://www.nbcnews.com/politics/2026-primary-elections/new-jersey-senate-results",
-      "race_type": "other_context",
-      "party": "EVEN",
-      "margin": 0.0,
-      "details": "Live primary results show Cory Booker won the Democratic Senate primary and Justin Murphy won the Republican Senate primary; this is primary context rather than a general-election margin.",
-      "date_range": "2026 cycle",
-      "domain": "nbcnews.com",
       "verified": true
     },
     {
@@ -52,12 +41,12 @@
       "race_type": "other_context",
       "party": "EVEN",
       "margin": 0.0,
-      "details": "Reports that Justin Murphy won the Republican Senate primary and will face Cory Booker in November; no general-election margin is provided.",
-      "date_range": "2026 cycle",
+      "details": "Reports that Justin Murphy won the Republican Senate primary and will face Cory Booker in November; this is race context only, not a general-election margin poll.",
+      "date_range": "2026 cycle; posted about 2 months before Aug. 8, 2026",
       "domain": "whyy.org",
       "verified": true
     }
   ],
   "abbreviation": "NJ",
-  "_cached_at": "2026-08-08T11:45:28.609022"
+  "_cached_at": "2026-08-08T18:38:50.946904"
 }

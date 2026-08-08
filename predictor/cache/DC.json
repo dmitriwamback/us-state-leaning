@@ -1,74 +1,30 @@
 {
-  "state": "Washington, D.C.",
+  "state": "Washington, DC",
   "mode": "senate_presidential_polling",
   "lean": "D",
   "confidence": 1.0,
   "strength_label": "Strong",
-  "net_margin": 85.0,
+  "net_margin": 83.0,
   "based_on": "cook_pvi_fallback",
-  "reasoning": "Washington, D.C. does not have a U.S. Senate seat, and it does not vote in presidential elections, so there is no current Senate or presidential race margin to report for the District. The relevant structural measure is its Cook Partisan Voting Index, which is overwhelmingly Democratic; because no state-specific current-race polling exists here, all race-specific sources would be other_context only.",
-  "as_of_date": "2026-08-08T11:46:57",
+  "reasoning": "Washington, D.C. is not a Senate or presidential battleground state, and the provided search results do not contain any current general-election polling for a 2026 Senate or presidential race in D.C. The only clearly relevant structural measure is the district\u2019s strong Democratic lean, commonly summarized as about D+83 on the Cook Partisan Voting Index; no state-specific race margin can be derived from the results supplied.",
+  "as_of_date": "2026-08-08T18:40:20",
   "cook_pvi": {
     "party": "D",
-    "percentage_points": 85.0
+    "percentage_points": 83.0
   },
   "sources": [
     {
-      "name": "USA Today (reporting on Washington Post-Ipsos poll)",
-      "link": "https://www.usatoday.com/story/news/politics/2026/07/19/trump-republicans-congress-democrats-poll/90972594007/",
+      "name": "Cook Partisan Voting Index",
+      "link": "https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index",
       "race_type": "other_context",
       "party": "D",
-      "margin": 3.0,
-      "details": "A national Washington Post-Ipsos congressional ballot poll found Democrats ahead of Republicans by 3 points, but it was not specific to Washington, D.C. and therefore does not measure a current District race.",
-      "date_range": "July 8-13, 2026",
-      "domain": "usatoday.com",
-      "verified": true
-    },
-    {
-      "name": "USA Today (reporting on Washington Post-Ipsos poll)",
-      "link": "https://www.usatoday.com/story/news/politics/2026/07/19/trump-republicans-congress-democrats-poll/90972594007/",
-      "race_type": "other_context",
-      "party": "D",
-      "margin": 8.0,
-      "details": "The same national poll found Democrats up 8 points among highly motivated voters, but this is national context rather than a Washington, D.C. Senate or presidential race.",
-      "date_range": "July 8-13, 2026",
-      "domain": "usatoday.com",
-      "verified": true
-    },
-    {
-      "name": "ABC11 / Fox News poll report",
-      "link": "https://abc11.com/story/fox-news-poll-cooper-tops-whatley-9-points-nc-senate-race/19606373/",
-      "race_type": "other_context",
-      "party": "D",
-      "margin": 9.0,
-      "details": "A Fox News poll showed Roy Cooper leading Michael Whatley in North Carolina\u2019s U.S. Senate race by 9 points; this is a different state and cannot be used for Washington, D.C.",
-      "date_range": "July 23-27, 2026",
-      "domain": "abc11.com",
-      "verified": true
-    },
-    {
-      "name": "WFAE / Public Policy Polling",
-      "link": "https://www.wfae.org/politics/2026-07-15/poll-shows-north-carolina-senate-race-tightening",
-      "race_type": "other_context",
-      "party": "D",
-      "margin": 4.0,
-      "details": "Public Policy Polling found Cooper leading Whatley by 4 points in North Carolina\u2019s Senate race; again, this is unrelated to Washington, D.C.",
-      "date_range": "July 15-17, 2026",
-      "domain": "wfae.org",
-      "verified": true
-    },
-    {
-      "name": "The Hill / Decision Desk HQ forecast",
-      "link": "https://thehill.com/homenews/campaign/5968556-ddhq-midterm-election-forecast/",
-      "race_type": "other_context",
-      "party": "D",
-      "margin": 3.5,
-      "details": "DDHQ\u2019s 2026 midterm forecast says Democrats have roughly a 3.5-point edge on the generic congressional ballot nationally, but that is not a Washington, D.C. current race.",
-      "date_range": "July 2026",
-      "domain": "thehill.com",
-      "verified": true
+      "margin": 83.0,
+      "details": "Washington, D.C. is rated D+83 on the Cook Partisan Voting Index, reflecting an overwhelming Democratic lean.",
+      "date_range": "Cook PVI (statewide structural index; current edition, not date-specific in results)",
+      "domain": "en.wikipedia.org",
+      "verified": false
     }
   ],
   "abbreviation": "DC",
-  "_cached_at": "2026-08-08T11:46:57.199004"
+  "_cached_at": "2026-08-08T18:40:20.798325"
 }

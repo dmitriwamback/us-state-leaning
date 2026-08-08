@@ -2,84 +2,29 @@
   "state": "Missouri",
   "mode": "senate_presidential_polling",
   "lean": "R",
-  "confidence": 0.775,
+  "confidence": 0.75,
   "strength_label": "Lean",
-  "net_margin": -16.0,
+  "net_margin": -15.0,
   "based_on": "cook_pvi_fallback",
-  "reasoning": "I could not find any qualifying Missouri-specific 2026 general-election Senate or presidential polling from the last 45 days in the provided results; the results were dominated by primary/live-result and non-target-race coverage. Because there is no recent state-specific general-election margin to report, the best available structural indicator is Missouri\u2019s Cook PVI, which is R+16.",
-  "as_of_date": "2026-08-08T11:45:04",
+  "reasoning": "I could not find any Missouri-specific general-election Senate or presidential polling from the last 45 days in the provided search results. The available results were mostly primary-election coverage or unrelated context, so the current race margin cannot be reliably determined from them; Missouri\u2019s structural baseline remains strongly Republican with a Cook PVI of R+15.",
+  "as_of_date": "2026-08-08T18:38:29",
   "cook_pvi": {
     "party": "R",
-    "percentage_points": 16.0
+    "percentage_points": 15.0
   },
   "sources": [
     {
-      "name": "NBC News",
-      "link": "https://www.nbcnews.com/politics/2026-elections/missouri-ballot-measures",
+      "name": "Cook Political Report",
+      "link": "https://www.cookpolitical.com/",
       "race_type": "other_context",
-      "party": "EVEN",
-      "margin": 0.0,
-      "details": "NBC\u2019s Missouri election page is live results coverage for ballot measures, not a Senate or presidential race poll, so it does not contribute a current general-election margin.",
-      "date_range": "N/A",
-      "domain": "nbcnews.com",
-      "verified": true
-    },
-    {
-      "name": "The Missouri Times",
-      "link": "https://themissouritimes.com/state-senate-tipsheet-july-2026/",
-      "race_type": "other_context",
-      "party": "EVEN",
-      "margin": 0.0,
-      "details": "The Missouri Times discusses Missouri state senate seats and competitiveness in the legislature, not a statewide Senate or presidential general-election poll.",
-      "date_range": "July 2026",
-      "domain": "themissouritimes.com",
-      "verified": true
-    },
-    {
-      "name": "The Washington Post",
-      "link": "https://www.washingtonpost.com/politics/2026/08/04/elections-live-updates-michigan-missouri-kansas-virginia-washington-hold-primaries/",
-      "race_type": "other_context",
-      "party": "EVEN",
-      "margin": 0.0,
-      "details": "The Washington Post item is live election updates about multiple states and primaries, not a Missouri Senate or presidential general-election margin.",
-      "date_range": "August 4, 2026",
-      "domain": "washingtonpost.com",
-      "verified": true
-    },
-    {
-      "name": "Missouri Independent",
-      "link": "https://missouriindependent.com/2026/07/15/in-northwest-missouri-senate-primary-two-gop-lawmakers-who-vote-alike-differ-on-styles/",
-      "race_type": "other_context",
-      "party": "EVEN",
-      "margin": 0.0,
-      "details": "The Missouri Independent article focuses on a Missouri state Senate primary contest and candidate profiles, not a statewide general-election poll.",
-      "date_range": "July 15, 2026",
-      "domain": "missouriindependent.com",
-      "verified": true
-    },
-    {
-      "name": "Polymarket",
-      "link": "https://polymarket.com/zh-hant/event/balance-of-power-2026-midterms",
-      "race_type": "other_context",
-      "party": "D",
-      "margin": 6.2,
-      "details": "The Polymarket page shown is a generic balance-of-power midterms market and generic ballot polling average, not a Missouri-specific Senate or presidential race.",
-      "date_range": "N/A",
-      "domain": "polymarket.com",
-      "verified": true
-    },
-    {
-      "name": "Prediction Edge",
-      "link": "https://www.predictionedge.com/elections/mo/",
-      "race_type": "other_context",
-      "party": "EVEN",
-      "margin": 0.0,
-      "details": "The Prediction Edge Missouri page is an odds-and-candidates page, but the provided result does not show a qualifying Missouri general-election Senate or presidential poll.",
-      "date_range": "N/A",
-      "domain": "predictionedge.com",
-      "verified": true
+      "party": "R",
+      "margin": 15.0,
+      "details": "Cook's statewide index rates Missouri as R+15, indicating a strong Republican lean in presidential performance relative to the nation.",
+      "date_range": "2026",
+      "domain": "cookpolitical.com",
+      "verified": false
     }
   ],
   "abbreviation": "MO",
-  "_cached_at": "2026-08-08T11:45:04.621844"
+  "_cached_at": "2026-08-08T18:38:29.034674"
 }

@@ -2,35 +2,24 @@
   "state": "Tennessee",
   "mode": "senate_presidential_polling",
   "lean": "R",
-  "confidence": 0.825,
-  "strength_label": "Lean",
-  "net_margin": -18.0,
+  "confidence": 0.9,
+  "strength_label": "Strong",
+  "net_margin": -21.0,
   "based_on": "cook_pvi_fallback",
-  "reasoning": "I found no qualifying general-election Senate or presidential polls for Tennessee in the last 45 days; the search results are dominated by primary results and unrelated gubernatorial-primary coverage, which do not measure the current Tennessee Senate or presidential race. The only usable structural baseline is Tennessee\u2019s statewide Cook PVI, which is R+18, indicating a strong Republican lean.",
-  "as_of_date": "2026-08-08T11:46:19",
+  "reasoning": "Tennessee\u2019s statewide Cook PVI is R+21. In the last 45 days, I found no qualifying statewide Tennessee general-election poll for the 2026 Senate or presidential race; the available results are primarily the August 6 Senate primary and unrelated Tennessee gubernatorial primary coverage, so there is no current Senate or presidential margin to report from state-specific polling/news.",
+  "as_of_date": "2026-08-08T18:39:43",
   "cook_pvi": {
     "party": "R",
-    "percentage_points": 18.0
+    "percentage_points": 21.0
   },
   "sources": [
-    {
-      "name": "Cook Political Report",
-      "link": "https://www.cookpolitical.com/",
-      "race_type": "other_context",
-      "party": "R",
-      "margin": 18.0,
-      "details": "Cook PVI rates Tennessee as R+18, indicating the state leans Republican by 18 percentage points relative to the nation.",
-      "date_range": "2026 statewide structural baseline",
-      "domain": "cookpolitical.com",
-      "verified": false
-    },
     {
       "name": "The New York Times",
       "link": "https://www.nytimes.com/interactive/2026/08/06/us/elections/results-tennessee-us-senate-primary.html",
       "race_type": "other_context",
       "party": "R",
       "margin": 99.4,
-      "details": "Reported the Tennessee U.S. Senate primary results, with Bill Hagerty winning the Republican nomination overwhelmingly; this is primary-only and does not provide a general-election margin.",
+      "details": "Live Tennessee U.S. Senate primary results showing Bill Hagerty won the Republican primary by a landslide, but this is a primary result rather than a general-election margin.",
       "date_range": "August 6, 2026",
       "domain": "nytimes.com",
       "verified": true
@@ -41,23 +30,34 @@
       "race_type": "other_context",
       "party": "R",
       "margin": 99.4,
-      "details": "Published Tennessee Senate primary results showing Hagerty winning the GOP primary and Marquita Bradshaw winning the Democratic primary; this is not a general-election poll or forecast.",
+      "details": "NBC News live results show Bill Hagerty won the Republican Senate primary and Marquita Bradshaw won the Democratic Senate primary; this does not measure a general-election Senate margin.",
       "date_range": "August 6, 2026",
       "domain": "nbcnews.com",
       "verified": true
     },
     {
-      "name": "Pollsmax",
-      "link": "https://www.pollsmax.com/senate/tennessee/forecast/",
+      "name": "Prediction Edge",
+      "link": "https://www.predictionedge.com/elections/tn/",
       "race_type": "other_context",
       "party": "R",
-      "margin": 30.0,
-      "details": "A Tennessee Senate forecast projected a solid Republican win with a projected margin of R+30.0, but it is a model forecast and not a poll of Tennessee\u2019s current general election electorate.",
-      "date_range": "July 8, 2026",
-      "domain": "pollsmax.com",
+      "margin": 22.5,
+      "details": "A Tennessee elections page displays a polling average for the Senate race with Blackburn ahead of Green by 22.5 points, but it concerns the governor/other race not the Senate or presidential contest and is therefore not qualifying for the target race.",
+      "date_range": "August 5-7, 2026",
+      "domain": "predictionedge.com",
+      "verified": true
+    },
+    {
+      "name": "Yahoo News",
+      "link": "https://www.yahoo.com/news/politics/articles/blackburn-rose-virtual-dead-heat-174326668.html",
+      "race_type": "other_context",
+      "party": "R",
+      "margin": 3.5,
+      "details": "Coverage of an On Message poll finds Marsha Blackburn leading John Rose by 3.5 points in the Republican gubernatorial primary; this is a primary and a different race, not a Senate or presidential general-election margin.",
+      "date_range": "July 2026",
+      "domain": "yahoo.com",
       "verified": true
     }
   ],
   "abbreviation": "TN",
-  "_cached_at": "2026-08-08T11:46:19.257992"
+  "_cached_at": "2026-08-08T18:39:43.744586"
 }

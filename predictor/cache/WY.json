@@ -4,49 +4,49 @@
   "lean": "R",
   "confidence": 1.0,
   "strength_label": "Strong",
-  "net_margin": -34.4,
-  "based_on": "sources",
-  "reasoning": "Wyoming\u2019s current 2026 Senate race is still in the primary stage in the available last-45-days material, and I did not find a credible, state-specific general-election poll for Wyoming\u2019s Senate or presidential race. The best available race-specific evidence is forecasting/odds material indicating a very strong Republican advantage in the general election, so the current margin is best characterized as **R+** with no reliable survey-based numeric margin from the sources provided.",
-  "as_of_date": "2026-08-08T11:46:52",
+  "net_margin": -25.0,
+  "based_on": "cook_pvi_fallback",
+  "reasoning": "Wyoming\u2019s statewide structural baseline is strongly Republican, with Cook PVI at R+25. In the last 45 days, I did not find any credible Wyoming-specific general-election polling for the 2026 U.S. Senate or presidential race; the available recent Wyoming items were primary polling, prediction markets, or unrelated content, so there is no state-specific current-race margin to report from the supplied results.",
+  "as_of_date": "2026-08-08T18:40:16",
   "cook_pvi": {
     "party": "R",
     "percentage_points": 25.0
   },
   "sources": [
     {
-      "name": "Polls Max",
+      "name": "Prediction Edge",
+      "link": "https://www.predictionedge.com/elections/wy/",
+      "race_type": "other_context",
+      "party": "R",
+      "margin": 5.0,
+      "details": "A Wyoming election-odds page includes a polling-average and recent primary polls for the state, but the polling shown is for the Republican governor primary, not the Senate or presidential general election.",
+      "date_range": "Polling Average; Jul 18-20, 2026; Jul 15-17, 2026",
+      "domain": "predictionedge.com",
+      "verified": true
+    },
+    {
+      "name": "PollsMax",
       "link": "https://www.pollsmax.com/senate/wyoming/forecast/",
-      "race_type": "senate",
+      "race_type": "other_context",
       "party": "R",
       "margin": 33.8,
-      "details": "Forecast projects a Republican win in Wyoming\u2019s 2026 Senate race with a projected vote of 66.9% R to 33.1% D and a projected margin of R +33.8.",
-      "date_range": "Updated July 12, 2026",
+      "details": "A Wyoming Senate forecast projects a Republican win by 33.8 points, but it explicitly says there are no general-election polls yet and is based on a forecast rather than a current Wyoming-specific race poll.",
+      "date_range": "Jul 12, 2026",
       "domain": "pollsmax.com",
       "verified": true
     },
     {
       "name": "Polymarket",
       "link": "https://polymarket.com/event/wyoming-senate-margin-of-victory-2026",
-      "race_type": "senate",
-      "party": "R",
-      "margin": 35.0,
-      "details": "Prediction market page for the Wyoming Senate election shows Republican outcomes dominating, with the market heavily favoring a large Republican margin of victory.",
-      "date_range": "Updated in early August 2026",
-      "domain": "polymarket.com",
-      "verified": true
-    },
-    {
-      "name": "Prediction Edge",
-      "link": "https://www.predictionedge.com/elections/wy/",
       "race_type": "other_context",
       "party": "R",
-      "margin": 5.0,
-      "details": "This polling-average page is for the Wyoming Republican gubernatorial primary, not the Senate or presidential race, but it shows the limited recent state polling activity available in Wyoming.",
-      "date_range": "Jul 18-20, 2026",
-      "domain": "predictionedge.com",
+      "margin": 35.0,
+      "details": "A prediction market page shows traders favoring a Republican margin of victory in the Wyoming Senate election, but it is a market estimate rather than Wyoming-specific polling and does not provide a conventional poll margin.",
+      "date_range": "Recent as of Aug 2026",
+      "domain": "polymarket.com",
       "verified": true
     }
   ],
   "abbreviation": "WY",
-  "_cached_at": "2026-08-08T11:46:52.442114"
+  "_cached_at": "2026-08-08T18:40:16.915480"
 }

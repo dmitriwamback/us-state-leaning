@@ -54,7 +54,7 @@ uniform float confidence;
 uniform bool isTossUp;
 uniform bool dataLoaded;
 
-vec3 lightPosition = vec3(50.0, 0.0, 0.0);
+vec3 lightPosition = vec3(500.0, 0.0, 0.0);
  
 void main() {
     vec3 color;

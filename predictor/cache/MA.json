@@ -2,37 +2,48 @@
   "state": "Massachusetts",
   "mode": "senate_presidential_polling",
   "lean": "D",
-  "confidence": 0.95,
-  "strength_label": "Strong",
-  "net_margin": 23.0,
-  "based_on": "cook_pvi_fallback",
-  "reasoning": "Massachusetts remains strongly Democratic at the structural level, with a statewide Cook PVI of D+23. In the last 45 days, the only clearly relevant current-race public polling in the provided results is the Massachusetts Democratic Senate primary, where Ed Markey leads Seth Moulton by single digits to double digits depending on the poll; there is no qualifying public general-election Senate or presidential poll for Massachusetts in the results, so the current Senate/general margin cannot be stated from this evidence beyond the primary context.",
-  "as_of_date": "2026-08-08T11:44:47",
+  "confidence": 0.525,
+  "strength_label": "Tilt",
+  "net_margin": 6.0,
+  "based_on": "sources",
+  "reasoning": "Massachusetts is structurally very Democratic, with a statewide Cook PVI of D+13. In the last 45 days, the only relevant public race polling in the provided results is the Massachusetts Democratic Senate primary, where Markey leads Moulton by 6 points to 12 points depending on the poll cited; there is no general-election Senate or presidential matchup poll for Massachusetts in the results, so the current race margin cannot be responsibly stated as a statewide D/R general-election margin from these sources.",
+  "as_of_date": "2026-08-08T18:38:12",
   "cook_pvi": {
     "party": "D",
-    "percentage_points": 23.0
+    "percentage_points": 13.0
   },
   "sources": [
     {
-      "name": "PollsMax Massachusetts Senate forecast",
+      "name": "PredictionHunt summary of June 2026 Massachusetts Senate primary polling",
+      "link": "https://www.predictionhunt.com/news/moulton-reaches-28-after-debate-massachusetts-jul-09-2026",
+      "race_type": "senate",
+      "party": "D",
+      "margin": 6.0,
+      "details": "Poll tracking the Massachusetts Senate Democratic primary showed Ed Markey ahead of Seth Moulton 41% to 35%, a 6-point lead.",
+      "date_range": "June 23, 2026",
+      "domain": "predictionhunt.com",
+      "verified": true
+    },
+    {
+      "name": "PredictionHunt summary of Massachusetts Senate primary polling",
+      "link": "https://www.predictionhunt.com/news/markey-hits-77-for-mass-senate-nod-as-poll-lead-jul-23-2026",
+      "race_type": "senate",
+      "party": "D",
+      "margin": 6.0,
+      "details": "Another writeup cited the same June 2026 poll and said Markey led Moulton 41% to 35%, down from 46% to 33% in April.",
+      "date_range": "June 23, 2026",
+      "domain": "predictionhunt.com",
+      "verified": true
+    },
+    {
+      "name": "PollsMax Massachusetts Senate Forecast",
       "link": "https://www.pollsmax.com/senate/massachusetts/forecast/",
       "race_type": "other_context",
       "party": "D",
       "margin": 23.1,
-      "details": "Latest publicly listed Massachusetts Senate polling average on the page shows Democrats ahead, with the most recent included poll from the University of New Hampshire Survey Center dated June 23, 2026.",
-      "date_range": "June 23, 2026",
+      "details": "Polling average for Massachusetts Senate race on an election forecast page showed the Democratic candidate well ahead, with an implied D advantage of 23.1 points in the summary average.",
+      "date_range": "June 18-23, 2026",
       "domain": "pollsmax.com",
-      "verified": true
-    },
-    {
-      "name": "PredictionHunt summary of University of New Hampshire survey",
-      "link": "https://www.predictionhunt.com/news/markey-hits-77-for-mass-senate-nod-as-poll-lead-jul-23-2026",
-      "race_type": "other_context",
-      "party": "D",
-      "margin": 6.0,
-      "details": "A University of New Hampshire survey of the Massachusetts Democratic Senate primary showed Ed Markey leading Seth Moulton 41% to 35%, a 6-point margin, with 23% undecided.",
-      "date_range": "June 23, 2026",
-      "domain": "predictionhunt.com",
       "verified": true
     },
     {
@@ -41,12 +52,23 @@
       "race_type": "other_context",
       "party": "D",
       "margin": 24.0,
-      "details": "The Massachusetts elections page lists a polling average for the gubernatorial race and related state contests, but not a current statewide Senate or presidential general-election poll; it is included only as broader Massachusetts election context, not as the target race.",
+      "details": "A state election odds page showed Massachusetts Senate polling averages and recent polls, all indicating a strong Democratic lead in the race context.",
       "date_range": "June 18-23, 2026",
       "domain": "predictionedge.com",
       "verified": true
+    },
+    {
+      "name": "Cook Political Report PVI",
+      "link": "https://www.cookpolitical.com/",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 13.0,
+      "details": "Statewide Cook Partisan Voting Index for Massachusetts is D+13, indicating a strong Democratic baseline.",
+      "date_range": "2026",
+      "domain": "cookpolitical.com",
+      "verified": false
     }
   ],
   "abbreviation": "MA",
-  "_cached_at": "2026-08-08T11:44:47.256130"
+  "_cached_at": "2026-08-08T18:38:12.652468"
 }

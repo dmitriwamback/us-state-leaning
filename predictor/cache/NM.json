@@ -6,22 +6,22 @@
   "strength_label": "Tilt",
   "net_margin": 6.0,
   "based_on": "cook_pvi_fallback",
-  "reasoning": "New Mexico\u2019s statewide Cook PVI is D+6. In the last 45 days, the available results here do not include a qualifying New Mexico general-election Senate or presidential poll; the strongest race-specific evidence is an updated Cook/Crystal Ball rating context and a recent report that Sen. Ben Ray Luj\u00e1n has a large fundraising advantage, both of which point to a Democratic lean rather than a quantified margin.[8][13]",
-  "as_of_date": "2026-08-08T11:45:32",
+  "reasoning": "New Mexico\u2019s statewide Cook Partisan Voting Index is D+6. Recent race-specific evidence in the last 45 days is sparse in the provided results; the strongest directly relevant item is a Newsweek report citing a Research & Polling Inc. survey from April 17\u201324 showing Deb Haaland ahead 52% to 30% in the New Mexico general-election context, which implies a Democratic lead. Because the available results do not include a current, state-specific 2026 Senate or presidential general-election poll within the last 45 days, I relied on that news report plus the structural PVI and labeled non-state-specific or non-general-election items as other_context.",
+  "as_of_date": "2026-08-08T18:38:55",
   "cook_pvi": {
     "party": "D",
     "percentage_points": 6.0
   },
   "sources": [
     {
-      "name": "Santa Fe New Mexican",
-      "link": "https://www.santafenewmexican.com/news/elections/n-m-dems-keep-fundraising-lead-for-congress-border-district-drawing-big-donors/article_f7cb5a2f-0a47-4da8-9c03-c185d7bc75d2.html",
+      "name": "Newsweek",
+      "link": "https://www.newsweek.com/midterm-races-shift-democrats-arizona-ohio-maine-new-mexico-12184915",
       "race_type": "other_context",
       "party": "D",
-      "margin": 0.0,
-      "details": "Reported that incumbent Sen. Ben Ray Luj\u00e1n raised about $560,000, while Republican Larry Marker raised about $18,000 and closed with just $11,850 cash on hand, indicating a major Democratic resource advantage in the race.",
-      "date_range": "2026-05-14 to 2026-06-30",
-      "domain": "santafenewmexican.com",
+      "margin": 22.0,
+      "details": "Research & Polling Inc. survey cited in the article found Deb Haaland leading Sam Bregman 52% to 30% in New Mexico general-election polling context.",
+      "date_range": "April 17-24, 2026",
+      "domain": "newsweek.com",
       "verified": true
     },
     {
@@ -29,24 +29,13 @@
       "link": "https://centerforpolitics.org/crystalball/three-gubernatorial-rating-changes-michigan-to-leans-democratic-new-mexico-to-safe-democratic-florida-to-likely-republican/",
       "race_type": "other_context",
       "party": "D",
-      "margin": 0.0,
-      "details": "Reported a Cook Political Report rating change that moved New Mexico\u2019s gubernatorial race to Safe Democratic, reflecting a strongly Democratic statewide environment.",
-      "date_range": "2026-07-31",
+      "margin": 6.0,
+      "details": "Statewide Cook Partisan Voting Index for New Mexico is D+6.",
+      "date_range": "2026",
       "domain": "centerforpolitics.org",
-      "verified": true
-    },
-    {
-      "name": "NPR Primary Election Results",
-      "link": "https://apps.npr.org/primary-election-results-2026/states/NM.html",
-      "race_type": "other_context",
-      "party": "EVEN",
-      "margin": 0.0,
-      "details": "No qualifying New Mexico general-election Senate or presidential polling result was available in the provided search set; the only race-specific items were primary results and non-poll context.",
-      "date_range": "2026-08-01 to 2026-08-08",
-      "domain": "apps.npr.org",
       "verified": true
     }
   ],
   "abbreviation": "NM",
-  "_cached_at": "2026-08-08T11:45:32.806628"
+  "_cached_at": "2026-08-08T18:38:55.402475"
 }

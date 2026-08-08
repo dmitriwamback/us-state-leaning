@@ -6,47 +6,58 @@
   "strength_label": "Strong",
   "net_margin": -20.0,
   "based_on": "cook_pvi_fallback",
-  "reasoning": "I could not find a qualifying Utah-specific Senate or presidential general-election poll from the last 45 days in the provided search results. The only usable structural indicator in the results is Utah\u2019s long-standing Republican lean, which I report as the statewide Cook PVI; however, because no current Utah race poll was available, there is no reliable current Senate or presidential margin to assign from the evidence provided.",
-  "as_of_date": "2026-08-08T11:46:28",
+  "reasoning": "I could not find any Utah-specific Senate or presidential general-election poll from the last 45 days in the provided results, so there is no current race margin to report from those sources. Utah\u2019s statewide Cook PVI is R+20, which is the main structural baseline available here; the other results were either unrelated, state-structural, or not a current Utah general-election measurement.",
+  "as_of_date": "2026-08-08T18:39:54",
   "cook_pvi": {
     "party": "R",
     "percentage_points": 20.0
   },
   "sources": [
     {
-      "name": "2026 Utah Senate election - Wikipedia",
+      "name": "Wikipedia - 2026 Utah Senate election",
       "link": "https://en.wikipedia.org/wiki/2026_Utah_Senate_election",
       "race_type": "other_context",
-      "party": "EVEN",
+      "party": "R",
       "margin": 0.0,
-      "details": "Lists Utah Senate election context and confirms the race exists, but the result snippet does not provide a current statewide general-election poll margin.",
-      "date_range": "2026 cycle page (no polling date specified in result)",
+      "details": "Utah is described as a strongly Republican state in statewide election context; no current 2026 Senate or presidential margin is provided in the result snippet.",
+      "date_range": "2024 cycle / general state context",
       "domain": "en.wikipedia.org",
       "verified": true
     },
     {
-      "name": "Live Utah election results - Financial Times",
-      "link": "https://ig.ft.com/us-elections/2024/results/state/utah/",
+      "name": "Utah Senate",
+      "link": "https://senate.utah.gov/",
       "race_type": "other_context",
       "party": "EVEN",
       "margin": 0.0,
-      "details": "Provides Utah election results context, but it is not a current 2026 Senate or presidential poll and does not measure the 2026 race.",
-      "date_range": "2024 results context",
-      "domain": "ig.ft.com",
+      "details": "Official Utah Senate page; informational state-government source, but it does not provide a current Utah Senate or presidential margin.",
+      "date_range": "2026 election-cycle state context",
+      "domain": "senate.utah.gov",
       "verified": true
     },
     {
-      "name": "HB 2 New Fiscal Year Supplemental Appropriations - Utah Legislature",
-      "link": "https://le.utah.gov/Session/2026/bills/static/HB0002.html",
+      "name": "Reuters - 2026 Midterm Elections News",
+      "link": "https://www.reuters.com/world/us/elections/",
       "race_type": "other_context",
       "party": "EVEN",
       "margin": 0.0,
-      "details": "Official Utah Legislature page, but it is not a poll and does not measure the Senate or presidential race.",
-      "date_range": "2026 legislative context",
-      "domain": "le.utah.gov",
+      "details": "This Reuters elections hub is a general news landing page in the search results and no Utah-specific Senate or presidential poll margin is visible in the snippet provided.",
+      "date_range": "Last 45 days not shown / general analysis",
+      "domain": "reuters.com",
+      "verified": true
+    },
+    {
+      "name": "Newsweek",
+      "link": "https://www.newsweek.com/can-democrats-flip-senate-chances-100-days-midterms-12245883",
+      "race_type": "other_context",
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "The result snippet references a June 2026 six-state Senate battleground poll with Democrats and Republicans both at 47% on average, but it is not Utah-specific and therefore cannot be used for Utah\u2019s current race margin.",
+      "date_range": "June 2026",
+      "domain": "newsweek.com",
       "verified": true
     }
   ],
   "abbreviation": "UT",
-  "_cached_at": "2026-08-08T11:46:28.717778"
+  "_cached_at": "2026-08-08T18:39:54.267821"
 }

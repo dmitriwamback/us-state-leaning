@@ -1,5 +1,5 @@
 # US State Leaning
-<p>Based on data on recent polling, demographics, and previous elections, this 3D-WebGL based app will demonstrate the current leanings of each state.</p>
+<p>Based on data on recent polling, and previous elections, this 3D-WebGL based app will demonstrate the current leanings of each state.</p>
 
 ## Disclaimer: This app does not determine which state will vote for which party. This app only demonstrates the current leaning of each state.
 

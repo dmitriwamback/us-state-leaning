@@ -6,47 +6,58 @@
   "strength_label": "Lean",
   "net_margin": 18.0,
   "based_on": "cook_pvi_fallback",
-  "reasoning": "Hawaii does not have a U.S. Senate race on the 2026 ballot, and the search results did not surface any current, state-specific presidential general-election polling for Hawaii from the last 45 days. The only relevant recent items were primary- or non-general-election context, so there is no current Senate or presidential race margin to report; Hawaii\u2019s statewide Cook PVI is D+18.",
-  "as_of_date": "2026-08-08T11:43:58",
+  "reasoning": "Hawaii\u2019s statewide Cook PVI is D+18, reflecting a strong Democratic lean. For the current Senate and presidential context, the evidence available in the last 45 days does not show a new statewide Senate or presidential general-election poll for Hawaii; the clearest recent reporting says there is no 2026 U.S. Senate race in Hawaii and no presidential election on the ballot, so there is no current Senate/presidential margin to report from qualified state-specific polling.[13][4]",
+  "as_of_date": "2026-08-08T18:37:25",
   "cook_pvi": {
     "party": "D",
     "percentage_points": 18.0
   },
   "sources": [
     {
+      "name": "Honolulu Star-Advertiser",
+      "link": "https://www.staradvertiser.com/2026/08/08/hawaii-news/key-races-draw-election-day-attention/",
+      "race_type": "other_context",
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "Reports that there is no presidential election and no election for either of Hawaii's two U.S. Senate seats in 2026, so no current statewide Senate/presidential margin is being polled for this cycle.",
+      "date_range": "August 8, 2026",
+      "domain": "staradvertiser.com",
+      "verified": true
+    },
+    {
       "name": "Prediction Edge",
       "link": "https://www.predictionedge.com/elections/hi/",
       "race_type": "other_context",
       "party": "EVEN",
       "margin": 0.0,
-      "details": "States that neither U.S. Senate seat is up in Hawaii and the next Senate race is in 2028, so there is no current 2026 Senate contest to poll.",
-      "date_range": "2026 cycle context",
+      "details": "States that neither U.S. Senate seat is up in Hawaii and that the next Senate race is in 2028.",
+      "date_range": "2026 cycle overview",
       "domain": "predictionedge.com",
       "verified": true
     },
     {
-      "name": "Cook Political Report",
-      "link": "https://www.cookpolitical.com/",
+      "name": "Newsweek",
+      "link": "https://www.newsweek.com/can-progressive-jarrett-keohokalole-win-hawaii-primary-final-polls-12300281",
       "race_type": "other_context",
       "party": "D",
-      "margin": 18.0,
-      "details": "Reports Hawaii\u2019s statewide Cook PVI as D+18, which is the structural partisanship measure requested.",
-      "date_range": "2026 cycle context",
-      "domain": "cookpolitical.com",
-      "verified": false
+      "margin": 9.0,
+      "details": "Provides recent polling for Hawaii's Democratic congressional primary, but this is a primary for a House seat and not a statewide Senate or presidential general election margin.",
+      "date_range": "2026-07-24",
+      "domain": "newsweek.com",
+      "verified": true
     },
     {
-      "name": "Financial Times election results",
-      "link": "https://ig.ft.com/us-elections/2024/results/state/hawaii/",
+      "name": "Prediction Edge",
+      "link": "https://www.predictionedge.com/elections/us-house/hawaii-district-1-democratic-primary/",
       "race_type": "other_context",
       "party": "D",
-      "margin": 32.7,
-      "details": "Shows the 2024 Hawaii presidential result was Democratic, but this is historical results context rather than a current 2026 race poll.",
-      "date_range": "2024 results context",
-      "domain": "ig.ft.com",
+      "margin": 12.5,
+      "details": "Aggregates Hawaii congressional primary polling and odds, but it is not a statewide Senate or presidential general-election poll.",
+      "date_range": "2026-07-07 to 2026-07-24",
+      "domain": "predictionedge.com",
       "verified": true
     }
   ],
   "abbreviation": "HI",
-  "_cached_at": "2026-08-08T11:43:58.805973"
+  "_cached_at": "2026-08-08T18:37:25.202336"
 }

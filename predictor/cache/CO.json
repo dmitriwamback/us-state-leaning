@@ -2,40 +2,51 @@
   "state": "Colorado",
   "mode": "senate_presidential_polling",
   "lean": "D",
-  "confidence": 1.0,
-  "strength_label": "Strong",
-  "net_margin": 93.7,
-  "based_on": "sources",
-  "reasoning": "Colorado\u2019s statewide PVI is strongly Democratic at about D+15. For the current 2026 Colorado Senate race, the available recent source is a betting/odds market rather than a public poll, and it shows the Republican nominee far behind, indicating a Democratic advantage; however, there is not enough qualifying state-specific polling in the supplied results to compute a true poll margin from the last 45 days.",
-  "as_of_date": "2026-08-08T11:43:34",
+  "confidence": 0.55,
+  "strength_label": "Tilt",
+  "net_margin": 7.0,
+  "based_on": "cook_pvi_fallback",
+  "reasoning": "Colorado\u2019s statewide Cook PVI is D+7. In the last 45 days, the available sources in the search results do not include a credible, Colorado-specific general-election Senate or presidential poll from an approved pollster or outlet; the most relevant recent item is a prediction-market page showing John Hickenlooper overwhelmingly favored, but that is not a poll and is therefore only usable as other context. Based on the provided results, there is no fresh polling-based numeric Senate or presidential margin to report for Colorado.",
+  "as_of_date": "2026-08-08T18:36:59",
   "cook_pvi": {
     "party": "D",
-    "percentage_points": 15.0
+    "percentage_points": 7.0
   },
   "sources": [
     {
-      "name": "PredictionEdge",
+      "name": "Prediction Edge",
       "link": "https://www.predictionedge.com/elections/us-senate/colorado-race-winner-by-party/",
-      "race_type": "senate",
+      "race_type": "other_context",
       "party": "D",
       "margin": 93.7,
-      "details": "Lists John Hickenlooper at 97.0% and Mark Baisley at 3.3% in the 2026 Colorado Senate race winner-by-party market.",
-      "date_range": "Current as of Aug. 8, 2026",
+      "details": "Election market page showing John Hickenlooper at 97.0% and Mark Baisley at 3.3% to win Colorado\u2019s U.S. Senate race; this is a market price, not a poll, so it is only context.",
+      "date_range": "Aug. 8, 2026 (last updated)",
       "domain": "predictionedge.com",
       "verified": true
     },
     {
-      "name": "Cook Political Report PVI",
-      "link": "https://www.cookpolitical.com/",
+      "name": "Colorado Politics",
+      "link": "https://www.coloradopolitics.com/2026/07/30/democrat-jessica-killins-internal-poll-shows-dead-heat-with-u-s-rep-jeff-crank-in-colorados-5th-cd/",
       "race_type": "other_context",
-      "party": "D",
-      "margin": 15.0,
-      "details": "Colorado\u2019s statewide Cook Partisan Voting Index is approximately D+15, indicating a strong Democratic lean relative to the nation.",
-      "date_range": "2026 cycle (statewide structural metric)",
-      "domain": "cookpolitical.com",
-      "verified": false
+      "party": "R",
+      "margin": 1.0,
+      "details": "Colorado Politics reported on Jessica Killin\u2019s internal House poll showing a 44%-45% deficit in Colorado\u2019s 5th Congressional District; this is not the Senate or presidential race, so it is only context.",
+      "date_range": "July 2026",
+      "domain": "coloradopolitics.com",
+      "verified": true
+    },
+    {
+      "name": "Colorado Sun",
+      "link": "https://coloradosun.com/2026/07/28/jessica-killin-jeff-crank-polling/",
+      "race_type": "other_context",
+      "party": "R",
+      "margin": 1.0,
+      "details": "Colorado Sun reported a campaign-paid poll in Colorado Springs\u2019 congressional district showing Jessica Killin down 1 point to Jeff Crank; this is not the Senate or presidential race, so it is only context.",
+      "date_range": "July 2026",
+      "domain": "coloradosun.com",
+      "verified": true
     }
   ],
   "abbreviation": "CO",
-  "_cached_at": "2026-08-08T11:43:34.598527"
+  "_cached_at": "2026-08-08T18:36:59.154393"
 }

@@ -2,51 +2,51 @@
   "state": "Wisconsin",
   "mode": "senate_presidential_polling",
   "lean": "Toss-up",
-  "confidence": 0.3,
+  "confidence": 0.46,
   "strength_label": "Toss-up",
-  "net_margin": 3.0,
+  "net_margin": 4.6,
   "based_on": "cook_pvi_fallback",
-  "reasoning": "I found recent Wisconsin polling/news in the last 45 days, but the search results did not surface any current 2026 Wisconsin Senate or presidential general-election poll specific to the state; the clearest recent state-specific electoral data in the results is a Senate-district poll and a Wisconsin gubernatorial general-election matchup, both of which are outside the requested races and therefore counted only as context. Based on the available evidence, there is no reliable current Senate or presidential margin to report for Wisconsin from the provided results, so the race-specific margin remains unavailable.",
-  "as_of_date": "2026-08-08T11:46:49",
+  "reasoning": "The search results did not surface any Wisconsin 2026 general-election Senate or presidential poll from the last 45 days that measures this state's current race; most results are about a state legislative race or the Democratic gubernatorial primary, which must be treated as other_context. The only statewide Wisconsin general-election-style matchup in the results is a hypothetical Democratic primary/general-election crossover mention in a Fox News item, but it is not a current Wisconsin Senate or presidential race poll, so it cannot be used to set a Senate or presidential margin.",
+  "as_of_date": "2026-08-08T18:40:12",
   "cook_pvi": {
     "party": "D",
-    "percentage_points": 3.0
+    "percentage_points": 4.6
   },
   "sources": [
     {
-      "name": "Townhall citing Wedgewood Polls",
+      "name": "Marquette Today",
+      "link": "https://today.marquette.edu/2026/07/marquette-law-school-poll-finds-almost-half-of-democratic-primary-voters-undecided-amid-rapid-shifts-in-the-race-for-the-gubernatorial-nomination/",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 22.0,
+      "details": "Marquette Law School Poll coverage reports only the Wisconsin Democratic gubernatorial primary, with Hong leading the field but many voters undecided; this is not a Senate or presidential general-election race.",
+      "date_range": "July 22-30, 2026",
+      "domain": "today.marquette.edu",
+      "verified": true
+    },
+    {
+      "name": "Townhall",
       "link": "https://townhall.com/tipsheet/amy-curtis/2026/07/22/david-crowley-polling-n2679911",
       "race_type": "other_context",
       "party": "D",
-      "margin": 7.0,
-      "details": "A Wisconsin Senate district poll found Jeff Smith leading Michele Magadance Skinner by 7 points, but this is a state legislative race and not the statewide U.S. Senate race.",
+      "margin": 29.0,
+      "details": "A Wedgewood Partners poll discussed on Townhall covers the Wisconsin Democratic Senate primary, showing Francesca Hong leading Mandela Barnes and David Crowley; it is a primary poll, not a current general-election Senate or presidential poll.",
       "date_range": "July 18-20, 2026",
       "domain": "townhall.com",
       "verified": true
     },
     {
-      "name": "270toWin / Wedgewood Polls",
-      "link": "https://www.270towin.com/2026-governor-polls/wisconsin",
+      "name": "Fox News",
+      "link": "https://www.foxnews.com/politics/dsa-member-leads-dem-primary-midwest-battleground-trails-likely-gop-nominee-poll",
       "race_type": "other_context",
       "party": "D",
       "margin": 4.0,
-      "details": "A Wisconsin gubernatorial poll showed Mandela Barnes leading Tommy Tiffany 48% to 44% in one matchup; this is a gubernatorial race, not a Senate or presidential race.",
-      "date_range": "July 6, 2026",
-      "domain": "270towin.com",
-      "verified": true
-    },
-    {
-      "name": "270toWin / Wedgewood Polls",
-      "link": "https://www.270towin.com/2026-governor-polls/wisconsin",
-      "race_type": "other_context",
-      "party": "D",
-      "margin": 3.0,
-      "details": "The same Wisconsin governor polling page shows another matchup with Hong 47% and Tiffany 44%, again a gubernatorial contest rather than the requested federal race.",
-      "date_range": "July 6, 2026",
-      "domain": "270towin.com",
+      "details": "Fox News reports a hypothetical general-election matchup in Wisconsin where Mandela Barnes edges Tiffany 44%-40% and Francesca Hong trails Tiffany 43%-40%; this is about the Democratic primary field and a hypothetical matchup, not a current Wisconsin Senate or presidential election poll.",
+      "date_range": "July 2026",
+      "domain": "foxnews.com",
       "verified": true
     }
   ],
   "abbreviation": "WI",
-  "_cached_at": "2026-08-08T11:46:49.239964"
+  "_cached_at": "2026-08-08T18:40:12.921210"
 }

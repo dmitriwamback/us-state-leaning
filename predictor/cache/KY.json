@@ -6,36 +6,25 @@
   "strength_label": "Lean",
   "net_margin": -11.0,
   "based_on": "sources",
-  "reasoning": "Kentucky\u2019s statewide structural lean is strongly Republican, reflected in its Cook PVI of R+15. For the current 2026 Kentucky Senate race, the only directly relevant polling in the last 45 days is sparse and the most accessible aggregate shows Republicans ahead by about 11 points; market/outlook pieces also point to a clear Republican advantage rather than a competitive race.",
-  "as_of_date": "2026-08-08T11:44:28",
+  "reasoning": "Kentucky's statewide Cook Partisan Voting Index is R+24. In the last 45 days, I did not find any qualifying, state-specific general-election polling for Kentucky's 2026 Senate or presidential race from an approved pollster or forecaster; the only usable race-specific figure in the provided results is a polling average showing the Kentucky Senate race at R+11, but its latest included poll is from December 2025, outside the requested 45-day window.",
+  "as_of_date": "2026-08-08T18:37:53",
   "cook_pvi": {
     "party": "R",
-    "percentage_points": 15.0
+    "percentage_points": 24.0
   },
   "sources": [
     {
-      "name": "PollsMax Kentucky Senate Polling Average",
+      "name": "Pollsmax Kentucky Senate Polling Average",
       "link": "https://www.pollsmax.com/senate/kentucky/",
       "race_type": "senate",
       "party": "R",
       "margin": 11.0,
-      "details": "Polling average for the 2026 Kentucky Senate race between Charles Booker and Andy Barr shows Booker at 38% and Barr at 49%, a Republican lead of 11 points.",
-      "date_range": "Last updated Aug. 7, 2026; current polling average based on polls released between Dec. 19, 2025 and Aug. 7, 2026",
+      "details": "Polling average for the Kentucky Senate race shows Charles Booker 38.0% and Andy Barr 49.0%, for an R+11.0 margin; however, the latest poll included in the average is from December 19, 2025, so it does not satisfy the last-45-days requirement.",
+      "date_range": "Last updated August 7, 2026",
       "domain": "pollsmax.com",
-      "verified": true
-    },
-    {
-      "name": "PredictionEdge Kentucky Senate Winner by Party",
-      "link": "https://www.predictionedge.com/elections/us-senate/kentucky-race-winner-by-party/",
-      "race_type": "other_context",
-      "party": "R",
-      "margin": 88.3,
-      "details": "Live election market pricing heavily favors Republican Andy Barr over Democrat Charles Booker in the Kentucky Senate race.",
-      "date_range": "Updated Aug. 7, 2026",
-      "domain": "predictionedge.com",
       "verified": true
     }
   ],
   "abbreviation": "KY",
-  "_cached_at": "2026-08-08T11:44:28.501397"
+  "_cached_at": "2026-08-08T18:37:53.202420"
 }

@@ -97,7 +97,7 @@ float dist = 15.0f;
 float t = 0.0f;
 
 EM_BOOL render_frame(double time, void *userData) {
-    glClearColor(16.0f/255.0f, 24.0f/255.0f, 29.0f/255.0f, 1.0f);
+    glClearColor(248.0f/255.0f, 243.0f/255.0f, 230.0f/255.0f, 1.0f);
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
     Mat4 view = Mat4::lookAt(Vec3{dist * cos(-t), cameraOffsetY, dist * sin(-t) + cameraOffsetZ}, Vec3{0, cameraOffsetY, cameraOffsetZ}, Vec3{0, 1, 0});

@@ -2,62 +2,51 @@
   "state": "South Dakota",
   "mode": "senate_presidential_polling",
   "lean": "R",
-  "confidence": 0.978,
+  "confidence": 0.964,
   "strength_label": "Strong",
-  "net_margin": -24.1,
+  "net_margin": -23.55,
   "based_on": "sources",
-  "reasoning": "South Dakota has no clearly current, state-specific Senate or presidential general-election poll in the last 45 days besides a poll aggregate and coverage tied to the Senate race; the available polling shows Republicans ahead by roughly two dozen points. Recent reporting also indicates the Democratic Senate nominee dropped out, which further supports a strongly Republican margin rather than a competitive race.[1][8][10]",
-  "as_of_date": "2026-08-08T11:46:14",
+  "reasoning": "South Dakota\u2019s statewide Cook PVI is R+24. For the 2026 Senate race, the most recent state-specific polling/news in the last 45 days shows Republicans ahead by roughly the mid-20s: PollsMax\u2019s aggregate has Mike Rounds up R+24.1, and recent reporting on a July poll described Rounds leading Brian Bengs by 23 points; no qualifying statewide presidential poll for South Dakota appeared in the provided results.",
+  "as_of_date": "2026-08-08T18:39:39",
   "cook_pvi": {
     "party": "R",
-    "percentage_points": 26.0
+    "percentage_points": 24.0
   },
   "sources": [
     {
-      "name": "Pollsmax South Dakota Senate polls",
+      "name": "PollsMax South Dakota Senate polls",
       "link": "https://www.pollsmax.com/senate/south-dakota/",
       "race_type": "senate",
       "party": "R",
       "margin": 24.1,
-      "details": "Polling average of 30.7% Democratic vs. 54.9% Republican, giving Republican Mike Rounds a 24.1-point lead over Democrat Julian Beaudion.",
-      "date_range": "Last updated July 21, 2026; polls through May 30, 2026",
+      "details": "Polling average for South Dakota\u2019s 2026 Senate race between Democrat Julian Beaudion and Republican Mike Rounds showed Rounds ahead 54.9% to 30.7%, a margin of R+24.1.",
+      "date_range": "Updated July 21, 2026; polls included through May 30, 2026",
       "domain": "pollsmax.com",
       "verified": true
     },
     {
-      "name": "Politico",
-      "link": "https://www.politico.com/news/2026/08/01/democrats-independents-montana-south-dakota-senate-01020995",
-      "race_type": "other_context",
-      "party": "R",
-      "margin": 0.0,
-      "details": "News coverage said Democrats were struggling in South Dakota and described the state Senate contest as a difficult one for Democrats.",
-      "date_range": "2026-08-01",
-      "domain": "politico.com",
-      "verified": true
-    },
-    {
-      "name": "The New York Times",
-      "link": "https://www.nytimes.com/2026/08/04/us/politics/julian-beaudion-drops-out-south-dakota.html",
-      "race_type": "other_context",
-      "party": "R",
-      "margin": 0.0,
-      "details": "Reported that Democratic Senate nominee Julian Beaudion quit the South Dakota Senate race, effectively leaving Republican Sen. Mike Rounds in a much stronger position.",
-      "date_range": "2026-08-04",
-      "domain": "nytimes.com",
-      "verified": true
-    },
-    {
-      "name": "Townhall",
+      "name": "Townhall report on South Dakota Senate poll",
       "link": "https://townhall.com/author/print/2680739",
-      "race_type": "other_context",
+      "race_type": "senate",
       "party": "R",
       "margin": 23.0,
-      "details": "Reported a head-to-head matchup in which Rounds led Brian Bengs by 23 points, 56% to 33%.",
-      "date_range": "2026-07-30 to 2026-08-01",
+      "details": "Coverage reported a South Dakota Senate head-to-head in which Mike Rounds led independent Brian Bengs by 23 points, 56% to 33%.",
+      "date_range": "July 2026 poll, reported July 2026",
       "domain": "townhall.com",
+      "verified": true
+    },
+    {
+      "name": "NBC News South Dakota Senate candidate withdrawal report",
+      "link": "https://www.nbcnews.com/politics/2026-election/democrat-drops-out-south-dakota-senate-race-independent-candidate-rcna590883",
+      "race_type": "other_context",
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "Reporting noted that Democrat Julian Beaudion suspended his Senate bid, clearing the way for independent Brian Bengs against Sen. Mike Rounds.",
+      "date_range": "2026 race context; reported July 2026",
+      "domain": "nbcnews.com",
       "verified": true
     }
   ],
   "abbreviation": "SD",
-  "_cached_at": "2026-08-08T11:46:14.485525"
+  "_cached_at": "2026-08-08T18:39:39.434592"
 }

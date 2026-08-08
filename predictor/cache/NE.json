@@ -6,47 +6,47 @@
   "strength_label": "Toss-up",
   "net_margin": 0.15,
   "based_on": "sources",
-  "reasoning": "Nebraska\u2019s 2026 Senate race is currently the relevant statewide contest, and the most recent usable polling in the last 45 days shows Republican Pete Ricketts ahead by about 4.7 points on aggregate, though some individual polls had independent Dan Osborn narrowly ahead. Nebraska\u2019s statewide Cook PVI is R+13, which helps explain the structural Republican lean even with a competitive race.",
-  "as_of_date": "2026-08-08T11:45:13",
+  "reasoning": "Nebraska\u2019s current 2026 Senate contest is the relevant race, and the best polling-based aggregate in the last 45 days shows Republican Pete Ricketts ahead by about 4.7 points over independent Dan Osborn. Nebraska\u2019s statewide Cook PVI is R+19, reflecting a strongly Republican structural baseline.",
+  "as_of_date": "2026-08-08T18:38:38",
   "cook_pvi": {
     "party": "R",
-    "percentage_points": 13.0
+    "percentage_points": 19.0
   },
   "sources": [
     {
-      "name": "Newsweek citing Tavern Research",
+      "name": "Pollsmax Nebraska Senate Polling Average",
+      "link": "https://www.pollsmax.com/senate/nebraska/",
+      "race_type": "senate",
+      "party": "R",
+      "margin": 4.7,
+      "details": "Aggregated polling average for the Nebraska Senate race shows Pete Ricketts at 48.4% and Osborn at 43.7%, a Republican margin of 4.7 points.",
+      "date_range": "Updated July 6, 2026; polls included through May 11, 2026",
+      "domain": "pollsmax.com",
+      "verified": true
+    },
+    {
+      "name": "Newsweek reporting on Tavern Research",
       "link": "https://www.newsweek.com/map-shows-democrats-chances-in-key-senate-races-with-98-days-to-midterms-12249548",
       "race_type": "senate",
       "party": "D",
       "margin": 5.0,
-      "details": "Tavern Research found Dan Osborn ahead of Pete Ricketts by 5 points in a two-way Senate matchup.",
+      "details": "Tavern Research found Osborn leading Ricketts 47% to 42% in a two-way matchup, a 5-point Democratic-leaning result.",
       "date_range": "May 8-11, 2026",
       "domain": "newsweek.com",
       "verified": true
     },
     {
-      "name": "PollsMax",
-      "link": "https://www.pollsmax.com/senate/nebraska/",
-      "race_type": "senate",
-      "party": "R",
-      "margin": 4.7,
-      "details": "Polling average for Nebraska\u2019s Senate race showed Pete Ricketts ahead of Dan Osborn by 4.7 points.",
-      "date_range": "Last updated July 6, 2026; polls included through May 11, 2026",
-      "domain": "pollsmax.com",
-      "verified": true
-    },
-    {
-      "name": "Ballotpedia",
+      "name": "Ballotpedia race summary",
       "link": "https://news.ballotpedia.org/2026/07/14/four-candidates-are-running-in-the-general-election-for-the-u-s-senate-in-nebraska-including-two-who-previously-ran-in-2024/",
       "race_type": "other_context",
       "party": "R",
       "margin": 0.0,
-      "details": "Ballotpedia reported that Cook Political Report, Inside Elections, and Sabato\u2019s Crystal Ball all rated Nebraska\u2019s general-election Senate race as Likely Republican.",
-      "date_range": "July 7, 2026",
+      "details": "Ballotpedia reported that Cook, Sabato's Crystal Ball, and Inside Elections all rated the Nebraska Senate general election as Likely Republican.",
+      "date_range": "July 14, 2026",
       "domain": "news.ballotpedia.org",
       "verified": true
     }
   ],
   "abbreviation": "NE",
-  "_cached_at": "2026-08-08T11:45:13.941798"
+  "_cached_at": "2026-08-08T18:38:38.104991"
 }

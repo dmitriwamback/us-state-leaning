@@ -6,25 +6,36 @@
   "strength_label": "Toss-up",
   "net_margin": -1.0,
   "based_on": "sources",
-  "reasoning": "Nevada\u2019s statewide Cook PVI is approximately EVEN/D+1, commonly cited as R+1 or D+1 depending on the rounding convention; I used D+1 as a single-point Democratic lean. In the last 45 days, the only directly relevant Nevada general-election polling result surfaced here is an aggregate showing Jacky Rosen (D) up 46% to Sam Brown (R) 47%, which is a Brown +1 edge and therefore a Republican lead. No valid Nevada presidential general-election poll from the last 45 days was present in the provided results, so the source list reflects the Senate contest only.",
-  "as_of_date": "2026-08-08T11:45:18",
+  "reasoning": "The only state-specific Nevada 2026 general-election race polling in the provided results is a poll tracker showing Jacky Rosen leading Sam Brown by 1 point on average of five polls, which implies a narrow D advantage. I could not verify any Nevada presidential general-election poll within the last 45 days from the provided search results, so the current margin is based on the Senate race only; Nevada\u2019s statewide Cook PVI is D+4.",
+  "as_of_date": "2026-08-08T18:38:42",
   "cook_pvi": {
     "party": "D",
-    "percentage_points": 1.0
+    "percentage_points": 4.0
   },
   "sources": [
     {
-      "name": "What's On My Ballot",
+      "name": "What's On My Ballot 2026 Election Poll Tracker",
       "link": "https://whatsonmyballot.info/polls/",
       "race_type": "senate",
       "party": "R",
       "margin": 1.0,
-      "details": "Polling tracker average of 5 Nevada Senate polls shows Sam Brown at 47% and Jacky Rosen at 46%, a Brown +1 edge in the general election.",
-      "date_range": "Updated Mar 14, 2026",
+      "details": "Poll tracker averaging five Nevada Senate polls shows Jacky Rosen at 46% and Sam Brown at 47%, described as a toss-up and giving Brown a 1-point edge.",
+      "date_range": "Updated Mar 14, 2026; average of 5 polls",
       "domain": "whatsonmyballot.info",
       "verified": true
+    },
+    {
+      "name": "Cook Political Report",
+      "link": "https://www.cookpolitical.com/",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 4.0,
+      "details": "Nevada\u2019s statewide Cook Partisan Voting Index is D+4.",
+      "date_range": "Statewide structural rating (current as provided in source context)",
+      "domain": "cookpolitical.com",
+      "verified": false
     }
   ],
   "abbreviation": "NV",
-  "_cached_at": "2026-08-08T11:45:18.368960"
+  "_cached_at": "2026-08-08T18:38:42.164577"
 }

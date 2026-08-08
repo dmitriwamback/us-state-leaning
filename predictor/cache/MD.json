@@ -4,38 +4,49 @@
   "lean": "D",
   "confidence": 1.0,
   "strength_label": "Strong",
-  "net_margin": 28.0,
+  "net_margin": 30.0,
   "based_on": "cook_pvi_fallback",
-  "reasoning": "Maryland\u2019s statewide Cook PVI is D+28. I did not find any qualifying Maryland 2026 Senate or presidential general-election polls from the last 45 days in the provided results; the only potentially relevant items were not state-specific general-election polls for Maryland, so they must be treated as other_context or excluded under the scope rule.",
-  "as_of_date": "2026-08-08T11:44:42",
+  "reasoning": "Maryland is a heavily Democratic state, with a statewide Cook PVI of D+30. In the provided search results, there were no qualifying Maryland-specific 2026 general-election Senate or presidential polls/news from the last 45 days, so I cannot establish a current race margin from the allowed sources; the only clearly Maryland-specific 2026 election items were calendar/results or unrelated topic pages, which are not usable for a statewide general-election margin.",
+  "as_of_date": "2026-08-08T18:38:07",
   "cook_pvi": {
     "party": "D",
-    "percentage_points": 28.0
+    "percentage_points": 30.0
   },
   "sources": [
     {
-      "name": "PollsMax Senate Forecast",
-      "link": "https://www.pollsmax.com/senate/",
+      "name": "Maryland State Board of Elections",
+      "link": "https://elections.maryland.gov/elections/2026/2026_Election_Calendar.pdf",
       "race_type": "other_context",
-      "party": "R",
+      "party": "EVEN",
       "margin": 0.0,
-      "details": "Interactive Senate forecast showing overall chamber control odds and projected seat split, not a Maryland-specific general-election race poll.",
-      "date_range": "August 8, 2026",
-      "domain": "pollsmax.com",
+      "details": "Official Maryland State Board of Elections calendar for the 2026 gubernatorial cycle; structural election information only, not a Senate or presidential margin poll.",
+      "date_range": "2026 election calendar",
+      "domain": "elections.maryland.gov",
       "verified": true
     },
     {
-      "name": "UMBC Institute of Politics / 2028tracker summary",
-      "link": "https://2028tracker.com/wes-moore-approval-rating",
+      "name": "The Washington Post",
+      "link": "https://www.washingtonpost.com/local/maryland/politics/",
       "race_type": "other_context",
-      "party": "D",
-      "margin": 6.0,
-      "details": "Statewide approval survey of Maryland adults for Governor Wes Moore, which is not a Senate or presidential general-election margin.",
-      "date_range": "March 17-22, 2026",
-      "domain": "2028tracker.com",
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "Maryland politics landing page from the Washington Post; no specific statewide Senate or presidential margin result was provided in the search snippet.",
+      "date_range": "current page (2026)",
+      "domain": "washingtonpost.com",
+      "verified": true
+    },
+    {
+      "name": "Polymarket",
+      "link": "https://polymarket.com/event/which-party-will-win-the-senate-in-2026",
+      "race_type": "other_context",
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "Polymarket Senate control market for 2026 is a national control prediction, not a Maryland-specific race measurement.",
+      "date_range": "current page (2026)",
+      "domain": "polymarket.com",
       "verified": true
     }
   ],
   "abbreviation": "MD",
-  "_cached_at": "2026-08-08T11:44:42.676708"
+  "_cached_at": "2026-08-08T18:38:07.842051"
 }

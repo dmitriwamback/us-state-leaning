@@ -2,73 +2,73 @@
   "state": "Ohio",
   "mode": "senate_presidential_polling",
   "lean": "Toss-up",
-  "confidence": 0.018,
+  "confidence": 0.3,
   "strength_label": "Toss-up",
-  "net_margin": -0.18,
+  "net_margin": 3.0,
   "based_on": "sources",
-  "reasoning": "Ohio\u2019s statewide Cook PVI is R+6.0. In the last 45 days, the most relevant Ohio Senate polling/aggregates cluster around a near-toss-up, with recent averages ranging from Brown +0.9 to Husted +2.8, so the current margin is best described as roughly even to a small Republican edge depending on the average used.",
-  "as_of_date": "2026-08-08T11:45:49",
+  "reasoning": "Recent Ohio Senate polling in the last 45 days shows a very close race with results split between a small Democratic lead and a small Republican lead, making the current margin effectively a toss-up. The weighted polling average from a polling aggregator is R+2.8, while recent poll rounds cited by major outlets show margins ranging from D+3 to R+3; Ohio\u2019s statewide Cook Partisan Voting Index is R+6.",
+  "as_of_date": "2026-08-08T18:39:10",
   "cook_pvi": {
     "party": "R",
     "percentage_points": 6.0
   },
   "sources": [
     {
-      "name": "PollsMax Ohio Senate Polling Average",
-      "link": "https://www.pollsmax.com/senate/ohio/",
+      "name": "The New York Times / Siena University poll tracker",
+      "link": "https://www.nytimes.com/interactive/polls/ohio-us-senate-election-polls-2026.html",
       "race_type": "senate",
+      "party": "D",
+      "margin": 3.0,
+      "details": "AARP-sponsored Fabrizio Ward/Impact Research poll found Brown ahead 48% to 45% over Husted.",
+      "date_range": "June 14-16, 2026",
+      "domain": "nytimes.com",
+      "verified": true
+    },
+    {
+      "name": "The New York Times / Siena University poll tracker",
+      "link": "https://www.nytimes.com/interactive/polls/ohio-us-senate-election-polls-2026.html",
+      "race_type": "senate",
+      "party": "R",
+      "margin": 3.0,
+      "details": "The New York Times/Siena University poll found Husted ahead 50% to 47% over Brown.",
+      "date_range": "June 15-28, 2026",
+      "domain": "nytimes.com",
+      "verified": true
+    },
+    {
+      "name": "The New York Times / Siena University poll tracker",
+      "link": "https://www.nytimes.com/interactive/polls/ohio-us-senate-election-polls-2026.html",
+      "race_type": "senate",
+      "party": "D",
+      "margin": 4.0,
+      "details": "Tulchin Research found Brown ahead 46% to 42% over Husted.",
+      "date_range": "June 2-4, 2026",
+      "domain": "nytimes.com",
+      "verified": true
+    },
+    {
+      "name": "The New York Times / Siena University poll tracker",
+      "link": "https://www.nytimes.com/interactive/polls/ohio-us-senate-election-polls-2026.html",
+      "race_type": "senate",
+      "party": "D",
+      "margin": 8.0,
+      "details": "Beacon Research/Shaw & Company Research polling for Fox News found Brown ahead 53% to 45% over Husted.",
+      "date_range": "May 28-June 1, 2026",
+      "domain": "nytimes.com",
+      "verified": true
+    },
+    {
+      "name": "PollsMax polling average",
+      "link": "https://www.pollsmax.com/senate/ohio/",
+      "race_type": "other_context",
       "party": "R",
       "margin": 2.8,
-      "details": "Polling average for the Ohio Senate race shows Jon Husted leading Sherrod Brown 47.9% to 45.1%, a Republican margin of 2.8 points.",
-      "date_range": "Updated August 7, 2026; polling included released through June 16, 2026",
+      "details": "An aggregated polling average for Ohio\u2019s Senate race showed Husted at 47.9% and Brown at 45.1%, a Republican lead of 2.8 points.",
+      "date_range": "June 16, 2026",
       "domain": "pollsmax.com",
-      "verified": true
-    },
-    {
-      "name": "Decision Desk HQ Ohio Senate average",
-      "link": "https://decisiondeskhq.substack.com/p/james-talarico-polling-better-beto-orourke-texas-senate-paxton-cruz-trump",
-      "race_type": "senate",
-      "party": "D",
-      "margin": 1.0,
-      "details": "Decision Desk HQ\u2019s Ohio Senate average has Sherrod Brown ahead of Jon Husted 47% to 46%, indicating a 1-point Democratic edge.",
-      "date_range": "July 2026",
-      "domain": "decisiondeskhq.substack.com",
-      "verified": true
-    },
-    {
-      "name": "VoteHub Ohio Senate polling average (as reported by Newsweek)",
-      "link": "https://www.newsweek.com/polling-flips-against-republicans-four-critical-midterms-races-12239400",
-      "race_type": "senate",
-      "party": "D",
-      "margin": 0.9,
-      "details": "A VoteHub polling average cited in reporting shows Democrats leading the Ohio Senate race by 0.9 points.",
-      "date_range": "Since May 5, 2026; reported July 2026",
-      "domain": "newsweek.com",
-      "verified": true
-    },
-    {
-      "name": "New York Times/Siena University Ohio Senate poll",
-      "link": "https://www.newsweek.com/map-shows-democrats-chances-in-key-senate-races-with-98-days-to-midterms-12249548",
-      "race_type": "senate",
-      "party": "R",
-      "margin": 3.0,
-      "details": "Newsweek reports a New York Times/Siena poll had Jon Husted ahead 50% to 47%, while an AARP poll had Sherrod Brown ahead 48% to 45%.",
-      "date_range": "June 15-28, 2026 and June 14-16, 2026",
-      "domain": "newsweek.com",
-      "verified": true
-    },
-    {
-      "name": "AARP Ohio Senate poll",
-      "link": "https://www.newsweek.com/map-shows-democrats-chances-in-key-senate-races-with-98-days-to-midterms-12249548",
-      "race_type": "senate",
-      "party": "D",
-      "margin": 3.0,
-      "details": "AARP poll of Ohio voters found Sherrod Brown leading Jon Husted 48% to 45%.",
-      "date_range": "June 14-16, 2026",
-      "domain": "newsweek.com",
       "verified": true
     }
   ],
   "abbreviation": "OH",
-  "_cached_at": "2026-08-08T11:45:49.814673"
+  "_cached_at": "2026-08-08T18:39:10.966319"
 }

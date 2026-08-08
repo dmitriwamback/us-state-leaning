@@ -6,47 +6,36 @@
   "strength_label": "Lean",
   "net_margin": 16.0,
   "based_on": "cook_pvi_fallback",
-  "reasoning": "Vermont has no U.S. Senate race on the ballot in 2026, so there is no current Senate margin to report from state-specific general-election polling. The most relevant recent statewide poll in the last 45 days is on the governor\u2019s race, which shows Phil Scott leading 44% to 33% over Amanda Janoo and 43% to 35% over Aly Richards; by scope rules, that is other_context rather than the requested Senate/Presidential race. Vermont\u2019s statewide Cook PVI is D+16.",
-  "as_of_date": "2026-08-08T11:46:33",
+  "reasoning": "Vermont has no Senate race on the ballot in 2026, so there is no current Senate margin to report from this cycle; the available recent polling is for the governor\u2019s race, not a federal race. The clearest recent state-specific presidential-style general-election data in the search results is actually absent, so the only relevant current-race source is other_context polling showing Phil Scott leading Democratic primary contenders, which is not a Senate or presidential margin.",
+  "as_of_date": "2026-08-08T18:39:57",
   "cook_pvi": {
     "party": "D",
     "percentage_points": 16.0
   },
   "sources": [
     {
-      "name": "Burlington Free Press",
+      "name": "Burlington Free Press reporting on UNH polling",
       "link": "https://www.burlingtonfreepress.com/story/news/politics/2026/07/23/vt-gov-scotts-approval-rating-hits-new-low-as-election-approaches/91006720007/",
       "race_type": "other_context",
       "party": "R",
-      "margin": 11.0,
-      "details": "Statewide poll showed Phil Scott leading Amanda Janoo 44% to 33% and Aly Richards 43% to 35% in the governor\u2019s race; this is not a Senate or presidential matchup.",
-      "date_range": "July 2026 (published July 23, 2026)",
+      "margin": 8.0,
+      "details": "UNH Survey Center polling found Gov. Phil Scott leading Aly Richards 43% to 35% and Amanda Janoo 44% to 33% in a state-level race, but this is a gubernatorial contest and not the Senate or presidential race.",
+      "date_range": "Jul 15-20, 2026",
       "domain": "burlingtonfreepress.com",
       "verified": true
     },
     {
-      "name": "The VPO",
-      "link": "https://thevpo.org/2026/07/24/phil-scott-slides-below-50-john-rodgers-is-in-trouble-and-other-notes-from-a-new-unh-poll/",
+      "name": "Prediction Edge Vermont Elections page",
+      "link": "https://www.predictionedge.com/elections/vt/",
       "race_type": "other_context",
-      "party": "EVEN",
-      "margin": 0.0,
-      "details": "Reported on a new UNH poll and noted Phil Scott slipping below 50% and John Rodgers being in trouble; this is Vermont statewide political context, not a Senate or presidential ballot test.",
-      "date_range": "July 2026 (published July 24, 2026)",
-      "domain": "thevpo.org",
-      "verified": true
-    },
-    {
-      "name": "UNH Survey Center",
-      "link": "https://scholars.unh.edu/survey_center_polls/982/",
-      "race_type": "other_context",
-      "party": "EVEN",
-      "margin": 0.0,
-      "details": "UNH Survey Center poll page for Vermont statewide attitudes and job performance; it is not a Senate or presidential general-election matchup.",
-      "date_range": "July 2026 (published July 2026)",
-      "domain": "scholars.unh.edu",
+      "party": "R",
+      "margin": 12.5,
+      "details": "Prediction Edge\u2019s Vermont page aggregates the same UNH polling and shows a polling average of Scott +12.5, including Scott 42.5%, Richards 30.0%, and Janoo 30.0%; this is also not a Senate or presidential race.",
+      "date_range": "Jul 15-20, 2026",
+      "domain": "predictionedge.com",
       "verified": true
     }
   ],
   "abbreviation": "VT",
-  "_cached_at": "2026-08-08T11:46:33.430954"
+  "_cached_at": "2026-08-08T18:39:57.537370"
 }

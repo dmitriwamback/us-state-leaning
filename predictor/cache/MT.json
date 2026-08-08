@@ -2,24 +2,24 @@
   "state": "Montana",
   "mode": "senate_presidential_polling",
   "lean": "R",
-  "confidence": 0.808,
+  "confidence": 0.831,
   "strength_label": "Lean",
-  "net_margin": -17.33,
+  "net_margin": -18.25,
   "based_on": "sources",
-  "reasoning": "Recent Montana Senate polling from established outlets and pollsters shows Republican Kurt Alme leading the race, with the most relevant publicly reported poll within the last 45 days showing him ahead by 12 points in a three-way ballot test and by 6-7 points in two-way tests. Because the current race includes a notable independent candidacy and no credible 2026 Montana presidential poll appears in the provided results, the best current read from the last 45 days is a Republican Senate edge of roughly R+12 in the most race-specific survey, while broader aggregates point to a slightly larger Republican advantage.",
-  "as_of_date": "2026-08-08T11:45:10",
+  "reasoning": "Recent Montana Senate polling from the last 45 days shows Republican Kurt Alme leading in the current field by roughly double digits, with the most recent aggregated average at R+19 and individual polls generally showing an R advantage. Montana\u2019s statewide Cook Partisan Voting Index is R+16, which supports a strongly Republican baseline. The race remains a Senate race rather than presidential, and the most relevant current margin is the Republican lead in the open-seat Senate contest.",
+  "as_of_date": "2026-08-08T18:38:33",
   "cook_pvi": {
     "party": "R",
     "percentage_points": 16.0
   },
   "sources": [
     {
-      "name": "Tavern Research poll (via Poll Tracker on X)",
+      "name": "Tavern Research poll as posted by Poll Tracker",
       "link": "https://x.com/PollTracker2024/status/2081852925245030765",
       "race_type": "senate",
       "party": "R",
       "margin": 24.0,
-      "details": "Tavern Research poll of Montana likely voters found Kurt Alme at 49%, Seth Bodnar at 25%, Alani Bankhead at 24%, and Kyle Austin at 2%; in a two-way test Alme led Bodnar 51%-49% and led Bankhead 59%-41%.",
+      "details": "Tavern Research found Kurt Alme at 49%, Seth Bodnar at 25%, Alani Bankhead at 24%, and Kyle Austin at 2% in a likely-voter Senate poll.",
       "date_range": "July 23-27, 2026",
       "domain": "x.com",
       "verified": true
@@ -29,46 +29,46 @@
       "link": "https://independentcentervoice.com/insights/july-2026-statewide-survey-montana-s-u-s-senate-race",
       "race_type": "senate",
       "party": "R",
-      "margin": 12.0,
-      "details": "Independent Center Voice / Independent Leadership Council statewide survey found Alme leading the three-way Senate race with 36%, Bodnar at 24%, and Bankhead at 22%.",
+      "margin": 14.0,
+      "details": "Independent Center Voice / Independent Leadership Council surveyed likely Montana voters and found Alme leading a three-way Senate race at 36%, with Bodnar at 24% and Bankhead at 22%.",
       "date_range": "July 28, 2026",
       "domain": "independentcentervoice.com",
       "verified": true
     },
     {
-      "name": "GrayHouse",
+      "name": "GrayHouse poll reported by Breitbart",
       "link": "https://www.breitbart.com/politics/2026/07/26/exclusive-independent-seth-bodnar-weighing-exit-montana-senate-race-bankhead-refuses-dropout/",
       "race_type": "senate",
       "party": "R",
       "margin": 16.0,
-      "details": "GrayHouse polling cited in later reporting found Alme at 41%, Bankhead at 25%, and Bodnar at 17% in a three-way Montana Senate contest.",
+      "details": "GrayHouse polling cited in reporting found Alme leading Bankhead and Bodnar in a three-way Senate race, with Alme at 41%, Bankhead at 25%, and Bodnar at 17%.",
       "date_range": "June 23-24, 2026",
       "domain": "breitbart.com",
       "verified": true
     },
     {
-      "name": "PollsMax polling average / forecast",
-      "link": "https://www.pollsmax.com/senate/montana/forecast/",
+      "name": "Strength In Numbers poll",
+      "link": "https://www.gelliottmorris.com/p/2026-07-28-exclusive-independent-leads-democrat-against-republican-montana",
       "race_type": "other_context",
       "party": "R",
-      "margin": 19.0,
-      "details": "Polling average page for Montana Senate showed an aggregate lead for the Republican candidate, listed as 44.1% R to 25.1% I, with a polling average margin of R+19.0.",
+      "margin": 6.0,
+      "details": "A poll shared with Strength In Numbers found Bodnar leading Alme 50% to 44% in a hypothetical head-to-head, while Bankhead would lose 44% to 52%; in the current four-way race, Alme won 41%.",
       "date_range": "July 2026",
-      "domain": "pollsmax.com",
+      "domain": "gelliottmorris.com",
       "verified": true
     },
     {
-      "name": "PollsMax polling average",
-      "link": "https://www.pollsmax.com/senate/montana/",
-      "race_type": "other_context",
+      "name": "PollsMax polling average/forecast",
+      "link": "https://www.pollsmax.com/senate/montana/forecast/",
+      "race_type": "senate",
       "party": "R",
-      "margin": 21.4,
-      "details": "Polling average page for Montana Senate showed an aggregate lead for the Republican candidate, listed as 41.9% R to 20.4% I, with a polling average margin of R+21.4.",
-      "date_range": "July 2026",
+      "margin": 19.0,
+      "details": "PollsMax\u2019s Montana Senate forecast/average shows an aggregate of recent Senate polling with Alme leading by 19 points.",
+      "date_range": "Last updated August 7, 2026",
       "domain": "pollsmax.com",
       "verified": true
     }
   ],
   "abbreviation": "MT",
-  "_cached_at": "2026-08-08T11:45:10.281880"
+  "_cached_at": "2026-08-08T18:38:33.646297"
 }

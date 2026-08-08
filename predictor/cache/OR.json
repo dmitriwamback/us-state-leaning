@@ -2,40 +2,51 @@
   "state": "Oregon",
   "mode": "senate_presidential_polling",
   "lean": "D",
-  "confidence": 0.725,
+  "confidence": 0.775,
   "strength_label": "Lean",
-  "net_margin": 14.0,
+  "net_margin": 16.0,
   "based_on": "cook_pvi_fallback",
-  "reasoning": "Oregon\u2019s statewide Cook PVI is D+14. In the last 45 days, I did not find a credible, Oregon-specific general-election Senate or presidential poll; the available Oregon item in the result set is a primary result and therefore does not measure the current general-election margin. An Oregon Senate forecast from PollsMax projects a Democratic advantage, but it is a forecast rather than a poll and is marked as other context.",
-  "as_of_date": "2026-08-08T11:45:57",
+  "reasoning": "The only source in the provided results that directly addresses Oregon\u2019s current Senate race is Cook\u2019s rating of the seat as Solid Democrat, which is a qualitative assessment rather than a polling margin. The results do not include any state-specific Oregon general-election Senate or presidential poll from the last 45 days, so there is no trustworthy numeric current-race margin to report; Oregon\u2019s statewide PVI is D+16.0.",
+  "as_of_date": "2026-08-08T18:39:19",
   "cook_pvi": {
     "party": "D",
-    "percentage_points": 14.0
+    "percentage_points": 16.0
   },
   "sources": [
     {
-      "name": "PollsMax Oregon Senate Forecast",
-      "link": "https://www.pollsmax.com/senate/oregon/forecast/",
+      "name": "Cook Political Report via Central Oregon Daily",
+      "link": "https://www.centraloregondaily.com/news/elections/oregon-governor-5th-district-cook-political-ratings-changes/article_597013e1-e272-4655-885c-9388a4068960.html",
       "race_type": "other_context",
       "party": "D",
-      "margin": 20.8,
-      "details": "Forecast rating Solid D with a projected vote of 60.4% D to 39.6% R, implying a D+20.8 margin; this is a forecast, not a state-specific general-election poll.",
-      "date_range": "June 29, 2026",
-      "domain": "pollsmax.com",
+      "margin": 0.0,
+      "details": "Cook Political Report rated the Oregon U.S. Senate race as Solid Democrat.",
+      "date_range": "July 10, 2026",
+      "domain": "centraloregondaily.com",
       "verified": true
     },
     {
-      "name": "NBC News Oregon Senate Primary Election 2026 Live Results",
-      "link": "https://www.nbcnews.com/politics/2026-primary-elections/oregon-senate-results",
+      "name": "Public Opinion Strategies via OPB",
+      "link": "https://www.opb.org/article/2026/07/10/oregon-governor-race-competitive-early-signs-show/",
       "race_type": "other_context",
-      "party": "EVEN",
-      "margin": 0.0,
-      "details": "Live primary results showing Jeff Merkley won the Oregon Senate primary overwhelmingly; primary returns do not measure the current general-election margin.",
-      "date_range": "2026 primary election results",
-      "domain": "nbcnews.com",
+      "party": "R",
+      "margin": 4.0,
+      "details": "Public Opinion Strategies poll commissioned for the Oregon governor\u2019s race found Drazan ahead of Kotek 48% to 44%, but this is not the Senate or presidential race and is included only as non-target context.",
+      "date_range": "June 22-24, 2026",
+      "domain": "opb.org",
+      "verified": true
+    },
+    {
+      "name": "Public Opinion Strategies via KTVZ",
+      "link": "https://ktvz.com/news/2026/07/11/decision-2026-survey-gives-drazan-a-slight-lead-over-kotek-in-oregon-governors-race/",
+      "race_type": "other_context",
+      "party": "R",
+      "margin": 4.0,
+      "details": "Public Opinion Strategies poll reported in local coverage found Drazan leading Kotek 48% to 44%; this is a gubernatorial matchup, not the requested federal race.",
+      "date_range": "June 22-24, 2026",
+      "domain": "ktvz.com",
       "verified": true
     }
   ],
   "abbreviation": "OR",
-  "_cached_at": "2026-08-08T11:45:57.330078"
+  "_cached_at": "2026-08-08T18:39:19.148401"
 }
