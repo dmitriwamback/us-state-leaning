@@ -2,72 +2,40 @@
   "state": "Kentucky",
   "mode": "senate_presidential_polling",
   "lean": "R",
-  "confidence": 1.0,
-  "strength_label": "Strong",
-  "net_margin": -22.0,
-  "reasoning": "The only actual polling aggregate for the 2026 Kentucky Senate race in the last 45 days is the July 8, 2026 Pollsmax average, which shows Republican Andy Barr leading Democrat Charles Booker by 11 points, indicating an R+11 environment in current public polling.[1][9] Prediction market aggregators and forecasters uniformly characterize the race as \"Safe R\" with Republican win probabilities around 90%, reinforcing that the effective current margin is strongly Republican-leaning even beyond the single public poll.[5][7] There is no meaningful presidential polling in Kentucky in this timeframe from qualifying outlets, and structurally Kentucky remains an R+16 state per Cook PVI, so the best current measure is that the Senate race is roughly R+11 while the underlying partisan environment is much more Republican.[1]",
-  "as_of_date": "2026-08-06T09:22:46",
+  "confidence": 0.65,
+  "strength_label": "Lean",
+  "net_margin": -11.0,
+  "based_on": "sources",
+  "reasoning": "Kentucky\u2019s statewide structural lean is strongly Republican, reflected in its Cook PVI of R+15. For the current 2026 Kentucky Senate race, the only directly relevant polling in the last 45 days is sparse and the most accessible aggregate shows Republicans ahead by about 11 points; market/outlook pieces also point to a clear Republican advantage rather than a competitive race.",
+  "as_of_date": "2026-08-08T11:44:28",
   "cook_pvi": {
     "party": "R",
-    "percentage_points": 16.0
+    "percentage_points": 15.0
   },
   "sources": [
     {
-      "name": "Pollsmax (aggregating Public Policy Polling)",
+      "name": "PollsMax Kentucky Senate Polling Average",
       "link": "https://www.pollsmax.com/senate/kentucky/",
       "race_type": "senate",
       "party": "R",
       "margin": 11.0,
-      "details": "Pollsmax Senate polling average for Kentucky, based on a Public Policy Polling survey, shows Charles Booker at 38% and Andy Barr at 49%, an R+11 margin in the 2026 Senate race.",
-      "date_range": "December 19, 2025 (poll); average last updated July 8, 2026",
+      "details": "Polling average for the 2026 Kentucky Senate race between Charles Booker and Andy Barr shows Booker at 38% and Barr at 49%, a Republican lead of 11 points.",
+      "date_range": "Last updated Aug. 7, 2026; current polling average based on polls released between Dec. 19, 2025 and Aug. 7, 2026",
       "domain": "pollsmax.com",
       "verified": true
     },
     {
-      "name": "AOL",
-      "link": "https://www.aol.com/articles/exclusive-mitch-mcconnells-likely-gop-203500000.html",
-      "race_type": "senate",
-      "party": "R",
-      "margin": 11.0,
-      "details": "AOL article on Mitch McConnell\u2019s likely GOP successor notes that recent polling still has Democrat Charles Booker trailing by 11 points, consistent with an R+11 Senate race margin.",
-      "date_range": "Article published July 8, 2026 (describing polling still current as of that date)",
-      "domain": "aol.com",
-      "verified": true
-    },
-    {
-      "name": "PredictionEdge",
+      "name": "PredictionEdge Kentucky Senate Winner by Party",
       "link": "https://www.predictionedge.com/elections/us-senate/kentucky-race-winner-by-party/",
       "race_type": "other_context",
       "party": "R",
-      "margin": 0.0,
-      "details": "PredictionEdge Kentucky Senate winner-by-party board shows Republicans around 90% and Democrats about 11% to win the seat, labeled as a strongly Republican-leaning race rather than competitive.",
-      "date_range": "Updated hourly; article referencing moves published July 13\u201316, 2026",
+      "margin": 88.3,
+      "details": "Live election market pricing heavily favors Republican Andy Barr over Democrat Charles Booker in the Kentucky Senate race.",
+      "date_range": "Updated Aug. 7, 2026",
       "domain": "predictionedge.com",
       "verified": true
-    },
-    {
-      "name": "PredictionMarketsPicks",
-      "link": "https://predictionmarketspicks.com/midterms-2026/kentucky-senate",
-      "race_type": "other_context",
-      "party": "R",
-      "margin": 0.0,
-      "details": "PredictionMarketsPicks midterms overview lists the 2026 Kentucky Senate contest with a \"Safe R\" rating, indicating a double-digit Republican advantage in the race.",
-      "date_range": "Updated hourly; characterization current as of mid-July 2026",
-      "domain": "predictionmarketspicks.com",
-      "verified": true
-    },
-    {
-      "name": "Cook Political Report (statewide PVI)",
-      "link": "https://www.cookpolitical.com/pvi-map-and-explanation",
-      "race_type": "other_context",
-      "party": "R",
-      "margin": 16.0,
-      "details": "Cook Political Report\u2019s statewide Partisan Voting Index rates Kentucky as R+16, reflecting a baseline advantage for Republicans of 16 points compared to the national popular vote.",
-      "date_range": "Cook PVI as of 2024 cycle, applied structurally to 2026",
-      "domain": "cookpolitical.com",
-      "verified": false
     }
   ],
   "abbreviation": "KY",
-  "_cached_at": "2026-08-06T09:22:46.237558"
+  "_cached_at": "2026-08-08T11:44:28.501397"
 }

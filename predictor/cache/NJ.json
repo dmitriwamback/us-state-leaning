@@ -2,50 +2,62 @@
   "state": "New Jersey",
   "mode": "senate_presidential_polling",
   "lean": "D",
-  "confidence": 1.0,
+  "confidence": 0.7,
   "strength_label": "Lean",
-  "net_margin": 18.8,
-  "reasoning": "New Jersey remains a strongly Democratic state structurally, with a Cook PVI of D+14. In the last 45 days, the most relevant race-specific public data I found was a Senate forecast projecting Cory Booker with a D+18.8 margin; I did not find a credible recent statewide presidential polling average for New Jersey in the supplied results.",
-  "as_of_date": "2026-08-06T09:25:21",
+  "net_margin": 13.0,
+  "based_on": "cook_pvi_fallback",
+  "reasoning": "New Jersey is a strongly Democratic state by Cook PVI, at D+13 statewide. In the last 45 days, I found no reputable state-specific general-election Senate or presidential poll for New Jersey; the available items are mostly the primary results and one forecast/market-type source, so the current race margin cannot be measured from fresh polling and only non-polling context points to a clear Democratic lean.",
+  "as_of_date": "2026-08-08T11:45:28",
   "cook_pvi": {
     "party": "D",
-    "percentage_points": 14.0
+    "percentage_points": 13.0
   },
   "sources": [
     {
-      "name": "PollsMax",
+      "name": "PollsMax 2026 New Jersey Senate Forecast",
       "link": "https://www.pollsmax.com/senate/new-jersey/forecast/",
-      "race_type": "senate",
+      "race_type": "other_context",
       "party": "D",
       "margin": 18.8,
-      "details": "Forecast projects Cory Booker at 59.4% to 40.6%, implying a D+18.8 Senate margin and a 97% Democratic win probability.",
-      "date_range": "Last updated July 12, 2026",
+      "details": "Forecast model projects a Democratic win by 18.8 points in the 2026 New Jersey Senate race, with a 59.4% to 40.6% projected vote split.",
+      "date_range": "July 12, 2026",
       "domain": "pollsmax.com",
       "verified": true
     },
     {
-      "name": "PredictionHunt",
-      "link": "https://www.predictionhunt.com/news/booker-favored-to-hold-nj-senate-seat-as-market-jul-12-2026",
-      "race_type": "senate",
+      "name": "Polymarket New Jersey Senate Margin of Victory 2026",
+      "link": "https://polymarket.com/es/event/new-jersey-senate-margin-of-victory-2026",
+      "race_type": "other_context",
       "party": "D",
       "margin": 0.0,
-      "details": "Market aggregation story says Cory Booker is favored to hold the seat, and notes the GOP nominee won a fractured primary with 33% while implied win probabilities shifted sharply.",
-      "date_range": "2026 cycle context (no specific poll date shown in result)",
-      "domain": "predictionhunt.com",
+      "details": "Prediction market snapshot shows Democrats favored in the New Jersey Senate margin-of-victory market, with outcomes concentrated around a Democratic win.",
+      "date_range": "July 12, 2026",
+      "domain": "polymarket.com",
       "verified": true
     },
     {
-      "name": "Cook Political Report",
-      "link": "https://www.cookpolitical.com/",
+      "name": "NBC News New Jersey Senate Primary Results",
+      "link": "https://www.nbcnews.com/politics/2026-primary-elections/new-jersey-senate-results",
       "race_type": "other_context",
-      "party": "D",
-      "margin": 14.0,
-      "details": "Cook Partisan Voting Index for New Jersey is D+14, indicating a strong Democratic baseline.",
-      "date_range": "Structural state rating",
-      "domain": "cookpolitical.com",
-      "verified": false
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "Live primary results show Cory Booker won the Democratic Senate primary and Justin Murphy won the Republican Senate primary; this is primary context rather than a general-election margin.",
+      "date_range": "2026 cycle",
+      "domain": "nbcnews.com",
+      "verified": true
+    },
+    {
+      "name": "WHYY Elections 2026",
+      "link": "https://whyy.org/elections-2026/",
+      "race_type": "other_context",
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "Reports that Justin Murphy won the Republican Senate primary and will face Cory Booker in November; no general-election margin is provided.",
+      "date_range": "2026 cycle",
+      "domain": "whyy.org",
+      "verified": true
     }
   ],
   "abbreviation": "NJ",
-  "_cached_at": "2026-08-06T09:25:21.271184"
+  "_cached_at": "2026-08-08T11:45:28.609022"
 }

@@ -3,60 +3,39 @@
   "mode": "senate_presidential_polling",
   "lean": "D",
   "confidence": 1.0,
-  "strength_label": "Lean",
-  "net_margin": 15.0,
-  "reasoning": "Within the last 45 days there are no public, methodologically standard polls of Colorado\u2019s 2026 U.S. Senate or presidential general election; instead, the available information consists of prediction-market odds and fundraising/primary context, all of which point to Democrats being heavily favored in the Senate race and Colorado remaining a structurally Democratic-leaning state. The Cook Partisan Voting Index for Colorado is D+4 statewide, and recent primary results plus prediction-market pricing in mid-July show Democrats priced around the mid\u201190% range to hold the Senate seat, implying an effective Democratic advantage well into double digits rather than a competitive margin.",
-  "as_of_date": "2026-08-06T09:20:33",
+  "strength_label": "Strong",
+  "net_margin": 93.7,
+  "based_on": "sources",
+  "reasoning": "Colorado\u2019s statewide PVI is strongly Democratic at about D+15. For the current 2026 Colorado Senate race, the available recent source is a betting/odds market rather than a public poll, and it shows the Republican nominee far behind, indicating a Democratic advantage; however, there is not enough qualifying state-specific polling in the supplied results to compute a true poll margin from the last 45 days.",
+  "as_of_date": "2026-08-08T11:43:34",
   "cook_pvi": {
     "party": "D",
-    "percentage_points": 4.0
+    "percentage_points": 15.0
   },
   "sources": [
     {
-      "name": "PredictionHunt",
-      "link": "https://www.predictionhunt.com/news/democratic-party-hits-95-in-colorado-senate-jul-14-2026",
+      "name": "PredictionEdge",
+      "link": "https://www.predictionedge.com/elections/us-senate/colorado-race-winner-by-party/",
       "race_type": "senate",
       "party": "D",
+      "margin": 93.7,
+      "details": "Lists John Hickenlooper at 97.0% and Mark Baisley at 3.3% in the 2026 Colorado Senate race winner-by-party market.",
+      "date_range": "Current as of Aug. 8, 2026",
+      "domain": "predictionedge.com",
+      "verified": true
+    },
+    {
+      "name": "Cook Political Report PVI",
+      "link": "https://www.cookpolitical.com/",
+      "race_type": "other_context",
+      "party": "D",
       "margin": 15.0,
-      "details": "PredictionHunt summarizes major prediction platforms showing Democrats around 95% to win the 2026 Colorado U.S. Senate race, with Kalshi at 96% and Polymarket at 94%, indicating a very strong Democratic advantage rather than a close race.",
-      "date_range": "July 14, 2026",
-      "domain": "predictionhunt.com",
-      "verified": true
-    },
-    {
-      "name": "Summit Daily",
-      "link": "https://www.summitdaily.com/news/how-western-slope-voters-helped-reelect-hickenlooper-amid-colorados-wave-of-progressive-upsets/",
-      "race_type": "other_context",
-      "party": "D",
-      "margin": 5.8,
-      "details": "Summit Daily reports that incumbent Democratic Sen. John Hickenlooper won the Democratic primary over Julie Gonzales by about 52.9% to 47.1%, a statewide margin of roughly 51,000 votes, underscoring his continued electoral strength and incumbency advantage heading into the general election.",
-      "date_range": "June 30, 2026 (primary results reported through July 2026)",
-      "domain": "summitdaily.com",
-      "verified": true
-    },
-    {
-      "name": "Denver Gazette",
-      "link": "https://www.denvergazette.com/2026/07/19/democrat-john-hickenlooper-hauls-in-1-3-million-in-2nd-quarter-in-colorados-u-s-senate-race/",
-      "race_type": "other_context",
-      "party": "D",
-      "margin": 0.0,
-      "details": "The Denver Gazette reports that Democrat John Hickenlooper raised about $1.3 million in the second quarter in Colorado\u2019s U.S. Senate race, highlighting a strong fundraising position that supports expectations of a sizable Democratic edge in the general election.",
-      "date_range": "Q2 2026 (reported July 19, 2026)",
-      "domain": "denvergazette.com",
-      "verified": true
-    },
-    {
-      "name": "Colorado Politics",
-      "link": "https://www.coloradopolitics.com/2026/07/30/democrat-jessica-killins-internal-poll-shows-dead-heat-with-u-s-rep-jeff-crank-in-colorados-5th-cd/",
-      "race_type": "other_context",
-      "party": "EVEN",
-      "margin": 1.0,
-      "details": "Colorado Politics reports a Global Strategy Group internal poll in CO-5 showing a 45%-44% Republican lead in a historically GOP district; while this is a House race, the near tie in a deep-red area is consistent with broader Democratic strength in Colorado, reinforcing the view that statewide races, including Senate and presidential, lean clearly Democratic.",
-      "date_range": "July 16-21, 2026",
-      "domain": "coloradopolitics.com",
-      "verified": true
+      "details": "Colorado\u2019s statewide Cook Partisan Voting Index is approximately D+15, indicating a strong Democratic lean relative to the nation.",
+      "date_range": "2026 cycle (statewide structural metric)",
+      "domain": "cookpolitical.com",
+      "verified": false
     }
   ],
   "abbreviation": "CO",
-  "_cached_at": "2026-08-06T09:20:33.011415"
+  "_cached_at": "2026-08-08T11:43:34.598527"
 }

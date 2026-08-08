@@ -2,72 +2,51 @@
   "state": "Washington",
   "mode": "senate_presidential_polling",
   "lean": "D",
-  "confidence": 1.0,
-  "strength_label": "Tilt",
-  "net_margin": 7.0,
-  "reasoning": "There is no 2026 U.S. Senate or presidential race on the ballot in Washington; the next regularly scheduled Senate and gubernatorial contests are in 2028, and the presidential race is national rather than state\u2011specific.[10][18] Over the last 45 days, available Washington-specific data relate to House and state\u2011level races plus primary results, none of which provide a statewide partisan margin for a Senate or presidential contest.[3][10][16][17] Structurally, Washington is a reliably Democratic-leaning state with a Cook Partisan Voting Index of about D+7 statewide, so absent active statewide polling for a 2026 Senate or presidential race, the best current indication is that the underlying environment favors Democrats by mid\u2011single digits.",
-  "as_of_date": "2026-08-06T09:28:07",
+  "confidence": 0.775,
+  "strength_label": "Lean",
+  "net_margin": 16.0,
+  "based_on": "cook_pvi_fallback",
+  "reasoning": "Washington\u2019s statewide structural baseline is strongly Democratic, with a Cook PVI of D+16. In the last 45 days, the available results in the provided search set are not a Washington statewide general-election Senate or presidential poll; they are either primary-election result coverage or national context, so there is no qualifying current-race margin to report for Washington from those sources.",
+  "as_of_date": "2026-08-08T11:46:41",
   "cook_pvi": {
     "party": "D",
-    "percentage_points": 7.0
+    "percentage_points": 16.0
   },
   "sources": [
     {
-      "name": "Cook Political Report \u2013 Partisan Voting Index (Washington)",
-      "link": "https://www.cookpolitical.com/ratings/pvi",
+      "name": "Cook Political Report",
+      "link": "https://www.cookpolitical.com/ratings/senate-race-ratings",
       "race_type": "other_context",
       "party": "D",
-      "margin": 0.0,
-      "details": "Cook Political Report\u2019s statewide PVI places Washington at approximately D+7, indicating the state votes about seven points more Democratic than the nation as a whole in recent presidential elections.",
-      "date_range": "N/A",
+      "margin": 16.0,
+      "details": "Cook\u2019s statewide PVI rating for Washington is D+16, indicating the state leans Democratic by 16 points relative to the nation.",
+      "date_range": "2026",
       "domain": "cookpolitical.com",
-      "verified": false
-    },
-    {
-      "name": "New York Times \u2013 Washington Primary 2026 Live Results",
-      "link": "https://www.nytimes.com/interactive/2026/08/04/us/elections/results-washington-primary.html",
-      "race_type": "other_context",
-      "party": "D",
-      "margin": 0.0,
-      "details": "Interactive live results for Washington\u2019s 2026 primary show strong Democratic performance in key congressional districts, with ratings such as \"Solidly Democratic\" for WA-2, underscoring the state\u2019s Democratic tilt but not providing a statewide Senate or presidential margin.",
-      "date_range": "August 4, 2026 (primary election)",
-      "domain": "nytimes.com",
       "verified": true
     },
     {
-      "name": "New York Times \u2013 Washington Second Congressional District Primary 2026",
-      "link": "https://www.nytimes.com/interactive/2026/08/04/us/elections/results-washington-us-house-2-primary.html",
-      "race_type": "other_context",
-      "party": "D",
-      "margin": 0.0,
-      "details": "District-level primary results for Washington\u2019s 2nd Congressional District are labeled \"Solidly Democratic\" for November, reflecting continued Democratic strength at the federal level within the state but not a specific statewide Senate/presidential margin.",
-      "date_range": "August 4, 2026 (primary election)",
-      "domain": "nytimes.com",
-      "verified": true
-    },
-    {
-      "name": "The Chronicle / Emerson College Polling \u2013 WA-3 Congressional Poll",
-      "link": "http://www.chronline.com/stories/new-poll-shows-why-third-congressional-disrict-race-is-drawing-national-attention,405451",
-      "race_type": "other_context",
-      "party": "R",
-      "margin": 1.0,
-      "details": "An Emerson College poll of Washington\u2019s 3rd Congressional District finds Marie Gluesenkamp Perez (D) at 42% and John Braun (R) at 43%, a statistically tied race that highlights localized competitiveness but does not establish a statewide margin.",
-      "date_range": "July 8-10, 2026",
-      "domain": "chronline.com",
-      "verified": true
-    },
-    {
-      "name": "PredictionEdge \u2013 2026 Washington Elections Overview",
-      "link": "https://www.predictionedge.com/elections/wa/",
+      "name": "KOMO News",
+      "link": "https://komonews.com/news/local/washington-primary-election-early-results-are-in-for-key-congressional-legislative-races-2026-november-3-general-election-ballots-king-county-proposition-1-voting",
       "race_type": "other_context",
       "party": "EVEN",
       "margin": 0.0,
-      "details": "Coverage of Washington\u2019s 2026 elections notes that there is no governor or U.S. Senate race on the ballot in 2026, with the next statewide executive and Senate contests scheduled for 2028, confirming the absence of a 2026 Senate race margin to measure.",
-      "date_range": "July 2026 (article referencing current cycle)",
-      "domain": "predictionedge.com",
+      "details": "Washington primary results coverage shows only primary vote shares and not a statewide general-election Senate or presidential margin.",
+      "date_range": "Aug. 4-5, 2026",
+      "domain": "komonews.com",
+      "verified": true
+    },
+    {
+      "name": "The New York Times",
+      "link": "https://www.nytimes.com/interactive/2026/08/04/us/elections/results-washington-primary.html",
+      "race_type": "other_context",
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "Washington primary results coverage lists primary vote totals and does not provide a statewide general-election Senate or presidential polling margin.",
+      "date_range": "Aug. 4, 2026",
+      "domain": "nytimes.com",
       "verified": true
     }
   ],
   "abbreviation": "WA",
-  "_cached_at": "2026-08-06T09:28:07.642892"
+  "_cached_at": "2026-08-08T11:46:41.416913"
 }

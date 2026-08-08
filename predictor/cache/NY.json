@@ -5,8 +5,9 @@
   "confidence": 1.0,
   "strength_label": "Strong",
   "net_margin": 25.0,
-  "reasoning": "New York\u2019s statewide PVI is strongly Democratic, and the recent search results did not surface any high-quality Senate or presidential general-election polling for New York in the last 45 days. The available results were either about other states, non-general-election contexts, or unrelated races, so there is no reliable current NY Senate or presidential margin to report from the permitted sources.",
-  "as_of_date": "2026-08-06T09:25:30",
+  "based_on": "cook_pvi_fallback",
+  "reasoning": "New York\u2019s statewide Cook PVI is D+25, indicating a very strong Democratic baseline. In the last 45 days, the search results did not surface any credible New York 2026 general-election Senate or presidential head-to-head poll that measured this state's current race; the visible items were either unrelated to New York\u2019s 2026 general election, not state-specific, or structural/context pieces rather than a valid race poll.",
+  "as_of_date": "2026-08-08T11:45:37",
   "cook_pvi": {
     "party": "D",
     "percentage_points": 25.0
@@ -18,12 +19,45 @@
       "race_type": "other_context",
       "party": "D",
       "margin": 25.0,
-      "details": "New York is rated as a strongly Democratic state on the Cook-style partisan baseline, which is reflected here as a D+25 structural index estimate.",
-      "date_range": "Structural/statewide metric (current Cook rating context)",
+      "details": "Cook PVI lists New York as D+25 statewide, reflecting the state's long-run partisan lean.",
+      "date_range": "2026",
       "domain": "en.wikipedia.org",
       "verified": false
+    },
+    {
+      "name": "The New York Times",
+      "link": "https://www.nytimes.com/interactive/2026/07/14/polls/senate-elections-voters-polls.html",
+      "race_type": "other_context",
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "Interactive article examining drivers of Senate candidate support, but it does not provide a New York 2026 statewide general-election margin.",
+      "date_range": "July 14, 2026",
+      "domain": "nytimes.com",
+      "verified": true
+    },
+    {
+      "name": "City & State New York",
+      "link": "https://www.cityandstateny.com/prediction-markets/candidates/claudia-tenney",
+      "race_type": "other_context",
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "Prediction-market style page for Claudia Tenney that is not a statewide New York general-election Senate or presidential poll.",
+      "date_range": "2026",
+      "domain": "cityandstateny.com",
+      "verified": true
+    },
+    {
+      "name": "POLITICO",
+      "link": "https://www.politico.com/newsletters/new-york-playbook/2026/08/03/key-personnel-move-for-ny-senate-dems-01022004",
+      "race_type": "other_context",
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "News article about New York Senate Democrats' personnel moves, which is political context but not a current statewide poll or margin.",
+      "date_range": "August 3, 2026",
+      "domain": "politico.com",
+      "verified": true
     }
   ],
   "abbreviation": "NY",
-  "_cached_at": "2026-08-06T09:25:30.793296"
+  "_cached_at": "2026-08-08T11:45:37.108648"
 }

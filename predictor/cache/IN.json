@@ -2,50 +2,29 @@
   "state": "Indiana",
   "mode": "senate_presidential_polling",
   "lean": "R",
-  "confidence": 1.0,
+  "confidence": 0.825,
   "strength_label": "Lean",
-  "net_margin": -11.0,
-  "reasoning": "I was unable to locate any reputable, recent (last 45 days) public polling or professional forecaster ratings specifically for the 2026 presidential or U.S. Senate races in Indiana; the available search results either concern administrative election information, very localized state legislative races, or national-level generic ballot data that does not provide an Indiana-specific margin.[1][2][13] Given the absence of race-specific Indiana data in the last 45 days, the best structural indicator of partisan lean is the Cook Partisan Voting Index, which rates Indiana as R+11 statewide, implying a baseline Republican advantage of about 11 points in typical federal races. Because no current, state-level Senate or presidential polling or ratings are available in the search results, I cannot provide a defensible updated race margin beyond this structural R+11 tilt.",
-  "as_of_date": "2026-08-06T09:21:57",
+  "net_margin": -18.0,
+  "based_on": "cook_pvi_fallback",
+  "reasoning": "I could not verify any Indiana-specific general-election Senate or presidential polling from the last 45 days in the provided results, so there is no defensible current race margin to report from those sources. The only clearly relevant Indiana item is a news article about candidate filing breadth, which is context rather than a measured margin; Indiana\u2019s statewide Cook PVI is R+18, indicating a strong Republican structural baseline.",
+  "as_of_date": "2026-08-08T11:44:13",
   "cook_pvi": {
     "party": "R",
-    "percentage_points": 11.0
+    "percentage_points": 18.0
   },
   "sources": [
-    {
-      "name": "City of Indianapolis/Marion County election results",
-      "link": "https://www.indy.gov/workflow/election-results",
-      "race_type": "other_context",
-      "party": "EVEN",
-      "margin": 0.0,
-      "details": "Marion County/Indianapolis official election results page provides recent certified results for local and state legislative contests, but no data on statewide federal Senate or presidential polling margins.",
-      "date_range": "N/A",
-      "domain": "indy.gov",
-      "verified": true
-    },
-    {
-      "name": "USA Today",
-      "link": "https://www.usatoday.com/story/news/politics/2026/07/19/trump-republicans-congress-democrats-poll/90972594007/",
-      "race_type": "other_context",
-      "party": "EVEN",
-      "margin": 0.0,
-      "details": "USA Today reports a national poll on congressional preferences showing a tight race for control of Congress, but it does not break out Indiana-specific Senate or presidential margins.",
-      "date_range": "July 19, 2026 (national-level survey, not Indiana-specific)",
-      "domain": "usatoday.com",
-      "verified": true
-    },
     {
       "name": "WTHR",
       "link": "https://www.wthr.com/article/news/politics/signs-of-a-building-anti-incumbency-wave-brian-howey/531-6658e071-3b03-41d6-97d0-1d3f8b528525",
       "race_type": "other_context",
       "party": "EVEN",
       "margin": 0.0,
-      "details": "WTHR coverage of Indiana legislative races and anti-incumbent sentiment discusses candidate filing and local dynamics, but does not provide quantified margins for statewide Senate or presidential races.",
-      "date_range": "N/A",
+      "details": "Notes that Hoosier Democrats filed candidates in all 25 Indiana Senate races and nearly all House races, describing the scope of the 2026 ticket rather than measuring any Senate or presidential margin.",
+      "date_range": "2026 cycle context (published Aug. 2026)",
       "domain": "wthr.com",
       "verified": true
     }
   ],
   "abbreviation": "IN",
-  "_cached_at": "2026-08-06T09:21:57.198226"
+  "_cached_at": "2026-08-08T11:44:13.552767"
 }

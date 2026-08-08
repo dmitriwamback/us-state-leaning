@@ -1,103 +1,49 @@
 {
   "state": "Texas",
   "mode": "senate_presidential_polling",
-  "lean": "D",
-  "confidence": 1.0,
-  "strength_label": "Strong",
-  "net_margin": 27.0,
-  "reasoning": "Recent high-quality public polls over the last ~10 days consistently show Democrat James Talarico holding a very small lead over Republican Ken Paxton in the Texas U.S. Senate race, generally in the D+2 to D+5 range, with all margins within typical polling error.[1][2][3][8][9][10][11][12][13] Structural ratings and older polling-based forecasts still show Texas leaning Republican overall, but the *current* polling environment points to a razor-thin, slightly Democratic edge in the Senate contest, best described as roughly D+2\u20133 on recent averages.[12][16]",
-  "as_of_date": "2026-08-06T09:27:31",
+  "lean": "Toss-up",
+  "confidence": 0.333,
+  "strength_label": "Toss-up",
+  "net_margin": 3.33,
+  "based_on": "sources",
+  "reasoning": "Recent Texas Senate polling from the last 45 days shows a very close race, with three public polls placing Democrat James Talarico slightly ahead of Republican Ken Paxton by 2 to 5 points, while aggregated polling still leans Republican by about 1 point. Texas\u2019s statewide Cook PVI remains firmly Republican at R+5.6, indicating a GOP-leaning baseline even though current Senate polling is competitive.",
+  "as_of_date": "2026-08-08T11:46:24",
   "cook_pvi": {
     "party": "R",
-    "percentage_points": 5.0
+    "percentage_points": 5.6
   },
   "sources": [
     {
-      "name": "The Hill (reporting Barbara Jordan Public Policy Research & Survey Center poll)",
-      "link": "https://thehill.com/homenews/campaign/6006373-democrat-talarico-leads-paxton-polling/",
+      "name": "Texas Tribune / Texas Public Opinion Research",
+      "link": "https://www.texastribune.org/2026/07/28/texas-senate-poll-james-talarico-ken-paxton-july-2026/",
       "race_type": "senate",
       "party": "D",
-      "margin": 2.0,
-      "details": "Barbara Jordan Public Policy Research and Survey Center poll of 1,200 likely voters finds Talarico at 47% and Paxton at 45%, a 2-point lead for the Democrat in the Texas Senate race.",
-      "date_range": "July 27-30, 2026",
-      "domain": "thehill.com",
+      "margin": 5.0,
+      "details": "Texas Public Opinion Research found James Talarico leading Ken Paxton 45% to 40% among likely voters, a 5-point Democratic lead.",
+      "date_range": "July 15-17, 2026",
+      "domain": "texastribune.org",
       "verified": true
     },
     {
-      "name": "Bloomberg (reporting Barbara Jordan Public Policy Research & Survey Center and Fox News polls)",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-04/talarico-has-narrow-poll-edge-on-paxton-in-key-texas-senate-race",
-      "race_type": "senate",
-      "party": "D",
-      "margin": 2.0,
-      "details": "Bloomberg reports the Texas Southern University/Barbara Jordan Center poll showing Talarico leading Paxton 47%-45%, with a Fox News poll also cited giving Talarico a 3-point edge.",
-      "date_range": "July 27-30, 2026",
-      "domain": "bloomberg.com",
-      "verified": true
-    },
-    {
-      "name": "Fox News",
-      "link": "https://www.foxnews.com/politics/fox-news-poll-gop-divisions-shape-texas-senate-race",
-      "race_type": "senate",
-      "party": "D",
-      "margin": 3.0,
-      "details": "Fox News poll of 1,006 Texas registered voters shows Talarico leading Paxton 51% to 48%, a 3-point Democratic advantage within the margin of error.",
-      "date_range": "July 23-27, 2026",
-      "domain": "foxnews.com",
-      "verified": true
-    },
-    {
-      "name": "USA Today (reporting Fox News poll)",
+      "name": "Fox News / Beacon Research",
       "link": "https://www.usatoday.com/story/news/state/texas/2026/07/31/texas-senate-race-poll-talarico-leads-paxton-with-independent-voters/91119624007/",
       "race_type": "senate",
       "party": "D",
       "margin": 3.0,
-      "details": "USA Today coverage of the Fox News survey reports Talarico at 51% and Paxton at 48% in the Senate race, highlighting a narrow 3-point Democratic lead.",
+      "details": "Fox News poll found Talarico ahead of Paxton 51% to 48% among registered voters, a 3-point Democratic lead.",
       "date_range": "July 23-27, 2026",
       "domain": "usatoday.com",
       "verified": true
     },
     {
-      "name": "USA Today (reporting Texas Public Opinion Research poll)",
-      "link": "https://www.usatoday.com/story/news/politics/elections/2026/07/28/new-poll-shows-james-talarico-leading-ken-paxton-in-texas-senate-race/91065806007/",
-      "race_type": "senate",
-      "party": "D",
-      "margin": 5.0,
-      "details": "Texas Public Opinion Research poll of 1,048 likely voters finds Talarico leading Paxton 45% to 40%, a 5-point edge for Democrats in the Texas Senate race.",
-      "date_range": "July 15-17, 2026",
-      "domain": "usatoday.com",
-      "verified": true
-    },
-    {
-      "name": "Punchbowl News (reporting Texas Public Opinion Research poll)",
-      "link": "https://punchbowl.news/article/senate/talarico-texas-senate-poll/",
-      "race_type": "senate",
-      "party": "D",
-      "margin": 5.0,
-      "details": "Punchbowl News summarizes the Texas Public Opinion Research survey showing Talarico ahead of Paxton 45% to 40%, a 5-point Democratic lead with 14% undecided.",
-      "date_range": "July 15-17, 2026",
-      "domain": "punchbowl.news",
-      "verified": true
-    },
-    {
-      "name": "Newsweek (reporting Texas Public Opinion Research poll and 270toWin average)",
-      "link": "https://www.newsweek.com/ken-paxton-james-talarico-texas-senate-poll-12254529",
-      "race_type": "senate",
-      "party": "D",
-      "margin": 5.0,
-      "details": "Newsweek reports the Texas Public Opinion Research poll with Talarico at 45% and Paxton at 40%, noting a growing but modest 5-point advantage for the Democrat and referencing 270toWin\u2019s average showing Talarico narrowly ahead.",
-      "date_range": "July 15-17, 2026",
-      "domain": "newsweek.com",
-      "verified": true
-    },
-    {
-      "name": "Axios (reporting Barbara Jordan Public Policy Research & Survey Center, Fox News, and TPOR polls)",
-      "link": "https://www.axios.com/2026/08/04/poll-talarico-has-slim-lead-over-paxton-in-texas-senate-race",
+      "name": "Texas Southern University / Barbara Jordan Public Policy Research and Survey Center",
+      "link": "https://thehill.com/homenews/campaign/6006373-democrat-talarico-leads-paxton-polling/",
       "race_type": "senate",
       "party": "D",
       "margin": 2.0,
-      "details": "Axios covers the Barbara Jordan Center poll of 1,200 likely voters, finding Talarico up 47%-45%, and notes three consecutive public polls (Fox News, TPOR, Texas Southern) all showing Talarico narrowly ahead.",
+      "details": "Texas Southern University poll found Talarico leading Paxton 47% to 45%, a 2-point Democratic lead.",
       "date_range": "July 27-30, 2026",
-      "domain": "axios.com",
+      "domain": "thehill.com",
       "verified": true
     },
     {
@@ -105,13 +51,13 @@
       "link": "https://www.pollsmax.com/senate/texas/forecast/",
       "race_type": "other_context",
       "party": "R",
-      "margin": 1.9,
-      "details": "Pollsmax\u2019s Texas Senate forecast as of June 24 shows a polling-average margin of R+1.9 and an overall race rating of R+6.7, indicating a structurally Republican-leaning contest based on data through late June.",
-      "date_range": "June 21, 2026 (latest poll in average as of June 24)",
+      "margin": 0.9,
+      "details": "Polling average for the Texas Senate race shows Republicans narrowly ahead overall, with an average margin of R+0.9.",
+      "date_range": "Updated August 8, 2026",
       "domain": "pollsmax.com",
       "verified": true
     }
   ],
   "abbreviation": "TX",
-  "_cached_at": "2026-08-06T09:27:31.992613"
+  "_cached_at": "2026-08-08T11:46:24.314163"
 }

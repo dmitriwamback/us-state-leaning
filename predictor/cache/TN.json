@@ -2,61 +2,62 @@
   "state": "Tennessee",
   "mode": "senate_presidential_polling",
   "lean": "R",
-  "confidence": 1.0,
-  "strength_label": "Strong",
-  "net_margin": -30.0,
-  "reasoning": "Available reputable forecaster data for Tennessee\u2019s 2026 Senate race in the last 45 days show it as a structurally and electorally very strong Republican hold, with no general-election polling yet but modeled results around an R+30 margin.[1] Given Tennessee\u2019s underlying partisan lean (Cook PVI about R+15 statewide) and the absence of any contrary recent polling or news indicating Democratic competitiveness, the best current estimate is that the upcoming Senate general election stands at roughly **R+30**. There is no credible, recent general-election presidential polling in the last 45 days specific to Tennessee, but the state\u2019s structural alignment and the Senate modeling both point to a very substantial Republican advantage there as well.",
-  "as_of_date": "2026-08-06T09:27:22",
+  "confidence": 0.825,
+  "strength_label": "Lean",
+  "net_margin": -18.0,
+  "based_on": "cook_pvi_fallback",
+  "reasoning": "I found no qualifying general-election Senate or presidential polls for Tennessee in the last 45 days; the search results are dominated by primary results and unrelated gubernatorial-primary coverage, which do not measure the current Tennessee Senate or presidential race. The only usable structural baseline is Tennessee\u2019s statewide Cook PVI, which is R+18, indicating a strong Republican lean.",
+  "as_of_date": "2026-08-08T11:46:19",
   "cook_pvi": {
     "party": "R",
-    "percentage_points": 15.0
+    "percentage_points": 18.0
   },
   "sources": [
     {
-      "name": "Pollsmax \u2013 2026 Tennessee Senate Forecast",
+      "name": "Cook Political Report",
+      "link": "https://www.cookpolitical.com/",
+      "race_type": "other_context",
+      "party": "R",
+      "margin": 18.0,
+      "details": "Cook PVI rates Tennessee as R+18, indicating the state leans Republican by 18 percentage points relative to the nation.",
+      "date_range": "2026 statewide structural baseline",
+      "domain": "cookpolitical.com",
+      "verified": false
+    },
+    {
+      "name": "The New York Times",
+      "link": "https://www.nytimes.com/interactive/2026/08/06/us/elections/results-tennessee-us-senate-primary.html",
+      "race_type": "other_context",
+      "party": "R",
+      "margin": 99.4,
+      "details": "Reported the Tennessee U.S. Senate primary results, with Bill Hagerty winning the Republican nomination overwhelmingly; this is primary-only and does not provide a general-election margin.",
+      "date_range": "August 6, 2026",
+      "domain": "nytimes.com",
+      "verified": true
+    },
+    {
+      "name": "NBC News",
+      "link": "https://www.nbcnews.com/politics/2026-primary-elections/tennessee-senate-results",
+      "race_type": "other_context",
+      "party": "R",
+      "margin": 99.4,
+      "details": "Published Tennessee Senate primary results showing Hagerty winning the GOP primary and Marquita Bradshaw winning the Democratic primary; this is not a general-election poll or forecast.",
+      "date_range": "August 6, 2026",
+      "domain": "nbcnews.com",
+      "verified": true
+    },
+    {
+      "name": "Pollsmax",
       "link": "https://www.pollsmax.com/senate/tennessee/forecast/",
-      "race_type": "senate",
+      "race_type": "other_context",
       "party": "R",
       "margin": 30.0,
-      "details": "Pollsmax Tennessee Senate forecast rates the race Solid R and projects the general election at 65.0% R to 35.0% D, a modeled margin of R+30.0, with Democrats given only 0.7% odds of winning.",
-      "date_range": "Forecast as of July 8, 2026 (no GE polling yet)",
-      "domain": "pollsmax.com",
-      "verified": true
-    },
-    {
-      "name": "PredictionEdge \u2013 Quantus Insights GOP Senate primary poll",
-      "link": "https://www.predictionedge.com/elections/tn/",
-      "race_type": "other_context",
-      "party": "R",
-      "margin": 42.0,
-      "details": "Quantus Insights GOP primary poll for the Tennessee Senate race shows Marsha Blackburn at 51.5% and John Rose at 9.5%, Blackburn +42 among Republican primary voters, underscoring her dominant position within the GOP; this is not a general-election poll but reinforces a strong Republican landscape.",
-      "date_range": "Aug 5-7, 2026 (Republican primary polling, not GE)",
-      "domain": "predictionedge.com",
-      "verified": true
-    },
-    {
-      "name": "PredictionEdge \u2013 Targoz Market Research GOP Senate primary poll",
-      "link": "https://www.predictionedge.com/elections/tn/",
-      "race_type": "other_context",
-      "party": "R",
-      "margin": 52.0,
-      "details": "Targoz Market Research GOP primary survey reported Blackburn at 66% and Rose at 14% (Blackburn +52), again illustrating a lopsided Republican primary rather than a competitive general-election environment.",
-      "date_range": "Jul 27-Aug 1, 2026 (Republican primary polling, not GE)",
-      "domain": "predictionedge.com",
-      "verified": true
-    },
-    {
-      "name": "Pollsmax \u2013 2026 Tennessee Governor Polling Average",
-      "link": "https://www.pollsmax.com/governor/tennessee/",
-      "race_type": "other_context",
-      "party": "R",
-      "margin": 22.0,
-      "details": "Pollsmax Tennessee Governor forecast shows a statewide Republican polling-average margin of R+22.0, reflecting the broader Republican strength in Tennessee\u2019s statewide contests and supporting the expectation of a large GOP edge in federal races as well.",
-      "date_range": "Structural rating as of 2026 cycle",
+      "details": "A Tennessee Senate forecast projected a solid Republican win with a projected margin of R+30.0, but it is a model forecast and not a poll of Tennessee\u2019s current general election electorate.",
+      "date_range": "July 8, 2026",
       "domain": "pollsmax.com",
       "verified": true
     }
   ],
   "abbreviation": "TN",
-  "_cached_at": "2026-08-06T09:27:22.071654"
+  "_cached_at": "2026-08-08T11:46:19.257992"
 }

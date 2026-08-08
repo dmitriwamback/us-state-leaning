@@ -1,40 +1,30 @@
 {
   "state": "Nevada",
   "mode": "senate_presidential_polling",
-  "lean": "R",
-  "confidence": 0.6,
-  "strength_label": "Tilt",
+  "lean": "Toss-up",
+  "confidence": 0.1,
+  "strength_label": "Toss-up",
   "net_margin": -1.0,
-  "reasoning": "Nevada\u2019s current Senate race appears slightly Republican-leaning based on a recent poll tracker averaging five polls showing Sam Brown ahead by 1 point. I did not find any reliable, last-45-days presidential race polling for Nevada in the provided results, so the Senate polling is the best available current-margin indicator here; Nevada\u2019s statewide Cook PVI is R+2, which I translate to D+2 only if using a Democratic-lean convention is inappropriate, so I am reporting the structural index as R+2 from the Cook benchmark. ",
-  "as_of_date": "2026-08-06T09:25:01",
+  "based_on": "sources",
+  "reasoning": "Nevada\u2019s statewide Cook PVI is approximately EVEN/D+1, commonly cited as R+1 or D+1 depending on the rounding convention; I used D+1 as a single-point Democratic lean. In the last 45 days, the only directly relevant Nevada general-election polling result surfaced here is an aggregate showing Jacky Rosen (D) up 46% to Sam Brown (R) 47%, which is a Brown +1 edge and therefore a Republican lead. No valid Nevada presidential general-election poll from the last 45 days was present in the provided results, so the source list reflects the Senate contest only.",
+  "as_of_date": "2026-08-08T11:45:18",
   "cook_pvi": {
     "party": "D",
-    "percentage_points": 2.0
+    "percentage_points": 1.0
   },
   "sources": [
     {
-      "name": "What's On My Ballot 2026 Election Poll Tracker",
+      "name": "What's On My Ballot",
       "link": "https://whatsonmyballot.info/polls/",
       "race_type": "senate",
       "party": "R",
       "margin": 1.0,
-      "details": "Poll tracker average shows Jacky Rosen at 46% and Sam Brown at 47%, indicating Brown +1 in the Nevada Senate race.",
-      "date_range": "Updated Mar 14, 2026; average of 5 polls",
+      "details": "Polling tracker average of 5 Nevada Senate polls shows Sam Brown at 47% and Jacky Rosen at 46%, a Brown +1 edge in the general election.",
+      "date_range": "Updated Mar 14, 2026",
       "domain": "whatsonmyballot.info",
       "verified": true
-    },
-    {
-      "name": "Cook Political Report PVI",
-      "link": "https://www.cookpolitical.com/",
-      "race_type": "other_context",
-      "party": "R",
-      "margin": 2.0,
-      "details": "Statewide structural index for Nevada indicates a slight Republican lean.",
-      "date_range": "2026 cycle context",
-      "domain": "cookpolitical.com",
-      "verified": false
     }
   ],
   "abbreviation": "NV",
-  "_cached_at": "2026-08-06T09:25:01.710961"
+  "_cached_at": "2026-08-08T11:45:18.368960"
 }

@@ -1,95 +1,63 @@
 {
   "state": "Iowa",
   "mode": "senate_presidential_polling",
-  "lean": "R",
-  "confidence": 0.64,
-  "strength_label": "Tilt",
-  "net_margin": -3.4,
-  "reasoning": "The only clearly dated, statewide polling in the last 45 days for a federal race in Iowa is the Emerson/Decision Desk HQ Senate poll from August 2\u20134 showing Ashley Hinson (R) leading Josh Turek (D) by 3 points, consistent with the broader 2026 Senate polling average of roughly R+3 from early July aggregations. Polling and forecaster commentary describe the race as highly competitive but still slightly Republican-tilting, in line with Iowa\u2019s R+8 Cook PVI, so the current practical margin is best characterized as about R+3 in the Senate race; no fresh general-election presidential polling for Iowa appears in the last 45 days in the given results.",
-  "as_of_date": "2026-08-06T09:22:10",
+  "lean": "Toss-up",
+  "confidence": 0.275,
+  "strength_label": "Toss-up",
+  "net_margin": -2.75,
+  "based_on": "sources",
+  "reasoning": "Recent Iowa Senate polling from the last 45 days shows a very close race, with Emerson College/Nexstar giving Ashley Hinson a small lead and aggregate trackers still placing the contest in the low single digits. I could not find any current-cycle Iowa presidential poll from the last 45 days that specifically measures Iowa\u2019s electorate for the 2026 general election, so the answer is based on Senate polling plus Iowa\u2019s structural lean.",
+  "as_of_date": "2026-08-08T11:44:18",
   "cook_pvi": {
     "party": "R",
-    "percentage_points": 8.0
+    "percentage_points": 4.0
   },
   "sources": [
     {
-      "name": "The Hill (reporting Emerson College/Nexstar & Decision Desk HQ)",
-      "link": "https://www.pollsmax.com/senate/iowa/",
+      "name": "Emerson College / Nexstar Media poll (reported by CBS2 Iowa)",
+      "link": "https://cbs2iowa.com/news/local/both-us-senate-campaigns-turn-up-the-heat-after-poll-shows-tight-race",
+      "race_type": "senate",
+      "party": "R",
+      "margin": 2.5,
+      "details": "Emerson College/Nexstar found Ashley Hinson at 47.5% and Josh Turek at 45.0% among 712 likely voters, with 6.1% undecided and 1.4% for someone else.",
+      "date_range": "August 2-4, 2026",
+      "domain": "cbs2iowa.com",
+      "verified": true
+    },
+    {
+      "name": "The Hill report on Emerson College / Nexstar poll",
+      "link": "https://thehill.com/homenews/campaign/6012287-sand-hinson-lead-iowa-races/",
       "race_type": "senate",
       "party": "R",
       "margin": 3.0,
-      "details": "An Emerson College/Nexstar survey of Iowa voters found Ashley Hinson at 48% and Josh Turek at 45% in the U.S. Senate race, a 3-point lead for the Republican, and Decision Desk HQ labeled the contest a 'toss up' with Hinson narrowly favored.",
+      "details": "The Hill reported the same Emerson College/Nexstar survey showing Hinson ahead of Turek 48% to 45% in the Iowa Senate race.",
       "date_range": "August 2-4, 2026",
-      "domain": "pollsmax.com",
+      "domain": "thehill.com",
       "verified": true
     },
     {
-      "name": "Des Moines Register (summarizing New York Times/Siena)",
-      "link": "https://www.desmoinesregister.com/story/news/politics/elections/2026/07/29/josh-turek-ashley-hinson-iowa-us-senate-race-election-day-2026/90815519007/",
-      "race_type": "senate",
-      "party": "R",
-      "margin": 2.0,
-      "details": "A New York Times/Siena College poll of likely voters in Iowa\u2019s U.S. Senate race showed Ashley Hinson leading Josh Turek 48% to 46%, a 2-point Republican edge, within the margin of error.",
-      "date_range": "June 15-27, 2026",
-      "domain": "desmoinesregister.com",
-      "verified": true
-    },
-    {
-      "name": "Fox News (via Des Moines Register summary)",
-      "link": "https://www.desmoinesregister.com/story/news/politics/elections/2026/07/29/josh-turek-ashley-hinson-iowa-us-senate-race-election-day-2026/90815519007/",
-      "race_type": "senate",
-      "party": "D",
-      "margin": 4.0,
-      "details": "A Fox News poll of registered voters in Iowa\u2019s U.S. Senate race found Josh Turek leading Ashley Hinson 50% to 46%, a 4-point Democratic advantage, also within the margin of error and contrasted with the NYT/Siena result.",
-      "date_range": "June 23-27, 2026",
-      "domain": "desmoinesregister.com",
-      "verified": true
-    },
-    {
-      "name": "Pollsmax Iowa Senate Average",
+      "name": "PollsMax Iowa Senate polling average",
       "link": "https://www.pollsmax.com/senate/iowa/",
-      "race_type": "senate",
-      "party": "R",
-      "margin": 2.9,
-      "details": "A polling average for Iowa\u2019s 2026 U.S. Senate election calculated from eight polls showed 45.1% support for Democrat Josh Turek and 48.0% for Republican Ashley Hinson, a statewide average margin of R+2.9.",
-      "date_range": "Up to July 8, 2026 (polls from June 2026)",
-      "domain": "pollsmax.com",
-      "verified": true
-    },
-    {
-      "name": "Cook Political Report (as summarized)",
-      "link": "https://www.mexc.com/news/1197594",
       "race_type": "other_context",
       "party": "R",
-      "margin": 0.0,
-      "details": "Cook Political Report shifted the Iowa Senate race rating from 'likely Republican' to 'lean Republican' after Turek\u2019s primary win, reflecting a more competitive but still GOP-leaning contest structurally rather than a specific ballot margin.",
-      "date_range": "June 2026 (exact field dates not specified beyond late June)",
-      "domain": "mexc.com",
+      "margin": 2.9,
+      "details": "PollsMax\u2019s Iowa Senate average shows 45.1% for the Democrat and 48.0% for the Republican, for an aggregate Republican lead of 2.9 points.",
+      "date_range": "August 3, 2026 (updated)",
+      "domain": "pollsmax.com",
       "verified": true
     },
     {
-      "name": "Newsweek summarizing VoteHub Iowa Senate averages",
-      "link": "https://www.newsweek.com/polling-flips-against-republicans-four-critical-midterms-races-12239400",
-      "race_type": "senate",
-      "party": "D",
-      "margin": 0.5,
-      "details": "VoteHub\u2019s statewide Iowa Senate polling averages showed Republicans leading by 0.7 points in April but Democrats ahead by 0.5 points by July 20, indicating a shift toward a very slight Democratic edge in the mid-summer average.",
-      "date_range": "April 20 - July 20, 2026 (averages reported July 21, 2026)",
-      "domain": "newsweek.com",
-      "verified": true
-    },
-    {
-      "name": "Yahoo News political analysis of Iowa Senate race",
-      "link": "https://www.yahoo.com/news/politics/articles/iowa-acting-different-political-expert-192336065.html",
-      "race_type": "senate",
-      "party": "EVEN",
-      "margin": 0.0,
-      "details": "Coverage of Iowa\u2019s Senate race noted that early July polls had Turek leading a Fox News survey by 4 points and Hinson leading a New York Times/Siena poll by 2 points, reinforcing the picture of a genuinely toss-up race.",
-      "date_range": "Late June\u2013early July 2026 (polls released July 1\u20132, 2026)",
-      "domain": "yahoo.com",
+      "name": "PollsMax Iowa Senate forecast",
+      "link": "https://www.pollsmax.com/senate/iowa/forecast/",
+      "race_type": "other_context",
+      "party": "R",
+      "margin": 3.6,
+      "details": "PollsMax forecast page shows a slightly larger Republican polling average lead of 3.6 points, using nine polls in the average.",
+      "date_range": "August 8, 2026 (updated)",
+      "domain": "pollsmax.com",
       "verified": true
     }
   ],
   "abbreviation": "IA",
-  "_cached_at": "2026-08-06T09:22:10.604338"
+  "_cached_at": "2026-08-08T11:44:18.055373"
 }

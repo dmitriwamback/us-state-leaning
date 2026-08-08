@@ -2,11 +2,12 @@
   "state": "New Mexico",
   "mode": "senate_presidential_polling",
   "lean": "D",
-  "confidence": 0.5,
+  "confidence": 0.525,
   "strength_label": "Tilt",
-  "net_margin": 0.0,
-  "reasoning": "New Mexico\u2019s statewide structural baseline is strongly Democratic (Cook PVI about D+6). In the last 45 days, the available current-race evidence is limited: reporting on the U.S. Senate race emphasizes Ben Ray Luj\u00e1n\u2019s substantial fundraising and clear institutional advantage rather than a competitive polling margin, while the only explicit recent numeric polling in the results is for a gubernatorial contest, not the Senate or presidential race. That means there is no reliable current Senate or presidential polling margin to report from the provided sources, so the state\u2019s current race lean is best characterized as Democratic, but without a fresh Senate or presidential horse-race number from these results.",
-  "as_of_date": "2026-08-06T09:25:27",
+  "net_margin": 6.0,
+  "based_on": "cook_pvi_fallback",
+  "reasoning": "New Mexico\u2019s statewide Cook PVI is D+6. In the last 45 days, the available results here do not include a qualifying New Mexico general-election Senate or presidential poll; the strongest race-specific evidence is an updated Cook/Crystal Ball rating context and a recent report that Sen. Ben Ray Luj\u00e1n has a large fundraising advantage, both of which point to a Democratic lean rather than a quantified margin.[8][13]",
+  "as_of_date": "2026-08-08T11:45:32",
   "cook_pvi": {
     "party": "D",
     "percentage_points": 6.0
@@ -15,11 +16,11 @@
     {
       "name": "Santa Fe New Mexican",
       "link": "https://www.santafenewmexican.com/news/elections/n-m-dems-keep-fundraising-lead-for-congress-border-district-drawing-big-donors/article_f7cb5a2f-0a47-4da8-9c03-c185d7bc75d2.html",
-      "race_type": "senate",
+      "race_type": "other_context",
       "party": "D",
       "margin": 0.0,
-      "details": "Ben Ray Luj\u00e1n reported a large cash-on-hand advantage and a major fundraising lead over Republican challenger Larry Marker, indicating a strong Democratic position in the Senate race.",
-      "date_range": "May 14-Jun 30, 2026",
+      "details": "Reported that incumbent Sen. Ben Ray Luj\u00e1n raised about $560,000, while Republican Larry Marker raised about $18,000 and closed with just $11,850 cash on hand, indicating a major Democratic resource advantage in the race.",
+      "date_range": "2026-05-14 to 2026-06-30",
       "domain": "santafenewmexican.com",
       "verified": true
     },
@@ -29,23 +30,23 @@
       "race_type": "other_context",
       "party": "D",
       "margin": 0.0,
-      "details": "The Cook Political Report\u2019s rating change moved New Mexico to Safe Democratic in gubernatorial context, reinforcing the state\u2019s Democratic lean as a structural indicator rather than a race margin.",
-      "date_range": "2026 cycle (forecaster update)",
+      "details": "Reported a Cook Political Report rating change that moved New Mexico\u2019s gubernatorial race to Safe Democratic, reflecting a strongly Democratic statewide environment.",
+      "date_range": "2026-07-31",
       "domain": "centerforpolitics.org",
       "verified": true
     },
     {
-      "name": "Cook Partisan Voting Index",
-      "link": "https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index",
+      "name": "NPR Primary Election Results",
+      "link": "https://apps.npr.org/primary-election-results-2026/states/NM.html",
       "race_type": "other_context",
-      "party": "D",
-      "margin": 6.0,
-      "details": "New Mexico\u2019s statewide Cook Partisan Voting Index is approximately D+6, making it a reliably Democratic-leaning state.",
-      "date_range": "Statewide structural baseline",
-      "domain": "en.wikipedia.org",
-      "verified": false
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "No qualifying New Mexico general-election Senate or presidential polling result was available in the provided search set; the only race-specific items were primary results and non-poll context.",
+      "date_range": "2026-08-01 to 2026-08-08",
+      "domain": "apps.npr.org",
+      "verified": true
     }
   ],
   "abbreviation": "NM",
-  "_cached_at": "2026-08-06T09:25:27.107770"
+  "_cached_at": "2026-08-08T11:45:32.806628"
 }

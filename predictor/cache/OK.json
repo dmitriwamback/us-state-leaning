@@ -2,61 +2,40 @@
   "state": "Oklahoma",
   "mode": "senate_presidential_polling",
   "lean": "R",
-  "confidence": 0.85,
-  "strength_label": "Tilt",
-  "net_margin": 0.0,
-  "reasoning": "There are no reputable public polls or forecasting articles in the last 45 days specifically giving a numeric margin for either the 2026 Oklahoma Senate or presidential race; recent coverage focuses on primaries and candidate selection, not general-election head-to-heads.[4][10] Structurally, Oklahoma is a heavily Republican state (Cook PVI R+20), so in the absence of fresh polling, the race is best characterized as strongly R-leaning with an implied double\u2011digit Republican advantage in any statewide federal contest. Given the data constraints, the most honest assessment is that Oklahoma\u2019s current Senate and presidential environment is R+15\u201320, driven by fundamentals rather than recent polling. ",
-  "as_of_date": "2026-08-06T09:26:16",
+  "confidence": 1.0,
+  "strength_label": "Strong",
+  "net_margin": -28.6,
+  "based_on": "sources",
+  "reasoning": "Recent Oklahoma-specific general-election polling for the 2026 Senate race was not available in the results, and the best current race-specific forecast source shows Republicans favored by a wide margin. Because there is no state-specific presidential polling in the last 45 days and no general-election Senate poll, the clearest current margin estimate is a Republican advantage of roughly R+28.6 in the Senate race from the forecast model; Oklahoma\u2019s statewide Cook PVI is R+20.3. The remaining Oklahoma results are primary or context-only items, so they are not usable as direct general-election margin evidence.",
+  "as_of_date": "2026-08-08T11:45:53",
   "cook_pvi": {
     "party": "R",
-    "percentage_points": 20.0
+    "percentage_points": 20.3
   },
   "sources": [
     {
-      "name": "Polymarket",
-      "link": "https://polymarket.com/event/which-party-will-win-the-senate-in-2026",
-      "race_type": "other_context",
-      "party": "R",
-      "margin": 0.0,
-      "details": "Polymarket shows Republicans favored overall to control the U.S. Senate in 2026, with the GOP contract trading around a mid\u201150s percent chance; this is structural, not Oklahoma-specific.",
-      "date_range": "June 16, 2026",
-      "domain": "polymarket.com",
-      "verified": true
-    },
-    {
-      "name": "Prediction Edge (race profile)",
-      "link": "https://www.predictionedge.com/elections/profile/jim-priest/?eventId=b3a18873805142308ac41a4e2c9e4fa3&marketId=b53b5c44d52243809507eb3deda10647",
+      "name": "PollsMax Oklahoma Senate Forecast",
+      "link": "https://www.pollsmax.com/senate/oklahoma/forecast/",
       "race_type": "senate",
       "party": "R",
-      "margin": 0.0,
-      "details": "Coverage of Oklahoma\u2019s 2026 Senate contests notes Kevin Hern has secured the Republican nomination for the Mullin seat and that the Democratic primary remains unsettled, underscoring GOP structural strength but providing no general\u2011election polling margin.",
-      "date_range": "March\u2013June 2026 (reported June 17, 2026)",
-      "domain": "predictionedge.com",
+      "margin": 28.6,
+      "details": "Forecast model for the 2026 Oklahoma Senate race projects 35.7% Democratic to 64.3% Republican, implying a Republican margin of 28.6 points; it also notes no general-election polls yet.",
+      "date_range": "Last updated August 8, 2026",
+      "domain": "pollsmax.com",
       "verified": true
     },
     {
-      "name": "KOSU",
-      "link": "https://www.kosu.org/jim-priest-oklahoma-2026-senate-election",
-      "race_type": "senate",
-      "party": "EVEN",
-      "margin": 0.0,
-      "details": "Local reporting on the Oklahoma Democratic Senate runoff (Thomas vs. Priest) emphasizes the primary dynamics and notes Hern as the GOP nominee, but does not cite any head\u2011to\u2011head polling against the Republican or quantify the general\u2011election margin.",
-      "date_range": "June 2026",
-      "domain": "kosu.org",
-      "verified": true
-    },
-    {
-      "name": "Cook Political Report (via Oklahoma Constitution summary)",
-      "link": "https://oklahomaconstitution.com/ns.php?nid=1482",
+      "name": "Cook Political Report Cook PVI",
+      "link": "https://www.cookpolitical.com/cook-pvi",
       "race_type": "other_context",
       "party": "R",
-      "margin": 20.0,
-      "details": "Cook Political Report\u2019s Partisan Voting Index lists Oklahoma as R+20 statewide, indicating a typical 20\u2011point Republican advantage relative to the national vote in recent presidential elections and providing the best available structural baseline for current statewide races.",
-      "date_range": "Prior cycles / structural rating",
-      "domain": "oklahomaconstitution.com",
-      "verified": true
+      "margin": 20.3,
+      "details": "Oklahoma\u2019s statewide Cook Partisan Voting Index is R+20.3.",
+      "date_range": "2026 cycle (statewide structural index)",
+      "domain": "cookpolitical.com",
+      "verified": false
     }
   ],
   "abbreviation": "OK",
-  "_cached_at": "2026-08-06T09:26:16.840952"
+  "_cached_at": "2026-08-08T11:45:53.704337"
 }

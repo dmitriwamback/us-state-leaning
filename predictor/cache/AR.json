@@ -2,72 +2,51 @@
   "state": "Arkansas",
   "mode": "senate_presidential_polling",
   "lean": "R",
-  "confidence": 1.0,
-  "strength_label": "Strong",
-  "net_margin": -60.0,
-  "reasoning": "Recent public polling and forecasting still show Republican Sen. Tom Cotton with a very large advantage over Democrat Hallie Shoffner in Arkansas, with the only quantified polling average in the last few months around an R+18\u201322 margin and prediction markets heavily favoring a Republican hold.[1][2][4] Given Arkansas\u2019s strong R+15 Cook PVI and the absence of newer contradictory polls within the last 45 days, the current evidence supports an Arkansas Senate race environment of roughly **R+20** and a clearly Republican-favored outcome.[1][2][4]",
-  "as_of_date": "2026-08-06T09:20:17",
+  "confidence": 0.63,
+  "strength_label": "Lean",
+  "net_margin": -10.2,
+  "based_on": "sources",
+  "reasoning": "Arkansas is a strongly Republican state, and the most recent state-specific Senate polling in the last 45 days shows Republican Tom Cotton ahead by double digits. The newest forecast/average I found puts the race at roughly R+10 to R+33 depending on whether you use the polling average or projected margin, with the latest polling average on August 7 showing R+10.2.[2]",
+  "as_of_date": "2026-08-08T11:43:24",
   "cook_pvi": {
     "party": "R",
-    "percentage_points": 15.0
+    "percentage_points": 27.0
   },
   "sources": [
     {
-      "name": "Prediction Edge (poll aggregation from FiftyPlusOne / GrayHouse)",
-      "link": "https://www.predictionedge.com/elections/profile/hallie-shoffner/?eventId=6af9b925636f424ba6e12a09017b4ba9&marketId=2c785f0cd8b74a94840fb3df0c2c5657",
+      "name": "PollsMax Arkansas Senate Forecast",
+      "link": "https://www.pollsmax.com/senate/arkansas/forecast/",
       "race_type": "senate",
       "party": "R",
-      "margin": 22.0,
-      "details": "GrayHouse/FiftyPlusOne Arkansas Senate poll and aggregate show Tom Cotton leading Hallie Shoffner 58% to 36%, an R+22 margin, with a polling average of Cotton+22 updated June 30, 2026.",
-      "date_range": "February 7-9, 2026 (average last updated June 30, 2026)",
-      "domain": "predictionedge.com",
-      "verified": true
-    },
-    {
-      "name": "PollsMax (GrayHouse poll average)",
-      "link": "https://www.pollsmax.com/senate/arkansas/",
-      "race_type": "senate",
-      "party": "R",
-      "margin": 18.0,
-      "details": "PollsMax Arkansas Senate polling average, based on one GrayHouse poll, shows 56.0% R to 38.0% D, an R+18 margin between Cotton and Shoffner.",
-      "date_range": "February 9, 2026 (average last updated June 30, 2026)",
+      "margin": 10.2,
+      "details": "Forecast page for the 2026 Arkansas Senate race projects a Republican win, with a polling average of R +10.2 and a projected margin of R +33.0.",
+      "date_range": "July 25, 2026-August 7, 2026",
       "domain": "pollsmax.com",
       "verified": true
     },
     {
-      "name": "Prediction Edge \u2013 Arkansas Senate winner by party (prediction market)",
-      "link": "https://www.predictionedge.com/elections/us-senate/arkansas-race-winner-by-party/",
-      "race_type": "senate",
+      "name": "PollsMax Arkansas Senate Forecast",
+      "link": "https://www.pollsmax.com/senate/arkansas/forecast/",
+      "race_type": "other_context",
       "party": "R",
-      "margin": 20.0,
-      "details": "PredictionEdge \"Arkansas Senate winner by party\" market gives Republicans about 97% and Democrats about 5% implied odds, indicating a strongly Republican-favored race (effectively R+20+ environment rather than a close contest).",
-      "date_range": "Market odds live as of late July\u2013early August 2026",
-      "domain": "predictionedge.com",
+      "margin": 22.0,
+      "details": "The page lists the latest poll in its aggregation as 2040 Strategy Group, showing Republican Tom Cotton ahead in the Arkansas Senate race.",
+      "date_range": "July 25, 2026",
+      "domain": "pollsmax.com",
       "verified": true
     },
     {
-      "name": "Cook Political Report \u2013 Partisan Voting Index (Arkansas statewide)",
-      "link": "https://www.cookpolitical.com/pvi-map-and-list",
+      "name": "Prediction Edge Arkansas Senate polling page",
+      "link": "https://www.predictionedge.com/elections/profile/hallie-shoffner/?eventId=6af9b925636f424ba6e12a09017b4ba9&marketId=2c785f0cd8b74a94840fb3df0c2c5657",
       "race_type": "other_context",
       "party": "R",
-      "margin": 0.0,
-      "details": "Cook Partisan Voting Index rates Arkansas at R+15 statewide, indicating the state votes about 15 points more Republican than the national average in recent presidential elections.",
-      "date_range": "Structural index, no specific date range (Cook PVI baseline)",
-      "domain": "cookpolitical.com",
-      "verified": false
-    },
-    {
-      "name": "Arkansas Times",
-      "link": "https://arktimes.com/arkansas-blog/2026/08/03/inside-hallie-shoffners-surprisingly-competitive-senate-campaign-to-unseat-tom-cotton",
-      "race_type": "senate",
-      "party": "R",
-      "margin": 0.0,
-      "details": "Arkansas Times feature on Hallie Shoffner\u2019s campaign describes the race as an uphill battle in a heavily Republican state, characterizing Cotton as a strong favorite without presenting contrary polling closer than the existing R+18\u201322 numbers.",
-      "date_range": "July 2026 coverage",
-      "domain": "arktimes.com",
+      "margin": 22.0,
+      "details": "A poll aggregation page for Hallie Shoffner shows Tom Cotton leading Hallie Shoffner 58% to 36%, a Republican margin of 22 points.",
+      "date_range": "February 7-9, 2026",
+      "domain": "predictionedge.com",
       "verified": true
     }
   ],
   "abbreviation": "AR",
-  "_cached_at": "2026-08-06T09:20:17.856786"
+  "_cached_at": "2026-08-08T11:43:24.170035"
 }

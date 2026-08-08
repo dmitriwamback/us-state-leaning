@@ -2,61 +2,51 @@
   "state": "Vermont",
   "mode": "senate_presidential_polling",
   "lean": "D",
-  "confidence": 1.0,
-  "strength_label": "Strong",
-  "net_margin": 30.3,
-  "reasoning": "Vermont has no U.S. Senate or presidential race on the ballot in 2026, and no reputable polls or forecasts in the last 45 days address a current margin for either federal race in the state.[1][7] The most recent structural indicator is the statewide Cook Partisan Voting Index, which rates Vermont as strongly Democratic at about D+16, suggesting that when those races next occur, Democrats would start with a substantial advantage even though no fresh head\u2011to\u2011head numbers exist. Given the absence of new race-specific data in the last 45 days, the best available characterization is that Vermont remains heavily D\u2011leaning, but no current numeric D+ or R+ margin can be responsibly assigned for an active Senate or presidential contest.",
-  "as_of_date": "2026-08-06T09:27:48",
+  "confidence": 0.775,
+  "strength_label": "Lean",
+  "net_margin": 16.0,
+  "based_on": "cook_pvi_fallback",
+  "reasoning": "Vermont has no U.S. Senate race on the ballot in 2026, so there is no current Senate margin to report from state-specific general-election polling. The most relevant recent statewide poll in the last 45 days is on the governor\u2019s race, which shows Phil Scott leading 44% to 33% over Amanda Janoo and 43% to 35% over Aly Richards; by scope rules, that is other_context rather than the requested Senate/Presidential race. Vermont\u2019s statewide Cook PVI is D+16.",
+  "as_of_date": "2026-08-08T11:46:33",
   "cook_pvi": {
     "party": "D",
     "percentage_points": 16.0
   },
   "sources": [
     {
-      "name": "Cook Political Report",
-      "link": "https://www.cookpolitical.com/pvi",
-      "race_type": "other_context",
-      "party": "D",
-      "margin": 0.0,
-      "details": "Cook Political Report\u2019s statewide Partisan Voting Index places Vermont at roughly D+16, indicating a strongly Democratic lean relative to the national average.",
-      "date_range": "2026 (no specific poll window; structural rating)",
-      "domain": "cookpolitical.com",
-      "verified": false
-    },
-    {
-      "name": "Politifinder (compilation of official VT 2024 Senate results)",
-      "link": "https://politifinder.com/election/2024-vt-us-senate",
-      "race_type": "senate",
-      "party": "D",
-      "margin": 30.3,
-      "details": "Reports the certified 2024 Vermont U.S. Senate result, with Bernie Sanders defeating Republican Gerald Malloy 61.53% to 31.25%, a Sanders margin of about 30 points, confirming Vermont\u2019s strong Democratic tilt in recent federal Senate voting.",
-      "date_range": "November 5, 2024",
-      "domain": "politifinder.com",
-      "verified": true
-    },
-    {
-      "name": "Burlington Free Press / UNH Survey Center polling",
+      "name": "Burlington Free Press",
       "link": "https://www.burlingtonfreepress.com/story/news/politics/2026/07/23/vt-gov-scotts-approval-rating-hits-new-low-as-election-approaches/91006720007/",
       "race_type": "other_context",
-      "party": "D",
-      "margin": 0.0,
-      "details": "UNH Survey Center polling and coverage on Phil Scott\u2019s approval show weakening support for the Republican governor, reinforcing the broader picture of a Democratic-leaning electorate even though the poll is not about a federal race margin.",
-      "date_range": "July 20-22, 2026",
+      "party": "R",
+      "margin": 11.0,
+      "details": "Statewide poll showed Phil Scott leading Amanda Janoo 44% to 33% and Aly Richards 43% to 35% in the governor\u2019s race; this is not a Senate or presidential matchup.",
+      "date_range": "July 2026 (published July 23, 2026)",
       "domain": "burlingtonfreepress.com",
       "verified": true
     },
     {
-      "name": "Prediction Edge Vermont elections overview",
-      "link": "https://www.predictionedge.com/elections/vt/",
+      "name": "The VPO",
+      "link": "https://thevpo.org/2026/07/24/phil-scott-slides-below-50-john-rodgers-is-in-trouble-and-other-notes-from-a-new-unh-poll/",
       "race_type": "other_context",
       "party": "EVEN",
       "margin": 0.0,
-      "details": "Explains that no U.S. Senate seat is up in Vermont in 2026 and that the next Senate contest will be in 2028, meaning there is no active 2026 Senate race margin to measure.",
-      "date_range": "July 2026 (no federal races on ballot)",
-      "domain": "predictionedge.com",
+      "details": "Reported on a new UNH poll and noted Phil Scott slipping below 50% and John Rodgers being in trouble; this is Vermont statewide political context, not a Senate or presidential ballot test.",
+      "date_range": "July 2026 (published July 24, 2026)",
+      "domain": "thevpo.org",
+      "verified": true
+    },
+    {
+      "name": "UNH Survey Center",
+      "link": "https://scholars.unh.edu/survey_center_polls/982/",
+      "race_type": "other_context",
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "UNH Survey Center poll page for Vermont statewide attitudes and job performance; it is not a Senate or presidential general-election matchup.",
+      "date_range": "July 2026 (published July 2026)",
+      "domain": "scholars.unh.edu",
       "verified": true
     }
   ],
   "abbreviation": "VT",
-  "_cached_at": "2026-08-06T09:27:48.593294"
+  "_cached_at": "2026-08-08T11:46:33.430954"
 }

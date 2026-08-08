@@ -2,72 +2,51 @@
   "state": "Wisconsin",
   "mode": "senate_presidential_polling",
   "lean": "Toss-up",
-  "confidence": 0.0,
+  "confidence": 0.3,
   "strength_label": "Toss-up",
-  "net_margin": 0.0,
-  "reasoning": "There are no credible statewide general-election polls for the 2026 presidential or U.S. Senate races in Wisconsin within the last 45 days, and the Marquette Law School and Wedgewood polling currently available focuses on the 2026 governor race and hypothetical matchups, not on an actual Senate or presidential contest.[13][16][20] Structurally, Wisconsin\u2019s Cook Partisan Voting Index is EVEN, indicating the state votes in line with national presidential results and remains a pure battleground rather than leaning clearly Democratic or Republican. Given the absence of recent, race-specific statewide polling for Senate or president, the best characterization of the current margin is that both contests are effectively toss-ups (EVEN) rather than measurably D+ or R+ at this time.",
-  "as_of_date": "2026-08-06T09:28:31",
+  "net_margin": 3.0,
+  "based_on": "cook_pvi_fallback",
+  "reasoning": "I found recent Wisconsin polling/news in the last 45 days, but the search results did not surface any current 2026 Wisconsin Senate or presidential general-election poll specific to the state; the clearest recent state-specific electoral data in the results is a Senate-district poll and a Wisconsin gubernatorial general-election matchup, both of which are outside the requested races and therefore counted only as context. Based on the available evidence, there is no reliable current Senate or presidential margin to report for Wisconsin from the provided results, so the race-specific margin remains unavailable.",
+  "as_of_date": "2026-08-08T11:46:49",
   "cook_pvi": {
-    "party": "EVEN",
-    "percentage_points": 0.0
+    "party": "D",
+    "percentage_points": 3.0
   },
   "sources": [
     {
-      "name": "The Hill (reporting Marquette Law School Poll)",
-      "link": "https://www.hill.com/homenews/5997331-hong-wisconsin-democratic-governor-primary-poll/",
+      "name": "Townhall citing Wedgewood Polls",
+      "link": "https://townhall.com/tipsheet/amy-curtis/2026/07/22/david-crowley-polling-n2679911",
       "race_type": "other_context",
-      "party": "EVEN",
-      "margin": 0.0,
-      "details": "Marquette Law School poll measured Democratic primary support for the Wisconsin governor\u2019s race, with Francesca Hong leading the Democratic field, but did not provide general-election margins for presidential or U.S. Senate races.",
-      "date_range": "July 22-27, 2026",
-      "domain": "hill.com",
-      "verified": false
+      "party": "D",
+      "margin": 7.0,
+      "details": "A Wisconsin Senate district poll found Jeff Smith leading Michele Magadance Skinner by 7 points, but this is a state legislative race and not the statewide U.S. Senate race.",
+      "date_range": "July 18-20, 2026",
+      "domain": "townhall.com",
+      "verified": true
     },
     {
-      "name": "270toWin",
+      "name": "270toWin / Wedgewood Polls",
       "link": "https://www.270towin.com/2026-governor-polls/wisconsin",
       "race_type": "other_context",
-      "party": "EVEN",
-      "margin": 0.0,
-      "details": "270toWin\u2019s compilation of Wedgewood and Marquette polls shows several 2026 Wisconsin governor general-election matchups (e.g., Barnes vs. Tiffany, Hong vs. Tiffany) with small Democratic or Republican advantages, but does not include statewide polling for presidential or U.S. Senate races.",
+      "party": "D",
+      "margin": 4.0,
+      "details": "A Wisconsin gubernatorial poll showed Mandela Barnes leading Tommy Tiffany 48% to 44% in one matchup; this is a gubernatorial race, not a Senate or presidential race.",
       "date_range": "July 6, 2026",
       "domain": "270towin.com",
       "verified": true
     },
     {
-      "name": "Wisconsin Right Now (summarizing Marquette Law School Poll)",
-      "link": "https://www.wisconsinrightnow.com/the-winners-and-losers-in-the-latest-marquette-poll-on-the-governors-ag-races/",
-      "race_type": "other_context",
-      "party": "EVEN",
-      "margin": 0.0,
-      "details": "Coverage of a Marquette Law School survey of Wisconsin voters focusing on governor and attorney general races, offering insight into statewide political attitudes but not specific margins for presidential or U.S. Senate contests.",
-      "date_range": "July 8-16, 2026",
-      "domain": "wisconsinrightnow.com",
-      "verified": true
-    },
-    {
-      "name": "Marquette Law School Poll",
-      "link": "https://law.marquette.edu/poll/",
-      "race_type": "other_context",
-      "party": "EVEN",
-      "margin": 0.0,
-      "details": "Marquette Law School\u2019s official poll site lists recent Wisconsin polling, which in mid-2026 centers on the governor race and policy attitudes, with no published statewide presidential or Senate horserace numbers in the last 45 days.",
-      "date_range": "July 2026",
-      "domain": "law.marquette.edu",
-      "verified": true
-    },
-    {
-      "name": "Marquette Law School Faculty Blog",
-      "link": "https://law.marquette.edu/facultyblog/2026/07/rating-the-battleground-districts-in-the-wisconsin-legislature/",
+      "name": "270toWin / Wedgewood Polls",
+      "link": "https://www.270towin.com/2026-governor-polls/wisconsin",
       "race_type": "other_context",
       "party": "D",
-      "margin": 0.0,
-      "details": "Analysis of battleground districts in the Wisconsin Legislature concludes the overall state legislative environment is Lean D, reflecting broader partisan dynamics but not directly measuring current Senate or presidential race margins.",
-      "date_range": "July 2026",
-      "domain": "law.marquette.edu",
+      "margin": 3.0,
+      "details": "The same Wisconsin governor polling page shows another matchup with Hong 47% and Tiffany 44%, again a gubernatorial contest rather than the requested federal race.",
+      "date_range": "July 6, 2026",
+      "domain": "270towin.com",
       "verified": true
     }
   ],
   "abbreviation": "WI",
-  "_cached_at": "2026-08-06T09:28:31.090817"
+  "_cached_at": "2026-08-08T11:46:49.239964"
 }

@@ -2,72 +2,62 @@
   "state": "Louisiana",
   "mode": "senate_presidential_polling",
   "lean": "R",
-  "confidence": 1.0,
+  "confidence": 0.875,
   "strength_label": "Strong",
-  "net_margin": -58.0,
-  "reasoning": "Within the last 45 days, there are no public head-to-head general-election polls for the Louisiana Senate or presidential race; instead, we have structural and market-based indicators that consistently show Republicans heavily favored statewide. Prediction markets and synthesized odds place the chance of a Republican Senate win in the mid\u201190% range, and market pricing for the eventual margin suggests a likely GOP victory well into double digits, so the best current estimate is that the statewide Senate environment is roughly R+15\u201320, consistent with Louisiana\u2019s R+12 PVI and the lack of competitive polling for Democrats.[3][9][12][16]",
-  "as_of_date": "2026-08-06T09:22:58",
+  "net_margin": -20.0,
+  "based_on": "cook_pvi_fallback",
+  "reasoning": "Louisiana\u2019s current general-election Senate matchup information in the last 45 days is sparse in the provided results, and the sources that do mention the race either describe the primary/runoff context or give market odds rather than a polling-based D/R margin. The clearest race-specific source says Republican Julia Letlow and Democrat Jamie Davis are headed to the November general election, but it does not provide a numeric general-election margin, so there is no reliable current Senate or presidential margin to report from the supplied evidence. Louisiana\u2019s statewide Cook PVI is R+20.",
+  "as_of_date": "2026-08-08T11:44:34",
   "cook_pvi": {
     "party": "R",
-    "percentage_points": 12.0
+    "percentage_points": 20.0
   },
   "sources": [
     {
-      "name": "MasterPredictionMarkets (summarizing Polymarket)",
-      "link": "https://masterpredictionmarkets.com/odds/will-the-democrats-win-the-louisiana-senate-race-in-2026/",
-      "race_type": "senate",
-      "party": "R",
-      "margin": 20.0,
-      "details": "MasterPredictionMarkets summarizes Polymarket pricing, reporting that as of July 17, 2026, the market gives Democrats a 7.5% chance and Republicans a 92.5% chance to win the Louisiana Senate race, implying a strongly Republican-leaning contest.",
-      "date_range": "July 15-17, 2026",
-      "domain": "masterpredictionmarkets.com",
-      "verified": true
-    },
-    {
-      "name": "WorldEventTrading (summarizing Polymarket)",
-      "link": "https://www.worldeventtrading.com/predictions/louisiana-senate-election-winner-odds-2026-11-03",
-      "race_type": "senate",
-      "party": "R",
-      "margin": 18.0,
-      "details": "WorldEventTrading reports that as of July 15, 2026, Polymarket implies a 94% chance that the Republican wins the Louisiana Senate race, reinforcing that the race is structurally very favorable to the GOP.",
-      "date_range": "July 15, 2026",
-      "domain": "worldeventtrading.com",
-      "verified": true
-    },
-    {
-      "name": "Polymarket (via WorldEventTrading/market page)",
-      "link": "https://polymarket.com/event/louisiana-senate-margin-of-victory-2026",
-      "race_type": "senate",
-      "party": "R",
-      "margin": 20.0,
-      "details": "Polymarket\u2019s specific \"Louisiana Senate Election Margin of Victory\" market shows the leading outcomes as Republican winning by 35%+ and by 30\u201335%, each priced around 43%, indicating expectations of a very large GOP margin rather than a close race.",
-      "date_range": "July 2026 (ongoing market)",
-      "domain": "polymarket.com",
+      "name": "Associated Press",
+      "link": "https://apnews.com/projects/elections-2026/louisiana-primary-results-us-senate/",
+      "race_type": "other_context",
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "Reports that the Louisiana U.S. Senate primary required a runoff and identifies the matchup context, but it is primary/contextual rather than a general-election margin poll.",
+      "date_range": "May 16, 2026",
+      "domain": "apnews.com",
       "verified": true
     },
     {
       "name": "WBRZ",
-      "link": "https://www.wbrz.com/news/u-s-senate-candidates-open-13-week-sprint-to-show-off-credentials-to-louisiana-voters/",
-      "race_type": "senate",
+      "link": "https://www.wbrz.com/news/political-analyst-expects-tight-race-for-senate-runoff/",
+      "race_type": "other_context",
       "party": "EVEN",
       "margin": 0.0,
-      "details": "WBRZ coverage of the Senate runoff notes recent mixed polling between Republican candidates Letlow and Fleming and describes the ensuing general-election campaign, but does not present any public general-election head\u2011to\u2011head polling against the Democratic nominee.",
-      "date_range": "June 2026 (context, not head-to-head)",
+      "details": "Describes the GOP Senate primary runoff and notes recent polling was mixed, but it does not provide a current general-election margin for the November race.",
+      "date_range": "June 27, 2026",
       "domain": "wbrz.com",
       "verified": true
     },
     {
-      "name": "Cook Political Report PVI",
-      "link": "https://www.cookpolitical.com/pvi-map-and-list",
+      "name": "WBRZ",
+      "link": "https://www.wbrz.com/news/louisiana-u-s-senate-race-set-as-letlow-and-davis-head-to-november-general-election/",
+      "race_type": "other_context",
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "States that Jamie Davis won the Democratic nomination and will face Republican Rep. Julia Letlow in the November general election, but no statewide general-election margin is given.",
+      "date_range": "June 27, 2026",
+      "domain": "wbrz.com",
+      "verified": true
+    },
+    {
+      "name": "Polymarket",
+      "link": "https://polymarket.com/event/louisiana-senate-election-margin-of-victory-2026",
       "race_type": "other_context",
       "party": "R",
-      "margin": 0.0,
-      "details": "Cook Political Report\u2019s Partisan Voting Index lists Louisiana as R+12 statewide, indicating the state votes about 12 percentage points more Republican than the national average in recent presidential elections, which shapes expectations for both Senate and presidential margins.",
-      "date_range": "Cook PVI as of 2024 cycle (structural index)",
-      "domain": "cookpolitical.com",
+      "margin": 5.0,
+      "details": "Prediction market implies a Republican win, with the leading outcome being a Republican victory by 0-5 points; this is not a poll and does not provide a direct candidate margin.",
+      "date_range": "Current as of Aug. 2026",
+      "domain": "polymarket.com",
       "verified": false
     }
   ],
   "abbreviation": "LA",
-  "_cached_at": "2026-08-06T09:22:58.740438"
+  "_cached_at": "2026-08-08T11:44:34.447099"
 }

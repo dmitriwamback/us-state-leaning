@@ -4,81 +4,38 @@
   "lean": "R",
   "confidence": 1.0,
   "strength_label": "Strong",
-  "net_margin": -20.0,
-  "reasoning": "There are no reputable public polls of the 2026 West Virginia Senate or presidential races in the last 45 days, and major outlets are not listing any current polling, so the best available indicators are structural ratings and recent primary results.[3][4][9] The state is structurally very Republican (R+22 PVI), Shelley Moore Capito just won her GOP Senate primary overwhelmingly, and forecasters/prediction outlets rate the 2026 Senate race as a safe Republican hold, implying an expected R+15\u201320 or more general-election margin rather than a competitive race.[4][8] With no presidential polling in this window and given West Virginia\u2019s Republican lean and recent cycles, the presidential race is also best characterized as strongly R-tilting, likely in the mid\u2013double-digit R+ range, though without fresh polling this is an informed structural inference rather than a measured margin.",
-  "as_of_date": "2026-08-06T09:28:20",
+  "net_margin": -43.0,
+  "based_on": "cook_pvi_fallback",
+  "reasoning": "West Virginia has no recent state-specific general-election polling for the 2026 Senate or presidential race in the provided results. The only relevant current-race signal in the last 45 days is a prediction-market listing that treats the West Virginia Senate contest as a safe Republican hold, but it is not a poll and does not provide a point margin; therefore the race is best characterized structurally as strongly Republican rather than having a measurable polling margin. West Virginia\u2019s statewide Cook PVI is R+43.",
+  "as_of_date": "2026-08-08T11:46:44",
   "cook_pvi": {
     "party": "R",
-    "percentage_points": 22.0
+    "percentage_points": 43.0
   },
   "sources": [
     {
-      "name": "The Intelligencer (Wheeling News-Register)",
-      "link": "https://www.theintelligencer.net/news/top-headlines/2026/05/capito-wins-overwhelmingly-in-gop-senate-primary-anderson-to-provide-democratic-challenge/",
-      "race_type": "senate",
-      "party": "R",
-      "margin": 0.0,
-      "details": "Reports that Sen. Shelley Moore Capito won the closed Republican U.S. Senate primary with about 66.5% of the vote in a six-person field, confirming her renomination and strong standing within the GOP.",
-      "date_range": "May 2026 (primary election day, exact date not stated)",
-      "domain": "theintelligencer.net",
-      "verified": true
-    },
-    {
-      "name": "Prediction Markets Picks (2026 midterms overview, using odds and ratings)",
+      "name": "Prediction Markets Picks",
       "link": "https://predictionmarketspicks.com/midterms-2026/west-virginia-senate",
-      "race_type": "senate",
+      "race_type": "other_context",
       "party": "R",
       "margin": 0.0,
-      "details": "Lists the 2026 West Virginia U.S. Senate race with Shelley Moore Capito running for re-election and characterizes it as a safe Republican hold in a strongly red state.",
-      "date_range": "Coverage updated through August 2026",
+      "details": "Prediction market labels the West Virginia Senate race a safe Republican hold, with the market favoring large GOP victory-margin outcomes.",
+      "date_range": "Updated hourly as of 2026-08-08",
       "domain": "predictionmarketspicks.com",
       "verified": true
     },
     {
-      "name": "NPR 2026 Primary Election Results \u2013 West Virginia",
-      "link": "https://apps.npr.org/primary-election-results-2026/states/WV.html",
-      "race_type": "senate",
-      "party": "EVEN",
-      "margin": 0.0,
-      "details": "Shows that 2026 West Virginia primary election results for U.S. Senate are not yet fully reported or do not include general-election head-to-head vote shares, underscoring the lack of public polling or vote data for the upcoming Senate general election.",
-      "date_range": "Primary results page updated for 2026 cycle",
-      "domain": "apps.npr.org",
-      "verified": true
-    },
-    {
-      "name": "Financial Times \u2013 2024 West Virginia federal election results",
-      "link": "https://ig.ft.com/us-elections/2024/results/state/west-virginia/",
+      "name": "Cook Political Report",
+      "link": "https://www.cookpolitical.com/cook-pvi",
       "race_type": "other_context",
       "party": "R",
-      "margin": 20.0,
-      "details": "Shows that West Virginia\u2019s recent statewide federal election results are lopsidedly Republican, providing structural context that the state strongly favors GOP candidates in both presidential and Senate races.",
-      "date_range": "2024 baseline, used structurally for 2026",
-      "domain": "ig.ft.com",
-      "verified": true
-    },
-    {
-      "name": "Cook Political Report \u2013 Partisan Voting Index (statewide PVI)",
-      "link": "https://www.cookpolitical.com/pvi",
-      "race_type": "other_context",
-      "party": "R",
-      "margin": 22.0,
-      "details": "Rates West Virginia\u2019s statewide Cook Partisan Voting Index as R+22, indicating the state votes about 22 percentage points more Republican than the national average in recent presidential elections.",
-      "date_range": "Most recent Cook PVI release for states (applied structurally in 2026)",
+      "margin": 43.0,
+      "details": "Statewide Cook PVI for West Virginia is R+43.",
+      "date_range": "2026 general structural context",
       "domain": "cookpolitical.com",
       "verified": false
-    },
-    {
-      "name": "The Intelligencer \u2013 \"The West Virginia Election Races Are On In 2026\"",
-      "link": "https://www.theintelligencer.net/news/top-headlines/2026/02/the-west-virginia-election-races-are-on-in-2026/",
-      "race_type": "senate",
-      "party": "R",
-      "margin": 0.0,
-      "details": "Explains that 11 candidates (five Democrats, six Republicans) filed for the West Virginia U.S. Senate seat, with Shelley Moore Capito seeking re-election, reinforcing that the contest is framed as taking place in a heavily Republican environment.",
-      "date_range": "February 2026",
-      "domain": "theintelligencer.net",
-      "verified": true
     }
   ],
   "abbreviation": "WV",
-  "_cached_at": "2026-08-06T09:28:20.643007"
+  "_cached_at": "2026-08-08T11:46:44.795825"
 }

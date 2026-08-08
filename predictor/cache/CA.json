@@ -2,28 +2,51 @@
   "state": "California",
   "mode": "senate_presidential_polling",
   "lean": "D",
-  "confidence": 1.0,
-  "strength_label": "Strong",
-  "net_margin": 23.0,
-  "reasoning": "California\u2019s statewide Cook Partisan Voting Index is D+23. I did not find a qualifying Senate or presidential poll/news item for California in the last 45 days among the provided results, so there is no current race margin I can responsibly report from the allowed source set.",
-  "as_of_date": "2026-08-06T09:20:22",
+  "confidence": 0.8,
+  "strength_label": "Lean",
+  "net_margin": 17.0,
+  "based_on": "cook_pvi_fallback",
+  "reasoning": "California\u2019s statewide Cook PVI is D+17. In the last 45 days, I did not find any credible, California-specific general-election polling for the 2026 Senate or presidential race; the returned results were either about other offices, hypothetical 2028 matchups, or non-California races, so there is no usable current Senate or presidential margin to report from the provided sources.",
+  "as_of_date": "2026-08-08T11:43:27",
   "cook_pvi": {
     "party": "D",
-    "percentage_points": 23.0
+    "percentage_points": 17.0
   },
   "sources": [
     {
       "name": "Cook Political Report",
-      "link": "https://www.cookpolitical.com/cook-partisan-voting-index",
+      "link": "https://www.cookpolitical.com/",
       "race_type": "other_context",
       "party": "D",
-      "margin": 23.0,
-      "details": "Cook Partisan Voting Index for California is listed as D+23, indicating a strong Democratic lean relative to the nation.",
-      "date_range": "Structural index (current statewide rating)",
+      "margin": 17.0,
+      "details": "Statewide Cook PVI listing for California shows the state as D+17.",
+      "date_range": "2026",
       "domain": "cookpolitical.com",
       "verified": false
+    },
+    {
+      "name": "ABC7 News",
+      "link": "https://abc7.com/post/xavier-becerra-leads-steve-hilton-wide-margin-california-governors-race-new-poll-finds/19517695/",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 25.0,
+      "details": "News coverage of a California governor poll showing Xavier Becerra leading Steve Hilton 61% to 36%, but this is a gubernatorial race and not Senate or presidential.",
+      "date_range": "July 2026",
+      "domain": "abc7.com",
+      "verified": true
+    },
+    {
+      "name": "Orange County Register",
+      "link": "https://www.ocregister.com/2026/07/16/harris-newsom-khanna-californias-three-way-race-for-2028/",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 7.0,
+      "details": "Coverage of 2028 California presidential-primary-style or candidate-preference polling involving Harris, Newsom, Buttigieg, and Ocasio-Cortez; this is not California\u2019s current general-election presidential race.",
+      "date_range": "July 2026",
+      "domain": "ocregister.com",
+      "verified": true
     }
   ],
   "abbreviation": "CA",
-  "_cached_at": "2026-08-06T09:20:22.879647"
+  "_cached_at": "2026-08-08T11:43:27.366301"
 }
