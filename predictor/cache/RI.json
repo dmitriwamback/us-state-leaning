@@ -2,62 +2,51 @@
   "state": "Rhode Island",
   "mode": "senate_presidential_polling",
   "lean": "D",
-  "confidence": 0.807,
+  "confidence": 0.775,
   "strength_label": "Lean",
-  "net_margin": 17.3,
-  "based_on": "sources",
-  "reasoning": "Rhode Island is strongly Democratic in current structural metrics, with a statewide Cook PVI of D+16. The recent polling/search results available in the last 45 days do not show a current Rhode Island Senate or presidential general-election poll; the only usable Rhode Island race polling in the results is for the governor's Democratic primary, which is not the Senate or presidential race and therefore counts only as other context.",
-  "as_of_date": "2026-08-08T18:39:29",
+  "net_margin": 16.0,
+  "based_on": "cook_pvi_fallback",
+  "reasoning": "Rhode Island is strongly Democratic statewide, so the structural baseline is D+16 Cook PVI. In the last 45 days, the available Rhode Island-specific general-election polling in the search results is for the governor\u2019s race, not the Senate or presidential race, so there is no qualifying current Senate or presidential margin to report from the provided sources.",
+  "as_of_date": "2026-08-10T15:00:50",
   "cook_pvi": {
     "party": "D",
     "percentage_points": 16.0
   },
   "sources": [
     {
-      "name": "Tavern Research",
+      "name": "UNH Survey Center",
+      "link": "https://scholars.unh.edu/survey_center_polls/",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 20.0,
+      "details": "UNH Survey Center poll of Rhode Island Democratic gubernatorial primary voters found Foulkes leading McKee 42% to 22%. This is not a Senate or presidential general-election poll, so it is only contextual.",
+      "date_range": "Jun 18 - 23, 2026",
+      "domain": "scholars.unh.edu",
+      "verified": true
+    },
+    {
+      "name": "PredictionEdge / Tavern Research",
       "link": "https://www.predictionedge.com/elections/ri/",
       "race_type": "other_context",
       "party": "D",
       "margin": 5.0,
-      "details": "Tavern Research poll of a Rhode Island gubernatorial primary showed Gina Foulkes leading David McKee 41% to 36% among likely Democratic primary voters.",
-      "date_range": "Jul 10-14, 2026",
+      "details": "Tavern Research polling cited in the Rhode Island gubernatorial polling average showed Foulkes ahead of McKee 41% to 36%. This is a governor primary result, not a Senate or presidential general-election margin.",
+      "date_range": "Jul 10 - 14, 2026",
       "domain": "predictionedge.com",
       "verified": true
     },
     {
-      "name": "University of New Hampshire Survey Center",
-      "link": "https://www.predictionedge.com/elections/ri/",
+      "name": "The Boston Globe",
+      "link": "https://www.bostonglobe.com/2026/07/22/metro/mckee-foulkes-union-group-poll/",
       "race_type": "other_context",
       "party": "D",
-      "margin": 20.0,
-      "details": "University of New Hampshire Survey Center poll of the Rhode Island gubernatorial primary showed Gina Foulkes ahead of David McKee 42% to 22%.",
-      "date_range": "Jun 18-23, 2026",
-      "domain": "predictionedge.com",
-      "verified": true
-    },
-    {
-      "name": "Emerson College",
-      "link": "https://www.predictionedge.com/elections/ri/",
-      "race_type": "other_context",
-      "party": "D",
-      "margin": 19.7,
-      "details": "Emerson College poll of the Rhode Island gubernatorial primary showed Gina Foulkes leading David McKee 39.9% to 20.2%.",
-      "date_range": "May 14-16, 2026",
-      "domain": "predictionedge.com",
-      "verified": true
-    },
-    {
-      "name": "PollsMax",
-      "link": "https://www.pollsmax.com/senate/rhode-island/forecast/",
-      "race_type": "senate",
-      "party": "D",
-      "margin": 17.3,
-      "details": "PollsMax listed a Rhode Island Senate polling average of D+17.3 and projected vote of D+32.4, based on two polls; this is a forecast/aggregation rather than a new poll.",
-      "date_range": "Aug. 7, 2026",
-      "domain": "pollsmax.com",
+      "margin": 6.0,
+      "details": "The Boston Globe reported a union-backed internal poll showing McKee within 6 points of Foulkes, 39% to 33%, in the Rhode Island Democratic gubernatorial primary.",
+      "date_range": "Jul 22, 2026",
+      "domain": "bostonglobe.com",
       "verified": true
     }
   ],
   "abbreviation": "RI",
-  "_cached_at": "2026-08-08T18:39:29.192992"
+  "_cached_at": "2026-08-10T15:00:50.342562"
 }

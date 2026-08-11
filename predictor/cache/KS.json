@@ -1,52 +1,52 @@
 {
   "state": "Kansas",
   "mode": "senate_presidential_polling",
-  "lean": "Toss-up",
-  "confidence": 0.2,
-  "strength_label": "Toss-up",
-  "net_margin": -2.0,
+  "lean": "R",
+  "confidence": 0.575,
+  "strength_label": "Tilt",
+  "net_margin": -8.0,
   "based_on": "sources",
-  "reasoning": "Kansas is structurally very Republican, with a statewide Cook PVI of R+19. The only current-race polling material in the last 45 days in the provided results is for the Democratic primary, not the 2026 general-election Senate or presidential race, so there is no valid recent state-specific general-election margin to report from polling/news; the most relevant public handicapper source still rates the Senate race as solid/likely Republican, which implies a GOP advantage rather than a quantified poll margin.",
-  "as_of_date": "2026-08-08T18:37:49",
+  "reasoning": "Kansas is a strongly Republican state with a statewide Cook Partisan Voting Index of R+15. In the last 45 days, the only clearly state-specific general-election margin in the provided results is a polling aggregate showing Marshall ahead by 8 points in the Kansas Senate race; recent coverage and handicapping sources also indicate the seat remains Republican-leaning, but they do not provide a new general-election margin.",
+  "as_of_date": "2026-08-10T14:58:26",
   "cook_pvi": {
     "party": "R",
-    "percentage_points": 19.0
+    "percentage_points": 15.0
   },
   "sources": [
     {
-      "name": "Sunflower State Journal",
-      "link": "https://sunflowerstatejournal.com/hamilton-leading-democratic-u-s-senate-field-new-internal-poll-shows/",
-      "race_type": "other_context",
-      "party": "D",
-      "margin": 17.0,
-      "details": "Internal Democratic primary ballot test found Adam Hamilton leading the Kansas Democratic Senate field with 30% support, ahead of Christy Davis at 13%.",
-      "date_range": "July 13-16, 2026",
-      "domain": "sunflowerstatejournal.com",
-      "verified": true
-    },
-    {
-      "name": "Cook Political Report",
-      "link": "https://www.cookpolitical.com/ratings/senate-race-ratings",
+      "name": "Pollsmax",
+      "link": "https://www.pollsmax.com/senate/kansas/",
       "race_type": "senate",
       "party": "R",
-      "margin": 0.0,
-      "details": "Cook Political Report moved the Kansas Senate race from safe Republican to likely Republican after the Democratic nominee was set.",
-      "date_range": "August 2026",
-      "domain": "cookpolitical.com",
+      "margin": 8.0,
+      "details": "Polling average for the Kansas Senate race shows 46.0% Democratic to 54.0% Republican, which is an R+8.0 margin.",
+      "date_range": "Updated July 2, 2026; polls included through Jan. 28, 2026",
+      "domain": "pollsmax.com",
       "verified": true
     },
     {
       "name": "The Hill / Sabato's Crystal Ball",
       "link": "https://thehill.com/homenews/campaign/6011422-kansas-senate-race-sabato-adam-hamilton-roger-marshall/",
-      "race_type": "senate",
+      "race_type": "other_context",
       "party": "R",
       "margin": 0.0,
-      "details": "Sabato's Crystal Ball shifted the Kansas Senate race from safe Republican to likely Republican after the Democratic primary concluded.",
+      "details": "Reports that Sabato's Crystal Ball shifted Kansas Senate from safe Republican to likely Republican after Adam Hamilton's primary win, indicating the race remains Republican-leaning.",
       "date_range": "August 2026",
       "domain": "thehill.com",
+      "verified": true
+    },
+    {
+      "name": "NBC News",
+      "link": "https://www.nbcnews.com/politics/2026-primary-elections/kansas-senate-results",
+      "race_type": "other_context",
+      "party": "R",
+      "margin": 0.0,
+      "details": "Live primary results show Roger Marshall won the Republican Senate primary and Adam Hamilton won the Democratic primary; this is primary context rather than a general-election margin.",
+      "date_range": "August 2026",
+      "domain": "nbcnews.com",
       "verified": true
     }
   ],
   "abbreviation": "KS",
-  "_cached_at": "2026-08-08T18:37:49.304720"
+  "_cached_at": "2026-08-10T14:58:26.972231"
 }

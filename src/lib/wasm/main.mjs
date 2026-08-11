@@ -3,7 +3,7 @@
 
 // When targeting node and ES6 we use `await import ..` in the generated code
 // so the outer function needs to be marked as async.
-async function Module(moduleArg = {}) {
+async function createMapModule(moduleArg = {}) {
   var Module = moduleArg;
 // include: shell.js
 // include: minimum_runtime_check.js
@@ -91,7 +91,7 @@ if (ENVIRONMENT_IS_NODE) {
 
 // --pre-jses are emitted after the Module integration code, so that they can
 // refer to Module (if they choose; they can also define Module)
-// include: /var/folders/rw/2s4mw7x558n64mzbmd71hlnr0000gn/T/tmpthtsksu8.js
+// include: /var/folders/rw/2s4mw7x558n64mzbmd71hlnr0000gn/T/tmpkzgngbc7.js
 
   if (!Module['expectedDataFileDownloads']) Module['expectedDataFileDownloads'] = 0;
   Module['expectedDataFileDownloads']++;
@@ -219,21 +219,21 @@ Module['FS_createPath']("/", "state-models", true, true);
 
   })();
 
-// end include: /var/folders/rw/2s4mw7x558n64mzbmd71hlnr0000gn/T/tmpthtsksu8.js
-// include: /var/folders/rw/2s4mw7x558n64mzbmd71hlnr0000gn/T/tmp31kpouhd.js
+// end include: /var/folders/rw/2s4mw7x558n64mzbmd71hlnr0000gn/T/tmpkzgngbc7.js
+// include: /var/folders/rw/2s4mw7x558n64mzbmd71hlnr0000gn/T/tmpqa04ssxa.js
 
     // All the pre-js content up to here must remain later on, we need to run
     // it.
     if ((typeof ENVIRONMENT_IS_WASM_WORKER != 'undefined' && ENVIRONMENT_IS_WASM_WORKER) || (typeof ENVIRONMENT_IS_PTHREAD != 'undefined' && ENVIRONMENT_IS_PTHREAD) || (typeof ENVIRONMENT_IS_AUDIO_WORKLET != 'undefined' && ENVIRONMENT_IS_AUDIO_WORKLET)) Module['preRun'] = [];
     var necessaryPreJSTasks = Module['preRun'].slice();
-  // end include: /var/folders/rw/2s4mw7x558n64mzbmd71hlnr0000gn/T/tmp31kpouhd.js
-// include: /var/folders/rw/2s4mw7x558n64mzbmd71hlnr0000gn/T/tmpvn5ph6le.js
+  // end include: /var/folders/rw/2s4mw7x558n64mzbmd71hlnr0000gn/T/tmpqa04ssxa.js
+// include: /var/folders/rw/2s4mw7x558n64mzbmd71hlnr0000gn/T/tmp85k99g94.js
 
     if (!Module['preRun']) throw 'Module.preRun should exist because file support used it; did a pre-js delete it?';
     necessaryPreJSTasks.forEach((task) => {
       if (Module['preRun'].indexOf(task) < 0) throw 'All preRun tasks that exist before user pre-js code should remain after; did you replace Module or modify Module.preRun?';
     });
-  // end include: /var/folders/rw/2s4mw7x558n64mzbmd71hlnr0000gn/T/tmpvn5ph6le.js
+  // end include: /var/folders/rw/2s4mw7x558n64mzbmd71hlnr0000gn/T/tmp85k99g94.js
 
 
 var programArgs = [];
@@ -6205,5 +6205,5 @@ for (const prop of Object.keys(Module)) {
 }
 
 // Export using a UMD style export, or ES6 exports if selected
-export default Module;
+export default createMapModule;
 

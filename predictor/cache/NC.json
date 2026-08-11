@@ -2,35 +2,24 @@
   "state": "North Carolina",
   "mode": "senate_presidential_polling",
   "lean": "D",
-  "confidence": 0.535,
+  "confidence": 0.537,
   "strength_label": "Tilt",
-  "net_margin": 6.4,
+  "net_margin": 6.5,
   "based_on": "sources",
-  "reasoning": "Recent North Carolina Senate polling from the last 45 days shows Democrat Roy Cooper ahead of Republican Michael Whatley, with the most recent major poll showing a D+9 lead and an aggregation showing about D+6. The available sources are all Senate-specific North Carolina general-election polls, and no qualifying presidential race poll for North Carolina appeared in the supplied results.",
-  "as_of_date": "2026-08-08T18:39:03",
+  "reasoning": "Recent North Carolina Senate polling in the last 45 days consistently shows Democrat Roy Cooper ahead of Republican Michael Whatley, with the latest Fox News poll showing a 9-point Democratic lead and PPP showing a 4-point lead. North Carolina\u2019s statewide Cook PVI is R+2, indicating a slight Republican lean structurally even though current polling favors Democrats in the Senate race.",
+  "as_of_date": "2026-08-10T15:00:09",
   "cook_pvi": {
-    "party": "D",
+    "party": "R",
     "percentage_points": 2.0
   },
   "sources": [
     {
-      "name": "PollsMax North Carolina Senate polling average",
-      "link": "https://www.pollsmax.com/senate/north-carolina/",
-      "race_type": "senate",
-      "party": "D",
-      "margin": 6.2,
-      "details": "Polling average across 23 North Carolina Senate polls shows Roy Cooper at 48.4% and Michael Whatley at 42.2%, for a D+6.2 average margin.",
-      "date_range": "Updated Aug. 8, 2026; includes polls through Aug. 1, 2026",
-      "domain": "pollsmax.com",
-      "verified": true
-    },
-    {
-      "name": "Fox News / Beacon Research",
-      "link": "https://www.foxnews.com/politics/fox-news-poll-democratic-enthusiasm-shapes-north-carolina-senate-race.amp",
+      "name": "Fox News / Beacon Research / Shaw & Company Research",
+      "link": "https://www.foxnews.com/politics/fox-news-poll-democratic-enthusiasm-shapes-north-carolina-senate-race",
       "race_type": "senate",
       "party": "D",
       "margin": 9.0,
-      "details": "Fox News/Beacon Research found Roy Cooper leading Michael Whatley 53% to 44% among registered North Carolina voters, a D+9 result.",
+      "details": "Fox News poll found Roy Cooper leading Michael Whatley 53% to 44% in North Carolina's Senate race.",
       "date_range": "July 23-27, 2026",
       "domain": "foxnews.com",
       "verified": true
@@ -41,12 +30,23 @@
       "race_type": "senate",
       "party": "D",
       "margin": 4.0,
-      "details": "Public Policy Polling found Roy Cooper ahead of Michael Whatley 48% to 44% in North Carolina's Senate race, a D+4 result.",
-      "date_range": "July 11-13, 2026",
+      "details": "Public Policy Polling survey found Roy Cooper leading Michael Whatley 48% to 44% in North Carolina's Senate race.",
+      "date_range": "July 10-11, 2026",
       "domain": "wfae.org",
+      "verified": true
+    },
+    {
+      "name": "Pollsmax North Carolina Senate Polling Average",
+      "link": "https://www.pollsmax.com/senate/north-carolina/",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 6.2,
+      "details": "Polling aggregate shows Roy Cooper averaging 48.4% to Michael Whatley's 42.2%, for a Democratic lead of 6.2 points.",
+      "date_range": "2026 (updated Aug. 10, 2026)",
+      "domain": "pollsmax.com",
       "verified": true
     }
   ],
   "abbreviation": "NC",
-  "_cached_at": "2026-08-08T18:39:03.285897"
+  "_cached_at": "2026-08-10T15:00:09.141542"
 }

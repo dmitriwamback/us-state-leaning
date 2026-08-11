@@ -2,51 +2,40 @@
   "state": "Oregon",
   "mode": "senate_presidential_polling",
   "lean": "D",
-  "confidence": 0.775,
+  "confidence": 0.725,
   "strength_label": "Lean",
-  "net_margin": 16.0,
+  "net_margin": 14.0,
   "based_on": "cook_pvi_fallback",
-  "reasoning": "The only source in the provided results that directly addresses Oregon\u2019s current Senate race is Cook\u2019s rating of the seat as Solid Democrat, which is a qualitative assessment rather than a polling margin. The results do not include any state-specific Oregon general-election Senate or presidential poll from the last 45 days, so there is no trustworthy numeric current-race margin to report; Oregon\u2019s statewide PVI is D+16.0.",
-  "as_of_date": "2026-08-08T18:39:19",
+  "reasoning": "Recent polling/news in the last 45 days does not show a current Oregon general-election Senate or presidential polling margin; the search results only surfaced Oregon Senate primary results and forecasts without a state-specific general-election poll. Oregon\u2019s statewide Cook PVI is D+14, indicating a strong Democratic baseline, but that is a structural measure rather than a current-race margin.",
+  "as_of_date": "2026-08-10T15:00:36",
   "cook_pvi": {
     "party": "D",
-    "percentage_points": 16.0
+    "percentage_points": 14.0
   },
   "sources": [
     {
-      "name": "Cook Political Report via Central Oregon Daily",
-      "link": "https://www.centraloregondaily.com/news/elections/oregon-governor-5th-district-cook-political-ratings-changes/article_597013e1-e272-4655-885c-9388a4068960.html",
+      "name": "NBC News",
+      "link": "https://www.nbcnews.com/politics/2026-primary-elections/oregon-senate-results",
+      "race_type": "other_context",
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "Live results show the Oregon Senate primary winners, including Jeff Merkley in the Democratic primary and David Smith in the Republican primary; this is primary-only election coverage, not a general-election margin.",
+      "date_range": "2026-05-01 to 2026-08-10",
+      "domain": "nbcnews.com",
+      "verified": true
+    },
+    {
+      "name": "PollsMax",
+      "link": "https://www.pollsmax.com/senate/oregon/forecast/",
       "race_type": "other_context",
       "party": "D",
-      "margin": 0.0,
-      "details": "Cook Political Report rated the Oregon U.S. Senate race as Solid Democrat.",
-      "date_range": "July 10, 2026",
-      "domain": "centraloregondaily.com",
-      "verified": true
-    },
-    {
-      "name": "Public Opinion Strategies via OPB",
-      "link": "https://www.opb.org/article/2026/07/10/oregon-governor-race-competitive-early-signs-show/",
-      "race_type": "other_context",
-      "party": "R",
-      "margin": 4.0,
-      "details": "Public Opinion Strategies poll commissioned for the Oregon governor\u2019s race found Drazan ahead of Kotek 48% to 44%, but this is not the Senate or presidential race and is included only as non-target context.",
-      "date_range": "June 22-24, 2026",
-      "domain": "opb.org",
-      "verified": true
-    },
-    {
-      "name": "Public Opinion Strategies via KTVZ",
-      "link": "https://ktvz.com/news/2026/07/11/decision-2026-survey-gives-drazan-a-slight-lead-over-kotek-in-oregon-governors-race/",
-      "race_type": "other_context",
-      "party": "R",
-      "margin": 4.0,
-      "details": "Public Opinion Strategies poll reported in local coverage found Drazan leading Kotek 48% to 44%; this is a gubernatorial matchup, not the requested federal race.",
-      "date_range": "June 22-24, 2026",
-      "domain": "ktvz.com",
+      "margin": 20.8,
+      "details": "Forecast model projects a Democratic advantage in the Oregon Senate race with a projected vote of 60.4% D to 39.6% R, implying D+20.8; however, it is a forecast rather than a recent state poll.",
+      "date_range": "Updated 2026-06-29",
+      "domain": "pollsmax.com",
       "verified": true
     }
   ],
   "abbreviation": "OR",
-  "_cached_at": "2026-08-08T18:39:19.148401"
+  "_cached_at": "2026-08-10T15:00:36.207823"
 }

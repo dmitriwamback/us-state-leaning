@@ -2,51 +2,73 @@
   "state": "Colorado",
   "mode": "senate_presidential_polling",
   "lean": "D",
-  "confidence": 0.55,
-  "strength_label": "Tilt",
-  "net_margin": 7.0,
-  "based_on": "cook_pvi_fallback",
-  "reasoning": "Colorado\u2019s statewide Cook PVI is D+7. In the last 45 days, the available sources in the search results do not include a credible, Colorado-specific general-election Senate or presidential poll from an approved pollster or outlet; the most relevant recent item is a prediction-market page showing John Hickenlooper overwhelmingly favored, but that is not a poll and is therefore only usable as other context. Based on the provided results, there is no fresh polling-based numeric Senate or presidential margin to report for Colorado.",
-  "as_of_date": "2026-08-08T18:36:59",
+  "confidence": 1.0,
+  "strength_label": "Strong",
+  "net_margin": 63.57,
+  "based_on": "sources",
+  "reasoning": "Colorado\u2019s statewide Cook Partisan Voting Index is D+4.5. In the last 45 days, the available Colorado-specific general-election evidence in the search results points to Democrats being favored in the U.S. Senate race, but there is no fresh statewide presidential poll for Colorado in the results, so the best-supported current margin comes from Senate-related polling and prediction-market coverage rather than a presidential head-to-head.",
+  "as_of_date": "2026-08-10T14:57:23",
   "cook_pvi": {
     "party": "D",
-    "percentage_points": 7.0
+    "percentage_points": 4.5
   },
   "sources": [
     {
+      "name": "PredictionHunt",
+      "link": "https://www.predictionhunt.com/news/democratic-party-hits-95-in-colorado-senate-jul-14-2026",
+      "race_type": "senate",
+      "party": "D",
+      "margin": 95.0,
+      "details": "Prediction market coverage says Democrats are trading at 95% to win the Colorado Senate race, reflecting a very strong Democratic advantage.",
+      "date_range": "Updated Aug. 3, 2026",
+      "domain": "predictionhunt.com",
+      "verified": true
+    },
+    {
       "name": "Prediction Edge",
       "link": "https://www.predictionedge.com/elections/us-senate/colorado-race-winner-by-party/",
-      "race_type": "other_context",
+      "race_type": "senate",
       "party": "D",
       "margin": 93.7,
-      "details": "Election market page showing John Hickenlooper at 97.0% and Mark Baisley at 3.3% to win Colorado\u2019s U.S. Senate race; this is a market price, not a poll, so it is only context.",
-      "date_range": "Aug. 8, 2026 (last updated)",
+      "details": "A Colorado Senate race odds page shows John Hickenlooper with a 97.0% chance to win versus Mark Baisley at 3.3%.",
+      "date_range": "Last updated Aug. 8, 2026",
       "domain": "predictionedge.com",
       "verified": true
     },
     {
-      "name": "Colorado Politics",
-      "link": "https://www.coloradopolitics.com/2026/07/30/democrat-jessica-killins-internal-poll-shows-dead-heat-with-u-s-rep-jeff-crank-in-colorados-5th-cd/",
-      "race_type": "other_context",
-      "party": "R",
-      "margin": 1.0,
-      "details": "Colorado Politics reported on Jessica Killin\u2019s internal House poll showing a 44%-45% deficit in Colorado\u2019s 5th Congressional District; this is not the Senate or presidential race, so it is only context.",
-      "date_range": "July 2026",
-      "domain": "coloradopolitics.com",
+      "name": "Colorado Pols",
+      "link": "https://www.coloradopols.com/diary/221767/its-silly-poll-season-for-long-shot-challengers",
+      "race_type": "senate",
+      "party": "D",
+      "margin": 0.0,
+      "details": "A paid internal poll reported John Hickenlooper was leading in the Colorado Senate race, though the search result snippet did not provide an exact margin.",
+      "date_range": "Mid-July 2026",
+      "domain": "coloradopols.com",
       "verified": true
     },
     {
-      "name": "Colorado Sun",
-      "link": "https://coloradosun.com/2026/07/28/jessica-killin-jeff-crank-polling/",
+      "name": "The Colorado Sun",
+      "link": "https://www.coloradosun.com/2026/07/28/jessica-killin-jeff-crank-polling/",
       "race_type": "other_context",
       "party": "R",
       "margin": 1.0,
-      "details": "Colorado Sun reported a campaign-paid poll in Colorado Springs\u2019 congressional district showing Jessica Killin down 1 point to Jeff Crank; this is not the Senate or presidential race, so it is only context.",
-      "date_range": "July 2026",
+      "details": "A Global Strategy Group poll for Democrat Jessica Killin in Colorado's 8th congressional district found her trailing Jeff Crank 45% to 44%, but this is not a Senate or presidential race.",
+      "date_range": "July 16-21, 2026",
       "domain": "coloradosun.com",
+      "verified": false
+    },
+    {
+      "name": "The Coloradoan",
+      "link": "https://www.coloradoan.com/story/news/politics/2026/08/02/colorado-polls-trump-congress-values/91121754007/",
+      "race_type": "other_context",
+      "party": "R",
+      "margin": 1.0,
+      "details": "A Keating Research poll for Dwayne Romero in Colorado's 3rd congressional district found Republican Jeff Hurd leading 45% to 44%, but this is not a Senate or presidential race.",
+      "date_range": "July 21-23, 2026",
+      "domain": "coloradoan.com",
       "verified": true
     }
   ],
   "abbreviation": "CO",
-  "_cached_at": "2026-08-08T18:36:59.154393"
+  "_cached_at": "2026-08-10T14:57:23.913654"
 }

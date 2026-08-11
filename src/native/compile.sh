@@ -4,5 +4,6 @@ em++ main.cpp -o main.mjs \
   -s USE_WEBGL2=1 -s FULL_ES3=1 \
   -s EXPORTED_FUNCTIONS=_setState,_setViewportSize,_main,_setCameraOffset \
   -s EXPORTED_RUNTIME_METHODS=ccall,cwrap \
+  -s EXPORT_NAME=createMapModule \
   --preload-file state-models@state-models \
   -lGL

@@ -2,62 +2,62 @@
   "state": "Utah",
   "mode": "senate_presidential_polling",
   "lean": "R",
-  "confidence": 0.875,
-  "strength_label": "Strong",
-  "net_margin": -20.0,
+  "confidence": 0.825,
+  "strength_label": "Lean",
+  "net_margin": -18.0,
   "based_on": "cook_pvi_fallback",
-  "reasoning": "I could not find any Utah-specific Senate or presidential general-election poll from the last 45 days in the provided results, so there is no current race margin to report from those sources. Utah\u2019s statewide Cook PVI is R+20, which is the main structural baseline available here; the other results were either unrelated, state-structural, or not a current Utah general-election measurement.",
-  "as_of_date": "2026-08-08T18:39:54",
+  "reasoning": "I could not find any Utah-specific general-election Senate or presidential polling from the last 45 days in the provided results, and the results mainly concern unrelated races or non-state-specific election context. Utah\u2019s statewide Cook Partisan Voting Index is R+18, which is the only clear structural data point available here. Because no current Utah Senate or presidential margin is supported by the supplied sources, the race margin is effectively unavailable from this search set.",
+  "as_of_date": "2026-08-10T15:01:28",
   "cook_pvi": {
     "party": "R",
-    "percentage_points": 20.0
+    "percentage_points": 18.0
   },
   "sources": [
     {
-      "name": "Wikipedia - 2026 Utah Senate election",
+      "name": "2026 Utah Senate election - Wikipedia",
       "link": "https://en.wikipedia.org/wiki/2026_Utah_Senate_election",
       "race_type": "other_context",
       "party": "R",
-      "margin": 0.0,
-      "details": "Utah is described as a strongly Republican state in statewide election context; no current 2026 Senate or presidential margin is provided in the result snippet.",
-      "date_range": "2024 cycle / general state context",
+      "margin": 54.8,
+      "details": "Lists Utah Senate districts and their 2024 presidential margins, but this is not statewide Senate or presidential polling for the 2026 general election.",
+      "date_range": "2026 cycle context",
       "domain": "en.wikipedia.org",
       "verified": true
     },
     {
-      "name": "Utah Senate",
-      "link": "https://senate.utah.gov/",
+      "name": "2026 Election - NOTUS \u2014 News of the United States",
+      "link": "https://www.notus.org/2026-election",
       "race_type": "other_context",
       "party": "EVEN",
       "margin": 0.0,
-      "details": "Official Utah Senate page; informational state-government source, but it does not provide a current Utah Senate or presidential margin.",
-      "date_range": "2026 election-cycle state context",
-      "domain": "senate.utah.gov",
+      "details": "General 2026 election coverage page with no Utah-specific general-election Senate or presidential margin identified in the provided result snippet.",
+      "date_range": "2026 cycle context",
+      "domain": "notus.org",
       "verified": true
     },
     {
-      "name": "Reuters - 2026 Midterm Elections News",
-      "link": "https://www.reuters.com/world/us/elections/",
+      "name": "Todd Blanche is 1 vote away from confirmation - Live Updates",
+      "link": "https://www.politico.com/live-updates/2026/08/04/congress/todd-blanche-votes-curtis-01023896",
       "race_type": "other_context",
       "party": "EVEN",
       "margin": 0.0,
-      "details": "This Reuters elections hub is a general news landing page in the search results and no Utah-specific Senate or presidential poll margin is visible in the snippet provided.",
-      "date_range": "Last 45 days not shown / general analysis",
-      "domain": "reuters.com",
+      "details": "National Senate live-updates article mentioning other states and races, but no Utah-specific Senate or presidential polling.",
+      "date_range": "2026 cycle context",
+      "domain": "politico.com",
       "verified": true
     },
     {
-      "name": "Newsweek",
-      "link": "https://www.newsweek.com/can-democrats-flip-senate-chances-100-days-midterms-12245883",
+      "name": "Recent Floor Activity - U.S. Senate",
+      "link": "https://www.senate.gov/legislative/LIS/floor_activity/floor_activity.htm",
       "race_type": "other_context",
       "party": "EVEN",
       "margin": 0.0,
-      "details": "The result snippet references a June 2026 six-state Senate battleground poll with Democrats and Republicans both at 47% on average, but it is not Utah-specific and therefore cannot be used for Utah\u2019s current race margin.",
-      "date_range": "June 2026",
-      "domain": "newsweek.com",
+      "details": "Senate floor activity page; procedural Senate record, not election polling or a Utah race margin.",
+      "date_range": "2026 cycle context",
+      "domain": "senate.gov",
       "verified": true
     }
   ],
   "abbreviation": "UT",
-  "_cached_at": "2026-08-08T18:39:54.267821"
+  "_cached_at": "2026-08-10T15:01:28.032544"
 }

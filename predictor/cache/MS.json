@@ -6,58 +6,58 @@
   "strength_label": "Toss-up",
   "net_margin": -4.9,
   "based_on": "sources",
-  "reasoning": "Mississippi\u2019s current Senate race appears Republican-favored based on the latest state-specific polling/aggregation available in the provided results, with a polling average around R+8.7 and a recent April survey showing Hyde-Smith ahead by about 3 points. The statewide Cook PVI is R+21, indicating a very strong Republican structural lean.",
-  "as_of_date": "2026-08-08T18:38:26",
+  "reasoning": "Mississippi\u2019s statewide Cook Partisan Voting Index is R+17. The only clearly relevant current-race polling in the last 45 days from the provided results is an aggregate showing Republican Cindy Hyde-Smith ahead of Democrat Scott Colom by about 8.7 points, while the AP article and related coverage suggest the race is drawing attention but do not provide a separate numeric margin.",
+  "as_of_date": "2026-08-10T14:59:20",
   "cook_pvi": {
     "party": "R",
-    "percentage_points": 21.0
+    "percentage_points": 17.0
   },
   "sources": [
     {
-      "name": "Impact Research (via Mississippi Independent coverage)",
-      "link": "https://msindy.org/p/key-us-senate-democrat-says-mississippi",
-      "race_type": "senate",
-      "party": "R",
-      "margin": 3.0,
-      "details": "Impact Research surveyed Mississippi likely voters in the Senate race and found Cindy Hyde-Smith ahead of Scott Colom by 3 points (47% to 44%).",
-      "date_range": "April 12, 2026",
-      "domain": "msindy.org",
-      "verified": true
-    },
-    {
-      "name": "AP News reporting on Impact Research",
-      "link": "https://www.apnews.com/article/senate-control-midterms-donald-trump-mississippi-785be60ca6684d8ca2161755019f9a2a",
-      "race_type": "senate",
-      "party": "R",
-      "margin": 3.0,
-      "details": "A Mississippi Senate poll of likely voters showed Hyde-Smith at 47% and Colom at 44%, with 13% undecided.",
-      "date_range": "April 12, 2026",
-      "domain": "apnews.com",
-      "verified": false
-    },
-    {
-      "name": "Pollsmax Mississippi Senate polling average",
+      "name": "Pollsmax Mississippi Senate polls aggregate",
       "link": "https://www.pollsmax.com/senate/mississippi/",
       "race_type": "senate",
       "party": "R",
       "margin": 8.7,
-      "details": "Polling average for the Mississippi Senate race shows 49.6% for Cindy Hyde-Smith and 40.9% for Scott Colom, a Republican lead of R+8.7.",
-      "date_range": "Last updated August 7, 2026; polls included through April 12, 2026",
+      "details": "Aggregate of Mississippi Senate polls shows Cindy Hyde-Smith leading Scott Colom 49.6% to 40.9%, a Republican margin of 8.7 points.",
+      "date_range": "Last updated Aug. 7, 2026; polls included through Apr. 12, 2026",
       "domain": "pollsmax.com",
       "verified": true
     },
     {
-      "name": "WLOX coverage",
-      "link": "https://www.wlox.com/2026/08/03/economy-voter-turnout-expected-shape-mississippi-national-midterm-races/",
+      "name": "Impact Research via AP coverage",
+      "link": "https://www.news10.com/news/politics/ap-mississippi-senate-race-highlights-shifting-map-as-democrats-and-republicans-battle-for-majority/",
+      "race_type": "senate",
+      "party": "R",
+      "margin": 3.0,
+      "details": "Impact Research poll found Hyde-Smith at 47% and Colom at 44% in a head-to-head matchup, a Republican lead of 3 points.",
+      "date_range": "Apr. 8-12, 2026",
+      "domain": "news10.com",
+      "verified": true
+    },
+    {
+      "name": "Impact Research via WJTV/AP coverage",
+      "link": "https://www.wjtv.com/news/election/ap-will-mississippi-send-a-black-democrat-to-the-us-senate-scott-colom-says-dont-count-him-out/",
+      "race_type": "senate",
+      "party": "R",
+      "margin": 3.0,
+      "details": "Coverage reports the same Impact Research survey with Hyde-Smith at 42%, Colom at 39%, and Pinkins at 6%; in the head-to-head it is still a Republican lead of 3 points.",
+      "date_range": "Apr. 8-12, 2026",
+      "domain": "wjtv.com",
+      "verified": true
+    },
+    {
+      "name": "Polymarket Mississippi Senate election margin market",
+      "link": "https://polymarket.com/event/mississippi-senate-election-margin-of-victory-first-round-20260804182229477",
       "race_type": "other_context",
-      "party": "EVEN",
-      "margin": 0.0,
-      "details": "Coverage notes that Democrats see Mississippi as a harder-than-usual GOP seat, but the state remains strongly Republican in statewide elections.",
-      "date_range": "2026 context",
-      "domain": "wlox.com",
+      "party": "R",
+      "margin": 9.0,
+      "details": "An election market page summarizes recent polling as showing Hyde-Smith ahead by roughly 9 points, but it is not a poll itself and provides no new survey measurement.",
+      "date_range": "Aug. 2026",
+      "domain": "polymarket.com",
       "verified": true
     }
   ],
   "abbreviation": "MS",
-  "_cached_at": "2026-08-08T18:38:26.130336"
+  "_cached_at": "2026-08-10T14:59:20.369277"
 }

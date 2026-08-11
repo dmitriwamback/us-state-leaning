@@ -1,52 +1,63 @@
 {
   "state": "Wisconsin",
   "mode": "senate_presidential_polling",
-  "lean": "Toss-up",
-  "confidence": 0.46,
-  "strength_label": "Toss-up",
-  "net_margin": 4.6,
+  "lean": "D",
+  "confidence": 0.525,
+  "strength_label": "Tilt",
+  "net_margin": 6.0,
   "based_on": "cook_pvi_fallback",
-  "reasoning": "The search results did not surface any Wisconsin 2026 general-election Senate or presidential poll from the last 45 days that measures this state's current race; most results are about a state legislative race or the Democratic gubernatorial primary, which must be treated as other_context. The only statewide Wisconsin general-election-style matchup in the results is a hypothetical Democratic primary/general-election crossover mention in a Fox News item, but it is not a current Wisconsin Senate or presidential race poll, so it cannot be used to set a Senate or presidential margin.",
-  "as_of_date": "2026-08-08T18:40:12",
+  "reasoning": "Recent Wisconsin polling in the last 45 days in the provided results is concentrated on state legislative and Democratic primary contests, not the 2026 Wisconsin Senate or presidential general election. Because there is no qualifying state-specific Senate or presidential general-election polling in the results, the current Senate/presidential margin cannot be determined from the supplied sources; Wisconsin\u2019s statewide Cook PVI is D+6.[20][17]",
+  "as_of_date": "2026-08-10T15:01:55",
   "cook_pvi": {
     "party": "D",
-    "percentage_points": 4.6
+    "percentage_points": 6.0
   },
   "sources": [
     {
-      "name": "Marquette Today",
+      "name": "Wisconsin Right Now / Marquette poll coverage",
+      "link": "https://www.wisconsinrightnow.com/the-winners-and-losers-in-the-latest-marquette-poll-on-the-governors-ag-races/",
+      "race_type": "other_context",
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "Marquette poll of Wisconsin registered voters focused on governor and attorney general races, not the Senate or presidential general election.",
+      "date_range": "July 8-16, 2026",
+      "domain": "wisconsinrightnow.com",
+      "verified": true
+    },
+    {
+      "name": "Marquette Law School Poll",
       "link": "https://today.marquette.edu/2026/07/marquette-law-school-poll-finds-almost-half-of-democratic-primary-voters-undecided-amid-rapid-shifts-in-the-race-for-the-gubernatorial-nomination/",
       "race_type": "other_context",
-      "party": "D",
-      "margin": 22.0,
-      "details": "Marquette Law School Poll coverage reports only the Wisconsin Democratic gubernatorial primary, with Hong leading the field but many voters undecided; this is not a Senate or presidential general-election race.",
-      "date_range": "July 22-30, 2026",
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "Marquette Law School Poll article covering the Wisconsin Democratic primary, not a Senate or presidential general-election matchup.",
+      "date_range": "July 29, 2026",
       "domain": "today.marquette.edu",
       "verified": true
     },
     {
-      "name": "Townhall",
-      "link": "https://townhall.com/tipsheet/amy-curtis/2026/07/22/david-crowley-polling-n2679911",
+      "name": "Milwaukee Journal Sentinel",
+      "link": "https://www.jsonline.com/story/news/politics/analysis/2026/07/23/marquette-poll-paints-picture-of-both-parties-headaches-in-wisconsin/91001925007/",
       "race_type": "other_context",
-      "party": "D",
-      "margin": 29.0,
-      "details": "A Wedgewood Partners poll discussed on Townhall covers the Wisconsin Democratic Senate primary, showing Francesca Hong leading Mandela Barnes and David Crowley; it is a primary poll, not a current general-election Senate or presidential poll.",
-      "date_range": "July 18-20, 2026",
-      "domain": "townhall.com",
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "Coverage of Democratic primary polling for Wisconsin gubernatorial politics, not a Senate or presidential general-election poll.",
+      "date_range": "July 22, 2026",
+      "domain": "jsonline.com",
       "verified": true
     },
     {
-      "name": "Fox News",
-      "link": "https://www.foxnews.com/politics/dsa-member-leads-dem-primary-midwest-battleground-trails-likely-gop-nominee-poll",
+      "name": "Marquette Law School / Cook PVI reference",
+      "link": "https://law.marquette.edu/facultyblog/2026/07/rating-the-battleground-districts-in-the-wisconsin-legislature/",
       "race_type": "other_context",
       "party": "D",
-      "margin": 4.0,
-      "details": "Fox News reports a hypothetical general-election matchup in Wisconsin where Mandela Barnes edges Tiffany 44%-40% and Francesca Hong trails Tiffany 43%-40%; this is about the Democratic primary field and a hypothetical matchup, not a current Wisconsin Senate or presidential election poll.",
-      "date_range": "July 2026",
-      "domain": "foxnews.com",
+      "margin": 6.0,
+      "details": "Statewide Cook Partisan Voting Index for Wisconsin is D+6.",
+      "date_range": "2026 (current snapshot)",
+      "domain": "law.marquette.edu",
       "verified": true
     }
   ],
   "abbreviation": "WI",
-  "_cached_at": "2026-08-08T18:40:12.921210"
+  "_cached_at": "2026-08-10T15:01:55.273917"
 }

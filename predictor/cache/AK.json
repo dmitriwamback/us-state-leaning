@@ -2,73 +2,51 @@
   "state": "Alaska",
   "mode": "senate_presidential_polling",
   "lean": "Toss-up",
-  "confidence": 0.077,
+  "confidence": 0.145,
   "strength_label": "Toss-up",
-  "net_margin": 0.77,
+  "net_margin": -1.45,
   "based_on": "sources",
-  "reasoning": "Alaska\u2019s current Senate race is best described as a toss-up, with recent polling in late June showing Mary Peltola slightly ahead in one survey and Dan Sullivan slightly ahead in another, leaving the race effectively even overall. The statewide Cook Partisan Voting Index is R+9, indicating a strong Republican lean even though the 2026 Senate contest remains competitive.",
-  "as_of_date": "2026-08-08T18:36:42",
+  "reasoning": "Alaska\u2019s statewide Cook PVI is R+9.0. For the current 2026 U.S. Senate race, the clearest state-specific poll average in the last 45 days shows Dan Sullivan ahead by 0.9 points, while a late-June NYT/Siena poll found Sullivan +2; recent forecast/odds items are mostly contextual and not direct vote-share polling.",
+  "as_of_date": "2026-08-10T14:56:59",
   "cook_pvi": {
     "party": "R",
     "percentage_points": 9.0
   },
   "sources": [
     {
-      "name": "New York Times / Siena College",
-      "link": "https://www.nytimes.com/interactive/2026/07/14/polls/senate-elections-voters-polls.html",
-      "race_type": "senate",
-      "party": "R",
-      "margin": 2.0,
-      "details": "A New York Times/Siena College poll of likely Alaska voters found Dan Sullivan leading Mary Peltola 47% to 45%, a 2-point Republican edge.",
-      "date_range": "June 15-29, 2026",
-      "domain": "nytimes.com",
-      "verified": true
-    },
-    {
-      "name": "Alaska Survey Research",
-      "link": "https://www.newsweek.com/map-shows-democrats-chances-in-key-senate-races-with-98-days-to-midterms-12249548",
-      "race_type": "senate",
-      "party": "D",
-      "margin": 5.2,
-      "details": "A later-referenced Alaska Survey Research poll found Mary Peltola ahead of Dan Sullivan 49.4% to 44.2%, a 5.2-point Democratic edge.",
-      "date_range": "June 4-7, 2026",
-      "domain": "newsweek.com",
-      "verified": true
-    },
-    {
-      "name": "Newsweek / Alaska Survey Research",
-      "link": "https://www.newsweek.com/democrats-may-flip-governor-senate-seats-in-state-trump-won-three-times-12177920",
-      "race_type": "other_context",
-      "party": "D",
-      "margin": 1.8,
-      "details": "Newsweek reported another Alaska Survey Research poll of 1,528 registered voters showing a very close race at 50.9% for Tom Begich to 49.1% for Bernadette Wilson, which is not the Senate race and is therefore only contextual.",
-      "date_range": "June 30-July 1, 2026",
-      "domain": "newsweek.com",
-      "verified": true
-    },
-    {
-      "name": "PollsMax",
+      "name": "PollsMax Alaska Senate Polling Average",
       "link": "https://www.pollsmax.com/senate/alaska/",
       "race_type": "senate",
       "party": "R",
       "margin": 0.9,
-      "details": "PollsMax\u2019s aggregate for the Alaska Senate race showed an average of 45.8% D to 46.7% R, a 0.9-point Republican edge.",
-      "date_range": "Last updated July 6, 2026",
+      "details": "Polling average for Alaska\u2019s 2026 Senate race shows Mary Peltola at 45.8% and Dan Sullivan at 46.7%, a Republican lead of 0.9 points.",
+      "date_range": "Last updated July 6, 2026; polls included through June 29, 2026",
       "domain": "pollsmax.com",
       "verified": true
     },
     {
-      "name": "The Alaska Story / PollsMax",
-      "link": "https://thealaskastory.com/forecast-sweep-sen-dan-sullivan-nick-begich-and-bernadette-wilson-all-predicted-to-win-alaskas-three-major-races/",
-      "race_type": "other_context",
+      "name": "New York Times / Siena College Alaska Senate poll",
+      "link": "https://www.nytimes.com/interactive/2026/07/14/polls/senate-elections-voters-polls.html",
+      "race_type": "senate",
       "party": "R",
-      "margin": 5.8,
-      "details": "PollsMax forecast Republican Dan Sullivan over Democrat Mary Peltola by 5.8 percentage points.",
-      "date_range": "Updated July 20, 2026",
-      "domain": "thealaskastory.com",
+      "margin": 2.0,
+      "details": "NYT/Siena survey of Alaska likely voters found Dan Sullivan leading Mary Peltola 47% to 45%, a Republican lead of 2 points.",
+      "date_range": "June 29, 2026",
+      "domain": "nytimes.com",
+      "verified": true
+    },
+    {
+      "name": "New York Times Senate voters analysis",
+      "link": "https://www.nytimes.com/interactive/2026/07/14/polls/senate-elections-voters-polls.html",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 4.0,
+      "details": "NYT analysis noted Alaska voters preferred Democratic control by 41% while 45% planned to vote for Mary Peltola, indicating a 4-point overperformance versus generic Senate preference; this is context rather than a direct race margin source.",
+      "date_range": "July 14, 2026",
+      "domain": "nytimes.com",
       "verified": true
     }
   ],
   "abbreviation": "AK",
-  "_cached_at": "2026-08-08T18:36:42.003303"
+  "_cached_at": "2026-08-10T14:56:59.631801"
 }

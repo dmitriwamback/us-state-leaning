@@ -2,73 +2,62 @@
   "state": "South Carolina",
   "mode": "senate_presidential_polling",
   "lean": "R",
-  "confidence": 0.775,
-  "strength_label": "Lean",
-  "net_margin": -16.0,
+  "confidence": 0.875,
+  "strength_label": "Strong",
+  "net_margin": -20.0,
   "based_on": "cook_pvi_fallback",
-  "reasoning": "South Carolina\u2019s statewide Cook PVI is R+16, indicating a strong Republican lean. In the last 45 days, the available polling/news you provided is almost entirely about the Republican Senate special primary rather than a state-specific general-election Senate or presidential margin, so there is no reliable current general-election margin to report from those sources; the only general-election-style figure is an aggregate poll average showing Republicans ahead by 7.4 points, but it is from a third-party aggregate and older than the last 45 days cutoff you requested. ",
-  "as_of_date": "2026-08-08T18:39:35",
+  "reasoning": "South Carolina does not have recent general-election polling for the 2026 Senate or presidential race in the provided results; the available items are all about the Republican special Senate primary, which cannot be treated as a Senate general-election margin. The only usable race-leaning aggregate is a South Carolina Senate polling average showing Republicans ahead by 7.4 points, but it is based on primary-cycle or otherwise non-general-election context, so it is listed as other_context rather than the target race.",
+  "as_of_date": "2026-08-10T15:00:59",
   "cook_pvi": {
     "party": "R",
-    "percentage_points": 16.0
+    "percentage_points": 20.0
   },
   "sources": [
     {
-      "name": "Trafalgar Group / Newsmax",
-      "link": "https://www.newsmax.com/john-gizzi/poll-south-carolina-senate/2026/08/02/id/1264814",
+      "name": "Pollsmax South Carolina Senate Polling Average",
+      "link": "https://www.pollsmax.com/senate/south-carolina/",
       "race_type": "other_context",
-      "party": "EVEN",
-      "margin": 0.0,
-      "details": "Tracking poll of likely Republican primary voters for South Carolina's special Senate election found Darline Graham at 27.0%, Russell Fry and Ralph Norman tied at 17.4%, and 12.4% undecided, implying no settled nominee and no general-election margin yet.",
+      "party": "R",
+      "margin": 7.4,
+      "details": "Aggregate of three South Carolina Senate polls shows Lindsey Graham leading Annie Andrews 48.7% to 41.3%, a Republican edge of 7.4 points.",
+      "date_range": "Updated Aug. 10, 2026; latest poll June 22, 2026",
+      "domain": "pollsmax.com",
+      "verified": true
+    },
+    {
+      "name": "Trafalgar Group / Yahoo News summary",
+      "link": "https://www.yahoo.com/news/politics/articles/trafalgar-poll-shows-3-way-195950690.html",
+      "race_type": "other_context",
+      "party": "R",
+      "margin": 9.6,
+      "details": "Trafalgar Group tracking poll of likely Republican voters in the South Carolina special Senate primary found Graham at 27.0%, with Fry and Norman tied at 17.4%.",
       "date_range": "July 28-30, 2026",
-      "domain": "newsmax.com",
+      "domain": "yahoo.com",
       "verified": true
     },
     {
       "name": "Emerson College Polling / The Hill",
       "link": "https://thehill.com/homenews/campaign/5999110-sc-gop-senate-primary-poll-graham-norman/",
       "race_type": "other_context",
-      "party": "EVEN",
-      "margin": 0.0,
-      "details": "Emerson College/Nexstar poll of likely GOP primary voters found Ralph Norman leading with 22%, followed by Darline Graham at 19%, with no candidate near a majority.",
+      "party": "R",
+      "margin": 3.0,
+      "details": "Emerson College poll of likely GOP primary voters found Ralph Norman at 22% and Darline Graham at 19%, indicating a tightly bunched Republican primary field.",
       "date_range": "July 28-29, 2026",
       "domain": "thehill.com",
       "verified": true
     },
     {
-      "name": "Emerson College Polling / Nexstar Media",
-      "link": "https://emersoncollegepolling.com/south-carolina-2026-poll-no-clear-leader-to-replace-late-sen-graham-on-ballot/",
-      "race_type": "other_context",
-      "party": "EVEN",
-      "margin": 0.0,
-      "details": "Emerson College Polling/Nexstar Media poll of likely Republican primary voters found Ralph Norman at 16%, Mark Lynch at 13%, and no clear leader, again indicating a contested primary rather than a general-election margin.",
-      "date_range": "July 14-15, 2026",
-      "domain": "emersoncollegepolling.com",
-      "verified": true
-    },
-    {
-      "name": "Impact Research / Newsweek",
-      "link": "https://www.newsweek.com/nancy-mace-chances-replacing-lindsey-graham-senate-nominee-poll-12204955",
+      "name": "Innovative Communication Strategies / FITSNews",
+      "link": "https://www.fitsnews.com/2026/07/22/s-c-succession-second-u-s-senate-poll-shows-ralph-norman-leading/",
       "race_type": "other_context",
       "party": "R",
-      "margin": 3.0,
-      "details": "Impact Research poll of likely South Carolina voters found a hypothetical Graham vs. Democratic challenger matchup at 48% to 45%, a 3-point Republican edge, but this is outside the last-45-days window and concerned the pre-special-election context.",
-      "date_range": "June 17-22, 2026",
-      "domain": "newsweek.com",
-      "verified": true
-    },
-    {
-      "name": "PollsMax",
-      "link": "https://www.pollsmax.com/senate/south-carolina/",
-      "race_type": "other_context",
-      "party": "R",
-      "margin": 7.4,
-      "details": "PollsMax aggregate for South Carolina Senate polls showed a polling average of 41.3% Democratic to 48.7% Republican, a Republican lead of 7.4 points, but this is an aggregate rather than a single recent poll and is outside the requested 45-day window.",
-      "date_range": "June 22, 2026",
-      "domain": "pollsmax.com",
+      "margin": 35.0,
+      "details": "Innovative Communication Strategies poll of likely special primary voters found Trey Gowdy at 38%, with the rest of the field far behind and a large undecided bloc.",
+      "date_range": "July 20-21, 2026",
+      "domain": "fitsnews.com",
       "verified": true
     }
   ],
   "abbreviation": "SC",
-  "_cached_at": "2026-08-08T18:39:35.539742"
+  "_cached_at": "2026-08-10T15:00:59.776358"
 }

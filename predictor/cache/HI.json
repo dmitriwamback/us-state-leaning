@@ -2,37 +2,26 @@
   "state": "Hawaii",
   "mode": "senate_presidential_polling",
   "lean": "D",
-  "confidence": 0.825,
+  "confidence": 0.8,
   "strength_label": "Lean",
-  "net_margin": 18.0,
+  "net_margin": 17.0,
   "based_on": "cook_pvi_fallback",
-  "reasoning": "Hawaii\u2019s statewide Cook PVI is D+18, reflecting a strong Democratic lean. For the current Senate and presidential context, the evidence available in the last 45 days does not show a new statewide Senate or presidential general-election poll for Hawaii; the clearest recent reporting says there is no 2026 U.S. Senate race in Hawaii and no presidential election on the ballot, so there is no current Senate/presidential margin to report from qualified state-specific polling.[13][4]",
-  "as_of_date": "2026-08-08T18:37:25",
+  "reasoning": "Hawaii does not have a current 2026 U.S. Senate race, and the search results do not show any state-specific 2026 presidential general-election polling for Hawaii. The only recent Hawaii polling/news in the last 45 days is about the 1st Congressional District Democratic primary, so there is no valid current Senate or presidential margin to report for this state-based request.",
+  "as_of_date": "2026-08-10T14:58:03",
   "cook_pvi": {
     "party": "D",
-    "percentage_points": 18.0
+    "percentage_points": 17.0
   },
   "sources": [
     {
-      "name": "Honolulu Star-Advertiser",
-      "link": "https://www.staradvertiser.com/2026/08/08/hawaii-news/key-races-draw-election-day-attention/",
+      "name": "Newsweek",
+      "link": "https://www.newsweek.com/can-progressive-jarrett-keohokalole-win-hawaii-primary-final-polls-12300281",
       "race_type": "other_context",
-      "party": "EVEN",
-      "margin": 0.0,
-      "details": "Reports that there is no presidential election and no election for either of Hawaii's two U.S. Senate seats in 2026, so no current statewide Senate/presidential margin is being polled for this cycle.",
-      "date_range": "August 8, 2026",
-      "domain": "staradvertiser.com",
-      "verified": true
-    },
-    {
-      "name": "Prediction Edge",
-      "link": "https://www.predictionedge.com/elections/hi/",
-      "race_type": "other_context",
-      "party": "EVEN",
-      "margin": 0.0,
-      "details": "States that neither U.S. Senate seat is up in Hawaii and that the next Senate race is in 2028.",
-      "date_range": "2026 cycle overview",
-      "domain": "predictionedge.com",
+      "party": "D",
+      "margin": 8.0,
+      "details": "Blueprint Polling found Rep. Ed Case ahead of state Sen. Jarrett Keohokalole 33% to 25% in the Hawaii 1st District Democratic primary.",
+      "date_range": "July 7-8, 2026",
+      "domain": "newsweek.com",
       "verified": true
     },
     {
@@ -41,8 +30,8 @@
       "race_type": "other_context",
       "party": "D",
       "margin": 9.0,
-      "details": "Provides recent polling for Hawaii's Democratic congressional primary, but this is a primary for a House seat and not a statewide Senate or presidential general election margin.",
-      "date_range": "2026-07-24",
+      "details": "Blueprint Polling found Jarrett Keohokalole ahead of Ed Case 47% to 38% in the Hawaii 1st District Democratic primary.",
+      "date_range": "July 24, 2026",
       "domain": "newsweek.com",
       "verified": true
     },
@@ -52,12 +41,23 @@
       "race_type": "other_context",
       "party": "D",
       "margin": 12.5,
-      "details": "Aggregates Hawaii congressional primary polling and odds, but it is not a statewide Senate or presidential general-election poll.",
-      "date_range": "2026-07-07 to 2026-07-24",
+      "details": "Prediction Edge\u2019s Hawaii 1st District Democratic primary page summarizes polling averages showing Ed Case ahead in the primary field, with no U.S. Senate or presidential general-election margin for Hawaii.",
+      "date_range": "Oct. 6, 2025 - Jul. 24, 2026",
+      "domain": "predictionedge.com",
+      "verified": true
+    },
+    {
+      "name": "Prediction Edge",
+      "link": "https://www.predictionedge.com/elections/hi/",
+      "race_type": "other_context",
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "This Hawaii elections page states that neither U.S. Senate seat is up in 2026, so there is no current Senate race in Hawaii for this cycle.",
+      "date_range": "2026 cycle",
       "domain": "predictionedge.com",
       "verified": true
     }
   ],
   "abbreviation": "HI",
-  "_cached_at": "2026-08-08T18:37:25.202336"
+  "_cached_at": "2026-08-10T14:58:03.533233"
 }

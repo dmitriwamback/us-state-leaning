@@ -6,36 +6,58 @@
   "strength_label": "Tilt",
   "net_margin": 6.0,
   "based_on": "cook_pvi_fallback",
-  "reasoning": "New Mexico\u2019s statewide Cook Partisan Voting Index is D+6. Recent race-specific evidence in the last 45 days is sparse in the provided results; the strongest directly relevant item is a Newsweek report citing a Research & Polling Inc. survey from April 17\u201324 showing Deb Haaland ahead 52% to 30% in the New Mexico general-election context, which implies a Democratic lead. Because the available results do not include a current, state-specific 2026 Senate or presidential general-election poll within the last 45 days, I relied on that news report plus the structural PVI and labeled non-state-specific or non-general-election items as other_context.",
-  "as_of_date": "2026-08-08T18:38:55",
+  "reasoning": "New Mexico\u2019s statewide structural baseline is Democratic, with a Cook PVI of about D+6.0. In the last 45 days, I found no qualified state-specific general-election Senate or presidential poll for New Mexico; the available recent items are either primary results, fundraising/news, or prediction-market pages, so they do not establish a current Senate or presidential margin for this state.",
+  "as_of_date": "2026-08-10T15:00:00",
   "cook_pvi": {
     "party": "D",
     "percentage_points": 6.0
   },
   "sources": [
     {
-      "name": "Newsweek",
-      "link": "https://www.newsweek.com/midterm-races-shift-democrats-arizona-ohio-maine-new-mexico-12184915",
-      "race_type": "other_context",
-      "party": "D",
-      "margin": 22.0,
-      "details": "Research & Polling Inc. survey cited in the article found Deb Haaland leading Sam Bregman 52% to 30% in New Mexico general-election polling context.",
-      "date_range": "April 17-24, 2026",
-      "domain": "newsweek.com",
-      "verified": true
-    },
-    {
       "name": "Sabato's Crystal Ball",
       "link": "https://centerforpolitics.org/crystalball/three-gubernatorial-rating-changes-michigan-to-leans-democratic-new-mexico-to-safe-democratic-florida-to-likely-republican/",
       "race_type": "other_context",
       "party": "D",
       "margin": 6.0,
-      "details": "Statewide Cook Partisan Voting Index for New Mexico is D+6.",
+      "details": "Cook Political Report\u2019s statewide PVI places New Mexico at about D+6.",
       "date_range": "2026",
       "domain": "centerforpolitics.org",
       "verified": true
+    },
+    {
+      "name": "NBC News",
+      "link": "https://www.nbcnews.com/politics/2026-primary-elections/new-mexico-senate-results",
+      "race_type": "other_context",
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "Live results page for the New Mexico Senate primary, which is primary-only and does not measure the general-election Senate margin.",
+      "date_range": "Aug. 10, 2026",
+      "domain": "nbcnews.com",
+      "verified": true
+    },
+    {
+      "name": "Polymarket",
+      "link": "https://polymarket.com/event/new-mexico-senate-margin-of-victory-2026",
+      "race_type": "other_context",
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "Shows market odds for a New Mexico Senate election margin outcome, but this is not a state-specific public poll and is not a qualified polling source for the current race margin.",
+      "date_range": "Aug. 10, 2026",
+      "domain": "polymarket.com",
+      "verified": true
+    },
+    {
+      "name": "Santa Fe New Mexican",
+      "link": "https://www.santafenewmexican.com/news/elections/n-m-dems-keep-fundraising-lead-for-congress-border-district-drawing-big-donors/article_f7bc5a2f-0a47-4da8-9c03-c185d7bc75d2.html",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 0.0,
+      "details": "Reports fundraising totals in the New Mexico Senate race, noting Luj\u00e1n\u2019s large cash advantage; this is news about campaign resources, not a voter-margin poll.",
+      "date_range": "May 14-Jun. 30, 2026",
+      "domain": "santafenewmexican.com",
+      "verified": false
     }
   ],
   "abbreviation": "NM",
-  "_cached_at": "2026-08-08T18:38:55.402475"
+  "_cached_at": "2026-08-10T15:00:00.668793"
 }

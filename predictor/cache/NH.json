@@ -2,73 +2,73 @@
   "state": "New Hampshire",
   "mode": "senate_presidential_polling",
   "lean": "Toss-up",
-  "confidence": 0.425,
+  "confidence": 0.368,
   "strength_label": "Toss-up",
-  "net_margin": 4.25,
+  "net_margin": 3.68,
   "based_on": "sources",
-  "reasoning": "Recent New Hampshire Senate polling in the last 45 days shows Democrat Chris Pappas leading Republican John Sununu by margins ranging from 1 point to 5 points, with the broader polling average at about D+5.4. The most relevant current-race sources therefore point to a Democratic edge in the New Hampshire Senate race, while New Hampshire\u2019s statewide Cook PVI is D+3.0.",
-  "as_of_date": "2026-08-08T18:38:46",
+  "reasoning": "Recent New Hampshire Senate polling over the last 45 days shows Democrat Chris Pappas ahead of Republican John Sununu by roughly 4 to 6 points, with the latest polling average at D+5.4. Because the available recent sources are Senate-specific and state-specific, the current margin is best characterized as a modest Democratic edge; I did not find a current presidential general-election margin for New Hampshire in the provided results.",
+  "as_of_date": "2026-08-10T14:59:49",
   "cook_pvi": {
     "party": "D",
-    "percentage_points": 3.0
+    "percentage_points": 6.0
   },
   "sources": [
     {
-      "name": "NRSC / Peak Insights poll release",
-      "link": "https://www.nrsc.org/press-releases/john-sununu-tied-with-chris-pappas-in-new-nrsc-poll-2026-07-10/",
-      "race_type": "senate",
-      "party": "D",
-      "margin": 1.0,
-      "details": "Peak Insights found Chris Pappas and John Sununu essentially tied, with Pappas at 43% and Sununu at 42% in the New Hampshire Senate race.",
-      "date_range": "June 24-27, 2026",
-      "domain": "nrsc.org",
-      "verified": true
-    },
-    {
-      "name": "Pollsmax aggregate citing Saint Anselm College",
+      "name": "PollsMax New Hampshire Senate Polling Average",
       "link": "https://www.pollsmax.com/senate/new-hampshire/",
       "race_type": "senate",
       "party": "D",
-      "margin": 6.0,
-      "details": "A Saint Anselm College poll included in the polling average showed Pappas leading Sununu 47% to 41%.",
-      "date_range": "June 25, 2026",
+      "margin": 5.4,
+      "details": "Aggregates 14 polls for the 2026 New Hampshire Senate race and shows a polling average of 46.7% for Pappas and 41.2% for Sununu, a D+5.4 margin.",
+      "date_range": "Updated August 9, 2026; polling through June 27, 2026",
       "domain": "pollsmax.com",
       "verified": true
     },
     {
-      "name": "University of New Hampshire survey as reported by ECIKS",
+      "name": "University of New Hampshire Survey Center via ECIKS coverage",
       "link": "https://eciks.org/12913-74170-new-hampshire-senate-pappas-sununu-polling",
       "race_type": "senate",
       "party": "D",
       "margin": 3.0,
-      "details": "The University of New Hampshire survey reported Pappas leading Sununu 47% to 44%, a narrow Democratic edge.",
+      "details": "University of New Hampshire survey cited in coverage found Pappas leading Sununu 47% to 44%, a narrow Democratic edge.",
       "date_range": "June 18-23, 2026",
       "domain": "eciks.org",
       "verified": true
     },
     {
-      "name": "University of New Hampshire survey cited in Pollsmax aggregate",
+      "name": "University of New Hampshire Survey Center via Granite Post coverage",
+      "link": "https://granitepostnews.com/news/politics/trump-ayotte-sununu-unh-poll/",
+      "race_type": "senate",
+      "party": "D",
+      "margin": 3.0,
+      "details": "A University of New Hampshire poll reported in local coverage showed Pappas ahead of Sununu 47% to 44%, indicating a close Democratic lead.",
+      "date_range": "June 18-23, 2026",
+      "domain": "granitepostnews.com",
+      "verified": true
+    },
+    {
+      "name": "Saint Anselm College poll as listed by PollsMax",
       "link": "https://www.pollsmax.com/senate/new-hampshire/",
       "race_type": "senate",
       "party": "D",
-      "margin": 7.0,
-      "details": "The University of New Hampshire survey showed Pappas ahead of Sununu 49% to 42%, indicating a stronger Democratic lead earlier in the cycle.",
-      "date_range": "April 21, 2026",
+      "margin": 6.0,
+      "details": "Saint Anselm College polling showed Pappas leading Sununu 47% to 41%, a six-point Democratic advantage.",
+      "date_range": "June 25, 2026",
       "domain": "pollsmax.com",
       "verified": true
     },
     {
-      "name": "Pollsmax polling average",
+      "name": "Peak Insights poll as listed by PollsMax",
       "link": "https://www.pollsmax.com/senate/new-hampshire/",
-      "race_type": "other_context",
+      "race_type": "senate",
       "party": "D",
-      "margin": 5.4,
-      "details": "The Pollsmax aggregate of 14 New Hampshire Senate polls reported an average of 46.7% for Pappas and 41.2% for Sununu, a D+5.4 margin.",
-      "date_range": "August 7, 2026",
+      "margin": 1.0,
+      "details": "Peak Insights polling showed Pappas leading Sununu 43% to 42%, a one-point Democratic edge.",
+      "date_range": "June 27, 2026",
       "domain": "pollsmax.com",
       "verified": true
     }
   ],
   "abbreviation": "NH",
-  "_cached_at": "2026-08-08T18:38:46.390342"
+  "_cached_at": "2026-08-10T14:59:49.995338"
 }

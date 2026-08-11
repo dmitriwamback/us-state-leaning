@@ -2,62 +2,62 @@
   "state": "Minnesota",
   "mode": "senate_presidential_polling",
   "lean": "D",
-  "confidence": 0.506,
+  "confidence": 0.519,
   "strength_label": "Tilt",
-  "net_margin": 5.25,
+  "net_margin": 5.75,
   "based_on": "sources",
-  "reasoning": "Minnesota\u2019s current Senate race polling in the last 45 days shows a narrow Democratic edge, with the clearest state-specific general-election-style matchup polling putting the Democratic side about 7 points ahead and a polling-average source showing D+3.5. There does not appear to be a recent Minnesota presidential general-election poll in the provided results, so the best current race-specific signal is the Senate contest; Minnesota\u2019s statewide Cook PVI is D+1.",
-  "as_of_date": "2026-08-08T18:38:21",
+  "reasoning": "Minnesota\u2019s most recent state-specific general-election polling found Democrats ahead in the Senate race by about 7 points, with Mason-Dixon and campaign polling summarized in late July showing Craig or Flanagan leading Tafoya by roughly that amount. A broader polling average compiled through early August also shows Democrats ahead by 3.5 points, but the most directly relevant general-election state polling in the last 45 days clusters closer to a D+7 margin. Minnesota\u2019s statewide Cook Partisan Voting Index is D+7.",
+  "as_of_date": "2026-08-10T14:59:13",
   "cook_pvi": {
     "party": "D",
-    "percentage_points": 1.0
+    "percentage_points": 7.0
   },
   "sources": [
+    {
+      "name": "Minnesota Reformer",
+      "link": "https://minnesotareformer.com/2026/07/31/state-of-the-race-for-u-s-senate/",
+      "race_type": "senate",
+      "party": "D",
+      "margin": 8.0,
+      "details": "Mason-Dixon polling summarized that a generic Democrat led a generic Republican by 8 points, 49% to 41%, and that both Angie Craig and Peggy Flanagan led Michele Tafoya by around 7 points when names were assigned.",
+      "date_range": "July 2026",
+      "domain": "minnesotareformer.com",
+      "verified": true
+    },
+    {
+      "name": "Native News Online / Public Policy Polling",
+      "link": "https://www.nativenewsonline.net/currents/new-poll-shows-peggy-flanagan-expanding-lead-in-minnesota-democratic-u-s-senate-primary/",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 14.0,
+      "details": "Public Policy Polling found Peggy Flanagan leading Angie Craig 46% to 32% in the Democratic Senate primary; this is primary-only and does not measure the general-election margin.",
+      "date_range": "July 23-24, 2026",
+      "domain": "nativenewsonline.net",
+      "verified": false
+    },
     {
       "name": "KSTP / SurveyUSA",
       "link": "https://kstp.com/kstp-news/top-news/kstp-surveyusa-poll-lindell-tafoya-increase-their-election-leads-craig-ellison-margins-shrink/",
       "race_type": "other_context",
       "party": "EVEN",
       "margin": 0.0,
-      "details": "A SurveyUSA/KSTP poll of Minnesota Senate primary voters found Peggy Flanagan and Angie Craig tied at 40% in the DFL primary, which is not a general-election Senate margin.",
+      "details": "SurveyUSA/KSTP reporting showed the Democratic Senate primary tied and Michele Tafoya leading the Republican primary; this is primary-only and not a general-election measurement.",
       "date_range": "July 15-20, 2026",
       "domain": "kstp.com",
       "verified": true
     },
     {
-      "name": "Public Policy Polling",
-      "link": "https://nativenewsonline.net/currents/new-poll-shows-peggy-flanagan-expanding-lead-in-minnesota-democratic-u-s-senate-primary/",
-      "race_type": "other_context",
-      "party": "D",
-      "margin": 14.0,
-      "details": "Public Policy Polling found Peggy Flanagan leading Angie Craig 46% to 32% in the DFL Senate primary, a 14-point primary margin rather than a general-election race.",
-      "date_range": "July 23-24, 2026",
-      "domain": "nativenewsonline.net",
-      "verified": true
-    },
-    {
-      "name": "Pollsmax",
+      "name": "PollsMax polling average",
       "link": "https://www.pollsmax.com/senate/minnesota/",
       "race_type": "senate",
       "party": "D",
       "margin": 3.5,
-      "details": "Polling average for the Minnesota Senate race showed Democrats at 48.0% and Republicans at 44.5%, for a D+3.5 average margin.",
-      "date_range": "July 2026 (aggregated through July 16, 2026)",
+      "details": "A polling average of publicly released Minnesota Senate polls showed Democrats at 48.0% and Republicans at 44.5%, for a D+3.5 average margin.",
+      "date_range": "As of August 6, 2026",
       "domain": "pollsmax.com",
-      "verified": true
-    },
-    {
-      "name": "News From The States / Mason-Dixon summary",
-      "link": "https://www.newsfromthestates.com/article/state-race-us-senate",
-      "race_type": "senate",
-      "party": "D",
-      "margin": 7.0,
-      "details": "A summary of Minnesota Senate polling reported that when candidate names were tested, both Angie Craig and Peggy Flanagan led Michele Tafoya by around 7 points.",
-      "date_range": "Around July 2026",
-      "domain": "newsfromthestates.com",
       "verified": true
     }
   ],
   "abbreviation": "MN",
-  "_cached_at": "2026-08-08T18:38:21.462651"
+  "_cached_at": "2026-08-10T14:59:13.068058"
 }

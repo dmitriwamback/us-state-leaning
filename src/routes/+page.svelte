@@ -1,5 +1,6 @@
 <script>
     import { onMount } from 'svelte';
+    import { getModule } from '$lib/map.js'
     let moduleInstance;
 
     let demVotes = $state(0);
@@ -78,10 +79,7 @@
         resize();
         window.addEventListener("resize", resize);
 
-        const url = '/main.mjs';
-        const createModule = (await import(/* @vite-ignore */ url)).default;
-
-        moduleInstance = await createModule();
+        moduleInstance = await getModule();
         const setState = moduleInstance.cwrap('setState', null, ['string', 'string', 'number']);
 
         setViewportSize = moduleInstance.cwrap('setViewportSize', null, ['number', 'number']);
@@ -128,7 +126,7 @@
                     confidence = 0.9
                 }
 
-                if (Math.abs(points) <= 2) lean = 'Toss-up'
+                if (Math.abs(points) < 1) lean = 'Toss-up'
 
                 if (lean === 'D') {
                     demVotes += ev;

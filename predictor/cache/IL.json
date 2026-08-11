@@ -2,40 +2,40 @@
   "state": "Illinois",
   "mode": "senate_presidential_polling",
   "lean": "D",
-  "confidence": 0.863,
+  "confidence": 0.872,
   "strength_label": "Lean",
-  "net_margin": 19.5,
+  "net_margin": 19.9,
   "based_on": "sources",
-  "reasoning": "Illinois is structurally very Democratic; its statewide Cook PVI is about D+15. In the last 45 days, I did not find any credible Illinois-specific general-election Senate or presidential polling from an approved source, so the only usable current-race evidence here is absent; the available election-forecast material instead points to a very safe Democratic baseline, with one forecast showing Democrats favored by about 19.5 points in the Illinois Senate race.",
-  "as_of_date": "2026-08-08T18:37:35",
+  "reasoning": "Illinois is a strongly Democratic state on statewide fundamentals, with a Cook PVI of D+16. In the last 45 days, the only Illinois-specific current-race item in the provided results is a forecaster showing the 2026 Illinois Senate race as Solid D with an estimated D+19.9 margin; I did not find any qualifying state-specific 2026 Illinois general-election polling for a Senate or presidential race in the supplied results.",
+  "as_of_date": "2026-08-10T14:58:12",
   "cook_pvi": {
     "party": "D",
-    "percentage_points": 15.0
+    "percentage_points": 16.0
   },
   "sources": [
     {
-      "name": "Pollsmax Illinois Senate Forecast",
+      "name": "PollsMax Illinois Senate Forecast",
       "link": "https://www.pollsmax.com/senate/illinois/forecast/",
       "race_type": "senate",
       "party": "D",
-      "margin": 19.5,
-      "details": "Forecast model projected a Democratic win by D+19.5 in the Illinois Senate race and rated the seat Solid D.",
-      "date_range": "Last updated July 3, 2026",
+      "margin": 19.9,
+      "details": "Forecast rating is Solid D with a projected vote share of 60.0% D to 40.1% R and a projected margin of D +19.9; no general-election polls were listed.",
+      "date_range": "Last updated August 8, 2026",
       "domain": "pollsmax.com",
       "verified": true
     },
     {
-      "name": "Polymarket Illinois Senate Margin of Victory",
-      "link": "https://polymarket.com/event/illinois-senate-margin-of-victory-2026/will-the-democratic-party-candidate-win-the-2026-illinois-senate-election-by-10-15",
+      "name": "Cook Partisan Voting Index (Illinois statewide)",
+      "link": "https://en.wikipedia.org/wiki/Illinois_Senate",
       "race_type": "other_context",
       "party": "D",
-      "margin": 25.0,
-      "details": "Market outcome page for the Illinois Senate margin-of-victory contract showed the leading expected outcome as a Democratic win by 25-30%, with other Democratic margin bands also favored.",
-      "date_range": "Current page as accessed Aug. 8, 2026",
-      "domain": "polymarket.com",
+      "margin": 16.0,
+      "details": "Statewide Cook Partisan Voting Index for Illinois is D+16.",
+      "date_range": "2025-2026 statewide fundamentals",
+      "domain": "en.wikipedia.org",
       "verified": true
     }
   ],
   "abbreviation": "IL",
-  "_cached_at": "2026-08-08T18:37:35.583187"
+  "_cached_at": "2026-08-10T14:58:12.247763"
 }

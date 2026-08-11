@@ -1,28 +1,39 @@
 {
   "state": "Louisiana",
   "mode": "senate_presidential_polling",
-  "lean": "R",
-  "confidence": 0.85,
-  "strength_label": "Lean",
-  "net_margin": -19.0,
-  "based_on": "cook_pvi_fallback",
-  "reasoning": "Louisiana is a strongly Republican state by statewide Cook PVI, so the structural baseline is R+19. In the last 45 days, the only directly relevant Louisiana general-election Senate information in the provided results is qualitative reporting that polls have shown a close Letlow-vs.-Davis race, but no eligible state-specific general-election margin figure was provided, so the current numeric race margin cannot be stated from these results alone.",
-  "as_of_date": "2026-08-08T18:37:57",
+  "lean": "Toss-up",
+  "confidence": 0.45,
+  "strength_label": "Toss-up",
+  "net_margin": -4.5,
+  "based_on": "sources",
+  "reasoning": "Louisiana\u2019s statewide Cook PVI is R+11, indicating a strong Republican lean. In the last 45 days, the only source in the provided results that directly discusses the Louisiana general-election Senate matchup is a news report noting that recent polls are mixed, with one JMC Analytics survey showing Fleming +6 and another Quantus Insights survey showing Letlow +3; no finalized current average from an approved forecaster was provided, so the best current read from the available evidence is a small Republican edge.",
+  "as_of_date": "2026-08-10T14:58:38",
   "cook_pvi": {
-    "party": "R",
-    "percentage_points": 19.0
+    "party": "D",
+    "percentage_points": 11.0
   },
   "sources": [
     {
-      "name": "Cook Political Report",
-      "link": "https://www.cookpolitical.com/ratings/pvi",
-      "race_type": "other_context",
+      "name": "WBRZ / Quantus Insights",
+      "link": "https://www.wbrz.com/news/political-analyst-expects-tight-race-for-senate-runoff/",
+      "race_type": "senate",
       "party": "R",
-      "margin": 19.0,
-      "details": "Louisiana statewide Cook Partisan Voting Index, showing a strong Republican lean.",
-      "date_range": "Current statewide rating (Cook PVI; no date provided in search results)",
-      "domain": "cookpolitical.com",
-      "verified": false
+      "margin": 3.0,
+      "details": "A poll of Louisiana voters found Rep. Julia Letlow leading Jamie Davis 51.5% to 48.5% in a firm two-way ballot, a 3-point Republican edge.",
+      "date_range": "late July / early August 2026",
+      "domain": "wbrz.com",
+      "verified": true
+    },
+    {
+      "name": "WBRZ / JMC Analytics",
+      "link": "https://www.wbrz.com/news/political-analyst-expects-tight-race-for-senate-runoff/",
+      "race_type": "senate",
+      "party": "R",
+      "margin": 6.0,
+      "details": "A Louisiana polling roundup article said JMC Analytics, in a poll commissioned for John Fleming, showed Fleming leading by 6 points.",
+      "date_range": "late July / early August 2026",
+      "domain": "wbrz.com",
+      "verified": true
     },
     {
       "name": "WBRZ",
@@ -30,45 +41,23 @@
       "race_type": "other_context",
       "party": "EVEN",
       "margin": 0.0,
-      "details": "Reports the Democratic Senate primary nomination results and indicates the general-election matchup is set between Jamie Davis and Julia Letlow, but it does not provide a current general-election margin.",
-      "date_range": "June 27, 2026",
+      "details": "News coverage says Louisiana\u2019s U.S. Senate race is set for the November general election between Republican Julia Letlow and Democrat Jamie Davis.",
+      "date_range": "2026 general-election context",
       "domain": "wbrz.com",
       "verified": true
     },
     {
-      "name": "WBRZ",
-      "link": "https://www.wbrz.com/news/democrats-choose-jamie-davis-as-senate-nominee-gop-settling-between-fleming-and-letlow/",
-      "race_type": "other_context",
-      "party": "EVEN",
-      "margin": 0.0,
-      "details": "Describes the Democratic primary result and notes the general-election field, but no current Senate general-election margin for Louisiana is given.",
-      "date_range": "June 27, 2026",
-      "domain": "wbrz.com",
-      "verified": true
-    },
-    {
-      "name": "AP News",
+      "name": "Associated Press",
       "link": "https://apnews.com/projects/elections-2026/louisiana-primary-results-us-senate/",
       "race_type": "other_context",
       "party": "EVEN",
       "margin": 0.0,
-      "details": "Shows Louisiana Senate primary live results; this is primary-election context and not a current general-election poll or margin.",
-      "date_range": "June 27, 2026",
+      "details": "AP\u2019s live results page shows the June 2026 Senate primary results and parish-level returns, but it is primary election data rather than a current general-election poll.",
+      "date_range": "2026 primary results certified Jun 4, 2026",
       "domain": "apnews.com",
-      "verified": true
-    },
-    {
-      "name": "WBRZ",
-      "link": "https://www.wbrz.com/news/political-analyst-expects-tight-race-for-senate-runoff/",
-      "race_type": "other_context",
-      "party": "R",
-      "margin": 3.0,
-      "details": "States that recent polling was mixed and cites a JMC Analytics poll for Fleming and a Quantus Insights poll showing Letlow ahead 51.5% to 48.5%, but this is secondary reporting rather than a directly cited, state-specific released poll in the search results.",
-      "date_range": "June 2026",
-      "domain": "wbrz.com",
       "verified": true
     }
   ],
   "abbreviation": "LA",
-  "_cached_at": "2026-08-08T18:37:57.707397"
+  "_cached_at": "2026-08-10T14:58:38.522714"
 }

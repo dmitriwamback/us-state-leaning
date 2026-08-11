@@ -2,51 +2,29 @@
   "state": "California",
   "mode": "senate_presidential_polling",
   "lean": "D",
-  "confidence": 0.95,
+  "confidence": 0.875,
   "strength_label": "Strong",
-  "net_margin": 23.0,
+  "net_margin": 20.0,
   "based_on": "cook_pvi_fallback",
-  "reasoning": "California is structurally a strongly Democratic state, with a statewide Cook PVI of D+23. In the last 45 days, the search results did not surface any credible California-specific 2026 Senate or presidential general-election polling; the only California-specific items were about the 2026 governor\u2019s race or older/non-current context, so there is no reliable current Senate or presidential margin to report from the permitted source set.",
-  "as_of_date": "2026-08-08T18:36:54",
+  "reasoning": "California\u2019s statewide Cook PVI is strongly Democratic, at about D+20. In the provided last-45-days search results, I did not find a real California 2026 Senate or presidential general-election poll; the only clearly California-specific recent race result was for governor, so there is no valid current Senate/presidential margin to report from the allowed source set.",
+  "as_of_date": "2026-08-10T14:57:17",
   "cook_pvi": {
     "party": "D",
-    "percentage_points": 23.0
+    "percentage_points": 20.0
   },
   "sources": [
     {
-      "name": "Cook Political Report PVI",
-      "link": "https://www.cookpolitical.com/cook-pvi/",
+      "name": "Cook Political Report",
+      "link": "https://www.cookpolitical.com/",
       "race_type": "other_context",
       "party": "D",
-      "margin": 23.0,
-      "details": "Structural statewide index showing California as one of the most Democratic states in the country at D+23.",
-      "date_range": "N/A",
+      "margin": 20.0,
+      "details": "Shows California as a strongly Democratic state on the statewide Cook PVI scale, indicating a D+20 baseline.",
+      "date_range": "2026 (statewide structural index; current listing referenced in search context)",
       "domain": "cookpolitical.com",
       "verified": false
-    },
-    {
-      "name": "Public Policy Institute of California / NBC4 coverage",
-      "link": "https://www.np4.com/",
-      "race_type": "other_context",
-      "party": "D",
-      "margin": 25.0,
-      "details": "California gubernatorial poll found Democrat Xavier Becerra leading Republican Steve Hilton 61% to 36%, but this is not the Senate or presidential race.",
-      "date_range": "July 15, 2026",
-      "domain": "np4.com",
-      "verified": false
-    },
-    {
-      "name": "Orange County Register / Echelon Insights coverage",
-      "link": "https://www.ocregister.com/2026/07/16/harris-newsom-khanna-californias-three-way-race-for-2028/",
-      "race_type": "other_context",
-      "party": "D",
-      "margin": 0.0,
-      "details": "Coverage of hypothetical 2028 presidential preference polling in California; not a 2026 general-election Senate or presidential ballot test.",
-      "date_range": "July 16-29, 2026",
-      "domain": "ocregister.com",
-      "verified": true
     }
   ],
   "abbreviation": "CA",
-  "_cached_at": "2026-08-08T18:36:54.422541"
+  "_cached_at": "2026-08-10T14:57:17.394914"
 }

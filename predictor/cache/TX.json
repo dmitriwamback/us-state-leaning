@@ -2,57 +2,46 @@
   "state": "Texas",
   "mode": "senate_presidential_polling",
   "lean": "Toss-up",
-  "confidence": 0.34,
+  "confidence": 0.35,
   "strength_label": "Toss-up",
-  "net_margin": 3.4,
+  "net_margin": 3.5,
   "based_on": "sources",
-  "reasoning": "Recent Texas Senate polling over the last 45 days shows a very tight race, with multiple late-July and early-August polls putting Democrat James Talarico slightly ahead of Republican Ken Paxton, while the polling average remains slightly Republican-leaning. Texas\u2019s statewide Cook PVI is R+14, indicating a strongly Republican baseline even as the immediate Senate polls have narrowed.",
-  "as_of_date": "2026-08-08T18:39:49",
+  "reasoning": "Recent Texas Senate polling from the last 45 days shows Democrat James Talarico holding a very narrow lead over Republican Ken Paxton, with multiple polls in late July and early August ranging from Talarico +2 to +5. The best current estimate from the polling average is roughly R+0.9 overall, but the race itself is essentially even and may currently lean slightly Democratic within the margin of error. Texas\u2019s statewide Cook Partisan Voting Index is R+8.",
+  "as_of_date": "2026-08-10T15:01:21",
   "cook_pvi": {
     "party": "R",
-    "percentage_points": 14.0
+    "percentage_points": 8.0
   },
   "sources": [
     {
-      "name": "254 Labs",
-      "link": "https://www.fox7austin.com/news/talarico-paxton-senate-race-polling-august",
+      "name": "Texas Southern University / YouGov",
+      "link": "https://www.axios.com/local/houston/2026/08/04/new-tsu-poll-shows-tight-texas-senate-race",
       "race_type": "senate",
       "party": "D",
-      "margin": 3.0,
-      "details": "Texas Democrats' 254 Labs poll found Talarico leading Paxton 48% to 45% among 1,001 registered voters, a 3-point Democratic edge within the poll's margin of error.",
-      "date_range": "July 15-31, 2026",
-      "domain": "fox7austin.com",
+      "margin": 2.0,
+      "details": "Texas Southern University/YouGov survey of likely Texas voters found Talarico at 47% and Paxton at 45%, a 2-point Democratic lead within the margin of error.",
+      "date_range": "July 27-30, 2026",
+      "domain": "axios.com",
       "verified": true
     },
     {
-      "name": "Texas A&M Bush School / ReconMR",
-      "link": "https://www.fox7austin.com/news/talarico-paxton-senate-race-polling-august",
+      "name": "Texas Pulse / Texas A&M Bush School / Recon MR",
+      "link": "https://www.usatoday.com/story/news/politics/elections/2026/08/07/texas-senate-poll-results-where-james-talarico-ken-paxton-stand-now/91214811007/",
       "race_type": "senate",
       "party": "D",
       "margin": 4.0,
-      "details": "Texas A&M Bush School and ReconMR found Talarico leading Paxton 47% to 43%, a 4-point Democratic edge.",
+      "details": "Texas Pulse/Recon MR poll found Talarico at 47% and Paxton at 43%, giving Talarico a 4-point lead.",
       "date_range": "July 27-30, 2026",
-      "domain": "fox7austin.com",
+      "domain": "usatoday.com",
       "verified": true
     },
     {
-      "name": "Texas 2026 U.S. Senate Poll Tracker",
-      "link": "https://texaspolitics.utexas.edu/blog/texas-2026-u-s-senate-poll-tracker",
-      "race_type": "other_context",
-      "party": "D",
-      "margin": 4.0,
-      "details": "The Texas Politics Project poll tracker lists Bush School/Recon MR at Talarico +4, TSU/YouGov at Talarico +2, and Fox News at Talarico +3 in recent Texas Senate polling.",
-      "date_range": "July 27-30, 2026",
-      "domain": "texaspolitics.utexas.edu",
-      "verified": true
-    },
-    {
-      "name": "Fox News / Beacon Research",
+      "name": "Fox News",
       "link": "https://www.usatoday.com/story/news/state/texas/2026/07/31/texas-senate-race-poll-talarico-leads-paxton-with-independent-voters/91119624007/",
       "race_type": "senate",
       "party": "D",
       "margin": 3.0,
-      "details": "Fox News/Beacon Research found Talarico leading Paxton 51% to 48% among 1,006 registered voters, a 3-point Democratic edge.",
+      "details": "Fox News poll found Talarico leading Paxton 51% to 48%, a 3-point Democratic lead.",
       "date_range": "July 23-27, 2026",
       "domain": "usatoday.com",
       "verified": true
@@ -63,20 +52,9 @@
       "race_type": "senate",
       "party": "D",
       "margin": 5.0,
-      "details": "Texas Public Opinion Research found Talarico ahead of Paxton 45% to 40%, a 5-point Democratic edge.",
-      "date_range": "July 15-17, 2026",
+      "details": "Texas Public Opinion Research poll found Talarico leading Paxton 45% to 40%, a 5-point Democratic lead.",
+      "date_range": "July 27-30, 2026",
       "domain": "texastribune.org",
-      "verified": true
-    },
-    {
-      "name": "Barbara Jordan Public Policy Research and Survey Center at Texas Southern University",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-04/talarico-has-narrow-poll-edge-on-paxton-in-key-texas-senate-race",
-      "race_type": "senate",
-      "party": "D",
-      "margin": 2.0,
-      "details": "Texas Southern University\u2019s Barbara Jordan Public Policy Research and Survey Center found Talarico leading Paxton 47% to 45%, a 2-point Democratic edge.",
-      "date_range": "August 4, 2026",
-      "domain": "bloomberg.com",
       "verified": true
     },
     {
@@ -84,24 +62,24 @@
       "link": "https://www.pollsmax.com/senate/texas/",
       "race_type": "other_context",
       "party": "R",
-      "margin": 1.5,
-      "details": "Pollsmax\u2019s Texas Senate polling average shows 44.7% D to 46.2% R, giving Republicans a 1.5-point advantage.",
-      "date_range": "August 8, 2026",
+      "margin": 0.9,
+      "details": "Polling average across 23 included Texas Senate polls shows Paxton at 46.2% and Talarico at 45.3%, a slight Republican advantage overall.",
+      "date_range": "August 9, 2026",
       "domain": "pollsmax.com",
       "verified": true
     },
     {
-      "name": "Pollsmax Texas Senate forecast",
-      "link": "https://www.pollsmax.com/senate/texas/forecast/",
+      "name": "Cook Political Report PVI",
+      "link": "https://www.cookpolitical.com/ratings/house-race-ratings",
       "race_type": "other_context",
       "party": "R",
-      "margin": 0.9,
-      "details": "Pollsmax\u2019s Texas Senate forecast shows a 45.3% D to 46.2% R average, for a 0.9-point Republican edge.",
-      "date_range": "August 8, 2026",
-      "domain": "pollsmax.com",
-      "verified": true
+      "margin": 8.0,
+      "details": "Texas\u2019s statewide Cook Partisan Voting Index is R+8.",
+      "date_range": "Statewide structural index",
+      "domain": "cookpolitical.com",
+      "verified": false
     }
   ],
   "abbreviation": "TX",
-  "_cached_at": "2026-08-08T18:39:49.778959"
+  "_cached_at": "2026-08-10T15:01:21.879535"
 }

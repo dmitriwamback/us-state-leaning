@@ -6,69 +6,69 @@
   "strength_label": "Toss-up",
   "net_margin": -1.9,
   "based_on": "sources",
-  "reasoning": "Recent state-specific public polling on Michigan\u2019s 2026 Senate race shows a narrow Republican edge overall, with the latest polling average at R+1.9. The race is also now past the Democratic primary, and the available sources in the last 45 days are mostly primary polls rather than general-election head-to-head polling, so the best current statewide general-election signal in the supplied results is the polling average from aggregated Senate data.",
-  "as_of_date": "2026-08-08T18:38:17",
+  "reasoning": "Michigan\u2019s statewide Cook PVI is D+2. The only Michigan race-specific general-election polling in the provided results is a poll average showing Republicans narrowly ahead in the Senate race, but the most recent directly relevant items are primary polls and results, so the current Senate general-election margin from the supplied sources is best summarized as R+1.9, with no usable Michigan presidential general-election poll in the last 45 days among the results provided.",
+  "as_of_date": "2026-08-10T14:59:04",
   "cook_pvi": {
-    "party": "R",
-    "percentage_points": 1.9
+    "party": "D",
+    "percentage_points": 2.0
   },
   "sources": [
     {
-      "name": "PollsMax Michigan Senate Polling Average",
+      "name": "PollsMax Michigan Senate polling average",
       "link": "https://www.pollsmax.com/senate/michigan/",
       "race_type": "senate",
       "party": "R",
       "margin": 1.9,
-      "details": "Weighted polling average for the Michigan Senate race shows 45.1% Republican to 43.1% Democratic, giving Rogers a R+1.9 margin.",
-      "date_range": "Last updated August 8, 2026; includes 18 polls",
+      "details": "Polling average of 18 Michigan Senate general-election polls shows Rogers at 45.1% and El-Sayed at 43.1%.",
+      "date_range": "As of August 10, 2026",
       "domain": "pollsmax.com",
       "verified": true
     },
     {
-      "name": "Emerson College Polling / WLNS / WOODTV",
+      "name": "Emerson College Polling / WLNS / WOOD TV 8",
       "link": "https://emersoncollegepolling.com/michigan-2026-poll-abdul-el-sayed-leads-haley-stevens-for-democratic-us-senate-nomination/",
       "race_type": "other_context",
       "party": "D",
       "margin": 15.0,
-      "details": "Emerson College/WLNS/WOODTV survey of likely Democratic primary voters found Abdul El-Sayed leading Haley Stevens 54% to 39% in the Michigan Senate Democratic primary.",
+      "details": "Emerson College/WLNS/WOOD TV 8 poll found Abdul El-Sayed leading Haley Stevens 54% to 39% in the Democratic Senate primary, which is not a general-election margin.",
       "date_range": "July 26-27, 2026",
       "domain": "emersoncollegepolling.com",
       "verified": true
     },
     {
-      "name": "WLNS 6 News",
+      "name": "WLNS",
       "link": "https://www.wlns.com/your-local-election-hq/el-sayed-leads-michigan-democrats/",
       "race_type": "other_context",
       "party": "D",
       "margin": 15.0,
-      "details": "Coverage of the Emerson College/WLNS/WOODTV Democratic primary poll reported El-Sayed ahead of Stevens 54% to 39%.",
+      "details": "Associated coverage of the same Emerson/WLNS/WOOD TV 8 primary poll reported El-Sayed ahead of Stevens 54% to 39%.",
       "date_range": "July 26-27, 2026",
       "domain": "wlns.com",
       "verified": true
     },
     {
-      "name": "Detroit News / WDIV-TV / Glengariff Group",
-      "link": "https://www.detroitnews.com/story/news/politics/2026/07/14/michigan-senate-race-poll-democrats-abdul-el-sayed-haley-stevens-edge/90907700007/",
-      "race_type": "other_context",
-      "party": "D",
-      "margin": 6.8,
-      "details": "Detroit News/WDIV-TV poll of likely Democratic primary voters found Haley Stevens leading Abdul El-Sayed 48.2% to 41.4%.",
-      "date_range": "July 8-11, 2026",
-      "domain": "detroitnews.com",
-      "verified": true
-    },
-    {
-      "name": "The New York Times / Tulchin Research (via quoted poll topline)",
+      "name": "The New York Times",
       "link": "https://www.nytimes.com/2026/08/04/us/elections/el-sayed-stevens-michigan-senate-polls.html",
       "race_type": "other_context",
       "party": "D",
-      "margin": 16.0,
-      "details": "A Tulchin Research poll discussed in the New York Times showed El-Sayed ahead of Stevens in the Democratic primary, part of a series of primary polls in late July.",
-      "date_range": "July 13-15, 2026",
+      "margin": 19.0,
+      "details": "A New York Times summary of recent Michigan Democratic Senate primary polls showed El-Sayed ahead by double digits in several surveys, including a Zenith poll at El-Sayed +19 and an Emerson poll at El-Sayed +16; these are primary-only and not general-election margins.",
+      "date_range": "July 26-30, 2026",
       "domain": "nytimes.com",
+      "verified": true
+    },
+    {
+      "name": "Detroit News / WDIV-TV",
+      "link": "https://www.detroitnews.com/story/news/politics/2026/07/14/michigan-senate-race-poll-democrats-abdul-el-sayed-haley-stevens-edge/90907700007/",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 7.0,
+      "details": "Detroit News/WDIV-TV polling found Haley Stevens leading Abdul El-Sayed 48% to 41% among Democratic primary voters, a primary race result rather than a general-election margin.",
+      "date_range": "July 14-15, 2026",
+      "domain": "detroitnews.com",
       "verified": true
     }
   ],
   "abbreviation": "MI",
-  "_cached_at": "2026-08-08T18:38:17.054465"
+  "_cached_at": "2026-08-10T14:59:04.658777"
 }

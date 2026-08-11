@@ -2,51 +2,51 @@
   "state": "Indiana",
   "mode": "senate_presidential_polling",
   "lean": "R",
-  "confidence": 0.775,
+  "confidence": 0.825,
   "strength_label": "Lean",
-  "net_margin": -16.0,
+  "net_margin": -18.0,
   "based_on": "cook_pvi_fallback",
-  "reasoning": "Indiana\u2019s statewide Cook PVI is R+16, reflecting a strong Republican lean. In the provided last-45-days results, I found no credible Indiana-specific 2026 general-election Senate or presidential polling; the available items were either state legislative results, process stories, or non-state-specific market/news context, so there is no defensible current race margin to report from the allowed source set.",
-  "as_of_date": "2026-08-08T18:37:40",
+  "reasoning": "Indiana\u2019s statewide Cook PVI is R+18, indicating a strong Republican lean. In the provided last-45-day results, there is no qualifying Indiana general-election Senate or presidential poll; the available items are either unrelated, primary/recount coverage, or not state-specific general-election margin data, so no current race margin can be responsibly extracted from them.",
+  "as_of_date": "2026-08-10T14:58:17",
   "cook_pvi": {
     "party": "R",
-    "percentage_points": 16.0
+    "percentage_points": 18.0
   },
   "sources": [
     {
-      "name": "WTHR",
-      "link": "https://www.wthr.com/article/news/politics/signs-of-a-building-anti-incumbency-wave-brian-howey/531-6658e071-3b03-41d6-97d0-1d3f8b528525",
+      "name": "WFYI",
+      "link": "https://www.wfyi.org/statewide/2026-07-20/challenger-drops-recount-of-14-vote-gop-primary-margin-for-state-sen-liz-brown",
       "race_type": "other_context",
-      "party": "EVEN",
-      "margin": 0.0,
-      "details": "A news analysis about an anti-incumbency wave in Indiana state legislative politics; it does not measure Indiana\u2019s 2026 Senate or presidential general-election margin.",
-      "date_range": "2026-07-25 to 2026-08-08",
-      "domain": "wthr.com",
+      "party": "R",
+      "margin": 14.0,
+      "details": "Reports on a GOP primary recount challenge in Indiana Senate District 15; this is primary-election context, not a general-election Senate margin.",
+      "date_range": "2026-07-20",
+      "domain": "wfyi.org",
       "verified": true
     },
     {
-      "name": "City of Indianapolis Election Results",
-      "link": "https://www.indy.gov/workflow/election-results",
+      "name": "OPB",
+      "link": "https://www.opb.org/article/2026/08/04/the-latest-michigan-awaits-outcome-of-fierce-democratic-senate-primary/",
       "race_type": "other_context",
       "party": "EVEN",
       "margin": 0.0,
-      "details": "Election-results page showing local Indiana legislative race results, not a statewide 2026 Senate or presidential margin.",
-      "date_range": "2026-08-01 to 2026-08-08",
-      "domain": "indy.gov",
+      "details": "A general political news piece about Michigan primaries; it does not measure Indiana\u2019s electorate or Indiana\u2019s Senate/presidential race.",
+      "date_range": "2026-08-04",
+      "domain": "opb.org",
       "verified": true
     },
     {
-      "name": "Polymarket",
-      "link": "https://polymarket.com/event/balance-of-power-2026-midterms",
+      "name": "FiftyPlusOne",
+      "link": "https://fiftyplusone.news/polls/approval/president",
       "race_type": "other_context",
-      "party": "EVEN",
-      "margin": 0.0,
-      "details": "Markets page for 2026 midterms showing national balance-of-power odds, not an Indiana-specific Senate or presidential race poll.",
-      "date_range": "2026-07-01 to 2026-08-08",
-      "domain": "polymarket.com",
+      "party": "D",
+      "margin": 24.0,
+      "details": "A national presidential approval aggregate, not an Indiana-specific presidential or Senate race poll.",
+      "date_range": "2026-08-09",
+      "domain": "fiftyplusone.news",
       "verified": true
     }
   ],
   "abbreviation": "IN",
-  "_cached_at": "2026-08-08T18:37:40.338199"
+  "_cached_at": "2026-08-10T14:58:17.794086"
 }

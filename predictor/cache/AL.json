@@ -2,51 +2,51 @@
   "state": "Alabama",
   "mode": "senate_presidential_polling",
   "lean": "R",
-  "confidence": 0.91,
-  "strength_label": "Strong",
-  "net_margin": -21.4,
+  "confidence": 0.75,
+  "strength_label": "Lean",
+  "net_margin": -15.0,
   "based_on": "sources",
-  "reasoning": "Alabama\u2019s statewide structural baseline is strongly Republican, with a Cook PVI of R+27. In the last 45 days, the only relevant general-election data found for the 2026 Alabama Senate race was a publicly cited poll/average showing Republicans ahead by double digits; no current, state-specific presidential poll for Alabama was found in the provided results, so the Senate race is the clearest current margin indicator.",
-  "as_of_date": "2026-08-08T18:36:37",
+  "reasoning": "Recent Alabama-specific general-election polling shows Republicans leading in the 2026 Senate race, with a published polling average of R+15 and a latest poll at R+18 from the last 45 days. I found no credible, state-specific 2026 Alabama presidential general-election polling in the provided results, so the Senate race is the relevant current margin; Alabama\u2019s statewide Cook PVI is R+18.",
+  "as_of_date": "2026-08-10T14:56:54",
   "cook_pvi": {
     "party": "R",
-    "percentage_points": 27.0
+    "percentage_points": 18.0
   },
   "sources": [
+    {
+      "name": "PollsMax Alabama Governor Polls",
+      "link": "https://www.pollsmax.com/governor/alabama/",
+      "race_type": "other_context",
+      "party": "R",
+      "margin": 10.0,
+      "details": "Polling average shows 39.6% D to 49.6% R, with a polling average margin of R +10.0 for the Alabama governor race page shown in results; this is not the Senate or presidential race and is included only as background evidence that state-specific polling pages exist.",
+      "date_range": "August 10, 2026",
+      "domain": "pollsmax.com",
+      "verified": true
+    },
     {
       "name": "PollsMax Alabama Senate Forecast",
       "link": "https://www.pollsmax.com/senate/alabama/forecast/",
       "race_type": "senate",
       "party": "R",
-      "margin": 21.4,
-      "details": "Forecast shows a projected vote of 39.3% Democrat vs. 60.7% Republican, a Republican margin of R+21.4, and notes no general election polls yet.",
-      "date_range": "Last updated July 11, 2026; poll data includes July 11, 2026 and November 13, 2025",
+      "margin": 15.0,
+      "details": "2026 Alabama Senate forecast shows a projected vote of 39.4% D to 60.7% R and a polling average margin of R +15.0, with the latest poll dated July 11, 2026.",
+      "date_range": "August 10, 2026",
       "domain": "pollsmax.com",
       "verified": true
     },
     {
-      "name": "Yellowhammer News citing IMPACT Research/DCCC internal poll",
-      "link": "https://yellowhammernews.com/poll-democrats-admit-shomari-figures-seat-a-toss-up/",
-      "race_type": "other_context",
+      "name": "PollsMax Latest Alabama Senate Poll Average",
+      "link": "https://www.pollsmax.com/senate/alabama/forecast/",
+      "race_type": "senate",
       "party": "R",
-      "margin": 1.0,
-      "details": "An internal Democratic poll cited in reporting showed Shomari Figures trailing 45% to 44% in Alabama's 2nd District, which is not the statewide Senate or presidential race and therefore only provides limited contextual evidence.",
-      "date_range": "June 22-25, 2026",
-      "domain": "yellowhammernews.com",
-      "verified": true
-    },
-    {
-      "name": "Polymarket Alabama Senate Margin of Victory",
-      "link": "https://polymarket.com/event/alabama-senate-margin-of-victory-2026",
-      "race_type": "other_context",
-      "party": "R",
-      "margin": 0.0,
-      "details": "Market pricing for the Alabama Senate margin of victory favored a Republican win, with the most likely bracket being Republican 0-5% and other Republican outcomes also heavily represented; this is a betting market, not a poll.",
-      "date_range": "June 2026",
-      "domain": "polymarket.com",
+      "margin": 15.0,
+      "details": "Latest poll included in the Alabama Senate forecast shows the Democrat at 32.0% and Republican at 47.0%, implying an R +15.0 margin in the poll average display.",
+      "date_range": "July 11, 2026",
+      "domain": "pollsmax.com",
       "verified": true
     }
   ],
   "abbreviation": "AL",
-  "_cached_at": "2026-08-08T18:36:37.740067"
+  "_cached_at": "2026-08-10T14:56:54.621854"
 }

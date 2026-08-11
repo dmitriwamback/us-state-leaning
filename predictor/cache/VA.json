@@ -2,26 +2,37 @@
   "state": "Virginia",
   "mode": "senate_presidential_polling",
   "lean": "D",
-  "confidence": 0.872,
-  "strength_label": "Lean",
-  "net_margin": 19.9,
+  "confidence": 0.89,
+  "strength_label": "Strong",
+  "net_margin": 20.6,
   "based_on": "sources",
-  "reasoning": "Virginia\u2019s statewide Cook Partisan Voting Index is D+8.0, which is the latest widely used structural baseline. In the last 45 days, the only state-specific general-election Senate polling surfaced here shows Mark Warner well ahead of Bert Mizusawa, with a current polling average of D+19.9; the other results are primary-election or non-state-specific context and do not measure the general-election margin.",
-  "as_of_date": "2026-08-08T18:40:01",
+  "reasoning": "Virginia\u2019s most recent statewide federal-race polling in the provided results shows the 2026 U.S. Senate race far out of reach for Democrats, with Mark Warner leading by roughly 20 points in current polling averages. Because the only clearly relevant race-specific source in the last 45 days is Senate polling, I report Virginia as D+19.9 on the current Senate margin; no qualifying Virginia presidential poll appears in the results.",
+  "as_of_date": "2026-08-10T15:01:37",
   "cook_pvi": {
     "party": "D",
-    "percentage_points": 8.0
+    "percentage_points": 4.0
   },
   "sources": [
     {
-      "name": "Pollsmax Virginia Senate Polling Average",
+      "name": "PollsMax Virginia Senate Polls",
       "link": "https://www.pollsmax.com/senate/virginia/",
       "race_type": "senate",
       "party": "D",
       "margin": 19.9,
-      "details": "Aggregate of two Virginia Senate general-election polls shows Mark Warner leading Bert Mizusawa 51.6% to 31.7%, a D+19.9 polling average.",
-      "date_range": "May 5, 2026 - June 16, 2026",
+      "details": "Average of the included Virginia Senate polls shows Mark Warner at 51.6% and Bert Mizusawa at 31.7%, a D+19.9 margin.",
+      "date_range": "June 12-16, 2026",
       "domain": "pollsmax.com",
+      "verified": true
+    },
+    {
+      "name": "Prediction Edge Virginia Elections",
+      "link": "https://www.predictionedge.com/elections/va/",
+      "race_type": "senate",
+      "party": "D",
+      "margin": 21.3,
+      "details": "Polling-average table shows Warner leading Mizusawa by 21.3 points in the Virginia U.S. Senate race, with the latest Public Sentiment Institute polls also showing Warner ahead.",
+      "date_range": "June 12-16, 2026",
+      "domain": "predictionedge.com",
       "verified": true
     },
     {
@@ -30,23 +41,12 @@
       "race_type": "other_context",
       "party": "EVEN",
       "margin": 0.0,
-      "details": "Virginia Senate primary results show Bert Mizusawa won the Republican nomination; this is race context only and does not measure the general-election margin.",
-      "date_range": "August 4, 2026",
+      "details": "Live primary results confirm the GOP nominee in the Virginia Senate race, but this is primary-only information and does not measure the general-election margin.",
+      "date_range": "2026-08-04",
       "domain": "nbcnews.com",
       "verified": true
-    },
-    {
-      "name": "Associated Press Virginia U.S. Senate Primary Results",
-      "link": "https://www.apnews.com/projects/elections-2026/virginia-primary-results-us-senate/",
-      "race_type": "other_context",
-      "party": "EVEN",
-      "margin": 0.0,
-      "details": "Live primary results report Bert Mizusawa as the Republican nominee for the U.S. Senate race in Virginia; this is not a general-election poll.",
-      "date_range": "August 4, 2026",
-      "domain": "apnews.com",
-      "verified": false
     }
   ],
   "abbreviation": "VA",
-  "_cached_at": "2026-08-08T18:40:01.038462"
+  "_cached_at": "2026-08-10T15:01:37.964936"
 }

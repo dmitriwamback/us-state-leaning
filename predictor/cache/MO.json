@@ -6,25 +6,36 @@
   "strength_label": "Lean",
   "net_margin": -15.0,
   "based_on": "cook_pvi_fallback",
-  "reasoning": "I could not find any Missouri-specific general-election Senate or presidential polling from the last 45 days in the provided search results. The available results were mostly primary-election coverage or unrelated context, so the current race margin cannot be reliably determined from them; Missouri\u2019s structural baseline remains strongly Republican with a Cook PVI of R+15.",
-  "as_of_date": "2026-08-08T18:38:29",
+  "reasoning": "Missouri\u2019s statewide Cook PVI is R+15. In the last 45 days, the search results did not turn up any credible Missouri-specific general-election Senate or presidential polling for the 2026 race; the results were dominated by primary coverage and state legislative context, so there is no defensible current race margin to report from the provided sources. ",
+  "as_of_date": "2026-08-10T14:59:25",
   "cook_pvi": {
     "party": "R",
     "percentage_points": 15.0
   },
   "sources": [
     {
-      "name": "Cook Political Report",
-      "link": "https://www.cookpolitical.com/",
+      "name": "Missouri Scout",
+      "link": "https://moscout.com/daily-updates-1/2026/7/20/moscout-daily-update-new-polls-in-senate-20-amp-28-new-mitten-spot-mayhew-flips-on-a5-renewmo-backs-sharpe-and-more",
       "race_type": "other_context",
-      "party": "R",
-      "margin": 15.0,
-      "details": "Cook's statewide index rates Missouri as R+15, indicating a strong Republican lean in presidential performance relative to the nation.",
-      "date_range": "2026",
-      "domain": "cookpolitical.com",
-      "verified": false
+      "party": "D",
+      "margin": 4.0,
+      "details": "Missouri State Senate district-level primary polling showed Lori Rook leading Curtis Trent 39% to 35%, but this is a state legislative primary and not the statewide Senate or presidential race.",
+      "date_range": "N/A",
+      "domain": "moscout.com",
+      "verified": true
+    },
+    {
+      "name": "The New York Times",
+      "link": "https://www.nytimes.com/interactive/2026/08/04/us/elections/results-missouri-primary.html",
+      "race_type": "other_context",
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "Missouri primary results coverage for the Aug. 4, 2026 election; this is election-result reporting for primaries, not statewide general-election polling.",
+      "date_range": "N/A",
+      "domain": "nytimes.com",
+      "verified": true
     }
   ],
   "abbreviation": "MO",
-  "_cached_at": "2026-08-08T18:38:29.034674"
+  "_cached_at": "2026-08-10T14:59:25.619426"
 }

@@ -2,51 +2,40 @@
   "state": "Connecticut",
   "mode": "senate_presidential_polling",
   "lean": "D",
-  "confidence": 0.725,
+  "confidence": 0.75,
   "strength_label": "Lean",
-  "net_margin": 14.0,
+  "net_margin": 15.0,
   "based_on": "cook_pvi_fallback",
-  "reasoning": "Connecticut\u2019s statewide PVI is D+14, indicating a strong Democratic baseline. In the last 45 days, the only Connecticut race-specific polling surfaced here is for the 2026 gubernatorial primary, not the Senate or presidential race, so there is no valid current Senate or presidential margin to report from the provided results. As a result, the source list below contains only non-qualifying context, and the current Senate/presidential margin for Connecticut is not established by recent state-specific polling in these results.",
-  "as_of_date": "2026-08-08T18:37:03",
+  "reasoning": "Connecticut is a strongly Democratic state overall, with a statewide Cook Partisan Voting Index of D+15. In the last 45 days of results provided here, I found only a gubernatorial primary poll and no qualifying public general-election polling for Connecticut\u2019s 2026 Senate or presidential race, so there is no current statewide Senate/presidential margin to report from the allowed source set.",
+  "as_of_date": "2026-08-10T14:57:29",
   "cook_pvi": {
     "party": "D",
-    "percentage_points": 14.0
+    "percentage_points": 15.0
   },
   "sources": [
     {
-      "name": "PredictionEdge",
-      "link": "https://www.predictionedge.com/elections/ct/",
+      "name": "CT Mirror / Impact CT poll",
+      "link": "https://ctmirror.org/2026/07/29/governor-ct-poll-lamont-elliott/",
       "race_type": "other_context",
       "party": "D",
       "margin": 21.0,
-      "details": "Public poll of the 2026 Connecticut governor race showing Ned Lamont leading Josh Elliott 48% to 27% (Lamont +21). This is gubernatorial, not Senate or presidential, so it is context only.",
-      "date_range": "Jul 23-26, 2026",
-      "domain": "predictionedge.com",
-      "verified": true
-    },
-    {
-      "name": "UNH Survey Center",
-      "link": "https://scholars.unh.edu/survey_center_polls/",
-      "race_type": "other_context",
-      "party": "D",
-      "margin": 30.0,
-      "details": "UNH Survey Center poll of the 2026 Connecticut governor race showing Lamont ahead 53% to 23% (Lamont +30). This is not the requested Senate or presidential race.",
-      "date_range": "Jun 18-23, 2026",
-      "domain": "scholars.unh.edu",
-      "verified": true
-    },
-    {
-      "name": "CT Mirror",
-      "link": "https://ctmirror.org/tag/2026-election/",
-      "race_type": "other_context",
-      "party": "D",
-      "margin": 38.0,
-      "details": "Change Research poll of the Connecticut governor race showing Lamont leading 58% to 20% (Lamont +38). This is gubernatorial context only.",
-      "date_range": "May 28-29, 2026",
+      "details": "A public poll of likely Democratic primary voters showed Gov. Ned Lamont leading Josh Elliott 48% to 27%, a 21-point lead in the gubernatorial primary; this is not a Senate or presidential general-election race.",
+      "date_range": "July 23-26, 2026",
       "domain": "ctmirror.org",
+      "verified": true
+    },
+    {
+      "name": "Prediction Edge polling average",
+      "link": "https://www.predictionedge.com/elections/ct/",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 35.8,
+      "details": "This election odds page compiles polling for Connecticut governor and shows Lamont with a large lead, but it is not a Senate or presidential race and therefore does not qualify as target-race polling.",
+      "date_range": "June 18-23, 2026",
+      "domain": "predictionedge.com",
       "verified": true
     }
   ],
   "abbreviation": "CT",
-  "_cached_at": "2026-08-08T18:37:03.844288"
+  "_cached_at": "2026-08-10T14:57:29.526334"
 }
