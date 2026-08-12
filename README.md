@@ -35,6 +35,9 @@
 ### Data compiled from Sonar Pro (as of August 3rd 2026)
 <img width="2240" height="1152" alt="Image" src="https://github.com/user-attachments/assets/043eaaeb-eead-4dce-b3f6-6429cad666db" />
 
+### Data as of August 12th 2026
+<img width="1316" height="878" alt="Image" src="https://github.com/user-attachments/assets/80890294-b4fa-4db2-af70-08058401344e" />
+
 ## How to run
 
 <ul>
