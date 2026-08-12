@@ -6,47 +6,36 @@
   "strength_label": "Lean",
   "net_margin": -15.0,
   "based_on": "sources",
-  "reasoning": "Recent Alabama-specific general-election polling shows Republicans leading in the 2026 Senate race, with a published polling average of R+15 and a latest poll at R+18 from the last 45 days. I found no credible, state-specific 2026 Alabama presidential general-election polling in the provided results, so the Senate race is the relevant current margin; Alabama\u2019s statewide Cook PVI is R+18.",
-  "as_of_date": "2026-08-10T14:56:54",
+  "reasoning": "The only recent, state-specific general-election polling in the last 45 days I found for Alabama\u2019s 2026 Senate race shows Republican Barry Moore leading Democrat Everett Wess by 15 points. I did not find any qualifying Alabama presidential general-election polling in the provided results, so the current race margin is best represented by the Senate poll; Alabama\u2019s statewide Cook PVI is R+27.5.",
+  "as_of_date": "2026-08-12T10:23:04",
   "cook_pvi": {
     "party": "R",
-    "percentage_points": 18.0
+    "percentage_points": 27.5
   },
   "sources": [
     {
-      "name": "PollsMax Alabama Governor Polls",
-      "link": "https://www.pollsmax.com/governor/alabama/",
-      "race_type": "other_context",
-      "party": "R",
-      "margin": 10.0,
-      "details": "Polling average shows 39.6% D to 49.6% R, with a polling average margin of R +10.0 for the Alabama governor race page shown in results; this is not the Senate or presidential race and is included only as background evidence that state-specific polling pages exist.",
-      "date_range": "August 10, 2026",
-      "domain": "pollsmax.com",
-      "verified": true
-    },
-    {
-      "name": "PollsMax Alabama Senate Forecast",
-      "link": "https://www.pollsmax.com/senate/alabama/forecast/",
+      "name": "yes. every kid. via Politically.com",
+      "link": "https://politically.com/polls/dXMtMjAyesWVzNDMwOGIzMzc/",
       "race_type": "senate",
       "party": "R",
       "margin": 15.0,
-      "details": "2026 Alabama Senate forecast shows a projected vote of 39.4% D to 60.7% R and a polling average margin of R +15.0, with the latest poll dated July 11, 2026.",
-      "date_range": "August 10, 2026",
-      "domain": "pollsmax.com",
-      "verified": true
-    },
-    {
-      "name": "PollsMax Latest Alabama Senate Poll Average",
-      "link": "https://www.pollsmax.com/senate/alabama/forecast/",
-      "race_type": "senate",
-      "party": "R",
-      "margin": 15.0,
-      "details": "Latest poll included in the Alabama Senate forecast shows the Democrat at 32.0% and Republican at 47.0%, implying an R +15.0 margin in the poll average display.",
+      "details": "A single likely-voter poll showed Barry Moore at 47% and Everett Wess at 32%, a Republican lead of 15 points.",
       "date_range": "July 11, 2026",
+      "domain": "politically.com",
+      "verified": false
+    },
+    {
+      "name": "PollsMax Alabama Senate Polling Average",
+      "link": "https://www.pollsmax.com/senate/alabama/",
+      "race_type": "senate",
+      "party": "R",
+      "margin": 15.0,
+      "details": "Polling average for the Alabama Senate race showed Barry Moore ahead of Everett Wess by 15 points based on the available poll included.",
+      "date_range": "Updated August 8, 2026",
       "domain": "pollsmax.com",
       "verified": true
     }
   ],
   "abbreviation": "AL",
-  "_cached_at": "2026-08-10T14:56:54.621854"
+  "_cached_at": "2026-08-12T10:23:04.204889"
 }

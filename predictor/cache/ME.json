@@ -2,37 +2,37 @@
   "state": "Maine",
   "mode": "senate_presidential_polling",
   "lean": "Toss-up",
-  "confidence": 0.35,
+  "confidence": 0.333,
   "strength_label": "Toss-up",
-  "net_margin": 3.5,
+  "net_margin": 3.33,
   "based_on": "sources",
-  "reasoning": "Recent Maine Senate polling is mixed but consistently close: a University of New Hampshire poll from July 15-20 showed Troy Jackson ahead of Susan Collins 49%-46%, while a Hart Research poll for Senate Majority PAC from July 27-August 1 showed Collins trailing 45%-49%. The best current read from these last-45-day sources is that the race is a narrow Democratic lean or near tie, roughly D+1 to D+3, with a practical snapshot around Jackson +3 based on the aggregate polling average cited in the latest polling summaries. ",
-  "as_of_date": "2026-08-10T14:58:46",
+  "reasoning": "Recent Maine Senate polling over the last 45 days shows a very close race, with the most recent reported general-election polls giving Democrat Troy Jackson a small lead over Republican Susan Collins. The best-supported current margin is about D+3, while Cook still rates the seat as a toss-up, which is consistent with a competitive race rather than a stable partisan edge.",
+  "as_of_date": "2026-08-12T10:24:40",
   "cook_pvi": {
     "party": "D",
     "percentage_points": 3.0
   },
   "sources": [
     {
-      "name": "University of New Hampshire Survey Center",
-      "link": "https://scholars.unh.edu/survey_center_polls/981/",
+      "name": "University of New Hampshire Pine Tree State Poll",
+      "link": "https://www.spectrumlocalnews.com/me/maine/politics/2026/07/22/maine-senate-race-poll-shows-statistical-tie-between-jackson-and-collins",
       "race_type": "senate",
       "party": "D",
       "margin": 3.0,
-      "details": "UNH Survey Center found Troy Jackson leading Susan Collins 49% to 46% among likely general-election voters, a 3-point Democratic margin.",
+      "details": "University of New Hampshire Survey Center poll of likely general-election voters found Troy Jackson leading Susan Collins 49% to 46%, a 3-point Democratic edge.",
       "date_range": "July 15-20, 2026",
-      "domain": "scholars.unh.edu",
-      "verified": true
+      "domain": "spectrumlocalnews.com",
+      "verified": false
     },
     {
-      "name": "Portland Press Herald",
-      "link": "https://www.pressherald.com/2026/07/21/troy-jackson-has-slight-edge-over-susan-collins-new-poll-finds/",
+      "name": "University of New Hampshire Poll via The Hill",
+      "link": "https://thehill.com/homenews/5983301-jackson-leads-collins-poll/",
       "race_type": "senate",
       "party": "D",
       "margin": 3.0,
-      "details": "Press Herald reported the UNH poll showing Jackson at 49% and Collins at 46% in the Maine Senate matchup.",
+      "details": "The Hill\u2019s report on the same UNH poll said Jackson led Collins 49% to 46% among likely general-election voters in Maine.",
       "date_range": "July 15-20, 2026",
-      "domain": "pressherald.com",
+      "domain": "thehill.com",
       "verified": true
     },
     {
@@ -41,45 +41,23 @@
       "race_type": "senate",
       "party": "D",
       "margin": 4.0,
-      "details": "Hart Research polling for Senate Majority PAC found Jackson ahead of Collins 49% to 45%, a 4-point Democratic margin.",
+      "details": "Hart Research, for Senate Majority PAC, found Troy Jackson ahead of Susan Collins 49% to 45% among likely voters, a 4-point Democratic edge.",
       "date_range": "July 27-August 1, 2026",
       "domain": "themainewire.com",
       "verified": true
     },
     {
-      "name": "WGME",
-      "link": "https://wgme.com/news/local/troy-jackson-edges-susan-collins-in-new-maine-senate-poll",
-      "race_type": "senate",
-      "party": "D",
-      "margin": 4.0,
-      "details": "WGME reported Hart Research's poll showing Jackson leading Collins 49% to 45% in the Maine Senate race.",
-      "date_range": "August 1, 2026",
-      "domain": "wgme.com",
-      "verified": true
-    },
-    {
-      "name": "PollsMax polling average",
-      "link": "https://www.pollsmax.com/senate/maine/",
+      "name": "Cook Political Report rating",
+      "link": "https://centerforpolitics.org/crystalball/the-maine-senate-do-over-and-rating-changes-in-other-pine-tree-state-races/",
       "race_type": "other_context",
-      "party": "R",
-      "margin": 3.1,
-      "details": "PollsMax\u2019s aggregate for the Maine Senate race shows a polling average of 45.4% Jackson to 48.5% Collins, corresponding to a Republican lead of 3.1 points.",
-      "date_range": "August 10, 2026",
-      "domain": "pollsmax.com",
-      "verified": true
-    },
-    {
-      "name": "FiftyPlusOne polling average",
-      "link": "https://fiftyplusone.news/polls/senate/general/maine",
-      "race_type": "other_context",
-      "party": "D",
-      "margin": 2.9,
-      "details": "FiftyPlusOne\u2019s Maine Senate polling average shows Jackson at 48.5% and Collins at 45.6%, a 2.9-point Democratic lead.",
-      "date_range": "August 9, 2026",
-      "domain": "fiftyplusone.news",
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "Cook Political Report keeps the Maine Senate race rated as Toss-up, indicating no clear partisan lean from the forecaster\u2019s structural view of the race.",
+      "date_range": "Late June 2026",
+      "domain": "centerforpolitics.org",
       "verified": true
     }
   ],
   "abbreviation": "ME",
-  "_cached_at": "2026-08-10T14:58:46.229121"
+  "_cached_at": "2026-08-12T10:24:40.342317"
 }

@@ -1,27 +1,27 @@
 {
   "state": "Pennsylvania",
   "mode": "senate_presidential_polling",
-  "lean": "Toss-up",
-  "confidence": 0.1,
-  "strength_label": "Toss-up",
-  "net_margin": 1.0,
+  "lean": "D",
+  "confidence": 0.5,
+  "strength_label": "Tilt",
+  "net_margin": 5.0,
   "based_on": "cook_pvi_fallback",
-  "reasoning": "Pennsylvania does not currently have a 2026 U.S. Senate general-election race in the provided results, so the only race-relevant polling found is the statewide governor poll, which is not eligible as the target race and must be treated as other context. The strongest Pennsylvania-specific current-race information in the last 45 days is a Quinnipiac poll showing Fetterman deeply unpopular and a PennLive/Bravo Group poll showing him trailing a generic 'someone else' by 18 points, but that is not a current state Senate match-up margin for the 2026 general election. Pennsylvania's statewide Cook PVI is D+1.",
-  "as_of_date": "2026-08-10T15:00:43",
+  "reasoning": "Pennsylvania\u2019s statewide Cook Partisan Voting Index is D+5.0. In the last 45 days, I did not find a qualifying Pennsylvania-specific 2026 Senate or presidential general-election poll from an approved source; the only directly relevant recent items were other-context or non-general-election polling, so there is no reliable current race margin to report from the allowed sources.",
+  "as_of_date": "2026-08-12T10:26:28",
   "cook_pvi": {
     "party": "D",
-    "percentage_points": 1.0
+    "percentage_points": 5.0
   },
   "sources": [
     {
-      "name": "PennLive / Bravo Group Morning Scrapple poll",
-      "link": "https://www.pennlive.com/politics/2026/07/trump-fetterman-in-trouble-with-pa-voters-morning-scrapple-poll.html",
+      "name": "PennLive/Bravo Group polling as reported by Truthout",
+      "link": "https://truthout.org/articles/fetterman-is-so-unpopular-that-he-loses-to-someone-else-by-18-points-in-poll/",
       "race_type": "other_context",
-      "party": "D",
+      "party": "R",
       "margin": 18.0,
-      "details": "Survey of 895 registered Pennsylvania voters found 58% would vote for 'someone else' and 40% for John Fetterman in a hypothetical choice, an 18-point deficit for Fetterman.",
+      "details": "A Pennsylvania registered-voter poll found 58% would choose 'someone else' versus 40% for John Fetterman in a hypothetical head-to-head, indicating an 18-point deficit for Fetterman, but this is not a general-election matchup against a named opponent.",
       "date_range": "July 9-13, 2026",
-      "domain": "pennlive.com",
+      "domain": "truthout.org",
       "verified": true
     },
     {
@@ -30,23 +30,34 @@
       "race_type": "other_context",
       "party": "EVEN",
       "margin": 0.0,
-      "details": "Quinnipiac surveyed 895 registered Pennsylvania voters; the release focuses on finances and includes Pennsylvania statewide opinion data, not a current Senate general-election matchup margin.",
+      "details": "A Quinnipiac poll of Pennsylvania voters measured statewide opinions, including Fetterman's approval and Shapiro's gubernatorial numbers, but it did not test a Pennsylvania Senate or presidential general-election race.",
       "date_range": "July 9-13, 2026",
       "domain": "poll.qu.edu",
       "verified": true
     },
     {
-      "name": "PennLive / Bravo Group Morning Scrapple poll (governor's race coverage)",
-      "link": "https://www.pennlive.com/politics/2026/07/trump-fetterman-in-trouble-with-pa-voters-morning-scrapple-poll.html",
+      "name": "Quinnipiac University poll as reported by JNS",
+      "link": "https://www.jns.org/news/u-s-news/poll-shapiro-holds-double-digit-lead-over-republican-challenger-in-pennsylvania-governors-race",
       "race_type": "other_context",
       "party": "D",
-      "margin": 25.0,
-      "details": "Reports Josh Shapiro leading Stacy Garrity 53% to 28% in the Pennsylvania governor's race; this is not a Senate or presidential race, so it is context only.",
-      "date_range": "July 2026",
-      "domain": "pennlive.com",
+      "margin": 13.0,
+      "details": "A Pennsylvania gubernatorial poll showed Josh Shapiro leading Stacy Garrity 53% to 40%, but this is a governor's race, not a Senate or presidential race.",
+      "date_range": "July 9-13, 2026",
+      "domain": "jns.org",
       "verified": true
+    },
+    {
+      "name": "Cook Political Report PVI",
+      "link": "https://cookpolitical.com/cook-pvi/",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 5.0,
+      "details": "Cook Political Report's statewide Cook Partisan Voting Index rates Pennsylvania as D+5, meaning the state voted about five points more Democratic than the nation in recent presidential elections.",
+      "date_range": "2026 cycle, current statewide figure",
+      "domain": "cookpolitical.com",
+      "verified": false
     }
   ],
   "abbreviation": "PA",
-  "_cached_at": "2026-08-10T15:00:43.485583"
+  "_cached_at": "2026-08-12T10:26:28.995812"
 }

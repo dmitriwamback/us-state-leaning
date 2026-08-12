@@ -1,63 +1,63 @@
 {
   "state": "Wisconsin",
   "mode": "senate_presidential_polling",
-  "lean": "D",
-  "confidence": 0.525,
-  "strength_label": "Tilt",
-  "net_margin": 6.0,
+  "lean": "Toss-up",
+  "confidence": 0.3,
+  "strength_label": "Toss-up",
+  "net_margin": 3.0,
   "based_on": "cook_pvi_fallback",
-  "reasoning": "Recent Wisconsin polling in the last 45 days in the provided results is concentrated on state legislative and Democratic primary contests, not the 2026 Wisconsin Senate or presidential general election. Because there is no qualifying state-specific Senate or presidential general-election polling in the results, the current Senate/presidential margin cannot be determined from the supplied sources; Wisconsin\u2019s statewide Cook PVI is D+6.[20][17]",
-  "as_of_date": "2026-08-10T15:01:55",
+  "reasoning": "Wisconsin\u2019s statewide Cook PVI is D+3, indicating a modest Democratic lean. In the last 45 days, the provided search results do not show a current, state-specific Wisconsin Senate or presidential general-election poll; the relevant items are either legislative/district context or primary-race polling, so no current Senate or presidential margin can be responsibly derived from them.",
+  "as_of_date": "2026-08-12T10:27:43",
   "cook_pvi": {
     "party": "D",
-    "percentage_points": 6.0
+    "percentage_points": 3.0
   },
   "sources": [
     {
-      "name": "Wisconsin Right Now / Marquette poll coverage",
+      "name": "Wisconsin Right Now",
       "link": "https://www.wisconsinrightnow.com/the-winners-and-losers-in-the-latest-marquette-poll-on-the-governors-ag-races/",
       "race_type": "other_context",
       "party": "EVEN",
-      "margin": 0.0,
-      "details": "Marquette poll of Wisconsin registered voters focused on governor and attorney general races, not the Senate or presidential general election.",
+      "margin": 4.5,
+      "details": "Marquette polling covered Wisconsin voters on governor and attorney general races, but not the Senate or presidential general-election margin sought here.",
       "date_range": "July 8-16, 2026",
       "domain": "wisconsinrightnow.com",
       "verified": true
     },
     {
-      "name": "Marquette Law School Poll",
-      "link": "https://today.marquette.edu/2026/07/marquette-law-school-poll-finds-almost-half-of-democratic-primary-voters-undecided-amid-rapid-shifts-in-the-race-for-the-gubernatorial-nomination/",
-      "race_type": "other_context",
-      "party": "EVEN",
-      "margin": 0.0,
-      "details": "Marquette Law School Poll article covering the Wisconsin Democratic primary, not a Senate or presidential general-election matchup.",
-      "date_range": "July 29, 2026",
-      "domain": "today.marquette.edu",
-      "verified": true
-    },
-    {
       "name": "Milwaukee Journal Sentinel",
-      "link": "https://www.jsonline.com/story/news/politics/analysis/2026/07/23/marquette-poll-paints-picture-of-both-parties-headaches-in-wisconsin/91001925007/",
+      "link": "https://www.jsonline.com/story/news/politics/analysis/2026/07/30/polling-explains-francesca-hongs-grip-on-wisconsin-democratic-primary-socialist/91077721007/",
       "race_type": "other_context",
       "party": "EVEN",
       "margin": 0.0,
-      "details": "Coverage of Democratic primary polling for Wisconsin gubernatorial politics, not a Senate or presidential general-election poll.",
-      "date_range": "July 22, 2026",
+      "details": "Marquette Law School polling discussed Francesca Hong\u2019s standing in the Democratic gubernatorial primary, not a Wisconsin Senate or presidential general-election matchup.",
+      "date_range": "July 29, 2026",
       "domain": "jsonline.com",
       "verified": true
     },
     {
-      "name": "Marquette Law School / Cook PVI reference",
+      "name": "Marquette University Law School",
       "link": "https://law.marquette.edu/facultyblog/2026/07/rating-the-battleground-districts-in-the-wisconsin-legislature/",
       "race_type": "other_context",
       "party": "D",
-      "margin": 6.0,
-      "details": "Statewide Cook Partisan Voting Index for Wisconsin is D+6.",
-      "date_range": "2026 (current snapshot)",
+      "margin": 0.0,
+      "details": "This Marquette analysis rates Wisconsin legislative battlegrounds as a whole Lean D, which is structural context rather than a Senate or presidential poll.",
+      "date_range": "July 2026",
       "domain": "law.marquette.edu",
+      "verified": true
+    },
+    {
+      "name": "270toWin",
+      "link": "https://www.270towin.com/2026-election-results-live/state/wisconsin/primary/",
+      "race_type": "other_context",
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "This page shows Wisconsin primary/live results and chamber composition context, not a statewide Senate or presidential general-election margin.",
+      "date_range": "2026",
+      "domain": "270towin.com",
       "verified": true
     }
   ],
   "abbreviation": "WI",
-  "_cached_at": "2026-08-10T15:01:55.273917"
+  "_cached_at": "2026-08-12T10:27:43.903890"
 }

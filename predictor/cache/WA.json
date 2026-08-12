@@ -2,51 +2,51 @@
   "state": "Washington",
   "mode": "senate_presidential_polling",
   "lean": "D",
-  "confidence": 0.575,
-  "strength_label": "Tilt",
-  "net_margin": 8.0,
+  "confidence": 0.75,
+  "strength_label": "Lean",
+  "net_margin": 15.0,
   "based_on": "cook_pvi_fallback",
-  "reasoning": "Washington\u2019s statewide Cook PVI is D+8. The provided recent results do not include a valid Washington 2026 general-election Senate or presidential poll; the most relevant Washington item is a primary-results report, which is other_context rather than a current-race margin, so I cannot responsibly assign a current Senate or presidential margin from the supplied sources.",
-  "as_of_date": "2026-08-10T15:01:43",
+  "reasoning": "Washington is structurally very Democratic, with a statewide Cook PVI of D+15. In the last 45 days, the search results did not surface any Washington-specific 2026 general-election Senate or presidential polling; the only relevant recent Washington items were primary results and other non-general-election races, so there is no current Senate/presidential margin to report from qualifying sources. ",
+  "as_of_date": "2026-08-12T10:27:32",
   "cook_pvi": {
     "party": "D",
-    "percentage_points": 8.0
+    "percentage_points": 15.0
   },
   "sources": [
     {
-      "name": "The New York Times",
-      "link": "https://www.newyorktimes.com/interactive/2026/08/04/us/elections/results-washington-primary.html",
+      "name": "Cook Political Report",
+      "link": "https://www.cookpolitical.com/ratings/senate-race-ratings",
       "race_type": "other_context",
       "party": "EVEN",
       "margin": 0.0,
-      "details": "Live results from Washington\u2019s primary showed state legislative and congressional primary standings, but this was not a general-election Senate or presidential margin.",
-      "date_range": "2026-08-04",
-      "domain": "newyorktimes.com",
-      "verified": false
-    },
-    {
-      "name": "KOMO News",
-      "link": "https://komonews.com/news/local/washington-primary-election-early-results-are-in-for-key-congressional-legislative-races-2026-november-3-general-election-ballots-king-county-proposition-1-voting",
-      "race_type": "other_context",
-      "party": "EVEN",
-      "margin": 0.0,
-      "details": "Washington primary updates reported candidate standings in various local and congressional races, not a statewide Senate or presidential general-election poll.",
-      "date_range": "2026-08-05",
-      "domain": "komonews.com",
+      "details": "Lists the 2026 Senate race ratings but does not provide a Washington general-election margin; Washington is not presented as a qualifying current-race poll/result source in the search results.",
+      "date_range": "Cook Political Report 2026 Senate ratings page (accessed 2026-08-12)",
+      "domain": "cookpolitical.com",
       "verified": true
     },
     {
-      "name": "PBS NewsHour",
-      "link": "https://www.pbs.org/newshour/politics/live-results-washington-state-midterm-primaries",
+      "name": "USA Today / WaPo-Ipsos",
+      "link": "https://www.usatoday.com/story/news/politics/2026/07/19/trump-republicans-congress-democrats-poll/90972594007/",
       "race_type": "other_context",
-      "party": "EVEN",
+      "party": "D",
+      "margin": 3.0,
+      "details": "Reports a national WaPo-Ipsos poll showing Democrats ahead of Republicans by 3 points on congressional preference, which is not Washington-specific and therefore does not count as a state race margin.",
+      "date_range": "July 19, 2026",
+      "domain": "usatoday.com",
+      "verified": true
+    },
+    {
+      "name": "Washington State Standard",
+      "link": "https://washingtonstatestandard.com/2026/08/04/live-coverage-washingtons-2026-primary-election/",
+      "race_type": "other_context",
+      "party": "D",
       "margin": 0.0,
-      "details": "Primary-election coverage for Washington reported election-night vote totals, but not a statewide Senate or presidential current-race margin.",
-      "date_range": "2026-08-04",
-      "domain": "pbs.org",
+      "details": "Provides Washington primary-election results, including the Senate district primary, but this is not the statewide 2026 general-election Senate or presidential race.",
+      "date_range": "August 4, 2026",
+      "domain": "washingtonstatestandard.com",
       "verified": true
     }
   ],
   "abbreviation": "WA",
-  "_cached_at": "2026-08-10T15:01:43.799124"
+  "_cached_at": "2026-08-12T10:27:32.120065"
 }

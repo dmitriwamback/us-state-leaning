@@ -1,63 +1,52 @@
 {
   "state": "Arizona",
   "mode": "senate_presidential_polling",
-  "lean": "D",
-  "confidence": 0.525,
-  "strength_label": "Tilt",
-  "net_margin": 6.0,
+  "lean": "Toss-up",
+  "confidence": 0.25,
+  "strength_label": "Toss-up",
+  "net_margin": 2.5,
   "based_on": "cook_pvi_fallback",
-  "reasoning": "Arizona\u2019s statewide Cook PVI is D+6, which is a structural baseline rather than a current-race margin. In the last 45 days, the search results did not surface a valid Arizona general-election Senate or presidential poll; the visible items were either primary-only, about other offices, or about prior-cycle results, so there is no reliable current D/R margin to report from the provided results.",
-  "as_of_date": "2026-08-10T14:57:06",
+  "reasoning": "Arizona\u2019s statewide Cook PVI is D+2.5. For the current Senate or presidential race, I found no eligible last-45-days Arizona-specific general-election polling; the available recent Arizona polling/news in the search results concerns other races such as governor or attorney general, so the race-specific margin remains unavailable from the provided sources.",
+  "as_of_date": "2026-08-12T10:23:15",
   "cook_pvi": {
     "party": "D",
-    "percentage_points": 6.0
+    "percentage_points": 2.5
   },
   "sources": [
     {
-      "name": "Wikipedia",
-      "link": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Arizona",
-      "race_type": "other_context",
-      "party": "EVEN",
-      "margin": 0.0,
-      "details": "Archived 2024 Arizona Senate polling/aggregation page showing prior-cycle polling and results, not the 2026 general election.",
-      "date_range": "2024 general election cycle context",
-      "domain": "en.wikipedia.org",
-      "verified": true
-    },
-    {
-      "name": "MSN / AARP-commissioned poll report",
-      "link": "https://www.msn.com/en-us/news/other/katie-hobbs-comfortably-leads-andy-biggs-in-newly-released-poll/ar-AA29xXmK",
+      "name": "Axios Phoenix / AARP poll coverage",
+      "link": "https://www.axios.com/local/phoenix/2026/08/06/aarp-poll-hobbs-biggs",
       "race_type": "other_context",
       "party": "D",
       "margin": 8.0,
-      "details": "AARP-commissioned poll of likely Arizona voters found Katie Hobbs leading Andy Biggs 52% to 44%, but this is a gubernatorial race and not the requested Senate or presidential race.",
+      "details": "AARP-commissioned poll of likely Arizona voters found Democrat Katie Hobbs leading Republican Andy Biggs 52% to 44% in the governor\u2019s race, which is not the Senate or presidential race.",
       "date_range": "July 26-28, 2026",
-      "domain": "msn.com",
+      "domain": "axios.com",
       "verified": true
     },
     {
-      "name": "AZ Free News",
-      "link": "https://azfreenews.com/2026/07/petersen-widens-lead-to-15-points-over-glassman-in-latest-attorney-general-poll/",
-      "race_type": "other_context",
-      "party": "D",
-      "margin": 15.2,
-      "details": "Primary poll for Arizona attorney general showing Petersen over Glassman 43.4% to 28.2%, which is not a Senate or presidential general-election measure.",
-      "date_range": "July 8-9, 2026",
-      "domain": "azfreenews.com",
-      "verified": true
-    },
-    {
-      "name": "YouTube / polling rundown clip",
-      "link": "https://www.youtube.com/watch?v=CVy0-LdLp9Q",
+      "name": "AZ Free News / attorney general poll coverage",
+      "link": "https://azfreenews.com/2026/07/2026/07/2026/07/2026/07/2026/07/petersen-widens-lead-to-15-points-over-glassman-in-latest-attorney-general-poll/",
       "race_type": "other_context",
       "party": "R",
-      "margin": 15.0,
-      "details": "Reported polling rundown for GOP primaries, including an Arizona Senate president primary, not a statewide Senate or presidential general-election poll.",
-      "date_range": "July 2026",
-      "domain": "youtube.com",
+      "margin": 15.2,
+      "details": "A poll covered by AZ Free News found Republican Warren Petersen leading Democrat Charles Glassman 43.4% to 28.2% in the Arizona attorney general race, which is not the Senate or presidential race.",
+      "date_range": "July 8-9, 2026",
+      "domain": "azfreenews.com",
+      "verified": false
+    },
+    {
+      "name": "Cook Partisan Voting Index (statewide Arizona)",
+      "link": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Arizona",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 2.5,
+      "details": "Arizona\u2019s statewide Cook Partisan Voting Index is listed as D+2.5.",
+      "date_range": "Current statewide structural rating",
+      "domain": "en.wikipedia.org",
       "verified": true
     }
   ],
   "abbreviation": "AZ",
-  "_cached_at": "2026-08-10T14:57:06.551053"
+  "_cached_at": "2026-08-12T10:23:15.350607"
 }

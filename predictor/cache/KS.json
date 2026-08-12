@@ -6,47 +6,58 @@
   "strength_label": "Tilt",
   "net_margin": -8.0,
   "based_on": "sources",
-  "reasoning": "Kansas is a strongly Republican state with a statewide Cook Partisan Voting Index of R+15. In the last 45 days, the only clearly state-specific general-election margin in the provided results is a polling aggregate showing Marshall ahead by 8 points in the Kansas Senate race; recent coverage and handicapping sources also indicate the seat remains Republican-leaning, but they do not provide a new general-election margin.",
-  "as_of_date": "2026-08-10T14:58:26",
+  "reasoning": "Kansas is structurally Republican, with its statewide Cook PVI around R+20, but the current 2026 Senate race is still firmly in Republican territory. The only poll in the last 45 days in the provided results shows Marshall ahead by 8 points, while forecasters moved the race from safe/solid R to likely R after the Democratic primary, indicating a Republican edge rather than a tossup.",
+  "as_of_date": "2026-08-12T10:24:25",
   "cook_pvi": {
     "party": "R",
-    "percentage_points": 15.0
+    "percentage_points": 20.0
   },
   "sources": [
     {
-      "name": "Pollsmax",
-      "link": "https://www.pollsmax.com/senate/kansas/",
+      "name": "Newsweek",
+      "link": "https://www.newsweek.com/gops-chances-losing-major-races-kansas-hamilton-holscher-win-12279397",
       "race_type": "senate",
       "party": "R",
       "margin": 8.0,
-      "details": "Polling average for the Kansas Senate race shows 46.0% Democratic to 54.0% Republican, which is an R+8.0 margin.",
-      "date_range": "Updated July 2, 2026; polls included through Jan. 28, 2026",
-      "domain": "pollsmax.com",
+      "details": "Tavern Research poll reported Roger Marshall leading Adam Hamilton 54% to 46% in the Kansas Senate race.",
+      "date_range": "July 2026",
+      "domain": "newsweek.com",
       "verified": true
     },
     {
-      "name": "The Hill / Sabato's Crystal Ball",
+      "name": "The Hill",
       "link": "https://thehill.com/homenews/campaign/6011422-kansas-senate-race-sabato-adam-hamilton-roger-marshall/",
       "race_type": "other_context",
       "party": "R",
       "margin": 0.0,
-      "details": "Reports that Sabato's Crystal Ball shifted Kansas Senate from safe Republican to likely Republican after Adam Hamilton's primary win, indicating the race remains Republican-leaning.",
+      "details": "Sabato's Crystal Ball shifted the Kansas Senate race from safe Republican to likely Republican after the Democratic primary results.",
       "date_range": "August 2026",
       "domain": "thehill.com",
       "verified": true
     },
     {
-      "name": "NBC News",
-      "link": "https://www.nbcnews.com/politics/2026-primary-elections/kansas-senate-results",
+      "name": "Kansas Reflector",
+      "link": "https://kansasreflector.com/2026/08/07/analysts-shift-kansas-u-s-senate-race-from-safe-r-to-likely-r-a-small-change-with-big-impact/",
       "race_type": "other_context",
       "party": "R",
       "margin": 0.0,
-      "details": "Live primary results show Roger Marshall won the Republican Senate primary and Adam Hamilton won the Democratic primary; this is primary context rather than a general-election margin.",
+      "details": "Cook Political Report also shifted Kansas Senate from solid/safe Republican to likely Republican after the primary, still favoring Republicans.",
       "date_range": "August 2026",
-      "domain": "nbcnews.com",
+      "domain": "kansasreflector.com",
+      "verified": true
+    },
+    {
+      "name": "Sunflower State Journal",
+      "link": "https://sunflowerstatejournal.com/hamilton-leading-democratic-u-s-senate-field-new-internal-poll-shows/",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 17.0,
+      "details": "GBAO internal poll of 600 likely Kansas Democratic primary voters showed Adam Hamilton leading the Democratic field with 30%, 17 points ahead of Christy Davis at 13%, but this was a primary ballot test and not a general-election margin.",
+      "date_range": "July 13-16, 2026",
+      "domain": "sunflowerstatejournal.com",
       "verified": true
     }
   ],
   "abbreviation": "KS",
-  "_cached_at": "2026-08-10T14:58:26.972231"
+  "_cached_at": "2026-08-12T10:24:25.558432"
 }

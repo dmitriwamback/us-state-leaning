@@ -1,52 +1,30 @@
 {
   "state": "Arkansas",
   "mode": "senate_presidential_polling",
-  "lean": "R",
-  "confidence": 0.57,
-  "strength_label": "Tilt",
-  "net_margin": -7.8,
+  "lean": "Toss-up",
+  "confidence": 0.3,
+  "strength_label": "Toss-up",
+  "net_margin": -3.0,
   "based_on": "sources",
-  "reasoning": "Arkansas\u2019s available recent general-election polling for the 2026 U.S. Senate race shows Republican Tom Cotton ahead, with the most recent aggregate indicating a Republican lead of about 10 points. I did not find any qualifying Arkansas presidential general-election poll in the provided search results, so the state\u2019s current race margin is best represented by the Senate contest; Arkansas\u2019s statewide Cook PVI is R+16.",
-  "as_of_date": "2026-08-10T14:57:13",
+  "reasoning": "Recent Arkansas-specific polling in the last 45 days is limited to one Senate survey released by Hallie Shoffner\u2019s campaign, which shows Tom Cotton leading 46% to 43% and therefore a small Republican edge. Because no current Arkansas presidential general-election poll surfaced in the provided results, the best current race margin from the available evidence is Arkansas Senate R+3, while the statewide Cook PVI remains R+16.",
+  "as_of_date": "2026-08-12T10:23:26",
   "cook_pvi": {
     "party": "R",
     "percentage_points": 16.0
   },
   "sources": [
     {
-      "name": "Arkansas Times / campaign poll mention",
-      "link": "https://www.reddit.com/r/politics/comments/1vhgv0q/dem_senate_hopeful_shoffner_pulls_promising_poll/",
+      "name": "Arkansas Times",
+      "link": "https://arktimes.com/arkansas-blog/2026/08/05/dem-senate-hopeful-shoffner-pulls-promising-poll-numbers-against-unlikeable-cotton",
       "race_type": "senate",
       "party": "R",
       "margin": 3.0,
-      "details": "A campaign poll of the Arkansas Senate race found Tom Cotton leading Hallie Shoffner 46% to 43%, a Republican +3 margin within the survey\u2019s margin of error.",
-      "date_range": "July 25, 2026",
-      "domain": "reddit.com",
-      "verified": true
-    },
-    {
-      "name": "PollsMax",
-      "link": "https://www.pollsmax.com/senate/arkansas/",
-      "race_type": "senate",
-      "party": "R",
-      "margin": 10.2,
-      "details": "Aggregate page for Arkansas\u2019s 2026 Senate race shows polling average at 50.3% Republican to 40.1% Democratic, for a Republican lead of 10.2 points.",
-      "date_range": "July 25, 2026",
-      "domain": "pollsmax.com",
-      "verified": true
-    },
-    {
-      "name": "PollsMax",
-      "link": "https://www.pollsmax.com/senate/arkansas/",
-      "race_type": "senate",
-      "party": "R",
-      "margin": 10.2,
-      "details": "Polling average page lists the Arkansas Senate race as Republican +10.2 based on two polls, including a July 25 2040 Strategy Group poll and a February 9 GrayHouse poll.",
-      "date_range": "As of August 8, 2026",
-      "domain": "pollsmax.com",
+      "details": "Campaign-released Arkansas Senate poll found Tom Cotton at 46% and Hallie Shoffner at 43%, with a 4-point margin of error, indicating a close race but Cotton ahead.",
+      "date_range": "August 2026 (released Aug. 5, 2026)",
+      "domain": "arktimes.com",
       "verified": true
     }
   ],
   "abbreviation": "AR",
-  "_cached_at": "2026-08-10T14:57:13.250338"
+  "_cached_at": "2026-08-12T10:23:26.405667"
 }

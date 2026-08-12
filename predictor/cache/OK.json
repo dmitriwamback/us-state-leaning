@@ -4,38 +4,38 @@
   "lean": "R",
   "confidence": 1.0,
   "strength_label": "Strong",
-  "net_margin": -28.6,
-  "based_on": "sources",
-  "reasoning": "Oklahoma is strongly Republican on the statewide Cook PVI scale, which is consistent with recent election-forecast coverage showing a large Republican edge in the 2026 Senate race. Among the search results, the only Oklahoma-specific current-race source with a numeric margin is the Senate forecast projecting a Republican lead of R+28.6; no qualifying Oklahoma general-election presidential poll appeared in the last 45 days. ",
-  "as_of_date": "2026-08-10T15:00:32",
+  "net_margin": -27.0,
+  "based_on": "cook_pvi_fallback",
+  "reasoning": "No current, state-specific Oklahoma general-election polling for the 2026 Senate or presidential race appeared in the provided results. The only Oklahoma-specific race item was about the Democratic Senate primary runoff, while the market page was for Senate margin-of-victory outcomes rather than a measured electorate poll, so the best supported structural indicator is Oklahoma\u2019s heavily Republican statewide PVI.",
+  "as_of_date": "2026-08-12T10:26:17",
   "cook_pvi": {
     "party": "R",
-    "percentage_points": 20.0
+    "percentage_points": 27.0
   },
   "sources": [
     {
-      "name": "PollsMax Oklahoma Senate Forecast",
-      "link": "https://www.pollsmax.com/senate/oklahoma/forecast/",
-      "race_type": "senate",
-      "party": "R",
-      "margin": 28.6,
-      "details": "Forecast projects a solid Republican win in the Oklahoma Senate race with a projected vote of 35.7% D to 64.3% R and a projected margin of R +28.6.",
-      "date_range": "Updated August 8, 2026",
-      "domain": "pollsmax.com",
+      "name": "KOSU",
+      "link": "https://www.kosu.org/jasmine-thomas-oklahoma-2026-senate-election",
+      "race_type": "other_context",
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "Oklahoma Democratic Senate nominee runoff coverage; this is a primary runoff and not a general-election Senate margin poll.",
+      "date_range": "N/A",
+      "domain": "kosu.org",
       "verified": true
     },
     {
-      "name": "Cook Political Report Partisan Voting Index",
-      "link": "https://www.cookpolitical.com/cook-pvi",
+      "name": "Polymarket",
+      "link": "https://polymarket.com/event/oklahoma-senate-margin-of-victory-2026",
       "race_type": "other_context",
       "party": "R",
       "margin": 20.0,
-      "details": "Oklahoma's statewide Cook Partisan Voting Index is R+20, indicating the state leans Republican by 20 points relative to the nation.",
-      "date_range": "2026 cycle (statewide structural index)",
-      "domain": "cookpolitical.com",
-      "verified": false
+      "details": "Prediction market for Oklahoma Senate margin of victory outcomes; not a poll of Oklahoma voters and not a measured race margin.",
+      "date_range": "N/A",
+      "domain": "polymarket.com",
+      "verified": true
     }
   ],
   "abbreviation": "OK",
-  "_cached_at": "2026-08-10T15:00:32.923939"
+  "_cached_at": "2026-08-12T10:26:17.930184"
 }

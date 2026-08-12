@@ -2,62 +2,40 @@
   "state": "South Dakota",
   "mode": "senate_presidential_polling",
   "lean": "R",
-  "confidence": 0.976,
+  "confidence": 0.978,
   "strength_label": "Strong",
-  "net_margin": -24.05,
+  "net_margin": -24.1,
   "based_on": "sources",
-  "reasoning": "South Dakota\u2019s current Senate race is the relevant contest, since there is no presidential race in the state this cycle. The best available recent polling/news points to a Republican lead in the mid-20s: a late-May PPP survey had Mike Rounds ahead by 24 points, while later reporting confirms the Democratic nominee dropped out and the race shifted to Rounds vs. independent Brian Bengs, with no newer state-specific general-election poll in the last 45 days in the provided results. The statewide Cook PVI for South Dakota is R+13.",
-  "as_of_date": "2026-08-10T15:01:07",
+  "reasoning": "South Dakota\u2019s only directly relevant current-race polling found in the last 45 days shows Republican Mike Rounds leading in the Senate race by about 24 points on Pollsmax\u2019s aggregate of available polls. Recent coverage also indicates the race shifted after Democrat Julian Beaudion exited, but no state-specific presidential poll was found in the provided results; South Dakota remains a very strong Republican state structurally, with a Cook PVI of R+19.",
+  "as_of_date": "2026-08-12T10:26:56",
   "cook_pvi": {
     "party": "R",
-    "percentage_points": 13.0
+    "percentage_points": 19.0
   },
   "sources": [
     {
-      "name": "Pollsmax South Dakota Senate polls",
+      "name": "Pollsmax South Dakota Senate polls aggregate",
       "link": "https://www.pollsmax.com/senate/south-dakota/",
       "race_type": "senate",
       "party": "R",
       "margin": 24.1,
-      "details": "An aggregate polling page for the 2026 South Dakota Senate race shows Rounds leading at 54.9% to 30.7%, for a R+24.1 average margin based on two polls.",
-      "date_range": "May 2026",
-      "domain": "pollsmax.com",
-      "verified": true
-    },
-    {
-      "name": "Public Policy Polling (as cited by Pollsmax)",
-      "link": "https://www.pollsmax.com/senate/south-dakota/",
-      "race_type": "senate",
-      "party": "R",
-      "margin": 24.0,
-      "details": "A Public Policy Polling survey included in the aggregate showed Mike Rounds ahead in the South Dakota Senate matchup; the aggregate page reports this as part of the current race average.",
+      "details": "Public Policy Polling\u2019s latest South Dakota Senate survey is included in the aggregate and is the newest poll listed, but the result is not broken out in the snippet; the aggregate average stands at R+24.1.",
       "date_range": "May 30, 2026",
       "domain": "pollsmax.com",
       "verified": true
     },
     {
-      "name": "NBC News",
-      "link": "https://www.nbcnews.com/politics/2026-election/democrat-drops-out-south-dakota-senate-race-independent-candidate-rcna590883",
+      "name": "Politico",
+      "link": "https://www.politico.com/news/2026/08/04/south-dakota-democrat-julian-beaudion-withdraws-01024746",
       "race_type": "other_context",
       "party": "EVEN",
       "margin": 0.0,
-      "details": "News coverage reported that Democratic nominee Julian Beaudion dropped out of the South Dakota Senate race, leaving Republican incumbent Mike Rounds facing independent Brian Bengs.",
-      "date_range": "August 4, 2026",
-      "domain": "nbcnews.com",
-      "verified": true
-    },
-    {
-      "name": "The New York Times",
-      "link": "https://www.nytimes.com/2026/08/04/us/politics/julian-beaudion-drops-out-south-dakota.html",
-      "race_type": "other_context",
-      "party": "EVEN",
-      "margin": 0.0,
-      "details": "The New York Times also reported Beaudion\u2019s withdrawal and that the race is now Rounds versus independent Brian Bengs.",
-      "date_range": "August 4, 2026",
-      "domain": "nytimes.com",
+      "details": "Coverage of Julian Beaudion exiting the race says the withdrawal leaves the South Dakota Senate contest as a two-candidate race between Brian Bengs and incumbent Mike Rounds, indicating the field changed materially within the last 45 days.",
+      "date_range": "August 4-5, 2026",
+      "domain": "politico.com",
       "verified": true
     }
   ],
   "abbreviation": "SD",
-  "_cached_at": "2026-08-10T15:01:07.553763"
+  "_cached_at": "2026-08-12T10:26:56.331893"
 }

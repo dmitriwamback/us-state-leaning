@@ -3,6 +3,22 @@
 
 ## Disclaimer: This app does not determine which state will vote for which party. This app only demonstrates the current leaning of each state.
 
+<p>A real issue is that sometimes the AI model hallucinates, especially for competitive states and swing states such as Michigan, Pennsylvania, Wisconsin, Arizona, and Nevada. (The AI generally switches between Toss-up, Democratic, or Republican for these states a lot).</p>
+
+<p>Additionally, a few noticeable problems I witnessed was Nebraska classified as 'Toss-up' despite being a strong Republican state overall. However, the AI does a good job at classifying strong/historically Democratic (such as California or Vermont) and Republican states (such as West Virginia or Wyoming) well.</p>
+
+<p>Also, the program classifies Toss-up states depending on the initial leaning in the predictor/cache files.</p>
+
+### How toss-ups are calculated:
+
+<ul>
+    <li>If it is classified as toss-up, then the program looks at the net_margin.</li>
+    <li>If the net_margin is positive, then the state is labeled Democratic and negative for Republican.</li>
+    <li>If the designated cook_pvi has the same party as the leaning, then the program uses the percentage points in the cook_pvi instead of the calculated net margin.</li>
+    <li>Otherwise, the program uses the net_margin for the percentage points.</li>
+    <li>Finally, assuming we use net_margin as the percentage points, if the abs(net_margin) <= 1, then the state is classified as 'toss-up'.</li>
+</ul>
+
 ### Technologies:
 
 <ul>

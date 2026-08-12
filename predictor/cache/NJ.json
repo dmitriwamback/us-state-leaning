@@ -2,51 +2,51 @@
   "state": "New Jersey",
   "mode": "senate_presidential_polling",
   "lean": "D",
-  "confidence": 0.636,
+  "confidence": 0.728,
   "strength_label": "Lean",
-  "net_margin": 10.45,
-  "based_on": "sources",
-  "reasoning": "New Jersey\u2019s statewide Cook PVI is D+14. In the last 45 days, the only race-specific New Jersey general-election signal in the provided results is a market/forecast consensus that leans Democratic by a wide margin in the Senate race; there is no qualifying recent statewide general-election presidential poll for New Jersey in the results, and the remaining items are either primary results or not state-specific to the current race.",
-  "as_of_date": "2026-08-10T14:59:56",
+  "net_margin": 14.1,
+  "based_on": "cook_pvi_fallback",
+  "reasoning": "New Jersey\u2019s statewide Cook Partisan Voting Index is D+14.1. In the last 45 days, the search results did not surface any credible New Jersey general-election Senate or presidential polling; the only relevant New Jersey items were a Senate primary results page, a general news article about the state\u2019s federal races, and a prediction-market page that is not eligible as polling/news for the race margin. Therefore, I can only provide the structural PVI datapoint and no current-race margin source for New Jersey.",
+  "as_of_date": "2026-08-12T10:25:46",
   "cook_pvi": {
     "party": "D",
-    "percentage_points": 14.0
+    "percentage_points": 14.1
   },
   "sources": [
     {
-      "name": "PollsMax New Jersey Senate Forecast",
-      "link": "https://www.pollsmax.com/senate/new-jersey/forecast/",
-      "race_type": "senate",
-      "party": "D",
-      "margin": 18.9,
-      "details": "Forecast model projects a Democratic win by 18.9 points and rates the seat as Solid D, indicating a strong Democratic advantage in the New Jersey Senate race.",
-      "date_range": "Updated August 10, 2026",
-      "domain": "pollsmax.com",
-      "verified": true
-    },
-    {
-      "name": "PredictionHunt / market aggregation on New Jersey Senate",
-      "link": "https://www.predictionhunt.com/news/booker-favored-to-hold-nj-senate-seat-as-market-jul-12-2026",
-      "race_type": "senate",
-      "party": "D",
-      "margin": 0.0,
-      "details": "Market/aggregated probabilities show the Democrat as favored to win the New Jersey Senate race, with implied win probability swinging sharply but still favoring the Democrat overall.",
-      "date_range": "July 12, 2026",
-      "domain": "predictionhunt.com",
-      "verified": true
-    },
-    {
-      "name": "FiftyPlusOne presidential approval average",
-      "link": "https://fiftyplusone.news/polls/approval/president",
+      "name": "NBC News",
+      "link": "https://www.nbcnews.com/politics/2026-primary-elections/new-jersey-senate-results",
       "race_type": "other_context",
-      "party": "R",
-      "margin": 24.0,
-      "details": "This is a national presidential approval average, not a New Jersey-specific presidential race poll, so it cannot be used as a current-state race measure.",
-      "date_range": "August 9, 2026",
-      "domain": "fiftyplusone.news",
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "Live primary results page showing Cory Booker unopposed in the Democratic Senate primary and Justin Murphy winning the Republican primary; this is primary-only and not a general-election margin poll.",
+      "date_range": "2026 cycle context; page current as of 2026-08-12",
+      "domain": "nbcnews.com",
+      "verified": true
+    },
+    {
+      "name": "Polymarket",
+      "link": "https://polymarket.com/id/event/new-jersey-senate-margin-of-victory-2026",
+      "race_type": "other_context",
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "Prediction market page for the New Jersey Senate election margin-of-victory categories; this is not a poll of the state electorate, so it is not usable as race polling.",
+      "date_range": "2026 cycle context; current market snapshot shown on page",
+      "domain": "polymarket.com",
+      "verified": true
+    },
+    {
+      "name": "NorthJersey.com",
+      "link": "https://www.northjersey.com/story/news/politics/elections/2026/08/10/new-jersey-midterm-elections-feature-one-senate-and-all-12-house-seats/91173731007/",
+      "race_type": "other_context",
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "General news overview of New Jersey\u2019s federal midterm races; it provides context but no current Senate or presidential margin poll.",
+      "date_range": "2026-08-10",
+      "domain": "northjersey.com",
       "verified": true
     }
   ],
   "abbreviation": "NJ",
-  "_cached_at": "2026-08-10T14:59:56.376194"
+  "_cached_at": "2026-08-12T10:25:46.907858"
 }

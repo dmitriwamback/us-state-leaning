@@ -2,24 +2,24 @@
   "state": "Georgia",
   "mode": "senate_presidential_polling",
   "lean": "D",
-  "confidence": 0.594,
-  "strength_label": "Tilt",
-  "net_margin": 8.76,
+  "confidence": 0.65,
+  "strength_label": "Lean",
+  "net_margin": 11.0,
   "based_on": "sources",
-  "reasoning": "Georgia\u2019s recent statewide Senate polling in the last 45 days shows Democrat Jon Ossoff ahead by margins ranging from about D+4 to D+13, with the most cited fresh AARP/Fabrizio-Impact poll at D+9. I found no qualifying Georgia presidential general-election poll in the provided results, so the current race signal is based on the Senate contest; Georgia\u2019s statewide Cook PVI is R+1.2.",
-  "as_of_date": "2026-08-10T14:57:56",
+  "reasoning": "Recent Georgia Senate polling in the last 45 days shows Democrat Jon Ossoff ahead of Republican Mike Collins by margins ranging from +4 to +13, with the most recent high-quality polls clustering around a Democratic lead. No Georgia presidential general-election poll from the provided results is within the last 45 days, so the current race margin is best characterized from Senate polling alone.",
+  "as_of_date": "2026-08-12T10:24:00",
   "cook_pvi": {
-    "party": "R",
-    "percentage_points": 1.2
+    "party": "D",
+    "percentage_points": 5.0
   },
   "sources": [
     {
-      "name": "AARP",
+      "name": "AARP Poll: Ossoff Leads in Georgia Senate Race \u2014 Except Among Older Voters",
       "link": "https://www.aarp.org/government-elections/georgia-poll-2026/",
       "race_type": "senate",
       "party": "D",
       "margin": 9.0,
-      "details": "AARP poll of 1,060 likely Georgia voters found Jon Ossoff leading Mike Collins 52% to 43%, a D+9 margin.",
+      "details": "AARP's statewide likely-voter poll found Jon Ossoff leading Mike Collins 52% to 43% in Georgia's Senate race.",
       "date_range": "July 13-16, 2026",
       "domain": "aarp.org",
       "verified": true
@@ -30,56 +30,34 @@
       "race_type": "senate",
       "party": "D",
       "margin": 9.0,
-      "details": "The Hill reported the same AARP/Fabrizio Ward and Impact Research survey showing Ossoff ahead by 9 points.",
+      "details": "The Hill reported the AARP/Fabrizio Ward/Impact Research poll showing Ossoff ahead of Collins by 9 points among likely voters.",
       "date_range": "July 13-16, 2026",
       "domain": "thehill.com",
       "verified": true
     },
     {
-      "name": "Scripps News",
-      "link": "https://www.scrippsnews.com/politics/america-votes/seniors-to-play-outsized-role-in-tight-georgia-races-new-poll-finds",
-      "race_type": "senate",
-      "party": "D",
-      "margin": 9.0,
-      "details": "Scripps News reported the AARP poll finding Ossoff leading Collins 52-43 among likely voters statewide.",
-      "date_range": "July 13-16, 2026",
-      "domain": "scrippsnews.com",
-      "verified": true
-    },
-    {
-      "name": "Newsweek",
-      "link": "https://www.newsweek.com/jon-ossoff-chances-beating-republican-mike-collins-georgia-poll-12235863",
-      "race_type": "senate",
-      "party": "D",
-      "margin": 3.8,
-      "details": "Newsweek summarized a Wick survey of 1,175 likely voters showing Ossoff over Collins 46.7% to 42.9%, a D+3.8 margin.",
-      "date_range": "June 27-30, 2026",
-      "domain": "newsweek.com",
-      "verified": true
-    },
-    {
-      "name": "USA Today",
-      "link": "https://www.usatoday.com/story/news/state/georgia/2026/07/13/ossoff-leads-in-senate-race-georgia-governor-race-is-split-polls/90902034007/",
+      "name": "Inside Elections Senate Report Shorts (citing Fox News poll)",
+      "link": "https://insideelections.com/senate-report-shorts-august-6-2026/",
       "race_type": "senate",
       "party": "D",
       "margin": 13.0,
-      "details": "USA Today cited a Fox News poll showing Ossoff at 56% and Collins at 43%, a D+13 margin.",
-      "date_range": "July 1, 2026",
-      "domain": "usatoday.com",
+      "details": "Fox News polling, as summarized by Inside Elections, found Ossoff leading Collins 56% to 43% in Georgia's Senate race.",
+      "date_range": "June 23-27, 2026",
+      "domain": "insideelections.com",
       "verified": true
     },
     {
-      "name": "Pollsmax",
-      "link": "https://www.pollsmax.com/senate/georgia/",
-      "race_type": "other_context",
+      "name": "The Atlanta Journal-Constitution",
+      "link": "https://www.ajc.com/politics/2026/05/georgia-2026-what-the-polls-say-about-the-us-senate-race/",
+      "race_type": "senate",
       "party": "D",
-      "margin": 6.7,
-      "details": "RealClear-style polling aggregate was not available in the results, but Pollsmax listed a Georgia Senate polling average of Ossoff 49.5% to 42.8%, a D+6.7 average.",
-      "date_range": "July 13-16, 2026",
-      "domain": "pollsmax.com",
+      "margin": 13.0,
+      "details": "The Atlanta Journal-Constitution summarized that the Fox News poll showed Ossoff with a solid lead after Collins secured the GOP nomination and noted another poll had the race within the margin of error.",
+      "date_range": "July 2026",
+      "domain": "ajc.com",
       "verified": true
     }
   ],
   "abbreviation": "GA",
-  "_cached_at": "2026-08-10T14:57:56.048097"
+  "_cached_at": "2026-08-12T10:24:00.917453"
 }

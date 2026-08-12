@@ -6,47 +6,69 @@
   "strength_label": "Lean",
   "net_margin": -15.0,
   "based_on": "cook_pvi_fallback",
-  "reasoning": "Kentucky\u2019s statewide Cook PVI is R+15. In the last 45 days, I found no credible state-specific public polling of Kentucky\u2019s 2026 general-election Senate or presidential race; the only directly state-specific race indicator in the results is a polling aggregate showing Republicans ahead in the Kentucky Senate race, but its latest underlying poll is from December 2025, so it falls outside the requested window. Current market-based forecasting pages also point to a strongly Republican lean, but they are not polling and are treated here as context rather than direct race polling.",
-  "as_of_date": "2026-08-10T14:58:31",
+  "reasoning": "Kentucky\u2019s statewide Cook PVI is R+15. In the last 45 days, I found no qualifying state-specific general-election polling for Kentucky\u2019s 2026 Senate or presidential race; the usable items were mainly prediction-market or news/context pieces, so they do not establish a poll-based margin for the current race. The best current evidence from the provided sources points to the Senate race remaining strongly Republican-leaning, but without a qualifying poll margin I cannot assign a numeric race margin from polling/news alone.",
+  "as_of_date": "2026-08-12T10:24:30",
   "cook_pvi": {
     "party": "R",
     "percentage_points": 15.0
   },
   "sources": [
     {
-      "name": "PollsMax Kentucky Senate Polling Average",
-      "link": "https://www.pollsmax.com/senate/kentucky/",
+      "name": "NBC News",
+      "link": "https://www.nbcnews.com/politics/2026-primary-elections/calendar",
       "race_type": "other_context",
       "party": "R",
-      "margin": 11.0,
-      "details": "Polling average for the Kentucky Senate race shows Andy Barr ahead of Charles Booker by 11 points, but the only included underlying poll is from December 19, 2025, outside the 45-day window.",
-      "date_range": "Last updated August 10, 2026; includes one poll from December 19, 2025",
-      "domain": "pollsmax.com",
+      "margin": 0.0,
+      "details": "Summarized Kentucky\u2019s open Senate race as a longshot for Democrats and noted the contest is in an early general-election phase.",
+      "date_range": "July 2026",
+      "domain": "nbcnews.com",
       "verified": true
     },
     {
-      "name": "PredictionHunt Kentucky Senate markets",
-      "link": "https://www.predictionhunt.com/news/will-booker-win-kentucky-senate-markets-say-6-jul-11-2026",
+      "name": "Lexington Herald-Leader / kentucky.com",
+      "link": "https://www.kentucky.com/news/politics-government/article316729835.html",
       "race_type": "other_context",
       "party": "R",
-      "margin": 44.0,
-      "details": "Market pricing implied a very low chance for Booker to win Kentucky's Senate race, indicating a strong Republican advantage in the race context.",
-      "date_range": "Updated August 6, 2026",
+      "margin": 0.0,
+      "details": "Reported only that Republicans hold a slim 53-47 majority in the U.S. Senate, which is national context rather than a Kentucky-specific race measure.",
+      "date_range": "July 28, 2026",
+      "domain": "kentucky.com",
+      "verified": true
+    },
+    {
+      "name": "PredictionHunt",
+      "link": "https://www.predictionhunt.com/news/will-booker-win-kentucky-senate-markets-say-4-jul-13-2026",
+      "race_type": "other_context",
+      "party": "R",
+      "margin": 0.0,
+      "details": "A prediction-market writeup said Booker\u2019s implied win probability in the Kentucky Senate race fell from 50% to 4%, but this is market sentiment rather than polling and is not a Kentucky electorate survey.",
+      "date_range": "July 13-16, 2026",
       "domain": "predictionhunt.com",
       "verified": true
     },
     {
-      "name": "Prediction Market Picks Kentucky Senate",
-      "link": "https://predictionmarketspicks.com/midterms-2026/kentucky-senate",
+      "name": "PredictionHunt",
+      "link": "https://www.predictionhunt.com/news/booker-hits-50-in-kentucky-senate-market-after-jul-16-2026",
+      "race_type": "other_context",
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "A prediction-market summary said Booker briefly hit 50% in the Kentucky Senate market, again reflecting market odds rather than polling of Kentucky voters.",
+      "date_range": "July 16, 2026",
+      "domain": "predictionhunt.com",
+      "verified": true
+    },
+    {
+      "name": "Polymarket",
+      "link": "https://polymarket.com/bn/event/kentucky-senate-margin-of-victory-2026",
       "race_type": "other_context",
       "party": "R",
-      "margin": 88.3,
-      "details": "Prediction market odds labeled the Kentucky Senate race as a safe Republican contest, with Barr overwhelmingly favored.",
-      "date_range": "Updated hourly in August 2026",
-      "domain": "predictionmarketspicks.com",
+      "margin": 0.0,
+      "details": "The market board shows multiple possible Kentucky Senate victory-margin outcomes, with Republican outcomes collectively favored, but it is not a voter poll.",
+      "date_range": "Realtime as of Aug. 12, 2026",
+      "domain": "polymarket.com",
       "verified": true
     }
   ],
   "abbreviation": "KY",
-  "_cached_at": "2026-08-10T14:58:31.173428"
+  "_cached_at": "2026-08-12T10:24:30.616742"
 }

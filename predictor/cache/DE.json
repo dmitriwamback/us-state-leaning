@@ -2,62 +2,40 @@
   "state": "Delaware",
   "mode": "senate_presidential_polling",
   "lean": "D",
-  "confidence": 0.94,
+  "confidence": 1.0,
   "strength_label": "Strong",
-  "net_margin": 22.6,
-  "based_on": "sources",
-  "reasoning": "Delaware has no recent state-specific general-election polling for the 2026 Senate race in the last 45 days, so the best current race read comes from forecasting and market sources rather than a direct poll. PollsMax rates the Delaware Senate race as Solid D with a projected Democratic margin of D+22.6, while a Delaware online-news roundup cites broader congressional polling but not a Delaware-specific race margin; the safest current margin estimate is therefore a strong Democratic lead around D+23.",
-  "as_of_date": "2026-08-10T14:57:33",
+  "net_margin": 25.0,
+  "based_on": "cook_pvi_fallback",
+  "reasoning": "Delaware is structurally very Democratic, with a statewide Cook Partisan Voting Index of D+25. In the last 45 days, I did not find a Delaware-specific current Senate or presidential general-election poll from an approved pollster or forecaster; the only directly relevant race item was a Polymarket market showing Democrats favored to win the Delaware Senate race by roughly a 30-35 point margin, which I have treated as other_context because it is a market, not a poll. The news search results did not surface a qualifying Delaware race poll within the requested window, so there is no authoritative current polling margin to report for the race itself.",
+  "as_of_date": "2026-08-12T10:23:44",
   "cook_pvi": {
     "party": "D",
-    "percentage_points": 26.0
+    "percentage_points": 25.0
   },
   "sources": [
     {
-      "name": "PollsMax Delaware Senate Forecast",
-      "link": "https://www.pollsmax.com/senate/delaware/forecast/",
-      "race_type": "senate",
-      "party": "D",
-      "margin": 22.6,
-      "details": "Forecast rating is Solid D with a projected vote of 61.3% Democrat to 38.7% Republican, implying a D+22.6 margin; it also says there are no general election polls yet.",
-      "date_range": "Updated Aug. 10, 2026",
-      "domain": "pollsmax.com",
-      "verified": true
-    },
-    {
-      "name": "Polymarket Delaware Senate Election Margin of Victory",
+      "name": "Polymarket",
       "link": "https://polymarket.com/event/delaware-senate-margin-of-victory-2026",
       "race_type": "other_context",
       "party": "D",
-      "margin": 30.0,
-      "details": "A market page for the Delaware Senate election margin of victory shows the most likely outcome as a Democratic win by 30-35%, with other Democratic-winning ranges also heavily favored.",
-      "date_range": "Late July / early August 2026",
+      "margin": 32.5,
+      "details": "Market prices imply Democrats are the clear favorite to win the Delaware Senate race, with the leading outcome centered on a Democratic victory by 30-35 points.",
+      "date_range": "2026-07-2026-08",
       "domain": "polymarket.com",
       "verified": true
     },
     {
-      "name": "Prediction Edge Delaware Elections, Odds & Candidates",
-      "link": "https://www.predictionedge.com/elections/de/",
+      "name": "Delaware Online",
+      "link": "https://www.delawareonline.com/story/news/2026/07/17/who-is-winning-the-midterms-right-now-latest-polls-who-will-control-congress-2026-midterm-elections/90954843007/",
       "race_type": "other_context",
       "party": "D",
-      "margin": 59.0,
-      "details": "This election-intelligence page shows Democrats heavily favored to win the Delaware Senate seat, but it is a forecast/market source rather than a general-election poll.",
-      "date_range": "2026 cycle",
-      "domain": "predictionedge.com",
-      "verified": true
-    },
-    {
-      "name": "Prediction Edge Delaware Senate Republican Primary",
-      "link": "https://www.predictionedge.com/elections/us-senate/28aa539ba3864a57ac9165bb14ab183d/",
-      "race_type": "other_context",
-      "party": "D",
-      "margin": 69.0,
-      "details": "This page is about the Delaware Republican Senate primary, not the general election, so it cannot be used as a direct general-election margin source.",
-      "date_range": "2026 cycle",
-      "domain": "predictionedge.com",
+      "margin": 4.8,
+      "details": "A news roundup discussing national midterm polling, not a Delaware-specific Senate or presidential poll.",
+      "date_range": "2026-07-17",
+      "domain": "delawareonline.com",
       "verified": true
     }
   ],
   "abbreviation": "DE",
-  "_cached_at": "2026-08-10T14:57:33.917989"
+  "_cached_at": "2026-08-12T10:23:44.842068"
 }

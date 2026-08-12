@@ -1,52 +1,52 @@
 {
   "state": "Nebraska",
   "mode": "senate_presidential_polling",
-  "lean": "Toss-up",
-  "confidence": 0.47,
-  "strength_label": "Toss-up",
-  "net_margin": -4.7,
+  "lean": "D",
+  "confidence": 0.5,
+  "strength_label": "Tilt",
+  "net_margin": 5.0,
   "based_on": "sources",
-  "reasoning": "Nebraska\u2019s statewide PVI is R+19. For the current 2026 Senate race, the only usable recent polling aggregation in the provided results shows Republican Pete Ricketts ahead by R+4.7, while race-ratings/news sources from the last 45 days describe the contest as Likely Republican rather than giving a different numeric margin.",
-  "as_of_date": "2026-08-10T14:59:39",
+  "reasoning": "Nebraska\u2019s statewide PVI is R+19, reflecting a strong Republican lean. In the last 45 days, the only clearly relevant Nebraska Senate polling surfaced here shows Dan Osborn slightly ahead of Pete Ricketts in a two-way matchup, while a July race rating still had the contest as Likely Republican, so the current polling-based margin is narrowly D-leaning but the race remains structurally Republican.",
+  "as_of_date": "2026-08-12T10:25:21",
   "cook_pvi": {
     "party": "R",
     "percentage_points": 19.0
   },
   "sources": [
     {
-      "name": "PollsMax Nebraska Senate Polling Average",
-      "link": "https://www.pollsmax.com/senate/nebraska/",
+      "name": "Newsweek citing Tavern Research",
+      "link": "https://www.newsweek.com/map-shows-democrats-chances-in-key-senate-races-with-98-days-to-midterms-12249548",
       "race_type": "senate",
-      "party": "R",
-      "margin": 4.7,
-      "details": "Polling average for the Nebraska Senate race shows Pete Ricketts at 48.4% and Dan Osborn at 43.7%, for R+4.7.",
-      "date_range": "Updated August 10, 2026; polls through May 11, 2026",
-      "domain": "pollsmax.com",
+      "party": "D",
+      "margin": 5.0,
+      "details": "Tavern Research poll found Dan Osborn leading Pete Ricketts 47% to 42% in a Nebraska Senate two-way matchup.",
+      "date_range": "May 8-11, 2026",
+      "domain": "newsweek.com",
       "verified": true
     },
     {
-      "name": "Ballotpedia on Nebraska Senate race ratings",
+      "name": "Cook Political Report with Amy Walter",
       "link": "https://news.ballotpedia.org/2026/07/14/four-candidates-are-running-in-the-general-election-for-the-u-s-senate-in-nebraska-including-two-who-previously-ran-in-2024/",
       "race_type": "other_context",
       "party": "R",
       "margin": 0.0,
-      "details": "Reported that Cook Political Report, along with other forecasters, rated the Nebraska Senate general election as Likely Republican.",
-      "date_range": "As of July 7, 2026",
+      "details": "Cook Political Report with Amy Walter rated Nebraska\u2019s general-election Senate race Likely Republican.",
+      "date_range": "July 7, 2026",
       "domain": "news.ballotpedia.org",
       "verified": true
     },
     {
-      "name": "Daily Kos Nebraska races overview",
+      "name": "Daily Kos / cited statewide 2024 partisanship context",
       "link": "https://www.dailykos.com/stories/2026/7/16/800058060/community/the-cornhusker-state-of-play-important-nebraska-races/",
       "race_type": "other_context",
       "party": "R",
-      "margin": 0.0,
-      "details": "Discussed Nebraska political context and cited Trump 59.3% and Harris 38.9% in the state, which implies a strong Republican lean but is not a current Senate or presidential poll for this race.",
-      "date_range": "July 16, 2026",
+      "margin": 19.0,
+      "details": "Nebraska\u2019s statewide vote history in the 2024 presidential election and Senate result reflects a strong Republican baseline; this is structural context rather than current 2026 race polling.",
+      "date_range": "2024 general election",
       "domain": "dailykos.com",
       "verified": true
     }
   ],
   "abbreviation": "NE",
-  "_cached_at": "2026-08-10T14:59:39.481640"
+  "_cached_at": "2026-08-12T10:25:21.590575"
 }

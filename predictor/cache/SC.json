@@ -2,47 +2,36 @@
   "state": "South Carolina",
   "mode": "senate_presidential_polling",
   "lean": "R",
-  "confidence": 0.875,
-  "strength_label": "Strong",
-  "net_margin": -20.0,
+  "confidence": 0.838,
+  "strength_label": "Lean",
+  "net_margin": -18.5,
   "based_on": "cook_pvi_fallback",
-  "reasoning": "South Carolina does not have recent general-election polling for the 2026 Senate or presidential race in the provided results; the available items are all about the Republican special Senate primary, which cannot be treated as a Senate general-election margin. The only usable race-leaning aggregate is a South Carolina Senate polling average showing Republicans ahead by 7.4 points, but it is based on primary-cycle or otherwise non-general-election context, so it is listed as other_context rather than the target race.",
-  "as_of_date": "2026-08-10T15:00:59",
+  "reasoning": "South Carolina does not appear to have any general-election Senate or presidential polling in the last 45 days in the provided results; the available items are all Republican special-primary polls, so they are not usable as current-race margin estimates for a Senate or presidential contest. Those primary polls show a crowded field with no candidate close to 50%, which indicates no meaningful D/R margin can be stated for the general election from these sources alone. South Carolina's statewide Cook PVI is R+18.5.",
+  "as_of_date": "2026-08-12T10:26:50",
   "cook_pvi": {
     "party": "R",
-    "percentage_points": 20.0
+    "percentage_points": 18.5
   },
   "sources": [
     {
-      "name": "Pollsmax South Carolina Senate Polling Average",
-      "link": "https://www.pollsmax.com/senate/south-carolina/",
-      "race_type": "other_context",
-      "party": "R",
-      "margin": 7.4,
-      "details": "Aggregate of three South Carolina Senate polls shows Lindsey Graham leading Annie Andrews 48.7% to 41.3%, a Republican edge of 7.4 points.",
-      "date_range": "Updated Aug. 10, 2026; latest poll June 22, 2026",
-      "domain": "pollsmax.com",
-      "verified": true
-    },
-    {
-      "name": "Trafalgar Group / Yahoo News summary",
+      "name": "Trafalgar Group / Yahoo News",
       "link": "https://www.yahoo.com/news/politics/articles/trafalgar-poll-shows-3-way-195950690.html",
       "race_type": "other_context",
-      "party": "R",
-      "margin": 9.6,
-      "details": "Trafalgar Group tracking poll of likely Republican voters in the South Carolina special Senate primary found Graham at 27.0%, with Fry and Norman tied at 17.4%.",
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "Tracking poll of likely Republican voters in South Carolina's special U.S. Senate primary found Darline Graham at 27.0%, with Fry and Norman tied at 17.4%; this is a primary poll, not a general-election margin.",
       "date_range": "July 28-30, 2026",
       "domain": "yahoo.com",
       "verified": true
     },
     {
-      "name": "Emerson College Polling / The Hill",
-      "link": "https://thehill.com/homenews/campaign/5999110-sc-gop-senate-primary-poll-graham-norman/",
+      "name": "Emerson College Polling / Nexstar Media via The Hill",
+      "link": "https://thehill.com/homenews/campaign/5970915-gop-sc-senate-poll-results/",
       "race_type": "other_context",
-      "party": "R",
-      "margin": 3.0,
-      "details": "Emerson College poll of likely GOP primary voters found Ralph Norman at 22% and Darline Graham at 19%, indicating a tightly bunched Republican primary field.",
-      "date_range": "July 28-29, 2026",
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "Emerson College Polling/Nexstar survey of likely Republican primary voters found Ralph Norman leading with 16.4% and no candidate near a majority; this is a primary poll, not a general-election margin.",
+      "date_range": "July 14-15, 2026",
       "domain": "thehill.com",
       "verified": true
     },
@@ -50,14 +39,36 @@
       "name": "Innovative Communication Strategies / FITSNews",
       "link": "https://www.fitsnews.com/2026/07/22/s-c-succession-second-u-s-senate-poll-shows-ralph-norman-leading/",
       "race_type": "other_context",
-      "party": "R",
-      "margin": 35.0,
-      "details": "Innovative Communication Strategies poll of likely special primary voters found Trey Gowdy at 38%, with the rest of the field far behind and a large undecided bloc.",
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "South Carolina special Senate primary poll found Ralph Norman leading with 18.6% and 26.3% undecided; this is a primary poll and does not measure a general-election D/R margin.",
       "date_range": "July 20-21, 2026",
       "domain": "fitsnews.com",
       "verified": true
+    },
+    {
+      "name": "Newsweek / poll release summary",
+      "link": "https://www.newsweek.com/lindsey-graham-sister-ralph-norman-south-carolina-senate-poll-12245048",
+      "race_type": "other_context",
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "Survey of likely Republican primary voters found Darline Graham at 20.8% and Ralph Norman at 16.9%, suggesting a runoff; this is not a general-election poll.",
+      "date_range": "July 21, 2026",
+      "domain": "newsweek.com",
+      "verified": true
+    },
+    {
+      "name": "Trafalgar Group / PJ Media",
+      "link": "https://www.pjmedia.com/jennifer-rust/2026/08/11/ten-candidates-battled-today-tells-us-whos-left-in-sc-senate-race-n4956019",
+      "race_type": "other_context",
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "Final Trafalgar tracking poll in the special GOP Senate primary showed Graham at 26.4%, Norman at 19.5%, and Fry at 18.4%; this is a primary poll, not a general-election margin.",
+      "date_range": "August 8-10, 2026",
+      "domain": "pjmedia.com",
+      "verified": false
     }
   ],
   "abbreviation": "SC",
-  "_cached_at": "2026-08-10T15:00:59.776358"
+  "_cached_at": "2026-08-12T10:26:50.351391"
 }

@@ -2,62 +2,17 @@
   "state": "North Dakota",
   "mode": "senate_presidential_polling",
   "lean": "R",
-  "confidence": 0.85,
+  "confidence": 0.825,
   "strength_label": "Lean",
-  "net_margin": -19.0,
+  "net_margin": -18.0,
   "based_on": "cook_pvi_fallback",
-  "reasoning": "North Dakota\u2019s statewide Cook PVI is R+19, indicating a very strong Republican baseline. In the last 45 days, I did not find any credible North Dakota-specific general-election Senate or presidential polling from approved sources; the available items were either about other races, primary/runoff contests, or national/contextual data, so there is no current North Dakota Senate or presidential margin to report from the allowed source set.",
-  "as_of_date": "2026-08-10T15:00:17",
+  "reasoning": "North Dakota is strongly Republican by statewide fundamentals, with a Cook PVI of R+18. I did not find any qualifying North Dakota general-election Senate or presidential polling/news from the last 45 days in the provided results; the available items were either about other states or about a South Dakota Republican runoff, so there is no current North Dakota race margin to report from the scoped sources.",
+  "as_of_date": "2026-08-12T10:26:07",
   "cook_pvi": {
     "party": "R",
-    "percentage_points": 19.0
+    "percentage_points": 18.0
   },
-  "sources": [
-    {
-      "name": "BBC News / 270toWin election page",
-      "link": "https://www.bbc.com/news/election/2024/us/states/nd",
-      "race_type": "other_context",
-      "party": "R",
-      "margin": 11.5,
-      "details": "North Dakota 2024 presidential result showing Trump won the state; this is historical context, not a 2026 race poll.",
-      "date_range": "2024 general election cycle",
-      "domain": "bbc.com",
-      "verified": true
-    },
-    {
-      "name": "KELOLAND / Emerson College Poll (reported via KELO post)",
-      "link": "https://www.facebook.com/KELODanSantella/posts/new-polling-has-rhoden-leading-doeden-62-to-32-with-7-undecided-theres-a-margin-/1465791148686303/",
-      "race_type": "other_context",
-      "party": "R",
-      "margin": 30.0,
-      "details": "A KELOLAND/Emerson College poll of a Republican runoff found Larry Rhoden leading Toby Doeden 62% to 32%, which is a runoff/primary context rather than the general Senate or presidential race.",
-      "date_range": "July 15-16, 2026",
-      "domain": "facebook.com",
-      "verified": true
-    },
-    {
-      "name": "Dakota Free Press (citing Emerson/KELLOAND runoff poll)",
-      "link": "https://dakotafreepress.com/2026/07/17/emerson-poll-shows-rhoden-winning-runoff-big-doeden-decides-he-doesnt-trust-emerson-anymore/",
-      "race_type": "other_context",
-      "party": "R",
-      "margin": 30.0,
-      "details": "Commentary summarizing the same North Dakota Republican runoff poll showing Rhoden ahead 62%-32%; again, this is not the Senate or presidential general election.",
-      "date_range": "July 2026",
-      "domain": "dakotafreepress.com",
-      "verified": true
-    },
-    {
-      "name": "NBC News",
-      "link": "https://www.nbcnews.com/politics/2026-primary-elections/north-dakota-house-results",
-      "race_type": "other_context",
-      "party": "EVEN",
-      "margin": 0.0,
-      "details": "North Dakota Senate primary live results page; this is a primary result page, not a general-election margin.",
-      "date_range": "August 2026",
-      "domain": "nbcnews.com",
-      "verified": true
-    }
-  ],
+  "sources": [],
   "abbreviation": "ND",
-  "_cached_at": "2026-08-10T15:00:17.324568"
+  "_cached_at": "2026-08-12T10:26:07.107901"
 }

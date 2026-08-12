@@ -2,73 +2,51 @@
   "state": "Colorado",
   "mode": "senate_presidential_polling",
   "lean": "D",
-  "confidence": 1.0,
-  "strength_label": "Strong",
-  "net_margin": 63.57,
-  "based_on": "sources",
-  "reasoning": "Colorado\u2019s statewide Cook Partisan Voting Index is D+4.5. In the last 45 days, the available Colorado-specific general-election evidence in the search results points to Democrats being favored in the U.S. Senate race, but there is no fresh statewide presidential poll for Colorado in the results, so the best-supported current margin comes from Senate-related polling and prediction-market coverage rather than a presidential head-to-head.",
-  "as_of_date": "2026-08-10T14:57:23",
+  "confidence": 0.75,
+  "strength_label": "Lean",
+  "net_margin": 15.0,
+  "based_on": "cook_pvi_fallback",
+  "reasoning": "Colorado\u2019s statewide Cook PVI is D+15. In the last 45 days, the search results did not surface a valid Colorado 2026 general-election Senate or presidential poll; the closest usable items were prediction-market and non-state-specific or non-target-race references, so there is no reliable current race margin to report from approved sources.",
+  "as_of_date": "2026-08-12T10:23:35",
   "cook_pvi": {
     "party": "D",
-    "percentage_points": 4.5
+    "percentage_points": 15.0
   },
   "sources": [
     {
       "name": "PredictionHunt",
       "link": "https://www.predictionhunt.com/news/democratic-party-hits-95-in-colorado-senate-jul-14-2026",
-      "race_type": "senate",
+      "race_type": "other_context",
       "party": "D",
-      "margin": 95.0,
-      "details": "Prediction market coverage says Democrats are trading at 95% to win the Colorado Senate race, reflecting a very strong Democratic advantage.",
-      "date_range": "Updated Aug. 3, 2026",
+      "margin": 20.0,
+      "details": "Prediction market on the Colorado Senate race shows Democrats as a heavy favorite overall, with the market leading outcome centered on a Democratic win by 20-25 points.",
+      "date_range": "Updated August 3, 2026",
       "domain": "predictionhunt.com",
       "verified": true
     },
     {
-      "name": "Prediction Edge",
-      "link": "https://www.predictionedge.com/elections/us-senate/colorado-race-winner-by-party/",
-      "race_type": "senate",
-      "party": "D",
-      "margin": 93.7,
-      "details": "A Colorado Senate race odds page shows John Hickenlooper with a 97.0% chance to win versus Mark Baisley at 3.3%.",
-      "date_range": "Last updated Aug. 8, 2026",
-      "domain": "predictionedge.com",
-      "verified": true
-    },
-    {
       "name": "Colorado Pols",
-      "link": "https://www.coloradopols.com/diary/221767/its-silly-poll-season-for-long-shot-challengers",
-      "race_type": "senate",
-      "party": "D",
+      "link": "https://www.coloradopols.com/2026elections/2026-u-s-senate",
+      "race_type": "other_context",
+      "party": "EVEN",
       "margin": 0.0,
-      "details": "A paid internal poll reported John Hickenlooper was leading in the Colorado Senate race, though the search result snippet did not provide an exact margin.",
-      "date_range": "Mid-July 2026",
+      "details": "Colorado election coverage page with no specific polling margin for the current Senate or presidential race in the provided result.",
+      "date_range": "2026 cycle page",
       "domain": "coloradopols.com",
       "verified": true
     },
     {
-      "name": "The Colorado Sun",
-      "link": "https://www.coloradosun.com/2026/07/28/jessica-killin-jeff-crank-polling/",
+      "name": "Polymarket",
+      "link": "https://polymarket.com/event/colorado-senate-margin-of-victory-2026",
       "race_type": "other_context",
-      "party": "R",
-      "margin": 1.0,
-      "details": "A Global Strategy Group poll for Democrat Jessica Killin in Colorado's 8th congressional district found her trailing Jeff Crank 45% to 44%, but this is not a Senate or presidential race.",
-      "date_range": "July 16-21, 2026",
-      "domain": "coloradosun.com",
-      "verified": false
-    },
-    {
-      "name": "The Coloradoan",
-      "link": "https://www.coloradoan.com/story/news/politics/2026/08/02/colorado-polls-trump-congress-values/91121754007/",
-      "race_type": "other_context",
-      "party": "R",
-      "margin": 1.0,
-      "details": "A Keating Research poll for Dwayne Romero in Colorado's 3rd congressional district found Republican Jeff Hurd leading 45% to 44%, but this is not a Senate or presidential race.",
-      "date_range": "July 21-23, 2026",
-      "domain": "coloradoan.com",
+      "party": "D",
+      "margin": 20.0,
+      "details": "Polymarket lists a Colorado Senate election margin-of-victory contract; the leading bracket is Democrat 20-25%, but this is a market, not a state poll or official forecast.",
+      "date_range": "N/A",
+      "domain": "polymarket.com",
       "verified": true
     }
   ],
   "abbreviation": "CO",
-  "_cached_at": "2026-08-10T14:57:23.913654"
+  "_cached_at": "2026-08-12T10:23:35.523823"
 }

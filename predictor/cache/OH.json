@@ -2,84 +2,84 @@
   "state": "Ohio",
   "mode": "senate_presidential_polling",
   "lean": "Toss-up",
-  "confidence": 0.144,
+  "confidence": 0.138,
   "strength_label": "Toss-up",
-  "net_margin": 1.44,
+  "net_margin": 1.38,
   "based_on": "sources",
-  "reasoning": "Recent Ohio Senate polling is mixed, but the most recent poll average in the provided results shows Republicans ahead by about 2.8 points, while several individual polls in late June and early August place the race within a few points either way. Because the query asks for a current margin based on the last 45 days, the best single takeaway is that Ohio's Senate race is currently a very close Republican edge, roughly R+3, though other recent polls show it near even or a narrow Democratic lead.",
-  "as_of_date": "2026-08-10T15:00:27",
+  "reasoning": "Ohio\u2019s statewide Cook Partisan Voting Index is R+6. In the last 45 days, the most relevant Ohio Senate polling/news points to a toss-up with small and conflicting margins: a Fox News poll showed Brown ahead by 8 points, AARP showed Brown ahead by 3 points, Emerson showed Husted ahead by 6 points, and Decision Desk HQ\u2019s average had Brown ahead by 1 point; the balance of evidence supports a current race margin of roughly EVEN to D+1 rather than a clear partisan lead.",
+  "as_of_date": "2026-08-12T10:26:14",
   "cook_pvi": {
     "party": "R",
     "percentage_points": 6.0
   },
   "sources": [
     {
-      "name": "Pollsmax Ohio Senate polling average",
-      "link": "https://www.pollsmax.com/senate/ohio/",
-      "race_type": "senate",
-      "party": "R",
-      "margin": 2.8,
-      "details": "Polling average across 14 Ohio Senate polls shows Jon Husted at 47.9% and Sherrod Brown at 45.1%, a Republican lead of 2.8 points.",
-      "date_range": "Updated Aug. 10, 2026; polls included Sep. 19, 2025-Aug. 10, 2026",
-      "domain": "pollsmax.com",
-      "verified": true
-    },
-    {
-      "name": "FiftyPlusOne Ohio Senate polls",
-      "link": "https://fiftyplusone.news/polls/senate/general/ohio",
-      "race_type": "senate",
-      "party": "D",
-      "margin": 2.0,
-      "details": "Aggregated Ohio Senate polling tracker shows Brown at 48.2% and Husted at 46.2%, indicating a 2-point Democratic lead in the latest reported average.",
-      "date_range": "Aug. 9, 2026",
-      "domain": "fiftyplusone.news",
-      "verified": true
-    },
-    {
-      "name": "Fabrizio Ward / Impact Research via Heartland Journal coverage",
-      "link": "https://heartlandjournal.com/articles/sherrod-brown-jon-husted-in-virtual-tie-in-ohio-senate-race-poll-finds",
-      "race_type": "senate",
-      "party": "D",
-      "margin": 3.0,
-      "details": "Bipartisan Fabrizio Ward / Impact Research poll found Brown leading Husted 48% to 45%, a 3-point Democratic margin.",
-      "date_range": "June 14-16, 2026",
-      "domain": "heartlandjournal.com",
-      "verified": true
-    },
-    {
-      "name": "Fox News Ohio Senate poll via Newsweek coverage",
+      "name": "Fox News via Newsweek",
       "link": "https://www.newsweek.com/republicans-senate-warning-sign-fox-news-polls-12265285",
       "race_type": "senate",
       "party": "D",
       "margin": 8.0,
-      "details": "Fox News poll of 1,015 registered Ohio voters found Brown ahead of Husted 53% to 45%, an 8-point Democratic margin.",
+      "details": "Fox News poll of 1,015 registered Ohio voters found Sherrod Brown leading Jon Husted 53% to 45%.",
       "date_range": "May 28-June 1, 2026",
       "domain": "newsweek.com",
       "verified": true
     },
     {
-      "name": "The New York Times / Siena University",
-      "link": "https://www.predictionedge.com/elections/us-senate/ohio-special-race-winner-by-party/",
+      "name": "AARP / Fabrizio Ward & Impact Research",
+      "link": "https://heartlandjournal.com/articles/sherrod-brown-jon-husted-in-virtual-tie-in-ohio-senate-race-poll-finds",
+      "race_type": "senate",
+      "party": "D",
+      "margin": 3.0,
+      "details": "AARP survey reported Brown ahead of Husted 48% to 45% among Ohio voters.",
+      "date_range": "June 25, 2026",
+      "domain": "heartlandjournal.com",
+      "verified": true
+    },
+    {
+      "name": "Emerson College Polling",
+      "link": "https://theyoungstownvalleychronicle.com/section/state-news/husted-vs-brown-what-ohio-s-latest-2026-senate-polls-show",
       "race_type": "senate",
       "party": "R",
-      "margin": 3.0,
-      "details": "The New York Times/Siena University poll found Husted leading Brown 50% to 47%, a 3-point Republican margin.",
-      "date_range": "June 15-28, 2026",
-      "domain": "predictionedge.com",
+      "margin": 6.0,
+      "details": "Emerson College Polling found Husted leading Brown 50% to 44%.",
+      "date_range": "June 2026",
+      "domain": "theyoungstownvalleychronicle.com",
+      "verified": true
+    },
+    {
+      "name": "Decision Desk HQ",
+      "link": "https://decisiondeskhq.substack.com/p/james-talarico-polling-better-beto-orourke-texas-senate-paxton-cruz-trump",
+      "race_type": "senate",
+      "party": "D",
+      "margin": 1.0,
+      "details": "Decision Desk HQ said Brown held a slim 47% to 46% edge in its Ohio Senate average.",
+      "date_range": "July 2026",
+      "domain": "decisiondeskhq.substack.com",
+      "verified": true
+    },
+    {
+      "name": "VoteHub / Newsweek",
+      "link": "https://www.newsweek.com/polling-flips-against-republicans-four-critical-midterms-races-12239400",
+      "race_type": "senate",
+      "party": "D",
+      "margin": 0.9,
+      "details": "Newsweek reported VoteHub\u2019s Ohio Senate polling average had shifted to a 0.9-point Democratic lead.",
+      "date_range": "July 21, 2026",
+      "domain": "newsweek.com",
       "verified": true
     },
     {
       "name": "Cook Partisan Voting Index",
-      "link": "https://cookpolitical.com",
+      "link": "https://www.cookpolitical.com/ratings/senate-race-ratings",
       "race_type": "other_context",
       "party": "R",
       "margin": 6.0,
-      "details": "Ohio's statewide Cook Partisan Voting Index is R+6, meaning the state leans Republican by six points relative to the nation in recent presidential voting patterns.",
-      "date_range": "Ohio statewide Cook PVI, latest available structural measure",
+      "details": "Cook Political Report\u2019s statewide partisanship for Ohio is R+6.",
+      "date_range": "2026",
       "domain": "cookpolitical.com",
       "verified": false
     }
   ],
   "abbreviation": "OH",
-  "_cached_at": "2026-08-10T15:00:27.819510"
+  "_cached_at": "2026-08-12T10:26:14.034543"
 }

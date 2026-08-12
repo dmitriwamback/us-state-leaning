@@ -2,40 +2,51 @@
   "state": "Connecticut",
   "mode": "senate_presidential_polling",
   "lean": "D",
-  "confidence": 0.75,
-  "strength_label": "Lean",
-  "net_margin": 15.0,
+  "confidence": 0.55,
+  "strength_label": "Tilt",
+  "net_margin": 7.0,
   "based_on": "cook_pvi_fallback",
-  "reasoning": "Connecticut is a strongly Democratic state overall, with a statewide Cook Partisan Voting Index of D+15. In the last 45 days of results provided here, I found only a gubernatorial primary poll and no qualifying public general-election polling for Connecticut\u2019s 2026 Senate or presidential race, so there is no current statewide Senate/presidential margin to report from the allowed source set.",
-  "as_of_date": "2026-08-10T14:57:29",
+  "reasoning": "The only recent Connecticut polling in the last 45 days found in the search results is a gubernatorial general-election poll, not a Senate or presidential poll. That poll shows Democrat Ned Lamont leading Republican Ryan Fazio by about 20 points, which is useful context but must be tagged as other_context because it is not the requested Senate or presidential race. Connecticut\u2019s statewide Cook PVI is D+7.",
+  "as_of_date": "2026-08-12T10:23:41",
   "cook_pvi": {
     "party": "D",
-    "percentage_points": 15.0
+    "percentage_points": 7.0
   },
   "sources": [
     {
-      "name": "CT Mirror / Impact CT poll",
-      "link": "https://ctmirror.org/2026/07/29/governor-ct-poll-lamont-elliott/",
+      "name": "Politically.com Poll Explorer / GreatBlue Research",
+      "link": "https://politically.com/polls/?subject=2026%20Connecticut",
       "race_type": "other_context",
       "party": "D",
-      "margin": 21.0,
-      "details": "A public poll of likely Democratic primary voters showed Gov. Ned Lamont leading Josh Elliott 48% to 27%, a 21-point lead in the gubernatorial primary; this is not a Senate or presidential general-election race.",
-      "date_range": "July 23-26, 2026",
-      "domain": "ctmirror.org",
+      "margin": 20.2,
+      "details": "GreatBlue Research poll of Connecticut likely voters found Ned Lamont at 49.7% and Ryan Fazio at 29.5% in the gubernatorial general election; this is a statewide race poll, not Senate or presidential.",
+      "date_range": "Jul 21-26, 2026",
+      "domain": "politically.com",
       "verified": true
     },
     {
-      "name": "Prediction Edge polling average",
-      "link": "https://www.predictionedge.com/elections/ct/",
+      "name": "Politically.com",
+      "link": "https://politically.com/polls/Z292MjAyZ3JlMGUwZjM1NjE/",
       "race_type": "other_context",
       "party": "D",
-      "margin": 35.8,
-      "details": "This election odds page compiles polling for Connecticut governor and shows Lamont with a large lead, but it is not a Senate or presidential race and therefore does not qualify as target-race polling.",
-      "date_range": "June 18-23, 2026",
-      "domain": "predictionedge.com",
+      "margin": 20.2,
+      "details": "Same GreatBlue Research Connecticut gubernatorial poll showing Lamont ahead of Fazio by roughly 20 points.",
+      "date_range": "Jul 21-26, 2026",
+      "domain": "politically.com",
+      "verified": true
+    },
+    {
+      "name": "Hartford Courant",
+      "link": "https://www.courant.com/2026/08/04/with-early-voting-started-ct-gov-lamont-holds-lead-in-polls-amid-clash-with-josh-elliott/",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 20.15,
+      "details": "Reports the Sacred Heart University / WFSB-TV / CT Insider poll finding Lamont leading Fazio 49.7% to 29.55% in a potential general-election matchup; not a Senate or presidential race.",
+      "date_range": "2026-08-04",
+      "domain": "courant.com",
       "verified": true
     }
   ],
   "abbreviation": "CT",
-  "_cached_at": "2026-08-10T14:57:29.526334"
+  "_cached_at": "2026-08-12T10:23:41.072792"
 }

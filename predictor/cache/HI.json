@@ -2,62 +2,51 @@
   "state": "Hawaii",
   "mode": "senate_presidential_polling",
   "lean": "D",
-  "confidence": 0.8,
-  "strength_label": "Lean",
-  "net_margin": 17.0,
+  "confidence": 1.0,
+  "strength_label": "Strong",
+  "net_margin": 36.0,
   "based_on": "cook_pvi_fallback",
-  "reasoning": "Hawaii does not have a current 2026 U.S. Senate race, and the search results do not show any state-specific 2026 presidential general-election polling for Hawaii. The only recent Hawaii polling/news in the last 45 days is about the 1st Congressional District Democratic primary, so there is no valid current Senate or presidential margin to report for this state-based request.",
-  "as_of_date": "2026-08-10T14:58:03",
+  "reasoning": "Hawaii has no Senate or presidential polling in the provided last-45-days results, so there is no current-race margin to report from those sources. The only recent Hawaii election data in the results concerns the 2026 state primary and a congressional primary, which are not Senate or presidential races and therefore count only as other_context; the state\u2019s structural PVI is heavily Democratic at D+36.",
+  "as_of_date": "2026-08-12T10:24:04",
   "cook_pvi": {
     "party": "D",
-    "percentage_points": 17.0
+    "percentage_points": 36.0
   },
   "sources": [
     {
-      "name": "Newsweek",
+      "name": "Blueprint Polling via Newsweek",
       "link": "https://www.newsweek.com/can-progressive-jarrett-keohokalole-win-hawaii-primary-final-polls-12300281",
       "race_type": "other_context",
       "party": "D",
       "margin": 8.0,
-      "details": "Blueprint Polling found Rep. Ed Case ahead of state Sen. Jarrett Keohokalole 33% to 25% in the Hawaii 1st District Democratic primary.",
+      "details": "Blueprint Polling found Ed Case ahead of Jarrett Keohokalole 33% to 25% in a Hawaii congressional primary survey.",
       "date_range": "July 7-8, 2026",
       "domain": "newsweek.com",
       "verified": true
     },
     {
-      "name": "Newsweek",
+      "name": "Blueprint Polling via Newsweek",
       "link": "https://www.newsweek.com/can-progressive-jarrett-keohokalole-win-hawaii-primary-final-polls-12300281",
       "race_type": "other_context",
       "party": "D",
       "margin": 9.0,
-      "details": "Blueprint Polling found Jarrett Keohokalole ahead of Ed Case 47% to 38% in the Hawaii 1st District Democratic primary.",
+      "details": "Blueprint Polling found Jarrett Keohokalole leading Ed Case 47% to 38% in a Hawaii congressional primary survey.",
       "date_range": "July 24, 2026",
       "domain": "newsweek.com",
       "verified": true
     },
     {
-      "name": "Prediction Edge",
-      "link": "https://www.predictionedge.com/elections/us-house/hawaii-district-1-democratic-primary/",
+      "name": "Hawai\u02bbi Public Radio",
+      "link": "https://www.hawaiipublicradio.org/local-news/2026-08-08/2026-hawaii-primary-results",
       "race_type": "other_context",
       "party": "D",
-      "margin": 12.5,
-      "details": "Prediction Edge\u2019s Hawaii 1st District Democratic primary page summarizes polling averages showing Ed Case ahead in the primary field, with no U.S. Senate or presidential general-election margin for Hawaii.",
-      "date_range": "Oct. 6, 2025 - Jul. 24, 2026",
-      "domain": "predictionedge.com",
-      "verified": true
-    },
-    {
-      "name": "Prediction Edge",
-      "link": "https://www.predictionedge.com/elections/hi/",
-      "race_type": "other_context",
-      "party": "EVEN",
-      "margin": 0.0,
-      "details": "This Hawaii elections page states that neither U.S. Senate seat is up in 2026, so there is no current Senate race in Hawaii for this cycle.",
-      "date_range": "2026 cycle",
-      "domain": "predictionedge.com",
+      "margin": 30.0,
+      "details": "Hawaii public election coverage reported state Senate District 10 incumbent Les Ihara losing to Jackson Sayama in a primary and other state Senate primary outcomes.",
+      "date_range": "August 8-9, 2026",
+      "domain": "hawaiipublicradio.org",
       "verified": true
     }
   ],
   "abbreviation": "HI",
-  "_cached_at": "2026-08-10T14:58:03.533233"
+  "_cached_at": "2026-08-12T10:24:04.816028"
 }

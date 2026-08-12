@@ -6,8 +6,8 @@
   "strength_label": "Lean",
   "net_margin": 14.0,
   "based_on": "cook_pvi_fallback",
-  "reasoning": "Recent polling/news in the last 45 days does not show a current Oregon general-election Senate or presidential polling margin; the search results only surfaced Oregon Senate primary results and forecasts without a state-specific general-election poll. Oregon\u2019s statewide Cook PVI is D+14, indicating a strong Democratic baseline, but that is a structural measure rather than a current-race margin.",
-  "as_of_date": "2026-08-10T15:00:36",
+  "reasoning": "Oregon\u2019s statewide Cook PVI is D+14. In the last 45 days, I found no credible Oregon-specific general-election polling for the 2026 U.S. Senate race or 2026 presidential race; the available items were a primary results page, a prediction market, and unrelated/other-context material, so there is no defensible current polling margin to report for those races from the provided evidence.",
+  "as_of_date": "2026-08-12T10:26:22",
   "cook_pvi": {
     "party": "D",
     "percentage_points": 14.0
@@ -19,23 +19,34 @@
       "race_type": "other_context",
       "party": "EVEN",
       "margin": 0.0,
-      "details": "Live results show the Oregon Senate primary winners, including Jeff Merkley in the Democratic primary and David Smith in the Republican primary; this is primary-only election coverage, not a general-election margin.",
-      "date_range": "2026-05-01 to 2026-08-10",
+      "details": "Live results show the Oregon U.S. Senate primary, including Jeff Merkley winning the Democratic primary and Republican primary results, but this is a primary and does not provide a general-election margin.",
+      "date_range": "2026 Oregon Senate primary",
       "domain": "nbcnews.com",
       "verified": true
     },
     {
-      "name": "PollsMax",
-      "link": "https://www.pollsmax.com/senate/oregon/forecast/",
+      "name": "PredictionHunt / Kalshi market coverage",
+      "link": "https://www.predictionhunt.com/news/can-christine-drazan-end-oregon-s-40-year-jul-17-2026",
+      "race_type": "other_context",
+      "party": "R",
+      "margin": 19.0,
+      "details": "Discusses Oregon governor polling and notes Cook ratings for the Oregon Senate race, but does not provide a current Oregon Senate or presidential general-election poll margin for 2026.",
+      "date_range": "Updated Aug. 3, 2026; references a July 11 poll",
+      "domain": "predictionhunt.com",
+      "verified": true
+    },
+    {
+      "name": "Central Oregon Daily",
+      "link": "https://www.centraloregondaily.com/news/elections/oregon-governor-5th-district-cook-political-ratings-changes/article_597013e1-e272-4655-885c-9388a4068960.html",
       "race_type": "other_context",
       "party": "D",
-      "margin": 20.8,
-      "details": "Forecast model projects a Democratic advantage in the Oregon Senate race with a projected vote of 60.4% D to 39.6% R, implying D+20.8; however, it is a forecast rather than a recent state poll.",
-      "date_range": "Updated 2026-06-29",
-      "domain": "pollsmax.com",
+      "margin": 0.0,
+      "details": "Reports that Cook Political Report rates Oregon\u2019s U.S. Senate race Solid Democrat, but this is a structural rating rather than a current poll and does not supply a margin.",
+      "date_range": "July 10, 2026",
+      "domain": "centraloregondaily.com",
       "verified": true
     }
   ],
   "abbreviation": "OR",
-  "_cached_at": "2026-08-10T15:00:36.207823"
+  "_cached_at": "2026-08-12T10:26:22.534896"
 }

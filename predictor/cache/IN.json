@@ -2,51 +2,17 @@
   "state": "Indiana",
   "mode": "senate_presidential_polling",
   "lean": "R",
-  "confidence": 0.825,
+  "confidence": 0.775,
   "strength_label": "Lean",
-  "net_margin": -18.0,
+  "net_margin": -16.0,
   "based_on": "cook_pvi_fallback",
-  "reasoning": "Indiana\u2019s statewide Cook PVI is R+18, indicating a strong Republican lean. In the provided last-45-day results, there is no qualifying Indiana general-election Senate or presidential poll; the available items are either unrelated, primary/recount coverage, or not state-specific general-election margin data, so no current race margin can be responsibly extracted from them.",
-  "as_of_date": "2026-08-10T14:58:17",
+  "reasoning": "Indiana\u2019s statewide Cook Partisan Voting Index is **R+16**, indicating a strong Republican lean. In the last 45 days of available polling/news, I did not find any valid Indiana-specific general-election Senate or presidential poll; the results provided were either about a state Senate primary or a different state/race, so they are not usable as current-race margin evidence for Indiana.",
+  "as_of_date": "2026-08-12T10:24:16",
   "cook_pvi": {
     "party": "R",
-    "percentage_points": 18.0
+    "percentage_points": 16.0
   },
-  "sources": [
-    {
-      "name": "WFYI",
-      "link": "https://www.wfyi.org/statewide/2026-07-20/challenger-drops-recount-of-14-vote-gop-primary-margin-for-state-sen-liz-brown",
-      "race_type": "other_context",
-      "party": "R",
-      "margin": 14.0,
-      "details": "Reports on a GOP primary recount challenge in Indiana Senate District 15; this is primary-election context, not a general-election Senate margin.",
-      "date_range": "2026-07-20",
-      "domain": "wfyi.org",
-      "verified": true
-    },
-    {
-      "name": "OPB",
-      "link": "https://www.opb.org/article/2026/08/04/the-latest-michigan-awaits-outcome-of-fierce-democratic-senate-primary/",
-      "race_type": "other_context",
-      "party": "EVEN",
-      "margin": 0.0,
-      "details": "A general political news piece about Michigan primaries; it does not measure Indiana\u2019s electorate or Indiana\u2019s Senate/presidential race.",
-      "date_range": "2026-08-04",
-      "domain": "opb.org",
-      "verified": true
-    },
-    {
-      "name": "FiftyPlusOne",
-      "link": "https://fiftyplusone.news/polls/approval/president",
-      "race_type": "other_context",
-      "party": "D",
-      "margin": 24.0,
-      "details": "A national presidential approval aggregate, not an Indiana-specific presidential or Senate race poll.",
-      "date_range": "2026-08-09",
-      "domain": "fiftyplusone.news",
-      "verified": true
-    }
-  ],
+  "sources": [],
   "abbreviation": "IN",
-  "_cached_at": "2026-08-10T14:58:17.794086"
+  "_cached_at": "2026-08-12T10:24:16.343630"
 }

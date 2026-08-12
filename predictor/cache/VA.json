@@ -2,51 +2,51 @@
   "state": "Virginia",
   "mode": "senate_presidential_polling",
   "lean": "D",
-  "confidence": 0.89,
+  "confidence": 0.907,
   "strength_label": "Strong",
-  "net_margin": 20.6,
+  "net_margin": 21.3,
   "based_on": "sources",
-  "reasoning": "Virginia\u2019s most recent statewide federal-race polling in the provided results shows the 2026 U.S. Senate race far out of reach for Democrats, with Mark Warner leading by roughly 20 points in current polling averages. Because the only clearly relevant race-specific source in the last 45 days is Senate polling, I report Virginia as D+19.9 on the current Senate margin; no qualifying Virginia presidential poll appears in the results.",
-  "as_of_date": "2026-08-10T15:01:37",
+  "reasoning": "Virginia\u2019s statewide structural baseline is roughly D+5 on the Cook PVI scale. In the last 45 days, the only Virginia-specific race information in the provided results is the 2026 U.S. Senate Republican primary and market/polling-style references showing Sen. Mark Warner well ahead in the general-election matchup; no current Virginia presidential general-election polling was present in the results.",
+  "as_of_date": "2026-08-12T10:27:26",
   "cook_pvi": {
     "party": "D",
-    "percentage_points": 4.0
+    "percentage_points": 5.0
   },
   "sources": [
     {
-      "name": "PollsMax Virginia Senate Polls",
-      "link": "https://www.pollsmax.com/senate/virginia/",
-      "race_type": "senate",
-      "party": "D",
-      "margin": 19.9,
-      "details": "Average of the included Virginia Senate polls shows Mark Warner at 51.6% and Bert Mizusawa at 31.7%, a D+19.9 margin.",
-      "date_range": "June 12-16, 2026",
-      "domain": "pollsmax.com",
-      "verified": true
-    },
-    {
-      "name": "Prediction Edge Virginia Elections",
-      "link": "https://www.predictionedge.com/elections/va/",
+      "name": "Prediction Edge / FiftyPlusOne aggregation",
+      "link": "https://www.predictionedge.com/elections/profile/bert-mizusawa/?eventId",
       "race_type": "senate",
       "party": "D",
       "margin": 21.3,
-      "details": "Polling-average table shows Warner leading Mizusawa by 21.3 points in the Virginia U.S. Senate race, with the latest Public Sentiment Institute polls also showing Warner ahead.",
-      "date_range": "June 12-16, 2026",
+      "details": "Polling average and included polls show Mark Warner ahead of Bert Mizusawa by 21.3 points in the Virginia Senate general-election matchup.",
+      "date_range": "Jun 12-16, 2026",
       "domain": "predictionedge.com",
       "verified": true
     },
     {
-      "name": "NBC News Virginia Senate Primary Results",
-      "link": "https://www.nbcnews.com/politics/2026-primary-elections/virginia-senate-results",
+      "name": "ABC News",
+      "link": "https://www.abcnews.com/Politics/virginia-2026-live-primary-election-results/story?id=134596776",
       "race_type": "other_context",
       "party": "EVEN",
       "margin": 0.0,
-      "details": "Live primary results confirm the GOP nominee in the Virginia Senate race, but this is primary-only information and does not measure the general-election margin.",
-      "date_range": "2026-08-04",
-      "domain": "nbcnews.com",
+      "details": "Live election coverage reports Bert Mizusawa won the Republican U.S. Senate primary in Virginia and will face Sen. Mark Warner in the general election.",
+      "date_range": "Aug. 4, 2026",
+      "domain": "abcnews.com",
+      "verified": false
+    },
+    {
+      "name": "The New York Times",
+      "link": "https://www.nytimes.com/interactive/2026/08/04/us/elections/results-virginia-us-senate-primary.html?eafs_enabled=false",
+      "race_type": "other_context",
+      "party": "EVEN",
+      "margin": 22.4,
+      "details": "Election results page confirms the Virginia U.S. Senate Republican primary outcome, with Mizusawa receiving 51.4% and Williams 29.0%.",
+      "date_range": "Aug. 4, 2026",
+      "domain": "nytimes.com",
       "verified": true
     }
   ],
   "abbreviation": "VA",
-  "_cached_at": "2026-08-10T15:01:37.964936"
+  "_cached_at": "2026-08-12T10:27:26.438172"
 }

@@ -4,38 +4,60 @@
   "lean": "R",
   "confidence": 1.0,
   "strength_label": "Strong",
-  "net_margin": -33.4,
-  "based_on": "sources",
-  "reasoning": "Wyoming\u2019s current 2026 Senate race has no general-election polling in the provided last-45-days results; the only race-specific source found is a market forecast projecting a large Republican edge, not a poll. For a structural baseline, Wyoming\u2019s statewide Cook Partisan Voting Index is R+25, which is consistent with the state\u2019s strong Republican lean.[3][6]",
-  "as_of_date": "2026-08-10T15:02:00",
+  "net_margin": -25.0,
+  "based_on": "cook_pvi_fallback",
+  "reasoning": "No recent source in the provided results measures Wyoming\u2019s 2026 Senate or presidential general-election margin; the available items are mostly gubernatorial or House-primary coverage, plus prediction-market pages that are not state-specific polling and therefore count only as other_context. Wyoming\u2019s statewide Cook PVI is strongly Republican, listed as R+25, but that is a structural index rather than a current-race margin.",
+  "as_of_date": "2026-08-12T10:27:52",
   "cook_pvi": {
     "party": "R",
     "percentage_points": 25.0
   },
   "sources": [
     {
-      "name": "PollsMax Wyoming Senate Forecast",
-      "link": "https://www.pollsmax.com/senate/wyoming/forecast/",
-      "race_type": "senate",
+      "name": "Pulse Decision Science (via Cowboy State Daily)",
+      "link": "https://cowboystatedaily.com/2026/07/21/barlow-poll-claims-he-has-huge-lead-over-degenfelder-bien-in-gop-governor-primary/",
+      "race_type": "other_context",
       "party": "R",
-      "margin": 33.4,
-      "details": "Forecast projects a Republican win by 33.4 points and says there are no general-election polls yet.",
-      "date_range": "Last updated Aug 9, 2026",
-      "domain": "pollsmax.com",
+      "margin": 23.0,
+      "details": "Internal poll of likely Republican primary voters for Wyoming governor showing Eric Barlow at 42%, Megan Degenfelder at 19%, and Bret Bien at 14%; this is not the Senate or presidential race.",
+      "date_range": "July 18-20, 2026",
+      "domain": "cowboystatedaily.com",
       "verified": true
     },
     {
-      "name": "Financial Times Wyoming election results",
-      "link": "https://ig.ft.com/us-elections/2024/results/state/wyoming/",
+      "name": "Kalshi (via Cowboy State Daily)",
+      "link": "https://cowboystatedaily.com/2026/08/03/gambling-sites-favor-steve-friess-and-eric-barlow-bettors-have-waged-131k-so-far/",
       "race_type": "other_context",
       "party": "R",
-      "margin": 51.4,
-      "details": "Shows Wyoming\u2019s statewide Senate result history and the underlying Republican performance used as structural context for the state\u2019s partisan lean.",
-      "date_range": "2024 results / structural context",
-      "domain": "ig.ft.com",
+      "margin": 94.5,
+      "details": "Prediction-market odds page for Wyoming Senate nomination, not a general-election poll and not a state-specific current general-election margin.",
+      "date_range": "August 3, 2026",
+      "domain": "cowboystatedaily.com",
+      "verified": true
+    },
+    {
+      "name": "Kalshi",
+      "link": "https://cowboystatedaily.com/2026/08/03/gambling-sites-favor-steve-friess-and-eric-barlow-bettors-have-waged-131k-so-far/",
+      "race_type": "other_context",
+      "party": "R",
+      "margin": 94.5,
+      "details": "Prediction-market odds page showing Harriet Hageman heavily favored for the GOP Senate nomination; this is nomination betting, not the general-election margin.",
+      "date_range": "August 3, 2026",
+      "domain": "cowboystatedaily.com",
+      "verified": true
+    },
+    {
+      "name": "Politics & Poll Tracker / X",
+      "link": "https://x.com/PollTracker2024/status/2079954623230599180",
+      "race_type": "other_context",
+      "party": "R",
+      "margin": 23.0,
+      "details": "Poll tracker page reproducing the internal governor-primary poll; not the Senate or presidential race.",
+      "date_range": "July 18-20, 2026",
+      "domain": "x.com",
       "verified": true
     }
   ],
   "abbreviation": "WY",
-  "_cached_at": "2026-08-10T15:02:00.692757"
+  "_cached_at": "2026-08-12T10:27:52.856613"
 }

@@ -6,25 +6,58 @@
   "strength_label": "Toss-up",
   "net_margin": 2.0,
   "based_on": "cook_pvi_fallback",
-  "reasoning": "The search results did not surface any Nevada Senate or presidential polls from the last 45 days that specifically measure the current 2026 Nevada general-election race. The only Nevada-specific recent item in the results was a GOP-commissioned set of governor polls, which is not the requested race, so the best available Nevada baseline is the state's Cook PVI of D+2.",
-  "as_of_date": "2026-08-10T14:59:43",
+  "reasoning": "I could not find any qualifying Nevada general-election polling or major forecaster updates for the current Senate or presidential race within the last 45 days in the provided results. The only Nevada-relevant current-race polling surfaced was for the governor\u2019s race and a hypothetical 2028 presidential matchup, so there is no solid basis to assign a current Senate or presidential margin; Nevada\u2019s statewide Cook PVI is D+2.",
+  "as_of_date": "2026-08-12T10:25:27",
   "cook_pvi": {
     "party": "D",
     "percentage_points": 2.0
   },
   "sources": [
     {
-      "name": "Cook Political Report PVI",
-      "link": "https://www.cookpolitical.com/pvi-map-and-district-list",
+      "name": "Cook Political Report Partisan Voting Index",
+      "link": "https://www.cookpolitical.com/ratings/pvi",
       "race_type": "other_context",
       "party": "D",
       "margin": 2.0,
-      "details": "Structural partisan baseline for Nevada, indicating a slight Democratic lean statewide.",
-      "date_range": "2026 cycle (no specific poll dates shown in result)",
+      "details": "Statewide partisan index listing Nevada as D+2.",
+      "date_range": "2026",
       "domain": "cookpolitical.com",
       "verified": false
+    },
+    {
+      "name": "Las Vegas Sun / Public Policy Polling",
+      "link": "https://lasvegassun.com/news/2026/jul/22/aaron-ford-and-joe-lombardo-tie-at-44-in-new-nevad/",
+      "race_type": "other_context",
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "Public Policy Polling found Joe Lombardo and Aaron Ford tied at 44% each in Nevada's gubernatorial race, which is not the Senate or presidential race.",
+      "date_range": "July 15-16, 2026",
+      "domain": "lasvegassun.com",
+      "verified": true
+    },
+    {
+      "name": "The Nevada Independent",
+      "link": "https://thenevadaindependent.com/article/three-gop-polls-show-lombardo-with-sizable-lead-in-nevada-governors-race",
+      "race_type": "other_context",
+      "party": "R",
+      "margin": 9.3,
+      "details": "Reported three GOP-aligned polls of the Nevada gubernatorial race showing Lombardo ahead by 9, 12, and 7 points; not a Senate or presidential poll.",
+      "date_range": "late June to late July 2026",
+      "domain": "thenevadaindependent.com",
+      "verified": true
+    },
+    {
+      "name": "Instagram post quoting a poll",
+      "link": "https://www.instagram.com/p/DayZg-vjg76/",
+      "race_type": "other_context",
+      "party": "R",
+      "margin": 4.0,
+      "details": "A Nevada hypothetical matchup had JD Vance leading Gavin Newsom 47% to 43%, but this is a future-cycle presidential test and not the current 2026 race.",
+      "date_range": "2028 hypothetical",
+      "domain": "instagram.com",
+      "verified": true
     }
   ],
   "abbreviation": "NV",
-  "_cached_at": "2026-08-10T14:59:43.369306"
+  "_cached_at": "2026-08-12T10:25:27.211101"
 }

@@ -2,40 +2,51 @@
   "state": "Missouri",
   "mode": "senate_presidential_polling",
   "lean": "R",
-  "confidence": 0.75,
+  "confidence": 0.775,
   "strength_label": "Lean",
-  "net_margin": -15.0,
+  "net_margin": -16.0,
   "based_on": "cook_pvi_fallback",
-  "reasoning": "Missouri\u2019s statewide Cook PVI is R+15. In the last 45 days, the search results did not turn up any credible Missouri-specific general-election Senate or presidential polling for the 2026 race; the results were dominated by primary coverage and state legislative context, so there is no defensible current race margin to report from the provided sources. ",
-  "as_of_date": "2026-08-10T14:59:25",
+  "reasoning": "Missouri\u2019s statewide Cook PVI is R+16. I did not find a recent, Missouri-specific 2026 general-election poll for the Senate or presidential race in the provided results, so there is no current race margin to report from the last 45 days; the available items are mostly primary-election coverage or state legislative context, which are not valid for the requested race.",
+  "as_of_date": "2026-08-12T10:25:12",
   "cook_pvi": {
     "party": "R",
-    "percentage_points": 15.0
+    "percentage_points": 16.0
   },
   "sources": [
     {
-      "name": "Missouri Scout",
+      "name": "Missouri Scout / Remington Research Group",
       "link": "https://moscout.com/daily-updates-1/2026/7/20/moscout-daily-update-new-polls-in-senate-20-amp-28-new-mitten-spot-mayhew-flips-on-a5-renewmo-backs-sharpe-and-more",
       "race_type": "other_context",
       "party": "D",
       "margin": 4.0,
-      "details": "Missouri State Senate district-level primary polling showed Lori Rook leading Curtis Trent 39% to 35%, but this is a state legislative primary and not the statewide Senate or presidential race.",
-      "date_range": "N/A",
+      "details": "Remington Research Group poll of Missouri Senate 20 Republican primary voters showed Lori Rook leading Curtis Trent 39% to 35%, but this is a state legislative primary and not the statewide Senate race.",
+      "date_range": "July 17-19, 2026",
       "domain": "moscout.com",
       "verified": true
     },
     {
-      "name": "The New York Times",
-      "link": "https://www.nytimes.com/interactive/2026/08/04/us/elections/results-missouri-primary.html",
+      "name": "Missouri Independent",
+      "link": "https://missouriindependent.com/2026/08/05/what-tuesdays-primary-results-say-about-amendment-5-and-the-next-missouri-senate/",
       "race_type": "other_context",
       "party": "EVEN",
       "margin": 0.0,
-      "details": "Missouri primary results coverage for the Aug. 4, 2026 election; this is election-result reporting for primaries, not statewide general-election polling.",
-      "date_range": "N/A",
-      "domain": "nytimes.com",
+      "details": "Coverage of Missouri primary results and implications for the next Missouri Senate cycle, but it does not provide a statewide 2026 general-election margin.",
+      "date_range": "August 4, 2026",
+      "domain": "missouriindependent.com",
+      "verified": true
+    },
+    {
+      "name": "The Missouri Times",
+      "link": "https://themissouritimes.com/state-senate-tipsheet-july-2026/",
+      "race_type": "other_context",
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "State Senate tipsheet discusses competitive Missouri legislative races and mentions internal polling, but it is not the statewide Senate or presidential race.",
+      "date_range": "July 2026",
+      "domain": "themissouritimes.com",
       "verified": true
     }
   ],
   "abbreviation": "MO",
-  "_cached_at": "2026-08-10T14:59:25.619426"
+  "_cached_at": "2026-08-12T10:25:12.187947"
 }

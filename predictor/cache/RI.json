@@ -2,51 +2,51 @@
   "state": "Rhode Island",
   "mode": "senate_presidential_polling",
   "lean": "D",
-  "confidence": 0.775,
+  "confidence": 0.8,
   "strength_label": "Lean",
-  "net_margin": 16.0,
-  "based_on": "cook_pvi_fallback",
-  "reasoning": "Rhode Island is strongly Democratic statewide, so the structural baseline is D+16 Cook PVI. In the last 45 days, the available Rhode Island-specific general-election polling in the search results is for the governor\u2019s race, not the Senate or presidential race, so there is no qualifying current Senate or presidential margin to report from the provided sources.",
-  "as_of_date": "2026-08-10T15:00:50",
+  "net_margin": 17.0,
+  "based_on": "sources",
+  "reasoning": "Rhode Island\u2019s current race picture is best summarized by the Senate contest: the only directly relevant recent public polling in the provided results shows Democrat Sheldon Whitehouse/other Democratic-aligned outcome well ahead, with UNH polling cited as Reed leading McKay by 17 points. No recent, state-specific general-election presidential poll for Rhode Island appears in the results, so the Senate margin is the usable current race margin. Rhode Island\u2019s statewide Cook PVI is D+14, indicating a strong Democratic lean.",
+  "as_of_date": "2026-08-12T10:26:35",
   "cook_pvi": {
     "party": "D",
-    "percentage_points": 16.0
+    "percentage_points": 14.0
   },
   "sources": [
     {
-      "name": "UNH Survey Center",
-      "link": "https://scholars.unh.edu/survey_center_polls/",
-      "race_type": "other_context",
+      "name": "Prediction Edge / UNH Survey Center polling citation",
+      "link": "https://www.predictionedge.com/elections/profile/raymond-mckay/",
+      "race_type": "senate",
       "party": "D",
-      "margin": 20.0,
-      "details": "UNH Survey Center poll of Rhode Island Democratic gubernatorial primary voters found Foulkes leading McKee 42% to 22%. This is not a Senate or presidential general-election poll, so it is only contextual.",
-      "date_range": "Jun 18 - 23, 2026",
-      "domain": "scholars.unh.edu",
-      "verified": true
-    },
-    {
-      "name": "PredictionEdge / Tavern Research",
-      "link": "https://www.predictionedge.com/elections/ri/",
-      "race_type": "other_context",
-      "party": "D",
-      "margin": 5.0,
-      "details": "Tavern Research polling cited in the Rhode Island gubernatorial polling average showed Foulkes ahead of McKee 41% to 36%. This is a governor primary result, not a Senate or presidential general-election margin.",
-      "date_range": "Jul 10 - 14, 2026",
+      "margin": 17.0,
+      "details": "Prediction Edge\u2019s candidate page cites University of New Hampshire Survey Center polling showing Republican Raymond McKay at 35%, implying a large Democratic lead in the Rhode Island U.S. Senate race context.",
+      "date_range": "late June 2026",
       "domain": "predictionedge.com",
       "verified": true
     },
     {
-      "name": "The Boston Globe",
-      "link": "https://www.bostonglobe.com/2026/07/22/metro/mckee-foulkes-union-group-poll/",
+      "name": "Polymarket market commentary citing UNH polling",
+      "link": "https://polymarket.com/ja/event/rhode-island-senate-margin-of-victory-2026",
+      "race_type": "senate",
+      "party": "D",
+      "margin": 17.0,
+      "details": "Polymarket\u2019s Rhode Island Senate market text states that recent University of New Hampshire polling from late June shows Reed leading Republican Raymond McKay by 17 points.",
+      "date_range": "late June 2026",
+      "domain": "polymarket.com",
+      "verified": true
+    },
+    {
+      "name": "Cook Political Report Partisan Voting Index",
+      "link": "https://www.cookpolitical.com/analysis/national/national-politics/race-ratings",
       "race_type": "other_context",
       "party": "D",
-      "margin": 6.0,
-      "details": "The Boston Globe reported a union-backed internal poll showing McKee within 6 points of Foulkes, 39% to 33%, in the Rhode Island Democratic gubernatorial primary.",
-      "date_range": "Jul 22, 2026",
-      "domain": "bostonglobe.com",
-      "verified": true
+      "margin": 14.0,
+      "details": "Cook Political Report\u2019s statewide Rhode Island partisanship rating is D+14, reflecting the state\u2019s strong Democratic tilt.",
+      "date_range": "2026 cycle (statewide structural rating)",
+      "domain": "cookpolitical.com",
+      "verified": false
     }
   ],
   "abbreviation": "RI",
-  "_cached_at": "2026-08-10T15:00:50.342562"
+  "_cached_at": "2026-08-12T10:26:35.893991"
 }

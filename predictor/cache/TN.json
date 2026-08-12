@@ -2,51 +2,62 @@
   "state": "Tennessee",
   "mode": "senate_presidential_polling",
   "lean": "R",
-  "confidence": 0.875,
+  "confidence": 0.975,
   "strength_label": "Strong",
-  "net_margin": -20.0,
+  "net_margin": -24.0,
   "based_on": "cook_pvi_fallback",
-  "reasoning": "Tennessee is a strongly Republican state, with its statewide Cook PVI commonly listed around R+20. In the last 45 days, I found no credible general-election Senate or presidential poll specific to Tennessee; the available results were primary coverage and an election-forecast page indicating Bill Hagerty remains a heavy favorite, so the current Senate margin is best characterized as strongly Republican rather than a measured D/R polling margin. ",
-  "as_of_date": "2026-08-10T15:01:13",
+  "reasoning": "Tennessee is a strongly Republican state, with a Cook Partisan Voting Index of R+24. In the last 45 days, I found only primary-election material and a Tennessee Senate primary live-results page; I did not find any current state-specific general-election Senate or presidential polling for Tennessee, so there is no reliable current D/R margin for the 2026 general race to report from the allowed sources.",
+  "as_of_date": "2026-08-12T10:27:05",
   "cook_pvi": {
     "party": "R",
-    "percentage_points": 20.0
+    "percentage_points": 24.0
   },
   "sources": [
     {
-      "name": "Pollsmax Tennessee Senate Forecast",
-      "link": "https://www.pollsmax.com/senate/tennessee/forecast/",
-      "race_type": "other_context",
-      "party": "R",
-      "margin": 29.8,
-      "details": "Forecast model rates the Tennessee Senate race as Solid R and projects Bill Hagerty ahead by 29.8 points.",
-      "date_range": "Updated Aug. 9, 2026",
-      "domain": "pollsmax.com",
-      "verified": true
-    },
-    {
-      "name": "The New York Times Tennessee U.S. Senate Primary 2026",
+      "name": "The New York Times",
       "link": "https://www.nytimes.com/interactive/2026/08/06/us/elections/results-tennessee-us-senate-primary.html",
       "race_type": "other_context",
       "party": "R",
       "margin": 99.4,
-      "details": "Live primary results show Bill Hagerty won the Republican Senate primary overwhelmingly, but this is a primary result rather than a general-election margin.",
-      "date_range": "Aug. 7, 2026",
+      "details": "Live results show Bill Hagerty won the Tennessee U.S. Senate Republican primary with 99.4% of the vote.",
+      "date_range": "Aug. 10, 2026",
       "domain": "nytimes.com",
       "verified": true
     },
     {
-      "name": "Nashville Banner / OnMessage Tennessee Republican Primary Poll",
+      "name": "NBC News",
+      "link": "https://www.nbcnews.com/politics/2026-primary-elections/tennessee-senate-results",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 54.8,
+      "details": "Live results show Marquita Bradshaw won the Tennessee U.S. Senate Democratic primary with 54.8% of the vote.",
+      "date_range": "Aug. 10, 2026",
+      "domain": "nbcnews.com",
+      "verified": true
+    },
+    {
+      "name": "The Tennessean",
+      "link": "https://www.tennessean.com/story/news/politics/elections/2026/07/14/marsha-blackburn-john-rose-poll-tn-governor-primary-republican/90908410007/",
+      "race_type": "other_context",
+      "party": "R",
+      "margin": 15.0,
+      "details": "Reported an internal Republican gubernatorial-primary poll showing Marsha Blackburn leading John Rose 44% to 29%, but this is a governor-primary survey and not relevant to the Senate or presidential general election.",
+      "date_range": "July 2026",
+      "domain": "tennessean.com",
+      "verified": true
+    },
+    {
+      "name": "Nashville Banner",
       "link": "https://nashvillebanner.com/2026/07/30/tennessee-republican-primary-poll-blackburn-rose/",
       "race_type": "other_context",
       "party": "R",
       "margin": 3.5,
-      "details": "Report on an internal/leased Republican primary poll for Tennessee governor, not the Senate or presidential general election; it showed Blackburn leading by fewer than four points.",
-      "date_range": "July 30, 2026",
+      "details": "Reported an OnMessage poll of likely Republican primary voters with Blackburn at 34.5% and Rose at 31%, which is a governor-primary poll and not relevant to the current statewide general race.",
+      "date_range": "July 2026",
       "domain": "nashvillebanner.com",
       "verified": true
     }
   ],
   "abbreviation": "TN",
-  "_cached_at": "2026-08-10T15:01:13.998886"
+  "_cached_at": "2026-08-12T10:27:05.439580"
 }

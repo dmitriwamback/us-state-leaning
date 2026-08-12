@@ -2,73 +2,73 @@
   "state": "Michigan",
   "mode": "senate_presidential_polling",
   "lean": "Toss-up",
-  "confidence": 0.19,
+  "confidence": 0.3,
   "strength_label": "Toss-up",
-  "net_margin": -1.9,
-  "based_on": "sources",
-  "reasoning": "Michigan\u2019s statewide Cook PVI is D+2. The only Michigan race-specific general-election polling in the provided results is a poll average showing Republicans narrowly ahead in the Senate race, but the most recent directly relevant items are primary polls and results, so the current Senate general-election margin from the supplied sources is best summarized as R+1.9, with no usable Michigan presidential general-election poll in the last 45 days among the results provided.",
-  "as_of_date": "2026-08-10T14:59:04",
+  "net_margin": 3.0,
+  "based_on": "cook_pvi_fallback",
+  "reasoning": "Michigan\u2019s current 2026 Senate race polling in the last 45 days is dominated by the Democratic primary, which has now been decided, so there is no current general-election margin yet from a qualifying Michigan-specific Senate or presidential poll. The only current race-relevant general-election-style figures in the supplied results are hypothetical head-to-head matchups from late July showing Mike Rogers slightly ahead of Abdul El-Sayed and essentially tied with Haley Stevens, but those are no longer current general-election contenders after the primary outcome.",
+  "as_of_date": "2026-08-12T10:24:57",
   "cook_pvi": {
     "party": "D",
-    "percentage_points": 2.0
+    "percentage_points": 3.0
   },
   "sources": [
     {
-      "name": "PollsMax Michigan Senate polling average",
-      "link": "https://www.pollsmax.com/senate/michigan/",
-      "race_type": "senate",
-      "party": "R",
-      "margin": 1.9,
-      "details": "Polling average of 18 Michigan Senate general-election polls shows Rogers at 45.1% and El-Sayed at 43.1%.",
-      "date_range": "As of August 10, 2026",
-      "domain": "pollsmax.com",
-      "verified": true
-    },
-    {
-      "name": "Emerson College Polling / WLNS / WOOD TV 8",
-      "link": "https://emersoncollegepolling.com/michigan-2026-poll-abdul-el-sayed-leads-haley-stevens-for-democratic-us-senate-nomination/",
+      "name": "Detroit News/WDIV-TV (Glengariff Group)",
+      "link": "https://thehill.com/homenews/campaign/5971801-stevens-el-sayed-michigan-poll/",
       "race_type": "other_context",
       "party": "D",
-      "margin": 15.0,
-      "details": "Emerson College/WLNS/WOOD TV 8 poll found Abdul El-Sayed leading Haley Stevens 54% to 39% in the Democratic Senate primary, which is not a general-election margin.",
-      "date_range": "July 26-27, 2026",
-      "domain": "emersoncollegepolling.com",
+      "margin": 6.8,
+      "details": "Detroit News/WDIV-TV poll of likely Democratic primary voters found Haley Stevens ahead of Abdul El-Sayed 48.2% to 41.4% in the Senate primary.",
+      "date_range": "July 8-11, 2026",
+      "domain": "thehill.com",
       "verified": true
     },
     {
-      "name": "WLNS",
+      "name": "Michigan Education survey (Glengariff Group)",
+      "link": "https://thehill.com/homenews/campaign/5994700-rogers-el-sayed-stevens-michigan-senate-poll/",
+      "race_type": "other_context",
+      "party": "R",
+      "margin": 10.0,
+      "details": "Michigan Education survey commissioned by the Michigan Education Association and Business Leaders for Michigan found Mike Rogers leading Abdul El-Sayed by 10 points in a hypothetical Senate matchup and Haley Stevens leading Rogers 46% to 45%, effectively a tie.",
+      "date_range": "July 15-17, 2026",
+      "domain": "thehill.com",
+      "verified": true
+    },
+    {
+      "name": "Emerson College Polling/WLNS/WOODTV",
       "link": "https://www.wlns.com/your-local-election-hq/el-sayed-leads-michigan-democrats/",
       "race_type": "other_context",
       "party": "D",
       "margin": 15.0,
-      "details": "Associated coverage of the same Emerson/WLNS/WOOD TV 8 primary poll reported El-Sayed ahead of Stevens 54% to 39%.",
+      "details": "Emerson College/WLNS/WOODTV survey found Abdul El-Sayed leading Haley Stevens 54% to 39% in the Democratic Senate primary.",
       "date_range": "July 26-27, 2026",
       "domain": "wlns.com",
       "verified": true
     },
     {
-      "name": "The New York Times",
+      "name": "New York Times summary of recent Michigan Democratic Senate primary polls",
       "link": "https://www.nytimes.com/2026/08/04/us/elections/el-sayed-stevens-michigan-senate-polls.html",
       "race_type": "other_context",
       "party": "D",
       "margin": 19.0,
-      "details": "A New York Times summary of recent Michigan Democratic Senate primary polls showed El-Sayed ahead by double digits in several surveys, including a Zenith poll at El-Sayed +19 and an Emerson poll at El-Sayed +16; these are primary-only and not general-election margins.",
+      "details": "Multiple recent Democratic primary polls summarized by the New York Times showed El-Sayed with leads ranging from +10 to +19 over Stevens, reflecting the primary rather than the general election.",
       "date_range": "July 26-30, 2026",
       "domain": "nytimes.com",
       "verified": true
     },
     {
-      "name": "Detroit News / WDIV-TV",
-      "link": "https://www.detroitnews.com/story/news/politics/2026/07/14/michigan-senate-race-poll-democrats-abdul-el-sayed-haley-stevens-edge/90907700007/",
+      "name": "Mitchell Research & Communications",
+      "link": "https://www.newsweek.com/abdul-el-sayed-chances-haley-stevens-final-michigan-polls-12271848",
       "race_type": "other_context",
       "party": "D",
-      "margin": 7.0,
-      "details": "Detroit News/WDIV-TV polling found Haley Stevens leading Abdul El-Sayed 48% to 41% among Democratic primary voters, a primary race result rather than a general-election margin.",
-      "date_range": "July 14-15, 2026",
-      "domain": "detroitnews.com",
+      "margin": 14.0,
+      "details": "Mitchell Research & Communications poll found Abdul El-Sayed leading Haley Stevens 52% to 38% in the Democratic primary.",
+      "date_range": "July 28-29, 2026",
+      "domain": "newsweek.com",
       "verified": true
     }
   ],
   "abbreviation": "MI",
-  "_cached_at": "2026-08-10T14:59:04.658777"
+  "_cached_at": "2026-08-12T10:24:57.953712"
 }

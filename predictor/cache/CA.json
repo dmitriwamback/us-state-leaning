@@ -2,29 +2,62 @@
   "state": "California",
   "mode": "senate_presidential_polling",
   "lean": "D",
-  "confidence": 0.875,
+  "confidence": 0.95,
   "strength_label": "Strong",
-  "net_margin": 20.0,
+  "net_margin": 23.0,
   "based_on": "cook_pvi_fallback",
-  "reasoning": "California\u2019s statewide Cook PVI is strongly Democratic, at about D+20. In the provided last-45-days search results, I did not find a real California 2026 Senate or presidential general-election poll; the only clearly California-specific recent race result was for governor, so there is no valid current Senate/presidential margin to report from the allowed source set.",
-  "as_of_date": "2026-08-10T14:57:17",
+  "reasoning": "California\u2019s statewide Cook PVI is D+23. In the last 45 days, the only California-specific general-election polling in the provided results is for the governor\u2019s race, not a current Senate or presidential ballot race; the presidential items are 2028 White House preference tests and therefore count only as other_context, not current-race polling for California. No qualifying California Senate poll or current presidential ballot poll was present, so there is no current Senate/presidential margin to report from the supplied evidence.",
+  "as_of_date": "2026-08-12T10:23:31",
   "cook_pvi": {
     "party": "D",
-    "percentage_points": 20.0
+    "percentage_points": 23.0
   },
   "sources": [
     {
-      "name": "Cook Political Report",
-      "link": "https://www.cookpolitical.com/",
+      "name": "Cook Political Report Partisan Voter Index",
+      "link": "https://cookpolitical.com/?state=CA",
       "race_type": "other_context",
       "party": "D",
-      "margin": 20.0,
-      "details": "Shows California as a strongly Democratic state on the statewide Cook PVI scale, indicating a D+20 baseline.",
-      "date_range": "2026 (statewide structural index; current listing referenced in search context)",
+      "margin": 23.0,
+      "details": "Cook Political Report\u2019s statewide presidential performance index rates California at D+23.",
+      "date_range": "May 2025 \u2013 November 2026",
       "domain": "cookpolitical.com",
       "verified": false
+    },
+    {
+      "name": "Echelon Insights (reported by New York Post)",
+      "link": "https://nypost.com/2026/07/22/us-news/gavin-newsom-consistently-trails-kamala-harris-in-2028-presidential-polls/",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 7.0,
+      "details": "Echelon Insights polling discussed in reporting shows Kamala Harris leading Gavin Newsom by 7 points in a California 2028 White House preference test; this is not a current California presidential ballot race.",
+      "date_range": "July 9-13, 2026",
+      "domain": "nypost.com",
+      "verified": true
+    },
+    {
+      "name": "Quantus Insights (reported by New York Post)",
+      "link": "https://nypost.com/2026/07/22/us-news/gavin-newsom-consistently-trails-kamala-harris-in-2028-presidential-polls/",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 18.0,
+      "details": "Quantus Insights polling discussed in reporting shows Harris ahead of Newsom by 18 points in the same 2028 California White House preference test, which is outside the current race scope.",
+      "date_range": "July 3-7, 2026",
+      "domain": "nypost.com",
+      "verified": true
+    },
+    {
+      "name": "Public Policy Institute of California (reported by Orange County Register)",
+      "link": "https://www.ocregister.com/2026/07/16/harris-newsom-khanna-californias-three-way-race-for-2028/",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 25.0,
+      "details": "PPIC polling reported that Xavier Becerra leads Steve Hilton 61% to 36% in California\u2019s governor\u2019s race; this is a non-qualifying other_context source because it is not a Senate or presidential race.",
+      "date_range": "July 15, 2026",
+      "domain": "ocregister.com",
+      "verified": true
     }
   ],
   "abbreviation": "CA",
-  "_cached_at": "2026-08-10T14:57:17.394914"
+  "_cached_at": "2026-08-12T10:23:31.383002"
 }

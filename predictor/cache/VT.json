@@ -4,49 +4,38 @@
   "lean": "D",
   "confidence": 1.0,
   "strength_label": "Strong",
-  "net_margin": 26.0,
+  "net_margin": 27.0,
   "based_on": "cook_pvi_fallback",
-  "reasoning": "Vermont does not have a 2026 U.S. Senate general-election race on the ballot; the relevant available 2026 polling in the last 45 days is for governor, not Senate, so there is no current Senate margin to report from state-specific polling. The most relevant recent statewide poll shows Phil Scott leading in the governor\u2019s race by double digits, while Vermont\u2019s statewide Cook PVI remains strongly Democratic at D+26.",
-  "as_of_date": "2026-08-10T15:01:32",
+  "reasoning": "Vermont\u2019s current-race polling in the last 45 days is sparse, and the only clearly statewide survey in the results is a July UNH poll showing Democrat Aly Richards leading incumbent Phil Scott 35% to 43% in the governor\u2019s race, which is not a Senate or presidential test and therefore counts only as context. For the requested federal races, the results provided do not include a Vermont-specific general-election Senate or presidential poll from the last 45 days, so the safest current margin assessment is that Vermont remains strongly Democratic at the structural level, consistent with its statewide Cook PVI of D+27.",
+  "as_of_date": "2026-08-12T10:27:22",
   "cook_pvi": {
     "party": "D",
-    "percentage_points": 26.0
+    "percentage_points": 27.0
   },
   "sources": [
     {
-      "name": "University of New Hampshire Survey Center",
-      "link": "https://scholars.unh.edu/survey_center_polls/982/",
+      "name": "University of New Hampshire poll via Politically.com",
+      "link": "https://politically.com/polls/Z292MjAydW5pNGRlNTRiZTM/",
       "race_type": "other_context",
       "party": "R",
       "margin": 8.0,
-      "details": "Statewide UNH Survey Center polling found Phil Scott ahead in the 2026 Vermont governor matchup by 8 points over Rebecca Holcombe and by 11 points over Esther Charlestin in separate ballot tests.",
-      "date_range": "July 15-20, 2026",
-      "domain": "scholars.unh.edu",
+      "details": "Statewide voter attitude/context poll with Phil Scott 43% and Aly Richards 35%; this is gubernatorial context, not a Senate or presidential general-election matchup.",
+      "date_range": "July 2026",
+      "domain": "politically.com",
       "verified": true
     },
     {
-      "name": "University of New Hampshire Survey Center",
-      "link": "https://scholars.unh.edu/survey_center_polls/982/",
-      "race_type": "other_context",
-      "party": "R",
-      "margin": 15.0,
-      "details": "Earlier UNH Survey Center statewide polling showed Phil Scott leading by 15 to 16 points in separate governor ballot tests, reinforcing a large Republican advantage in the gubernatorial race.",
-      "date_range": "June 18-23, 2026",
-      "domain": "scholars.unh.edu",
-      "verified": true
-    },
-    {
-      "name": "Cook Political Report PVI",
-      "link": "https://cookpolitical.com/cook-pvi",
+      "name": "Cook Political Report State PVI",
+      "link": "https://www.cookpolitical.com/state-pvi",
       "race_type": "other_context",
       "party": "D",
-      "margin": 26.0,
-      "details": "Vermont\u2019s statewide Cook Partisan Voting Index is D+26, indicating a very strong Democratic lean in federal elections.",
-      "date_range": "2026 cycle structural data",
+      "margin": 27.0,
+      "details": "Statewide Cook PVI for Vermont, indicating the state leans heavily Democratic overall.",
+      "date_range": "2026",
       "domain": "cookpolitical.com",
       "verified": false
     }
   ],
   "abbreviation": "VT",
-  "_cached_at": "2026-08-10T15:01:32.026402"
+  "_cached_at": "2026-08-12T10:27:22.135083"
 }

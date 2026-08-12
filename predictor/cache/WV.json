@@ -4,49 +4,49 @@
   "lean": "R",
   "confidence": 1.0,
   "strength_label": "Strong",
-  "net_margin": -40.0,
-  "based_on": "cook_pvi_fallback",
-  "reasoning": "West Virginia remains a strongly Republican state structurally, with a Cook PVI of R+40. In the last 45 days, the only West Virginia race-specific information found was the May 2026 U.S. Senate primary results, which confirm the nominees but do not provide a general-election Senate margin; no current statewide general-election Senate or presidential poll for West Virginia was available in the provided results, so there is no evidence of a measurable current margin beyond the state's underlying Republican lean.",
-  "as_of_date": "2026-08-10T15:01:48",
+  "net_margin": -66.0,
+  "based_on": "sources",
+  "reasoning": "West Virginia remains an extremely Republican state, with a statewide Cook PVI of R+43. In the last 45 days, the only clearly state-specific 2026 general-election race signal in the provided results is market-based reporting that prices the West Virginia Senate race as a lopsided Republican win; I did not find a qualifying West Virginia presidential poll, and the other results are primary or non-state-specific context rather than this race.",
+  "as_of_date": "2026-08-12T10:27:38",
   "cook_pvi": {
     "party": "R",
-    "percentage_points": 40.0
+    "percentage_points": 43.0
   },
   "sources": [
     {
-      "name": "The Intelligencer",
-      "link": "https://www.theintelligencer.net/news/top-headlines/2026/05/capito-wins-overwhelmingly-in-gop-senate-primary-anderson-to-provide-democratic-challenge/",
-      "race_type": "other_context",
+      "name": "Oddsshopper",
+      "link": "https://www.oddsshopper.com/articles/prediction-markets/why-shelley-moore-capito-will-win-the-west-virginia-senate-race",
+      "race_type": "senate",
       "party": "R",
-      "margin": 66.5,
-      "details": "Shelley Moore Capito won the Republican Senate primary and Rachel Fetty Anderson won the Democratic primary, setting up the general-election matchup but without a statewide head-to-head margin.",
-      "date_range": "May 2026",
-      "domain": "theintelligencer.net",
+      "margin": 97.0,
+      "details": "Reports Kalshi West Virginia Senate winner-market pricing at about a 97% implied chance for Republican Shelley Moore Capito, indicating a very strong Republican advantage in the general election.",
+      "date_range": "August 11, 2026",
+      "domain": "oddsshopper.com",
+      "verified": true
+    },
+    {
+      "name": "Polymarket",
+      "link": "https://polymarket.com/event/west-virginia-senate-margin-of-victory-2026/will-the-republican-party-candidate-win-the-2026-west-virginia-senate-election-by-40-45",
+      "race_type": "senate",
+      "party": "R",
+      "margin": 35.0,
+      "details": "Shows Polymarket's West Virginia Senate margin-of-victory market with the leading outcome in the Republican 35-40% range, implying a large Republican win.",
+      "date_range": "August 11, 2026",
+      "domain": "polymarket.com",
       "verified": true
     },
     {
       "name": "NBC News",
       "link": "https://www.nbcnews.com/politics/2026-primary-elections/west-virginia-senate-results",
       "race_type": "other_context",
-      "party": "R",
-      "margin": 66.5,
-      "details": "NBC News live results show Capito winning the GOP primary and Anderson winning the Democratic primary in West Virginia's Senate race.",
-      "date_range": "May 2026",
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "Live results for the West Virginia Senate primary; this is not the general-election race, but it confirms the 2026 Senate contest and provides context only.",
+      "date_range": "2026 primary election results",
       "domain": "nbcnews.com",
       "verified": true
-    },
-    {
-      "name": "Cook Political Report",
-      "link": "https://www.cookpolitical.com/cook-pvi",
-      "race_type": "other_context",
-      "party": "R",
-      "margin": 40.0,
-      "details": "Statewide Cook Partisan Voting Index for West Virginia is R+40, indicating a very strong Republican baseline.",
-      "date_range": "2026",
-      "domain": "cookpolitical.com",
-      "verified": false
     }
   ],
   "abbreviation": "WV",
-  "_cached_at": "2026-08-10T15:01:48.508304"
+  "_cached_at": "2026-08-12T10:27:38.894196"
 }

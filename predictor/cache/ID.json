@@ -1,52 +1,52 @@
 {
   "state": "Idaho",
   "mode": "senate_presidential_polling",
-  "lean": "R",
-  "confidence": 1.0,
-  "strength_label": "Strong",
-  "net_margin": -40.0,
+  "lean": "Toss-up",
+  "confidence": 0.4,
+  "strength_label": "Toss-up",
+  "net_margin": -4.0,
   "based_on": "sources",
-  "reasoning": "Idaho\u2019s statewide Cook PVI is R+18. Recent race-specific polling in the last 45 days is sparse, but the clearest state-specific general-election poll in the results shows Republican Jim Risch leading independent Todd Achilles 40%-36% in a Bullfinch Group survey from early June, which corresponds to a roughly R+4 margin in that matchup; a separate June Peak Insights poll found Risch ahead 55%-15% in a broader field, implying a much larger R advantage. Given the lack of multiple recent general-election polls, the best current read is that the Senate race remains Republican-favored by at least low double digits overall, with the one-on-one poll showing a tighter R+4 baseline if Roth\u2019s withdrawal is fully reflected.",
-  "as_of_date": "2026-08-10T14:58:08",
+  "reasoning": "Idaho is structurally very Republican, with a Cook PVI of R+34. In the last 45 days, the only relevant race-specific reporting in the provided results indicates Republican Jim Risch remains ahead in the Senate race, with one spring poll showing a 40-36 Risch edge over independent Todd Achilles and coverage noting another polling result where Risch led Roth by 25 points; no recent state-specific presidential poll for Idaho was surfaced.",
+  "as_of_date": "2026-08-12T10:24:08",
   "cook_pvi": {
     "party": "R",
-    "percentage_points": 18.0
+    "percentage_points": 34.0
   },
   "sources": [
     {
-      "name": "The Downballot citing Bullfinch Group",
+      "name": "The Downballot",
       "link": "https://www.the-downballot.com/p/morning-digest-its-independent-vs?open=false",
       "race_type": "other_context",
       "party": "R",
       "margin": 4.0,
-      "details": "Bullfinch Group poll in a hypothetical one-on-one general-election matchup found Jim Risch leading Todd Achilles 40%-36%.",
+      "details": "Bullfinch Group poll in a hypothetical one-on-one Senate matchup found Jim Risch leading Todd Achilles 40-36.",
       "date_range": "Early June 2026",
       "domain": "the-downballot.com",
       "verified": true
     },
     {
-      "name": "PredictionHunt citing Peak Insights",
-      "link": "https://www.predictionhunt.com/news/republican-idaho-senate-odds-drop-30pp-to-67-jul-20-2026",
+      "name": "ABC45 News",
+      "link": "https://abc45.com/news/nation-world/democratic-dropout-david-roth-in-idahos-us-senate-race-could-boost-independents-todd-achilles-bid-republican-jim-risch",
       "race_type": "senate",
       "party": "R",
-      "margin": 40.0,
-      "details": "Peak Insights statewide survey in the Idaho Senate race found Jim Risch at 55%, David Roth at 15%, Todd Achilles at 7%, Natalie Fleming at 5%, and Matt Loesby at 2%.",
-      "date_range": "June 7, 2026",
-      "domain": "predictionhunt.com",
+      "margin": 4.0,
+      "details": "Coverage reported an Achilles-sponsored poll placing Todd Achilles within four points of Jim Risch, though the article also says David Roth trailed by 25 points in the same survey context.",
+      "date_range": "Spring 2026",
+      "domain": "abc45.com",
       "verified": true
     },
     {
-      "name": "PollsMax",
-      "link": "https://www.pollsmax.com/senate/idaho/forecast/",
+      "name": "Roll Call",
+      "link": "https://rollcall.com/2026/07/29/idaho-democrat-is-latest-senate-nominee-to-drop-out-in-boost-to-independent-rival/",
       "race_type": "other_context",
       "party": "R",
-      "margin": 36.0,
-      "details": "Established forecaster rates Idaho as Solid Republican and shows a polling average of R+36, though it is based on only one included poll in the page\u2019s summary.",
-      "date_range": "2026",
-      "domain": "pollsmax.com",
+      "margin": 0.0,
+      "details": "News coverage reported the Democratic nominee\u2019s withdrawal and described Jim Risch and Todd Achilles as the leading contenders, but did not provide a new numerical margin.",
+      "date_range": "July 29-Aug. 4, 2026",
+      "domain": "rollcall.com",
       "verified": true
     }
   ],
   "abbreviation": "ID",
-  "_cached_at": "2026-08-10T14:58:08.847592"
+  "_cached_at": "2026-08-12T10:24:08.803999"
 }

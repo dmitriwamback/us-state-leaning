@@ -2,29 +2,40 @@
   "state": "New York",
   "mode": "senate_presidential_polling",
   "lean": "D",
-  "confidence": 0.95,
+  "confidence": 0.9,
   "strength_label": "Strong",
-  "net_margin": 23.0,
+  "net_margin": 21.0,
   "based_on": "cook_pvi_fallback",
-  "reasoning": "New York\u2019s statewide Cook Partisan Voting Index is D+23. In the provided last-45-days results, no valid state-specific New York 2026 general-election Senate or presidential poll is present; the results are mostly unrelated national context, a House race, or other New York political news, so there is no current race margin to report from the allowed sources.",
-  "as_of_date": "2026-08-10T15:00:04",
+  "reasoning": "New York\u2019s recent polling in the provided results is mostly about the governor\u2019s race, not the 2026 Senate or presidential contest. The only state-specific structural figure available here is New York\u2019s statewide Cook Partisan Voting Index, and I did not find a recent Senate or presidential poll for New York in the last 45 days among the usable sources.",
+  "as_of_date": "2026-08-12T10:25:59",
   "cook_pvi": {
     "party": "D",
-    "percentage_points": 23.0
+    "percentage_points": 21.0
   },
   "sources": [
     {
-      "name": "Cook Political Report Partisan Voting Index",
-      "link": "https://www.cookpolitical.com/ratings/pvi",
+      "name": "New York Post",
+      "link": "https://nypost.com/2026/07/28/us-news/ny-gop-governor-candidate-bruce-blakeman-trails-hochul-by-just-4-points-in-shocking-new-poll/",
       "race_type": "other_context",
       "party": "D",
-      "margin": 23.0,
-      "details": "Cook PVI lists New York as D+23 statewide.",
-      "date_range": "2026",
-      "domain": "cookpolitical.com",
-      "verified": false
+      "margin": 4.0,
+      "details": "A poll released by the Hochul campaign showed Kathy Hochul ahead of Bruce Blakeman 47% to 43% in the New York governor's race; this is not the Senate or presidential race, so it is only contextual.",
+      "date_range": "2026-07-28",
+      "domain": "nypost.com",
+      "verified": true
+    },
+    {
+      "name": "New York Post",
+      "link": "https://nypost.com/2026/07/23/us-news/gop-rep-mike-lawler-leads-dem-challenger-cait-conley-in-latest-ny-17-poll/",
+      "race_type": "other_context",
+      "party": "R",
+      "margin": 5.0,
+      "details": "A co/efficient poll found Mike Lawler leading Cait Conley 50% to 45% in NY-17, which is a House race and not the statewide Senate or presidential contest.",
+      "date_range": "2026-07-23",
+      "domain": "nypost.com",
+      "verified": true
     }
   ],
   "abbreviation": "NY",
-  "_cached_at": "2026-08-10T15:00:04.668321"
+  "_cached_at": "2026-08-12T10:25:59.395490"
 }

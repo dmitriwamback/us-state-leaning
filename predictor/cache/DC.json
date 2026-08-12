@@ -1,41 +1,18 @@
 {
-  "state": "Washington, D.C.",
+  "state": "Washington, DC",
   "mode": "senate_presidential_polling",
   "lean": "D",
   "confidence": 1.0,
   "strength_label": "Strong",
-  "net_margin": 91.0,
+  "net_margin": 72.0,
   "based_on": "cook_pvi_fallback",
-  "reasoning": "Washington, D.C. does not have a 2026 U.S. Senate or presidential race, so there is no state-specific current-race margin to report from the last 45 days. The only relevant current electoral context is the city's overwhelming Democratic structural lean; Washington, D.C. is widely characterized as D+91 by Cook-style PVI conventions, but no qualifying Senate or presidential polling source exists for this jurisdiction. ",
-  "as_of_date": "2026-08-10T15:02:07",
+  "reasoning": "Washington, DC is not holding a competitive 2026 Senate or presidential race; the relevant recent items in the search results are primary-election coverage and a state election-results page, not a general-election margin for DC. For the requested race types, there is no valid state-specific current margin to report from the last 45 days, so the race-specific source list is empty; the Cook PVI for DC is overwhelmingly Democratic.",
+  "as_of_date": "2026-08-12T10:27:56",
   "cook_pvi": {
     "party": "D",
-    "percentage_points": 91.0
+    "percentage_points": 72.0
   },
-  "sources": [
-    {
-      "name": "Cook Political Report",
-      "link": "https://www.cookpolitical.com/ratings/senate-race-ratings",
-      "race_type": "other_context",
-      "party": "EVEN",
-      "margin": 0.0,
-      "details": "Cook's Senate race ratings page is a general ratings index and does not provide a Washington, D.C. Senate or presidential contest; D.C. has no qualifying current-race entry here.",
-      "date_range": "2026 cycle context",
-      "domain": "cookpolitical.com",
-      "verified": true
-    },
-    {
-      "name": "The Washington Post",
-      "link": "https://www.washingtonpost.com/elections/results/2026/08/04/virginia-us-senate-primary-election-live-results-2026/",
-      "race_type": "other_context",
-      "party": "EVEN",
-      "margin": 0.0,
-      "details": "Primary/election coverage for Washington state is unrelated to Washington, D.C. and does not measure a D.C. Senate or presidential general-election margin.",
-      "date_range": "2026 cycle context",
-      "domain": "washingtonpost.com",
-      "verified": true
-    }
-  ],
+  "sources": [],
   "abbreviation": "DC",
-  "_cached_at": "2026-08-10T15:02:07.456456"
+  "_cached_at": "2026-08-12T10:27:56.077732"
 }
