@@ -125,6 +125,17 @@
                     if (lean == 'R') points *= -1
                     confidence = 0.9
                 }
+                else if (lean != verdict.cook_pvi.party && (lean == 'D' || lean == 'R')) {
+                    if (verdict.cook_pvi.percentage_points - Math.abs(points) > 20) {
+                        lean = verdict.cook_pvi.party
+                        points = lean == 'D' ? verdict.cook_pvi.percentage_points : -verdict.cook_pvi.percentage_points
+                    }
+                }
+                else if (lean == 'D' || lean == 'R') {
+                    if (Math.abs(points) > verdict.cook_pvi.percentage_points && Math.abs(points) > 25) {
+                        points = lean == 'D' ? verdict.cook_pvi.percentage_points : -verdict.cook_pvi.percentage_points
+                    }
+                }
 
                 if (Math.abs(points) < 1) lean = 'Toss-up'
 

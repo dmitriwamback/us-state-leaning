@@ -3,9 +3,9 @@
 
 ## Disclaimer: This app does not determine which state will vote for which party. This app only demonstrates the current leaning of each state.
 
-<p>A real issue is that sometimes the AI model hallucinates, especially for competitive states and swing states such as Michigan, Pennsylvania, Wisconsin, Arizona, and Nevada. (The AI generally switches between Toss-up, Democratic, or Republican for these states a lot).</p>
+<p>A real issue is that sometimes the AI model hallucinates, especially for competitive states and swing states such as Arizona, Michigan, Nevada, Pennsylvania, and Wisconsin. (The AI generally switches between Toss-up, Democratic, or Republican for these states a lot).</p>
 
-<p>Additionally, a few noticeable problems I witnessed was Nebraska classified as 'Toss-up' despite being a strong Republican state overall. However, the AI does a good job at classifying strong/historically Democratic (such as California or Vermont) and Republican states (such as West Virginia or Wyoming) well.</p>
+<p>Additionally, a few noticeable problems I witnessed was Nebraska classified as 'Toss-up' despite being a strong Republican state overall. However, the AI does a good job at classifying other strong/historically Democratic (such as California or Vermont) and Republican states (such as West Virginia or Wyoming) well.</p>
 
 <p>Also, the program classifies Toss-up states depending on the initial leaning in the predictor/cache files.</p>
 
@@ -30,6 +30,7 @@
 </ul>
 
 ### Data compiled from Gemini 3.5 Flash (as of August 2nd 2026)
+<p></p>
 <img width="2230" height="1148" alt="Image" src="https://github.com/user-attachments/assets/8f2bd563-6da4-4bf3-9ce3-c9a6124578ee" />
 
 ### Data compiled from Sonar Pro (as of August 3rd 2026)
@@ -38,7 +39,7 @@
 ### Data as of August 12th 2026
 <img width="1316" height="878" alt="Image" src="https://github.com/user-attachments/assets/80890294-b4fa-4db2-af70-08058401344e" />
 
-## Data as of August 18th 2026
+### Data as of August 18th 2026
 <img width="1288" height="845" alt="Image" src="https://github.com/user-attachments/assets/ddac4644-4be0-430f-859e-8c8c971a99de" />
 
 ## How to run
