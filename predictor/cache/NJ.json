@@ -1,52 +1,74 @@
 {
   "state": "New Jersey",
   "mode": "senate_presidential_polling",
-  "lean": "D",
-  "confidence": 0.728,
-  "strength_label": "Lean",
-  "net_margin": 14.1,
+  "lean": "Toss-up",
+  "confidence": 0.4,
+  "strength_label": "Toss-up",
+  "net_margin": 4.0,
   "based_on": "cook_pvi_fallback",
-  "reasoning": "New Jersey\u2019s statewide Cook Partisan Voting Index is D+14.1. In the last 45 days, the search results did not surface any credible New Jersey general-election Senate or presidential polling; the only relevant New Jersey items were a Senate primary results page, a general news article about the state\u2019s federal races, and a prediction-market page that is not eligible as polling/news for the race margin. Therefore, I can only provide the structural PVI datapoint and no current-race margin source for New Jersey.",
-  "as_of_date": "2026-08-12T10:25:46",
+  "reasoning": "Within the last 45 days, I did not find any state\u2011specific general\u2011election polling for New Jersey\u2019s 2026 Senate or presidential races, so there is no quantified current D+ or R+ polling margin to report for either contest. Available coverage describes the Senate race as a very safe Democratic hold with extremely high implied probabilities for Cory Booker\u2019s re\u2011election, while New Jersey\u2019s statewide Cook PVI of D+4 indicates a structurally Democratic\u2011leaning environment, but those are contextual rather than direct polls of the 2026 general electorate.",
+  "as_of_date": "2026-08-18T13:32:10",
   "cook_pvi": {
     "party": "D",
-    "percentage_points": 14.1
+    "percentage_points": 4.0
   },
   "sources": [
     {
-      "name": "NBC News",
-      "link": "https://www.nbcnews.com/politics/2026-primary-elections/new-jersey-senate-results",
+      "name": "World Population Review (reporting Cook PVI)",
+      "link": "https://worldpopulationreview.com/state-rankings/blue-states",
       "race_type": "other_context",
-      "party": "EVEN",
-      "margin": 0.0,
-      "details": "Live primary results page showing Cory Booker unopposed in the Democratic Senate primary and Justin Murphy winning the Republican primary; this is primary-only and not a general-election margin poll.",
-      "date_range": "2026 cycle context; page current as of 2026-08-12",
-      "domain": "nbcnews.com",
+      "party": "D",
+      "margin": 4.0,
+      "details": "World Population Review summarizes Cook Political Report\u2019s statewide PVI for New Jersey as D+4, indicating the state voted about four points more Democratic than the nation in recent presidential elections.",
+      "date_range": "N/A",
+      "domain": "worldpopulationreview.com",
       "verified": true
     },
     {
-      "name": "Polymarket",
-      "link": "https://polymarket.com/id/event/new-jersey-senate-margin-of-victory-2026",
+      "name": "Cook Partisan Voting Index (via Wikipedia summary)",
+      "link": "https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index",
       "race_type": "other_context",
-      "party": "EVEN",
-      "margin": 0.0,
-      "details": "Prediction market page for the New Jersey Senate election margin-of-victory categories; this is not a poll of the state electorate, so it is not usable as race polling.",
-      "date_range": "2026 cycle context; current market snapshot shown on page",
-      "domain": "polymarket.com",
+      "party": "D",
+      "margin": 4.0,
+      "details": "Wikipedia\u2019s Cook Partisan Voting Index page lists New Jersey\u2019s statewide PVI as D+4, reflecting that the state leans Democratic by four points compared to the national average based on recent presidential results.",
+      "date_range": "N/A",
+      "domain": "en.wikipedia.org",
       "verified": true
     },
     {
-      "name": "NorthJersey.com",
-      "link": "https://www.northjersey.com/story/news/politics/elections/2026/08/10/new-jersey-midterm-elections-feature-one-senate-and-all-12-house-seats/91173731007/",
+      "name": "PredictionMarketSpicks \u2013 New Jersey Senate 2026 odds",
+      "link": "https://predictionmarketspicks.com/midterms-2026/new-jersey-senate",
       "race_type": "other_context",
-      "party": "EVEN",
+      "party": "D",
       "margin": 0.0,
-      "details": "General news overview of New Jersey\u2019s federal midterm races; it provides context but no current Senate or presidential margin poll.",
-      "date_range": "2026-08-10",
-      "domain": "northjersey.com",
+      "details": "A prediction\u2011market odds page characterizes the 2026 New Jersey Senate contest as a safe Democratic hold, with Cory Booker implied around the mid\u201190s in probability, signaling a strongly Democratic\u2011favored outcome but not providing a vote\u2011share margin.",
+      "date_range": "As of August 15, 2026",
+      "domain": "predictionmarketspicks.com",
+      "verified": true
+    },
+    {
+      "name": "Asbury Park Press \u2013 2026 New Jersey midterm elections overview",
+      "link": "https://www.app.com/story/news/2026/08/06/who-are-the-new-jersey-candidates-for-the-november-midterm-elections/91180685007/",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 0.0,
+      "details": "An Asbury Park Press explainer on New Jersey\u2019s 2026 midterm elections notes that Cory Booker is running for re\u2011election against Republican Justin Murphy and others and cites betting odds showing roughly a mid\u201190s percent chance Booker keeps the seat, again indicating strong Democratic advantage without stating a polling margin.",
+      "date_range": "N/A",
+      "domain": "app.com",
+      "verified": true
+    },
+    {
+      "name": "New York Daily News \u2013 report referencing 2024 New Jersey presidential margin",
+      "link": "https://www.nydailynews.com/2026/07/21/new-jersey-non-citizens-vote-registered/",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 6.0,
+      "details": "A New York Daily News report on voter registration issues notes that the Democratic presidential nominee won New Jersey\u2019s 2024 presidential vote by about six percentage points over Donald Trump, illustrating the state\u2019s recent Democratic tilt but not measuring the current 2026 presidential or Senate race.",
+      "date_range": "November 2024 election results (reported July 21, 2026)",
+      "domain": "nydailynews.com",
       "verified": true
     }
   ],
   "abbreviation": "NJ",
-  "_cached_at": "2026-08-12T10:25:46.907858"
+  "_cached_at": "2026-08-18T13:32:10.308782"
 }

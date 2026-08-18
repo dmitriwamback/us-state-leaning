@@ -1,52 +1,63 @@
 {
   "state": "Virginia",
   "mode": "senate_presidential_polling",
-  "lean": "D",
-  "confidence": 0.907,
-  "strength_label": "Strong",
-  "net_margin": 21.3,
-  "based_on": "sources",
-  "reasoning": "Virginia\u2019s statewide structural baseline is roughly D+5 on the Cook PVI scale. In the last 45 days, the only Virginia-specific race information in the provided results is the 2026 U.S. Senate Republican primary and market/polling-style references showing Sen. Mark Warner well ahead in the general-election matchup; no current Virginia presidential general-election polling was present in the results.",
-  "as_of_date": "2026-08-12T10:27:26",
+  "lean": "Toss-up",
+  "confidence": 0.3,
+  "strength_label": "Toss-up",
+  "net_margin": 3.0,
+  "based_on": "cook_pvi_fallback",
+  "reasoning": "Virginia\u2019s statewide Cook Partisan Voting Index is D+3. In the last 45 days, I found no credible state-specific general-election polling for Virginia\u2019s 2026 Senate or presidential race; the available results were the Republican Senate primary, a race-status article noting Warner is effectively unchallenged, and forecast/market pages indicating the seat is overwhelmingly Democratic, so there is no current poll-based margin to report for the general election.",
+  "as_of_date": "2026-08-18T13:36:26",
   "cook_pvi": {
     "party": "D",
-    "percentage_points": 5.0
+    "percentage_points": 3.0
   },
   "sources": [
     {
-      "name": "Prediction Edge / FiftyPlusOne aggregation",
-      "link": "https://www.predictionedge.com/elections/profile/bert-mizusawa/?eventId",
-      "race_type": "senate",
-      "party": "D",
-      "margin": 21.3,
-      "details": "Polling average and included polls show Mark Warner ahead of Bert Mizusawa by 21.3 points in the Virginia Senate general-election matchup.",
-      "date_range": "Jun 12-16, 2026",
-      "domain": "predictionedge.com",
+      "name": "Associated Press",
+      "link": "https://apnews.com/projects/elections-2026/virginia-primary-results-us-senate/",
+      "race_type": "other_context",
+      "party": "R",
+      "margin": 51.5,
+      "details": "Project/AP live results show Bert Mizusawa won the Republican Senate primary; this is primary-election context, not a general-election margin.",
+      "date_range": "August 4, 2026",
+      "domain": "apnews.com",
       "verified": true
     },
     {
       "name": "ABC News",
-      "link": "https://www.abcnews.com/Politics/virginia-2026-live-primary-election-results/story?id=134596776",
+      "link": "https://abcnews.com/Politics/virginia-2026-live-primary-election-results/story?id=134596776",
       "race_type": "other_context",
       "party": "EVEN",
       "margin": 0.0,
-      "details": "Live election coverage reports Bert Mizusawa won the Republican U.S. Senate primary in Virginia and will face Sen. Mark Warner in the general election.",
-      "date_range": "Aug. 4, 2026",
+      "details": "ABC News reported that Army veteran Bert Mizusawa won the Republican primary and will face Democratic Sen. Mark Warner, and noted the Cook Political Report rates the seat as solidly Democratic.",
+      "date_range": "August 5, 2026",
       "domain": "abcnews.com",
-      "verified": false
+      "verified": true
     },
     {
-      "name": "The New York Times",
-      "link": "https://www.nytimes.com/interactive/2026/08/04/us/elections/results-virginia-us-senate-primary.html?eafs_enabled=false",
+      "name": "Prediction Markets Picks",
+      "link": "https://predictionmarketspicks.com/midterms-2026/virginia-senate",
       "race_type": "other_context",
-      "party": "EVEN",
-      "margin": 22.4,
-      "details": "Election results page confirms the Virginia U.S. Senate Republican primary outcome, with Mizusawa receiving 51.4% and Williams 29.0%.",
-      "date_range": "Aug. 4, 2026",
-      "domain": "nytimes.com",
+      "party": "D",
+      "margin": 0.0,
+      "details": "This prediction-market page prices Mark Warner at about 96%, reflecting a strong Democratic advantage rather than a measured poll margin.",
+      "date_range": "August 15, 2026",
+      "domain": "predictionmarketspicks.com",
+      "verified": true
+    },
+    {
+      "name": "Cook Political Report PVI Map and District List",
+      "link": "https://www.cookpolitical.com/pvi-map-and-district-list",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 3.0,
+      "details": "Statewide Cook PVI listing shows Virginia at D+3.",
+      "date_range": "2026-07-29 to 2026-08-13",
+      "domain": "cookpolitical.com",
       "verified": true
     }
   ],
   "abbreviation": "VA",
-  "_cached_at": "2026-08-12T10:27:26.438172"
+  "_cached_at": "2026-08-18T13:36:26.007479"
 }

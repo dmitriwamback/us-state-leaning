@@ -2,51 +2,117 @@
   "state": "Arizona",
   "mode": "senate_presidential_polling",
   "lean": "Toss-up",
-  "confidence": 0.25,
+  "confidence": 0.2,
   "strength_label": "Toss-up",
-  "net_margin": 2.5,
+  "net_margin": -2.0,
   "based_on": "cook_pvi_fallback",
-  "reasoning": "Arizona\u2019s statewide Cook PVI is D+2.5. For the current Senate or presidential race, I found no eligible last-45-days Arizona-specific general-election polling; the available recent Arizona polling/news in the search results concerns other races such as governor or attorney general, so the race-specific margin remains unavailable from the provided sources.",
-  "as_of_date": "2026-08-12T10:23:15",
+  "reasoning": "In the last 45 days, none of the credible polling or news sources located provide a statewide general\u2011election margin for either a 2026 Arizona U.S. Senate race or a presidential race; they cover legislative primaries, voter registration advantages in districts, a statewide attorney general poll, and national or generic ballot data, but not Arizona-specific Senate or presidential head\u2011to\u2011heads.[1][2][4][7][10][12][14] As a result, there is no current, numerically defined D+ or R+ polling margin for Arizona\u2019s 2026 Senate or any presidential contest from these sources, so the best available structural indicator is the 2026 Cook Partisan Voting Index showing Arizona as R+2, meaning the state voted about two points more Republican than the nation in recent presidential elections.[3] Given the absence of race-specific statewide polling, we cannot infer a current partisan margin beyond noting that structurally Arizona leans slightly Republican, while some issue- and generic-ballot data suggest Democrats are competitive nationally, not specifically in Arizona.[12][14]",
+  "as_of_date": "2026-08-18T13:23:56",
   "cook_pvi": {
-    "party": "D",
-    "percentage_points": 2.5
+    "party": "R",
+    "percentage_points": 2.0
   },
   "sources": [
     {
-      "name": "Axios Phoenix / AARP poll coverage",
-      "link": "https://www.axios.com/local/phoenix/2026/08/06/aarp-poll-hobbs-biggs",
+      "name": "AOL / polling firms (Arizona AG poll)",
+      "link": "https://www.aol.com/articles/2026-election-kris-mayes-ahead-212621000.html",
       "race_type": "other_context",
       "party": "D",
-      "margin": 8.0,
-      "details": "AARP-commissioned poll of likely Arizona voters found Democrat Katie Hobbs leading Republican Andy Biggs 52% to 44% in the governor\u2019s race, which is not the Senate or presidential race.",
+      "margin": 5.0,
+      "details": "Poll of 913 likely Arizona voters shows Democrat Attorney General Kris Mayes leading Republican Warren Petersen by 5 points in a statewide AG race.",
       "date_range": "July 26-28, 2026",
-      "domain": "axios.com",
+      "domain": "aol.com",
       "verified": true
     },
     {
-      "name": "AZ Free News / attorney general poll coverage",
-      "link": "https://azfreenews.com/2026/07/2026/07/2026/07/2026/07/2026/07/petersen-widens-lead-to-15-points-over-glassman-in-latest-attorney-general-poll/",
-      "race_type": "other_context",
-      "party": "R",
-      "margin": 15.2,
-      "details": "A poll covered by AZ Free News found Republican Warren Petersen leading Democrat Charles Glassman 43.4% to 28.2% in the Arizona attorney general race, which is not the Senate or presidential race.",
-      "date_range": "July 8-9, 2026",
-      "domain": "azfreenews.com",
-      "verified": false
-    },
-    {
-      "name": "Cook Partisan Voting Index (statewide Arizona)",
-      "link": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Arizona",
+      "name": "Tucson.com summarizing Emerson College poll (generic ballot)",
+      "link": "https://tucson.com/news/nation-world/government-politics/elections/article_24f95f6a-36a7-5cf8-974d-9f506d60519b.html",
       "race_type": "other_context",
       "party": "D",
-      "margin": 2.5,
-      "details": "Arizona\u2019s statewide Cook Partisan Voting Index is listed as D+2.5.",
-      "date_range": "Current statewide structural rating",
-      "domain": "en.wikipedia.org",
+      "margin": 11.0,
+      "details": "Emerson College national generic congressional ballot shows Democrats leading Republicans by 11 points, 53% to 42%, in a midterm context, not Arizona-specific.",
+      "date_range": "July 23, 2026 (poll release referenced)",
+      "domain": "tucson.com",
+      "verified": true
+    },
+    {
+      "name": "AZCentral (legislative primaries and voter registration spreads)",
+      "link": "https://www.azcentral.com/story/news/politics/elections/2026/07/21/arizona-legislature-primary-election-results/90931831007/",
+      "race_type": "other_context",
+      "party": "R",
+      "margin": 3.8,
+      "details": "Arizona primary coverage describes competitive legislative districts and notes Republican voter registration advantages of roughly 3\u20134 percentage points in some Phoenix-area districts, but not statewide Senate or presidential margins.",
+      "date_range": "July 21-22, 2026",
+      "domain": "azcentral.com",
+      "verified": true
+    },
+    {
+      "name": "Arizona Capitol Times (legislative and registration context)",
+      "link": "https://azcapitoltimes.com/news/2026/07/23/the-races-that-will-decide-the-balance-of-power-in-the-legislature/",
+      "race_type": "other_context",
+      "party": "R",
+      "margin": 0.0,
+      "details": "Article highlights legislative races and reports district-level Republican registration advantages (e.g., about 10,991 more active GOP voters in one district), but provides no statewide Senate or presidential polling.",
+      "date_range": "July 23, 2026 (registration data as of most recent records)",
+      "domain": "azcapitoltimes.com",
+      "verified": true
+    },
+    {
+      "name": "Arizona Public Media (AZPM) \u2013 primary election live updates",
+      "link": "https://news.azpm.org/p/azpmnews/2026/7/21/230591-live-updates-2026-arizona-primary-election",
+      "race_type": "other_context",
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "Coverage of Arizona\u2019s 2026 primary election provides live updates and early results for legislative and local races, with no general-election Senate or presidential polling margins.",
+      "date_range": "July 21-22, 2026",
+      "domain": "news.azpm.org",
+      "verified": true
+    },
+    {
+      "name": "AZCentral \u2013 \"What Arizona's primary election tells us about November\"",
+      "link": "https://www.azcentral.com/story/news/politics/elections/2026/07/22/7-things-arizona-voters-told-us-in-the-primary-election/90988464007/",
+      "race_type": "other_context",
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "Analysis of Arizona\u2019s primary election discusses turnout patterns, early voting and implications for November but does not present head\u2011to\u2011head statewide Senate or presidential polling.",
+      "date_range": "July 22, 2026 (reflecting primary through that date)",
+      "domain": "azcentral.com",
+      "verified": true
+    },
+    {
+      "name": "Delaware Online / USA Today Network \u2013 national midterms polling and odds",
+      "link": "https://www.delawareonline.com/story/news/2026/07/22/2026-midterms-polls-congress-house-senate-control/91007193007/",
+      "race_type": "other_context",
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "National midterms overview notes that Democrats lead in polling while Republicans benefit from redistricting, but does not give Arizona-specific statewide Senate or presidential margins.",
+      "date_range": "July 22, 2026 (article summarizing status as of that date)",
+      "domain": "delawareonline.com",
+      "verified": true
+    },
+    {
+      "name": "Al Jazeera \u2013 Arizona primary elections explainer",
+      "link": "https://www.aljazeera.com/news/2026/7/21/arizonas-primary-elections-which-us-races-to-watch-and-why-they-matter",
+      "race_type": "other_context",
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "Article outlines Arizona\u2019s primary election landscape and key races to watch, focusing on procedural and campaign context rather than statewide general-election polling margins.",
+      "date_range": "July 21, 2026",
+      "domain": "aljazeera.com",
+      "verified": true
+    },
+    {
+      "name": "SignalsAZ \u2013 Arizona 2026 primary early results",
+      "link": "https://www.signalsaz.com/articles/arizona-2026-primary-early-results-statewide-yavapai-county/",
+      "race_type": "other_context",
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "Report lists unofficial statewide and Yavapai County primary results, including legislative contests, without any general-election Senate or presidential polling.",
+      "date_range": "July 22, 2026 (primary results timestamp)",
+      "domain": "signalsaz.com",
       "verified": true
     }
   ],
   "abbreviation": "AZ",
-  "_cached_at": "2026-08-12T10:23:15.350607"
+  "_cached_at": "2026-08-18T13:23:56.636448"
 }

@@ -1,18 +1,63 @@
 {
-  "state": "Washington, DC",
+  "state": "District of Columbia",
   "mode": "senate_presidential_polling",
   "lean": "D",
   "confidence": 1.0,
   "strength_label": "Strong",
-  "net_margin": 72.0,
+  "net_margin": 44.0,
   "based_on": "cook_pvi_fallback",
-  "reasoning": "Washington, DC is not holding a competitive 2026 Senate or presidential race; the relevant recent items in the search results are primary-election coverage and a state election-results page, not a general-election margin for DC. For the requested race types, there is no valid state-specific current margin to report from the last 45 days, so the race-specific source list is empty; the Cook PVI for DC is overwhelmingly Democratic.",
-  "as_of_date": "2026-08-12T10:27:56",
+  "reasoning": "There are no state-specific 2026 general-election Senate or presidential polls for Washington, DC in the last 45 days from major outlets or pollsters; DC is overwhelmingly Democratic by structure (Cook PVI D+44), and in practice its federal general elections are lopsided for Democrats, but there is no fresh, DC-focused 2026 polling margin to quantify that advantage right now. National and generic-ballot polling over the last month show Democrats with a modest lead nationally, but those are not DC-specific and thus cannot be used as direct measures of the 2026 DC Senate or presidential margin.",
+  "as_of_date": "2026-08-18T13:38:16",
   "cook_pvi": {
     "party": "D",
-    "percentage_points": 72.0
+    "percentage_points": 44.0
   },
-  "sources": [],
+  "sources": [
+    {
+      "name": "Cook Political Report / Cook Partisan Voting Index (summary via Wikipedia)",
+      "link": "https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 44.0,
+      "details": "Cook Partisan Voting Index lists Washington, D.C. as D+44 at the statewide level, indicating it votes about 44 percentage points more Democratic than the national average in recent presidential elections.",
+      "date_range": "N/A (index, current as of August 2026)",
+      "domain": "en.wikipedia.org",
+      "verified": true
+    },
+    {
+      "name": "Emerson College Polling (reported by The Hill)",
+      "link": "https://thehill.com/homenews/campaign/5984107-democratic-poll-leads-gop/",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 11.0,
+      "details": "A national Emerson College generic congressional ballot poll found Democrats leading Republicans by 11 points, 53% to 42%, indicating a Democratic advantage nationally but not specific to Washington, D.C.",
+      "date_range": "July 19-20, 2026",
+      "domain": "thehill.com",
+      "verified": true
+    },
+    {
+      "name": "Reuters/Ipsos August 2026 Poll",
+      "link": "https://www.ipsos.com/en-us/reutersipsos-august-2026-poll",
+      "race_type": "other_context",
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "A Reuters/Ipsos national poll measured views on President Trump and the 2026 midterms using a representative U.S. sample, providing national but not DC-specific electoral sentiment.",
+      "date_range": "July 29-August 3, 2026",
+      "domain": "ipsos.com",
+      "verified": true
+    },
+    {
+      "name": "Civiqs approval polling (reported via Yahoo News)",
+      "link": "https://www.yahoo.com/news/politics/articles/polling-shows-trumps-approval-rating-152524168.html",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 39.0,
+      "details": "A large-sample Civiqs survey of Trump\u2019s job approval showed in Washington state (not DC) 28% approval and 67% disapproval, illustrating regional disapproval but not applicable as DC-specific electoral polling.",
+      "date_range": "January 20, 2025 - July 20, 2026",
+      "domain": "yahoo.com",
+      "verified": true
+    }
+  ],
   "abbreviation": "DC",
-  "_cached_at": "2026-08-12T10:27:56.077732"
+  "_cached_at": "2026-08-18T13:38:16.136414"
 }

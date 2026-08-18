@@ -1,52 +1,129 @@
 {
   "state": "Idaho",
   "mode": "senate_presidential_polling",
-  "lean": "Toss-up",
-  "confidence": 0.4,
-  "strength_label": "Toss-up",
-  "net_margin": -4.0,
+  "lean": "R",
+  "confidence": 0.887,
+  "strength_label": "Strong",
+  "net_margin": -20.5,
   "based_on": "sources",
-  "reasoning": "Idaho is structurally very Republican, with a Cook PVI of R+34. In the last 45 days, the only relevant race-specific reporting in the provided results indicates Republican Jim Risch remains ahead in the Senate race, with one spring poll showing a 40-36 Risch edge over independent Todd Achilles and coverage noting another polling result where Risch led Roth by 25 points; no recent state-specific presidential poll for Idaho was surfaced.",
-  "as_of_date": "2026-08-12T10:24:08",
+  "reasoning": "Recent Idaho data is almost entirely about the 2026 U.S. Senate race; there is no fresh, state\u2011specific 2026 presidential polling in the last 45 days, so the current margin assessment applies to the Senate contest. Across the peak-quality general\u2011election polling in August, Jim Risch\u2019s lead over his main challenger ranges from mid\u2011single digits (in a three\u2011way ballot test) to the mid\u201130s in a broader field, while market and rating indicators still treat the race as safely Republican; synthesizing these, the best current numerical snapshot is roughly an R+34 Senate environment, with recognition that some narrower polls exist but appear outliers relative to the overall picture. Idaho\u2019s structural baseline remains strongly Republican at about R+19 in Cook PVI, reinforcing that even the tighter recent poll still implies a GOP advantage well into double digits.",
+  "as_of_date": "2026-08-18T13:26:45",
   "cook_pvi": {
     "party": "R",
-    "percentage_points": 34.0
+    "percentage_points": 19.0
   },
   "sources": [
     {
-      "name": "The Downballot",
-      "link": "https://www.the-downballot.com/p/morning-digest-its-independent-vs?open=false",
-      "race_type": "other_context",
+      "name": "New York Times \u2013 Peak Insights Idaho Senate poll summary",
+      "link": "https://www.nytimes.com/interactive/polls/idaho-us-senate-election-polls-2026.html",
+      "race_type": "senate",
       "party": "R",
-      "margin": 4.0,
-      "details": "Bullfinch Group poll in a hypothetical one-on-one Senate matchup found Jim Risch leading Todd Achilles 40-36.",
-      "date_range": "Early June 2026",
-      "domain": "the-downballot.com",
+      "margin": 34.0,
+      "details": "New York Times\u2019 Idaho Senate polling table cites a Peak Insights poll showing Sen. Jim Risch leading independent challenger Todd Achilles by 34 points, 52% to 18%, in a multi\u2011candidate 2026 general\u2011election ballot test.",
+      "date_range": "August 11-13, 2026",
+      "domain": "nytimes.com",
       "verified": true
     },
     {
-      "name": "ABC45 News",
-      "link": "https://abc45.com/news/nation-world/democratic-dropout-david-roth-in-idahos-us-senate-race-could-boost-independents-todd-achilles-bid-republican-jim-risch",
+      "name": "New York Times \u2013 Bullfinch Group Idaho Senate poll entry",
+      "link": "https://www.nytimes.com/interactive/polls/idaho-us-senate-election-polls-2026.html",
       "race_type": "senate",
       "party": "R",
       "margin": 4.0,
-      "details": "Coverage reported an Achilles-sponsored poll placing Todd Achilles within four points of Jim Risch, though the article also says David Roth trailed by 25 points in the same survey context.",
-      "date_range": "Spring 2026",
-      "domain": "abc45.com",
+      "details": "The same New York Times polling compilation lists a Bullfinch Group poll with Risch at 34% and Achilles at 30% in a three\u2011way ballot, implying a 4\u2011point Republican edge in that specific survey.",
+      "date_range": "August 4-7, 2026",
+      "domain": "nytimes.com",
       "verified": true
     },
     {
-      "name": "Roll Call",
+      "name": "Politically.com \u2013 Bullfinch Group Idaho Senate poll toplines",
+      "link": "https://politically.com/polls/dXMtMjAydGhlMzlhNjVjYTU/",
+      "race_type": "senate",
+      "party": "R",
+      "margin": 4.0,
+      "details": "Politically.com publishes the Bullfinch Group\u2019s Idaho Senate poll toplines, reporting Jim Risch 34%, Todd Achilles 30%, and Matt Loesby 4%, confirming a 4\u2011point Risch lead in that three\u2011candidate matchup.",
+      "date_range": "August 4-7, 2026",
+      "domain": "politically.com",
+      "verified": true
+    },
+    {
+      "name": "PredictionHunt \u2013 Peak Insights June 2026 Idaho Senate poll recap",
+      "link": "https://www.predictionhunt.com/news/republican-idaho-senate-odds-drop-30pp-to-67-jul-20-2026",
+      "race_type": "senate",
+      "party": "R",
+      "margin": 40.0,
+      "details": "PredictionHunt summarizes a June 2026 Peak Insights statewide Idaho poll with Risch at 55%, Democrat David Roth at 15%, independent Todd Achilles at 7%, independent Natalie Fleming at 5%, and Libertarian Matt Loesby at 2%, indicating roughly a 40\u2011point R lead over the strongest named opponent at that time.",
+      "date_range": "June 2026",
+      "domain": "predictionhunt.com",
+      "verified": true
+    },
+    {
+      "name": "Idaho Capital Sun \u2013 David Roth exits Idaho Senate race",
+      "link": "https://idahocapitalsun.com/2026/07/28/idaho-democrat-david-roth-ends-campaign-for-us-senate-seat-held-by-risch/",
+      "race_type": "other_context",
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "Idaho Capital Sun reports that Democratic Senate nominee David Roth ended his campaign, while Roll Call explains that his withdrawal effectively clears a path for independent Todd Achilles to consolidate anti\u2011Risch support as the main challenger.",
+      "date_range": "July 28-29, 2026",
+      "domain": "idahocapitalsun.com",
+      "verified": true
+    },
+    {
+      "name": "Roll Call \u2013 Idaho Democrat drops out, boosting independent Achilles",
       "link": "https://rollcall.com/2026/07/29/idaho-democrat-is-latest-senate-nominee-to-drop-out-in-boost-to-independent-rival/",
+      "race_type": "other_context",
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "Roll Call describes Roth\u2019s exit as part of a broader Democratic strategy in red states and notes that Todd Achilles, a former Democratic state legislator running as an independent, is now positioned as the principal opponent to Republican Sen. Jim Risch.",
+      "date_range": "July 29-30, 2026",
+      "domain": "rollcall.com",
+      "verified": true
+    },
+    {
+      "name": "Octagon \u2013 Idaho Senate winner prediction market odds",
+      "link": "https://www.octagonai.co/markets/elections/senate/idaho-senate-winner/",
       "race_type": "other_context",
       "party": "R",
       "margin": 0.0,
-      "details": "News coverage reported the Democratic nominee\u2019s withdrawal and described Jim Risch and Todd Achilles as the leading contenders, but did not provide a new numerical margin.",
-      "date_range": "July 29-Aug. 4, 2026",
-      "domain": "rollcall.com",
+      "details": "Octagon\u2019s Idaho Senate prediction market page reports both model and market odds giving Jim Risch roughly a 93\u201394% chance of winning the 2026 Senate race, with Achilles around 5% and Roth about 2%, reflecting a consensus expectation of a decisive Republican victory rather than a close contest.",
+      "date_range": "August 12-14, 2026",
+      "domain": "octagonai.co",
+      "verified": true
+    },
+    {
+      "name": "Polymarket \u2013 Idaho Senate margin of victory market",
+      "link": "https://polymarket.com/ja/event/idaho-senate-margin-of-victory-2026/will-the-republican-party-candidate-win-the-2026-idaho-senate-election-by-35-40",
+      "race_type": "other_context",
+      "party": "R",
+      "margin": 0.0,
+      "details": "Polymarket\u2019s Idaho Senate margin\u2011of\u2011victory market notes that the leading outcome bucket is a Republican win by 20\u201325 points (18% implied probability), followed by Republican 25\u201330 points (14%), indicating traders expect a large but uncertain GOP margin rather than a single precise number.",
+      "date_range": "August 4-11, 2026",
+      "domain": "polymarket.com",
+      "verified": true
+    },
+    {
+      "name": "NBC News \u2013 2026 Idaho Senate primary results",
+      "link": "https://www.nbcnews.com/politics/2026-primary-elections/idaho-senate-results",
+      "race_type": "other_context",
+      "party": "R",
+      "margin": 0.0,
+      "details": "NBC News\u2019 Idaho Senate primary results page shows Jim Risch winning the Republican primary with about 67% of the vote, while David Roth won the Democratic primary before later withdrawing, underscoring Risch\u2019s strong position heading into the general election.",
+      "date_range": "May 2026",
+      "domain": "nbcnews.com",
+      "verified": true
+    },
+    {
+      "name": "PredictionMarketspicks \u2013 Idaho Senate 2026 Kalshi odds and rating",
+      "link": "https://predictionmarketspicks.com/midterms-2026/idaho-senate",
+      "race_type": "other_context",
+      "party": "R",
+      "margin": 0.0,
+      "details": "A Kalshi\u2011based odds summary at PredictionMarketspicks.com rates the Idaho Senate seat as \"Safe R\" for 2026, aligning with other forecasters and markets that see the race as non\u2011competitive.",
+      "date_range": "August 8, 2026 (rating as of that date)",
+      "domain": "predictionmarketspicks.com",
       "verified": true
     }
   ],
   "abbreviation": "ID",
-  "_cached_at": "2026-08-12T10:24:08.803999"
+  "_cached_at": "2026-08-18T13:26:45.932728"
 }

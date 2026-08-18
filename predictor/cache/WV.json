@@ -4,49 +4,126 @@
   "lean": "R",
   "confidence": 1.0,
   "strength_label": "Strong",
-  "net_margin": -66.0,
+  "net_margin": -76.75,
   "based_on": "sources",
-  "reasoning": "West Virginia remains an extremely Republican state, with a statewide Cook PVI of R+43. In the last 45 days, the only clearly state-specific 2026 general-election race signal in the provided results is market-based reporting that prices the West Virginia Senate race as a lopsided Republican win; I did not find a qualifying West Virginia presidential poll, and the other results are primary or non-state-specific context rather than this race.",
-  "as_of_date": "2026-08-12T10:27:38",
+  "reasoning": "There are no traditional public opinion polls of the 2026 West Virginia Senate or presidential races in the last 45 days, but prediction and forecasting sources uniformly indicate an overwhelmingly Republican environment and very large expected GOP margin in the Senate race. Cook\u2019s statewide PVI for West Virginia is about R+21\u201322, and 2024 forecasting from The Hill/DDHQ lists the state as R+22, underscoring that any competitive federal general election here would be an extreme outlier structurally.[7][8] For 2026 specifically, multiple election-odds and prediction-market analyses report incumbent Republican Sen. Shelley Moore Capito with roughly a 96\u201397% implied chance of reelection against Democrat Rachel (Fetty) Anderson, and a separate \u201cmargin of victory\u201d market\u2019s leading contract is that the Republican wins by roughly 35\u201340 points, which together imply an expected general-election margin on the order of **R+35 to R+40** in the Senate race as of mid\u2011August 2026.[1][3][5][10][12][13] There is no state-level 2026 presidential polling in the results from the last 45 days, but West Virginia\u2019s deep-red PVI and recent voting history mean any credible forecast would also frame the presidential race as safely Republican by a very large margin absent extraordinary developments.[7][8]",
+  "as_of_date": "2026-08-18T13:37:08",
   "cook_pvi": {
     "party": "R",
-    "percentage_points": 43.0
+    "percentage_points": 21.0
   },
   "sources": [
     {
-      "name": "Oddsshopper",
+      "name": "Cook Political Report \u2013 PVI Map and District List",
+      "link": "https://www.cookpolitical.com/pvi-map-and-district-list",
+      "race_type": "other_context",
+      "party": "R",
+      "margin": 22.0,
+      "details": "Cook Political Report\u2019s PVI listing shows West Virginia as a deeply Republican state (around R+21 to R+22) based on its recent presidential performance relative to the nation, indicating a very strong GOP structural advantage statewide.",
+      "date_range": "N/A (structural index, current as of 2024 cycle)",
+      "domain": "cookpolitical.com",
+      "verified": true
+    },
+    {
+      "name": "Wikipedia \u2013 Cook Partisan Voting Index state table (West Virginia row)",
+      "link": "https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index",
+      "race_type": "other_context",
+      "party": "R",
+      "margin": 21.0,
+      "details": "A summary table of statewide PVIs lists West Virginia at R+21, confirming that the state\u2019s baseline partisanship is heavily Republican at the presidential level and thus structurally for federal races.",
+      "date_range": "N/A (state PVI table current through 2024)",
+      "domain": "en.wikipedia.org",
+      "verified": true
+    },
+    {
+      "name": "Octagon \u2013 West Virginia Senate winner odds and forecast (2026)",
+      "link": "https://www.octagonai.co/markets/elections/senate/west-virginia-senate-winner/",
+      "race_type": "senate",
+      "party": "R",
+      "margin": 97.5,
+      "details": "An analysis of prediction markets reports that on Kalshi\u2019s 2026 West Virginia Senate winner market, incumbent Republican Shelley Moore Capito is priced between 97.1\u00a2 and 97.8\u00a2 (roughly a 97% implied chance), while Democrat Rachel Fetty Anderson is around 2.9\u00a2, underscoring an overwhelming expectation of a large GOP win rather than a competitive race; no explicit vote-margin polling is provided, but the write\u2011up characterizes Capito as a prohibitive favorite in a very red state.",
+      "date_range": "August 11\u201314, 2026 (odds snapshot as of article date)",
+      "domain": "octagonai.co",
+      "verified": true
+    },
+    {
+      "name": "OddsShopper \u2013 Why Shelley Moore Capito Will Win the West Virginia Senate Race (2026 odds)",
       "link": "https://www.oddsshopper.com/articles/prediction-markets/why-shelley-moore-capito-will-win-the-west-virginia-senate-race",
       "race_type": "senate",
       "party": "R",
-      "margin": 97.0,
-      "details": "Reports Kalshi West Virginia Senate winner-market pricing at about a 97% implied chance for Republican Shelley Moore Capito, indicating a very strong Republican advantage in the general election.",
-      "date_range": "August 11, 2026",
+      "margin": 96.0,
+      "details": "A prediction\u2011markets article notes that Kalshi\u2019s West Virginia Senate winner contract prices Shelley Moore Capito (R) at about 97.1\u201397.8\u00a2 and Rachel Fetty Anderson (D) at roughly 1\u20133\u00a2, equivalent to around a 97% implied probability that the Republican wins the 2026 Senate race, but it does not specify a polling margin.",
+      "date_range": "August 11\u201314, 2026 (market snapshot as of article date)",
       "domain": "oddsshopper.com",
       "verified": true
     },
     {
-      "name": "Polymarket",
+      "name": "OddsShopper \u2013 Why Rachel Fetty Anderson (D) Will Win the WV Senate Race (2026 odds discussion)",
+      "link": "https://www.oddsshopper.com/articles/prediction-markets/why-rachel-fetty-anderson-will-win-the-west-virginia-senate-race",
+      "race_type": "senate",
+      "party": "R",
+      "margin": 96.0,
+      "details": "A companion OddsShopper analysis focused on Rachel Fetty Anderson reiterates that Kalshi\u2019s winner market prices her at roughly 1\u20133\u00a2 against 97.1\u201397.8\u00a2 for Capito, describing the race as effectively uncontested in market pricing; again this is probability, not a direct vote share margin.",
+      "date_range": "August 11\u201314, 2026 (market snapshot as of article date)",
+      "domain": "oddsshopper.com",
+      "verified": true
+    },
+    {
+      "name": "PredictionMarketsPicks \u2013 West Virginia Senate 2026 live odds",
+      "link": "https://predictionmarketspicks.com/midterms-2026/west-virginia-senate",
+      "race_type": "senate",
+      "party": "R",
+      "margin": 96.0,
+      "details": "A prediction\u2011market tracking site reports that as of August 15, 2026, Shelley Moore Capito leads the West Virginia Senate market at 96\u00a2, implying roughly a 96% chance of reelection according to traders, again highlighting a non\u2011competitive general election environment rather than providing a direct polling margin.",
+      "date_range": "August 15, 2026 (market snapshot)",
+      "domain": "predictionmarketspicks.com",
+      "verified": true
+    },
+    {
+      "name": "Polymarket \u2013 West Virginia Senate 2026 margin-of-victory market (Republican 35\u201340%)",
       "link": "https://polymarket.com/event/west-virginia-senate-margin-of-victory-2026/will-the-republican-party-candidate-win-the-2026-west-virginia-senate-election-by-40-45",
       "race_type": "senate",
       "party": "R",
-      "margin": 35.0,
-      "details": "Shows Polymarket's West Virginia Senate margin-of-victory market with the leading outcome in the Republican 35-40% range, implying a large Republican win.",
-      "date_range": "August 11, 2026",
+      "margin": 37.5,
+      "details": "A Polymarket contract on the 2026 West Virginia Senate election\u2019s margin of victory shows the most heavily bought outcome as \u201cRepublican 35\u201340%\u201d at about 24% probability, with \u201cRepublican 40\u201345%\u201d next, implying that traders currently expect the Republican nominee (Capito) to win the general election by approximately 35\u201340 percentage points, though this is a market\u2011based forecast rather than survey polling.",
+      "date_range": "August 4\u20139, 2026 (order book snapshot)",
       "domain": "polymarket.com",
       "verified": true
     },
     {
-      "name": "NBC News",
+      "name": "Polymarket \u2013 West Virginia Senate 2026 margin-of-victory market (Republican 35\u201340% contract)",
+      "link": "https://polymarket.com/event/west-virginia-senate-margin-of-victory-2026/will-the-republican-party-candidate-win-the-2026-west-virginia-senate-election-by-35-40",
+      "race_type": "senate",
+      "party": "R",
+      "margin": 37.5,
+      "details": "A companion Polymarket contract for whether the Republican will win the West Virginia Senate race by 35\u201340 points also notes that the \u201cRepublican 35\u201340%\u201d outcome is the leading bucket at around 24% probability, reinforcing that the consensus expectation is a landslide Republican margin on the order of roughly 35\u201340 percentage points, even though individual polls are not cited.",
+      "date_range": "August 4\u20139, 2026 (order book snapshot)",
+      "domain": "polymarket.com",
+      "verified": true
+    },
+    {
+      "name": "NBC News \u2013 West Virginia Senate Primary Election 2026 results",
       "link": "https://www.nbcnews.com/politics/2026-primary-elections/west-virginia-senate-results",
       "race_type": "other_context",
       "party": "EVEN",
       "margin": 0.0,
-      "details": "Live results for the West Virginia Senate primary; this is not the general-election race, but it confirms the 2026 Senate contest and provides context only.",
-      "date_range": "2026 primary election results",
+      "details": "NBC News\u2019 live results page for the 2026 West Virginia U.S. Senate primary shows that incumbent Republican Shelley Moore Capito and Democrat Rachel Anderson won their respective primaries decisively, confirming them as the major\u2011party nominees for the 2026 Senate race but not providing any general\u2011election polling or margins.",
+      "date_range": "May 12, 2026 (primary election date; article updated August 6, 2026)",
       "domain": "nbcnews.com",
       "verified": true
+    },
+    {
+      "name": "The Hill & DDHQ \u2013 2024 West Virginia Senate forecast (includes Cook PVI R+22)",
+      "link": "https://elections2024.thehill.com/forecast/2024/senate/west-virginia",
+      "race_type": "other_context",
+      "party": "R",
+      "margin": 22.0,
+      "details": "The Hill and Decision Desk HQ\u2019s 2024 Senate forecast page for West Virginia lists a Cook PVI of R+22 and gives Republican Jim Justice over a 99% chance to win the 2024 Senate race, underscoring West Virginia\u2019s status as an extremely Republican state in recent federal contests, although this refers to the 2024 cycle rather than the 2026 Capito race.",
+      "date_range": "N/A (2024 Senate general election, not 2026)",
+      "domain": "elections2024.thehill.com",
+      "verified": false
     }
   ],
   "abbreviation": "WV",
-  "_cached_at": "2026-08-12T10:27:38.894196"
+  "_cached_at": "2026-08-18T13:37:08.713431"
 }

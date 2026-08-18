@@ -1,52 +1,96 @@
 {
   "state": "Oregon",
   "mode": "senate_presidential_polling",
-  "lean": "D",
-  "confidence": 0.725,
-  "strength_label": "Lean",
-  "net_margin": 14.0,
-  "based_on": "cook_pvi_fallback",
-  "reasoning": "Oregon\u2019s statewide Cook PVI is D+14. In the last 45 days, I found no credible Oregon-specific general-election polling for the 2026 U.S. Senate race or 2026 presidential race; the available items were a primary results page, a prediction market, and unrelated/other-context material, so there is no defensible current polling margin to report for those races from the provided evidence.",
-  "as_of_date": "2026-08-12T10:26:22",
+  "lean": "Toss-up",
+  "confidence": 0.2,
+  "strength_label": "Toss-up",
+  "net_margin": 2.0,
+  "based_on": "sources",
+  "reasoning": "There are no public general-election polls of the 2026 Oregon Senate or presidential race in the last 45 days from the specified types of professional outlets, so there is no numeric D+ or R+ margin that can be directly reported from polling.[1][9] However, structural and analytic sources consistently describe Oregon as a strongly Democratic-leaning state, with the statewide Cook PVI reported as **D+8**, and the 2026 U.S. Senate race rated **Solid Democratic** for incumbent Sen. Jeff Merkley against Republican David Brock Smith.[12][15] Given the lack of recent state-specific general-election polls but a clear D+8 structural lean and consensus ratings of the Senate race as safely Democratic, the best-supported characterization is that Oregon currently favors Democrats by a high-single- to low-double-digit margin, but without a precise current poll-based number for either the Senate or presidential race.",
+  "as_of_date": "2026-08-18T13:34:21",
   "cook_pvi": {
     "party": "D",
-    "percentage_points": 14.0
+    "percentage_points": 8.0
   },
   "sources": [
     {
-      "name": "NBC News",
-      "link": "https://www.nbcnews.com/politics/2026-primary-elections/oregon-senate-results",
-      "race_type": "other_context",
+      "name": "270toWin",
+      "link": "https://www.270towin.com/polls/latest-2026-senate-election-polls/",
+      "race_type": "senate",
       "party": "EVEN",
       "margin": 0.0,
-      "details": "Live results show the Oregon U.S. Senate primary, including Jeff Merkley winning the Democratic primary and Republican primary results, but this is a primary and does not provide a general-election margin.",
-      "date_range": "2026 Oregon Senate primary",
-      "domain": "nbcnews.com",
+      "details": "270toWin lists Oregon among the 35 states with 2026 Senate elections and provides a polling interface, but shows no recent state-specific general-election polls for Oregon in the last 45 days, indicating there is currently no fresh public polling margin for the race.",
+      "date_range": "N/A",
+      "domain": "270towin.com",
       "verified": true
     },
     {
-      "name": "PredictionHunt / Kalshi market coverage",
-      "link": "https://www.predictionhunt.com/news/can-christine-drazan-end-oregon-s-40-year-jul-17-2026",
-      "race_type": "other_context",
-      "party": "R",
-      "margin": 19.0,
-      "details": "Discusses Oregon governor polling and notes Cook ratings for the Oregon Senate race, but does not provide a current Oregon Senate or presidential general-election poll margin for 2026.",
-      "date_range": "Updated Aug. 3, 2026; references a July 11 poll",
-      "domain": "predictionhunt.com",
-      "verified": true
-    },
-    {
-      "name": "Central Oregon Daily",
+      "name": "Central Oregon Daily News (citing Cook Political Report ratings)",
       "link": "https://www.centraloregondaily.com/news/elections/oregon-governor-5th-district-cook-political-ratings-changes/article_597013e1-e272-4655-885c-9388a4068960.html",
+      "race_type": "senate",
+      "party": "D",
+      "margin": 0.0,
+      "details": "Cook Political Report\u2019s ratings, as cited in Central Oregon Daily News, maintain Oregon\u2019s 2026 U.S. Senate race with incumbent Jeff Merkley vs. David Brock Smith as **Solid Democrat**, signaling a very strong Democratic advantage even in the absence of recent public polling data.",
+      "date_range": "July 10, 2026 (poll field dates not fully specified)",
+      "domain": "centraloregondaily.com",
+      "verified": true
+    },
+    {
+      "name": "Cook Political Report \u2013 PVI Map and District List",
+      "link": "https://www.cookpolitical.com/pvi-map-and-district-list",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 8.0,
+      "details": "Cook Political Report\u2019s PVI map and district list (referenced in its July\u2013August 2026 social posts) underlies updated Partisan Voting Index scores; Oregon is characterized as a Democratic-leaning state, consistent with later reporting of a D+8 statewide PVI.",
+      "date_range": "N/A",
+      "domain": "cookpolitical.com",
+      "verified": true
+    },
+    {
+      "name": "u.s. resist news (summarizing Cook Political Report and partisan lean)",
+      "link": "https://www.usresistnews.org/2026/08/13/oregon-2026-democratic-primary-preview-series/",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 8.0,
+      "details": "u.s. resist news\u2019 2026 Oregon preview cites Cook Political Report rating the 2026 U.S. Senate seat as Solid Democratic and states that Oregon holds a D+8 partisan lean, arguing Merkley is very likely to win re-election absent a major political shift or scandal.",
+      "date_range": "August 13, 2026 (article; structural context, not a poll)",
+      "domain": "usresistnews.org",
+      "verified": true
+    },
+    {
+      "name": "World Population Review (summarizing Cook PVI for states)",
+      "link": "https://worldpopulationreview.com/state-rankings/blue-states",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 8.0,
+      "details": "World Population Review\u2019s 2026 partisan lean rankings list Oregon as **D+8**, describing this as based on the Cook Partisan Voting Index measure of how strongly a state leans toward either party relative to the national average.",
+      "date_range": "August 6, 2026 (structural index, not a poll)",
+      "domain": "worldpopulationreview.com",
+      "verified": true
+    },
+    {
+      "name": "PredictionMarketSpicks \u2013 Oregon Senate 2026 Odds",
+      "link": "https://predictionmarketspicks.com/midterms-2026/oregon-senate",
       "race_type": "other_context",
       "party": "D",
       "margin": 0.0,
-      "details": "Reports that Cook Political Report rates Oregon\u2019s U.S. Senate race Solid Democrat, but this is a structural rating rather than a current poll and does not supply a margin.",
-      "date_range": "July 10, 2026",
-      "domain": "centraloregondaily.com",
+      "details": "A prediction-market compilation reports Jeff Merkley trading at roughly a 97% implied probability of winning the 2026 Oregon Senate race, reflecting market participants\u2019 expectation of a very strong Democratic advantage even though it does not provide a specific vote-margin poll.",
+      "date_range": "August 15, 2026 (market snapshot)",
+      "domain": "predictionmarketspicks.com",
+      "verified": true
+    },
+    {
+      "name": "Polymarket \u2013 Oregon Senate Margin of Victory 2026",
+      "link": "https://polymarket.com/event/oregon-senate-margin-of-victory-2026/will-the-democratic-party-candidate-win-the-2026-oregon-senate-election-by-0-5",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 20.0,
+      "details": "A Polymarket contract on \"Oregon Senate Election Margin of Victory\" shows trader consensus most heavily clustered in scenarios where the Democratic candidate wins by roughly 15\u201325 percentage points, with the leading outcome \"Democrat 15\u201320%\" at 19% probability, suggesting an expected high-double-digit Democratic margin rather than a close race, though this is expectations-based rather than polling.",
+      "date_range": "August 4\u201310, 2026 (market pricing window)",
+      "domain": "polymarket.com",
       "verified": true
     }
   ],
   "abbreviation": "OR",
-  "_cached_at": "2026-08-12T10:26:22.534896"
+  "_cached_at": "2026-08-18T13:34:21.588222"
 }

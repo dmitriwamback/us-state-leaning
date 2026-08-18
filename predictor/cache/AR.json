@@ -6,25 +6,124 @@
   "strength_label": "Toss-up",
   "net_margin": -3.0,
   "based_on": "sources",
-  "reasoning": "Recent Arkansas-specific polling in the last 45 days is limited to one Senate survey released by Hallie Shoffner\u2019s campaign, which shows Tom Cotton leading 46% to 43% and therefore a small Republican edge. Because no current Arkansas presidential general-election poll surfaced in the provided results, the best current race margin from the available evidence is Arkansas Senate R+3, while the statewide Cook PVI remains R+16.",
-  "as_of_date": "2026-08-12T10:23:26",
+  "reasoning": "The only true Arkansas, general-election, statewide polling in the last 45 days is the 2040 Strategy Group poll released by Hallie Shoffner\u2019s campaign, showing Tom Cotton 46% to Shoffner 43%, an R+3 race within the margin of error for the 2026 U.S. Senate contest.[1][3] Prediction-market and odds sites synthesize this and older polling into wider expected Republican advantages (around R+10 on some modeled averages), but those are not direct voter surveys and so are treated as contextual rather than primary evidence.[4] There is no new Arkansas-specific presidential general-election polling in the last 45 days in the results, so the best current quantified margin is R+3 for the 2026 Senate race, against an underlying statewide partisan lean of roughly R+15 per Cook PVI.[7]",
+  "as_of_date": "2026-08-18T13:24:23",
   "cook_pvi": {
     "party": "R",
-    "percentage_points": 16.0
+    "percentage_points": 15.0
   },
   "sources": [
+    {
+      "name": "Hallie Shoffner for Senate / 2040 Strategy Group polling memo",
+      "link": "https://www.hallieshoffner.com/news/new-poll-shows-shoffner-closes-gap-signalscompetitive-us-senate-race-in-arkansas",
+      "race_type": "senate",
+      "party": "R",
+      "margin": 3.0,
+      "details": "Campaign-released memo on a 2040 Strategy Group poll of 586 likely Arkansas voters finds Tom Cotton at 46% and Hallie Shoffner at 43%, putting the 2026 Senate race at Cotton +3 within a \u00b14% margin of error.",
+      "date_range": "July 17-25, 2026",
+      "domain": "hallieshoffner.com",
+      "verified": true
+    },
     {
       "name": "Arkansas Times",
       "link": "https://arktimes.com/arkansas-blog/2026/08/05/dem-senate-hopeful-shoffner-pulls-promising-poll-numbers-against-unlikeable-cotton",
       "race_type": "senate",
       "party": "R",
       "margin": 3.0,
-      "details": "Campaign-released Arkansas Senate poll found Tom Cotton at 46% and Hallie Shoffner at 43%, with a 4-point margin of error, indicating a close race but Cotton ahead.",
-      "date_range": "August 2026 (released Aug. 5, 2026)",
+      "details": "Arkansas Times article reports the same late-July 2040 Strategy Group poll showing Cotton 46% to Shoffner 43%, describing the race as a statistical tie given the 4-point margin of error.",
+      "date_range": "July 17-25, 2026",
       "domain": "arktimes.com",
+      "verified": true
+    },
+    {
+      "name": "New York Times \u2013 Arkansas U.S. Senate Election 2026: Latest Polls",
+      "link": "https://www.nytimes.com/interactive/polls/arkansas-us-senate-election-polls-2026.html",
+      "race_type": "senate",
+      "party": "R",
+      "margin": 3.0,
+      "details": "New York Times polling overview for the 2026 Arkansas U.S. Senate election lists the 2040 Strategy Group poll with a Cotton +3 margin (46% Cotton, 43% Shoffner) as the most recent survey.",
+      "date_range": "July 17-25, 2026",
+      "domain": "nytimes.com",
+      "verified": true
+    },
+    {
+      "name": "OctagonAI \u2013 Arkansas Senate winner model/market page",
+      "link": "https://www.octagonai.co/markets/elections/senate/arkansas-senate-winner/",
+      "race_type": "other_context",
+      "party": "R",
+      "margin": 10.2,
+      "details": "OctagonAI\u2019s prediction-market/model page for the Arkansas Senate race cites the July 17\u201325 2040 Strategy Group poll (Cotton +3) but estimates a current average polling lead for Cotton of about R+10.2 and gives Shoffner roughly 6% win probability in a strongly Republican state.",
+      "date_range": "up to July 25, 2026 (model snapshot as of Aug. 12, 2026)",
+      "domain": "octagonai.co",
+      "verified": true
+    },
+    {
+      "name": "Polymarket \u2013 Arkansas Senate margin of victory 2026 (25\u201330% contract)",
+      "link": "https://polymarket.com/event/arkansas-senate-margin-of-victory-2026/will-the-republican-party-candidate-win-the-2026-arkansas-senate-election-by-25-30",
+      "race_type": "other_context",
+      "party": "R",
+      "margin": 25.0,
+      "details": "A Polymarket contract on the eventual Arkansas Senate margin summarizes recent polling as Cotton 46% to Shoffner 43% but shows traders most heavily pricing a Republican victory margin in the 20\u201325% band.",
+      "date_range": "not a poll; market status as of early August 2026",
+      "domain": "polymarket.com",
+      "verified": true
+    },
+    {
+      "name": "Polymarket \u2013 Arkansas Senate margin of victory 2026 (30\u201335% contract)",
+      "link": "https://polymarket.com/event/arkansas-senate-margin-of-victory-2026/will-the-republican-party-candidate-win-the-2026-arkansas-senate-election-by-30-35",
+      "race_type": "other_context",
+      "party": "R",
+      "margin": 30.0,
+      "details": "Another Polymarket contract on a 30\u201335% GOP margin in the Arkansas Senate race references the same Cotton 46% vs. Shoffner 43% polling but shows the 20\u201325% GOP margin outcome as the leading priced band, indicating expectations of a large Republican win.",
+      "date_range": "not a poll; market status as of early August 2026",
+      "domain": "polymarket.com",
+      "verified": true
+    },
+    {
+      "name": "Ballotpedia \u2013 United States Senate election in Arkansas, 2026",
+      "link": "https://ballotpedia.org/United_States_Senate_election_in_Arkansas,_2026",
+      "race_type": "other_context",
+      "party": "R",
+      "margin": 34.6,
+      "details": "Ballotpedia\u2019s page on the U.S. Senate election in Arkansas compiles past general-election margins showing Republicans winning by very large spreads in prior cycles, underscoring the state\u2019s strong GOP tilt.",
+      "date_range": "historical election results (not current polling)",
+      "domain": "ballotpedia.org",
+      "verified": true
+    },
+    {
+      "name": "PredictionMarketPicks \u2013 Arkansas Senate 2026 odds",
+      "link": "https://predictionmarketspicks.com/midterms-2026/arkansas-senate",
+      "race_type": "other_context",
+      "party": "R",
+      "margin": 0.0,
+      "details": "PredictionMarketPicks reports live odds for the 2026 Arkansas Senate race, with Tom Cotton priced around 95\u00a2 and Hallie Shoffner near 4\u00a2, implying a very high expected probability of a Republican hold but not a specific polling margin.",
+      "date_range": "not a poll; market snapshot July 22, 2026",
+      "domain": "predictionmarketspicks.com",
+      "verified": true
+    },
+    {
+      "name": "CNN \u2013 Arkansas primary election results (Senate context)",
+      "link": "https://www.cnn.com/election/2026/primaries/arkansas",
+      "race_type": "other_context",
+      "party": "R",
+      "margin": 0.0,
+      "details": "CNN\u2019s Arkansas primary election coverage notes Cotton as the likely Republican nominee and a strong contender for another term, reflecting expectations of a Republican advantage but providing no general-election margin.",
+      "date_range": "primary context, 2026 cycle",
+      "domain": "cnn.com",
+      "verified": true
+    },
+    {
+      "name": "Cook Political Report \u2013 Cook Partisan Voting Index (Arkansas entry)",
+      "link": "https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index",
+      "race_type": "other_context",
+      "party": "R",
+      "margin": 15.0,
+      "details": "The Cook Partisan Voting Index table lists Arkansas as R+15, indicating the state\u2019s typical Republican advantage in federal elections relative to the national popular vote.",
+      "date_range": "PVI based on recent presidential results (structural index)",
+      "domain": "en.wikipedia.org",
       "verified": true
     }
   ],
   "abbreviation": "AR",
-  "_cached_at": "2026-08-12T10:23:26.405667"
+  "_cached_at": "2026-08-18T13:24:23.983461"
 }

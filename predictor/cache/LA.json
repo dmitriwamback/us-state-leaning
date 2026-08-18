@@ -1,52 +1,96 @@
 {
   "state": "Louisiana",
   "mode": "senate_presidential_polling",
-  "lean": "R",
-  "confidence": 0.825,
-  "strength_label": "Lean",
-  "net_margin": -18.0,
-  "based_on": "cook_pvi_fallback",
-  "reasoning": "I did not find a recent Louisiana state-specific Senate or presidential general-election poll in the provided results. The available Louisiana items were primarily about the Senate primary, fundraising, or betting markets rather than a current general-election margin, so the best supported current race margin cannot be established from these sources alone. Louisiana\u2019s statewide Cook PVI is R+18, which indicates a strong Republican structural lean.",
-  "as_of_date": "2026-08-12T10:24:35",
+  "lean": "Toss-up",
+  "confidence": 0.4,
+  "strength_label": "Toss-up",
+  "net_margin": -4.0,
+  "based_on": "sources",
+  "reasoning": "Over the last 45 days, there is only one general\u2011election, Louisiana\u2011specific Senate poll in the field: a Public Policy Polling survey for the Democratic Jamie Davis campaign showing Republican Julia Letlow leading by 4 points, 41%\u201337%, among registered voters, with 22% undecided.[2][5] No Louisiana\u2011specific 2026 presidential general\u2011election polling appears in the recent coverage or polling aggregators, so the best current quantitative snapshot is that the 2026 Senate race stands at roughly **R+4** in polling, against a structurally **R+11** environment per Cook PVI.[7] Other recent sources focus on the June 2026 Republican Senate runoff (Letlow vs. Fleming) and primary results rather than the current Davis\u2013Letlow general election, so they are context rather than direct measures of the present margin.[1][8][15]",
+  "as_of_date": "2026-08-18T13:28:21",
   "cook_pvi": {
     "party": "R",
-    "percentage_points": 18.0
+    "percentage_points": 11.0
   },
   "sources": [
     {
-      "name": "KEDM",
-      "link": "https://www.kedm.org/louisiana-news/2026-07-24/letlow-leads-davis-in-campaign-cash-reserves",
-      "race_type": "other_context",
-      "party": "EVEN",
-      "margin": 0.0,
-      "details": "Reports that Julia Letlow leads Jamie Davis in campaign cash reserves; this is fundraising context, not a general-election poll or margin.",
-      "date_range": "2026-07-24",
-      "domain": "kedm.org",
+      "name": "Bayou Progressive (reporting Public Policy Polling toplines)",
+      "link": "https://bayouprogressive.com/2026/08/new-poll-puts-jamie-davis-four-points-behind-julia-letlow-as-1-in-5-voters-remain-undecided/",
+      "race_type": "senate",
+      "party": "R",
+      "margin": 4.0,
+      "details": "Public Policy Polling survey commissioned by the Jamie Davis campaign of 518 registered Louisiana voters found Republican Julia Letlow at 41% and Democrat Jamie Davis at 37%, with 22% undecided, i.e., Letlow +4.",
+      "date_range": "July 21-22, 2026",
+      "domain": "bayouprogressive.com",
       "verified": true
     },
     {
-      "name": "WBRZ",
+      "name": "PredictionEdge (poll aggregation profile for Jamie Davis)",
+      "link": "https://www.predictionedge.com/elections/profile/jamie-davis/",
+      "race_type": "senate",
+      "party": "R",
+      "margin": 4.0,
+      "details": "Race profile and odds page summarizes the same Public Policy Polling survey as Letlow 41% vs. Davis 37%, listing the spread as Letlow +4.0 and treating it as the current polling baseline.",
+      "date_range": "July 21-22, 2026",
+      "domain": "predictionedge.com",
+      "verified": true
+    },
+    {
+      "name": "New York Times \u2013 Louisiana U.S. Senate Election 2026: Latest Polls",
+      "link": "https://www.nytimes.com/interactive/polls/louisiana-us-senate-election-polls-2026.html",
+      "race_type": "other_context",
+      "party": "R",
+      "margin": 3.0,
+      "details": "NYT polling page for the Louisiana U.S. Senate election lists several late\u2011June runoff\u2011stage polls of Republican candidates Julia Letlow and John Fleming (e.g., Letlow +3, Fleming +4, Fleming +5) that show a close GOP internal contest but do not test the current Letlow\u2013Davis general election.",
+      "date_range": "June 21-24, 2026",
+      "domain": "nytimes.com",
+      "verified": true
+    },
+    {
+      "name": "WBRZ \u2013 Political analyst expects tight race for Senate runoff",
       "link": "https://www.wbrz.com/news/political-analyst-expects-tight-race-for-senate-runoff/",
       "race_type": "other_context",
       "party": "EVEN",
-      "margin": 0.0,
-      "details": "Summarizes Louisiana Senate runoff coverage and mentions earlier polls in the primary, including a Fleming-Letlow matchup; this is primary context, not the current general election.",
-      "date_range": "2026-06-27",
+      "margin": 6.0,
+      "details": "Local coverage of the June 27 Republican Senate runoff notes mixed internal polling, including a JMC Analytics survey commissioned by John Fleming showing Fleming up 6 and a Quantus Insights poll showing Letlow ahead 51.5%\u201348.5% on a two\u2011way ballot, illustrating a tight GOP runoff but not the current general election.",
+      "date_range": "June 21-24, 2026",
       "domain": "wbrz.com",
       "verified": true
     },
     {
-      "name": "Polymarket",
-      "link": "https://polymarket.com/event/louisiana-senate-margin-of-victory-2026",
+      "name": "NBC News \u2013 Louisiana Senate Primary Runoff Election 2026 Results",
+      "link": "https://www.nbcnews.com/politics/2026-primary-elections/louisiana-senate-runoff-results",
+      "race_type": "other_context",
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "NBC News runoff results article reports Julia Letlow winning the Republican Senate primary runoff with 56.9% to John Fleming\u2019s 43.1%, and Jamie Davis winning the Democratic primary with 79.9% in his runoff, establishing the current general\u2011election matchup but not a margin between them.",
+      "date_range": "June 27, 2026",
+      "domain": "nbcnews.com",
+      "verified": true
+    },
+    {
+      "name": "New York Times \u2013 Louisiana U.S. Senate Election 2026: BDPC early GOP matchup polling",
+      "link": "https://www.nytimes.com/interactive/polls/louisiana-us-senate-election-polls-2026.html",
       "race_type": "other_context",
       "party": "R",
-      "margin": 5.0,
-      "details": "Market prices for the Louisiana Senate election margin of victory; this is an election market, not a poll, but it indicates traders expect a Republican hold by roughly 5-10 points.",
-      "date_range": "2026-08-12",
-      "domain": "polymarket.com",
+      "margin": 33.0,
+      "details": "NYT polling page lists earlier BDPC polls of GOP figures (e.g., Letlow vs. Cassidy, Letlow vs. Fleming) with large Letlow leads, relevant to candidate strength but not directly measuring the current Letlow\u2013Davis general election.",
+      "date_range": "May 10-11, 2026",
+      "domain": "nytimes.com",
+      "verified": true
+    },
+    {
+      "name": "Cook Political Report \u2013 PVI Map and State List",
+      "link": "https://www.cookpolitical.com/pvi-map-and-district-list",
+      "race_type": "other_context",
+      "party": "R",
+      "margin": 11.0,
+      "details": "Cook Political Report\u2019s updated PVI materials and summary show Louisiana\u2019s statewide Cook Partisan Voting Index as R+11, indicating the state voted 11 points more Republican than the national average in recent presidential elections.",
+      "date_range": "July 2026 (national update, applied to states)",
+      "domain": "cookpolitical.com",
       "verified": true
     }
   ],
   "abbreviation": "LA",
-  "_cached_at": "2026-08-12T10:24:35.011584"
+  "_cached_at": "2026-08-18T13:28:21.770227"
 }

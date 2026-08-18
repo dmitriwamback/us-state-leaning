@@ -4,49 +4,49 @@
   "lean": "D",
   "confidence": 1.0,
   "strength_label": "Strong",
-  "net_margin": 36.0,
+  "net_margin": 37.0,
   "based_on": "cook_pvi_fallback",
-  "reasoning": "Hawaii has no Senate or presidential polling in the provided last-45-days results, so there is no current-race margin to report from those sources. The only recent Hawaii election data in the results concerns the 2026 state primary and a congressional primary, which are not Senate or presidential races and therefore count only as other_context; the state\u2019s structural PVI is heavily Democratic at D+36.",
-  "as_of_date": "2026-08-12T10:24:04",
+  "reasoning": "I could not verify any current 2026 Hawaii statewide Senate or presidential general-election polling from the last 45 days. The search results instead show Hawaii\u2019s Aug. 8 primary and general-election ballot context, including that no U.S. Senate race is on the ballot and that Cook\u2019s statewide PVI is strongly Democratic. Because there is no qualifying current-race poll, there is no current Senate or presidential margin to report for Hawaii.",
+  "as_of_date": "2026-08-18T13:26:27",
   "cook_pvi": {
     "party": "D",
-    "percentage_points": 36.0
+    "percentage_points": 37.0
   },
   "sources": [
     {
-      "name": "Blueprint Polling via Newsweek",
-      "link": "https://www.newsweek.com/can-progressive-jarrett-keohokalole-win-hawaii-primary-final-polls-12300281",
-      "race_type": "other_context",
-      "party": "D",
-      "margin": 8.0,
-      "details": "Blueprint Polling found Ed Case ahead of Jarrett Keohokalole 33% to 25% in a Hawaii congressional primary survey.",
-      "date_range": "July 7-8, 2026",
-      "domain": "newsweek.com",
-      "verified": true
-    },
-    {
-      "name": "Blueprint Polling via Newsweek",
-      "link": "https://www.newsweek.com/can-progressive-jarrett-keohokalole-win-hawaii-primary-final-polls-12300281",
-      "race_type": "other_context",
-      "party": "D",
-      "margin": 9.0,
-      "details": "Blueprint Polling found Jarrett Keohokalole leading Ed Case 47% to 38% in a Hawaii congressional primary survey.",
-      "date_range": "July 24, 2026",
-      "domain": "newsweek.com",
-      "verified": true
-    },
-    {
-      "name": "Hawai\u02bbi Public Radio",
+      "name": "Hawai'i Public Radio",
       "link": "https://www.hawaiipublicradio.org/local-news/2026-08-08/2026-hawaii-primary-results",
       "race_type": "other_context",
-      "party": "D",
-      "margin": 30.0,
-      "details": "Hawaii public election coverage reported state Senate District 10 incumbent Les Ihara losing to Jackson Sayama in a primary and other state Senate primary outcomes.",
-      "date_range": "August 8-9, 2026",
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "Hawaii\u2019s 2026 primary results and election coverage show that the state Senate races were primary contests, with several seats already decided or headed to November, but they do not provide a statewide Senate or presidential general-election margin.",
+      "date_range": "Aug. 8-14, 2026",
       "domain": "hawaiipublicradio.org",
+      "verified": true
+    },
+    {
+      "name": "Prediction Edge",
+      "link": "https://www.predictionedge.com/elections/hi/",
+      "race_type": "other_context",
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "Coverage of Hawaii\u2019s 2026 elections notes that neither U.S. Senate seat is up this cycle, so there is no current Hawaii Senate race to poll in 2026.",
+      "date_range": "Aug. 8-17, 2026",
+      "domain": "predictionedge.com",
+      "verified": true
+    },
+    {
+      "name": "Cook Political Report",
+      "link": "https://www.cookpolitical.com/pvi-map-and-district-list",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 37.0,
+      "details": "Cook\u2019s PVI map is the statewide structural reference used here; Hawaii is D+37, indicating a very strong Democratic lean.",
+      "date_range": "2026 map/current reference",
+      "domain": "cookpolitical.com",
       "verified": true
     }
   ],
   "abbreviation": "HI",
-  "_cached_at": "2026-08-12T10:24:04.816028"
+  "_cached_at": "2026-08-18T13:26:27.695698"
 }

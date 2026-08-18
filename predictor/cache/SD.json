@@ -2,40 +2,62 @@
   "state": "South Dakota",
   "mode": "senate_presidential_polling",
   "lean": "R",
-  "confidence": 0.978,
+  "confidence": 0.95,
   "strength_label": "Strong",
-  "net_margin": -24.1,
+  "net_margin": -23.0,
   "based_on": "sources",
-  "reasoning": "South Dakota\u2019s only directly relevant current-race polling found in the last 45 days shows Republican Mike Rounds leading in the Senate race by about 24 points on Pollsmax\u2019s aggregate of available polls. Recent coverage also indicates the race shifted after Democrat Julian Beaudion exited, but no state-specific presidential poll was found in the provided results; South Dakota remains a very strong Republican state structurally, with a Cook PVI of R+19.",
-  "as_of_date": "2026-08-12T10:26:56",
+  "reasoning": "South Dakota is strongly Republican at the statewide level, with a Cook Partisan Voting Index of R+29. In the last 45 days, the only clearly state-specific general-election Senate poll found was an NRSC-commissioned poll showing Republican incumbent Mike Rounds ahead by 23 points; recent coverage also notes the Democratic nominee dropped out, which makes the race less directly comparable but does not change the basic Republican advantage. I did not find any current South Dakota presidential head-to-head polling from the last 45 days, so the Senate race is the relevant current-race data point.",
+  "as_of_date": "2026-08-18T13:35:14",
   "cook_pvi": {
     "party": "R",
-    "percentage_points": 19.0
+    "percentage_points": 29.0
   },
   "sources": [
     {
-      "name": "Pollsmax South Dakota Senate polls aggregate",
-      "link": "https://www.pollsmax.com/senate/south-dakota/",
+      "name": "The New York Times polling tracker / Public Opinion Strategies for NRSC",
+      "link": "https://www.nytimes.com/interactive/polls/south-dakota-us-senate-election-polls-2026.html",
       "race_type": "senate",
       "party": "R",
-      "margin": 24.1,
-      "details": "Public Policy Polling\u2019s latest South Dakota Senate survey is included in the aggregate and is the newest poll listed, but the result is not broken out in the snippet; the aggregate average stands at R+24.1.",
-      "date_range": "May 30, 2026",
-      "domain": "pollsmax.com",
+      "margin": 23.0,
+      "details": "Head-to-head general-election poll of South Dakota Senate voters found Mike Rounds leading 56% to 33%, a 23-point Republican margin.",
+      "date_range": "July 6-9, 2026",
+      "domain": "nytimes.com",
       "verified": true
     },
     {
-      "name": "Politico",
-      "link": "https://www.politico.com/news/2026/08/04/south-dakota-democrat-julian-beaudion-withdraws-01024746",
+      "name": "National Republican Senatorial Committee memo as reported by Townhall",
+      "link": "https://townhall.com/author/print/2680739",
+      "race_type": "senate",
+      "party": "R",
+      "margin": 23.0,
+      "details": "NRSC poll memo reported Rounds ahead of his Democratic opponent by 23 points in South Dakota.",
+      "date_range": "July 9, 2026",
+      "domain": "townhall.com",
+      "verified": true
+    },
+    {
+      "name": "The New York Times",
+      "link": "https://www.nytimes.com/2026/08/04/us/politics/julian-beaudion-drops-out-south-dakota.html",
       "race_type": "other_context",
       "party": "EVEN",
       "margin": 0.0,
-      "details": "Coverage of Julian Beaudion exiting the race says the withdrawal leaves the South Dakota Senate contest as a two-candidate race between Brian Bengs and incumbent Mike Rounds, indicating the field changed materially within the last 45 days.",
-      "date_range": "August 4-5, 2026",
-      "domain": "politico.com",
+      "details": "News coverage reported that Democratic nominee Julian Beaudion withdrew from the race, leaving independent Brian Bengs to challenge Rounds.",
+      "date_range": "August 2026",
+      "domain": "nytimes.com",
       "verified": true
+    },
+    {
+      "name": "Cook Partisan Voting Index",
+      "link": "https://www.cookpolitical.com/cook-pvi/",
+      "race_type": "other_context",
+      "party": "R",
+      "margin": 29.0,
+      "details": "Statewide Cook Partisan Voting Index for South Dakota is R+29.",
+      "date_range": "2026",
+      "domain": "cookpolitical.com",
+      "verified": false
     }
   ],
   "abbreviation": "SD",
-  "_cached_at": "2026-08-12T10:26:56.331893"
+  "_cached_at": "2026-08-18T13:35:14.982815"
 }

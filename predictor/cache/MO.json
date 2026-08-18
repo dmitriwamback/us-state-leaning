@@ -2,37 +2,26 @@
   "state": "Missouri",
   "mode": "senate_presidential_polling",
   "lean": "R",
-  "confidence": 0.775,
-  "strength_label": "Lean",
-  "net_margin": -16.0,
+  "confidence": 0.6,
+  "strength_label": "Tilt",
+  "net_margin": -9.0,
   "based_on": "cook_pvi_fallback",
-  "reasoning": "Missouri\u2019s statewide Cook PVI is R+16. I did not find a recent, Missouri-specific 2026 general-election poll for the Senate or presidential race in the provided results, so there is no current race margin to report from the last 45 days; the available items are mostly primary-election coverage or state legislative context, which are not valid for the requested race.",
-  "as_of_date": "2026-08-12T10:25:12",
+  "reasoning": "In the last 45 days, the available Missouri-related political coverage and data focus on state legislative primaries, ballot measures, and national/other-state contests, not on Missouri-specific 2026 U.S. Senate or presidential general-election polling. None of the surfaced sources provide a head\u2011to\u2011head general-election margin for a Missouri U.S. Senate race or a Missouri presidential race, so there is no current, state-specific margin to report for those contests. Structurally, Missouri remains an R\u2011leaning state with a Cook PVI of R+9, but that is not a substitute for fresh general-election polling, which appears absent or at least not captured in the recent coverage available here.",
+  "as_of_date": "2026-08-18T13:30:40",
   "cook_pvi": {
     "party": "R",
-    "percentage_points": 16.0
+    "percentage_points": 9.0
   },
   "sources": [
     {
       "name": "Missouri Scout / Remington Research Group",
       "link": "https://moscout.com/daily-updates-1/2026/7/20/moscout-daily-update-new-polls-in-senate-20-amp-28-new-mitten-spot-mayhew-flips-on-a5-renewmo-backs-sharpe-and-more",
       "race_type": "other_context",
-      "party": "D",
+      "party": "R",
       "margin": 4.0,
-      "details": "Remington Research Group poll of Missouri Senate 20 Republican primary voters showed Lori Rook leading Curtis Trent 39% to 35%, but this is a state legislative primary and not the statewide Senate race.",
+      "details": "Remington Research Group polling for Missouri Scout found close Republican primary contests in State Senate Districts 20 and 28, with candidates separated by single-digit margins among likely 2026 GOP primary voters.",
       "date_range": "July 17-19, 2026",
       "domain": "moscout.com",
-      "verified": true
-    },
-    {
-      "name": "Missouri Independent",
-      "link": "https://missouriindependent.com/2026/08/05/what-tuesdays-primary-results-say-about-amendment-5-and-the-next-missouri-senate/",
-      "race_type": "other_context",
-      "party": "EVEN",
-      "margin": 0.0,
-      "details": "Coverage of Missouri primary results and implications for the next Missouri Senate cycle, but it does not provide a statewide 2026 general-election margin.",
-      "date_range": "August 4, 2026",
-      "domain": "missouriindependent.com",
       "verified": true
     },
     {
@@ -41,12 +30,67 @@
       "race_type": "other_context",
       "party": "EVEN",
       "margin": 0.0,
-      "details": "State Senate tipsheet discusses competitive Missouri legislative races and mentions internal polling, but it is not the statewide Senate or presidential race.",
-      "date_range": "July 2026",
+      "details": "The Missouri Times' State Senate tipsheet describes the partisan balance and competitiveness of various Missouri state Senate districts for 2026 but does not provide general-election polling for statewide U.S. Senate or presidential races.",
+      "date_range": "July 2026 (article dated July 20, 2026)",
       "domain": "themissouritimes.com",
+      "verified": true
+    },
+    {
+      "name": "Associated Press",
+      "link": "https://apnews.com/projects/elections-2026/missouri-general-results-amendment-4/",
+      "race_type": "other_context",
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "Associated Press live results for Missouri\u2019s 2026 Amendment 4 show vote counts on a statewide ballot measure, offering insight into turnout and partisan behavior but not direct polling margins for U.S. Senate or presidential races.",
+      "date_range": "August 4, 2026",
+      "domain": "apnews.com",
+      "verified": true
+    },
+    {
+      "name": "270toWin",
+      "link": "https://www.270towin.com/2026-election-results-live/state/missouri/primary",
+      "race_type": "other_context",
+      "party": "R",
+      "margin": 0.0,
+      "details": "270toWin\u2019s Missouri primary results page summarizes the partisan control and election schedule for the Missouri state Senate, noting Republicans\u2019 strong majority, but does not include general-election polling for U.S. Senate or presidential contests.",
+      "date_range": "August 4, 2026",
+      "domain": "270towin.com",
+      "verified": true
+    },
+    {
+      "name": "PBS NewsHour",
+      "link": "https://www.pbs.org/newshour/politics/live-results-missouri-midterm-primaries",
+      "race_type": "other_context",
+      "party": "R",
+      "margin": 0.0,
+      "details": "PBS NewsHour\u2019s live coverage of Missouri midterm primaries highlights the large Republican majorities in the state legislature and the number of seats up in 2026, without reporting statewide federal general-election polling.",
+      "date_range": "August 4, 2026",
+      "domain": "pbs.org",
+      "verified": true
+    },
+    {
+      "name": "The New York Times",
+      "link": "https://www.nytimes.com/interactive/2026/08/04/us/elections/results-missouri-us-house-7-primary.html?eafs_enabled=false",
+      "race_type": "other_context",
+      "party": "R",
+      "margin": 60.0,
+      "details": "The New York Times\u2019 interactive for the Missouri Seventh Congressional District primary shows Eric Burlison winning the GOP primary by a landslide margin, illustrating strong Republican performance in that district but not statewide general-election margins.",
+      "date_range": "August 4, 2026",
+      "domain": "nytimes.com",
+      "verified": true
+    },
+    {
+      "name": "Cook Political Report (via summarized PVI table)",
+      "link": "https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index",
+      "race_type": "other_context",
+      "party": "R",
+      "margin": 9.0,
+      "details": "Cook Political Report\u2019s 2026 Partisan Voting Index table lists Missouri as R+9 statewide, indicating the state voted nine points more Republican than the national average in recent presidential elections.",
+      "date_range": "Based on 2020 and 2024 presidential results (table last updated July 29, 2026)",
+      "domain": "en.wikipedia.org",
       "verified": true
     }
   ],
   "abbreviation": "MO",
-  "_cached_at": "2026-08-12T10:25:12.187947"
+  "_cached_at": "2026-08-18T13:30:40.246012"
 }

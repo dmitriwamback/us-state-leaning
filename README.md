@@ -38,6 +38,9 @@
 ### Data as of August 12th 2026
 <img width="1316" height="878" alt="Image" src="https://github.com/user-attachments/assets/80890294-b4fa-4db2-af70-08058401344e" />
 
+## Data as of August 18th 2026
+<img width="1288" height="845" alt="Image" src="https://github.com/user-attachments/assets/ddac4644-4be0-430f-859e-8c8c971a99de" />
+
 ## How to run
 
 <ul>

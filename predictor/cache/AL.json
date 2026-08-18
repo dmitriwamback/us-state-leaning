@@ -6,36 +6,80 @@
   "strength_label": "Lean",
   "net_margin": -15.0,
   "based_on": "sources",
-  "reasoning": "The only recent, state-specific general-election polling in the last 45 days I found for Alabama\u2019s 2026 Senate race shows Republican Barry Moore leading Democrat Everett Wess by 15 points. I did not find any qualifying Alabama presidential general-election polling in the provided results, so the current race margin is best represented by the Senate poll; Alabama\u2019s statewide Cook PVI is R+27.5.",
-  "as_of_date": "2026-08-12T10:23:04",
+  "reasoning": "In the only state-specific general-election polling for Alabama\u2019s 2026 U.S. Senate race within the last 45 days, Barry Moore (R) leads Everett Wess (D) by 15 points, 47%\u201332%, indicating a strongly Republican-leaning contest at this stage.[1][12][13] No recent state-specific general-election presidential polling for Alabama was found in that period, so the current measurable margin applies to the Senate race only, consistent with the state\u2019s R+15 Cook Partisan Voting Index.[3]",
+  "as_of_date": "2026-08-18T13:23:34",
   "cook_pvi": {
     "party": "R",
-    "percentage_points": 27.5
+    "percentage_points": 15.0
   },
   "sources": [
     {
-      "name": "yes. every kid. via Politically.com",
-      "link": "https://politically.com/polls/dXMtMjAyesWVzNDMwOGIzMzc/",
+      "name": "Montgomery Advertiser",
+      "link": "https://www.montgomeryadvertiser.com/story/news/politics/elections/2026/08/05/who-leads-alabama-governor-race-poll-for-tuberville-jones-decision/91182982007/",
       "race_type": "senate",
       "party": "R",
       "margin": 15.0,
-      "details": "A single likely-voter poll showed Barry Moore at 47% and Everett Wess at 32%, a Republican lead of 15 points.",
-      "date_range": "July 11, 2026",
-      "domain": "politically.com",
-      "verified": false
+      "details": "Montgomery Advertiser reports a statewide poll of 601 likely Alabama voters showing Republican Senate nominee Barry Moore at 47% and Democrat Everett Wess at 32%, a 15-point Republican lead, with about 20% undecided.",
+      "date_range": "July 8-11, 2026",
+      "domain": "montgomeryadvertiser.com",
+      "verified": true
     },
     {
-      "name": "PollsMax Alabama Senate Polling Average",
+      "name": "Politically.com / yes. every kid.",
+      "link": "https://politically.com/polls/dXMtMjAyeWVzNDMwOGIzMzc/",
+      "race_type": "senate",
+      "party": "R",
+      "margin": 15.0,
+      "details": "Politically.com reproduces the same \"yes. every kid.\" statewide Alabama survey results for the 2026 U.S. Senate race, with Barry Moore at 47% and Everett Wess at 32%, confirming a 15-point Republican advantage.",
+      "date_range": "July 8-11, 2026",
+      "domain": "politically.com",
+      "verified": true
+    },
+    {
+      "name": "Pollsmax",
       "link": "https://www.pollsmax.com/senate/alabama/",
       "race_type": "senate",
       "party": "R",
       "margin": 15.0,
-      "details": "Polling average for the Alabama Senate race showed Barry Moore ahead of Everett Wess by 15 points based on the available poll included.",
-      "date_range": "Updated August 8, 2026",
+      "details": "Pollsmax aggregates Alabama\u2019s 2026 U.S. Senate polling and reports a current polling average of 47% R to 32% D, an R+15 margin between Barry Moore and Everett Wess, based on the July 11 \"yes. every kid.\" poll.",
+      "date_range": "Aggregate through August 8, 2026 (underlying July 11, 2026 poll)",
       "domain": "pollsmax.com",
+      "verified": true
+    },
+    {
+      "name": "PredictionMarketsPicks",
+      "link": "https://predictionmarketspicks.com/midterms-2026/alabama-senate",
+      "race_type": "other_context",
+      "party": "R",
+      "margin": 0.0,
+      "details": "PredictionMarketsPicks reports that Barry Moore is trading at 97\u00a2 in Alabama\u2019s 2026 Senate prediction market, implying roughly a 97% chance of a Republican win, but does not provide a specific vote-margin estimate.",
+      "date_range": "As of August 15, 2026 (market snapshot, no field dates)",
+      "domain": "predictionmarketspicks.com",
+      "verified": true
+    },
+    {
+      "name": "Montgomery Advertiser (Trump approval context)",
+      "link": "https://www.montgomeryadvertiser.com/story/news/politics/2026/08/07/what-is-trump-approval-rating-in-alabama-it-continues-to-fall-nationally/91212175007/",
+      "race_type": "other_context",
+      "party": "R",
+      "margin": 13.0,
+      "details": "The same Montgomery Advertiser statewide survey also measures Trump\u2019s job approval in Alabama (53% approve, 40% disapprove), a contextual indicator of the state\u2019s Republican tilt but not a direct presidential ballot test.",
+      "date_range": "July 8-11, 2026",
+      "domain": "montgomeryadvertiser.com",
+      "verified": true
+    },
+    {
+      "name": "Cook Partisan Voting Index (state context)",
+      "link": "https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index",
+      "race_type": "other_context",
+      "party": "R",
+      "margin": 15.0,
+      "details": "The Cook Partisan Voting Index lists Alabama as R+15 at the statewide level, meaning its two-party presidential vote has been 15 points more Republican than the national average.",
+      "date_range": "Structural index based on 2020 and 2024 presidential results (no specific field dates)",
+      "domain": "en.wikipedia.org",
       "verified": true
     }
   ],
   "abbreviation": "AL",
-  "_cached_at": "2026-08-12T10:23:04.204889"
+  "_cached_at": "2026-08-18T13:23:34.946507"
 }

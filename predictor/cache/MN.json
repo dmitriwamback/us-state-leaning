@@ -2,62 +2,117 @@
   "state": "Minnesota",
   "mode": "senate_presidential_polling",
   "lean": "D",
-  "confidence": 0.512,
+  "confidence": 0.55,
   "strength_label": "Tilt",
-  "net_margin": 5.5,
+  "net_margin": 7.0,
   "based_on": "sources",
-  "reasoning": "Minnesota\u2019s most recent state-specific general-election Senate polling in the last 45 days shows a consistent Democratic edge, with the latest public poll averaging about D+7 in candidate matchups and about D+8 on the generic Senate ballot. The state\u2019s Cook Partisan Voting Index is D+7, which matches the underlying structural Democratic lean reflected in the recent polling.[1][4]",
-  "as_of_date": "2026-08-12T10:25:03",
+  "reasoning": "Recent polling in Minnesota\u2019s 2026 U.S. Senate general election shows Democrats holding a modest but consistent edge over Republican nominee Michele Tafoya, with most credible surveys putting Lt. Gov. Peggy Flanagan ahead by mid\u2013single digits and a generic Democrat up by a similar margin.[1][4][11] There is no fresh, state-specific presidential general-election polling in the last 45 days in the gathered results, so the best current quantitative picture is that the Senate race is roughly D+6\u20138, in line with Minnesota\u2019s slight Democratic lean in partisan index terms, but still competitive.[4][11]",
+  "as_of_date": "2026-08-18T13:30:16",
   "cook_pvi": {
     "party": "D",
-    "percentage_points": 7.0
+    "percentage_points": 1.0
   },
   "sources": [
     {
-      "name": "Impact Research (via Newsweek coverage)",
-      "link": "https://www.newsweek.com/minnesota-senate-race-polls-midterms-12306628",
+      "name": "The New York Times (Impact Research poll summary)",
+      "link": "https://www.nytimes.com/interactive/polls/minnesota-us-senate-election-polls-2026.html",
       "race_type": "senate",
       "party": "D",
       "margin": 7.0,
-      "details": "Impact Research surveyed 808 likely voters and found Peggy Flanagan leading Michele Tafoya 51% to 44% in the Minnesota Senate general election matchup.",
-      "date_range": "May 26-28, 2026",
-      "domain": "newsweek.com",
+      "details": "Impact Research poll (reported in NYT aggregation and Newsweek) found Peggy Flanagan leading Michele Tafoya by 7 points, 51% to 44% in a Minnesota U.S. Senate general-election matchup.",
+      "date_range": "July 8-11, 2025",
+      "domain": "nytimes.com",
       "verified": true
     },
     {
-      "name": "Emerson College (via Newsweek coverage)",
-      "link": "https://www.newsweek.com/minnesota-senate-race-polls-midterms-12306628",
-      "race_type": "senate",
+      "name": "Yahoo News reporting PPP poll",
+      "link": "https://www.yahoo.com/news/politics/articles/poll-shows-peggy-flanagan-expanding-040200398.html",
+      "race_type": "other_context",
       "party": "D",
-      "margin": 6.0,
-      "details": "Emerson College found Peggy Flanagan leading Michele Tafoya 47% to 41% in a Minnesota Senate general-election poll.",
-      "date_range": "February 6-8, 2026",
-      "domain": "newsweek.com",
+      "margin": 14.0,
+      "details": "Public Policy Polling survey of Minnesota Democratic primary voters showed Peggy Flanagan leading Angie Craig 46% to 32%, a 14\u2011point advantage in the DFL Senate primary.",
+      "date_range": "July 23-24, 2026",
+      "domain": "yahoo.com",
       "verified": true
     },
     {
-      "name": "Pollsmax polling average",
-      "link": "https://www.pollsmax.com/senate/minnesota/",
-      "race_type": "senate",
-      "party": "D",
-      "margin": 3.5,
-      "details": "The polling average for the Minnesota Senate race shows 48.0% D to 44.5% R, a Democratic lead of 3.5 points.",
-      "date_range": "Most recent average updated August 10, 2026",
-      "domain": "pollsmax.com",
-      "verified": true
-    },
-    {
-      "name": "KSTP/SurveyUSA Minnesota Senate primary poll",
+      "name": "KSTP/SurveyUSA",
       "link": "https://kstp.com/kstp-news/top-news/kstp-surveyusa-poll-lindell-tafoya-increase-their-election-leads-craig-ellison-margins-shrink/",
       "race_type": "other_context",
       "party": "EVEN",
       "margin": 0.0,
-      "details": "SurveyUSA/KSTP polling of the Democratic Senate primary found Flanagan and Craig tied at 40% each, which is primary-only and not usable as a general-election margin.",
+      "details": "SurveyUSA/KSTP poll found the DFL Senate primary between Angie Craig and Peggy Flanagan tied at 40%\u201340%, indicating a neck\u2011and\u2011neck primary but not measuring the general election.",
+      "date_range": "July 15-20, 2026",
+      "domain": "kstp.com",
+      "verified": true
+    },
+    {
+      "name": "The New York Times summarizing SurveyUSA",
+      "link": "https://www.nytimes.com/2026/08/11/us/politics/minnesota-primary-elections-polling.html",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 2.0,
+      "details": "Later SurveyUSA/KSTP polling just before the primary showed Angie Craig ahead of Peggy Flanagan 42% to 40% among DFL primary voters, again only reflecting the Democratic primary balance.",
+      "date_range": "July 29-August 4, 2026",
+      "domain": "nytimes.com",
+      "verified": true
+    },
+    {
+      "name": "Minnesota Reformer summarizing Mason-Dixon poll",
+      "link": "https://minnesotareformer.com/2026/07/31/state-of-the-race-for-u-s-senate/",
+      "race_type": "senate",
+      "party": "D",
+      "margin": 8.0,
+      "details": "Mason-Dixon Polling & Research survey cited generic ballot numbers for Minnesota\u2019s Senate race with an unnamed Democrat leading an unnamed Republican 49%\u201341%, an 8\u2011point edge for Democrats heading into the general election.",
+      "date_range": "Late July 2026 (generic ballot, specific date not stated beyond \u2018most recent\u2019)",
+      "domain": "minnesotareformer.com",
+      "verified": true
+    },
+    {
+      "name": "Newsweek summarizing Mason-Dixon, Impact Research, Emerson College",
+      "link": "https://www.newsweek.com/minnesota-senate-race-polls-midterms-12306628",
+      "race_type": "senate",
+      "party": "D",
+      "margin": 6.0,
+      "details": "Newsweek article reports Mason-Dixon generic ballot for the Minnesota Senate race showing Democrats ahead 49%\u201341%, and notes an Impact Research poll with Flanagan leading Tafoya by 7 points and an Emerson College poll with Flanagan up 6 points, 47%\u201341%.",
+      "date_range": "Late July 2026 (exact field dates not given; described as latest Mason-Dixon)",
+      "domain": "newsweek.com",
+      "verified": true
+    },
+    {
+      "name": "Minnesota Secretary of State \u2013 US Senate Primary Results",
+      "link": "https://electionresults.sos.mn.gov/Results/Index?ErsElectionId=200&officeInElectionIdList=38485&officeInElectionIdList=-1&scenario=USSenate&electionDate=08/11/2026%2000:00:00",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 19.6,
+      "details": "Official Minnesota Secretary of State primary results show Peggy Flanagan winning the DFL U.S. Senate primary with 59.0% of the vote to Angie Craig\u2019s 39.4%, establishing Flanagan as the Democratic nominee but not indicating general-election margin.",
+      "date_range": "August 11, 2026 (primary election day)",
+      "domain": "electionresults.sos.mn.gov",
+      "verified": true
+    },
+    {
+      "name": "NBC News \u2013 Minnesota Senate Primary Election 2026 Live Results",
+      "link": "https://www.nbcnews.com/politics/2026-primary-elections/minnesota-senate-results",
+      "race_type": "other_context",
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "NBC News live results show Michele Tafoya winning the Republican Senate primary with 52.1% of the vote and Peggy Flanagan winning the DFL primary with 59.0%, confirming the nominees but not measuring the general-election head\u2011to\u2011head margin.",
+      "date_range": "August 11, 2026 (primary election day)",
+      "domain": "nbcnews.com",
+      "verified": true
+    },
+    {
+      "name": "KSTP/SurveyUSA \u2013 GOP Senate primary poll",
+      "link": "https://kstp.com/kstp-news/top-news/kstp-surveyusa-poll-lindell-tafoya-increase-their-election-leads-craig-ellison-margins-shrink/",
+      "race_type": "other_context",
+      "party": "R",
+      "margin": 31.0,
+      "details": "SurveyUSA/KSTP poll of the Minnesota GOP Senate primary found Michele Tafoya leading with 41% support, far ahead of Royce White at 10% and other candidates in single digits, reflecting GOP primary dynamics only.",
       "date_range": "July 15-20, 2026",
       "domain": "kstp.com",
       "verified": true
     }
   ],
   "abbreviation": "MN",
-  "_cached_at": "2026-08-12T10:25:03.376180"
+  "_cached_at": "2026-08-18T13:30:16.797371"
 }

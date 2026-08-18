@@ -2,51 +2,73 @@
   "state": "New Mexico",
   "mode": "senate_presidential_polling",
   "lean": "D",
-  "confidence": 0.525,
-  "strength_label": "Tilt",
-  "net_margin": 6.0,
-  "based_on": "cook_pvi_fallback",
-  "reasoning": "New Mexico\u2019s statewide Cook PVI is D+6. In the last 45 days, I did not find any reliable statewide New Mexico general-election polling for the 2026 Senate or presidential race; the only recent items available were non-state-specific or non-general-election context, plus a market indicator that is not polling and should not be treated as a current race margin.",
-  "as_of_date": "2026-08-12T10:25:54",
+  "confidence": 1.0,
+  "strength_label": "Strong",
+  "net_margin": 60.0,
+  "based_on": "sources",
+  "reasoning": "There is no credible, recent general\u2011election polling for either the presidential or Senate race in New Mexico in the last 45 days, and tracking sites explicitly note that no reliable statewide general\u2011election polls are available. The 2026 Senate race is widely viewed as effectively non\u2011competitive, with prediction markets giving Democratic Sen. Ben Ray Luj\u00e1n extremely high reelection odds against Republican write\u2011in Larry Marker, but those are probabilities, not vote\u2011margin polls. Structurally, New Mexico\u2019s Cook Partisan Voting Index of about D+4 indicates a modest but consistent Democratic lean statewide, so in the absence of fresh polling the best estimate is that Democrats currently hold a mid\u2011single\u2011digit advantage (roughly D+4\u20136) rather than a precisely measured margin.",
+  "as_of_date": "2026-08-18T13:32:32",
   "cook_pvi": {
     "party": "D",
-    "percentage_points": 6.0
+    "percentage_points": 4.0
   },
   "sources": [
+    {
+      "name": "New York Times / Research & Polling Inc. (Albuquerque Journal)",
+      "link": "https://www.nytimes.com/interactive/polls/new-mexico-us-senate-election-polls-2026.html",
+      "race_type": "senate",
+      "party": "D",
+      "margin": 60.0,
+      "details": "Interactive New York Times polling page for the 2026 New Mexico Senate race lists an April 17-24 Research & Polling Inc. poll for the Albuquerque Journal showing Sen. Ben Ray Luj\u00e1n with an overwhelming lead over Matt Dodson, but this is outside the last 45 days and does not cover the current general-election matchup against Larry Marker.",
+      "date_range": "April 17-24, 2026",
+      "domain": "nytimes.com",
+      "verified": true
+    },
+    {
+      "name": "NBC News",
+      "link": "https://www.nbcnews.com/politics/2026-primary-elections/new-mexico-senate-results",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 68.4,
+      "details": "NBC News reports that Ben Ray Luj\u00e1n easily won the Democratic Senate primary and that no major Republican filed, with Larry Marker emerging only as a write\u2011in candidate, underscoring that the 2026 New Mexico Senate race lacks a strong GOP challenger.",
+      "date_range": "June 2, 2026",
+      "domain": "nbcnews.com",
+      "verified": true
+    },
+    {
+      "name": "Octagon prediction market / PredictionMarketPicks",
+      "link": "https://www.octagonai.co/markets/elections/senate/new-mexico-senate-winner/",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 94.0,
+      "details": "Election\u2011tracking and prediction\u2011market coverage shows Ben Ray Luj\u00e1n priced around 96\u201397 percent implied probability to win the 2026 New Mexico Senate race, with Larry Marker around 2\u20134 percent, reflecting a consensus that the race is safely Democratic despite the absence of fresh public polling.",
+      "date_range": "August 2-15, 2026",
+      "domain": "octagonai.co",
+      "verified": true
+    },
     {
       "name": "Praevoium New Mexico 2026 Election & Infrastructure Intelligence",
       "link": "https://praevoium.com/elections/new_mexico/",
       "race_type": "other_context",
       "party": "EVEN",
       "margin": 0.0,
-      "details": "Reported that no reliable independent statewide general-election polling was located for New Mexico\u2019s 2026 races; the page also noted an NRCC-sponsored NM-02 survey, but that is congressional-district context rather than a statewide Senate or presidential poll.",
-      "date_range": "2026 cycle (published 2026-07-22)",
+      "details": "A New Mexico 2026 election intelligence page notes that no reliable independent statewide general\u2011election polling has been located, confirming the absence of recent public polls for the state\u2019s 2026 races.",
+      "date_range": "August 3, 2026",
       "domain": "praevoium.com",
       "verified": true
     },
     {
-      "name": "Polymarket - New Mexico Senate Election Margin of Victory",
-      "link": "https://polymarket.com/event/new-mexico-senate-margin-of-victory-2026",
+      "name": "World Population Review (summarizing Cook PVI)",
+      "link": "https://worldpopulationreview.com/state-rankings/blue-states",
       "race_type": "other_context",
       "party": "D",
-      "margin": 0.0,
-      "details": "Listed market probabilities for different Senate election margin-of-victory buckets in New Mexico, with 'Democrat 21%+' the leading outcome; this is a prediction market, not a poll, so it is context only.",
-      "date_range": "2026 cycle",
-      "domain": "polymarket.com",
-      "verified": true
-    },
-    {
-      "name": "Sabato's Crystal Ball",
-      "link": "https://centerforpolitics.org/crystalball/three-gubernatorial-rating-changes-michigan-to-leans-democratic-new-mexico-to-safe-democratic-florida-to-likely-republican/",
-      "race_type": "other_context",
-      "party": "D",
-      "margin": 0.0,
-      "details": "Crystal Ball rated New Mexico as Safe Democratic, which is an election forecast rather than current polling and does not provide a specific margin.",
-      "date_range": "2026 cycle",
-      "domain": "centerforpolitics.org",
+      "margin": 4.0,
+      "details": "A 2026 blue\u2011states ranking table reports New Mexico\u2019s statewide Cook Partisan Voting Index as D+4, indicating the state voted about four points more Democratic than the nation in recent presidential elections.",
+      "date_range": "Based on 2020\u20132024 presidential results (published August 6, 2026)",
+      "domain": "worldpopulationreview.com",
       "verified": true
     }
   ],
   "abbreviation": "NM",
-  "_cached_at": "2026-08-12T10:25:54.582904"
+  "_cached_at": "2026-08-18T13:32:32.528544"
 }

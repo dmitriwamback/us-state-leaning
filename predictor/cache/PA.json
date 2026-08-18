@@ -1,63 +1,52 @@
 {
   "state": "Pennsylvania",
   "mode": "senate_presidential_polling",
-  "lean": "D",
-  "confidence": 0.5,
-  "strength_label": "Tilt",
-  "net_margin": 5.0,
+  "lean": "Toss-up",
+  "confidence": 0.1,
+  "strength_label": "Toss-up",
+  "net_margin": -1.0,
   "based_on": "cook_pvi_fallback",
-  "reasoning": "Pennsylvania\u2019s statewide Cook Partisan Voting Index is D+5.0. In the last 45 days, I did not find a qualifying Pennsylvania-specific 2026 Senate or presidential general-election poll from an approved source; the only directly relevant recent items were other-context or non-general-election polling, so there is no reliable current race margin to report from the allowed sources.",
-  "as_of_date": "2026-08-12T10:26:28",
+  "reasoning": "There are no general-election polls or rating changes for a current Pennsylvania presidential or 2026 Senate race in the last 45 days among the credible, state-specific sources surfaced; the recent Pennsylvania coverage is about Trump and Fetterman job approval, not head\u2011to\u2011head margins, so I cannot derive a concrete D+ or R+ polling margin for those races. Structurally, Pennsylvania\u2019s latest Cook Partisan Voting Index is R+1 statewide, implying a very slight Republican lean, but in the absence of fresh, race\u2011specific general\u2011election polling, the best current quantitative indicator is that structural R+1 baseline rather than a clear polling margin.",
+  "as_of_date": "2026-08-18T13:34:41",
   "cook_pvi": {
-    "party": "D",
-    "percentage_points": 5.0
+    "party": "R",
+    "percentage_points": 1.0
   },
   "sources": [
     {
-      "name": "PennLive/Bravo Group polling as reported by Truthout",
-      "link": "https://truthout.org/articles/fetterman-is-so-unpopular-that-he-loses-to-someone-else-by-18-points-in-poll/",
+      "name": "Cook Political Report (PVI summary)",
+      "link": "https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index",
+      "race_type": "other_context",
+      "party": "R",
+      "margin": 1.0,
+      "details": "The updated Cook Partisan Voting Index shows Pennsylvania with a statewide rating of R+1 relative to the national presidential vote, indicating the state voted about one point more Republican than the nation overall in the reference elections.",
+      "date_range": "based on 2020 and 2024 presidential results (reported in 2026 update)",
+      "domain": "en.wikipedia.org",
+      "verified": true
+    },
+    {
+      "name": "Quinnipiac University via USA Today coverage",
+      "link": "https://www.usatoday.com/story/news/state/pennsylvania/pittsburgh/2026/08/06/fetterman-win-democratic-primary-election-polls/91194286007/",
+      "race_type": "other_context",
+      "party": "EVEN",
+      "margin": 7.0,
+      "details": "A Quinnipiac University poll of Pennsylvania voters found Sen. John Fetterman\u2019s job approval at 48% approve and 41% disapprove, with unusually high approval among Republicans and net disapproval among Democrats; the poll did not test a 2026 Senate general-election matchup, only job approval and attitudes toward his party affiliation.",
+      "date_range": "late July 2026 (exact field dates not reported in secondary coverage)",
+      "domain": "usatoday.com",
+      "verified": true
+    },
+    {
+      "name": "PennLive/Bravo Group Morning Scrapple poll",
+      "link": "https://www.pennlive.com/politics/2026/07/trump-fetterman-in-trouble-with-pa-voters-morning-scrapple-poll.html",
       "race_type": "other_context",
       "party": "R",
       "margin": 18.0,
-      "details": "A Pennsylvania registered-voter poll found 58% would choose 'someone else' versus 40% for John Fetterman in a hypothetical head-to-head, indicating an 18-point deficit for Fetterman, but this is not a general-election matchup against a named opponent.",
-      "date_range": "July 9-13, 2026",
-      "domain": "truthout.org",
+      "details": "A PennLive/Bravo Group Morning Scrapple poll reported that 58% of respondents said they would vote for someone else if a Senate race involving Fetterman were held this year, compared to 40% who said they would definitely or probably vote for him, but this was framed as a hypothetical sentiment question rather than a named general-election matchup with a specific opponent or year.",
+      "date_range": "late July 2026 (poll described as the latest PennLive/Bravo Group Morning Scrapple survey)",
+      "domain": "pennlive.com",
       "verified": true
-    },
-    {
-      "name": "Quinnipiac University poll release",
-      "link": "https://poll.qu.edu/poll-release?releaseid=3962",
-      "race_type": "other_context",
-      "party": "EVEN",
-      "margin": 0.0,
-      "details": "A Quinnipiac poll of Pennsylvania voters measured statewide opinions, including Fetterman's approval and Shapiro's gubernatorial numbers, but it did not test a Pennsylvania Senate or presidential general-election race.",
-      "date_range": "July 9-13, 2026",
-      "domain": "poll.qu.edu",
-      "verified": true
-    },
-    {
-      "name": "Quinnipiac University poll as reported by JNS",
-      "link": "https://www.jns.org/news/u-s-news/poll-shapiro-holds-double-digit-lead-over-republican-challenger-in-pennsylvania-governors-race",
-      "race_type": "other_context",
-      "party": "D",
-      "margin": 13.0,
-      "details": "A Pennsylvania gubernatorial poll showed Josh Shapiro leading Stacy Garrity 53% to 40%, but this is a governor's race, not a Senate or presidential race.",
-      "date_range": "July 9-13, 2026",
-      "domain": "jns.org",
-      "verified": true
-    },
-    {
-      "name": "Cook Political Report PVI",
-      "link": "https://cookpolitical.com/cook-pvi/",
-      "race_type": "other_context",
-      "party": "D",
-      "margin": 5.0,
-      "details": "Cook Political Report's statewide Cook Partisan Voting Index rates Pennsylvania as D+5, meaning the state voted about five points more Democratic than the nation in recent presidential elections.",
-      "date_range": "2026 cycle, current statewide figure",
-      "domain": "cookpolitical.com",
-      "verified": false
     }
   ],
   "abbreviation": "PA",
-  "_cached_at": "2026-08-12T10:26:28.995812"
+  "_cached_at": "2026-08-18T13:34:41.810417"
 }

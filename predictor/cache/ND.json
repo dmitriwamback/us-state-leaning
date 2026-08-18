@@ -2,17 +2,84 @@
   "state": "North Dakota",
   "mode": "senate_presidential_polling",
   "lean": "R",
-  "confidence": 0.825,
-  "strength_label": "Lean",
-  "net_margin": -18.0,
+  "confidence": 0.875,
+  "strength_label": "Strong",
+  "net_margin": -20.0,
   "based_on": "cook_pvi_fallback",
-  "reasoning": "North Dakota is strongly Republican by statewide fundamentals, with a Cook PVI of R+18. I did not find any qualifying North Dakota general-election Senate or presidential polling/news from the last 45 days in the provided results; the available items were either about other states or about a South Dakota Republican runoff, so there is no current North Dakota race margin to report from the scoped sources.",
-  "as_of_date": "2026-08-12T10:26:07",
+  "reasoning": "Within the last 45 days there do not appear to be any reputable, state\u2011level general\u2011election polls of either the 2026 North Dakota Senate race or the 2026 presidential race, nor fresh race ratings specifically focused on North Dakota; the search results surface national/contextual pieces and material about other states, but nothing with North Dakota\u2011specific margins for these contests. Given the absence of current, state\u2011specific polling or ratings in that window, the best available structural guide is North Dakota\u2019s Cook Partisan Voting Index, which historically has been around R+20 statewide and indicates a strongly Republican environment, but this is not a direct measure of the present race margin. As a result, there is no evidence\u2011based numeric D+ or R+ margin from the last 45 days for either the Senate or presidential race in North Dakota, only the expectation from its deep\u2011red PVI that Republicans are favored.",
+  "as_of_date": "2026-08-18T13:33:20",
   "cook_pvi": {
     "party": "R",
-    "percentage_points": 18.0
+    "percentage_points": 20.0
   },
-  "sources": [],
+  "sources": [
+    {
+      "name": "270toWin \u2013 Latest 2026 Senate Election Polls",
+      "link": "https://www.270towin.com/polls/latest-2026-senate-election-polls/",
+      "race_type": "other_context",
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "A 270toWin compilation of 2026 Senate polls lists the most recent polling for the 35 Senate contests, but the accessible summary does not show any North Dakota\u2011specific 2026 general\u2011election polling in the last 45 days.",
+      "date_range": "N/A",
+      "domain": "270towin.com",
+      "verified": true
+    },
+    {
+      "name": "Inside Elections 2026 Senate Ratings (via 270toWin)",
+      "link": "https://www.270towin.com/2026-senate-election/inside-elections-2026-senate-ratings",
+      "race_type": "other_context",
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "An Inside Elections 2026 Senate ratings page hosted on 270toWin provides a national map of Senate race ratings as of early August 2026, but the excerpted content does not supply a specific quantitative margin or a North Dakota\u2011focused race rating in the visible portion.",
+      "date_range": "As of August 6, 2026",
+      "domain": "270towin.com",
+      "verified": true
+    },
+    {
+      "name": "Cook Political Report \u2013 2026 Cook PVI Update (district map context)",
+      "link": "https://x.com/CookPolitical/status/2082441407822770545",
+      "race_type": "other_context",
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "Cook Political Report describes updated 2026 Cook Partisan Voting Index scores for all districts, providing structural partisan lean data but not direct polling margins for North Dakota\u2019s statewide Senate or presidential races.",
+      "date_range": "July 29, 2026",
+      "domain": "x.com",
+      "verified": true
+    },
+    {
+      "name": "CNN Politics \u2013 Democrats have a new problem as they try to win the Senate",
+      "link": "https://www.cnn.com/2026/08/03/politics/democrats-midterms-senate",
+      "race_type": "other_context",
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "A CNN Politics article on Democrats\u2019 prospects for winning the Senate discusses national fundamentals and specific battlegrounds but does not present North Dakota\u2011specific 2026 general\u2011election polling or quantified margins.",
+      "date_range": "August 3, 2026",
+      "domain": "cnn.com",
+      "verified": true
+    },
+    {
+      "name": "CNN Politics \u2013 The 9 Senate seats most likely to flip in 2026",
+      "link": "https://www.cnn.com/2026/08/10/politics/senate-race-rankings-august-2026",
+      "race_type": "other_context",
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "A CNN ranking of the nine Senate seats most likely to flip in 2026 cites polling and dynamics in several competitive states but does not include North Dakota among the listed seats or supply a current margin there.",
+      "date_range": "August 10, 2026",
+      "domain": "cnn.com",
+      "verified": true
+    },
+    {
+      "name": "Washington Post \u2013 Why Democrats are dropping out of Senate races in deep-red states",
+      "link": "https://www.washingtonpost.com/politics/2026/08/15/why-democrats-are-dropping-out-senate-races-deep-red-states/",
+      "race_type": "other_context",
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "A Washington Post piece on Democrats dropping out of Senate races in deep\u2011red states mentions Nebraska, Idaho, and South Dakota as cases where Democratic nominees withdrew, illustrating the structural GOP advantage in such states but offering no North Dakota\u2011specific 2026 margin data.",
+      "date_range": "August 15, 2026",
+      "domain": "washingtonpost.com",
+      "verified": true
+    }
+  ],
   "abbreviation": "ND",
-  "_cached_at": "2026-08-12T10:26:07.107901"
+  "_cached_at": "2026-08-18T13:33:20.456794"
 }

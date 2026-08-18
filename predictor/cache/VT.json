@@ -2,40 +2,73 @@
   "state": "Vermont",
   "mode": "senate_presidential_polling",
   "lean": "D",
-  "confidence": 1.0,
-  "strength_label": "Strong",
-  "net_margin": 27.0,
+  "confidence": 0.75,
+  "strength_label": "Lean",
+  "net_margin": 15.0,
   "based_on": "cook_pvi_fallback",
-  "reasoning": "Vermont\u2019s current-race polling in the last 45 days is sparse, and the only clearly statewide survey in the results is a July UNH poll showing Democrat Aly Richards leading incumbent Phil Scott 35% to 43% in the governor\u2019s race, which is not a Senate or presidential test and therefore counts only as context. For the requested federal races, the results provided do not include a Vermont-specific general-election Senate or presidential poll from the last 45 days, so the safest current margin assessment is that Vermont remains strongly Democratic at the structural level, consistent with its statewide Cook PVI of D+27.",
-  "as_of_date": "2026-08-12T10:27:22",
+  "reasoning": "In the last 45 days, none of the credible polling or forecaster sources in the search results reported a state\u2011specific 2026 general\u2011election presidential or U.S. Senate poll for Vermont, nor any current handicapping that translates to a numeric D+/R+ margin for those races. Given the lack of Vermont\u2011specific general\u2011election polling for president or Senate, the only quantitative structural indicator available is the statewide Cook Partisan Voting Index, which rates Vermont as a strongly Democratic state (about D+15), suggesting a substantial Democratic advantage but not a measured current race margin. Therefore, I cannot provide a precise, polling\u2011based D+/R+ margin for either the 2026 presidential or Senate race in Vermont at this time; the best available structural guide is that Vermont is roughly D+15 overall, and recent news is focused on primaries and down\u2011ballot races rather than general\u2011election federal polling.",
+  "as_of_date": "2026-08-18T13:36:18",
   "cook_pvi": {
     "party": "D",
-    "percentage_points": 27.0
+    "percentage_points": 15.0
   },
   "sources": [
     {
-      "name": "University of New Hampshire poll via Politically.com",
-      "link": "https://politically.com/polls/Z292MjAydW5pNGRlNTRiZTM/",
+      "name": "Cook Political Report \u2013 Partisan Voting Index (Vermont statewide)",
+      "link": "https://cookpolitical.com/pvi",
       "race_type": "other_context",
-      "party": "R",
-      "margin": 8.0,
-      "details": "Statewide voter attitude/context poll with Phil Scott 43% and Aly Richards 35%; this is gubernatorial context, not a Senate or presidential general-election matchup.",
-      "date_range": "July 2026",
-      "domain": "politically.com",
+      "party": "D",
+      "margin": 15.0,
+      "details": "Cook Political Report\u2019s updated statewide Partisan Voting Index for Vermont classifies the state as strongly Democratic, approximately D+15 relative to the national vote, indicating a substantial structural advantage for Democrats but not a specific 2026 race margin.",
+      "date_range": "ongoing index for 2024\u20132026 cycle",
+      "domain": "cookpolitical.com",
+      "verified": false
+    },
+    {
+      "name": "270toWin \u2013 Latest 2026 Senate Election Polls",
+      "link": "https://www.270towin.com/polls/latest-2026-senate-election-polls/",
+      "race_type": "other_context",
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "The 270toWin 2026 Senate polling page lists recent Senate polls by state, but as of mid\u2011August 2026 shows no public general\u2011election Senate polling for Vermont, indicating there is no current quantified margin for a Vermont U.S. Senate race in the last 45 days.",
+      "date_range": "June 24\u2013August 11, 2026 (site last updated June 24; Vermont page checked August 11)",
+      "domain": "270towin.com",
       "verified": true
     },
     {
-      "name": "Cook Political Report State PVI",
-      "link": "https://www.cookpolitical.com/state-pvi",
+      "name": "UNH Survey Center \u2013 Vermont Divided on Scott's Job Performance",
+      "link": "https://scholars.unh.edu/survey_center_polls/982/",
       "race_type": "other_context",
-      "party": "D",
-      "margin": 27.0,
-      "details": "Statewide Cook PVI for Vermont, indicating the state leans heavily Democratic overall.",
-      "date_range": "2026",
-      "domain": "cookpolitical.com",
-      "verified": false
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "A University of New Hampshire Survey Center release on Vermont politics discusses Phil Scott\u2019s job approval and prospective matchups for governor and other offices, but does not provide Vermont\u2011specific 2026 general\u2011election presidential or U.S. Senate margins, making it contextual rather than directly applicable to the target races.",
+      "date_range": "July 21, 2026",
+      "domain": "scholars.unh.edu",
+      "verified": true
+    },
+    {
+      "name": "Vermont Public \u2013 Vermont's 2026 primary election results",
+      "link": "https://www.vermontpublic.org/local-news/2026-08-11/vermonts-2026-primary-election-results",
+      "race_type": "other_context",
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "A Vermont Public report covers 2026 primary election results for statewide and legislative offices, offering insight into party strength and candidates but not general\u2011election presidential or U.S. Senate polling, so it cannot provide a numeric margin for those races.",
+      "date_range": "August 11, 2026",
+      "domain": "vermontpublic.org",
+      "verified": true
+    },
+    {
+      "name": "USA Today \u2013 Vermont election results: Latest on House, governor primary races",
+      "link": "https://www.usatoday.com/story/news/politics/elections/2026/08/12/vermont-primary-election-results/91196269007/",
+      "race_type": "other_context",
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "A USA Today article summarizes Vermont\u2019s 2026 primary election outcomes for governor and U.S. House, showing current partisan dynamics but offering no general\u2011election presidential or Senate polling or handicapping specific to Vermont.",
+      "date_range": "August 12, 2026",
+      "domain": "usatoday.com",
+      "verified": true
     }
   ],
   "abbreviation": "VT",
-  "_cached_at": "2026-08-12T10:27:22.135083"
+  "_cached_at": "2026-08-18T13:36:18.688927"
 }

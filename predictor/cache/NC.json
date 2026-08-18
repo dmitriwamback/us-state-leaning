@@ -2,51 +2,128 @@
   "state": "North Carolina",
   "mode": "senate_presidential_polling",
   "lean": "D",
-  "confidence": 0.542,
+  "confidence": 0.597,
   "strength_label": "Tilt",
-  "net_margin": 6.67,
+  "net_margin": 8.88,
   "based_on": "sources",
-  "reasoning": "Recent North Carolina Senate polling from the last 45 days shows Roy Cooper leading Michael Whatley by between 4 and 9 points, with the latest included poll showing a 7-point Cooper advantage and earlier Fox News polling showing a 9-point lead. On balance, the current Senate margin is best summarized as **D+7** in North Carolina, while no qualifying North Carolina presidential general-election poll from the last 45 days was provided in the search results.",
-  "as_of_date": "2026-08-12T10:26:03",
+  "reasoning": "Recent high\u2011quality public polls of North Carolina\u2019s 2026 U.S. Senate race all show Democrat Roy Cooper leading Republican Michael Whatley by mid\u2011single to low\u2011double\u2011digit margins, suggesting a current environment around roughly D+8\u201310 despite the state\u2019s underlying GOP lean.[1][2][3][4][6][7][8][14] There are no state\u2011specific general\u2011election presidential matchup polls for North Carolina in the last 45 days in the results provided, and the other recent data we have (such as presidential approval) speaks to context rather than a direct head\u2011to\u2011head margin.[12] Structurally, the statewide Cook Partisan Voting Index rates North Carolina as a slightly Republican\u2011leaning state (R+3), so the current Senate polling reflects Democrats substantially overperforming that baseline.[15]",
+  "as_of_date": "2026-08-18T13:33:08",
   "cook_pvi": {
     "party": "R",
-    "percentage_points": 2.0
+    "percentage_points": 3.0
   },
   "sources": [
     {
-      "name": "Fox News",
-      "link": "https://www.foxnews.com/politics/fox-news-poll-democratic-enthusiasm-shapes-north-carolina-senate-race.amp",
+      "name": "ABC11 (WTVD) summary of Fox News North Carolina Senate poll",
+      "link": "https://abc11.com/story/fox-news-poll-cooper-tops-whatley-9-points-nc-senate-race/19606373/",
       "race_type": "senate",
       "party": "D",
       "margin": 9.0,
-      "details": "Fox News poll of 1,005 registered North Carolina voters found Roy Cooper leading Michael Whatley 53% to 44%.",
+      "details": "Fox News/Beacon Research & Shaw Company poll of 1,005 registered North Carolina voters finds Roy Cooper 53% and Michael Whatley 44% in the 2026 U.S. Senate race, a Cooper +9 margin.",
+      "date_range": "July 23-27, 2026",
+      "domain": "abc11.com",
+      "verified": true
+    },
+    {
+      "name": "The Hill coverage of Fox News North Carolina Senate poll",
+      "link": "https://thehill.com/homenews/campaign/5999436-fox-news-poll-north-carolina-senate/",
+      "race_type": "senate",
+      "party": "D",
+      "margin": 9.0,
+      "details": "Fox News reports its Beacon Research/Shaw Company poll showing Cooper 53% to Whatley 44% among North Carolina registered voters for the open U.S. Senate seat, a 9\u2011point Democratic lead.",
+      "date_range": "July 23-27, 2026",
+      "domain": "thehill.com",
+      "verified": true
+    },
+    {
+      "name": "Fox News article on North Carolina Senate poll",
+      "link": "https://www.foxnews.com/politics/fox-news-poll-democratic-enthusiasm-shapes-north-carolina-senate-race",
+      "race_type": "senate",
+      "party": "D",
+      "margin": 9.0,
+      "details": "Fox News political desk highlights its North Carolina Senate survey with Cooper leading Whatley 53% to 44%, describing Democratic enthusiasm as shaping the race and confirming a Cooper +9 margin.",
       "date_range": "July 23-27, 2026",
       "domain": "foxnews.com",
       "verified": true
     },
     {
-      "name": "Public Policy Polling / WFAE",
-      "link": "https://www.wfae.org/politics/2026-07-15/poll-shows-north-carolina-senate-race-tightening",
+      "name": "Elon University Poll \u2013 North Carolina U.S. Senate",
+      "link": "https://www.elon.edu/u/news/2026/08/12/elon-poll-cooper-continues-to-lead-in-north-carolina-u-s-senate-race/",
       "race_type": "senate",
       "party": "D",
-      "margin": 4.0,
-      "details": "Public Policy Polling found Roy Cooper ahead of Michael Whatley 48% to 44% in North Carolina's Senate race.",
-      "date_range": "July 13-? 2026",
-      "domain": "wfae.org",
+      "margin": 11.0,
+      "details": "Elon University/YouGov poll of North Carolina adults, focusing on 466 likely voters, shows Cooper at 53% and Whatley at 42% in the U.S. Senate race, an 11\u2011point lead among likely voters.",
+      "date_range": "July 23-31, 2026",
+      "domain": "elon.edu",
       "verified": true
     },
     {
-      "name": "Change Research / Carolina Forward via The Hill",
-      "link": "https://thehill.com/homenews/campaign/6021249-cooper-leads-nc-senate-poll/",
+      "name": "The Hill coverage of Elon University North Carolina Senate poll",
+      "link": "https://thehill.com/homenews/campaign/6027492-cooper-leads-whatley-nc-senate/",
       "race_type": "senate",
       "party": "D",
-      "margin": 7.0,
-      "details": "Carolina Forward / Change Research poll reported Roy Cooper leading Michael Whatley by 7 points, 50% to 43%, in North Carolina's Senate race.",
-      "date_range": "Undated report published within the last 45 days",
+      "margin": 11.0,
+      "details": "The Hill\u2019s writeup of the Elon University poll notes that Cooper leads Whatley 53% to 42% among likely North Carolina voters in the 2026 Senate race, for an 11\u2011point Democratic advantage.",
+      "date_range": "July 23-31, 2026",
       "domain": "thehill.com",
+      "verified": true
+    },
+    {
+      "name": "Roll Call summary of Public Policy Polling North Carolina Senate poll",
+      "link": "https://rollcall.com/2026/07/28/as-roy-cooper-leads-in-polls-democrats-arent-measuring-the-drapes-yet/",
+      "race_type": "senate",
+      "party": "D",
+      "margin": 4.0,
+      "details": "Roll Call cites a Public Policy Polling survey showing Cooper at 48% and Whatley at 44% in the North Carolina Senate race, a Cooper +4 margin that predates later polls but is still within the last 45 days.",
+      "date_range": "July 10-11, 2026",
+      "domain": "rollcall.com",
+      "verified": true
+    },
+    {
+      "name": "New York Times \u2013 North Carolina U.S. Senate Election 2026: Latest Polls",
+      "link": "https://www.nytimes.com/interactive/polls/north-carolina-us-senate-election-polls-2026.html",
+      "race_type": "senate",
+      "party": "D",
+      "margin": 9.0,
+      "details": "The New York Times interactive polling page for the 2026 North Carolina U.S. Senate election aggregates several recent surveys, including PPP (Cooper +4), Fox News/Beacon-Shaw (Cooper +9), and Elon/YouGov (Cooper +11).",
+      "date_range": "July 10-11, 2026",
+      "domain": "nytimes.com",
+      "verified": true
+    },
+    {
+      "name": "270toWin \u2013 Latest 2026 Senate Election Polls (North Carolina section)",
+      "link": "https://www.270towin.com/polls/latest-2026-senate-election-polls/",
+      "race_type": "senate",
+      "party": "D",
+      "margin": 9.0,
+      "details": "270toWin\u2019s latest 2026 Senate election polls page lists recent North Carolina polls including Fox News and Elon University, both showing Cooper ahead of Whatley by mid\u2011 to high\u2011single\u2011digit margins, and provides a state polling average reflecting a Democratic edge.",
+      "date_range": "July 23-31, 2026",
+      "domain": "270towin.com",
+      "verified": true
+    },
+    {
+      "name": "High Point University Poll \u2013 North Carolina Presidential Approval",
+      "link": "https://www.highpoint.edu/blog/2026/07/hpu-poll-majority-of-north-carolinians-say-country-headed-in-wrong-direction/",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 12.0,
+      "details": "High Point University\u2019s July 2026 survey of North Carolina residents finds Donald Trump\u2019s presidential job approval at 38% approve and 50% disapprove, offering contextual evidence of a challenging environment for Republicans but not a specific general\u2011election ballot test.",
+      "date_range": "July 2026 (exact field dates not specified)",
+      "domain": "highpoint.edu",
+      "verified": true
+    },
+    {
+      "name": "Cook Political Report \u2013 Partisan Voting Index Map (North Carolina)",
+      "link": "https://www.cookpolitical.com/pvi-map-and-district-list",
+      "race_type": "other_context",
+      "party": "R",
+      "margin": 3.0,
+      "details": "Cook Political Report\u2019s PVI map and district list show North Carolina with a statewide rating of R+3, indicating the state has voted about three points more Republican than the nation in recent presidential elections.",
+      "date_range": "ongoing; PVI based on recent presidential results (no specific field dates)",
+      "domain": "cookpolitical.com",
       "verified": true
     }
   ],
   "abbreviation": "NC",
-  "_cached_at": "2026-08-12T10:26:03.633448"
+  "_cached_at": "2026-08-18T13:33:08.773130"
 }

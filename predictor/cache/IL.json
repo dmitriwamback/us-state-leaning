@@ -2,29 +2,62 @@
   "state": "Illinois",
   "mode": "senate_presidential_polling",
   "lean": "D",
-  "confidence": 0.55,
+  "confidence": 0.525,
   "strength_label": "Tilt",
-  "net_margin": 7.0,
+  "net_margin": 6.0,
   "based_on": "cook_pvi_fallback",
-  "reasoning": "I could not find any Illinois-specific current-cycle Senate or presidential general-election polling/news from the last 45 days in the provided results. The only Illinois-related item was a 2026 Illinois Senate race market page, which is not a state-specific poll and therefore counts only as other_context; it suggests a large Democratic advantage, but it is not suitable to establish a current race margin. Illinois\u2019 statewide Cook Partisan Voting Index is D+7.",
-  "as_of_date": "2026-08-12T10:24:12",
+  "reasoning": "Illinois is structurally a strongly Democratic state (Cook PVI around D+6 statewide), and the limited recent data we have all point to a safe Democratic environment rather than a competitive 2026 general-election race. The search results show prediction-market and modeling sites with very high implied Democratic win probabilities and large expected margins in the Illinois Senate race, but do not provide any traditional public polling or reputable forecaster race ratings specific to Illinois in the last 45 days; therefore, those market-based sources must be treated as contextual rather than direct evidence for a numeric margin. With no state-specific general-election polling or major-ratings updates in the last 45 days for either the Senate or presidential race, the best grounded assessment is that the current effective margin is strongly Democratic, roughly in line with or above the D+6 structural lean, but without a precise, poll-derived point estimate.",
+  "as_of_date": "2026-08-18T13:26:57",
   "cook_pvi": {
     "party": "D",
-    "percentage_points": 7.0
+    "percentage_points": 6.0
   },
   "sources": [
     {
-      "name": "Polymarket",
-      "link": "https://polymarket.com/event/illinois-senate-margin-of-victory-2026/will-the-democratic-party-candidate-win-the-2026-illinois-senate-election-by-25-30",
+      "name": "Wikipedia (Cook Partisan Voting Index summary)",
+      "link": "https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 6.0,
+      "details": "Wikipedia\u2019s summary of the Cook Partisan Voting Index table lists Illinois as a D+6 state at the statewide level, reflecting that recent presidential results have been about six points more Democratic than the national average.",
+      "date_range": "not specified (structural index, not a poll)",
+      "domain": "en.wikipedia.org",
+      "verified": true
+    },
+    {
+      "name": "Octagon AI \u2013 Illinois Senate winner prediction market/model",
+      "link": "https://www.octagonai.co/markets/elections/senate/illinois-senate-winner/",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 0.0,
+      "details": "Octagon\u2019s Illinois Senate prediction page reports Juliana Stratton with around a 97\u201398% modeled and market probability of winning the 2026 Illinois U.S. Senate race against Don Tracy, characterizing Illinois as a strongly Democratic state presenting a substantial challenge for Republicans statewide.",
+      "date_range": "August 12-14, 2026 (model and market snapshot dates)",
+      "domain": "octagonai.co",
+      "verified": true
+    },
+    {
+      "name": "Polymarket \u2013 Illinois Senate margin-of-victory market",
+      "link": "https://polymarket.com/event/illinois-senate-margin-of-victory-2026/will-the-democratic-party-candidate-win-the-2026-illinois-senate-election-by-15-20",
       "race_type": "other_context",
       "party": "D",
       "margin": 25.0,
-      "details": "Prediction market page for the 2026 Illinois Senate margin of victory shows the leading outcome as a Democratic win by 25-30%, with other Democratic win bands also favored.",
-      "date_range": "Current market snapshot (accessed 2026-08-12)",
+      "details": "Polymarket\u2019s Illinois Senate margin-of-victory market notes that the leading contract for the 2026 Illinois Senate race is a Democratic victory in the 25\u201330 point range, with that outcome trading at about a 30% implied probability and smaller-margin Democratic outcomes also priced as likely, suggesting expectations of a very large Democratic win though not based on public polling.",
+      "date_range": "August 4-7, 2026 (market snapshot window)",
       "domain": "polymarket.com",
+      "verified": true
+    },
+    {
+      "name": "Prediction Market Picks \u2013 Illinois Senate 2026 odds",
+      "link": "https://predictionmarketspicks.com/midterms-2026/illinois-senate",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 0.0,
+      "details": "Prediction Markets Picks describes Illinois\u2019s open U.S. Senate seat as Safe D and reports Juliana Stratton trading around 97\u00a2, implying roughly a 97% chance of Democratic victory, but does not provide a specific projected vote margin from polling.",
+      "date_range": "as of August 15, 2026 (market snapshot)",
+      "domain": "predictionmarketspicks.com",
       "verified": true
     }
   ],
   "abbreviation": "IL",
-  "_cached_at": "2026-08-12T10:24:12.692794"
+  "_cached_at": "2026-08-18T13:26:57.760653"
 }

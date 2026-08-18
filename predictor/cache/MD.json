@@ -2,29 +2,51 @@
   "state": "Maryland",
   "mode": "senate_presidential_polling",
   "lean": "D",
-  "confidence": 1.0,
-  "strength_label": "Strong",
-  "net_margin": 28.0,
+  "confidence": 0.75,
+  "strength_label": "Lean",
+  "net_margin": 15.0,
   "based_on": "cook_pvi_fallback",
-  "reasoning": "Maryland is not showing any recent Maryland-specific Senate or presidential polling in the provided search results, so there is no current race margin to report from the last 45 days. The only directly relevant structural datapoint available is Maryland\u2019s statewide Cook PVI, which is strongly Democratic at D+28.",
-  "as_of_date": "2026-08-12T10:24:43",
+  "reasoning": "In the last 45 days, I did not find any reputable, state\u2011level general\u2011election polling for a **Maryland 2026 U.S. Senate** or **presidential** race, so there is no current quantified D+ or R+ margin specific to those contests. The only fresh statewide horse\u2011race polling located was for the **2026 governor\u2019s race** showing Democrat Wes Moore leading Republican Dan Cox by roughly the high\u201120s, which is structurally consistent with Maryland\u2019s strong Democratic lean but cannot be directly applied to Senate or presidential margins. Given the absence of current, Maryland\u2011specific Senate or presidential polls, the best available structural guide is Maryland\u2019s Cook PVI of **D+15**, indicating a strongly Democratic environment but not an actual 2026 race margin.",
+  "as_of_date": "2026-08-18T13:29:24",
   "cook_pvi": {
     "party": "D",
-    "percentage_points": 28.0
+    "percentage_points": 15.0
   },
   "sources": [
     {
-      "name": "Cook Political Report Partisan Voting Index",
-      "link": "https://www.cookpolitical.com/cook-pvi",
+      "name": "Maryland Bay News / Zenith Research poll coverage",
+      "link": "https://mdbaynews.com/2026/08/12/wes-moore-dan-cox-poll-fundraising-2026/",
       "race_type": "other_context",
       "party": "D",
-      "margin": 28.0,
-      "details": "Statewide Cook Political Report partisan index for Maryland; used as a structural baseline rather than a current race poll.",
-      "date_range": "2026",
-      "domain": "cookpolitical.com",
-      "verified": false
+      "margin": 27.0,
+      "details": "Text\u2011to\u2011web statewide poll of 800 likely Maryland voters found Gov. Wes Moore at 58% and Dan Cox at 31%, a 27\u2011point Democratic lead in the 2026 gubernatorial rematch.",
+      "date_range": "July 27\u2013August 3, 2026",
+      "domain": "mdbaynews.com",
+      "verified": true
+    },
+    {
+      "name": "Patch (Maryland) summary of Zenith Research poll",
+      "link": "https://patch.com/maryland/across-md/poll-moore-enjoys-comfortable-early-lead-against-cox-governors-rematch",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 27.0,
+      "details": "Local outlet summarized the same Zenith Research poll showing Moore with a comfortable early lead over Cox in the 2026 governor\u2019s race, using the 58\u201331 topline (27\u2011point margin).",
+      "date_range": "July 27\u2013August 3, 2026",
+      "domain": "patch.com",
+      "verified": true
+    },
+    {
+      "name": "Cook Political Report \u2013 Cook Partisan Voting Index (Maryland row)",
+      "link": "https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 15.0,
+      "details": "Cook Political Report\u2019s by\u2011state table lists Maryland with a Partisan Voting Index of D+15, reflecting that its presidential vote has been about 15 points more Democratic than the national average.",
+      "date_range": "Cook PVI based on 2020 and 2024 presidential results (table current as of 2024 cycle)",
+      "domain": "en.wikipedia.org",
+      "verified": true
     }
   ],
   "abbreviation": "MD",
-  "_cached_at": "2026-08-12T10:24:43.820693"
+  "_cached_at": "2026-08-18T13:29:24.636801"
 }

@@ -2,51 +2,51 @@
   "state": "Colorado",
   "mode": "senate_presidential_polling",
   "lean": "D",
-  "confidence": 0.75,
-  "strength_label": "Lean",
-  "net_margin": 15.0,
+  "confidence": 0.525,
+  "strength_label": "Tilt",
+  "net_margin": 6.0,
   "based_on": "cook_pvi_fallback",
-  "reasoning": "Colorado\u2019s statewide Cook PVI is D+15. In the last 45 days, the search results did not surface a valid Colorado 2026 general-election Senate or presidential poll; the closest usable items were prediction-market and non-state-specific or non-target-race references, so there is no reliable current race margin to report from approved sources.",
-  "as_of_date": "2026-08-12T10:23:35",
+  "reasoning": "Recent Colorado polling from the last 45 days does not show a clear statewide Senate margin; the only race-specific items found are a Colorado Senate poll tied at 45-45 and a pair of district-focused House poll stories that are not statewide Senate or presidential measures. The statewide structural baseline remains Colorado\u2019s Cook PVI of D+6, which is the best current statewide partisan indicator available from the sources gathered.",
+  "as_of_date": "2026-08-18T13:24:40",
   "cook_pvi": {
     "party": "D",
-    "percentage_points": 15.0
+    "percentage_points": 6.0
   },
   "sources": [
     {
-      "name": "PredictionHunt",
-      "link": "https://www.predictionhunt.com/news/democratic-party-hits-95-in-colorado-senate-jul-14-2026",
-      "race_type": "other_context",
-      "party": "D",
-      "margin": 20.0,
-      "details": "Prediction market on the Colorado Senate race shows Democrats as a heavy favorite overall, with the market leading outcome centered on a Democratic win by 20-25 points.",
-      "date_range": "Updated August 3, 2026",
-      "domain": "predictionhunt.com",
-      "verified": true
-    },
-    {
-      "name": "Colorado Pols",
-      "link": "https://www.coloradopols.com/2026elections/2026-u-s-senate",
-      "race_type": "other_context",
+      "name": "Colorado Polling Institute",
+      "link": "https://copollinginstitute.org/poll/2026-07-july-statewide-poll/",
+      "race_type": "senate",
       "party": "EVEN",
       "margin": 0.0,
-      "details": "Colorado election coverage page with no specific polling margin for the current Senate or presidential race in the provided result.",
-      "date_range": "2026 cycle page",
-      "domain": "coloradopols.com",
+      "details": "A Colorado statewide poll showed the Senate race tied at 45% to 45%.",
+      "date_range": "July 2026",
+      "domain": "copollinginstitute.org",
       "verified": true
     },
     {
-      "name": "Polymarket",
-      "link": "https://polymarket.com/event/colorado-senate-margin-of-victory-2026",
+      "name": "Coloradoan",
+      "link": "https://www.coloradoan.com/story/news/politics/2026/08/02/colorado-polls-trump-congress-values/91121754007/",
       "race_type": "other_context",
-      "party": "D",
-      "margin": 20.0,
-      "details": "Polymarket lists a Colorado Senate election margin-of-victory contract; the leading bracket is Democrat 20-25%, but this is a market, not a state poll or official forecast.",
-      "date_range": "N/A",
-      "domain": "polymarket.com",
+      "party": "R",
+      "margin": 1.0,
+      "details": "A poll for the Democratic challenger in Colorado's 8th Congressional District found Republican Jeff Crank leading Jessica Killin 45% to 44%, but this is a House race and not a statewide Senate or presidential contest.",
+      "date_range": "July 16-21, 2026",
+      "domain": "coloradoan.com",
+      "verified": true
+    },
+    {
+      "name": "Coloradoan",
+      "link": "https://www.coloradoan.com/story/news/politics/2026/08/02/colorado-polls-trump-congress-values/91121754007/",
+      "race_type": "other_context",
+      "party": "R",
+      "margin": 1.0,
+      "details": "A poll for the Democratic challenger in Colorado's 3rd Congressional District found Republican Jeff Hurd leading Dwayne Romero 45% to 44%, but this is a House race and not a statewide Senate or presidential contest.",
+      "date_range": "July 21-23, 2026",
+      "domain": "coloradoan.com",
       "verified": true
     }
   ],
   "abbreviation": "CO",
-  "_cached_at": "2026-08-12T10:23:35.523823"
+  "_cached_at": "2026-08-18T13:24:40.678576"
 }
