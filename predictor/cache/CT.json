@@ -6,58 +6,102 @@
   "strength_label": "Tilt",
   "net_margin": 8.0,
   "based_on": "cook_pvi_fallback",
-  "reasoning": "Within the last 45 days, there are no Connecticut\u2011specific general\u2011election 2026 presidential or U.S. Senate polls or forecaster ratings in the retrieved material; coverage focuses on primaries for governor, Congress, and state legislature, plus structural data like PVI. Connecticut remains a structurally Democratic state with a Cook Partisan Voting Index of about D+8 statewide, so in the absence of fresh general\u2011election Senate or presidential polling, the best current assessment is that both races lean clearly Democratic but without a quantified recent margin from approved sources. Therefore, the \"current margin\" can only be described structurally (roughly D+8) rather than as a specific head\u2011to\u2011head poll spread for the 2026 presidential or Senate contests.",
-  "as_of_date": "2026-08-18T13:24:52",
+  "reasoning": "I was unable to locate any Connecticut\u2011specific 2026 **Senate** or **presidential general\u2011election polling** or ratings dated within the last 45 days from approved outlets; most recent Connecticut coverage focuses on the 2026 gubernatorial and congressional primaries rather than statewide federal general races.[3][4][6][11][12][15] The only clear statewide structural metric available in the recent data is the Cook Partisan Voting Index, which lists Connecticut as **D+8**, indicating a structurally Democratic\u2011leaning state but not providing a current 2026 Senate or presidential margin.[14] Given the absence of qualifying, state\u2011specific 2026 Senate or presidential polling in the last 45 days, I cannot assign a current numeric margin for either race beyond noting that the state\u2019s underlying environment is D+8.",
+  "as_of_date": "2026-08-18T15:26:35",
   "cook_pvi": {
     "party": "D",
     "percentage_points": 8.0
   },
   "sources": [
     {
-      "name": "World Population Review (summarizing Cook PVI)",
-      "link": "https://worldpopulationreview.com/state-rankings/blue-states",
+      "name": "Cook Political Report / Wikipedia summary of 2026 Cook PVI",
+      "link": "https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index",
       "race_type": "other_context",
       "party": "D",
       "margin": 8.0,
-      "details": "Lists Connecticut\u2019s statewide partisan lean as approximately D+8 in the most recent Cook Partisan Voting Index update, identifying it as a solidly Democratic state compared to the national average.",
-      "date_range": "2024 cycle, reported as 2026 update",
-      "domain": "worldpopulationreview.com",
+      "details": "The Cook Political Report\u2019s 2026 PVI materials and related index identify Connecticut as a Democratic-leaning state, and Wikipedia\u2019s summary table lists the statewide Cook PVI as D+8, indicating the state voted about eight points more Democratic than the nation in the most recent presidential election.",
+      "date_range": "2026-07-29",
+      "domain": "en.wikipedia.org",
       "verified": true
     },
     {
-      "name": "CT Mirror \u2013 Impact CT poll on Democratic gubernatorial primary",
+      "name": "CT Mirror / Change Research Democratic gubernatorial primary poll",
       "link": "https://ctmirror.org/2026/07/29/governor-ct-poll-lamont-elliott/",
       "race_type": "other_context",
       "party": "D",
       "margin": 21.0,
-      "details": "Impact CT/Change Research poll of likely Democratic primary voters shows Gov. Ned Lamont leading Josh Elliott 48% to 27% (Lamont +21) in the gubernatorial primary, indicating strong Democratic positioning in statewide politics but not the general election Senate or presidential race.",
+      "details": "A Change Research poll reported by the CT Mirror shows Gov. Ned Lamont leading Democratic primary challenger Josh Elliott by 21 points among likely Democratic primary voters (48% to 27%), a gubernatorial primary context rather than a federal general-election race.",
       "date_range": "July 23-26, 2026",
       "domain": "ctmirror.org",
       "verified": true
     },
     {
-      "name": "CT Public \u2013 2026 Connecticut primary live results",
+      "name": "Sacred Heart University/WFSB/CT Insider gubernatorial poll",
+      "link": "https://www.yahoo.com/news/politics/articles/lamont-holds-wide-lead-over-110000162.html",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 20.0,
+      "details": "A Sacred Heart University/WFSB/CT Insider poll finds Lamont holding a lead of more than 20 points over Republican Ryan Fazio in the 2026 gubernatorial race, showing a strong Democratic advantage in that statewide contest but not directly measuring Senate or presidential margins.",
+      "date_range": "Late July 2026 (exact dates not specified, described as July poll)",
+      "domain": "yahoo.com",
+      "verified": true
+    },
+    {
+      "name": "Prediction Edge / GreatBlue Research and other CT gubernatorial primary polling",
+      "link": "https://www.predictionedge.com/elections/ct/",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 35.8,
+      "details": "Polling compiled by Prediction Edge from GreatBlue Research and other pollsters shows Lamont with large leads over Elliott in the Democratic gubernatorial primary (spreads between Lamont+21 and Lamont+35.5), again a primary context rather than a Senate or presidential race.",
+      "date_range": "July 21-26, 2026",
+      "domain": "predictionedge.com",
+      "verified": true
+    },
+    {
+      "name": "CT Public 2026 Connecticut primary live results",
       "link": "https://www.ctpublic.org/news/2026-08-11/live-results-election-day-connecticut-congress-governor-larson-bronin-lamont",
       "race_type": "other_context",
       "party": "EVEN",
       "margin": 0.0,
-      "details": "Live primary results show Ned Lamont easily winning the Democratic gubernatorial primary and Ryan Fazio securing the Republican nomination, illustrating current partisan dynamics but not providing a general\u2011election Senate or presidential margin.",
+      "details": "CT Public\u2019s live election coverage reports Ned Lamont easily defeating Josh Elliott in the Democratic gubernatorial primary and notes he will face Republican Ryan Fazio in November, but does not provide quantified general-election margins for Senate or presidential races.",
       "date_range": "August 11, 2026",
       "domain": "ctpublic.org",
       "verified": true
     },
     {
-      "name": "270toWin \u2013 2026 Connecticut primary results overview",
-      "link": "https://www.270towin.com/2026-election-results-live/state/connecticut/primary/",
+      "name": "Associated Press Decision Notes on Connecticut 2026 primary",
+      "link": "https://www.wsls.com/news/politics/2026/08/10/ap-decision-notes-what-to-expect-in-connecticuts-state-primary/",
       "race_type": "other_context",
       "party": "EVEN",
       "margin": 0.0,
-      "details": "Coverage of Connecticut\u2019s 2026 primaries notes Democratic strength in statewide contests and legislative races, again reflecting context but not offering general\u2011election presidential or Senate polling.",
-      "date_range": "August 11, 2026",
+      "details": "Associated Press Decision Notes describe the logistics and expectations for Connecticut\u2019s 2026 state primary, covering governor and legislative races but offering no polling numbers specific to the 2026 Senate or presidential general election.",
+      "date_range": "August 10, 2026",
+      "domain": "wsls.com",
+      "verified": true
+    },
+    {
+      "name": "270toWin Latest 2026 Senate Election Polls (no recent CT-specific general polls)",
+      "link": "https://www.270towin.com/polls/latest-2026-senate-election-polls/",
+      "race_type": "other_context",
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "The 270toWin 2026 Senate polls page provides a national list of Senate polling by state; however, within the last 45 days it does not list any Connecticut-specific 2026 Senate general-election polls from approved outlets.",
+      "date_range": "Accessed August 10, 2026 (poll list last updated June 24, 2026)",
       "domain": "270towin.com",
+      "verified": true
+    },
+    {
+      "name": "World Population Review partisan lean list referencing Connecticut PVI",
+      "link": "https://worldpopulationreview.com/state-rankings/blue-states",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 8.0,
+      "details": "World Population Review\u2019s partisan-lean list categorizes Connecticut as a blue state and notes its PVI as D+8, reiterating the structural Democratic lean rather than providing current race-specific polling margins.",
+      "date_range": "2026-08-06",
+      "domain": "worldpopulationreview.com",
       "verified": true
     }
   ],
   "abbreviation": "CT",
-  "_cached_at": "2026-08-18T13:24:52.007789"
+  "_cached_at": "2026-08-18T15:26:35.354933"
 }

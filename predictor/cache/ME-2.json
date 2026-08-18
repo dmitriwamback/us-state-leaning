@@ -1,0 +1,74 @@
+{
+  "state": "Maine's 2nd congressional district",
+  "mode": "senate_presidential_polling",
+  "lean": "Toss-up",
+  "confidence": 0.3,
+  "strength_label": "Toss-up",
+  "net_margin": 3.0,
+  "based_on": "sources",
+  "reasoning": "Maine's 2nd congressional district is structurally Republican-leaning, with a statewide-like district PVI of roughly R+13, but the current race-specific data from the last 45 days comes from the 2026 Senate contest, not a presidential race. Recent polls consistently show a very tight Collins-Jackson matchup, with Jackson ahead by about 2 to 4 points, so the current Senate margin is best summarized as D+3 overall based on the recent poll average. There is no current presidential race on the ballot for this district, so presidential polling is not applicable here.",
+  "as_of_date": "2026-08-18T16:37:07",
+  "cook_pvi": {
+    "party": "D",
+    "percentage_points": 13.0
+  },
+  "sources": [
+    {
+      "name": "The Hill / University of New Hampshire poll coverage",
+      "link": "https://thehill.com/homenews/5983301-jackson-leads-collins-poll/",
+      "race_type": "senate",
+      "party": "D",
+      "margin": 3.0,
+      "details": "University of New Hampshire poll of Maine likely general election voters found Troy Jackson leading Susan Collins 49% to 46%.",
+      "date_range": "July 15-20, 2026",
+      "domain": "thehill.com",
+      "verified": true
+    },
+    {
+      "name": "Newsweek / Hart Research Associates",
+      "link": "https://www.newsweek.com/troy-jackson-polling-lead-susan-collins-sara-gideon-12292873",
+      "race_type": "senate",
+      "party": "D",
+      "margin": 4.0,
+      "details": "Hart Research poll sponsored by Senate Majority PAC found Troy Jackson ahead of Susan Collins 49% to 45%.",
+      "date_range": "July 27-August 1, 2026",
+      "domain": "newsweek.com",
+      "verified": true
+    },
+    {
+      "name": "Bangor Daily News / Fox News poll coverage",
+      "link": "https://www.bangordailynews.com/2026/08/12/politics/elections/new-poll-maine-us-senate-race/",
+      "race_type": "senate",
+      "party": "D",
+      "margin": 2.0,
+      "details": "Fox News poll of Maine registered voters found Jackson leading Collins 48% to 46%.",
+      "date_range": "August 6-10, 2026",
+      "domain": "bangordailynews.com",
+      "verified": true
+    },
+    {
+      "name": "Cook Political Report",
+      "link": "https://www.newsweek.com/troy-jackson-polling-lead-susan-collins-sara-gideon-12292873",
+      "race_type": "senate",
+      "party": "EVEN",
+      "margin": null,
+      "details": "Reports that Cook Political Report rates the Maine Senate race as a toss-up, indicating no clear edge in the contest.",
+      "date_range": "2026 cycle, updated August 2026",
+      "domain": "newsweek.com",
+      "verified": true
+    },
+    {
+      "name": "Cook Partisan Voting Index",
+      "link": "https://www.nytimes.com/interactive/polls/maine-us-house-2-polls-2026.html",
+      "race_type": "other_context",
+      "party": "R",
+      "margin": 13.0,
+      "details": "Maine's 2nd congressional district is commonly described as about R+13 on the Cook Partisan Voting Index, reflecting a strongly Republican-leaning baseline.",
+      "date_range": "Statewide structural index",
+      "domain": "nytimes.com",
+      "verified": true
+    }
+  ],
+  "abbreviation": "ME-2",
+  "_cached_at": "2026-08-18T16:37:07.421706"
+}

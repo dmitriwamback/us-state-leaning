@@ -2,81 +2,26 @@
   "state": "Oklahoma",
   "mode": "senate_presidential_polling",
   "lean": "R",
-  "confidence": 1.0,
-  "strength_label": "Strong",
-  "net_margin": -33.0,
-  "based_on": "sources",
-  "reasoning": "Recent data show Oklahoma remains a strongly Republican state, with structural fundamentals and limited polling both pointing to a large GOP advantage rather than a competitively polled race.[2][7] The only explicit general\u2011election polling cited in the last 45 days is a June JMC Enterprises survey reported by The New York Times with Hern +33 in the U.S. Senate race, and there is no new, state\u2011specific 2026 presidential general\u2011election polling in this period.[2] Prediction and betting markets, combined with local coverage describing the race as an uphill battle for Democrats, reinforce the expectation of a very large Republican margin but do not provide additional scientific polls of the statewide electorate.[6][12][14][15]\n\nGiven this, the best current quantified evidence for the Oklahoma 2026 Senate general\u2011election margin is approximately **R+33**, while the 2026 presidential margin in Oklahoma cannot be pinned down from recent state\u2011specific general\u2011election polling and is instead structurally estimated as strongly Republican (on the order of R+20 or more by inference from PVI and context).[2][7]",
-  "as_of_date": "2026-08-18T13:34:07",
+  "confidence": 0.8,
+  "strength_label": "Lean",
+  "net_margin": -17.0,
+  "based_on": "cook_pvi_fallback",
+  "reasoning": "Oklahoma is still structurally very Republican, with a statewide Cook PVI of R+17. In the last 45 days, I did not find any credible source that measured a 2026 Oklahoma general-election Senate or presidential margin in-state; the available recent items were about the August runoff/primary or broader context, so the current race margin remains effectively untested and should be treated as Safe R based on the evidence gathered.",
+  "as_of_date": "2026-08-18T15:32:41",
   "cook_pvi": {
     "party": "R",
     "percentage_points": 17.0
   },
   "sources": [
     {
-      "name": "The New York Times / JMC Enterprises",
-      "link": "https://www.nytimes.com/interactive/polls/oklahoma-us-senate-election-polls-2026.html",
-      "race_type": "senate",
-      "party": "R",
-      "margin": 33.0,
-      "details": "JMC Enterprises poll of the 2026 Oklahoma U.S. Senate general election reported by The New York Times shows Republican Kevin Hern leading the Democratic candidate by 33 points (Hern +33).",
-      "date_range": "June 2-3, 2026",
-      "domain": "nytimes.com",
-      "verified": true
-    },
-    {
-      "name": "NBC News",
-      "link": "https://www.nbcnews.com/politics/2026-primary-elections/oklahoma-senate-results",
+      "name": "Cook Political Report",
+      "link": "https://x.com/CookPolitical/status/2082441407822770545",
       "race_type": "other_context",
       "party": "R",
-      "margin": 0.0,
-      "details": "NBC News reports that Kevin Hern decisively won the Oklahoma Republican U.S. Senate primary with about 69.8% of the vote, underscoring his strong position heading into the general election in a heavily Republican state.",
-      "date_range": "June 16, 2026 (primary election day)",
-      "domain": "nbcnews.com",
-      "verified": true
-    },
-    {
-      "name": "Oklahoma Voice",
-      "link": "https://oklahomavoice.com/2026/07/31/democrat-jasmine-thomas-hopes-lived-experience-will-propel-her-to-oklahoma-senate-seat/",
-      "race_type": "other_context",
-      "party": "R",
-      "margin": 0.0,
-      "details": "Oklahoma Voice describes the August 25 Democratic runoff for the U.S. Senate and notes that the eventual Democratic nominee will face Republican Kevin Hern in November in an uphill battle to flip a statewide seat in ruby\u2011red Oklahoma.",
-      "date_range": "August 25, 2026 (runoff election date context; article published July 31, 2026)",
-      "domain": "oklahomavoice.com",
-      "verified": true
-    },
-    {
-      "name": "PredictionMarketspicks",
-      "link": "https://predictionmarketspicks.com/midterms-2026/oklahoma-senate",
-      "race_type": "other_context",
-      "party": "R",
-      "margin": 0.0,
-      "details": "Prediction markets tracked by PredictionMarketspicks show Kevin Hern trading around a 97% implied probability to win the 2026 Oklahoma U.S. Senate race, reflecting market consensus of a near\u2011certain Republican hold.",
-      "date_range": "August 15, 2026 (market snapshot)",
-      "domain": "predictionmarketspicks.com",
-      "verified": true
-    },
-    {
-      "name": "Octagon Elections Prediction Market",
-      "link": "https://www.octagonai.co/markets/elections/senate/oklahoma-senate-winner/",
-      "race_type": "other_context",
-      "party": "R",
-      "margin": 0.0,
-      "details": "Octagon election prediction model and market estimate roughly 97%+ odds that Kevin Hern wins the Oklahoma Senate seat, explicitly citing Oklahoma\u2019s reliable Republican tilt and the lack of evidence for a competitive race.",
-      "date_range": "August 12-14, 2026 (market/model snapshot)",
-      "domain": "octagonai.co",
-      "verified": true
-    },
-    {
-      "name": "Polymarket (Oklahoma Senate Margin of Victory 2026 market)",
-      "link": "https://polymarket.com/event/oklahoma-senate-margin-of-victory-2026/will-the-republican-party-candidate-win-the-2026-oklahoma-senate-election-by-15-20",
-      "race_type": "other_context",
-      "party": "R",
-      "margin": 20.0,
-      "details": "A Polymarket event on the Oklahoma Senate margin of victory shows the most\u2011traded outcome as a Republican win by 20\u201325 points, with additional strong interest in even larger GOP margins, reinforcing expectations of a very large Republican edge.",
-      "date_range": "August 4-13, 2026 (market trading window cited)",
-      "domain": "polymarket.com",
+      "margin": 17.0,
+      "details": "Cook Political Report\u2019s 2026 Cook PVI update lists Oklahoma statewide as R+17, indicating a strong Republican lean.",
+      "date_range": "July 29, 2026",
+      "domain": "x.com",
       "verified": true
     },
     {
@@ -85,34 +30,23 @@
       "race_type": "other_context",
       "party": "R",
       "margin": 0.0,
-      "details": "The Oklahoman describes the Democratic Senate runoff and emphasizes that whichever Democrat wins will face a formidable task in trying to defeat well\u2011known Republican Congressman Kevin Hern in a ruby\u2011red state.",
-      "date_range": "Article published August 16, 2026 (discussing November 2026 general election)",
+      "details": "Reports that the Democratic nominee emerging from the runoff would face an uphill battle against Republican Kevin Hern in the Oklahoma U.S. Senate race.",
+      "date_range": "August 16, 2026",
       "domain": "oklahoman.com",
       "verified": true
     },
     {
-      "name": "The Oklahoman (Trump approval in Oklahoma)",
+      "name": "The Oklahoman",
       "link": "https://www.oklahoman.com/story/news/politics/2026/08/04/where-does-trumps-approval-rating-stand-in-oklahoma-ahead-of-aug-election/91152919007/",
       "race_type": "other_context",
       "party": "R",
       "margin": 0.0,
-      "details": "The Oklahoman reports that Donald Trump\u2019s approval rating in Oklahoma stands at 52% in August 2026, indicating continued Republican strength at the statewide level.",
-      "date_range": "August 2026 approval snapshot",
+      "details": "Article reports Trump\u2019s approval rating in Oklahoma at 52%, but it does not measure a Senate or presidential ballot margin for the 2026 general election.",
+      "date_range": "August 4, 2026",
       "domain": "oklahoman.com",
-      "verified": true
-    },
-    {
-      "name": "Cook Political Report (via PVI table)",
-      "link": "https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index",
-      "race_type": "other_context",
-      "party": "R",
-      "margin": 17.0,
-      "details": "Cook Political Report\u2019s 2026 Partisan Voting Index table lists Oklahoma\u2019s statewide PVI as R+17, indicating that the state has voted 17 points more Republican than the national average in recent presidential elections.",
-      "date_range": "2020 and 2024 presidential elections basis; PVI list updated July 2026",
-      "domain": "en.wikipedia.org",
       "verified": true
     }
   ],
   "abbreviation": "OK",
-  "_cached_at": "2026-08-18T13:34:07.147985"
+  "_cached_at": "2026-08-18T15:32:41.852036"
 }

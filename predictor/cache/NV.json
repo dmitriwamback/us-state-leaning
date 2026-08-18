@@ -2,51 +2,40 @@
   "state": "Nevada",
   "mode": "senate_presidential_polling",
   "lean": "Toss-up",
-  "confidence": 0.1,
+  "confidence": 0.4,
   "strength_label": "Toss-up",
-  "net_margin": 1.0,
+  "net_margin": 4.0,
   "based_on": "cook_pvi_fallback",
-  "reasoning": "Within the last 45 days there are no Nevada-specific 2026 Senate or presidential general-election polls from qualifying outlets, so there is no current, numerically defined D+ or R+ margin I can defensibly assign for either race. Given the lack of state-level polling and the fact that Nevada is structurally close to EVEN but slightly Democratic-leaning by PVI, the fairest characterization is that both the statewide Senate and presidential environments remain essentially tied, with no clear polling advantage for either party at this time.",
-  "as_of_date": "2026-08-18T13:31:50",
+  "reasoning": "I could not verify any Nevada 2026 Senate or presidential general-election polling from the last 45 days. The only recent Nevada election-source material surfaced here was a statewide structural PVI reference showing Nevada as D+4, while a recent news item noted Nevada has no competitive federal races this year, which is consistent with the absence of current Senate or presidential polling for this cycle.",
+  "as_of_date": "2026-08-18T15:31:02",
   "cook_pvi": {
     "party": "D",
-    "percentage_points": 1.0
+    "percentage_points": 4.0
   },
   "sources": [
     {
-      "name": "Cook Political Report \u2013 PVI Map and District List",
+      "name": "Cook Political Report 2026 PVI map",
       "link": "https://www.cookpolitical.com/pvi-map-and-district-list",
       "race_type": "other_context",
       "party": "D",
-      "margin": 1.0,
-      "details": "Cook Political Report\u2019s statewide Partisan Voting Index places Nevada very slightly to the Democratic side of the national average, indicating a narrow Democratic lean rather than a strongly blue or red state.",
-      "date_range": "N/A (structural index, updated post-2024)",
+      "margin": 4.0,
+      "details": "Cook Political Report\u2019s 2026 statewide PVI map lists Nevada as D+4, indicating a modest Democratic lean at the state level.",
+      "date_range": "2026",
       "domain": "cookpolitical.com",
       "verified": true
     },
     {
-      "name": "Las Vegas Sun summarizing PPP/DGA Nevada gubernatorial poll",
-      "link": "https://lasvegassun.com/news/2026/jul/22/aaron-ford-and-joe-lombardo-tie-at-44-in-new-nevad/",
+      "name": "KNPR State of Nevada",
+      "link": "https://knpr.org/show/knprs-state-of-nevada/2026-08-17/trump-others-stump-in-nevada-with-voting-in-2026-midterm-just-weeks-away",
       "race_type": "other_context",
       "party": "EVEN",
       "margin": 0.0,
-      "details": "A Public Policy Polling survey for the Democratic Governors Association found the 2026 Nevada governor\u2019s race tied 44%-44% between Republican Gov. Joe Lombardo and Democratic Attorney General Aaron Ford, underscoring a highly competitive, evenly divided statewide electorate.",
-      "date_range": "July 15-16, 2026",
-      "domain": "lasvegassun.com",
-      "verified": true
-    },
-    {
-      "name": "India Today summary of AP-NORC national polling and Trump Nevada visit",
-      "link": "https://www.indiatoday.in/amp/world/story/trump-california-nevada-visit-economy-ratings-democrats-elections-ptag-2963736-2026-08-05",
-      "race_type": "other_context",
-      "party": "EVEN",
-      "margin": 0.0,
-      "details": "A late-July AP-NORC national poll discussed in a Nevada-focused article reported low economic job-approval numbers and noted Donald Trump\u2019s visits to California and Nevada to sharpen midterm battle lines, but did not include Nevada-specific presidential ballot test numbers.",
-      "date_range": "Late July 2026 (national sample)",
-      "domain": "indiatoday.in",
+      "details": "KNPR quoted a Nevada analyst saying national politics is not affecting the election much because there are no competitive federal races in Nevada this year.",
+      "date_range": "August 17, 2026",
+      "domain": "knpr.org",
       "verified": true
     }
   ],
   "abbreviation": "NV",
-  "_cached_at": "2026-08-18T13:31:50.051728"
+  "_cached_at": "2026-08-18T15:31:02.770493"
 }

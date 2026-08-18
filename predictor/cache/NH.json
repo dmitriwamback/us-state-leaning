@@ -1,52 +1,96 @@
 {
   "state": "New Hampshire",
   "mode": "senate_presidential_polling",
-  "lean": "D",
-  "confidence": 1.0,
-  "strength_label": "Strong",
-  "net_margin": 42.0,
-  "based_on": "sources",
-  "reasoning": "New Hampshire\u2019s most relevant current 2026 statewide race result in the last 45 days is the Senate contest, where the latest state-specific polling shows Democrats ahead by a mid-single-digit margin. I did not find a current statewide 2026 presidential general-election poll for New Hampshire in the search results, only 2028 primary and other non-qualifying context, so the Senate race is the best current margin to report.",
-  "as_of_date": "2026-08-18T13:31:58",
+  "lean": "Toss-up",
+  "confidence": 0.1,
+  "strength_label": "Toss-up",
+  "net_margin": 1.0,
+  "based_on": "cook_pvi_fallback",
+  "reasoning": "Within the last 45 days there are no state-specific general-election polls for New Hampshire\u2019s 2026 Senate or presidential race in the retrieved results; most New Hampshire data concern 2028 primary matchups or Trump job approval, which cannot be used as direct measures of the current 2026 margins. The only quantified general-election margins involving New Hampshire\u2019s 2026 Senate race are referenced second-hand by an OddsShopper analysis and an Octagon forecast summary, both citing June 2026 UNH and Saint Anselm polls showing Democrat Pappas ahead of Republican Sununu by low-to-mid single digits (roughly D+3 to D+6), but those underlying polls themselves are older than 45 days, so they fall outside the requested window and must be treated as structural context rather than current margins. Given that constraint, there is no valid, within-45-days, state-level general-election polling for New Hampshire\u2019s 2026 Senate or presidential race to translate into a precise D+ or R+ margin as of August 18, 2026.",
+  "as_of_date": "2026-08-18T15:31:18",
   "cook_pvi": {
     "party": "D",
-    "percentage_points": 5.4
+    "percentage_points": 1.0
   },
   "sources": [
     {
-      "name": "University of New Hampshire poll (as reported by Octagon AI)",
-      "link": "https://www.octagonai.co/markets/elections/senate/new-hampshire-senate-winner/",
+      "name": "OddsShopper",
+      "link": "https://www.oddsshopper.com/articles/prediction-markets/new-hampshire-senate-2026-model-verdict",
       "race_type": "other_context",
       "party": "D",
-      "margin": 7.0,
-      "details": "University of New Hampshire survey reported Chris Pappas leading John E. Sununu 49% to 42% in a hypothetical 2026 Senate general-election matchup.",
-      "date_range": "April 17-21, 2026",
-      "domain": "octagonai.co",
+      "margin": 3.0,
+      "details": "OddsShopper\u2019s August 8, 2026 analysis of prediction markets references a June UNH poll with Pappas over Sununu 47\u201344 (D+3), a prior April UNH poll at 49\u201342 (D+7), and a June Saint Anselm poll at 47\u201341 (D+6), indicating a small but consistent Democratic lead in the 2026 New Hampshire Senate race, though the original polls are older than 45 days.",
+      "date_range": "June 2026 (cited, underlying poll outside 45-day window)",
+      "domain": "oddsshopper.com",
       "verified": true
     },
     {
-      "name": "New York Times polling tracker / St. Anselm poll",
-      "link": "https://www.nytimes.com/interactive/polls/new-hampshire-us-senate-election-polls-2026.html?eafs_enabled=false",
-      "race_type": "senate",
+      "name": "The Boston Globe",
+      "link": "https://www.bostonglobe.com/2026/07/30/metro/nh-trump-job-approval-lower-unh-survey/",
+      "race_type": "other_context",
       "party": "D",
-      "margin": 42.0,
-      "details": "New York Times polling tracker shows a June St. Anselm poll with Pappas far ahead, though the snippet does not provide the full topline in the excerpt.",
-      "date_range": "June 24-25, 2026",
+      "margin": 25.0,
+      "details": "A Boston Globe summary of a University of New Hampshire Granite State Poll reports that President Trump\u2019s net job approval in New Hampshire fell to \u201325 points in July 2026 (negative 25), down from \u20139 in August 2025, illustrating a substantially unfavorable statewide environment for Trump but not providing a direct 2026 general-election presidential vote margin.",
+      "date_range": "July 15\u201320, 2026",
+      "domain": "bostonglobe.com",
+      "verified": true
+    },
+    {
+      "name": "University of New Hampshire Survey Center",
+      "link": "https://scholars.unh.edu/survey_center_polls/983/",
+      "race_type": "other_context",
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "The University of New Hampshire Survey Center\u2019s July 22, 2026 release details 2028 New Hampshire presidential primary hypotheticals, with Alexandria Ocasio-Cortez and Pete Buttigieg leading the Democratic field and JD Vance and Marco Rubio leading the GOP field, but it does not test 2026 general-election matchups and therefore cannot be used as a direct margin for the 2026 presidential race.",
+      "date_range": "July 15\u201320, 2026",
+      "domain": "scholars.unh.edu",
+      "verified": true
+    },
+    {
+      "name": "The Washington Times",
+      "link": "https://www.washingtontimes.com/news/2026/jul/22/aoc-buttigieg-lead-hypothetical-2028-democrats-new-hampshire-rubio/",
+      "race_type": "other_context",
+      "party": "EVEN",
+      "margin": 10.0,
+      "details": "The Washington Times writeup of the same UNH Granite State Poll notes JD Vance at 36% and Marco Rubio at 26% among likely GOP primary voters and AOC and Buttigieg leading on the Democratic side, underscoring that recent New Hampshire polling has focused on hypothetical 2028 primaries rather than the 2026 general election.",
+      "date_range": "July 15\u201320, 2026",
+      "domain": "washingtontimes.com",
+      "verified": true
+    },
+    {
+      "name": "Cook Political Report",
+      "link": "https://www.cookpolitical.com/pvi",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 1.0,
+      "details": "Cook Political Report\u2019s statewide Partisan Voting Index rates New Hampshire at roughly D+1, indicating the state votes about one point more Democratic than the national average in recent presidential elections and providing a structural lean but not a current-cycle polling margin.",
+      "date_range": "Not specified (structural index, pre-2026)",
+      "domain": "cookpolitical.com",
+      "verified": false
+    },
+    {
+      "name": "The New York Times",
+      "link": "https://www.nytimes.com/interactive/polls/new-hampshire-us-senate-election-polls-2026.html",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 0.0,
+      "details": "The New York Times\u2019 interactive \"Latest Polls\" page for the 2026 New Hampshire U.S. Senate election lists polling from major firms such as UNH and Saint Anselm, generally showing Democrat Pappas with a narrow lead over Republican opponents, but the most recent polls on the page are last updated August 7, 2026 with field dates that appear to precede the last 45 days and thus cannot be used directly as within-window margins.",
+      "date_range": "Various field dates prior to August 7, 2026 (individual polls older than 45 days)",
       "domain": "nytimes.com",
       "verified": true
     },
     {
-      "name": "University of New Hampshire Granite State Poll",
-      "link": "https://scholars.unh.edu/survey_center_polls/983/",
+      "name": "Octagon",
+      "link": "https://www.octagonai.co/markets/elections/senate/new-hampshire-senate-winner/",
       "race_type": "other_context",
       "party": "D",
-      "margin": 1.0,
-      "details": "University of New Hampshire poll found that in the 2028 New Hampshire presidential primary, Alexandria Ocasio-Cortez led the Democratic field 22% to 21% over Pete Buttigieg; this is not a general-election margin and does not qualify for the current race.",
-      "date_range": "July 15-20, 2026",
-      "domain": "scholars.unh.edu",
+      "margin": 3.0,
+      "details": "Octagon\u2019s New Hampshire Senate winner odds and forecast article, dated August 12\u201314, 2026, summarizes market and model views that Democrats are most likely to win the New Hampshire Senate race, referencing a July 2026 UNH survey with Pappas 47\u201344 and a Peak Insights poll with Pappas 43\u201342, but these cited polls are again outside the 45-day window for current margins and are treated as contextual rather than up-to-date race measurements.",
+      "date_range": "Citing June 2026 polling (underlying polls outside 45-day window)",
+      "domain": "octagonai.co",
       "verified": true
     }
   ],
   "abbreviation": "NH",
-  "_cached_at": "2026-08-18T13:31:58.533659"
+  "_cached_at": "2026-08-18T15:31:18.330632"
 }

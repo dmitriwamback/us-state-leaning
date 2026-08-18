@@ -6,47 +6,80 @@
   "strength_label": "Lean",
   "net_margin": 15.0,
   "based_on": "cook_pvi_fallback",
-  "reasoning": "In the last 45 days, I did not find any reputable, state\u2011level general\u2011election polling for a **Maryland 2026 U.S. Senate** or **presidential** race, so there is no current quantified D+ or R+ margin specific to those contests. The only fresh statewide horse\u2011race polling located was for the **2026 governor\u2019s race** showing Democrat Wes Moore leading Republican Dan Cox by roughly the high\u201120s, which is structurally consistent with Maryland\u2019s strong Democratic lean but cannot be directly applied to Senate or presidential margins. Given the absence of current, Maryland\u2011specific Senate or presidential polls, the best available structural guide is Maryland\u2019s Cook PVI of **D+15**, indicating a strongly Democratic environment but not an actual 2026 race margin.",
-  "as_of_date": "2026-08-18T13:29:24",
+  "reasoning": "Within the last 45 days there are no credible, state\u2011specific general\u2011election polls for a 2026 Maryland Senate or presidential race, and major forecasters\u2019 Senate pages list Maryland but do not yet show a quantified 2026 general\u2011election margin or matchup.[9] The only recent Maryland horse\u2011race numbers in the results are for a 2026 **governor** rematch between Wes Moore and Dan Cox (Moore +27), which is not a Senate or presidential contest and thus cannot be used as a direct measure of those races.[3][4][13] Structurally, Maryland remains a strongly Democratic state, with a statewide Cook Partisan Voting Index of about D+15, so absent race\u2011specific polling the best current assessment is that both Senate and presidential races are **safely Democratic\u2011leaning** with no credible numeric margin yet reported.[2][5][15]",
+  "as_of_date": "2026-08-18T15:29:22",
   "cook_pvi": {
     "party": "D",
     "percentage_points": 15.0
   },
   "sources": [
     {
-      "name": "Maryland Bay News / Zenith Research poll coverage",
+      "name": "Maryland Bay News/Zenith Research (governor poll)",
       "link": "https://mdbaynews.com/2026/08/12/wes-moore-dan-cox-poll-fundraising-2026/",
       "race_type": "other_context",
       "party": "D",
       "margin": 27.0,
-      "details": "Text\u2011to\u2011web statewide poll of 800 likely Maryland voters found Gov. Wes Moore at 58% and Dan Cox at 31%, a 27\u2011point Democratic lead in the 2026 gubernatorial rematch.",
-      "date_range": "July 27\u2013August 3, 2026",
+      "details": "Zenith Research poll of 800 likely Maryland general-election voters for the 2026 governor rematch finds Wes Moore at 58% and Dan Cox at 31%, a 27-point Democratic lead.",
+      "date_range": "July 27-August 3, 2026",
       "domain": "mdbaynews.com",
       "verified": true
     },
     {
-      "name": "Patch (Maryland) summary of Zenith Research poll",
+      "name": "Politically.com \u2013 Zenith Research Maryland poll (governor)",
+      "link": "https://politically.com/polls/Z292MjAyemVuOTk2MTQzMjc/",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 27.0,
+      "details": "Politically.com summary of the Zenith Research Maryland governor poll reports Moore at 58% and Cox at 31%, confirming a 27-point Democratic advantage in that statewide race.",
+      "date_range": "July 27-August 3, 2026",
+      "domain": "politically.com",
+      "verified": true
+    },
+    {
+      "name": "Patch \u2013 Maryland governor rematch poll summary",
       "link": "https://patch.com/maryland/across-md/poll-moore-enjoys-comfortable-early-lead-against-cox-governors-rematch",
       "race_type": "other_context",
       "party": "D",
       "margin": 27.0,
-      "details": "Local outlet summarized the same Zenith Research poll showing Moore with a comfortable early lead over Cox in the 2026 governor\u2019s race, using the 58\u201331 topline (27\u2011point margin).",
-      "date_range": "July 27\u2013August 3, 2026",
+      "details": "Patch recap of the Zenith Research survey notes that Moore \"enjoys comfortable early lead\" against Cox in the 2026 governor rematch, describing the same 58\u201331% topline and 27-point margin.",
+      "date_range": "July 27-August 3, 2026",
       "domain": "patch.com",
       "verified": true
     },
     {
-      "name": "Cook Political Report \u2013 Cook Partisan Voting Index (Maryland row)",
-      "link": "https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index",
+      "name": "World Population Review \u2013 Maryland Cook PVI listing",
+      "link": "https://worldpopulationreview.com/state-rankings/blue-states",
       "race_type": "other_context",
       "party": "D",
       "margin": 15.0,
-      "details": "Cook Political Report\u2019s by\u2011state table lists Maryland with a Partisan Voting Index of D+15, reflecting that its presidential vote has been about 15 points more Democratic than the national average.",
-      "date_range": "Cook PVI based on 2020 and 2024 presidential results (table current as of 2024 cycle)",
-      "domain": "en.wikipedia.org",
+      "details": "World Population Review\u2019s 2026 blue-states list cites Maryland as D+15 in the Cook Partisan Voting Index, indicating the state votes about 15 points more Democratic than the national average in recent presidential elections.",
+      "date_range": "N/A (structural index based on 2020 & 2024 results)",
+      "domain": "worldpopulationreview.com",
+      "verified": true
+    },
+    {
+      "name": "Cook Political Report \u2013 2026 PVI map and list (Maryland)",
+      "link": "https://www.cookpolitical.com/pvi-map-and-district-list",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 15.0,
+      "details": "Cook Political Report\u2019s updated PVI materials (referenced via their PVI map/list and social posts) classify Maryland as a strongly Democratic state, consistent with roughly a D+15 statewide PVI.",
+      "date_range": "Based on 2020 & 2024 presidential results, published in the 2026 PVI update",
+      "domain": "cookpolitical.com",
+      "verified": true
+    },
+    {
+      "name": "Sabato\u2019s Crystal Ball via 270toWin \u2013 2026 Senate ratings (Maryland context, no margin)",
+      "link": "https://www.270towin.com/2026-senate-election/sabatos-crystal-ball-senate-2026",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 0.0,
+      "details": "Sabato\u2019s Crystal Ball 2026 Senate ratings page lists Maryland among Senate seats but does not provide a specific 2026 general-election polling margin, implicitly treating the seat as safely Democratic at this stage.",
+      "date_range": "Crystal Ball\u2019s 2026 cycle ratings as of mid-August 2026",
+      "domain": "270towin.com",
       "verified": true
     }
   ],
   "abbreviation": "MD",
-  "_cached_at": "2026-08-18T13:29:24.636801"
+  "_cached_at": "2026-08-18T15:29:22.270366"
 }

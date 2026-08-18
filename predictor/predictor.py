@@ -47,9 +47,9 @@ date range the data is from.
 
 IMPORTANT scope check: a source may ONLY be tagged with the target race_type \
 (not "other_context") if it specifically measures THIS state's electorate for \
-THIS state's current 2026 race. A national poll, a poll of a different state, a \
+THIS state's current race. A national poll, a poll of a different state, a \
 hypothetical or future-cycle matchup poll (e.g. testing 2028 candidates who \
-aren't even on this state's 2026 ballot), or a primary-only poll of a subgroup \
+aren't even on this state's ballot), or a primary-only poll of a subgroup \
 that never tested a general-election margin, must be tagged "other_context" \
 regardless of how related the topic sounds. If your own reasoning would describe \
 a source as "not state-specific" or "not this race," its race_type must be \
@@ -87,13 +87,26 @@ this schema:
 }}
 """
 
+def _ordinal_suffix(n: str) -> str:
+    n = int(n)
+    if n in (11, 12, 13):
+        return "th"
+    return {1: "st", 2: "nd", 3: "rd"}.get(n % 10, "th")
+
 
 def build_user_prompt(state: str, mode: str) -> str:
     today = date.today().isoformat()
     race_description = _RACE_DESCRIPTIONS[mode]
+
+    if "-" in state:
+        state_name, district_num = state.rsplit("-", 1)
+        subject = f"{state_name}'s {district_num}{_ordinal_suffix(district_num)} congressional district"
+    else:
+        subject = state
+
     return (
         f"Today's date is {today}. What is the current margin for {race_description} "
-        f"in {state} (D+ or R+), based on polling/news from the last {RECENCY_DAYS} "
+        f"in {subject} (D+ or R+), based on polling/news from the last {RECENCY_DAYS} "
         f"days? Your training data has a cutoff and cannot contain anything about "
         f"races or polling after that cutoff -- search first."
     )

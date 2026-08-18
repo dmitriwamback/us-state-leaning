@@ -2,62 +2,95 @@
   "state": "South Dakota",
   "mode": "senate_presidential_polling",
   "lean": "R",
-  "confidence": 0.95,
+  "confidence": 0.927,
   "strength_label": "Strong",
-  "net_margin": -23.0,
+  "net_margin": -22.1,
   "based_on": "sources",
-  "reasoning": "South Dakota is strongly Republican at the statewide level, with a Cook Partisan Voting Index of R+29. In the last 45 days, the only clearly state-specific general-election Senate poll found was an NRSC-commissioned poll showing Republican incumbent Mike Rounds ahead by 23 points; recent coverage also notes the Democratic nominee dropped out, which makes the race less directly comparable but does not change the basic Republican advantage. I did not find any current South Dakota presidential head-to-head polling from the last 45 days, so the Senate race is the relevant current-race data point.",
-  "as_of_date": "2026-08-18T13:35:14",
+  "reasoning": "Recent public polling and coverage indicate that the 2026 South Dakota Senate race currently shows a very large Republican advantage, with no state\u2011specific presidential general\u2011election polling in the last 45 days.\nThe clearest quantified picture comes from the Pollsmax 2026 South Dakota Senate polling average, which aggregates three polls and shows Republican Sen. Mike Rounds leading the Democratic nominee Julian Beaudion by about 21 points, and specifically a July 9 NRSC\u2011sponsored poll with Rounds ahead by 23 points, 56%\u201333%, suggesting a structural **R+20\u2011plus** environment for the general election.[1][4]\nMore recent news reporting from NBC News and Politico documents that Beaudion has since exited the race, clearing the way for independent candidate Brian Bengs to face Rounds instead, but no public general\u2011election polling of a Rounds\u2013Bengs matchup within the last 45 days is available, so the best current numerical margin still comes from the July polling showing an **approximate R+21\u201323** advantage in a federal statewide race.[12][13]",
+  "as_of_date": "2026-08-18T15:33:20",
   "cook_pvi": {
     "party": "R",
-    "percentage_points": 29.0
+    "percentage_points": 16.0
   },
   "sources": [
     {
-      "name": "The New York Times polling tracker / Public Opinion Strategies for NRSC",
+      "name": "Pollsmax",
+      "link": "https://www.pollsmax.com/senate/south-dakota/",
+      "race_type": "senate",
+      "party": "R",
+      "margin": 21.2,
+      "details": "Aggregated three South Dakota 2026 Senate polls and found Mike Rounds leading Julian Beaudion by 21.2 points, 50.3% to 29.1%, producing a statewide Senate polling average of roughly R+21.",
+      "date_range": "May 30\u2013July 9, 2026",
+      "domain": "pollsmax.com",
+      "verified": true
+    },
+    {
+      "name": "The New York Times (polls summary of NRSC/Public Opinion Strategies)",
       "link": "https://www.nytimes.com/interactive/polls/south-dakota-us-senate-election-polls-2026.html",
       "race_type": "senate",
       "party": "R",
       "margin": 23.0,
-      "details": "Head-to-head general-election poll of South Dakota Senate voters found Mike Rounds leading 56% to 33%, a 23-point Republican margin.",
-      "date_range": "July 6-9, 2026",
+      "details": "NRSC\u2011sponsored Public Opinion Strategies poll of the 2026 South Dakota Senate race reported Mike Rounds leading his opponent by 23 points, 56%\u201333%, in a statewide general\u2011election matchup.",
+      "date_range": "July 6\u20139, 2026",
       "domain": "nytimes.com",
       "verified": true
     },
     {
-      "name": "National Republican Senatorial Committee memo as reported by Townhall",
-      "link": "https://townhall.com/author/print/2680739",
+      "name": "Octagon elections forecast",
+      "link": "https://www.octagonai.co/markets/elections/senate/south-dakota-senate-winner/",
+      "race_type": "senate",
+      "party": "R",
+      "margin": 21.2,
+      "details": "Election\u2011forecast page for the South Dakota Senate race cites recent polling showing Rounds with about a +21.2 lead and assigns him roughly 93\u201394% win probability, reflecting a very strong Republican advantage statewide.",
+      "date_range": "May\u2013July 2026 (polls up to July 9)",
+      "domain": "octagonai.co",
+      "verified": true
+    },
+    {
+      "name": "Townhall (reporting on NRSC internal poll)",
+      "link": "https://townhall.com/news/amy-curtis/2026/08/05/democrats-move-to-silence-south-dakota-primary-voters-n2680739",
       "race_type": "senate",
       "party": "R",
       "margin": 23.0,
-      "details": "NRSC poll memo reported Rounds ahead of his Democratic opponent by 23 points in South Dakota.",
+      "details": "Townhall article describes an NRSC memo summarizing the July 9 NRSC poll finding Mike Rounds ahead of independent Brian Bengs by 23 points, 56%\u201333%, in a South Dakota Senate general\u2011election test.",
       "date_range": "July 9, 2026",
       "domain": "townhall.com",
       "verified": true
     },
     {
-      "name": "The New York Times",
-      "link": "https://www.nytimes.com/2026/08/04/us/politics/julian-beaudion-drops-out-south-dakota.html",
+      "name": "NBC News \u2013 South Dakota Senate primary results",
+      "link": "https://www.nbcnews.com/politics/2026-primary-elections/south-dakota-senate-results",
       "race_type": "other_context",
-      "party": "EVEN",
-      "margin": 0.0,
-      "details": "News coverage reported that Democratic nominee Julian Beaudion withdrew from the race, leaving independent Brian Bengs to challenge Rounds.",
-      "date_range": "August 2026",
-      "domain": "nytimes.com",
+      "party": "R",
+      "margin": 75.8,
+      "details": "NBC\u2019s coverage of the 2026 South Dakota Senate primary notes Mike Rounds\u2019 dominant 75.8% showing in the Republican primary, underscoring his strength in this heavily Republican state though it does not provide general\u2011election polling margins.",
+      "date_range": "June 2, 2026 (primary results)",
+      "domain": "nbcnews.com",
       "verified": true
     },
     {
-      "name": "Cook Partisan Voting Index",
-      "link": "https://www.cookpolitical.com/cook-pvi/",
+      "name": "NBC News \u2013 Democrat drops out of South Dakota Senate race",
+      "link": "https://www.nbcnews.com/politics/2026-election/democrat-drops-out-south-dakota-senate-race-independent-candidate-rcna590883",
       "race_type": "other_context",
-      "party": "R",
-      "margin": 29.0,
-      "details": "Statewide Cook Partisan Voting Index for South Dakota is R+29.",
-      "date_range": "2026",
-      "domain": "cookpolitical.com",
-      "verified": false
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "NBC News reports that Democratic nominee Julian Beaudion ended his campaign for the South Dakota Senate, clearing the path for independent Brian Bengs to face GOP Sen. Mike Rounds in the 2026 general election; article does not include new general\u2011election polling.",
+      "date_range": "August 4, 2026 (announcement date)",
+      "domain": "nbcnews.com",
+      "verified": true
+    },
+    {
+      "name": "Politico \u2013 South Dakota Democrat exits Senate race",
+      "link": "https://www.politico.com/news/2026/08/04/south-dakota-democrat-julian-beaudion-withdraws-01024746",
+      "race_type": "other_context",
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "Politico reports that South Dakota Democratic Senate nominee Julian Beaudion withdrew from the 2026 race under party pressure to make way for independent candidate Brian Bengs, without providing fresh statewide general\u2011election polling data.",
+      "date_range": "August 4, 2026 (announcement date)",
+      "domain": "politico.com",
+      "verified": true
     }
   ],
   "abbreviation": "SD",
-  "_cached_at": "2026-08-18T13:35:14.982815"
+  "_cached_at": "2026-08-18T15:33:20.962269"
 }

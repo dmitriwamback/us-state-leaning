@@ -1,41 +1,85 @@
 {
   "state": "California",
   "mode": "senate_presidential_polling",
-  "lean": "D",
-  "confidence": 0.625,
-  "strength_label": "Lean",
-  "net_margin": 10.0,
-  "based_on": "cook_pvi_fallback",
-  "reasoning": "In the last 45 days, the only identifiable California\u2011specific general\u2011election polling in the search results is a 2026 statewide poll showing Democrat Xavier Becerra leading Republican Steve Hilton by 18 points (55%\u201337%), which implies a very strong Democratic environment but is not itself a Senate or presidential race for 2026 and must be treated as other_context.[15] No recent (June\u2013August 2026) public polls or forecaster updates specifically measuring California\u2019s 2026 U.S. Senate or presidential general\u2011election margins appeared in the results, so there is no current numeric margin I can reliably report for those races beyond noting California\u2019s strongly Democratic Cook PVI (about D+10), which structurally favors Democrats statewide.[2] Given the lack of state\u2011specific 2026 Senate or presidential polling in the last 45 days, the best-supported statement is that California remains solidly Democratic at the structural level, but the current race margins for the 2026 Senate and presidential contests cannot be quantified from recent polls.",
-  "as_of_date": "2026-08-18T13:24:34",
+  "lean": "Toss-up",
+  "confidence": 0.2,
+  "strength_label": "Toss-up",
+  "net_margin": 2.0,
+  "based_on": "sources",
+  "reasoning": "The only state-specific general-election polling in the last 45 days that directly measures California\u2019s 2026 electorate is for the gubernatorial race: several reports summarize a UC Berkeley Institute of Governmental Studies poll showing Democrat Xavier Becerra leading Republican Steve Hilton statewide by roughly the high-teens to mid-20s, depending on the specific release cited.[2][7][11] These are not Senate or presidential polls and must be treated as separate context, but they reinforce the underlying Democratic strength already reflected in California\u2019s strongly Democratic Cook Partisan Voting Index (around D+18 statewide).[1] I found no reputable, state-specific general-election polling for a 2026 California U.S. Senate race or for a 2026 presidential general-election margin in California within the last 45 days, so I cannot state a current numeric D+ or R+ margin for those races based on new data; structurally, both contests remain heavily advantaged for Democrats but without fresh, race-specific polling to quantify that advantage.",
+  "as_of_date": "2026-08-18T15:26:09",
   "cook_pvi": {
     "party": "D",
-    "percentage_points": 10.0
+    "percentage_points": 18.0
   },
   "sources": [
     {
-      "name": "Politically.com summarizing UC Berkeley Institute of Governmental Studies poll",
+      "name": "New York Post (coverage of UC Irvine poll)",
+      "link": "https://nypost.com/2026/08/01/us-news/bombshell-poll-shows-steve-hilton-leading-xavier-becerra-in-orange-county/",
+      "race_type": "other_context",
+      "party": "R",
+      "margin": 3.0,
+      "details": "Reports on a University of California, Irvine poll of Orange County voters finding Steve Hilton at 47% to Xavier Becerra\u2019s 44%, while noting that Becerra remains far ahead statewide in other polling.",
+      "date_range": "June 9-12, 2026",
+      "domain": "nypost.com",
+      "verified": true
+    },
+    {
+      "name": "New York Post (coverage of PPIC California poll)",
+      "link": "https://nypost.com/2026/08/01/us-news/bombshell-poll-shows-steve-hilton-leading-xavier-becerra-in-orange-county/",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 25.0,
+      "details": "Cites a Public Policy Institute of California survey finding Xavier Becerra leading Steve Hilton statewide 61% to 36%, a 25\u2011point advantage among likely voters in the California governor\u2019s race.",
+      "date_range": "Mid-July 2026 (exact field dates not specified, described as \u201creleased mid-July\u201d)",
+      "domain": "nypost.com",
+      "verified": true
+    },
+    {
+      "name": "New York Post (coverage of Berkeley IGS/LA Times poll)",
+      "link": "https://nypost.com/2026/08/13/us-news/xavier-becerra-leads-steve-hilton-in-new-california-governors-poll/",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 18.0,
+      "details": "Reports that a Berkeley Institute of Governmental Studies/Los Angeles Times poll shows Xavier Becerra at 55% and Steve Hilton at 37% among likely voters, shrinking Becerra\u2019s lead in the California governor\u2019s race from 25 points to 18 points.",
+      "date_range": "July 2026 (exact field dates not specified in coverage; described as \u201clast month\u201d)",
+      "domain": "nypost.com",
+      "verified": true
+    },
+    {
+      "name": "Politically.com (Berkeley Institute of Governmental Studies poll summary)",
       "link": "https://politically.com/polls/Z292MjAydWMgODI1MjdhM2Q/",
       "race_type": "other_context",
       "party": "D",
       "margin": 18.0,
-      "details": "A 2026 California statewide poll reported Xavier Becerra at 55% and Steve Hilton at 37%, a Democratic lead of 18 points in that statewide contest.",
-      "date_range": "August 14, 2026 (field dates not specified in summary)",
+      "details": "Lists results of a 2026 California poll showing Xavier Becerra at 55% and Steve Hilton at 37%, consistent with an 18\u2011point Democratic lead in the governor\u2019s race.",
+      "date_range": "July 2026 (exact field dates not specified; appears to be the same Berkeley IGS poll)",
       "domain": "politically.com",
       "verified": true
     },
     {
-      "name": "Cook Political Report PVI Map and District List",
-      "link": "https://www.cookpolitical.com/pvi-map-and-district-list",
+      "name": "Cook Political Report \u2013 2026 Cook Partisan Voting Index",
+      "link": "https://x.com/CookPolitical/status/2082441407822770545",
       "race_type": "other_context",
       "party": "D",
-      "margin": 10.0,
-      "details": "Cook Political Report\u2019s PVI map lists California as a strongly Democratic state (approximately D+10) at the statewide level, indicating that in an even national environment Democrats typically run about ten points ahead of Republicans in California.",
-      "date_range": "PVI last updated March 7, 2025 (applied statewide for 2026 cycle)",
-      "domain": "cookpolitical.com",
+      "margin": 18.0,
+      "details": "Provides access to the 2026 Cook Partisan Voting Index, under which California is rated as a strongly Democratic state at roughly D+18 statewide, reflecting its baseline partisan lean.",
+      "date_range": "2026 (structural rating, not a poll)",
+      "domain": "x.com",
+      "verified": true
+    },
+    {
+      "name": "Sabato\u2019s Crystal Ball via 270toWin \u2013 2026 Senate Race Ratings",
+      "link": "https://www.270towin.com/2026-senate-election/sabatos-crystal-ball-senate-2026",
+      "race_type": "senate",
+      "party": "D",
+      "margin": 0.0,
+      "details": "Lists 2026 Senate race ratings, identifying California\u2019s Democratic incumbents (Alex Padilla and Adam Schiff) but does not show any competitive rating or specific margin, implying the races are safely Democratic without providing poll numbers.",
+      "date_range": "Ratings current as of August 13, 2026",
+      "domain": "270towin.com",
       "verified": true
     }
   ],
   "abbreviation": "CA",
-  "_cached_at": "2026-08-18T13:24:34.225204"
+  "_cached_at": "2026-08-18T15:26:09.246851"
 }

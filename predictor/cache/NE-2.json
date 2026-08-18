@@ -1,0 +1,63 @@
+{
+  "state": "Nebraska's 2nd congressional district",
+  "mode": "senate_presidential_polling",
+  "lean": "Toss-up",
+  "confidence": 0.3,
+  "strength_label": "Toss-up",
+  "net_margin": 3.0,
+  "based_on": "cook_pvi_fallback",
+  "reasoning": "Nebraska's 2nd congressional district is the relevant state-level structural benchmark here, and the available recent coverage indicates it remains a Democratic-leaning seat, with multiple July-August 2026 reports describing it as Harris-won and rated Lean Democratic by Cook Political Report. I did not find a current district-specific Senate or presidential general-election poll for Nebraska's 2nd district in the last 45 days, so the best available current margin is the structural Cook PVI of D+3 rather than a fresh race poll.",
+  "as_of_date": "2026-08-18T16:37:24",
+  "cook_pvi": {
+    "party": "D",
+    "percentage_points": 3.0
+  },
+  "sources": [
+    {
+      "name": "VolunteerBlue summary of Cook PVI / race ratings",
+      "link": "https://volunteerblue.org/take-action-state/nebraska/",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 3.0,
+      "details": "Cook Political Report's 2026 PVI materials list Nebraska's 2nd congressional district as D+3, indicating a Democratic lean in the district.",
+      "date_range": "2026",
+      "domain": "volunteerblue.org",
+      "verified": true
+    },
+    {
+      "name": "Politico",
+      "link": "https://www.politico.com/live-updates/2026/07/31/congress/steve-scalise-hits-campaign-trail-nebraska-01019632",
+      "race_type": "other_context",
+      "party": null,
+      "margin": null,
+      "details": "Politico reported that Nebraska's 2nd Congressional District was one of Democrats' best pickup opportunities and noted that Kamala Harris won the district in 2024.",
+      "date_range": "2026-07-31 to 2026-08-05",
+      "domain": "politico.com",
+      "verified": true
+    },
+    {
+      "name": "WOWT",
+      "link": "https://www.wowt.com/2026/08/11/election-2026-endorsements-spending-candidate-focus-district-2/",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": null,
+      "details": "WOWT reported that Cook Political and other handicappers list Nebraska's 2nd Congressional District as a lean Democratic seat.",
+      "date_range": "2026-08-11",
+      "domain": "wowt.com",
+      "verified": true
+    },
+    {
+      "name": "The New York Times polling tracker",
+      "link": "https://www.nytimes.com/interactive/polls/nebraska-us-house-2-polls-2026.html",
+      "race_type": "other_context",
+      "party": null,
+      "margin": null,
+      "details": "The New York Times polling page shows earlier 2025 district polling but no current 2026 district-specific general-election margin in the last 45 days, so it does not provide a usable current race margin.",
+      "date_range": "2026-08-06",
+      "domain": "nytimes.com",
+      "verified": true
+    }
+  ],
+  "abbreviation": "NE-2",
+  "_cached_at": "2026-08-18T16:37:24.521975"
+}

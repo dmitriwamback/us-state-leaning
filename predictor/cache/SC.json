@@ -2,84 +2,62 @@
   "state": "South Carolina",
   "mode": "senate_presidential_polling",
   "lean": "R",
-  "confidence": 0.575,
-  "strength_label": "Tilt",
-  "net_margin": -8.0,
+  "confidence": 0.825,
+  "strength_label": "Lean",
+  "net_margin": -18.0,
   "based_on": "cook_pvi_fallback",
-  "reasoning": "Within the last 45 days, all publicly reported South Carolina data are about the **Republican Senate primary**, not a general-election Senate or presidential matchup, so there is no legitimate current D+ or R+ margin for either statewide general race. The primary polling and results confirm South Carolina\u2019s strong Republican tilt but do not measure a Democrat-vs-Republican general-election margin, so they must be treated as context only and not as direct evidence for the 2026 Senate or presidential general races. Structurally, the most recent Cook Partisan Voting Index continues to show South Carolina as a solidly Republican state (R+8), which is the best available quantitative indicator of statewide partisan lean in the absence of fresh general-election polling.",
-  "as_of_date": "2026-08-18T13:35:08",
+  "reasoning": "South Carolina is strongly Republican-leaning on the statewide Cook PVI, at about R+18. In the last 45 days, the only relevant statewide election polling I found was for the South Carolina U.S. Senate special Republican primary, which is not the general-election Senate race; I found no qualifying current general-election Senate or presidential matchup poll for South Carolina. As a result, the current race margin is not available from a qualifying statewide general-election poll, and the best structural baseline is the state\u2019s R+18 PVI.",
+  "as_of_date": "2026-08-18T15:33:08",
   "cook_pvi": {
     "party": "R",
-    "percentage_points": 8.0
+    "percentage_points": 18.0
   },
   "sources": [
     {
-      "name": "The Hill (reporting Emerson College Polling)",
-      "link": "https://thehill.com/homenews/campaign/5999110-sc-gop-senate-primary-poll-graham-norman/",
-      "race_type": "other_context",
-      "party": "R",
-      "margin": 3.0,
-      "details": "Emerson College poll of 500 likely GOP primary voters for the special U.S. Senate election found Ralph Norman at 22%, Darline Graham at 19%, Russell Fry at 12%, Mark Sanford at 11%, with 25% undecided, indicating a fragmented Republican field but confirming a GOP-dominated statewide environment rather than a general-election margin.",
-      "date_range": "July 28-29, 2026",
-      "domain": "thehill.com",
-      "verified": true
-    },
-    {
-      "name": "Yahoo News (reporting Trafalgar Group)",
-      "link": "https://www.yahoo.com/news/politics/articles/trafalgar-poll-shows-3-way-195950690.html",
-      "race_type": "other_context",
-      "party": "R",
-      "margin": 9.6,
-      "details": "Trafalgar Group poll of 989 likely Republican voters in the South Carolina GOP U.S. Senate primary found Darline Graham leading with 27.0%, followed by Russell Fry and Ralph Norman tied at 17.4%, and Mark Sanford at 15.1%, again demonstrating that current public data are confined to the Republican primary rather than a statewide general election margin.",
-      "date_range": "July 28-30, 2026",
-      "domain": "yahoo.com",
-      "verified": true
-    },
-    {
-      "name": "Washington Examiner (summarizing Emerson, Trafalgar, co/efficient)",
-      "link": "https://www.washingtonexaminer.com/news/campaigns/congressional/4680256/south-carolina-gop-senate-poll/",
-      "race_type": "other_context",
-      "party": "R",
-      "margin": 3.0,
-      "details": "A Washington Examiner roundup of late-July South Carolina GOP Senate polling summarized multiple primary surveys\u2014Emerson, Trafalgar, and co/efficient\u2014all showing various Republican candidates leading a crowded primary field, underscoring that recent quantitative data focus exclusively on intra-GOP competition and do not provide a Democrat-versus-Republican general-election margin.",
-      "date_range": "Late July 2026",
-      "domain": "washingtonexaminer.com",
-      "verified": true
-    },
-    {
-      "name": "NBC News",
-      "link": "https://www.nbcnews.com/politics/2026-primary-special-elections/south-carolina-senate-results",
-      "race_type": "other_context",
-      "party": "R",
-      "margin": 8.1,
-      "details": "NBC News\u2019 live results for the August 11 South Carolina special Republican Senate primary show Darline Graham winning 32.7% to Ralph Norman\u2019s 24.6% and Russell Fry\u2019s 19.6%, confirming that the most recent electoral data are primary results among Republican voters, not a statewide general-election contest between parties.",
-      "date_range": "August 11, 2026",
-      "domain": "nbcnews.com",
-      "verified": true
-    },
-    {
-      "name": "Newsweek",
-      "link": "https://www.newsweek.com/lindsey-graham-sister-ralph-norman-south-carolina-senate-poll-12245048",
-      "race_type": "other_context",
-      "party": "R",
-      "margin": 3.9,
-      "details": "Newsweek reported on a survey conducted July 21 showing interim Senator Darline Graham at 20.8% and Ralph Norman at 16.9% among likely Republican primary voters, reinforcing that current polling is solely about the GOP primary and cannot be used to infer a direct Democrat-versus-Republican general-election margin.",
-      "date_range": "July 21, 2026",
-      "domain": "newsweek.com",
-      "verified": true
-    },
-    {
-      "name": "Cook Political Report (Cook PVI)",
+      "name": "Cook Political Report",
       "link": "https://x.com/CookPolitical/status/2082441407822770545",
       "race_type": "other_context",
       "party": "R",
-      "margin": 8.0,
-      "details": "Cook Political Report\u2019s 2026 Cook Partisan Voting Index release lists South Carolina as R+8 statewide, indicating that in recent elections the state has voted about eight percentage points more Republican than the national average for president, providing a structural baseline of the state\u2019s partisan lean rather than a specific 2026 race margin.",
-      "date_range": "July 2026 (release July 29, 2026)",
+      "margin": 18.0,
+      "details": "Cook Political Report\u2019s 2026 Cook PVI release shows South Carolina at roughly R+18 statewide.",
+      "date_range": "July 2026",
       "domain": "x.com",
+      "verified": true
+    },
+    {
+      "name": "FITSNews",
+      "link": "https://www.fitsnews.com/2026/08/07/s-c-succession-exclusive-u-s-senate-poll-shows-nordone-norman-headed-to-runoff/",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 7.0,
+      "details": "A Resonance Media Strategies poll for the South Carolina Republican Senate special primary found Darline Graham Nordone leading the field with 25.2%, while Ralph Norman had 18.2%; this was a primary poll, not a general-election matchup.",
+      "date_range": "August 5-7, 2026",
+      "domain": "fitsnews.com",
+      "verified": true
+    },
+    {
+      "name": "Emerson College Polling",
+      "link": "https://emersoncollegepolling.com/south-carolina-2026-norman-graham-lead-gop-special-primary-runoff-likely/",
+      "race_type": "other_context",
+      "party": "R",
+      "margin": 3.0,
+      "details": "Emerson College Polling found Ralph Norman at 22% and Darline Graham at 19% in the South Carolina GOP Senate special primary; this is primary-only and not a general-election race.",
+      "date_range": "July 30, 2026",
+      "domain": "emersoncollegepolling.com",
+      "verified": true
+    },
+    {
+      "name": "PJ Media",
+      "link": "https://pjmedia.com/jennifer-rust/2026/08/11/ten-candidates-battled-today-tells-us-whos-left-in-sc-senate-race-n4956019",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 6.9,
+      "details": "A Trafalgar Group poll of the South Carolina GOP Senate special primary showed Darline Graham at 26.4% and Ralph Norman at 19.5%; this is a primary poll and does not measure the general-election Senate contest.",
+      "date_range": "August 8-10, 2026",
+      "domain": "pjmedia.com",
       "verified": true
     }
   ],
   "abbreviation": "SC",
-  "_cached_at": "2026-08-18T13:35:08.692931"
+  "_cached_at": "2026-08-18T15:33:08.475206"
 }

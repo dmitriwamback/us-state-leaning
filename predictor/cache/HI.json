@@ -2,15 +2,15 @@
   "state": "Hawaii",
   "mode": "senate_presidential_polling",
   "lean": "D",
-  "confidence": 1.0,
-  "strength_label": "Strong",
-  "net_margin": 37.0,
+  "confidence": 0.7,
+  "strength_label": "Lean",
+  "net_margin": 13.0,
   "based_on": "cook_pvi_fallback",
-  "reasoning": "I could not verify any current 2026 Hawaii statewide Senate or presidential general-election polling from the last 45 days. The search results instead show Hawaii\u2019s Aug. 8 primary and general-election ballot context, including that no U.S. Senate race is on the ballot and that Cook\u2019s statewide PVI is strongly Democratic. Because there is no qualifying current-race poll, there is no current Senate or presidential margin to report for Hawaii.",
-  "as_of_date": "2026-08-18T13:26:27",
+  "reasoning": "I found no credible Hawaii-specific Senate or presidential general-election polling from the last 45 days. The only relevant current-race items in the search results are primary-election reporting for Hawaii state legislative races, which are not usable for the requested Senate or presidential margin, so the current race margin cannot be determined from the available sources. Hawaii\u2019s statewide Cook PVI is D+13.",
+  "as_of_date": "2026-08-18T15:27:12",
   "cook_pvi": {
     "party": "D",
-    "percentage_points": 37.0
+    "percentage_points": 13.0
   },
   "sources": [
     {
@@ -19,34 +19,34 @@
       "race_type": "other_context",
       "party": "EVEN",
       "margin": 0.0,
-      "details": "Hawaii\u2019s 2026 primary results and election coverage show that the state Senate races were primary contests, with several seats already decided or headed to November, but they do not provide a statewide Senate or presidential general-election margin.",
-      "date_range": "Aug. 8-14, 2026",
+      "details": "Reports final Hawaii primary results and notes state Senate primary outcomes; this is state-legislative context, not a current U.S. Senate or presidential general-election margin.",
+      "date_range": "August 8-14, 2026",
       "domain": "hawaiipublicradio.org",
       "verified": true
     },
     {
-      "name": "Prediction Edge",
-      "link": "https://www.predictionedge.com/elections/hi/",
+      "name": "Civil Beat",
+      "link": "https://www.civilbeat.org/2026/08/hawai%CA%BBi-legislature-early-results-show-most-incumbents-winning/",
       "race_type": "other_context",
       "party": "EVEN",
       "margin": 0.0,
-      "details": "Coverage of Hawaii\u2019s 2026 elections notes that neither U.S. Senate seat is up this cycle, so there is no current Hawaii Senate race to poll in 2026.",
-      "date_range": "Aug. 8-17, 2026",
-      "domain": "predictionedge.com",
+      "details": "Reports Hawaii legislative election results and recount context; this is not a Senate or presidential race.",
+      "date_range": "August 9-16, 2026",
+      "domain": "civilbeat.org",
       "verified": true
     },
     {
       "name": "Cook Political Report",
-      "link": "https://www.cookpolitical.com/pvi-map-and-district-list",
+      "link": "https://x.com/CookPolitical/status/2082500662336663681",
       "race_type": "other_context",
       "party": "D",
-      "margin": 37.0,
-      "details": "Cook\u2019s PVI map is the statewide structural reference used here; Hawaii is D+37, indicating a very strong Democratic lean.",
-      "date_range": "2026 map/current reference",
-      "domain": "cookpolitical.com",
+      "margin": 13.0,
+      "details": "Cook Political Report\u2019s 2026 Cook PVI map/list indicates Hawaii\u2019s statewide PVI is D+13.",
+      "date_range": "2026-07-29",
+      "domain": "x.com",
       "verified": true
     }
   ],
   "abbreviation": "HI",
-  "_cached_at": "2026-08-18T13:26:27.695698"
+  "_cached_at": "2026-08-18T15:27:12.315974"
 }

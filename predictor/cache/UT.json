@@ -6,58 +6,69 @@
   "strength_label": "Lean",
   "net_margin": -11.0,
   "based_on": "cook_pvi_fallback",
-  "reasoning": "There appear to be no public, state-specific general-election polling averages for a **2026 Utah Senate race** or a clearly identified **2026 presidential general-election ballot test in Utah** published in the last 45 days by the specified major outlets (270toWin, NYT, Cook, etc.).[2][9] The recent Utah coverage within that window is focused on approval ratings for current statewide officials (Cox, Lee, Curtis) rather than head\u2011to\u2011head 2026 matchups, which cannot be treated as direct margins for the 2026 Senate or presidential contests.[4] Structurally, Utah remains a strongly Republican state with a statewide Cook PVI of **R+11**, so absent direct 2026 race polling within the timeframe, the best inference is that the environment is still substantially R\u2011leaning rather than competitive.[15]",
-  "as_of_date": "2026-08-18T13:36:03",
+  "reasoning": "In the last 45 days, there are no public, state-specific general-election polls for either the 2026 Utah Senate race or the current presidential matchup that meet your criteria; recent Utah polling focuses on issue questions and job approval (e.g., Trump, Cox, Lee, Curtis), not head-to-head ballots, so there is no direct numeric D+ or R+ margin to report for those races from high-quality outlets in this window.[1][3][4] The best structural indicator of the partisan lean of Utah\u2019s electorate remains the statewide Cook Partisan Voting Index, which rates Utah as R+11, indicating the state voted about 11 points more Republican than the nation as a whole in recent presidential elections, and this implies a strong baseline GOP advantage absent contrary polling.[2][13]",
+  "as_of_date": "2026-08-18T15:34:04",
   "cook_pvi": {
     "party": "R",
     "percentage_points": 11.0
   },
   "sources": [
     {
-      "name": "Cook Partisan Voting Index (summary via Wikipedia)",
+      "name": "Cook Political Report / Cook PVI (via Wikipedia summary)",
       "link": "https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index",
       "race_type": "other_context",
       "party": "R",
       "margin": 11.0,
-      "details": "Wikipedia\u2019s summary table of statewide PVI lists Utah\u2019s Cook Partisan Voting Index as R+11, indicating the state voted 11 points more Republican than the national average in the most recent presidential election used for the index.",
-      "date_range": "not applicable",
+      "details": "Cook Political Report\u2019s 2026 PVI table lists Utah\u2019s statewide partisan lean as R+11, indicating the state voted 11 percentage points more Republican than the national average in recent presidential results.",
+      "date_range": "N/A (structural index based on recent presidential results)",
       "domain": "en.wikipedia.org",
       "verified": true
     },
     {
-      "name": "Deseret News/Hinckley Institute of Politics",
+      "name": "Deseret News / Hinckley Institute approval poll",
       "link": "https://www.deseret.com/politics/2026/08/17/utah-voters-disapprove-of-governor-cox-senator-lee-and-senator-curtis-in-new-poll/",
       "race_type": "other_context",
       "party": "EVEN",
-      "margin": 0.0,
-      "details": "A Deseret News/Hinckley Institute poll finds Gov. Spencer Cox, Sen. Mike Lee, and Sen. John Curtis with net-negative approval ratings among Utah voters, but does not test any 2026 general-election matchups.",
-      "date_range": "August 2026 (field dates not clearly specified)",
+      "margin": 7.0,
+      "details": "A Deseret News/Hinckley Institute of Politics poll found Utah voters giving Governor Spencer Cox, Senator Mike Lee, and Senator John Curtis net-negative job approval ratings, with Lee at 39% approve to 46% disapprove and Curtis at 37% approve to 38% disapprove, but the survey did not test any specific 2026 Senate or presidential general-election head-to-heads.",
+      "date_range": "Aug. 6-11, 2026",
       "domain": "deseret.com",
       "verified": true
     },
     {
-      "name": "270toWin \u2013 Latest 2026 Senate Election Polls",
-      "link": "https://www.270towin.com/polls/latest-2026-senate-election-polls/",
+      "name": "Deseret News / Hinckley Institute voter ID poll",
+      "link": "https://www.deseret.com/politics/2026/08/16/utah-voters-support-voter-id-in-elections/",
       "race_type": "other_context",
       "party": "EVEN",
       "margin": 0.0,
-      "details": "The 270toWin 2026 Senate polling page lists recent Senate polls by state; for Utah, there is no clearly identified new general-election Senate poll in the last 45 days, indicating a lack of fresh quantified margin for a 2026 Utah Senate matchup.",
-      "date_range": "various, largely prior to late June 2026",
-      "domain": "270towin.com",
+      "details": "A Deseret News/Hinckley Institute poll measured issue attitudes on voter ID and proof-of-citizenship requirements among Utah voters, finding large majorities in favor, but did not include questions about current Senate or presidential vote choice.",
+      "date_range": "Aug. 6-11, 2026",
+      "domain": "deseret.com",
       "verified": true
     },
     {
-      "name": "The New York Times \u2013 Utah polls hub",
-      "link": "https://www.nytimes.com/interactive/polls/utah-us-house-2-polls-2026.html",
+      "name": "Deseret News / Hinckley Institute Trump job approval poll",
+      "link": "https://www.deseret.com/politics/2026/08/15/president-trump-approval-continues-to-drop-with-utahns-his-republican-heirs-are-viewed-more-favorably/",
       "race_type": "other_context",
       "party": "EVEN",
+      "margin": 7.0,
+      "details": "A Deseret News/Hinckley Institute of Politics poll found President Donald Trump\u2019s job approval in Utah at 45% approve to 52% disapprove during his second term, indicating a net-negative approval environment but again not testing a ballot for the presidential race in Utah.",
+      "date_range": "Aug. 6-11, 2026",
+      "domain": "deseret.com",
+      "verified": true
+    },
+    {
+      "name": "270toWin 2026 Senate polling overview",
+      "link": "https://www.270towin.com/polls/latest-2026-senate-election-polls/",
+      "race_type": "senate",
+      "party": "EVEN",
       "margin": 0.0,
-      "details": "The New York Times interactive polls page links to Senate polls for the 2026 cycle and a Utah House district poll, but does not present a recent, statewide Utah 2026 Senate or presidential general-election margin within the last 45 days.",
-      "date_range": "various; page primarily updated May 2026",
-      "domain": "nytimes.com",
+      "details": "The 270toWin 2026 Senate polling page aggregates recent statewide polls, but as of its latest update it shows no published general-election polling for Utah\u2019s 2026 Senate race, indicating a lack of public head-to-head data rather than a measurable partisan margin.",
+      "date_range": "latest update listed as 2026-08-10 (polls fielded earlier; none Utah-specific)",
+      "domain": "270towin.com",
       "verified": true
     }
   ],
   "abbreviation": "UT",
-  "_cached_at": "2026-08-18T13:36:03.074612"
+  "_cached_at": "2026-08-18T15:34:04.489999"
 }

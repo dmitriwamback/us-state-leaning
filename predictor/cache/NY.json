@@ -2,84 +2,84 @@
   "state": "New York",
   "mode": "senate_presidential_polling",
   "lean": "D",
-  "confidence": 0.675,
-  "strength_label": "Lean",
-  "net_margin": 12.0,
+  "confidence": 0.575,
+  "strength_label": "Tilt",
+  "net_margin": 8.0,
   "based_on": "cook_pvi_fallback",
-  "reasoning": "In the last 45 days I could not find any reputable, state-specific general-election polling for a 2026 New York Senate race or for a 2026 presidential contest in New York; available recent polls and coverage focus instead on the 2026 governor\u2019s race, plus some national presidential primary polling that is not state-specific.[2][8][12][15] Because none of these sources directly measure New York\u2019s current 2026 Senate or presidential margins, they must be treated as contextual only and cannot support a quantified D+ or R+ margin for those races under your rules. Structurally, Cook\u2019s updated PVI indicates New York is a strongly Democratic-leaning state (approximately D+12 statewide), but that is a long-term index rather than a current-race polling margin.[1][3][5][6]",
-  "as_of_date": "2026-08-18T13:32:45",
+  "reasoning": "New York\u2019s statewide Cook Partisan Voting Index is D+8, indicating a structurally Democratic-leaning state in federal races.[1] Within the last 45 days, none of the credible polling or forecaster sources in the search results reported a **statewide New York presidential** or **2026 U.S. Senate general-election** poll; the only clearly labeled statewide general-election polling found was for the **2026 governor\u2019s race**, plus national approval and generic-ballot data.[7][9][13][15] Because the instructions require that only polls specifically measuring New York\u2019s electorate for its current 2026 Senate or presidential race be tagged as such, and no such polls appeared in the recent data, there is **no current, poll-based margin** I can defensibly assign for either the 2026 presidential or Senate race beyond the structural D+8 PVI.\n\nGiven this, the best available quantitative indicator of partisan lean for New York\u2019s statewide federal contests right now is the Cook PVI of **D+8**, and all other identified polling belongs to different races (governor) or national context and therefore must be treated as \u201cother_context\u201d under your rules.[1][7][13][15]",
+  "as_of_date": "2026-08-18T15:31:51",
   "cook_pvi": {
     "party": "D",
-    "percentage_points": 12.0
+    "percentage_points": 8.0
   },
   "sources": [
     {
-      "name": "New York Post / Red Oak Strategic",
-      "link": "https://nypost.com/2026/07/28/us-news/ny-gop-governor-candidate-bruce-blakeman-trails-hochul-by-just-4-points-in-shocking-new-poll/",
-      "race_type": "other_context",
-      "party": "D",
-      "margin": 4.0,
-      "details": "Red Oak Strategic poll (reported by New York Post) found Gov. Kathy Hochul leading Republican Bruce Blakeman 47%-43% among registered New York voters, a Hochul +4 governor margin.",
-      "date_range": "July 7-12, 2026",
-      "domain": "nypost.com",
-      "verified": true
-    },
-    {
-      "name": "Siena College (via WLT Report summary)",
-      "link": "https://wltreport.com/2026/07/29/gop-backed-new-york-poll-kathy-hochul-lead-low-single-digits/",
-      "race_type": "other_context",
-      "party": "D",
-      "margin": 20.0,
-      "details": "Siena College poll cited in coverage showed Hochul leading Blakeman 52%-32% among New York registered voters, a Hochul +20 governor margin earlier in the cycle.",
-      "date_range": "June 17-23, 2026",
-      "domain": "wltreport.com",
-      "verified": true
-    },
-    {
-      "name": "Siena Research Institute (reported by La Naci\u00f3n)",
-      "link": "https://www.lanacion.com.ar/estados-unidos/nueva-york/nuevas-encuestas-en-nueva-york-trump-reafirma-su-respaldo-a-blakeman-y-se-reduce-la-brecha-con-nid14082026/",
-      "race_type": "other_context",
-      "party": "D",
-      "margin": 10.0,
-      "details": "Siena Research Institute survey of 811 likely New York voters found Hochul at 49% and Blakeman at 39% in the governor\u2019s race, a Hochul +10 margin, with independents narrowly favoring Blakeman.",
-      "date_range": "August 3-6, 2026",
-      "domain": "lanacion.com.ar",
-      "verified": true
-    },
-    {
-      "name": "Politico / Siena University",
-      "link": "https://www.politico.com/news/2026/08/12/siena-hochul-has-10-point-lead-over-blakeman-in-first-poll-of-likely-voters-01033560",
-      "race_type": "other_context",
-      "party": "D",
-      "margin": 10.0,
-      "details": "Politico report on Siena University poll notes Hochul leads Blakeman by 10 points in the first major likely-voter poll of the New York governor\u2019s race this cycle.",
-      "date_range": "August 3-6, 2026",
-      "domain": "politico.com",
-      "verified": true
-    },
-    {
-      "name": "Emerson College (via Washington Times)",
-      "link": "https://www.washingtontimes.com/news/2026/jul/23/kamala-harris-falls-back-pack-new-presidential-poll/",
-      "race_type": "other_context",
-      "party": "EVEN",
-      "margin": 0.0,
-      "details": "Emerson College July 2026 national poll reported Democratic figures including New York Rep. Alexandria Ocasio-Cortez in a national presidential field, but did not provide New York state-specific 2026 presidential general-election margins.",
-      "date_range": "July 2026 (field dates not state-specific)",
-      "domain": "washingtontimes.com",
-      "verified": true
-    },
-    {
-      "name": "Cook Political Report \u2013 2026 PVI (via summary)",
+      "name": "Cook Political Report \u2013 Cook Partisan Voting Index (state table as summarized)",
       "link": "https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index",
       "race_type": "other_context",
       "party": "D",
-      "margin": 12.0,
-      "details": "Cook Political Report\u2019s updated Partisan Voting Index for 2026 classifies New York as a strongly Democratic-leaning state, approximately D+12 statewide, reflecting its average presidential performance vs. the national vote.",
-      "date_range": "2026 cycle (structural index, not polling)",
+      "margin": 8.0,
+      "details": "Cook Political Report\u2019s 2026 Cook Partisan Voting Index lists New York as D+8 at the statewide level, based on the 2020 and 2024 presidential vote in the state compared to the national average.",
+      "date_range": "2020 & 2024 presidential results basis (index updated July 2026)",
       "domain": "en.wikipedia.org",
+      "verified": true
+    },
+    {
+      "name": "Siena College gubernatorial poll (referenced in Western Journal summary)",
+      "link": "https://www.westernjournal.com/kathy-hochuls-re-election-bid-suddenly-gets-uncomfortable-surprise-poll-drops",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 20.0,
+      "details": "A Siena College poll of the 2026 New York governor race, cited in coverage, showed Gov. Kathy Hochul leading Republican Bruce Blakeman 52%\u201332% (Hochul +20) in a June survey, before subsequent GOP-aligned polling suggested a tighter race.",
+      "date_range": "June 2026 (poll memo reference in July 7\u201312 field dates)",
+      "domain": "westernjournal.com",
+      "verified": false
+    },
+    {
+      "name": "Red Oak Strategic / Strong and Safe PAC \u2013 New York governor poll",
+      "link": "https://nypost.com/2026/07/28/us-news/ny-gop-governor-candidate-bruce-blakeman-trails-hochul-by-just-4-points-in-shocking-new-poll",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 4.0,
+      "details": "A Red Oak Strategic poll for the pro-Blakeman \u201cStrong and Safe\u201d super PAC found Hochul leading Blakeman 47%\u201343% (Hochul +4) among 2,000 registered New York voters in the 2026 governor\u2019s race, indicating a competitive but still Democratic-tilting environment.",
+      "date_range": "July 7\u201312, 2026",
+      "domain": "nypost.com",
+      "verified": false
+    },
+    {
+      "name": "Coalition to Protect Nassau Taxpayers \u2013 internal New York governor polling (as described)",
+      "link": "https://www.westernjournal.com/kathy-hochuls-re-election-bid-suddenly-gets-uncomfortable-surprise-poll-drops",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 6.0,
+      "details": "Coverage of New York\u2019s 2026 governor race summarized that a Siena poll showed Hochul +20, a conservative group\u2019s early-July poll Hochul +6 (47\u201341), and a later Red Oak poll Hochul +4 (47\u201343), all in the gubernatorial context rather than Senate or presidential.",
+      "date_range": "Late June\u2013July 2026 (comparison of multiple governor polls)",
+      "domain": "westernjournal.com",
+      "verified": false
+    },
+    {
+      "name": "Economist/YouGov national poll \u2013 Trump job approval",
+      "link": "https://yougov.com/en-us/articles/55210-donald-trump-unpopularity-low-confidence-ice-socialism-july-17-20-2026-economist-yougov-poll",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 18.0,
+      "details": "A national Economist/YouGov poll measured Donald Trump\u2019s approval nationally (not state-specific), which RealClearPolling summarized as Trump job approval at 40% approve, 58% disapprove (Disapprove +18), providing only national context rather than New York-specific presidential margins.",
+      "date_range": "July 17\u201320, 2026",
+      "domain": "yougov.com",
+      "verified": true
+    },
+    {
+      "name": "RealClearPolling \u2013 2026 New York Governor (Hochul vs. Blakeman)",
+      "link": "https://www.realclearpolling.com/",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 16.0,
+      "details": "RealClearPolling\u2019s latest table includes a 2026 New York governor poll by Siena showing Hochul 49% and Blakeman 33% (Hochul +16), but there is no parallel listing for a New York-specific 2026 Senate or presidential general-election poll.",
+      "date_range": "Field dates not listed; poll posted in RealClearPolling\u2019s 2026 section as of August 18, 2026",
+      "domain": "realclearpolling.com",
       "verified": true
     }
   ],
   "abbreviation": "NY",
-  "_cached_at": "2026-08-18T13:32:45.044445"
+  "_cached_at": "2026-08-18T15:31:51.770549"
 }

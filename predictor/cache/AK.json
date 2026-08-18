@@ -6,58 +6,58 @@
   "strength_label": "Toss-up",
   "net_margin": 1.87,
   "based_on": "sources",
-  "reasoning": "Recent Alaska Senate polling is very tight: one early-August poll shows Mary Peltola ahead of Dan Sullivan by 1.6 points in the final ranked-choice round, while another late-July/early-August poll shows Sullivan ahead by 2 points in the initial round. No current Alaska presidential head-to-head poll from the last 45 days surfaced, so the best current race read is that the Senate contest is effectively even with a slight Democratic edge within polling error.",
-  "as_of_date": "2026-08-18T13:23:40",
+  "reasoning": "Alaska\u2019s statewide Cook Partisan Voting Index is R+6. Recent Alaska Senate polling in the last 45 days is mixed but competitive: one late-July/early-August survey found Mary Peltola ahead by 6 in the final round, while another August poll put her ahead by 1.6 points; a late-June Siena poll had Dan Sullivan ahead by 2. No reliable Alaska presidential general-election poll for the current cycle appeared in the gathered results, so the current race picture is driven by the Senate contest and is effectively a toss-up with a small Democratic edge in the most recent polling.",
+  "as_of_date": "2026-08-18T15:25:35",
   "cook_pvi": {
     "party": "R",
-    "percentage_points": 9.0
+    "percentage_points": 6.0
   },
   "sources": [
-    {
-      "name": "Alaska Survey Research",
-      "link": "https://x.com/The_Real_ASR/status/2087253230548107640",
-      "race_type": "senate",
-      "party": "D",
-      "margin": 1.6,
-      "details": "Final-round ranked-choice result showed Mary Peltola 50.8% and Dan Sullivan 49.2% among likely Alaska general-election voters.",
-      "date_range": "August 2-5, 2026",
-      "domain": "x.com",
-      "verified": true
-    },
     {
       "name": "Data for Progress",
       "link": "https://www.dataforprogress.org/blog/2026/8/17/as-alaskas-affordability-crisis-deepens-peltola-leads-in-senate-race",
       "race_type": "senate",
       "party": "D",
       "margin": 6.0,
-      "details": "Survey of likely Alaska voters found Peltola leading Sullivan 47% to 41% in the first round of ranked-choice voting.",
-      "date_range": "July 28-August 4, 2026",
+      "details": "In a ranked-choice final round, Mary Peltola led Dan Sullivan 53% to 47% among likely Alaska voters.",
+      "date_range": "July 28-Aug. 4, 2026",
       "domain": "dataforprogress.org",
       "verified": true
     },
     {
-      "name": "The New York Times/Siena University",
-      "link": "https://www.nytimes.com/interactive/polls/alaska-us-senate-election-polls-2026.html?eafs_enabled=false",
+      "name": "Alaska Survey Research",
+      "link": "https://x.com/The_Real_ASR/status/2087253230548107640",
+      "race_type": "senate",
+      "party": "D",
+      "margin": 1.6,
+      "details": "Alaska Survey Research reported Mary Peltola leading Dan Sullivan 50.8% to 49.2% in the final round of ranked-choice voting.",
+      "date_range": "Aug. 2-5, 2026",
+      "domain": "x.com",
+      "verified": true
+    },
+    {
+      "name": "New York Times / Siena College",
+      "link": "https://www.nytimes.com/interactive/polls/alaska-us-senate-election-polls-2026.html",
       "race_type": "senate",
       "party": "R",
       "margin": 2.0,
-      "details": "New York Times/Siena poll found Sullivan ahead of Peltola 47% to 45% in the initial round of ranked-choice voting.",
+      "details": "A New York Times/Siena College poll found Dan Sullivan ahead of Mary Peltola 47% to 45%, within the margin of error.",
       "date_range": "June 15-29, 2026",
       "domain": "nytimes.com",
       "verified": true
     },
     {
-      "name": "Cook Political Report Cook PVI",
-      "link": "https://x.com/CookPolitical/status/2082441407822770545",
+      "name": "Cook Partisan Voting Index",
+      "link": "https://www.cookpolitical.com",
       "race_type": "other_context",
       "party": "R",
-      "margin": 9.0,
-      "details": "Cook Political Report's statewide Alaska PVI is R+9, indicating a solid Republican lean in presidential vote history.",
-      "date_range": "2026 cycle / 2024 baseline",
-      "domain": "x.com",
-      "verified": true
+      "margin": 6.0,
+      "details": "Cook\u2019s 2026 statewide partisan index for Alaska is R+6.",
+      "date_range": "2026 cycle overview",
+      "domain": "cookpolitical.com",
+      "verified": false
     }
   ],
   "abbreviation": "AK",
-  "_cached_at": "2026-08-18T13:23:40.750756"
+  "_cached_at": "2026-08-18T15:25:35.035826"
 }

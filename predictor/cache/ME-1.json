@@ -1,0 +1,96 @@
+{
+  "state": "Maine 1st congressional district",
+  "mode": "senate_presidential_polling",
+  "lean": "Toss-up",
+  "confidence": 0.3,
+  "strength_label": "Toss-up",
+  "net_margin": 3.0,
+  "based_on": "sources",
+  "reasoning": "Recent, district-specific general-election polling for Maine\u2019s 1st congressional district House race from the last 45 days shows Democrat Hannah Pingree leading Republican Bobby Charles by about 15 points, consistent with the district\u2019s historic Democratic lean.[1][4] Statewide Senate polling (Jackson vs. Collins) shows only a narrow Democratic edge of roughly 3 points, but that survey is not district-specific and therefore cannot be used directly for ME-01\u2019s current race margin.[7][9] Structurally, Maine as a whole is rated about D+4 in the latest Cook Partisan Voting Index update, so ME-01\u2019s present House polling margin of roughly D+15 suggests it is substantially more Democratic than the state\u2019s overall baseline.[1][4][8][11][13][15]",
+  "as_of_date": "2026-08-18T16:36:58",
+  "cook_pvi": {
+    "party": "D",
+    "percentage_points": 4.0
+  },
+  "sources": [
+    {
+      "name": "The New York Times/Siena College via NYT interactive polls",
+      "link": "https://www.nytimes.com/interactive/polls/maine-us-house-1-polls-2026.html",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 15.0,
+      "details": "NYT/Siena polling of the 2026 U.S. House race in Maine\u2019s 1st congressional district shows Democrat Hannah Pingree at 55% and Republican Bobby Charles at 40%, a D+15 margin among likely voters.",
+      "date_range": "August 10-13, 2026",
+      "domain": "nytimes.com",
+      "verified": true
+    },
+    {
+      "name": "Politically.com summary of NYT/Siena poll",
+      "link": "https://politically.com/polls/Z292MjAydGhlZjE0YzE1ZjA/",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 15.0,
+      "details": "Aggregated presentation of the same NYT/Siena poll reports Hannah Pingree 55% vs. Bobby Charles 40% in ME-01, confirming a roughly D+15 lead in the general election matchup.",
+      "date_range": "August 10-13, 2026",
+      "domain": "politically.com",
+      "verified": true
+    },
+    {
+      "name": "Portland Press Herald reporting UNH Survey Center poll",
+      "link": "https://www.pressherald.com/2026/07/21/troy-jackson-has-slight-edge-over-susan-collins-new-poll-finds/",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 3.0,
+      "details": "A statewide University of New Hampshire Survey Center poll finds Democrat Troy Jackson leading Republican Sen. Susan Collins 49% to 46% in a hypothetical general-election matchup, a D+3 margin among likely Maine voters.",
+      "date_range": "July 15-20, 2026",
+      "domain": "pressherald.com",
+      "verified": true
+    },
+    {
+      "name": "Bangor Daily News reporting UNH Survey Center poll",
+      "link": "https://www.bangordailynews.com/2026/07/21/politics/elections/poll-troy-jackson-vis-susan-collins/",
+      "race_type": "senate",
+      "party": "D",
+      "margin": 3.0,
+      "details": "Bangor Daily News coverage of the same UNH Survey Center poll likewise reports Troy Jackson 49% vs. Susan Collins 46%, reinforcing a narrow D+3 statewide Senate edge but not specific to ME-01.",
+      "date_range": "July 15-20, 2026",
+      "domain": "bangordailynews.com",
+      "verified": true
+    },
+    {
+      "name": "Cook Political Report \u2013 PVI Map and District List (as summarized by secondary compilation)",
+      "link": "https://www.cookpolitical.com/pvi-map-and-district-list",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 4.0,
+      "details": "A recent compilation of the 2026 Cook Partisan Voting Index lists Maine\u2019s statewide PVI as approximately D+4 relative to the national presidential vote, indicating a modest Democratic lean.",
+      "date_range": "Not applicable (structural index, updated 2026)",
+      "domain": "cookpolitical.com",
+      "verified": true
+    },
+    {
+      "name": "World Population Review summary of 2026 Cook PVI",
+      "link": "https://worldpopulationreview.com/state-rankings/blue-states",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 4.0,
+      "details": "A 2026 ranking of state PVIs cites Maine as D+4, aligning with Cook\u2019s updated statewide partisan baseline and confirming that Maine overall leans modestly Democratic.",
+      "date_range": "2026 update (no specific polling dates)",
+      "domain": "worldpopulationreview.com",
+      "verified": true
+    },
+    {
+      "name": "Cook Political Report announcement of 2026 PVI update",
+      "link": "https://x.com/CookPolitical/status/2082500662336663681",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 4.0,
+      "details": "Cook Political Report\u2019s public communication about its 2026 PVI update indicates revised scores for all states and districts, with Maine\u2019s statewide lean described as modestly Democratic, consistent with a D+4 rating.",
+      "date_range": "July 29, 2026 (index release, not polling)",
+      "domain": "x.com",
+      "verified": true
+    }
+  ],
+  "abbreviation": "ME-1",
+  "_cached_at": "2026-08-18T16:36:58.216503"
+}

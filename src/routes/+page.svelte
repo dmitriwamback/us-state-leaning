@@ -20,9 +20,11 @@
         CA: 54, CO: 10, CT: 7,  DE: 3,
         FL: 30, GA: 16, HI: 4,  ID: 4,
         IL: 19, IN: 11, IA: 6,  KS: 6,
-        KY: 8,  LA: 8,  ME: 4,  MD: 10,
+        KY: 8,  LA: 8,  ME: 2,  MD: 10,
+        "ME-1": 1, "ME-2": 1,
         MA: 11, MI: 15, MN: 10, MS: 6,
-        MO: 10, MT: 4,  NE: 5,  NV: 6,
+        MO: 10, MT: 4,  NE: 2,  NV: 6,
+        "NE-1": 1, "NE-2": 1, "NE-3": 1,
         NH: 4,  NJ: 14, NM: 5,  NY: 28,
         NC: 16, ND: 3,  OH: 17, OK: 7,
         OR: 8,  PA: 19, RI: 4,  SC: 9,
@@ -37,8 +39,10 @@
         FL: "Florida",          GA: "Georgia",      HI: "Hawaii",       ID: "Idaho",
         IL: "Illinois",         IN: "Indiana",      IA: "Iowa",         KS: "Kansas",
         KY: "Kentucky",         LA: "Louisiana",    ME: "Maine",        MD: "Maryland",
+        "ME-1": "Maine-1",     "ME-2": "Maine-2",
         MA: "Massachusetts",    MI: "Michigan",     MN: "Minnesota",    MS: "Mississippi",
         MO: "Missouri",         MT: "Montana",      NE: "Nebraska",     NV: "Nevada",
+        "NE-1": "Nebraska-1",   "NE-2": "Nebraska-2", "NE-3": "Nebraska-3",
         NH: "New Hampshire",    NJ: "New Jersey",   NM: "New Mexico",   NY: "New York",
         NC: "North Carolina",   ND: "North Dakota", OH: "Ohio",         OK: "Oklahoma",
         OR: "Oregon",           PA: "Pennsylvania", RI: "Rhode Island", SC: "South Carolina",
@@ -137,6 +141,11 @@
                     }
                 }
 
+                if (abbr == 'NE' || abbr == 'ME') {
+                    lean = verdict.cook_pvi.party
+                    points = lean == 'D' ? verdict.cook_pvi.percentage_points : -verdict.cook_pvi.percentage_points
+                }
+
                 if (Math.abs(points) < 1) lean = 'Toss-up'
 
                 if (lean === 'D') {
@@ -151,6 +160,7 @@
                     tossUpVotes += ev;
                     tossUpStates.push({ ...entry, confidence: confidence, current_margin: points });
                 }
+
                 setState(abbr, lean, Math.min(Math.abs(points)/10, 1));
             }
         }

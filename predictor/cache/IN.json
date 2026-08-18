@@ -6,47 +6,91 @@
   "strength_label": "Tilt",
   "net_margin": -9.0,
   "based_on": "cook_pvi_fallback",
-  "reasoning": "Within the last 45 days, there do not appear to be any reputable, state-level public polls specifically measuring the 2026 Indiana Senate general election or the 2026 presidential general election in Indiana, nor do the standard aggregators (like 270toWin\u2019s 2026 Senate polling page) list any such recent Indiana-specific general-election polling. Given the absence of qualifying, Indiana-specific general-election surveys in this window, there is no defensible numeric D+ or R+ polling margin to report for either race, so the current race-specific margin must be treated as indeterminate, with only structural indicators like Indiana\u2019s R+9 Cook PVI suggesting a Republican-leaning environment rather than a measured current lead. Accordingly, the sources below are either structural/contextual or relate to other races and cannot be used to quantify a present general-election margin for Indiana\u2019s 2026 Senate or presidential contests.",
-  "as_of_date": "2026-08-18T13:27:11",
+  "reasoning": "Within the last 45 days, none of the retrieved credible outlets or forecasters show any *statewide* Indiana polling for the 2026 Senate or presidential general election; available items are either national generic ballot polling, intra\u2011party or down\u2011ballot Indiana contests, or structural ratings lists, which by definition cannot provide a current D+ or R+ margin for a specific 2026 statewide race. Given the absence of Indiana\u2011specific general\u2011election polling for president or Senate in this window, the best quantitative anchor is the statewide Cook Partisan Voting Index of R+9, indicating a structurally Republican tilt rather than a measured current race margin. As a result, the current race margin for either the 2026 Indiana Senate or presidential contest cannot be specified from polling/news in the last 45 days, and any precise D+ or R+ figure would be speculative beyond the structural R+9 baseline.",
+  "as_of_date": "2026-08-18T15:27:57",
   "cook_pvi": {
     "party": "R",
     "percentage_points": 9.0
   },
   "sources": [
     {
-      "name": "Cook Political Report / Cook Partisan Voting Index (via summary)",
-      "link": "https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index",
+      "name": "Indianapolis Star / Impact Research summary (IN-5 House)",
+      "link": "https://www.indystar.com/story/news/politics/2026/07/20/liz-brown-darren-vogt-indiana-election-recount/90982126007/",
       "race_type": "other_context",
       "party": "R",
-      "margin": 9.0,
-      "details": "The 2026 Cook Partisan Voting Index update describes Indiana as a Republican-leaning state overall, with statewide presidential performance about nine points more Republican than the national popular vote in recent elections.",
-      "date_range": "N/A",
-      "domain": "en.wikipedia.org",
+      "margin": 2.0,
+      "details": "Impact Research internal poll for Democrat J.D. Ford found Republican Rep. Victoria Spartz leading 48%-46% (Spartz +2) in Indiana\u2019s 5th congressional district general election.",
+      "date_range": "July 16-20, 2026",
+      "domain": "indystar.com",
       "verified": true
     },
     {
-      "name": "270toWin \u2013 Latest 2026 Senate Election Polls",
-      "link": "https://www.270towin.com/polls/latest-2026-senate-election-polls/",
+      "name": "New York Times \u2013 IN-5 House 2026: Latest Polls",
+      "link": "https://www.nytimes.com/interactive/polls/indiana-us-house-5-polls-2026.html",
+      "race_type": "other_context",
+      "party": "R",
+      "margin": 2.0,
+      "details": "Interactive poll listing reports an Impact Research survey sponsored by J.D. Ford in IN-5 showing Spartz +2 (48%-46%) in the 2026 House race.",
+      "date_range": "July 16-20, 2026",
+      "domain": "nytimes.com",
+      "verified": true
+    },
+    {
+      "name": "Emerson College Polling \u2013 July 2026 National Generic Ballot",
+      "link": "https://emersoncollegepolling.com/july-2026-national-poll-democrats-with-11-point-generic-ballot-advantage/",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 11.0,
+      "details": "National Emerson College survey of 1,100 likely 2026 voters finds Democrats leading the generic congressional ballot 53%-42% (D+11), not broken out for Indiana specifically.",
+      "date_range": "July 19-20, 2026",
+      "domain": "emersoncollegepolling.com",
+      "verified": true
+    },
+    {
+      "name": "Cook Political Report \u2013 PVI Map and District List (Indiana)",
+      "link": "https://www.cookpolitical.com/pvi-map-and-district-list",
+      "race_type": "other_context",
+      "party": "R",
+      "margin": 9.0,
+      "details": "Cook Political Report\u2019s PVI map and list report Indiana as a statewide R+9, indicating the state voted nine points more Republican than the national average in recent presidential elections.",
+      "date_range": "Not date-specific (structural index as of 2026 update)",
+      "domain": "cookpolitical.com",
+      "verified": true
+    },
+    {
+      "name": "NPR \u2013 2026 Midterm Election Senate Races Overview",
+      "link": "https://www.npr.org/2026/07/27/nx-s1-5907379/2026-midterm-election-senate-races",
       "race_type": "other_context",
       "party": "EVEN",
       "margin": 0.0,
-      "details": "Aggregator page listing the most recent 2026 Senate polls by state; as of mid\u2011August 2026 it shows no new general\u2011election polling for Indiana in the last 45 days, indicating a lack of fresh public data rather than a measured lead for either party.",
-      "date_range": "N/A (listing current cycle 2026 polls by state)",
+      "details": "NPR overview of the 2026 Senate landscape summarizes competitive races using Cook Political Report ratings, but does not provide Indiana-specific general-election polling or a quantified margin for the Indiana Senate race.",
+      "date_range": "July 2026 (ratings snapshot, no IN-specific polling)",
+      "domain": "npr.org",
+      "verified": true
+    },
+    {
+      "name": "270toWin \u2013 Inside Elections 2026 Senate Ratings (Indiana entry)",
+      "link": "https://www.270towin.com/2026-senate-election/inside-elections-2026-senate-ratings",
+      "race_type": "other_context",
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "270toWin\u2019s Inside Elections 2026 Senate ratings table lists Indiana among Senate seats with incumbents (including Todd Young and Jim Banks) but does not provide any 2026 Indiana general-election polling or a specific D+ or R+ race margin.",
+      "date_range": "August 5, 2026 (ratings table, no margin)",
       "domain": "270towin.com",
       "verified": true
     },
     {
-      "name": "Larry In Fishers (reporting Impact Research internal poll)",
-      "link": "https://www.larryinfishers.com/2026/08/06/spartz-ford-5th-district-poll/",
+      "name": "Wikipedia \u2013 Cook Partisan Voting Index (Indiana entry)",
+      "link": "https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index",
       "race_type": "other_context",
       "party": "R",
-      "margin": 2.0,
-      "details": "Internal poll for Indiana\u2019s 5th Congressional District general election showing GOP Rep. Victoria Spartz leading Democrat J.D. Ford 48%-46% with a Republican generic-ballot advantage of 45%-40%, which suggests a modest Republican edge in this suburban district but does not directly measure statewide Senate or presidential margins.",
-      "date_range": "July 16-20, 2026",
-      "domain": "larryinfishers.com",
+      "margin": 9.0,
+      "details": "Wikipedia\u2019s summary of Cook PVI includes Indiana listed as R+9 statewide, consistent with Cook\u2019s structural partisan index for the state.",
+      "date_range": "2026 update (structural PVI reference)",
+      "domain": "en.wikipedia.org",
       "verified": true
     }
   ],
   "abbreviation": "IN",
-  "_cached_at": "2026-08-18T13:27:11.518373"
+  "_cached_at": "2026-08-18T15:27:57.168075"
 }

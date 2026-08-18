@@ -1,96 +1,85 @@
 {
   "state": "Delaware",
   "mode": "senate_presidential_polling",
-  "lean": "Toss-up",
-  "confidence": 0.2,
-  "strength_label": "Toss-up",
-  "net_margin": 2.0,
+  "lean": "D",
+  "confidence": 0.522,
+  "strength_label": "Tilt",
+  "net_margin": 5.88,
   "based_on": "sources",
-  "reasoning": "No state-specific general-election polling for Delaware\u2019s 2026 Senate or presidential races appears in the last 45 days; instead, the available information consists of structural indices, prediction-market odds, and qualitative forecaster analysis, all of which characterize the state and its Senate race as strongly Democratic but do not provide a conventional poll margin. WorldPopulationReview and the 2026 Cook PVI list Delaware as D+8 statewide, and multiple election forecasting and prediction-market sources describe the 2026 Senate race as \u201cSafe D\u201d with Democratic win probabilities near or above 97\u201398%, implying a very large but not numerically specified Democratic advantage.[1][5][6][8] In the absence of actual Delaware general-election polling in this window, the best-supported view is that the current landscape is structurally D+8 at the presidential level and functionally \u201cSafe D\u201d for the Senate, with no precise current poll margin available.",
-  "as_of_date": "2026-08-18T13:25:05",
+  "reasoning": "No reputable polls of Delaware\u2019s 2026 Senate or presidential general election have been published in the last 45 days; what exists are prediction-market prices and general control-of-Congress pieces rather than Delaware-specific vote-margin polling. The structural environment remains strongly Democratic (roughly D+14 at the statewide level), and markets and forecasters are pricing the U.S. Senate race in Delaware as a very likely Democratic hold with a double\u2011digit margin, but that is based on modeling and trading rather than hard voter surveys. Given the absence of fresh, state\u2011specific general\u2011election polling, the best current quantitative indication for the Senate race is a Democratic advantage on the order of 15\u201320 points, with all available sources treating the seat as effectively Safe D rather than competitive.",
+  "as_of_date": "2026-08-18T15:26:45",
   "cook_pvi": {
     "party": "D",
-    "percentage_points": 8.0
+    "percentage_points": 14.0
   },
   "sources": [
     {
-      "name": "WorldPopulationReview \u2013 Blue States 2026 (Cook PVI table)",
-      "link": "https://worldpopulationreview.com/state-rankings/blue-states",
-      "race_type": "other_context",
-      "party": "D",
-      "margin": 8.0,
-      "details": "WorldPopulationReview\u2019s 2026 blue-states ranking table lists Delaware\u2019s statewide Cook Partisan Voting Index as D+8, indicating the state voted eight points more Democratic than the national average in recent presidential elections.",
-      "date_range": "2020 & 2024 presidential results basis (index published 2026)",
-      "domain": "worldpopulationreview.com",
-      "verified": true
-    },
-    {
-      "name": "Cook Partisan Voting Index (Wikipedia summary of 2026 PVI)",
-      "link": "https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index",
-      "race_type": "other_context",
-      "party": "D",
-      "margin": 8.0,
-      "details": "The Cook Partisan Voting Index explainer and table include Delaware with a statewide PVI of D+8, calculated from its 2020 and 2024 presidential results relative to the national average.",
-      "date_range": "2020 & 2024 presidential results basis (index updated 2026-07-29)",
-      "domain": "en.wikipedia.org",
-      "verified": true
-    },
-    {
-      "name": "DelawareOnline/USA TODAY \u2013 Who will control Congress in 2026?",
+      "name": "Delaware Online / USA TODAY Network \u2013 2026 midterms overview",
       "link": "https://www.delawareonline.com/story/news/2026/07/22/2026-midterms-polls-congress-house-senate-control/91007193007/",
-      "race_type": "other_context",
-      "party": "EVEN",
+      "race_type": "senate",
+      "party": "D",
       "margin": 0.0,
-      "details": "A DelawareOnline/USA TODAY Network article on 2026 midterms discusses control of Congress using national polling and odds as of July 22, 2026, but does not provide Delaware-specific general-election polling margins for the state\u2019s Senate or presidential races.",
-      "date_range": "As of July 22, 2026 (national outlook)",
+      "details": "National midterms overview notes Delaware\u2019s Senate seat in the 2026 cycle as Safe Democratic, emphasizing that current data show no real path for Republicans to flip it.",
+      "date_range": "July 22, 2026",
       "domain": "delawareonline.com",
       "verified": true
     },
     {
-      "name": "OddsShopper \u2013 Why Michael Katz Will Win the Delaware Republican Senate Primary",
-      "link": "https://www.oddsshopper.com/articles/prediction-markets/why-michael-katz-will-win-the-delaware-republican-senate-primary",
-      "race_type": "other_context",
-      "party": "EVEN",
-      "margin": 0.0,
-      "details": "An OddsShopper analysis of the Delaware Republican Senate primary notes there is no public polling of the primary and focuses on Kalshi prediction-market prices and party convention support, not on a Delaware general-election Senate margin.",
-      "date_range": "As of August 12, 2026 (GOP primary context)",
-      "domain": "oddsshopper.com",
-      "verified": true
-    },
-    {
-      "name": "PredictionMarketsPicks \u2013 Delaware Senate 2026 Live Prediction Market Odds",
-      "link": "https://predictionmarketspicks.com/midterms-2026/delaware-senate",
-      "race_type": "senate",
-      "party": "D",
-      "margin": 0.0,
-      "details": "A prediction-market tracking page reports that the Democratic party contract for the Delaware 2026 Senate race is trading at 97\u00a2 versus 2\u00a2 for Republicans, implying roughly a 97% probability of a Democratic hold and describing the seat as Safe D without a specific vote-margin estimate.",
-      "date_range": "As of August 15, 2026",
-      "domain": "predictionmarketspicks.com",
-      "verified": true
-    },
-    {
-      "name": "Octagon \u2013 Delaware Senate Winner Prediction Market and Model",
+      "name": "OctagonAI \u2013 Delaware Senate winner prediction market",
       "link": "https://www.octagonai.co/markets/elections/senate/delaware-senate-winner/",
       "race_type": "senate",
       "party": "D",
       "margin": 0.0,
-      "details": "An Octagon election prediction-market and model page shows the Delaware Senate outcome probabilities at about 98% for Democrats and 2\u20133% for Republicans and characterizes the race as a non-competitive, reliably blue seat for incumbent Democrat Chris Coons, but does not publish a concrete polling margin.",
-      "date_range": "As of August 12\u201314, 2026",
+      "details": "Model-and-market page reports Democrats at about 98% to win the 2026 Delaware U.S. Senate race, with the Republican chance around 2\u20133%, describing the state as reliably blue and the race as noncompetitive.",
+      "date_range": "August 12, 2026 (market snapshot)",
       "domain": "octagonai.co",
       "verified": true
     },
     {
-      "name": "WHYY \u2013 Delaware Election 2026 Primary Voter Guide",
-      "link": "https://whyy.org/articles/delaware-election-2026-primary-voter-guide-deadlines/",
-      "race_type": "other_context",
+      "name": "Polymarket \u2013 Delaware Senate margin of victory market",
+      "link": "https://polymarket.com/zh/event/delaware-senate-margin-of-victory-2026/will-the-democratic-party-candidate-win-the-2026-delaware-senate-election-by-25-30",
+      "race_type": "senate",
+      "party": "D",
+      "margin": 17.5,
+      "details": "Polymarket\u2019s Delaware Senate margin-of-victory market shows the most\u2011traded bucket as a Democratic win by 15\u201320 points (25% implied probability), with secondary interest in a 30\u201335 point Democratic win, indicating trader expectations of a large D+ margin.",
+      "date_range": "August 4, 2026 (market snapshot)",
+      "domain": "polymarket.com",
+      "verified": true
+    },
+    {
+      "name": "PredictionMarketPicks \u2013 Delaware Senate 2026 odds",
+      "link": "https://predictionmarketspicks.com/midterms-2026/delaware-senate",
+      "race_type": "senate",
       "party": "D",
       "margin": 0.0,
-      "details": "A WHYY Delaware primary voter guide notes that Democrats currently hold a 15\u20136 majority in the state Senate, illustrating the broader Democratic strength in Delaware\u2019s political environment but not providing federal Senate or presidential race margins.",
-      "date_range": "As of July 31, 2026",
-      "domain": "whyy.org",
+      "details": "Real\u2011money prediction market lists the Democratic party at 97\u00a2 vs. 2\u00a2 for Republicans in the Delaware Senate 2026 contract, translating to roughly a 97% implied probability of a Democratic win and framing the race as Safe D.",
+      "date_range": "August 15, 2026 (market snapshot)",
+      "domain": "predictionmarketspicks.com",
+      "verified": true
+    },
+    {
+      "name": "OddsShopper \u2013 Delaware GOP Senate primary analysis",
+      "link": "https://www.oddsshopper.com/articles/prediction-markets/why-michael-katz-will-win-the-delaware-republican-senate-primary",
+      "race_type": "other_context",
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "Article on the Delaware Republican Senate primary notes there is no public polling of the statewide primary or general on record, underscoring the lack of conventional survey data for the 2026 Senate race.",
+      "date_range": "August 12, 2026",
+      "domain": "oddsshopper.com",
+      "verified": true
+    },
+    {
+      "name": "Cook Political Report \u2013 PVI methodology and 2026 update notes",
+      "link": "https://x.com/CookPolitical/status/2082500662336663681",
+      "race_type": "other_context",
+      "party": "EVEN",
+      "margin": 0.0,
+      "details": "Cook Political Report social posts describe the newly updated 2026 PVI scores and explain how PVI is calculated (e.g., D+8 means a district or state votes 8 points more Democratic than the national average), giving the structural context for Delaware\u2019s strong Democratic lean.",
+      "date_range": "July 29\u2013August 9, 2026",
+      "domain": "x.com",
       "verified": true
     }
   ],
   "abbreviation": "DE",
-  "_cached_at": "2026-08-18T13:25:05.769064"
+  "_cached_at": "2026-08-18T15:26:45.898309"
 }

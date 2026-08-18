@@ -30,15 +30,16 @@ std::map<std::string, std::string> abbreviationsToStateName = {
     {"CA", "California"},       {"CO", "Colorado"},     {"CT", "Connecticut"},      {"DE", "Delaware"},
     {"FL", "Florida"},          {"GA", "Georgia"},      {"HI", "Hawaii"},           {"ID", "Idaho"}, 
     {"IL", "Illinois"},         {"IN", "Indiana"},      {"IA", "Iowa"},             {"KS", "Kansas"},
-    {"KY", "Kentucky"},         {"LA", "Louisiana"},    {"ME", "Maine"},            {"MD", "Maryland"},         
-    {"MA", "Massachusetts"},    {"MI", "Michigan"},     {"MN", "Minnesota"},        {"MS", "Mississippi"},      
-    {"MO", "Missouri"},         {"MT", "Montana"},      {"NE", "Nebraska"},         {"NV", "Nevada"},           
-    {"NH", "New Hampshire"},    {"NJ", "New Jersey"},   {"NM", "New Mexico"},       {"NY", "New York"},         
-    {"NC", "North Carolina"},   {"ND", "North Dakota"}, {"OH", "Ohio"},             {"OK", "Oklahoma"},         
-    {"OR", "Oregon"},           {"PA", "Pennsylvania"}, {"RI", "Rhode Island"},     {"SC", "South Carolina"},   
-    {"SD", "South Dakota"},     {"TN", "Tennessee"},    {"TX", "Texas"},            {"UT", "Utah"},             
-    {"VT", "Vermont"},          {"VA", "Virginia"},     {"WA", "Washington"},       {"WV", "West Virginia"},    
-    {"WI", "Wisconsin"},        {"WY", "Wyoming"},      {"DC", "Washington DC"}
+    {"KY", "Kentucky"},         {"LA", "Louisiana"},    {"ME-1", "Maine-1"},        {"ME-2", "Maine-2"},
+    {"MD", "Maryland"},         {"MA", "Massachusetts"},{"MI", "Michigan"},         {"MN", "Minnesota"},        
+    {"MS", "Mississippi"},      {"MO", "Missouri"},     {"MT", "Montana"},          {"NE-1", "Nebraska-1"},     
+    {"NE-2", "Nebraska-2"},     {"NE-3", "Nebraska-3"}, {"NV", "Nevada"},           {"NH", "New Hampshire"},    
+    {"NJ", "New Jersey"},       {"NM", "New Mexico"},   {"NY", "New York"},         {"NC", "North Carolina"},   
+    {"ND", "North Dakota"},     {"OH", "Ohio"},         {"OK", "Oklahoma"},         {"OR", "Oregon"},           
+    {"PA", "Pennsylvania"},     {"RI", "Rhode Island"}, {"SC", "South Carolina"},   {"SD", "South Dakota"},     
+    {"TN", "Tennessee"},        {"TX", "Texas"},        {"UT", "Utah"},             {"VT", "Vermont"},          
+    {"VA", "Virginia"},         {"WA", "Washington"},   {"WV", "West Virginia"},    {"WI", "Wisconsin"},       
+    {"WY", "Wyoming"},          {"DC", "Washington DC"}
 };
 
 std::map<std::string, int> electoralVotes = {
@@ -46,15 +47,16 @@ std::map<std::string, int> electoralVotes = {
     {"CA", 54},     {"CO", 10},     {"CT", 7},      {"DE", 3},
     {"FL", 30},     {"GA", 16},     {"HI", 4},      {"ID", 4}, 
     {"IL", 19},     {"IN", 11},     {"IA", 6},      {"KS", 6},
-    {"KY", 8},      {"LA", 8},      {"ME", 4},      {"MD", 10},         
-    {"MA", 11},     {"MI", 15},     {"MN", 10},     {"MS", 6},      
-    {"MO", 10},     {"MT", 4},      {"NE", 5},      {"NV", 6},           
-    {"NH", 4},      {"NJ",14},      {"NM", 5},      {"NY", 28},         
-    {"NC", 16},     {"ND", 3},      {"OH", 17},     {"OK", 7},         
-    {"OR", 8},      {"PA", 19},     {"RI", 4},      {"SC", 9},   
-    {"SD", 3},      {"TN", 11},     {"TX", 40},     {"UT", 6},             
-    {"VT", 3},      {"VA", 13},     {"WA", 12},     {"WV", 4},    
-    {"WI", 10},     {"WY", 3},      {"DC", 3}
+    {"KY", 8},      {"LA", 8},      {"ME-1", 1},    {"ME-2", 1}, 
+    {"MD", 10},     {"MA", 11},     {"MI", 15},     {"MN", 10},     
+    {"MS", 6},      {"MO", 10},     {"MT", 4},      {"NE-1", 1},      
+    {"NE-2", 1},    {"NE-3", 1},    {"NV", 6},      {"NH", 4},      
+    {"NJ",14},      {"NM", 5},      {"NY", 28},     {"NC", 16},     
+    {"ND", 3},      {"OH", 17},     {"OK", 7},      {"OR", 8},      
+    {"PA", 19},     {"RI", 4},      {"SC", 9},      {"SD", 3},      
+    {"TN", 11},     {"TX", 40},     {"UT", 6},      {"VT", 3},      
+    {"VA", 13},     {"WA", 12},     {"WV", 4},      {"WI", 10},     
+    {"WY", 3},      {"DC", 3}
 };
 std::map<std::string, StateModel> stateGeometry;
 

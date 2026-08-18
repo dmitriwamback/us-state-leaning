@@ -1,0 +1,63 @@
+{
+  "state": "Nebraska's 3rd congressional district",
+  "mode": "senate_presidential_polling",
+  "lean": "R",
+  "confidence": 1.0,
+  "strength_label": "Strong",
+  "net_margin": -27.0,
+  "based_on": "cook_pvi_fallback",
+  "reasoning": "Nebraska\u2019s 3rd congressional district is a strongly Republican district, with a Cook PVI of R+27. In the last 45 days, I did not find any eligible state-specific general-election polling for a Senate or presidential race in NE-03; the available recent coverage was about ballot access and candidate filings rather than a measured race margin, so there is no current polling-based D/R margin to report for this district.",
+  "as_of_date": "2026-08-18T16:37:31",
+  "cook_pvi": {
+    "party": "R",
+    "percentage_points": 27.0
+  },
+  "sources": [
+    {
+      "name": "Nebraska Examiner",
+      "link": "https://nebraskaexaminer.com/2026/07/30/nonpartisan-cohen-submits-signatures-seeking-nebraskas-3rd-congressional-district-ballot/",
+      "race_type": "other_context",
+      "party": null,
+      "margin": null,
+      "details": "Reported that independent candidate Mark Cohen submitted enough signatures to qualify for the Nebraska 3rd Congressional District ballot, but it did not measure any general-election margin.",
+      "date_range": "2026-07-30",
+      "domain": "nebraskaexaminer.com",
+      "verified": true
+    },
+    {
+      "name": "Nebraska Examiner",
+      "link": "https://nebraskaexaminer.com/briefs/nonpartisan-mark-cohen-certified-for-nebraskas-3rd-congressional-district-ballot/",
+      "race_type": "other_context",
+      "party": null,
+      "margin": null,
+      "details": "Reported that Mark Cohen was certified for the Nebraska 3rd Congressional District ballot; this was ballot-access news, not a poll or margin estimate.",
+      "date_range": "2026-08-12",
+      "domain": "nebraskaexaminer.com",
+      "verified": true
+    },
+    {
+      "name": "Nebraska Public Media",
+      "link": "https://nebraskapublicmedia.org/en/news/news-articles/independent-candidate-in-nebraskas-third-congressional-district-reportedly-meets-signature-milestone/",
+      "race_type": "other_context",
+      "party": null,
+      "margin": null,
+      "details": "Covered Cohen\u2019s signature milestone and later ballot qualification for NE-03, but provided no polling margin for the district\u2019s general-election race.",
+      "date_range": "2026-07-20 to 2026-08-13",
+      "domain": "nebraskapublicmedia.org",
+      "verified": true
+    },
+    {
+      "name": "Cook Political Report",
+      "link": "https://www.cookpolitical.com/pvi-map-and-district-list",
+      "race_type": "other_context",
+      "party": "R",
+      "margin": 27.0,
+      "details": "Cook Political Report\u2019s 2026 Cook PVI map/list identifies Nebraska\u2019s 3rd congressional district as R+27, which is a structural partisanship measure rather than current-race polling.",
+      "date_range": "2026-07-29",
+      "domain": "cookpolitical.com",
+      "verified": true
+    }
+  ],
+  "abbreviation": "NE-3",
+  "_cached_at": "2026-08-18T16:37:31.180097"
+}

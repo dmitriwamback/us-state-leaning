@@ -1,0 +1,74 @@
+{
+  "state": "Nebraska 1st congressional district",
+  "mode": "senate_presidential_polling",
+  "lean": "R",
+  "confidence": 0.625,
+  "strength_label": "Lean",
+  "net_margin": -10.0,
+  "based_on": "cook_pvi_fallback",
+  "reasoning": "Cook Political Report\u2019s 2026 Partisan Voting Index lists Nebraska statewide as R+10, indicating a structurally Republican-leaning state.[1][10] Within Nebraska, NE\u201101 itself is rated around **R+6** in PVI terms, and recent coverage continues to describe the 2026 House race as \u201cSolid R,\u201d with prediction markets and ratings giving Republican Rep. Mike Flood very high odds of re\u2011election, but these are **House**, not Senate or presidential, indicators.[1][3][5][15] I was unable to locate any district\u2011level presidential or Senate general\u2011election polling for Nebraska\u2019s 1st district in the last 45 days, so there is no current, state\u2011specific Senate or presidential margin to report for NE\u201101 beyond the structural PVI; structurally, the district leans roughly R+6, in a state that is R+10 statewide.[1][10]\n",
+  "as_of_date": "2026-08-18T16:37:17",
+  "cook_pvi": {
+    "party": "R",
+    "percentage_points": 10.0
+  },
+  "sources": [
+    {
+      "name": "Cook Political Report / Cook PVI (via Wikipedia summary)",
+      "link": "https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index",
+      "race_type": "other_context",
+      "party": "R",
+      "margin": 6.0,
+      "details": "Cook Political Report\u2019s 2026 PVI table shows Nebraska statewide at R+10, with NE-01 listed as R+6, indicating the Republican vote in both the state and this district runs several points ahead of national averages.",
+      "date_range": "2026-07-29 (structural index, not a poll)",
+      "domain": "en.wikipedia.org",
+      "verified": true
+    },
+    {
+      "name": "Nebraska Examiner via 10/11 NOW",
+      "link": "https://www.1011now.com/2026/08/05/national-democrats-put-ne-01-its-districts-play-program/",
+      "race_type": "other_context",
+      "party": "R",
+      "margin": null,
+      "details": "Nebraska Examiner/10/11 NOW report that national Democrats have put Nebraska\u2019s 1st Congressional District in their 'districts in play' program, while noting the district is still viewed as structurally Republican and competitive rather than already flipped.",
+      "date_range": "2026-08-05 (article, no general-election margin)",
+      "domain": "1011now.com",
+      "verified": true
+    },
+    {
+      "name": "Plains Sentinel (summarizing Cook and internal House polling)",
+      "link": "https://plains-sentinel.com/p/democrats-see-ne-01-seat-as-in-play",
+      "race_type": "other_context",
+      "party": "R",
+      "margin": 6.0,
+      "details": "Plains Sentinel article notes Cook Political still lists NE-01 as 'Solid Republican' at about R+6 and describes progressive-aligned internal polls showing GOP Rep. Mike Flood ahead of Democrat Chris Backemeyer by single digits in various hypothetical House matchups, but these are not statewide Senate or presidential polls.",
+      "date_range": "2026-08-06 (older internal polling, not a current general-election margin)",
+      "domain": "plains-sentinel.com",
+      "verified": true
+    },
+    {
+      "name": "KIOS FM",
+      "link": "https://www.kios.org/2026-07-20/kios-fm-local-news-for-monday-7-20-26",
+      "race_type": "other_context",
+      "party": "EVEN",
+      "margin": null,
+      "details": "KIOS FM local news report describes the 2026 NE-01 U.S. House general-election field\u2014Republican Mike Flood vs. Democrat Chris Backemeyer\u2014without providing any polling numbers or margins.",
+      "date_range": "2026-07-20 (candidate field context only)",
+      "domain": "kios.org",
+      "verified": true
+    },
+    {
+      "name": "Press Release via QuiverQuant",
+      "link": "https://www.quiverquant.com/news/Press+Release:+Mike+Flood+Announces+Flyover+Fintech+Panel+on+Prediction+Markets",
+      "race_type": "other_context",
+      "party": "R",
+      "margin": null,
+      "details": "QuiverQuant-linked press release states that the 2026 NE-01 House race is currently rated 'Solid R', indicating a strong Republican advantage but not providing a quantified vote-margin estimate.",
+      "date_range": "2026-07-23 (rating, no numeric margin)",
+      "domain": "quiverquant.com",
+      "verified": true
+    }
+  ],
+  "abbreviation": "NE-1",
+  "_cached_at": "2026-08-18T16:37:17.544510"
+}

@@ -48,5 +48,3 @@
     <li>1. <code>python app.py</code> in the predictor directory.</li>
     <li>2. <code>npm run dev</code> in the repo directory.</li>
 </ul>
-
-### Additional disclaimer: This app does not account for Maine's and Nebraska's individual congressional districts.

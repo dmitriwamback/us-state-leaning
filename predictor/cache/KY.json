@@ -6,69 +6,47 @@
   "strength_label": "Lean",
   "net_margin": -15.0,
   "based_on": "cook_pvi_fallback",
-  "reasoning": "Within the last 45 days, there are no publicly listed general\u2011election polling averages for the 2026 Kentucky Senate or presidential races; recent data instead cover primary results and structural or predictive context.[1][3][5][11][12] Kentucky\u2019s partisan lean remains strongly Republican at about R+15 statewide per the Cook Partisan Voting Index, and recent prediction\u2011market analysis plus the GOP\u2019s substantial registration edge and Barr\u2019s incumbency all point to a clearly Republican\u2011favored Senate environment, even in the absence of fresh head\u2011to\u2011head polls.[10][12][14] Given the lack of new state\u2011specific general\u2011election polling in the past 45 days, the best current estimate is that the Senate race is structurally and market\u2011implied in the **high single\u2011 to low\u2011double\u2011digit R+ range**, while the presidential race is expected to be safely **R+10 or more**, consistent with Kentucky\u2019s R+15 PVI, but these are inferred margins rather than direct recent poll numbers.",
-  "as_of_date": "2026-08-18T13:28:09",
+  "reasoning": "Recent Kentucky-specific general-election polling for the 2026 Senate or presidential race was not surfaced in the available results, and the only directly relevant Kentucky Senate item found was a polling index page rather than a specific numeric poll. The strongest usable current-race signal in the gathered material is an election-forecast/market snapshot that overwhelmingly favors Republicans in the Kentucky Senate race, while Kentucky\u2019s statewide Cook PVI remains R+15.",
+  "as_of_date": "2026-08-18T15:28:36",
   "cook_pvi": {
     "party": "R",
     "percentage_points": 15.0
   },
   "sources": [
     {
-      "name": "Cook Political Report \u2013 Cook Partisan Voting Index (via summary table)",
-      "link": "https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index",
-      "race_type": "other_context",
-      "party": "R",
-      "margin": 15.0,
-      "details": "Cook Partisan Voting Index lists Kentucky as R+15, indicating the state voted 15 points more Republican than the national popular vote in the most recent presidential election.",
-      "date_range": "N/A (structural index, based on last presidential election)",
-      "domain": "en.wikipedia.org",
-      "verified": true
-    },
-    {
-      "name": "Kentucky Secretary of State \u2013 2026 Primary Election Results",
-      "link": "https://vrsws.sos.ky.gov/liveresults?autorefresh=true&id=2",
+      "name": "The New York Times",
+      "link": "https://www.nytimes.com/interactive/polls/kentucky-us-senate-election-polls-2026.html",
       "race_type": "other_context",
       "party": "EVEN",
       "margin": 0.0,
-      "details": "Kentucky\u2019s official 2026 primary results show Republican Andy Barr winning the U.S. Senate primary with about 60% of the vote and Democrat Charles Booker winning his party\u2019s primary, confirming the general\u2011election matchup but not providing a general\u2011election margin.",
-      "date_range": "May 19, 2026 (primary election day; results reported August 17-18, 2026)",
-      "domain": "vrsws.sos.ky.gov",
+      "details": "Aggregation page for Kentucky U.S. Senate 2026 latest polls, but the search snippet did not expose a specific Kentucky general-election margin, so it cannot be used as a numeric race read here.",
+      "date_range": "Updated Aug. 14-18, 2026; poll list covering recent Kentucky Senate polling",
+      "domain": "nytimes.com",
       "verified": true
     },
     {
-      "name": "Octagon \u2013 Kentucky Senate Winner Elections Prediction Market Odds",
+      "name": "Octagon",
       "link": "https://www.octagonai.co/markets/elections/senate/kentucky-senate-winner/",
       "race_type": "other_context",
       "party": "R",
-      "margin": 10.0,
-      "details": "A prediction\u2011market and model overview reports Andy Barr with roughly 93\u201395% implied probability of winning the Kentucky U.S. Senate race, noting that early polling from late 2025 and early 2026 showed Barr leading Charles Booker by about 9\u201311 points; however, no new Kentucky\u2011specific general\u2011election polls are presented for the last 45 days.",
-      "date_range": "August 8, 2026 (prediction market snapshot; citing late\u20112025 and early\u20112026 polling)",
+      "margin": 88.0,
+      "details": "Prediction-market snapshot says Republican Andy Barr is overwhelmingly favored over Democrat Charles Booker in the Kentucky Senate race.",
+      "date_range": "Aug. 8-14, 2026",
       "domain": "octagonai.co",
       "verified": true
     },
     {
-      "name": "Kentucky.gov \u2013 Voter Registration Surges",
-      "link": "https://www.kentucky.gov/Pages/Activity-stream.aspx?n=SOS&prId=567",
+      "name": "Cook Partisan Voting Index (referenced summary)",
+      "link": "https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index",
       "race_type": "other_context",
       "party": "R",
-      "margin": 0.0,
-      "details": "Kentucky\u2019s official voter\u2011registration update notes that Republicans are 48% of registered voters statewide, highlighting a structural GOP advantage but not a specific Senate or presidential polling margin.",
-      "date_range": "As of August 9, 2026 (registration file snapshot)",
-      "domain": "kentucky.gov",
-      "verified": true
-    },
-    {
-      "name": "270toWin \u2013 Latest 2026 Senate Election Polls",
-      "link": "https://www.270towin.com/polls/latest-2026-senate-election-polls/",
-      "race_type": "other_context",
-      "party": "EVEN",
-      "margin": 0.0,
-      "details": "A national Senate\u2011polling aggregator lists latest 2026 Senate polls by state; for Kentucky, there is no new general\u2011election polling in July\u2013August 2026, indicating an absence of fresh state\u2011specific Senate head\u2011to\u2011head data in the last 45 days.",
-      "date_range": "Accessed August 11, 2026 (poll list current as of late June 2026)",
-      "domain": "270towin.com",
+      "margin": 15.0,
+      "details": "Kentucky's statewide Cook Partisan Voting Index is R+15.",
+      "date_range": "2026 Cook PVI release (statewide figure cited in reference result)",
+      "domain": "en.wikipedia.org",
       "verified": true
     }
   ],
   "abbreviation": "KY",
-  "_cached_at": "2026-08-18T13:28:09.532428"
+  "_cached_at": "2026-08-18T15:28:36.794260"
 }
