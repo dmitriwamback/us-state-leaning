@@ -43,7 +43,7 @@
 <img width="1288" height="845" alt="Image" src="https://github.com/user-attachments/assets/ddac4644-4be0-430f-859e-8c8c971a99de" />
 
 ### Data as of August 19th 2026 (with a few modifications to the compute_lean.py and predictor.py)
-### (Additionally with the addition of Maine's 1st and 2nd and Nebraska's 1st, 2nd, and 3rd congressional districts)
+### (With the addition of Maine's 1st and 2nd and Nebraska's 1st, 2nd, and 3rd congressional districts)
 
 <img width="1643" height="1046" alt="Image" src="https://github.com/user-attachments/assets/8fa2482e-58be-4976-970b-52c4f78e3414" />
 
