@@ -2,51 +2,54 @@
   "state": "Rhode Island",
   "mode": "senate_presidential_polling",
   "lean": "D",
-  "confidence": 0.575,
-  "strength_label": "Tilt",
-  "net_margin": 8.0,
-  "based_on": "cook_pvi_fallback",
-  "reasoning": "Rhode Island does not appear to have any current-cycle general-election Senate or presidential polling in the last 45 days beyond a Senate-primary context, so there is no valid state-specific 2026 Senate or presidential margin to report from the gathered sources. The available current information instead points to Rhode Island\u2019s structural Democratic lean, with Cook PVI at D+8, and a recent Salve Regina/Embold survey showing Jack Reed far ahead in the Democratic Senate primary rather than the general election.",
-  "as_of_date": "2026-08-18T15:33:00",
+  "confidence": 1.0,
+  "strength_label": "Strong",
+  "net_margin": 35.33,
+  "based_on": "sources",
+  "reasoning": "Rhode Island\u2019s statewide Cook PVI is D+8. In the last 45 days, I found no credible general-election Senate or presidential polling for Rhode Island; the only recent race-specific public survey was a Democratic primary poll showing Sen. Jack Reed leading his primary challengers 61% to 12% and 4%, which is not a general-election margin and therefore counts only as other context.",
+  "as_of_date": "2026-08-19T11:41:07",
   "cook_pvi": {
     "party": "D",
     "percentage_points": 8.0
   },
   "sources": [
     {
-      "name": "Salve Regina University Pell Center / Embold Research",
+      "name": "WPRI",
+      "link": "https://www.wpri.com/news/elections/foulkes-keeps-20-point-lead-over-mckee-in-new-salve-poll-many-undecided-in-other-races/",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 49.0,
+      "lean_confidence": 0.88,
+      "details": "A Salve Regina University Pell Center/Embold Research poll found Jack Reed leading his Democratic primary opponents 61% to 12% and 4%, indicating a very strong incumbent position but not a general-election margin.",
+      "date_range": "Aug. 3-11, 2026",
+      "domain": "wpri.com",
+      "verified": true
+    },
+    {
+      "name": "Salve Regina University Pell Center",
       "link": "https://salve.edu/news/news-listing/new-survey-foulkes-leads-mckee-governors-race-reed-holds-strong-senate-lead-other-races-remain",
       "race_type": "other_context",
       "party": "D",
       "margin": 49.0,
-      "details": "A Salve Regina University Pell Center survey found Jack Reed leading his Democratic primary opponents by a wide margin at 61%, but this is a primary-only measure and not the state\u2019s general-election Senate race.",
-      "date_range": "August 3-11, 2026",
+      "lean_confidence": 0.88,
+      "details": "The Salve Regina University Pell Center reported the same poll results, with Reed far ahead of his primary challengers in the Democratic Senate primary.",
+      "date_range": "Aug. 3-11, 2026",
       "domain": "salve.edu",
       "verified": true
     },
     {
-      "name": "New York Times / University of New Hampshire",
-      "link": "https://www.nytimes.com/interactive/polls/rhode-island-us-senate-election-polls-2026.html",
-      "race_type": "other_context",
-      "party": "D",
-      "margin": 28.0,
-      "details": "The New York Times poll tracker lists a Rhode Island Senate survey showing Reed leading Burbridge 53% to 25%, but it is still a primary poll rather than a general-election Senate margin.",
-      "date_range": "June 18-23, 2026",
-      "domain": "nytimes.com",
-      "verified": true
-    },
-    {
       "name": "Cook Political Report",
-      "link": "https://www.cookpolitical.com/pvi-map-and-district-list",
+      "link": "https://x.com/CookPolitical/status/2082441407822770545",
       "race_type": "other_context",
       "party": "D",
       "margin": 8.0,
-      "details": "Cook PVI lists Rhode Island as D+8 statewide, indicating the state leans Democratic by eight percentage points relative to the nation.",
-      "date_range": "2026 cycle (statewide structural index)",
-      "domain": "cookpolitical.com",
+      "lean_confidence": 0.99,
+      "details": "Cook\u2019s statewide PVI lists Rhode Island as D+8, making it a structurally Democratic state.",
+      "date_range": "2026-07-29 to 2026-08-19",
+      "domain": "x.com",
       "verified": true
     }
   ],
   "abbreviation": "RI",
-  "_cached_at": "2026-08-18T15:33:00.075595"
+  "_cached_at": "2026-08-19T11:41:07.964841"
 }

@@ -14,6 +14,11 @@ RECENCY_DAYS = 45
 MODE_SENATE_PRESIDENTIAL = "senate_presidential_polling"
 MODE_GOVERNOR = "governor_polling"
 
+# IMPORTANT: these two modes are mutually exclusive by design. A governor's
+# race source can NEVER contribute to senate_presidential_polling's lean,
+# and a senate/presidential source can NEVER contribute to governor_polling's
+# lean -- enforced structurally via race_type filtering in compute_lean,
+# not just by prompt instruction.
 _RACE_TARGETS = {
     MODE_SENATE_PRESIDENTIAL: {"senate", "presidential"},
     MODE_GOVERNOR: {"governor"},
@@ -31,9 +36,6 @@ def _build_system_prompt(mode: str) -> str:
     valid_race_types_commas = ", ".join(f'"{r}"' for r in all_race_types)
     valid_race_types_pipes = " | ".join(f'"{r}"' for r in all_race_types)
 
-    # Deliberately simpler/more natural than a long numbered rulebook --
-    # empirically this style produced better content, we just enforce the
-    # output shape via response_format instead of relying on prose alone.
     return f"""You are a political analyst. Based on current polling and news from \
 the last {RECENCY_DAYS} days, determine the current margin for {race_description} \
 in the state you're asked about.
@@ -41,20 +43,36 @@ in the state you're asked about.
 For each source you find, report its name, a direct link, its race_type \
 (must be one of: {valid_race_types_commas} -- use "other_context" for anything \
 that isn't actually {race_description}, like a different race or a structural \
-index), the party it favors (D, R, or EVEN) and the margin as a number (if the \
-source gives one -- omit if it doesn't), a short detail of what it found, and the \
-date range the data is from.
+index), the party it favors (D, R, or EVEN), and the margin as a number (if the \
+source gives an actual numeric poll margin -- omit if it doesn't). \
+Separately, ALSO report lean_confidence (0.0 to 1.0): how strongly and \
+authoritatively this SPECIFIC source supports the party it favors, independent of \
+whether it gave a hard number. A forecaster's explicit qualitative rating (e.g. \
+"Cook rates this solidly Democratic," "leading Democrat," "incumbent favored") \
+should get a fairly high lean_confidence (0.6-0.9) even with no numeric margin -- \
+that's real, if imprecise, signal. A purely procedural article (live primary \
+results, "who's on the ballot," no editorial framing at all) should get \
+lean_confidence at or near 0 even if you set party="EVEN" as a placeholder -- it \
+isn't actually taking a position.
 
-IMPORTANT scope check: a source may ONLY be tagged with the target race_type \
+IMPORTANT -- don't let a real signal get buried: if most of your sources are \
+purely procedural (party="EVEN", lean_confidence near 0) but even just ONE source \
+explicitly states or clearly implies which party is currently favored (a \
+forecaster rating, a news article describing a candidate as "leading," an \
+incumbent-advantage note, etc.), that single source's signal is real and should \
+be reported with its actual lean_confidence -- do not mark it EVEN just because \
+most of the other coverage you found was neutral/procedural. One genuine signal \
+outweighs many sources that simply had nothing to say either way.
+
+IMPORTANT -- scope check: a source may ONLY be tagged with the target race_type \
 (not "other_context") if it specifically measures THIS state's electorate for \
 THIS state's current race. A national poll, a poll of a different state, a \
-hypothetical or future-cycle matchup poll (e.g. testing 2028 candidates who \
-aren't even on this state's ballot), or a primary-only poll of a subgroup \
-that never tested a general-election margin, must be tagged "other_context" \
-regardless of how related the topic sounds. If your own reasoning would describe \
-a source as "not state-specific" or "not this race," its race_type must be \
-"other_context" -- do not let a source contribute to the target race just \
-because it mentions relevant-sounding names or topics.
+hypothetical or future-cycle matchup poll, a DIFFERENT race entirely (e.g. a \
+Governor's race when you're assessing {race_description}, or vice versa), or a \
+primary-only poll of a subgroup that never tested a general-election margin, must \
+be tagged "other_context" regardless of how related the topic sounds. If your own \
+reasoning would describe a source as "not state-specific," "not this race," or \
+"a different race," its race_type must be "other_context."
 
 Only use real news outlets, official pollster releases, and established election \
 forecasters (Cook Political Report, Sabato's Crystal Ball, RealClearPolling, \
@@ -79,7 +97,8 @@ this schema:
       "link": "<direct URL>",
       "race_type": {valid_race_types_pipes},
       "party": "D" | "R" | "EVEN",
-      "margin": <float, non-negative>,
+      "margin": <float, non-negative, omit if no real number>,
+      "lean_confidence": <float 0.0-1.0>,
       "details": "<one sentence on what this source found>",
       "date_range": "<e.g. 'July 15-17, 2026'>"
     }}
@@ -87,17 +106,13 @@ this schema:
 }}
 """
 
-def _ordinal_suffix(n: str) -> str:
-    n = int(n)
-    if n in (11, 12, 13):
-        return "th"
-    return {1: "st", 2: "nd", 3: "rd"}.get(n % 10, "th")
-
 
 def build_user_prompt(state: str, mode: str) -> str:
     today = date.today().isoformat()
     race_description = _RACE_DESCRIPTIONS[mode]
 
+    # District-shaped state strings ("Maine-1") need clarifying context so
+    # search queries actually target the right congressional district.
     if "-" in state:
         state_name, district_num = state.rsplit("-", 1)
         subject = f"{state_name}'s {district_num}{_ordinal_suffix(district_num)} congressional district"
@@ -112,6 +127,13 @@ def build_user_prompt(state: str, mode: str) -> str:
     )
 
 
+def _ordinal_suffix(n: str) -> str:
+    n = int(n)
+    if n in (11, 12, 13):
+        return "th"
+    return {1: "st", 2: "nd", 3: "rd"}.get(n % 10, "th")
+
+
 @dataclass
 class SourceEntry:
     name: str
@@ -119,22 +141,23 @@ class SourceEntry:
     race_type: str = "other_context"
     party: Optional[str] = None
     margin: Optional[float] = None
+    lean_confidence: Optional[float] = None
     details: str = ""
     date_range: str = ""
     domain: Optional[str] = None
-    verified: bool = False  # True if `link` matches a real URL in the API's own citations list
+    verified: bool = False
 
 
 @dataclass
 class StateVerdict:
     state: str
     mode: str
-    lean: str                # computed deterministically, NOT the model's own synthesis
-    confidence: float         # computed deterministically
-    strength_label: str       # "Toss-up" | "Tilt" | "Lean" | "Strong" -- also computed
+    lean: str
+    confidence: float
+    strength_label: str
     net_margin: float
-    based_on: str              # "sources" | "cook_pvi_fallback" -- which basis produced this verdict
-    reasoning: str            # the model's own narrative summary (context only, not authoritative for lean)
+    based_on: str
+    reasoning: str
     as_of_date: str
     cook_pvi: dict = field(default_factory=dict)
     sources: list = field(default_factory=list)
@@ -163,14 +186,15 @@ def _parse_json_verdict(raw_text: str) -> dict:
 
 
 def _extract_sources(parsed: dict, real_citations: list, mode: str, state: str) -> list:
-    """
-    Build SourceEntry objects from the model's self-reported per-source data,
-    validating each URL against the API's own `citations` list. A source
-    whose URL doesn't appear there is kept but flagged verified=False.
-    """
     real_citations_set = set(real_citations or [])
     valid_race_types = _RACE_TARGETS[mode] | {"other_context"}
     entries = []
+
+    DISCLAIMER_PHRASES = [
+        "not state-specific", "not this race", "national poll",
+        "not a state-specific", "hypothetical", "did not test",
+        "not " + state.lower() + "-specific",
+    ]
 
     for raw in parsed.get("sources", []) or []:
         if not isinstance(raw, dict):
@@ -191,23 +215,19 @@ def _extract_sources(parsed: dict, real_citations: list, mode: str, state: str) 
         except (TypeError, ValueError):
             margin = None
 
+        lean_confidence = raw.get("lean_confidence")
+        try:
+            lean_confidence = float(lean_confidence) if lean_confidence is not None else None
+            if lean_confidence is not None:
+                lean_confidence = max(0.0, min(1.0, lean_confidence))
+        except (TypeError, ValueError):
+            lean_confidence = None
+
         race_type = raw.get("race_type", "other_context")
         if race_type not in valid_race_types:
             race_type = "other_context"
 
-        # Defensive safety net: if the source's OWN details text disclaims
-        # relevance (e.g. "not state-specific", "national poll", "not this
-        # race", "hypothetical"), downgrade to other_context even if the
-        # model tagged race_type incorrectly. This directly guards against
-        # the California case where a source's own prose said "this is not
-        # a California-specific race margin" but was still tagged
-        # race_type="presidential" and contaminated the computed lean.
         details_lower = (raw.get("details", "") or "").lower()
-        DISCLAIMER_PHRASES = [
-            "not state-specific", "not this race", "national poll",
-            "not a state-specific", "hypothetical", "did not test",
-            "not " + state.lower() + "-specific",
-        ]
         if any(phrase in details_lower for phrase in DISCLAIMER_PHRASES):
             race_type = "other_context"
 
@@ -217,6 +237,7 @@ def _extract_sources(parsed: dict, real_citations: list, mode: str, state: str) 
             race_type=race_type,
             party=party,
             margin=margin,
+            lean_confidence=lean_confidence,
             details=raw.get("details", "") or "",
             date_range=raw.get("date_range", "") or "",
             domain=_domain_from_url(link),
@@ -265,10 +286,11 @@ def assess_state(state: str, client: Perplexity, mode: str = MODE_SENATE_PRESIDE
                                     "race_type": {"type": "string", "enum": valid_race_types},
                                     "party": {"type": "string", "enum": ["D", "R", "EVEN"]},
                                     "margin": {"type": "number"},
+                                    "lean_confidence": {"type": "number"},
                                     "details": {"type": "string"},
                                     "date_range": {"type": "string"},
                                 },
-                                "required": ["name", "link", "race_type", "details", "date_range"],
+                                "required": ["name", "link", "race_type", "party", "lean_confidence", "details", "date_range"],
                             },
                         },
                     },
@@ -286,19 +308,11 @@ def assess_state(state: str, client: Perplexity, mode: str = MODE_SENATE_PRESIDE
     sources = _extract_sources(parsed, real_citations, mode, state)
     cook_pvi = _validate_pvi(parsed.get("cook_partisan_voting_index"))
 
-    # Deterministic lean/confidence, NOT trusting any model-provided synthesis
-    # (the model isn't even asked for lean/confidence anymore -- only raw
-    # per-source data. We compute the verdict ourselves in code.)
     computed = compute_lean_from_sources(
         [asdict(s) for s in sources],
         target_race_types=_RACE_TARGETS[mode],
     )
 
-    # If no usable current-race sources survived filtering (e.g. a quiet
-    # state with no recent coverage, or everything got correctly excluded
-    # as off-topic/national/hypothetical), fall back to Cook PVI rather
-    # than reporting a contentless "Toss-up, confidence 0" -- a lopsided
-    # structural lean is real evidence even without fresh polling.
     if computed["source_count"] == 0:
         computed = compute_lean_from_pvi(cook_pvi)
 

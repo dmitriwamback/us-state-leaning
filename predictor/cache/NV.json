@@ -5,37 +5,39 @@
   "confidence": 0.4,
   "strength_label": "Toss-up",
   "net_margin": 4.0,
-  "based_on": "cook_pvi_fallback",
-  "reasoning": "I could not verify any Nevada 2026 Senate or presidential general-election polling from the last 45 days. The only recent Nevada election-source material surfaced here was a statewide structural PVI reference showing Nevada as D+4, while a recent news item noted Nevada has no competitive federal races this year, which is consistent with the absence of current Senate or presidential polling for this cycle.",
-  "as_of_date": "2026-08-18T15:31:02",
+  "based_on": "sources",
+  "reasoning": "I found no valid Nevada Senate or presidential general-election polling from the last 45 days that measured this state\u2019s current race, so there is no reliable numeric D/R margin to report. The only usable current signal was a recent article noting Nevada is a key battleground with Republican Joe Lombardo defending his governorship, but that is not a Senate or presidential margin and must be treated as other_context. Nevada\u2019s statewide Cook PVI is D+4.",
+  "as_of_date": "2026-08-19T11:37:06",
   "cook_pvi": {
     "party": "D",
     "percentage_points": 4.0
   },
   "sources": [
     {
-      "name": "Cook Political Report 2026 PVI map",
-      "link": "https://www.cookpolitical.com/pvi-map-and-district-list",
+      "name": "U.S. News & World Report / Reuters",
+      "link": "https://www.usnews.com/news/business/articles/2026-08-04/trump-is-making-a-rare-western-trip-to-talk-about-the-economy-something-polls-show-hes-weak-on",
       "race_type": "other_context",
-      "party": "D",
-      "margin": 4.0,
-      "details": "Cook Political Report\u2019s 2026 statewide PVI map lists Nevada as D+4, indicating a modest Democratic lean at the state level.",
-      "date_range": "2026",
-      "domain": "cookpolitical.com",
+      "party": "EVEN",
+      "margin": null,
+      "lean_confidence": 0.2,
+      "details": "Reuters-distributed coverage notes Nevada is a battleground state and that Republican Gov. Joe Lombardo faces Democratic Attorney General Aaron Ford in November, but this is a gubernatorial race and not the Senate or presidential contest.",
+      "date_range": "2026-08-04",
+      "domain": "usnews.com",
       "verified": true
     },
     {
-      "name": "KNPR State of Nevada",
-      "link": "https://knpr.org/show/knprs-state-of-nevada/2026-08-17/trump-others-stump-in-nevada-with-voting-in-2026-midterm-just-weeks-away",
+      "name": "Cook Political Report",
+      "link": "https://x.com/CookPolitical/status/2082441407822770545",
       "race_type": "other_context",
-      "party": "EVEN",
-      "margin": 0.0,
-      "details": "KNPR quoted a Nevada analyst saying national politics is not affecting the election much because there are no competitive federal races in Nevada this year.",
-      "date_range": "August 17, 2026",
-      "domain": "knpr.org",
+      "party": "D",
+      "margin": 4.0,
+      "lean_confidence": 0.95,
+      "details": "Cook PVI for Nevada is listed as D+4, indicating the state leans Democratic on the structural baseline.",
+      "date_range": "2026-07-29",
+      "domain": "x.com",
       "verified": true
     }
   ],
   "abbreviation": "NV",
-  "_cached_at": "2026-08-18T15:31:02.770493"
+  "_cached_at": "2026-08-19T11:37:06.728221"
 }

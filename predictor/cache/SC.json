@@ -2,62 +2,78 @@
   "state": "South Carolina",
   "mode": "senate_presidential_polling",
   "lean": "R",
-  "confidence": 0.825,
+  "confidence": 0.65,
   "strength_label": "Lean",
-  "net_margin": -18.0,
+  "net_margin": -11.0,
   "based_on": "cook_pvi_fallback",
-  "reasoning": "South Carolina is strongly Republican-leaning on the statewide Cook PVI, at about R+18. In the last 45 days, the only relevant statewide election polling I found was for the South Carolina U.S. Senate special Republican primary, which is not the general-election Senate race; I found no qualifying current general-election Senate or presidential matchup poll for South Carolina. As a result, the current race margin is not available from a qualifying statewide general-election poll, and the best structural baseline is the state\u2019s R+18 PVI.",
-  "as_of_date": "2026-08-18T15:33:08",
+  "reasoning": "South Carolina remains strongly Republican structurally, with a statewide Cook PVI of about R+11. The only current race-specific polling found in the last 45 days was for the Republican U.S. Senate special primary, which showed a close multi-candidate field but did not provide a general-election Senate or presidential margin for the state.",
+  "as_of_date": "2026-08-19T11:41:18",
   "cook_pvi": {
     "party": "R",
-    "percentage_points": 18.0
+    "percentage_points": 11.0
   },
   "sources": [
     {
-      "name": "Cook Political Report",
-      "link": "https://x.com/CookPolitical/status/2082441407822770545",
-      "race_type": "other_context",
-      "party": "R",
-      "margin": 18.0,
-      "details": "Cook Political Report\u2019s 2026 Cook PVI release shows South Carolina at roughly R+18 statewide.",
-      "date_range": "July 2026",
-      "domain": "x.com",
-      "verified": true
-    },
-    {
-      "name": "FITSNews",
-      "link": "https://www.fitsnews.com/2026/08/07/s-c-succession-exclusive-u-s-senate-poll-shows-nordone-norman-headed-to-runoff/",
-      "race_type": "other_context",
-      "party": "D",
-      "margin": 7.0,
-      "details": "A Resonance Media Strategies poll for the South Carolina Republican Senate special primary found Darline Graham Nordone leading the field with 25.2%, while Ralph Norman had 18.2%; this was a primary poll, not a general-election matchup.",
-      "date_range": "August 5-7, 2026",
-      "domain": "fitsnews.com",
-      "verified": true
-    },
-    {
       "name": "Emerson College Polling",
-      "link": "https://emersoncollegepolling.com/south-carolina-2026-norman-graham-lead-gop-special-primary-runoff-likely/",
+      "link": "https://www.emersoncollegepolling.com/south-carolina-2026-norman-graham-lead-gop-special-primary-runoff-likely/",
       "race_type": "other_context",
-      "party": "R",
-      "margin": 3.0,
-      "details": "Emerson College Polling found Ralph Norman at 22% and Darline Graham at 19% in the South Carolina GOP Senate special primary; this is primary-only and not a general-election race.",
+      "party": "EVEN",
+      "margin": null,
+      "lean_confidence": 0.0,
+      "details": "Emerson College polling reported Ralph Norman at 22% and Darline Graham at 19% in the South Carolina GOP Senate special primary, indicating a close but non-general-election contest.",
       "date_range": "July 30, 2026",
       "domain": "emersoncollegepolling.com",
+      "verified": false
+    },
+    {
+      "name": "The Hill",
+      "link": "https://thehill.com/homenews/campaign/5999110-sc-gop-senate-primary-poll-graham-norman/",
+      "race_type": "other_context",
+      "party": "EVEN",
+      "margin": null,
+      "lean_confidence": 0.0,
+      "details": "The Hill summarized the Emerson poll, saying Norman led Graham 22% to 19% in the GOP Senate primary.",
+      "date_range": "July 30, 2026",
+      "domain": "thehill.com",
       "verified": true
     },
     {
-      "name": "PJ Media",
+      "name": "Newsweek / Quantus Insights",
+      "link": "https://www.newsweek.com/darline-graham-scores-double-digit-lead-in-race-to-replace-brother-12300171",
+      "race_type": "other_context",
+      "party": "EVEN",
+      "margin": 12.9,
+      "lean_confidence": 0.0,
+      "details": "Newsweek reported a Quantus Insights poll showing Darline Graham ahead in the Republican Senate primary, 30.4% to Ralph Norman's 17.5% on the initial ballot and 33.1% to 20.4% after allocation.",
+      "date_range": "August 5-6, 2026",
+      "domain": "newsweek.com",
+      "verified": true
+    },
+    {
+      "name": "Trafalgar Group / PJ Media",
       "link": "https://pjmedia.com/jennifer-rust/2026/08/11/ten-candidates-battled-today-tells-us-whos-left-in-sc-senate-race-n4956019",
       "race_type": "other_context",
-      "party": "D",
+      "party": "EVEN",
       "margin": 6.9,
-      "details": "A Trafalgar Group poll of the South Carolina GOP Senate special primary showed Darline Graham at 26.4% and Ralph Norman at 19.5%; this is a primary poll and does not measure the general-election Senate contest.",
+      "lean_confidence": 0.0,
+      "details": "Trafalgar Group's South Carolina GOP Senate special primary tracking poll showed Darline Graham at 26.4%, ahead of Ralph Norman at 19.5% and others.",
       "date_range": "August 8-10, 2026",
       "domain": "pjmedia.com",
+      "verified": true
+    },
+    {
+      "name": "NBC News",
+      "link": "https://www.nbcnews.com/politics/2026-primary-special-elections/south-carolina-senate-results",
+      "race_type": "other_context",
+      "party": "EVEN",
+      "margin": 8.1,
+      "lean_confidence": 0.0,
+      "details": "NBC News published live special primary results showing Darline Graham winning the South Carolina Senate special Republican primary with 32.7% to Ralph Norman's 24.6%.",
+      "date_range": "August 11, 2026",
+      "domain": "nbcnews.com",
       "verified": true
     }
   ],
   "abbreviation": "SC",
-  "_cached_at": "2026-08-18T15:33:08.475206"
+  "_cached_at": "2026-08-19T11:41:18.467421"
 }
