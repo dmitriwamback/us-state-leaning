@@ -2,66 +2,66 @@
   "state": "Alabama",
   "mode": "senate_presidential_polling",
   "lean": "R",
-  "confidence": 0.678,
+  "confidence": 0.75,
   "strength_label": "Lean",
-  "net_margin": -12.12,
+  "net_margin": -15.0,
   "based_on": "sources",
-  "reasoning": "Recent Alabama coverage in the last 45 days points overwhelmingly to a strongly Republican Senate environment, with one recent poll showing a 15-point GOP lead and another article explicitly describing a new poll giving Doug Jones an opening but still framing the seat as Republican-favored. Alabama\u2019s statewide Cook PVI is R+15, reinforcing the structural Republican lean. I found no credible recent statewide presidential general-election poll specific to Alabama in the last 45 days, so the current race signal is best represented by the Senate race and broader Republican structural advantage.",
-  "as_of_date": "2026-08-19T11:26:08",
+  "reasoning": "Alabama remains overwhelmingly Republican in current published polling and election coverage. The most relevant recent Senate poll shows Republican Barry Moore ahead of Democrat Everett Wess by 15 points, and Cook\u2019s 2026 PVI update indicates Alabama is R+28 statewide, reinforcing the structural GOP advantage.",
+  "as_of_date": "2026-08-20T18:07:49",
   "cook_pvi": {
     "party": "R",
-    "percentage_points": 15.0
+    "percentage_points": 28.0
   },
   "sources": [
+    {
+      "name": "Montgomery Advertiser",
+      "link": "https://www.montgomeryadvertiser.com/story/news/politics/elections/2026/08/05/who-leads-alabama-governor-race-poll-for-tuberville-jones-decision/91182982007/",
+      "race_type": "senate",
+      "party": "R",
+      "margin": 15.0,
+      "lean_confidence": 0.98,
+      "details": "Among 601 likely Alabama voters, Barry Moore led Everett Wess 47% to 32%, a 15-point Republican margin.",
+      "date_range": "July 11, 2026",
+      "domain": "montgomeryadvertiser.com",
+      "verified": true
+    },
+    {
+      "name": "AL.com",
+      "link": "https://www.al.com/politics/2026/08/alabama-governors-election-poll-shows-surprisingly-close-race-between-doug-jones-and-tuberville.html",
+      "race_type": "senate",
+      "party": "R",
+      "margin": 15.0,
+      "lean_confidence": 0.97,
+      "details": "The survey reported Barry Moore at 47% and Everett Wess at 32% among 601 likely Alabama voters, again indicating a 15-point Republican lead.",
+      "date_range": "July 8-11, 2026",
+      "domain": "al.com",
+      "verified": true
+    },
     {
       "name": "Pollsmax",
       "link": "https://www.pollsmax.com/senate/alabama/",
       "race_type": "senate",
       "party": "R",
       "margin": 15.0,
-      "lean_confidence": 0.95,
-      "details": "A poll of Alabama voters found Republican Barry Moore at 47% and Democrat Everett Wess at 32%, a 15-point Republican lead.",
-      "date_range": "July 11, 2026",
+      "lean_confidence": 0.8,
+      "details": "A polling-average page aggregated the lone public Senate poll for Alabama and showed a current Republican average of R +15.0.",
+      "date_range": "August 8, 2026",
       "domain": "pollsmax.com",
       "verified": true
     },
     {
-      "name": "205 Focus",
-      "link": "https://205focus.com/alabama-governors-election-poll-shows-surprisingly-close-race-between-doug-jones-and-tuberville",
-      "race_type": "senate",
-      "party": "R",
-      "margin": 15.0,
-      "lean_confidence": 0.9,
-      "details": "A news story summarizing the same Alabama Senate poll reported Moore leading Wess 47% to 32%, indicating a clear Republican advantage.",
-      "date_range": "August 6, 2026",
-      "domain": "205focus.com",
-      "verified": true
-    },
-    {
-      "name": "ALReporter",
-      "link": "https://www.alreporter.com/2026/08/10/jones-has-an-opening-and-the-v-asks-will-they-debate/",
-      "race_type": "senate",
-      "party": "R",
-      "margin": null,
-      "lean_confidence": 0.7,
-      "details": "The article says a new poll gives Doug Jones an opening against Tommy Tuberville, which is a qualitative signal that the Democrat has improved but remains behind in the race framing.",
-      "date_range": "August 10, 2026",
-      "domain": "alreporter.com",
-      "verified": true
-    },
-    {
       "name": "Cook Political Report",
-      "link": "https://x.com/CookPolitical/status/2082441407822770545",
+      "link": "https://www.cookpolitical.com/pvi-map-and-district-list",
       "race_type": "other_context",
       "party": "R",
-      "margin": 15.0,
-      "lean_confidence": 1.0,
-      "details": "Cook Political Report\u2019s statewide Alabama PVI is R+15, indicating a strong Republican structural baseline.",
-      "date_range": "2026 Cook PVI",
-      "domain": "x.com",
+      "margin": 28.0,
+      "lean_confidence": 0.95,
+      "details": "Cook Political Report\u2019s 2026 PVI update implies Alabama\u2019s statewide baseline is R+28, one of the strongest Republican environments in the country.",
+      "date_range": "July 29, 2026",
+      "domain": "cookpolitical.com",
       "verified": true
     }
   ],
   "abbreviation": "AL",
-  "_cached_at": "2026-08-19T11:26:08.490517"
+  "_cached_at": "2026-08-20T18:07:49.822975"
 }

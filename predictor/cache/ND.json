@@ -5,51 +5,27 @@
   "confidence": 0.825,
   "strength_label": "Lean",
   "net_margin": -18.0,
-  "based_on": "sources",
-  "reasoning": "I could not find any North Dakota Senate or presidential general-election poll from the last 45 days in the retrieved results. The only clearly relevant structural data point found was North Dakota\u2019s statewide Cook PVI, which is R+18, indicating a strong Republican lean. No current race-specific margin is available from the sources gathered, so the race margin is effectively unreported/EVEN from the evidence at hand.",
-  "as_of_date": "2026-08-19T11:39:57",
+  "based_on": "cook_pvi_fallback",
+  "reasoning": "From the searches, there were no identified general\u2011election polls or forecaster ratings specific to North Dakota\u2019s 2026 Senate or presidential contests in the last 45 days. The only directly relevant structural data was the Cook Partisan Voting Index showing North Dakota as strongly Republican (R+18), implying that in the absence of recent race\u2011specific polling or ratings, the underlying environment is heavily R\u2011leaning statewide. Therefore, while no current numeric margin can be reported for either race from recent polling or ratings, structurally the state remains strongly R\u2011favored.",
+  "as_of_date": "2026-08-20T18:17:00",
   "cook_pvi": {
     "party": "R",
     "percentage_points": 18.0
   },
   "sources": [
     {
-      "name": "Cook Political Report",
-      "link": "https://x.com/CookPolitical/status/2082500662336663681",
+      "name": "Cook Partisan Voting Index (Wikipedia summary of Cook data)",
+      "link": "https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index",
       "race_type": "other_context",
       "party": "R",
       "margin": 18.0,
-      "lean_confidence": 0.95,
-      "details": "Cook Political Report\u2019s 2026 PVI list identifies North Dakota statewide as R+18, a strong Republican structural advantage.",
-      "date_range": "2026",
-      "domain": "x.com",
-      "verified": true
-    },
-    {
-      "name": "Reuters/Ipsos",
-      "link": "https://www.ipsos.com/en-us/reutersipsos-august-2026-poll",
-      "race_type": "other_context",
-      "party": "EVEN",
-      "margin": null,
-      "lean_confidence": 0.0,
-      "details": "Reuters/Ipsos conducted a national poll in this period, but it did not measure North Dakota\u2019s Senate or presidential race, so it provides no state-specific race margin.",
-      "date_range": "Aug. 3-18, 2026",
-      "domain": "ipsos.com",
-      "verified": true
-    },
-    {
-      "name": "CNN",
-      "link": "https://www.cnn.com/2026/08/10/politics/senate-race-rankings-august-2026",
-      "race_type": "other_context",
-      "party": "EVEN",
-      "margin": null,
-      "lean_confidence": 0.0,
-      "details": "CNN\u2019s Senate-race article discussed national Senate rankings and generic-ballot context, but it did not provide a North Dakota-specific Senate or presidential margin.",
-      "date_range": "Aug. 10, 2026",
-      "domain": "cnn.com",
+      "lean_confidence": 0.9,
+      "details": "Cook Partisan Voting Index lists North Dakota\u2019s statewide PVI as R+18, indicating a strongly Republican lean in recent presidential voting and overall partisan alignment.",
+      "date_range": "2026-08-12",
+      "domain": "en.wikipedia.org",
       "verified": true
     }
   ],
   "abbreviation": "ND",
-  "_cached_at": "2026-08-19T11:39:57.189353"
+  "_cached_at": "2026-08-20T18:17:00.301566"
 }

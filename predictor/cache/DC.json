@@ -4,52 +4,64 @@
   "lean": "D",
   "confidence": 1.0,
   "strength_label": "Strong",
-  "net_margin": 27.5,
-  "based_on": "sources",
-  "reasoning": "Washington, D.C. has a very strong Democratic structural lean, with Cook PVI listed as D+44. I did not find any real Senate or presidential general-election polling from the last 45 days specific to Washington, D.C.; the available recent items were either unrelated, national, or procedural rather than state-specific race measurements.",
-  "as_of_date": "2026-08-19T11:43:58",
+  "net_margin": 44.0,
+  "based_on": "cook_pvi_fallback",
+  "reasoning": "Washington, D.C. is overwhelmingly Democratic; the current statewide Cook Partisan Voting Index is D+44. In the last 45 days, I did not find any legitimate current Senate or presidential general-election polling for Washington, D.C.; the available recent items were either procedural/live primary coverage or national/other-context election coverage, so they do not establish a current D/R margin for a Senate or presidential race in the district.",
+  "as_of_date": "2026-08-20T18:21:58",
   "cook_pvi": {
     "party": "D",
     "percentage_points": 44.0
   },
   "sources": [
     {
-      "name": "Cook Political Report",
-      "link": "https://x.com/CookPolitical/status/2082441407822770545",
-      "race_type": "other_context",
-      "party": "D",
-      "margin": 44.0,
-      "lean_confidence": 0.98,
-      "details": "Cook Political Report\u2019s 2026 PVI list shows Washington, D.C. at D+44, indicating an extreme Democratic structural advantage.",
-      "date_range": "2026-07-29",
-      "domain": "x.com",
-      "verified": true
-    },
-    {
-      "name": "The Hill / Emerson College Polling",
-      "link": "https://thehill.com/homenews/campaign/5984107-democratic-poll-leads-gop/",
-      "race_type": "other_context",
-      "party": "D",
-      "margin": 11.0,
-      "lean_confidence": 0.12,
-      "details": "A national generic-ballot article reported Democrats leading Republicans, but it was not specific to Washington, D.C. and does not measure this state\u2019s Senate or presidential race.",
-      "date_range": "2026-07-23",
-      "domain": "thehill.com",
-      "verified": true
-    },
-    {
-      "name": "Kitsap Sun / Civiqs",
-      "link": "https://www.kitsapsun.com/story/news/2026/07/22/what-is-donald-trumps-approval-rating-in-washington-state/91007357007/",
+      "name": "Washington State Standard",
+      "link": "https://washingtonstatestandard.com/2026/08/04/live-coverage-washingtons-2026-primary-election/",
       "race_type": "other_context",
       "party": "EVEN",
       "margin": null,
       "lean_confidence": 0.0,
-      "details": "A Civiqs approval article discussed Trump\u2019s approval in Washington state, not Washington, D.C., so it is not usable as state-specific race evidence for D.C.",
-      "date_range": "2026-07-22",
-      "domain": "kitsapsun.com",
+      "details": "Live coverage of Washington's primary election; it reports primary results and ballot-counting updates, not a general-election Senate or presidential margin for Washington, D.C.",
+      "date_range": "2026-08-05",
+      "domain": "washingtonstatestandard.com",
+      "verified": true
+    },
+    {
+      "name": "Delaware Online",
+      "link": "https://www.delawareonline.com/story/news/2026/08/11/can-democrats-win-the-senate-in-2026-key-races-control-congress-latest-odds-midterm-elections/91253317007/",
+      "race_type": "other_context",
+      "party": "EVEN",
+      "margin": null,
+      "lean_confidence": 0.1,
+      "details": "Article about the national 2026 Senate landscape and which states may decide control; it mentions Cook ratings and national control scenarios but does not measure Washington, D.C.'s Senate or presidential electorate.",
+      "date_range": "2026-08-11",
+      "domain": "delawareonline.com",
+      "verified": true
+    },
+    {
+      "name": "270toWin",
+      "link": "https://www.270towin.com/2026-senate-election/inside-elections-2026-senate-ratings",
+      "race_type": "other_context",
+      "party": "EVEN",
+      "margin": null,
+      "lean_confidence": 0.15,
+      "details": "Inside Elections/270toWin Senate ratings page summarizing national Senate ratings and forecast tables; it is not a Washington, D.C. race-specific general-election poll or margin.",
+      "date_range": "2026-08-06",
+      "domain": "270towin.com",
+      "verified": true
+    },
+    {
+      "name": "Cook Political Report",
+      "link": "https://www.cookpolitical.com/pvi-map-and-district-list",
+      "race_type": "other_context",
+      "party": "D",
+      "margin": 44.0,
+      "lean_confidence": 0.99,
+      "details": "Cook Political Report's 2026 PVI map/list identifies Washington, D.C. as D+44, a structural baseline rather than a current race margin.",
+      "date_range": "2026-07-29 to 2026-08-20",
+      "domain": "cookpolitical.com",
       "verified": true
     }
   ],
   "abbreviation": "DC",
-  "_cached_at": "2026-08-19T11:43:58.973493"
+  "_cached_at": "2026-08-20T18:21:58.506196"
 }

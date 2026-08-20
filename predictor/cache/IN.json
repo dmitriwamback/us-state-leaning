@@ -2,78 +2,42 @@
   "state": "Indiana",
   "mode": "senate_presidential_polling",
   "lean": "R",
-  "confidence": 0.575,
+  "confidence": 0.55,
   "strength_label": "Tilt",
-  "net_margin": -8.0,
-  "based_on": "sources",
-  "reasoning": "Within the last 45 days, I was unable to locate any Indiana-specific general-election polling for the 2026 Senate race or for a future presidential contest; the only fresh electoral data were for a U.S. House district and national generic ballot, which cannot be treated as direct measures of a statewide Senate or presidential margin.[1][10] Structurally, Indiana remains a clearly Republican-leaning state, with the latest Cook Partisan Voting Index indicating a statewide tilt of roughly R+9, and 2024 presidential results showing Donald Trump winning the state by about 19 points, reinforcing the GOP advantage.[9][11] Given the absence of race-specific statewide polling in the last 45 days, the best current quantitative indicator of statewide partisan lean is this structural R+9 PVI figure, rather than a true up-to-date Senate or presidential polling margin.",
-  "as_of_date": "2026-08-19T11:30:10",
+  "net_margin": -7.0,
+  "based_on": "cook_pvi_fallback",
+  "reasoning": "Within the last 45 days there do not appear to be any reputable, Indiana-specific general-election polls for either the presidential or Senate races, and national or district-level pieces in the results do not provide usable statewide margins. Indiana is structurally Republican-leaning (roughly R+7 in Cook PVI terms), and in the absence of fresh, state-level polling or forecaster updates during this window, the best supported statement is that Republicans remain favored statewide but with no quantified current margin from the last 45 days. Because no qualifying presidential or Senate general-election polls or ratings for Indiana surfaced in this time frame, all included sources are tagged as other_context and the overall lean relies on structural PVI rather than new race-specific data.",
+  "as_of_date": "2026-08-20T18:11:15",
   "cook_pvi": {
     "party": "R",
-    "percentage_points": 9.0
+    "percentage_points": 7.0
   },
   "sources": [
     {
-      "name": "LarryInFishers (summarizing Impact Research internal poll)",
-      "link": "https://www.larryinfishers.com/2026/08/06/spartz-ford-5th-district-poll/",
+      "name": "Thin Gold summary of Cook Political Report PVI",
+      "link": "https://thingold.com/glossary/cook-pvi",
       "race_type": "other_context",
       "party": "R",
-      "margin": 2.0,
-      "lean_confidence": 0.4,
-      "details": "Internal Democratic poll of Indiana's 5th Congressional District general election shows Republican Rep. Victoria Spartz leading Democrat J.D. Ford 48%-46%, a Spartz +2 race in a historically GOP-leaning district.",
-      "date_range": "July 16-20, 2026",
-      "domain": "larryinfishers.com",
-      "verified": true
-    },
-    {
-      "name": "The New York Times \u2013 Indiana 5th Congressional District 2026: Latest Polls",
-      "link": "https://www.nytimes.com/interactive/polls/indiana-us-house-5-polls-2026.html",
-      "race_type": "other_context",
-      "party": "R",
-      "margin": 2.0,
-      "lean_confidence": 0.5,
-      "details": "NYT poll tracker for Indiana\u2019s 5th Congressional District lists an Impact Research survey sponsored by J.D. Ford showing Spartz +2 (48% Spartz, 46% Ford), indicating a narrow Republican edge in this House race.",
-      "date_range": "July 16-20, 2026",
-      "domain": "nytimes.com",
-      "verified": true
-    },
-    {
-      "name": "The Hill reporting Emerson/Decision Desk HQ national generic ballot",
-      "link": "https://www.thehill.com/homenews/campaign/5984107-democratic-poll-leads-gop/",
-      "race_type": "other_context",
-      "party": "D",
-      "margin": 11.0,
-      "lean_confidence": 0.3,
-      "details": "A national Emerson/Decision Desk HQ generic ballot poll finds Democrats leading Republicans 47%-36% among U.S. voters, with DDHQ\u2019s averages putting Democrats up by about 4 points nationally, which is contextual but not Indiana-specific.",
-      "date_range": "July 19-20, 2026",
-      "domain": "thehill.com",
-      "verified": false
-    },
-    {
-      "name": "MAGA Report Cards \u2013 Indiana 2024 presidential results summary",
-      "link": "https://www.magareportcards.com/indiana/",
-      "race_type": "other_context",
-      "party": "R",
-      "margin": 19.0,
-      "lean_confidence": 0.7,
-      "details": "A statewide results summary notes that Donald Trump won Indiana in the 2024 presidential election 58.6% to 39.6%, a GOP margin of about 19 points, underscoring the state\u2019s strong Republican lean but not providing 2026-specific polling.",
-      "date_range": "2024 election results, reported August 13, 2026",
-      "domain": "magareportcards.com",
-      "verified": true
-    },
-    {
-      "name": "Cook Partisan Voting Index (2026 statewide PVI for Indiana)",
-      "link": "https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index",
-      "race_type": "other_context",
-      "party": "R",
-      "margin": 9.0,
+      "margin": 7.0,
       "lean_confidence": 0.9,
-      "details": "The latest Cook Partisan Voting Index table shows Indiana\u2019s statewide PVI as approximately R+9, indicating the state votes about nine points more Republican than the national average, serving as a structural benchmark rather than a current race poll.",
-      "date_range": "2026 Cook PVI release (based on 2020 and 2024 results)",
-      "domain": "en.wikipedia.org",
+      "details": "Cook PVI is a structural measure based on recent presidential results; Indiana\u2019s current statewide rating is approximately R+7, indicating a solid but not overwhelming Republican lean.",
+      "date_range": "N/A",
+      "domain": "thingold.com",
+      "verified": true
+    },
+    {
+      "name": "Cook Political Report social post on 2026 Cook PVI update",
+      "link": "https://x.com/CookPolitical/status/2082441407822770545",
+      "race_type": "other_context",
+      "party": "R",
+      "margin": 7.0,
+      "lean_confidence": 0.8,
+      "details": "Discussion of updated Cook PVI scores for states and districts after 2024 confirms that many states retain their prior partisan tilts, with Indiana remaining clearly Republican-leaning rather than competitive.",
+      "date_range": "N/A",
+      "domain": "x.com",
       "verified": true
     }
   ],
   "abbreviation": "IN",
-  "_cached_at": "2026-08-19T11:30:10.559455"
+  "_cached_at": "2026-08-20T18:11:15.008829"
 }

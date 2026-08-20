@@ -70,9 +70,12 @@ THIS state's current race. A national poll, a poll of a different state, a \
 hypothetical or future-cycle matchup poll, a DIFFERENT race entirely (e.g. a \
 Governor's race when you're assessing {race_description}, or vice versa), or a \
 primary-only poll of a subgroup that never tested a general-election margin, must \
-be tagged "other_context" regardless of how related the topic sounds. If your own \
-reasoning would describe a source as "not state-specific," "not this race," or \
-"a different race," its race_type must be "other_context."
+be tagged "other_context" regardless of how related the topic sounds. HOWEVER, \
+don't be over-cautious: if a source's PRIMARY subject is genuinely this state's \
+current race -- even if it also mentions other context along the way (national \
+mood, historical comparisons, methodology notes) -- it should still get the target \
+race_type. Only use "other_context" when the source is not actually about this \
+state's current race, not merely because it mentions other topics in passing.
 
 Only use real news outlets, official pollster releases, and established election \
 forecasters (Cook Political Report, Sabato's Crystal Ball, RealClearPolling, \
@@ -191,8 +194,10 @@ def _extract_sources(parsed: dict, real_citations: list, mode: str, state: str) 
     entries = []
 
     DISCLAIMER_PHRASES = [
-        "not state-specific", "not this race", "national poll",
-        "not a state-specific", "hypothetical", "did not test",
+        "not state-specific",
+        "not a state-specific",
+        "not this race",
+        "is a national poll",
         "not " + state.lower() + "-specific",
     ]
 
@@ -227,6 +232,10 @@ def _extract_sources(parsed: dict, real_citations: list, mode: str, state: str) 
         if race_type not in valid_race_types:
             race_type = "other_context"
 
+        # Defensive safety net: if the source's OWN details text disclaims
+        # relevance, downgrade to other_context even if race_type tagging
+        # was wrong -- guards against exactly the California national-poll
+        # contamination bug found earlier.
         details_lower = (raw.get("details", "") or "").lower()
         if any(phrase in details_lower for phrase in DISCLAIMER_PHRASES):
             race_type = "other_context"
